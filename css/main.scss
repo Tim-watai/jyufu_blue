@@ -1,7 +1,7 @@
 /*first-variable*/
 @import "color.scss";
 @import "mixin.scss";
-@import "animation.scss";
+// @import "animation.scss";
 @import "css_reset.scss";
 
 $all-font-family: Microsoft JhengHei;
@@ -26,9 +26,9 @@ html {
   height: 100%;
   overflow: auto;
   // overflow: hidden;
-  background: url(../images/ex-index.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
+  // background: url(../images/ex-index.jpg) no-repeat;
+  // background-size: cover;
+  // background-position: center;
 }
 
 @mixin size($width, $height) {
