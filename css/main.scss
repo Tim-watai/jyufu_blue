@@ -157,7 +157,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 200;
 
   ul {
     @include size(100%, 5vh);
@@ -702,5 +702,23 @@ footer {
         }
       }
     }
+  }
+}
+aside.hot_windows{
+  z-index: 500;
+  @include size(100vw,100vh );
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  article.bg{
+    position: relative;
+    background: url(../images/hot_window/bg.png) no-repeat;
+    width: 80vw;
+    height: 54vh;
+    background-size: cover;
+    background-position: top center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 22%;
+    border-radius: 8px;
   }
 }

@@ -179,7 +179,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999; }
+  z-index: 200; }
   header ul {
     width: 100%;
     height: 5vh;
@@ -736,3 +736,23 @@ footer {
             position: absolute;
             right: -4px;
             top: -4px; }
+
+aside.hot_windows {
+  z-index: 500;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed; }
+  aside.hot_windows article.bg {
+    position: relative;
+    background: url(../images/hot_window/bg.png) no-repeat;
+    width: 80vw;
+    height: 54vh;
+    background-size: cover;
+    background-position: top center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 22%;
+    border-radius: 8px; }
