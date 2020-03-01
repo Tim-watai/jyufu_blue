@@ -443,7 +443,7 @@ main {
       ul.game_kinds {
         width: calc(87% - 10px);
         overflow-y: scroll;
-        padding: 2px 0 0 0 ;
+        padding: 2px 0 0 0;
         li {
           margin: 0 auto 10px auto;
           width: calc(100% - 4px);
@@ -461,115 +461,113 @@ main {
           overflow: hidden;
           box-shadow: 0 0 4px 1px #e5e5e5;
           position: relative;
-         
-          &.soccer{
-            span.text{
+
+          &.soccer {
+            span.text {
               position: absolute;
               display: inline-block;
-              background: url(../images/text_soccer.png)no-repeat;
+              background: url(../images/text_soccer.png) no-repeat;
               background-size: contain;
-              @include size(14vh,6vh );
+              @include size(14vh, 6vh);
               right: 0;
               z-index: 1;
             }
-            span.item{
-                position: absolute;
-                display: inline-block;
-                background: url(../images/item_soccer.png)no-repeat;
-                background-size: contain;
-                @include size(22vh,13vh );
-                right: 0;
-                bottom: 0;
-                z-index: 2;
-            
-            }
-          }
-          &.basketball{
-            span.text{
+            span.item {
               position: absolute;
               display: inline-block;
-              background: url(../images/text_basketball.png)no-repeat;
+              background: url(../images/item_soccer.png) no-repeat;
               background-size: contain;
-              @include size(22vh,6vh );
+              @include size(22vh, 13vh);
+              right: 0;
+              bottom: 0;
+              z-index: 2;
+            }
+          }
+          &.basketball {
+            span.text {
+              position: absolute;
+              display: inline-block;
+              background: url(../images/text_basketball.png) no-repeat;
+              background-size: contain;
+              @include size(22vh, 6vh);
               right: 0;
               z-index: 1;
             }
-            span.item{
-                position: absolute;
-                display: inline-block;
-                background: url(../images/item_basketball.png)no-repeat;
-                background-size: contain;
-                @include size(22vh,13vh );
-                right: 0;
-                bottom: 0;
-                z-index: 2;
-            
-            }
-          }
-          &.esport{
-            span.text{
+            span.item {
               position: absolute;
               display: inline-block;
-              background: url(../images/text_esports.png)no-repeat;
+              background: url(../images/item_basketball.png) no-repeat;
               background-size: contain;
-              @include size(19vh,6vh );
+              @include size(22vh, 13vh);
+              right: 0;
+              bottom: 0;
+              z-index: 2;
+            }
+          }
+          &.esport {
+            span.text {
+              position: absolute;
+              display: inline-block;
+              background: url(../images/text_esports.png) no-repeat;
+              background-size: contain;
+              @include size(19vh, 6vh);
               right: 0;
               z-index: 1;
             }
-            span.item{
-                position: absolute;
-                display: inline-block;
-                background: url(../images/item_esport.png)no-repeat;
-                background-size: contain;
-                @include size(22vh,13vh );
-                right: 0;
-                bottom: 0;
-                z-index: 2;
-            }
-          }
-          &.tennis{
-            span.text{
+            span.item {
               position: absolute;
               display: inline-block;
-              background: url(../images/text_tennis.png)no-repeat;
+              background: url(../images/item_esport.png) no-repeat;
               background-size: contain;
-              @include size(15vh,6vh );
+              @include size(22vh, 13vh);
+              right: 0;
+              bottom: 0;
+              z-index: 2;
+            }
+          }
+          &.tennis {
+            span.text {
+              position: absolute;
+              display: inline-block;
+              background: url(../images/text_tennis.png) no-repeat;
+              background-size: contain;
+              @include size(15vh, 6vh);
               right: 0;
               z-index: 1;
             }
-            span.item{
-                position: absolute;
-                display: inline-block;
-                background: url(../images/item_tennis.png)no-repeat;
-                background-size: contain;
-                @include size(22vh,13vh );
-                right: 0;
-                bottom: 0;
-                z-index: 2;
+            span.item {
+              position: absolute;
+              display: inline-block;
+              background: url(../images/item_tennis.png) no-repeat;
+              background-size: contain;
+              @include size(22vh, 13vh);
+              right: 0;
+              bottom: 0;
+              z-index: 2;
             }
           }
-          div.title{
+          div.title {
             position: absolute;
             z-index: 1;
             text-align: center;
             transform: translateY(-50%);
             top: 50%;
             left: 15%;
-            p{
+            p {
               color: $text-dblue;
-              &.name{
+              &.name {
                 font-weight: bold;
                 font-size: 2.6vh;
                 line-height: 2.6vh;
               }
-              &.num{
+              &.num {
                 font-family: Bahnschrift;
                 font-weight: bold;
                 font-size: 4.5vh;
                 line-height: 4.5vh;
                 margin: 1vh 0 0 0;
               }
-              &.subtitle{
+              &.subtitle {
                 color: #838ba0;
                 font-size: 1vh;
                 line-height: 2vh;
@@ -588,7 +586,7 @@ main {
               left: 76%;
               top: 76%;
               width: 150%;
-              transform: translate(-50%,-50%) rotate(-45deg);
+              transform: translate(-50%, -50%) rotate(-45deg);
               height: 80%;
               background-color: #f6f8ff;
             }
@@ -704,12 +702,12 @@ footer {
     }
   }
 }
-aside.hot_windows{
+aside.hot_windows {
   z-index: 500;
-  @include size(100vw,100vh );
-  background-color: rgba(0,0,0,0.5);
+  @include size(100vw, 100vh);
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
-  article.bg{
+  article.bg {
     position: relative;
     background: url(../images/hot_window/bg.png) no-repeat;
     width: 80vw;
@@ -720,5 +718,51 @@ aside.hot_windows{
     transform: translateX(-50%);
     top: 22%;
     border-radius: 8px;
+    span.refresh {
+      position: relative;
+      float: left;
+      left: 18%;
+      top: -10%;
+      background: url(../images/hot_window/refresh.png) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      width: 27px;
+      height: 27px;
+      &:before {
+        content: "換一批";
+        position: absolute;
+        left: -55px;
+        transform: translateY(-50%);
+        top: 50%;
+        color: white;
+        font-weight: lighter;
+        display: inline-block;
+        line-height: 20px;
+        width: 55px;
+        font-family: '微軟正黑體';
+      }
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      width: 33vw;
+      height: 15vh;
+      background: url(../images/hot_window/messi.png) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      left: 5%;
+      top: -5%;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      width: 34vw;
+      height: 6vh;
+      background: url(../images/hot_window/text.png) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      right: 5%;
+      top: 5%;
+    }
   }
 }

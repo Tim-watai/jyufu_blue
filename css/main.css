@@ -13,7 +13,8 @@ p,
 button,
 input,
 a,
-div {
+div,
+span {
   font-family: "微軟正黑體"; }
 
 ul,
@@ -756,3 +757,47 @@ aside.hot_windows {
     transform: translateX(-50%);
     top: 22%;
     border-radius: 8px; }
+    aside.hot_windows article.bg span.refresh {
+      position: relative;
+      float: left;
+      left: 18%;
+      top: -10%;
+      background: url(../images/hot_window/refresh.png) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      width: 27px;
+      height: 27px; }
+      aside.hot_windows article.bg span.refresh:before {
+        content: "換一批";
+        position: absolute;
+        left: -55px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        color: white;
+        font-weight: lighter;
+        display: inline-block;
+        line-height: 20px;
+        width: 55px;
+        font-family: '微軟正黑體'; }
+    aside.hot_windows article.bg:before {
+      content: "";
+      position: absolute;
+      width: 33vw;
+      height: 15vh;
+      background: url(../images/hot_window/messi.png) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      left: 5%;
+      top: -5%; }
+    aside.hot_windows article.bg:after {
+      content: "";
+      position: absolute;
+      width: 34vw;
+      height: 6vh;
+      background: url(../images/hot_window/text.png) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      right: 5%;
+      top: 5%; }
