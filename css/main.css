@@ -1,7 +1,5 @@
 @charset "UTF-8";
 /*first-variable*/
-/*arrow-btns*/
-/*arrow-btns*/
 /* Box sizing rules */
 *,
 *::before,
@@ -159,6 +157,57 @@ button {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important; } }
 
+/*arrow-btns*/
+/*arrow-btns*/
+header ul li.back {
+  float: left;
+  position: relative;
+  width: 6%;
+  height: 50%; }
+  header ul li.back:before, header ul li.back:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 2px;
+    height: 50%;
+    background-color: #4d515d; }
+  header ul li.back:before {
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    top: 10%; }
+  header ul li.back:after {
+    -webkit-transform: translateX(-50%) rotate(-45deg);
+    -ms-transform: translateX(-50%) rotate(-45deg);
+    transform: translateX(-50%) rotate(-45deg);
+    bottom: 10%; }
+
+header ul li.title {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #4d515d;
+  font-family: '微軟正黑體';
+  display: inline-block;
+  font-size: 20px; }
+  header ul li.title span {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #4d515d transparent transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 5px 4px; }
+
+header ul li.search {
+  float: right; }
+
 .clearfix {
   display: block;
   content: "";
@@ -204,37 +253,35 @@ header {
       top: 50%;
       position: relative;
       display: inline-block; }
-      header ul li:first-child {
+      header ul li.logo {
+        width: 72px;
+        height: 27px;
+        background: url(../images/logo.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
         float: left; }
-        header ul li:first-child.logo {
-          width: 72px;
-          height: 27px;
-          background: url(../images/logo.png) no-repeat;
-          background-size: cover;
-          background-position: center center; }
-      header ul li:last-child {
-        float: right; }
-        header ul li:last-child.message_icon {
-          width: 76px;
-          height: 74px;
-          width: 26px;
-          height: 26px;
-          background: url(../images/message_icon.png) no-repeat;
-          background-size: contain;
-          background-position: center center;
-          position: relative; }
-          header ul li:last-child.message_icon.active:before {
-            content: "";
-            position: absolute;
-            top: 18%;
-            left: 80%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            width: 23%;
-            height: 23%;
-            background-color: red;
-            border-radius: 100px; }
+      header ul li.message_icon {
+        float: right;
+        width: 76px;
+        height: 74px;
+        width: 26px;
+        height: 26px;
+        background: url(../images/message_icon.png) no-repeat;
+        background-size: contain;
+        background-position: center center;
+        position: relative; }
+        header ul li.message_icon.active:before {
+          content: "";
+          position: absolute;
+          top: 18%;
+          left: 80%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          width: 23%;
+          height: 23%;
+          background-color: red;
+          border-radius: 100px; }
 
 main {
   width: 100%;
@@ -528,6 +575,13 @@ main {
           right: 0;
           bottom: 0;
           z-index: 2; }
+        main article.menu ul.game_kinds li.soccer a {
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+          position: absolute;
+          left: 0;
+          top: 0; }
         main article.menu ul.game_kinds li.basketball span.text {
           position: absolute;
           display: inline-block;
@@ -966,10 +1020,36 @@ aside.title_windows {
         text-align: center;
         font-size: 22px;
         color: #313030;
-        padding: 6% 0 0 0; }
+        padding: 6% 0 0 0;
+        height: 20%;
+        margin: 0 0 0 0; }
       aside.title_windows ul.bg li.content {
         color: #838ba0;
-        padding: 0 10%;
-        font-size: 17px;
+        padding: 3% 10% 0 10%;
+        font-size: 2.1vh;
         line-height: 26px;
-        height: 63%; }
+        height: 60%; }
+      aside.title_windows ul.bg li.footer {
+        height: 20%;
+        border-top: 1px solid #e1e1e1;
+        font-size: 22px;
+        color: #313030; }
+        aside.title_windows ul.bg li.footer div {
+          display: inline-block; }
+          aside.title_windows ul.bg li.footer div:first-child {
+            border-right: 2px solid #e1e1e1; }
+          aside.title_windows ul.bg li.footer div.detail {
+            color: #2d43b6; }
+          aside.title_windows ul.bg li.footer div.close, aside.title_windows ul.bg li.footer div.detail {
+            position: relative;
+            width: 50%;
+            height: 100%; }
+            aside.title_windows ul.bg li.footer div.close p, aside.title_windows ul.bg li.footer div.detail p {
+              position: absolute;
+              display: inline-block;
+              left: 50%;
+              top: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              white-space: nowrap; }

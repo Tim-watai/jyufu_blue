@@ -1,8 +1,10 @@
 /*first-variable*/
+@import "css_reset.scss";
 @import "color.scss";
 @import "mixin.scss";
 // @import "animation.scss";
-@import "css_reset.scss";
+
+@import "market.scss";
 
 $all-font-family: Microsoft JhengHei;
 $all-font-family-w: "微軟正黑體";
@@ -179,19 +181,16 @@ header {
       top: 50%;
       position: relative;
       display: inline-block;
-      &:first-child {
-        float: left;
 
         &.logo {
           @include size(72px, 27px);
           background: url(../images/logo.png) no-repeat;
           background-size: cover;
           background-position: center center;
+          float: left;
         }
-      }
-      &:last-child {
-        float: right;
         &.message_icon {
+          float: right;
           width: 76px;
           height: 74px;
           @include size(26px, 26px);
@@ -212,7 +211,7 @@ header {
             }
           }
         }
-      }
+     
     }
   }
 }
@@ -477,6 +476,7 @@ main {
               @include size(14vh, 6vh);
               right: 0;
               z-index: 1;
+           
             }
             span.item {
               position: absolute;
@@ -487,6 +487,14 @@ main {
               right: 0;
               bottom: 0;
               z-index: 2;
+            }
+            a{
+              width: 100%;
+              height: 100%;
+              display: inline-block;
+              position: absolute;
+              left: 0;
+              top: 0;
             }
           }
           &.basketball {
@@ -943,13 +951,45 @@ aside.title_windows{
         font-size: 22px;
         color: #313030;
         padding: 6% 0 0 0;
+        height: 20%;
+        margin:0 0 0 0;
       }
       &.content{
         color: #838ba0;
-        padding: 0 10%;
-        font-size: 17px;
+        padding:3% 10% 0 10%;
+        font-size: 2.1vh;
         line-height: 26px;
-        height: 63%;
+        height: 60%;
+      }
+      &.footer{
+        height: 20%;
+        border-top: 1px solid #e1e1e1;
+        font-size: 22px;
+        color: #313030;
+        div{
+          display: inline-block;
+          &:first-child{
+            border-right:2px solid #e1e1e1;
+          }
+          &.detail{
+            color:#2d43b6;
+          }
+          &.close , &.detail{
+            position: relative;
+            width: 50%;
+            height: 100%;
+            p{
+              position: absolute;
+              display: inline-block;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%,-50%);
+              white-space: nowrap;
+            
+            }
+          }
+        }
+       
       }
     }
   }

@@ -19,8 +19,28 @@ $(document).ready(function(){
               return
          }
      }
-
    );
 
+
+   $('li.message_icon').click(
+       function(){
+        if($('aside.title_windows').hasClass('active') != true){
+            $('aside.title_windows').removeClass('disabled');
+            $('aside.title_windows').addClass('active');
+            return
+       }
+       }
+   );
+    $('aside.title_windows div.close').click(
+        function(){
+         
+           if($('aside.title_windows').hasClass('active') == true){
+                 $('aside.title_windows').removeClass('active');
+                 $('aside.title_windows').addClass('disabled');
+                 return
+            }
+        }
+   
+      );
 
 });//total
