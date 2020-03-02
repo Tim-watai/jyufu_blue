@@ -693,7 +693,7 @@ footer {
       font-size: 1.7vh;
       line-height: 1.8vh;
       margin-bottom: 5px; }
-      footer ul li.active {
+      footer ul li.blue {
         color: #2d43b6; }
       footer ul li.index span {
         background: url(../images/home.png) no-repeat;
@@ -943,3 +943,33 @@ aside.hot_windows {
       background-position: center center;
       right: 5%;
       top: 5%; }
+
+aside.title_windows {
+  z-index: 500;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed; }
+  aside.title_windows ul.bg {
+    position: relative;
+    top: 30%;
+    width: 88vw;
+    height: 33vh;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 15px; }
+    aside.title_windows ul.bg li {
+      font-family: '微軟正黑體';
+      font-weight: normal;
+      text-align: center; }
+      aside.title_windows ul.bg li.title {
+        text-align: center;
+        font-size: 22px;
+        color: #313030;
+        padding: 6% 0 0 0; }
+      aside.title_windows ul.bg li.content {
+        color: #838ba0;
+        padding: 0 10%;
+        font-size: 17px;
+        line-height: 26px;
+        height: 63%; }
