@@ -170,8 +170,8 @@ header {
   ul {
     @include size(100%, 5vh);
     background-color: #fff;
-    border-bottom-left-radius: 24px 24px;
-    border-bottom-right-radius: 24px 24px;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
     margin: 0 auto;
     box-shadow: 0 3px 5px 0 #e2e2e2;
     padding: 0 23px;
@@ -400,226 +400,245 @@ main {
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
-      aside.btn_group {
-        width: 13.5%;
-        height: 100%;
-        button {
-          width: 100%;
-          height: calc(100% / 4 - 10px);
-          margin-bottom: 10px;
-          border-radius: 8px;
-          background-color: #fff;
-          border: 1px solid #e0e7ff;
-          span {
-            color: $text-lgray;
-            font-size: 1vh;
-          }
-          p {
-            color: $text-dblue;
-            font-size: 2.5vh;
-            line-height: 2.5vh;
-            font-family: Bahnschrift;
-          }
-          &.hot {
-            @include hot_btn_lblue;
-            position: relative;
-            border: none;
-            top: 0px;
-            span,
-            p {
-              color: #fff;
-              font-weight: bold;
+      aside
+      {
+        &.btn_group {
+          width: 13.5%;
+          height: 100%;
+          button {
+            width: 100%;
+            height: calc(100% / 4 - 10px);
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background-color: #fff;
+            border: 1px solid #e0e7ff;
+            span {
+              color: $text-lgray;
+              font-size: 1vh;
             }
-            &:before {
-              content: "";
-              position: absolute;
-              width: 100%;
-              height: 50%;
-              @include hot_btn_dblue;
-              left: 0;
-              bottom: -5px;
-              border-radius: 8px;
-              z-index: -1;
+            p {
+              color: $text-dblue;
+              font-size: 2.5vh;
+              line-height: 2.5vh;
+              font-family: Bahnschrift;
+            }
+            &.hot {
+              @include hot_btn_lblue;
+              position: relative;
               border: none;
+              top: 0px;
+              span,
+              p {
+                color: #fff;
+                font-weight: bold;
+              }
+              &:before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 50%;
+                @include hot_btn_dblue;
+                left: 0;
+                bottom: -5px;
+                border-radius: 8px;
+                z-index: -1;
+                border: none;
+              }
             }
           }
         }
       }
-      ul.game_kinds {
-        width: calc(87% - 10px);
-        overflow-y: scroll;
-        padding: 2px 0 0 0;
-        li {
-          margin: 0 auto 10px auto;
-          width: calc(100% - 4px);
-          height: 14vh;
-          background: repeating-linear-gradient(
-            -45deg,
-            #fcfdff 0%,
-            #fcfdff 25%,
-            #f6f8ff 0,
-            #f6f8ff 50%
-          );
-          background-size: 100% 100%;
-          border-radius: 8px;
-          position: relative;
-          overflow: hidden;
-          box-shadow: 0 0 4px 1px #e5e5e5;
-          position: relative;
-
-          &.soccer {
-            span.text {
-              position: absolute;
-              display: inline-block;
-              background: url(../images/text_soccer.png) no-repeat;
-              background-size: contain;
-              @include size(14vh, 6vh);
-              right: 0;
-              z-index: 1;
-           
-            }
-            span.item {
-              position: absolute;
-              display: inline-block;
-              background: url(../images/item_soccer.png) no-repeat;
-              background-size: contain;
-              @include size(22vh, 13vh);
-              right: 0;
-              bottom: 0;
-              z-index: 2;
-            }
-            a{
-              width: 100%;
-              height: 100%;
-              display: inline-block;
-              position: absolute;
-              left: 0;
-              top: 0;
-            }
-          }
-          &.basketball {
-            span.text {
-              position: absolute;
-              display: inline-block;
-              background: url(../images/text_basketball.png) no-repeat;
-              background-size: contain;
-              @include size(22vh, 6vh);
-              right: 0;
-              z-index: 1;
-            }
-            span.item {
-              position: absolute;
-              display: inline-block;
-              background: url(../images/item_basketball.png) no-repeat;
-              background-size: contain;
-              @include size(22vh, 13vh);
-              right: 0;
-              bottom: 0;
-              z-index: 2;
-            }
-          }
-          &.esport {
-            span.text {
-              position: absolute;
-              display: inline-block;
-              background: url(../images/text_esports.png) no-repeat;
-              background-size: contain;
-              @include size(19vh, 6vh);
-              right: 0;
-              z-index: 1;
-            }
-            span.item {
-              position: absolute;
-              display: inline-block;
-              background: url(../images/item_esport.png) no-repeat;
-              background-size: contain;
-              @include size(22vh, 13vh);
-              right: 0;
-              bottom: 0;
-              z-index: 2;
-            }
-          }
-          &.tennis {
-            span.text {
-              position: absolute;
-              display: inline-block;
-              background: url(../images/text_tennis.png) no-repeat;
-              background-size: contain;
-              @include size(15vh, 6vh);
-              right: 0;
-              z-index: 1;
-            }
-            span.item {
-              position: absolute;
-              display: inline-block;
-              background: url(../images/item_tennis.png) no-repeat;
-              background-size: contain;
-              @include size(22vh, 13vh);
-              right: 0;
-              bottom: 0;
-              z-index: 2;
-            }
-          }
-          div.title {
-            position: absolute;
-            z-index: 1;
-            text-align: center;
-            transform: translateY(-50%);
-            top: 50%;
-            left: 15%;
-            p {
-              color: $text-dblue;
-              &.name {
-                font-weight: bold;
-                font-size: 2.6vh;
-                line-height: 2.6vh;
-              }
-              &.num {
-                font-family: Bahnschrift;
-                font-weight: bold;
-                font-size: 4.5vh;
-                line-height: 4.5vh;
-                margin: 1vh 0 0 0;
-              }
-              &.subtitle {
-                color: #838ba0;
-                font-size: 1vh;
-                line-height: 2vh;
-              }
-            }
-          }
-          div.left_triagle {
-            left: 0;
-            top: 0;
-            @include size(5vh, 5vh);
-            @include triagle_lblue;
+      
+      ul{
+        &.game_kinds {
+          width: calc(87% - 10px);
+          overflow-y: scroll;
+          padding: 2px 0 0 0;
+          li {
+            margin: 0 auto 10px auto;
+            width: calc(100% - 4px);
+            height: 14vh;
+            background: repeating-linear-gradient(
+              -45deg,
+              #fcfdff 0%,
+              #fcfdff 25%,
+              #f6f8ff 0,
+              #f6f8ff 50%
+            );
+            background-size: 100% 100%;
+            border-radius: 8px;
             position: relative;
-            &:before {
-              position: absolute;
-              content: "";
-              left: 76%;
-              top: 76%;
-              width: 150%;
-              transform: translate(-50%, -50%) rotate(-45deg);
-              height: 80%;
-              background-color: #f6f8ff;
-            }
-          }
-          div.right_triagle {
-            bottom: -30%;
-            float: right;
-            @include size(5vh, 5vh);
-            @include triagle_lblue;
+            overflow: hidden;
+            box-shadow: 0 0 4px 1px #e5e5e5;
             position: relative;
-            &:before {
-              position: absolute;
-              content: "";
-              left: -15%;
-              top: 0%;
-              width: 500%;
-              transform: translate(-50%, -50%) rotate(-45deg);
-              height: 155%;
-              background-color: #f6f8ff;
+  
+            &.soccer {
+              span{
+                position: absolute;
+                display: inline-block;
+                &.text {
+                
+                  background: url(../images/text_soccer.png) no-repeat;
+                  background-size: contain;
+                  @include size(14vh, 6vh);
+                  right: 0;
+                  z-index: 1;
+               
+                }
+                &.item {
+                
+                  background: url(../images/item_soccer.png) no-repeat;
+                  background-size: contain;
+                  @include size(22vh, 13vh);
+                  right: 0;
+                  bottom: 0;
+                  z-index: 2;
+                }
+              }
+              a{
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+                position: absolute;
+                left: 0;
+                top: 0;
+              }
+            }
+            &.basketball {
+              span{
+                &.text {
+                  position: absolute;
+                  display: inline-block;
+                  background: url(../images/text_basketball.png) no-repeat;
+                  background-size: contain;
+                  @include size(22vh, 6vh);
+                  right: 0;
+                  z-index: 1;
+                }
+                &.item {
+                  position: absolute;
+                  display: inline-block;
+                  background: url(../images/item_basketball.png) no-repeat;
+                  background-size: contain;
+                  @include size(22vh, 13vh);
+                  right: 0;
+                  bottom: 0;
+                  z-index: 2;
+                }
+              }
+             
+            }
+            &.esport {
+              span{
+                &.text {
+                  position: absolute;
+                  display: inline-block;
+                  background: url(../images/text_esports.png) no-repeat;
+                  background-size: contain;
+                  @include size(19vh, 6vh);
+                  right: 0;
+                  z-index: 1;
+                }
+                &.item {
+                  position: absolute;
+                  display: inline-block;
+                  background: url(../images/item_esport.png) no-repeat;
+                  background-size: contain;
+                  @include size(22vh, 13vh);
+                  right: 0;
+                  bottom: 0;
+                  z-index: 2;
+                }
+              }
+             
+            }
+            &.tennis {
+              span{
+                &.text {
+                  position: absolute;
+                  display: inline-block;
+                  background: url(../images/text_tennis.png) no-repeat;
+                  background-size: contain;
+                  @include size(15vh, 6vh);
+                  right: 0;
+                  z-index: 1;
+                }
+                &.item {
+                  position: absolute;
+                  display: inline-block;
+                  background: url(../images/item_tennis.png) no-repeat;
+                  background-size: contain;
+                  @include size(22vh, 13vh);
+                  right: 0;
+                  bottom: 0;
+                  z-index: 2;
+                }
+              }
+            
+            }
+            div{
+              &.title {
+                position: absolute;
+                z-index: 1;
+                text-align: center;
+                transform: translateY(-50%);
+                top: 50%;
+                left: 15%;
+                p {
+                  color: $text-dblue;
+                  &.name {
+                    font-weight: bold;
+                    font-size: 2.6vh;
+                    line-height: 2.6vh;
+                  }
+                  &.num {
+                    font-family: Bahnschrift;
+                    font-weight: bold;
+                    font-size: 4.5vh;
+                    line-height: 4.5vh;
+                    margin: 1vh 0 0 0;
+                  }
+                  &.subtitle {
+                    color: #838ba0;
+                    font-size: 1vh;
+                    line-height: 2vh;
+                  }
+                }
+              }
+              &.left_triagle {
+                left: 0;
+                top: 0;
+                @include size(5vh, 5vh);
+                @include triagle_lblue;
+                position: relative;
+                &:before {
+                  position: absolute;
+                  content: "";
+                  left: 76%;
+                  top: 76%;
+                  width: 150%;
+                  transform: translate(-50%, -50%) rotate(-45deg);
+                  height: 80%;
+                  background-color: #f6f8ff;
+                }
+              }
+              &.right_triagle {
+                bottom: -30%;
+                float: right;
+                @include size(5vh, 5vh);
+                @include triagle_lblue;
+                position: relative;
+                &:before {
+                  position: absolute;
+                  content: "";
+                  left: -15%;
+                  top: 0%;
+                  width: 500%;
+                  transform: translate(-50%, -50%) rotate(-45deg);
+                  height: 155%;
+                  background-color: #f6f8ff;
+                }
+              }
             }
           }
         }
@@ -633,8 +652,8 @@ footer {
   bottom: 0;
   left: 0;
   box-shadow: 0 -3px 5px 0 #e2e2e2;
-  border-top-left-radius: 24px 24px;
-  border-top-right-radius: 24px 24px;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
   ul {
     width: calc(100% - 20px);
     height: 100%;
@@ -747,88 +766,97 @@ aside.hot_windows {
         border-radius: 12px;
         margin: 0 0 0.5vh 0;
         padding: 0 5%;
-        div.lc,div.rc{
-          text-align: center;
-          line-height: 0px;
-          position: absolute;
-          top: 30%;
-          span.icon{
-            display: inline-block;
-            background: url(/images/hot_window/c1.png)no-repeat;
-            background-size: cover;
-            background-position: center center;
-            width: 39px;
-            height: 31px;
-            &.c2{
-              background: url(/images/hot_window/c2.png)no-repeat;
-              background-size: cover;
-              background-position: center center;
-              width: 28px;
+        div{
+          &.lc{
+            left: 18%;
+            transform: translateX(-50%);
+          }
+          &.rc{
+            right: 18%;
+            transform: translateX(50%);
+          }
+          &.lc,&.rc{
+            text-align: center;
+            line-height: 0px;
+            position: absolute;
+            top: 30%;
+            span{
+              &.icon{
+                display: inline-block;
+                background: url(/images/hot_window/c1.png)no-repeat;
+                background-size: cover;
+                background-position: center center;
+                width: 39px;
+                height: 31px;
+                &.c2{
+                  background: url(/images/hot_window/c2.png)no-repeat;
+                  background-size: cover;
+                  background-position: center center;
+                  width: 28px;
+                }
+                &.c3{
+                  background: url(/images/hot_window/c3.png)no-repeat;
+                  background-size: cover;
+                  background-position: center center;
+                  width: 30px;
+                }
+                &.c4{
+                  background: url(/images/hot_window/c4.png)no-repeat;
+                  background-size: cover;
+                  background-position: center center;
+                  width: 28px;
+                }
+                &.c5{
+                  background: url(/images/hot_window/c5.png)no-repeat;
+                  background-size: cover;
+                  background-position: center center;
+                  width: 28px;
+                }
+                &.c6{
+                  background: url(/images/hot_window/c6.png)no-repeat;
+                  background-size: cover;
+                  background-position: center center;
+                  width: 28px;
+                }
+              }
             }
-            &.c3{
-              background: url(/images/hot_window/c3.png)no-repeat;
-              background-size: cover;
-              background-position: center center;
-              width: 30px;
-            }
-            &.c4{
-              background: url(/images/hot_window/c4.png)no-repeat;
-              background-size: cover;
-              background-position: center center;
-              width: 28px;
-            }
-            &.c5{
-              background: url(/images/hot_window/c5.png)no-repeat;
-              background-size: cover;
-              background-position: center center;
-              width: 28px;
-            }
-            &.c6{
-              background: url(/images/hot_window/c6.png)no-repeat;
-              background-size: cover;
-              background-position: center center;
-              width: 28px;
+            p{
+              &.name{
+                  margin: 0.5vh 0 0 0 ;
+                  font-family: '微軟正黑體';
+                  font-size: 14px;
+                  line-height: 17px;
+              }
             }
           }
-          p.name{
-            margin: 0.5vh 0 0 0 ;
-            font-family: '微軟正黑體';
-            font-size: 14px;
-            line-height: 17px;
-          
+        }
+  
 
+        span{
+          &.data{
+            position: absolute;
+            left: 50%;
+            top: 48%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            p{
+              &.g_name{
+                font-family: '微軟正黑體';
+                font-weight: normal;
+                font-size: 16px;
+              }
+              &.time{
+                font-size: 12px;
+              }
+              &:last-child{
+                font-size: 22px;
+              }
+              &.time,&:last-child{
+                font-family: Bahnschrift;
+                color: #1b255c;
+              }
+            }
           }
-        }
-        div.lc{
-         left: 18%;
-         transform: translateX(-50%);
-        }
-        div.rc{
-          right: 18%;
-          transform: translateX(50%);
-        }
-        span.data{
-          position: absolute;
-          left: 50%;
-          top: 48%;
-          transform: translate(-50%,-50%);
-          text-align: center;
-          p.g_name{
-            font-family: '微軟正黑體';
-            font-weight: normal;
-            font-size: 16px;
-          }
-          p.time{
-            font-size: 12px;
-          }
-          p:last-child{
-            font-size: 22px;
-          }
-          p.time , p:last-child{
-            font-family: Bahnschrift;
-            color: #1b255c;
-          }
-          
         }
       }
     }
@@ -934,62 +962,64 @@ aside.title_windows{
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
-  ul.bg{
-    position: relative;
-    top:30%;
-    width: 88vw;
-    height: 33vh;
-    background-color: #fff;
-    margin: 0 auto;
-    border-radius: 15px;
-    li{
-      font-family: '微軟正黑體';
-      font-weight: normal;
-      text-align: center;
-      &.title{
+  ul{
+    &.bg{
+      position: relative;
+      top:30%;
+      width: 88vw;
+      height: 33vh;
+      background-color: #fff;
+      margin: 0 auto;
+      border-radius: 15px;
+      li{
+        font-family: '微軟正黑體';
+        font-weight: normal;
         text-align: center;
-        font-size: 22px;
-        color: #313030;
-        padding: 6% 0 0 0;
-        height: 20%;
-        margin:0 0 0 0;
-      }
-      &.content{
-        color: #838ba0;
-        padding:3% 10% 0 10%;
-        font-size: 2.1vh;
-        line-height: 26px;
-        height: 60%;
-      }
-      &.footer{
-        height: 20%;
-        border-top: 1px solid #e1e1e1;
-        font-size: 22px;
-        color: #313030;
-        div{
-          display: inline-block;
-          &:first-child{
-            border-right:2px solid #e1e1e1;
-          }
-          &.detail{
-            color:#2d43b6;
-          }
-          &.close , &.detail{
-            position: relative;
-            width: 50%;
-            height: 100%;
-            p{
-              position: absolute;
-              display: inline-block;
-              left: 50%;
-              top: 50%;
-              transform: translate(-50%,-50%);
-              white-space: nowrap;
-            
+        &.title{
+          text-align: center;
+          font-size: 22px;
+          color: #313030;
+          padding: 6% 0 0 0;
+          height: 20%;
+          margin:0 0 0 0;
+        }
+        &.content{
+          color: #838ba0;
+          padding:3% 10% 0 10%;
+          font-size: 2.1vh;
+          line-height: 26px;
+          height: 60%;
+        }
+        &.footer{
+          height: 20%;
+          border-top: 1px solid #e1e1e1;
+          font-size: 22px;
+          color: #313030;
+          div{
+            display: inline-block;
+            &:first-child{
+              border-right:2px solid #e1e1e1;
+            }
+            &.detail{
+              color:#2d43b6;
+            }
+            &.close , &.detail{
+              position: relative;
+              width: 50%;
+              height: 100%;
+              p{
+                position: absolute;
+                display: inline-block;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                white-space: nowrap;
+              
+              }
             }
           }
+         
         }
-       
       }
     }
   }
