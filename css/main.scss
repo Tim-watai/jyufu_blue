@@ -25,10 +25,7 @@ html {
   // background-color: $color-white;
   height: 100%;
   overflow: auto;
-  // overflow: hidden;
-  // background: url(../images/ex-index.jpg) no-repeat;
-  // background-size: cover;
-  // background-position: center;
+ 
 }
 
 @mixin size($width, $height) {
@@ -783,37 +780,37 @@ aside.hot_windows {
             span{
               &.icon{
                 display: inline-block;
-                background: url(/images/hot_window/c1.png)no-repeat;
+                background: url(../images/hot_window/c1.png)no-repeat;
                 background-size: cover;
                 background-position: center center;
                 width: 39px;
                 height: 31px;
                 &.c2{
-                  background: url(/images/hot_window/c2.png)no-repeat;
+                  background: url(../images/hot_window/c2.png)no-repeat;
                   background-size: cover;
                   background-position: center center;
                   width: 28px;
                 }
                 &.c3{
-                  background: url(/images/hot_window/c3.png)no-repeat;
+                  background: url(../images/hot_window/c3.png)no-repeat;
                   background-size: cover;
                   background-position: center center;
                   width: 30px;
                 }
                 &.c4{
-                  background: url(/images/hot_window/c4.png)no-repeat;
+                  background: url(../images/hot_window/c4.png)no-repeat;
                   background-size: cover;
                   background-position: center center;
                   width: 28px;
                 }
                 &.c5{
-                  background: url(/images/hot_window/c5.png)no-repeat;
+                  background: url(../images/hot_window/c5.png)no-repeat;
                   background-size: cover;
                   background-position: center center;
                   width: 28px;
                 }
                 &.c6{
-                  background: url(/images/hot_window/c6.png)no-repeat;
+                  background: url(../images/hot_window/c6.png)no-repeat;
                   background-size: cover;
                   background-position: center center;
                   width: 28px;
