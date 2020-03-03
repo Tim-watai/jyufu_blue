@@ -191,7 +191,7 @@ header ul.market {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #4d515d;
-    font-family: '微軟正黑體';
+    font-family: "微軟正黑體";
     display: inline-block;
     font-size: 20px; }
     header ul.market li.title span {
@@ -219,16 +219,154 @@ header ul.market {
     width: 18px;
     height: 20px; }
 
-main nav.kinds {
+nav.kinds {
+  position: fixed;
   width: 100%;
-  height: 7vh; }
-  main nav.kinds ul {
+  height: auto;
+  margin: calc(5vh + 10px) 0 0 0; }
+  nav.kinds ul {
+    height: 7.6vh;
+    line-height: 7.6vh;
+    overflow: hidden;
     overflow-x: scroll;
-    height: 100%; }
-    main nav.kinds ul li {
+    white-space: nowrap;
+    padding: 0 30px;
+    border-bottom: 2px solid #ef6b5d; }
+    nav.kinds ul li {
       display: inline-block;
-      width: 40px;
-      height: 100%; }
+      width: auto;
+      height: 5vh;
+      line-height: 5vh;
+      color: #838ba0;
+      white-space: nowrap;
+      text-align: center;
+      pointer-events: all;
+      margin: 0 20px 0 0; }
+      nav.kinds ul li:last-child {
+        margin: 0 0 0 0; }
+      nav.kinds ul li.active {
+        color: #4d515d; }
+        nav.kinds ul li.active span.football {
+          background: url(../images/market/football_h.png);
+          background-position: center center;
+          background-size: cover; }
+        nav.kinds ul li.active span.basketball {
+          background: url(../images/market/basketball_h.png);
+          background-position: center center;
+          background-size: cover; }
+        nav.kinds ul li.active span.horse {
+          background: url(../images/market/horse_h.png);
+          background-position: center center;
+          background-size: cover; }
+        nav.kinds ul li.active span.e_sport {
+          background: url(../images/market/e_sport_h.png);
+          background-position: center center;
+          background-size: cover;
+          width: 27px; }
+        nav.kinds ul li.active span.graph {
+          background: url(../images/market/graph_h.png) no-repeat;
+          background-position: center center;
+          background-size: cover;
+          width: 23px;
+          height: 19px; }
+        nav.kinds ul li.active span.color_ball {
+          background: url(../images/market/color_ball_h.png) no-repeat;
+          background-position: center center;
+          background-size: cover;
+          width: 20px;
+          height: 20px; }
+        nav.kinds ul li.active span.ice_ball {
+          background: url(../images/market/ice_ball_h.png) no-repeat;
+          background-position: center center;
+          background-size: cover;
+          width: 20px;
+          height: 20px; }
+      nav.kinds ul li div {
+        text-align: center;
+        float: left;
+        line-height: 1.7vh; }
+        nav.kinds ul li div span {
+          display: inline-block; }
+          nav.kinds ul li div span.football {
+            background: url(../images/market/football.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+          nav.kinds ul li div span.basketball {
+            background: url(../images/market/basketball.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+          nav.kinds ul li div span.horse {
+            background: url(../images/market/horse.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+          nav.kinds ul li div span.e_sport {
+            background: url(../images/market/e_sport.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+          nav.kinds ul li div span.graph {
+            background: url(../images/market/graph.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 23px;
+            height: 19px; }
+          nav.kinds ul li div span.color_ball {
+            background: url(../images/market/color_ball.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+          nav.kinds ul li div span.ice_ball {
+            background: url(../images/market/ice_ball.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+        nav.kinds ul li div p {
+          font-size: 1.2vh;
+          line-height: 1.2vh;
+          margin: 5px 0 0 0;
+          font-family: "微軟正黑體"; }
+      nav.kinds ul li span.num {
+        position: relative;
+        top: -34%;
+        font-size: 1.7vh;
+        line-height: 1.7vh;
+        font-family: Bahnschrift; }
+  nav.kinds section.yet div {
+    line-height: 3vh;
+    height: 3vh;
+    position: relative; }
+    nav.kinds section.yet div span {
+      display: inline-block;
+      background: url(../images/market/yet.png);
+      background-size: cover;
+      background-position: center center;
+      width: 17px;
+      height: 17px;
+      line-height: 3vh;
+      position: relative;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      top: 50%; }
+    nav.kinds section.yet div p {
+      display: inline-block;
+      color: #4d515d;
+      font-family: "微軟正黑體";
+      font-size: 1.7vh;
+      line-height: 3vh;
+      margin: 0 0 0 20px; }
+
+main.market {
+  margin-top: calc(15vh + 10px); }
 
 @-webkit-keyframes marquee {
   0% {
@@ -262,7 +400,7 @@ html {
   height: 100%;
   overflow: auto; }
 
-.active.active.active.active.active {
+.abled.abled.abled.abled.abled {
   display: block; }
 
 .disabled.disabled.disabled.disabled {
