@@ -2,7 +2,7 @@ $d_gray: #4d515d;
 
 header {
   ul.market {
-    padding: 0 33px 0 14px;
+    padding: 0 33px 0 3vw;
     li {
       &.back {
         float: left;
@@ -219,7 +219,9 @@ nav {
       &.yet {
       
           div{
+            margin: 0 0 0 3vw;
             line-height: 3vh;
+            width: 65px;
             height: 3vh;
             position: relative;
             span {
@@ -227,12 +229,11 @@ nav {
               background: url(../images/market/yet.png);
               background-size: cover;
               background-position: center center;
-              width: 17px;
-              height: 17px;
-              line-height: 3vh;
-              position: relative;
-              transform: translateY(-50%);
-              top: 50%;
+              width: 15px;
+              height: 15px;
+              vertical-align: middle;
+              line-height: 17px;
+              margin: 0 0 4px 0;
             }
             p {
               display: inline-block;
@@ -240,11 +241,37 @@ nav {
               font-family: "微軟正黑體";
               font-size: 1.7vh;
               line-height: 3vh;
-              margin: 0 0 0 20px;
+              margin: 0 0 0 5px;
             }
           }
      
         
+      }
+    }
+    article{
+      &.option{
+        height: 3vh;
+        background-color: #f7f7f7;
+        box-shadow:inset 0px 3px 3px 0 #e0e0e0;
+        div{
+          display: inline-block;
+          &.game_type{
+            color:#838ba0;
+            font-size: 1.8vh;
+            margin: 0 0 0 3vw;
+            p{
+              display: inline-block;
+              font-family: '微軟正黑體';
+            }
+            span{
+              
+              font-weight: lighter;
+            }
+          }
+          &.mode{
+            float: right;
+          }
+        }
       }
     }
   }

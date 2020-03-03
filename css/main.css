@@ -11,9 +11,11 @@ p,
 button,
 input,
 a,
-div,
-span {
+div {
   font-family: "微軟正黑體"; }
+
+span {
+  font-family: Bahnschrift; }
 
 ul,
 li {
@@ -104,7 +106,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline; }
 
 a {
@@ -132,15 +133,8 @@ img {
   display: block; }
 
 /* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit; }
-
 * {
-  outline: none;
-  font-family: "微軟正黑體"; }
+  outline: none; }
 
 button {
   cursor: pointer; }
@@ -158,7 +152,7 @@ button {
     scroll-behavior: auto !important; } }
 
 header ul.market {
-  padding: 0 33px 0 14px; }
+  padding: 0 33px 0 3vw; }
   header ul.market li.back {
     float: left;
     position: relative;
@@ -341,7 +335,9 @@ nav.kinds {
         line-height: 1.7vh;
         font-family: Bahnschrift; }
   nav.kinds section.yet div {
+    margin: 0 0 0 3vw;
     line-height: 3vh;
+    width: 65px;
     height: 3vh;
     position: relative; }
     nav.kinds section.yet div span {
@@ -349,21 +345,36 @@ nav.kinds {
       background: url(../images/market/yet.png);
       background-size: cover;
       background-position: center center;
-      width: 17px;
-      height: 17px;
-      line-height: 3vh;
-      position: relative;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      top: 50%; }
+      width: 15px;
+      height: 15px;
+      vertical-align: middle;
+      line-height: 17px;
+      margin: 0 0 4px 0; }
     nav.kinds section.yet div p {
       display: inline-block;
       color: #4d515d;
       font-family: "微軟正黑體";
       font-size: 1.7vh;
       line-height: 3vh;
-      margin: 0 0 0 20px; }
+      margin: 0 0 0 5px; }
+  nav.kinds article.option {
+    height: 3vh;
+    background-color: #f7f7f7;
+    -webkit-box-shadow: inset 0px 3px 3px 0 #e0e0e0;
+    box-shadow: inset 0px 3px 3px 0 #e0e0e0; }
+    nav.kinds article.option div {
+      display: inline-block; }
+      nav.kinds article.option div.game_type {
+        color: #838ba0;
+        font-size: 1.8vh;
+        margin: 0 0 0 3vw; }
+        nav.kinds article.option div.game_type p {
+          display: inline-block;
+          font-family: '微軟正黑體'; }
+        nav.kinds article.option div.game_type span {
+          font-weight: lighter; }
+      nav.kinds article.option div.mode {
+        float: right; }
 
 main.market {
   margin-top: calc(15vh + 10px); }
