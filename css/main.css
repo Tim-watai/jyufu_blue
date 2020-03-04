@@ -418,7 +418,60 @@ nav.kinds {
             float: right; }
 
 main.market {
-  margin-top: calc(18.6vh + 10px); }
+  margin-top: calc(18.6vh + 10px);
+  margin-bottom: 7vh;
+  height: calc(100vh - 18.6vh - 7vh - 10px);
+  overflow-y: scroll; }
+  main.market ul {
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7; }
+    main.market ul li {
+      background-color: #fff;
+      width: auto;
+      margin: 0 1.5vw 0 1.5vw;
+      padding: 0 1.5vw 0 1.5vw;
+      height: auto; }
+      main.market ul li span {
+        display: inline-block;
+        width: 100%; }
+        main.market ul li span.title {
+          height: 3.5vh;
+          border-bottom: 2px solid #e0e3f3; }
+          main.market ul li span.title p {
+            display: inline-block;
+            color: #1b255c;
+            font-weight: bold;
+            font-size: 2vh; }
+          main.market ul li span.title span {
+            display: inline-block;
+            float: right; }
+            main.market ul li span.title span.down_arrow {
+              position: relative;
+              top: 50%;
+              -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+              height: 1.5vh;
+              width: 16px; }
+              main.market ul li span.title span.down_arrow:after, main.market ul li span.title span.down_arrow:before {
+                content: '';
+                position: absolute;
+                background-color: #838ba0;
+                width: 50%;
+                height: 2px; }
+              main.market ul li span.title span.down_arrow:before {
+                -webkit-transform: translate(0%, -50%) rotate(45deg);
+                -ms-transform: translate(0%, -50%) rotate(45deg);
+                transform: translate(0%, -50%) rotate(45deg);
+                left: 9%;
+                top: 50%; }
+              main.market ul li span.title span.down_arrow:after {
+                -webkit-transform: translate(0%, -50%) rotate(-45deg);
+                -ms-transform: translate(0%, -50%) rotate(-45deg);
+                transform: translate(0%, -50%) rotate(-45deg);
+                right: 9%;
+                top: 50%; }
 
 @-webkit-keyframes marquee {
   0% {
