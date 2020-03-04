@@ -217,59 +217,97 @@ nav {
     }
     section {
       &.yet {
-      
-          div{
-            margin: 0 0 0 3vw;
-            line-height: 3vh;
-            width: 65px;
-            height: 3vh;
-            position: relative;
-            span {
-              display: inline-block;
-              background: url(../images/market/yet.png);
-              background-size: cover;
-              background-position: center center;
-              width: 15px;
-              height: 15px;
-              vertical-align: middle;
-              line-height: 17px;
-              margin: 0 0 4px 0;
-            }
-            p {
-              display: inline-block;
-              color: #4d515d;
-              font-family: "微軟正黑體";
-              font-size: 1.7vh;
-              line-height: 3vh;
-              margin: 0 0 0 5px;
-            }
+        div {
+          margin: 0 0 0 3vw;
+          line-height: 3vh;
+          width: 65px;
+          height: 3vh;
+          position: relative;
+          white-space: nowrap;
+          span {
+            display: inline-block;
+            background: url(../images/market/yet.png);
+            background-size: cover;
+            background-position: center center;
+            width: 15px;
+            height: 15px;
+            vertical-align: middle;
+            line-height: 17px;
+            margin: 0 0 4px 0;
           }
-     
-        
+          p {
+            display: inline-block;
+            color: #4d515d;
+            font-family: "微軟正黑體";
+            font-size: 1.9vh;
+            line-height: 3vh;
+            margin: 0 0 0 5px;
+          }
+        }
       }
     }
-    article{
-      &.option{
+    article {
+      &.option {
         height: 3vh;
         background-color: #f7f7f7;
-        box-shadow:inset 0px 3px 3px 0 #e0e0e0;
-        div{
+        box-shadow: inset 0px 3px 3px 0 #e0e0e0;
+        div {
           display: inline-block;
-          &.game_type{
-            color:#838ba0;
+          &.game_type {
+            color: #838ba0;
             font-size: 1.8vh;
             margin: 0 0 0 3vw;
-            p{
+            p {
               display: inline-block;
-              font-family: '微軟正黑體';
-            }
-            span{
+              font-family: "微軟正黑體";
               
+            }
+            span {
               font-weight: lighter;
             }
           }
-          &.mode{
+          &.mode {
             float: right;
+            background-color: #d8d9de;
+            border-radius: 12px;
+            width: 30vw;
+            height: 85%;
+            line-height: 3vh;
+            padding: 0 0.5%;
+            position: relative;
+            transform: translateY(-50%);
+            top: 50%;
+            margin: 0 1vw 0 0;
+            span {
+              display: inline-block;
+              text-align: center;
+              position: relative;
+              transform: translateY(-50%);
+              top: 50%;
+              width: 50%;
+              height: 80%;
+              border-radius: 12px;
+              &.active {
+                background: #fff;
+                p {
+                  color: #838ba0;
+                }
+              }
+              p {
+                display: inline-block;
+                color: #fff;
+                font-size: 1.2vh;
+                position: relative;
+                transform: translateY(-50%);
+                top: 50%;
+              }
+              &:first-child{
+                float:left;
+              }
+              &:last-child{
+                float: right;
+              }
+            }
           }
         }
       }
@@ -278,6 +316,6 @@ nav {
 }
 main {
   &.market {
-    margin-top: calc(15vh + 10px);
+    margin-top: calc(18.6vh + 10px);
   }
 }

@@ -339,7 +339,8 @@ nav.kinds {
     line-height: 3vh;
     width: 65px;
     height: 3vh;
-    position: relative; }
+    position: relative;
+    white-space: nowrap; }
     nav.kinds section.yet div span {
       display: inline-block;
       background: url(../images/market/yet.png);
@@ -354,7 +355,7 @@ nav.kinds {
       display: inline-block;
       color: #4d515d;
       font-family: "微軟正黑體";
-      font-size: 1.7vh;
+      font-size: 1.9vh;
       line-height: 3vh;
       margin: 0 0 0 5px; }
   nav.kinds article.option {
@@ -370,14 +371,54 @@ nav.kinds {
         margin: 0 0 0 3vw; }
         nav.kinds article.option div.game_type p {
           display: inline-block;
-          font-family: '微軟正黑體'; }
+          font-family: "微軟正黑體"; }
         nav.kinds article.option div.game_type span {
           font-weight: lighter; }
       nav.kinds article.option div.mode {
-        float: right; }
+        float: right;
+        background-color: #d8d9de;
+        border-radius: 12px;
+        width: 30vw;
+        height: 85%;
+        line-height: 3vh;
+        padding: 0 0.5%;
+        position: relative;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        margin: 0 1vw 0 0; }
+        nav.kinds article.option div.mode span {
+          display: inline-block;
+          text-align: center;
+          position: relative;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          top: 50%;
+          width: 50%;
+          height: 80%;
+          border-radius: 12px; }
+          nav.kinds article.option div.mode span.active {
+            background: #fff; }
+            nav.kinds article.option div.mode span.active p {
+              color: #838ba0; }
+          nav.kinds article.option div.mode span p {
+            display: inline-block;
+            color: #fff;
+            font-size: 1.2vh;
+            position: relative;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            top: 50%; }
+          nav.kinds article.option div.mode span:first-child {
+            float: left; }
+          nav.kinds article.option div.mode span:last-child {
+            float: right; }
 
 main.market {
-  margin-top: calc(15vh + 10px); }
+  margin-top: calc(18.6vh + 10px); }
 
 @-webkit-keyframes marquee {
   0% {
