@@ -386,7 +386,6 @@ main {
         section {
           &.content {
             padding: 0 1.5vw 10px 1.5vw;
-            // border-bottom: 2px solid #e0e3f3;
             border-top: 2px solid #e0e3f3;
             span {
               display: inline-block;
@@ -515,15 +514,20 @@ main {
                   &.country {
                     &:first-child {
                       position: absolute;
-                      transform: translate(-50%, -50%);
+                      transform: translate(0%, -50%);
                       top: 50%;
-                      left: 35%;
+                      left: 0;
+                      width: calc(50% - 15px);
+                      p,span{
+                        float: right;
+                      }
                     }
                     &:last-child {
-                      position: absolute;
-                      transform: translate(-50%, -50%);
+                      position: absolute;   
+                      transform: translate(0%, -50%);
                       top: 50%;
-                      left: 68%;
+                      right: 0;
+                      width: calc(50% - 20px);
                     }
 
                     span {
