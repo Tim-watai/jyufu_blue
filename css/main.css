@@ -152,15 +152,114 @@ button {
     scroll-behavior: auto !important; } }
 
 ul.game_kinds li div.game_detail {
-  width: 80%;
+  width: 70%;
   height: 100%;
   position: absolute;
-  right: 0; }
+  right: 0;
+  z-index: 9; }
   ul.game_kinds li div.game_detail span {
     display: inline-block; }
     ul.game_kinds li div.game_detail span.counter {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
       width: 100%;
-      height: 100%; }
+      height: 70%;
+      position: relative; }
+      ul.game_kinds li div.game_detail span.counter span {
+        display: inline-block; }
+        ul.game_kinds li div.game_detail span.counter span.mid {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          -webkit-transform: translate(-50%, 0%);
+          -ms-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+          font-size: 1.7vh; }
+      ul.game_kinds li div.game_detail span.counter div.country {
+        text-align: center;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        ul.game_kinds li div.game_detail span.counter div.country p.name {
+          color: #1b255c;
+          font-size: 1.9vh; }
+        ul.game_kinds li div.game_detail span.counter div.country p span {
+          font-size: initial;
+          font-family: initial;
+          color: #7889a3;
+          font-size: 1.9vh; }
+        ul.game_kinds li div.game_detail span.counter div.country:first-child {
+          width: calc(50% - 15.5px); }
+        ul.game_kinds li div.game_detail span.counter div.country:last-child {
+          width: calc(50% - 0.5px); }
+        ul.game_kinds li div.game_detail span.counter div.country span {
+          display: inline-block; }
+          ul.game_kinds li div.game_detail span.counter div.country span.icon1 {
+            width: 22px;
+            height: 19px;
+            background: url(../images/market/icon_country1.png) no-repeat;
+            background-position: center center;
+            background-size: cover; }
+          ul.game_kinds li div.game_detail span.counter div.country span.icon2 {
+            width: 15px;
+            height: 19px;
+            background: url(../images/market/icon_country2.png) no-repeat;
+            background-position: center center;
+            background-size: cover; }
+          ul.game_kinds li div.game_detail span.counter div.country span.icon3 {
+            width: 15px;
+            height: 19px;
+            background: url(../images/market/icon_country3.png) no-repeat;
+            background-position: center center;
+            background-size: cover; }
+          ul.game_kinds li div.game_detail span.counter div.country span.icon4 {
+            width: 18px;
+            height: 19px;
+            background: url(../images/market/icon_country4.png) no-repeat;
+            background-position: center center;
+            background-size: cover; }
+          ul.game_kinds li div.game_detail span.counter div.country span.icon5 {
+            width: 15px;
+            height: 19px;
+            background: url(../images/market/icon_country5.png) no-repeat;
+            background-position: center center;
+            background-size: cover; }
+          ul.game_kinds li div.game_detail span.counter div.country span.icon6 {
+            width: 15px;
+            height: 19px;
+            background: url(../images/market/icon_country6.png) no-repeat;
+            background-position: center center;
+            background-size: cover; }
+          ul.game_kinds li div.game_detail span.counter div.country span.icon7 {
+            width: 19px;
+            height: 19px;
+            background: url(../images/market/icon_country7.png) no-repeat;
+            background-position: center center;
+            background-size: cover; }
+          ul.game_kinds li div.game_detail span.counter div.country span.icon8 {
+            width: 17px;
+            height: 19px;
+            background: url(../images/market/icon_country8.png) no-repeat;
+            background-position: center center;
+            background-size: cover; }
 
 ul.game_kinds li .percent-wrapper {
   z-index: 9;
