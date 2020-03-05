@@ -19,6 +19,15 @@ aside{
                                 }
                             }
                         }
+                        &.num_group{
+                            div{
+                                &.esport_w.esport_w.esport_w{
+                                    width: calc(50% - 10vw);
+                                    margin: 0;
+                                }
+                                
+                            }
+                        }
                     }
                 }
             }

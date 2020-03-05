@@ -1160,6 +1160,10 @@ aside ul li section.content span.time_more div.icon_live.yet.yet.yet {
   background-size: cover;
   background-position: center center; }
 
+aside ul li section.content span.num_group div.esport_w.esport_w.esport_w {
+  width: calc(50% - 10vw);
+  margin: 0; }
+
 @-webkit-keyframes marquee {
   0% {
     -webkit-transform: translateX(0);
