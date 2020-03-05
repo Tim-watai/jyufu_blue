@@ -541,8 +541,7 @@ nav.kinds {
     overflow: hidden;
     overflow-x: scroll;
     white-space: nowrap;
-    padding: 0 30px;
-    border-bottom: 2px solid #ef6b5d; }
+    padding: 0 30px; }
     nav.kinds ul li {
       display: inline-block;
       width: auto;
@@ -651,14 +650,108 @@ nav.kinds {
         font-size: 1.7vh;
         line-height: 1.7vh;
         font-family: Bahnschrift; }
-  nav.kinds section div {
-    margin: 0 0 0 3vw;
-    line-height: 3vh;
-    width: 65px;
-    height: 3vh;
-    position: relative;
-    white-space: nowrap; }
-    nav.kinds section div span.yet {
+
+nav section div {
+  margin: 0 0 0 3vw;
+  line-height: 3vh;
+  width: 65px;
+  height: 3vh;
+  position: relative;
+  white-space: nowrap; }
+  nav section div span.yet {
+    display: inline-block;
+    background: url(../images/market/yet.png);
+    background-size: cover;
+    background-position: center center;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    line-height: 17px;
+    margin: 0 0 4px 0; }
+  nav section div span.doing {
+    display: inline-block;
+    background: url(../images/market/doing.png);
+    background-size: cover;
+    background-position: center center;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    line-height: 17px;
+    margin: 0 0 4px 0; }
+  nav section div p {
+    display: inline-block;
+    color: #4d515d;
+    font-family: "微軟正黑體";
+    font-size: 1.9vh;
+    line-height: 3vh; }
+
+nav article.option {
+  height: 3.5vh;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: inset 0px 3px 3px 0 #e0e0e0;
+  box-shadow: inset 0px 3px 3px 0 #e0e0e0; }
+  nav article.option div {
+    display: inline-block; }
+    nav article.option div.game_type {
+      color: #838ba0;
+      font-size: 1.9vh;
+      margin: 0 0 0 3vw; }
+      nav article.option div.game_type p {
+        display: inline-block;
+        font-family: "微軟正黑體"; }
+      nav article.option div.game_type span {
+        font-weight: lighter; }
+    nav article.option div.mode {
+      float: right;
+      background-color: #d8d9de;
+      border-radius: 12px;
+      width: 30vw;
+      height: 85%;
+      line-height: 3vh;
+      padding: 0 0.5%;
+      position: relative;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      top: 50%;
+      margin: 0 1vw 0 0; }
+      nav article.option div.mode span {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        width: 50%;
+        height: 80%;
+        border-radius: 12px; }
+        nav article.option div.mode span.active {
+          background: #fff; }
+          nav article.option div.mode span.active p {
+            color: #838ba0; }
+        nav article.option div.mode span p {
+          display: inline-block;
+          color: #fff;
+          font-size: 1.2vh;
+          position: relative;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          top: 50%; }
+        nav article.option div.mode span:first-child {
+          float: left; }
+        nav article.option div.mode span:last-child {
+          float: right; }
+
+main.market {
+  margin-top: calc(12.6vh + 10px);
+  margin-bottom: 7vh;
+  height: calc(100vh - 12.6vh - 7vh - 10px);
+  overflow-y: scroll; }
+  main.market aside section.status.yet {
+    border-top: 2px solid #ef6b5d; }
+    main.market aside section.status.yet div span {
       display: inline-block;
       background: url(../images/market/yet.png);
       background-size: cover;
@@ -668,7 +761,9 @@ nav.kinds {
       vertical-align: middle;
       line-height: 17px;
       margin: 0 0 4px 0; }
-    nav.kinds section div span.doing {
+  main.market aside section.status.doing {
+    border-top: 2px solid #5875e0; }
+    main.market aside section.status.doing div span {
       display: inline-block;
       background: url(../images/market/doing.png);
       background-size: cover;
@@ -678,29 +773,45 @@ nav.kinds {
       vertical-align: middle;
       line-height: 17px;
       margin: 0 0 4px 0; }
-    nav.kinds section div p {
+  main.market aside section.status div {
+    margin: 0 0 0 3vw;
+    line-height: 3vh;
+    width: 100%;
+    height: 3vh;
+    position: relative; }
+    main.market aside section.status div span.doing {
+      display: inline-block;
+      background: url(../images/market/doing.png);
+      background-size: cover;
+      background-position: center center;
+      width: 15px;
+      height: 15px;
+      vertical-align: middle;
+      line-height: 17px;
+      margin: 0 0 4px 0; }
+    main.market aside section.status div p {
       display: inline-block;
       color: #4d515d;
       font-family: "微軟正黑體";
       font-size: 1.9vh;
       line-height: 3vh; }
-  nav.kinds article.option {
+  main.market aside article.option {
     height: 3.5vh;
     background-color: #f7f7f7;
     -webkit-box-shadow: inset 0px 3px 3px 0 #e0e0e0;
     box-shadow: inset 0px 3px 3px 0 #e0e0e0; }
-    nav.kinds article.option div {
+    main.market aside article.option div {
       display: inline-block; }
-      nav.kinds article.option div.game_type {
+      main.market aside article.option div.game_type {
         color: #838ba0;
         font-size: 1.9vh;
         margin: 0 0 0 3vw; }
-        nav.kinds article.option div.game_type p {
+        main.market aside article.option div.game_type p {
           display: inline-block;
           font-family: "微軟正黑體"; }
-        nav.kinds article.option div.game_type span {
+        main.market aside article.option div.game_type span {
           font-weight: lighter; }
-      nav.kinds article.option div.mode {
+      main.market aside article.option div.mode {
         float: right;
         background-color: #d8d9de;
         border-radius: 12px;
@@ -714,7 +825,7 @@ nav.kinds {
         transform: translateY(-50%);
         top: 50%;
         margin: 0 1vw 0 0; }
-        nav.kinds article.option div.mode span {
+        main.market aside article.option div.mode span {
           display: inline-block;
           text-align: center;
           position: relative;
@@ -725,11 +836,11 @@ nav.kinds {
           width: 50%;
           height: 80%;
           border-radius: 12px; }
-          nav.kinds article.option div.mode span.active {
+          main.market aside article.option div.mode span.active {
             background: #fff; }
-            nav.kinds article.option div.mode span.active p {
+            main.market aside article.option div.mode span.active p {
               color: #838ba0; }
-          nav.kinds article.option div.mode span p {
+          main.market aside article.option div.mode span p {
             display: inline-block;
             color: #fff;
             font-size: 1.2vh;
@@ -738,42 +849,36 @@ nav.kinds {
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
             top: 50%; }
-          nav.kinds article.option div.mode span:first-child {
+          main.market aside article.option div.mode span:first-child {
             float: left; }
-          nav.kinds article.option div.mode span:last-child {
+          main.market aside article.option div.mode span:last-child {
             float: right; }
-
-main.market {
-  margin-top: calc(19.1vh + 10px);
-  margin-bottom: 7vh;
-  height: calc(100vh - 19.1vh - 7vh - 10px);
-  overflow-y: scroll; }
-  main.market ul {
+  main.market aside ul {
     width: 100%;
     height: auto;
     background-color: #f7f7f7;
     padding: 0 0 5px 0; }
-    main.market ul li {
+    main.market aside ul li {
       background-color: #fff;
       width: auto;
       margin: 0 1.5vw 5px 1.5vw;
       height: auto; }
-      main.market ul li span {
+      main.market aside ul li span {
         display: inline-block; }
-        main.market ul li span.title {
+        main.market aside ul li span.title {
           width: 100%;
           height: 3.5vh;
           padding: 0 1.5vw 0 1.5vw;
           position: relative; }
-          main.market ul li span.title p {
+          main.market aside ul li span.title p {
             display: inline-block;
             color: #1b255c;
             font-weight: bold;
-            font-size: 2vh; }
-          main.market ul li span.title span {
+            font-size: 1.8vh; }
+          main.market aside ul li span.title span {
             display: inline-block;
             float: right; }
-            main.market ul li span.title span.down_arrow {
+            main.market aside ul li span.title span.down_arrow {
               position: relative;
               top: 50%;
               -webkit-transform: translateY(-50%);
@@ -781,35 +886,35 @@ main.market {
               transform: translateY(-50%);
               height: 1.5vh;
               width: 16px; }
-              main.market ul li span.title span.down_arrow:after, main.market ul li span.title span.down_arrow:before {
+              main.market aside ul li span.title span.down_arrow:after, main.market aside ul li span.title span.down_arrow:before {
                 content: "";
                 position: absolute;
                 background-color: #838ba0;
                 width: 50%;
                 height: 1px; }
-              main.market ul li span.title span.down_arrow:before {
+              main.market aside ul li span.title span.down_arrow:before {
                 -webkit-transform: translate(0%, -50%) rotate(45deg);
                 -ms-transform: translate(0%, -50%) rotate(45deg);
                 transform: translate(0%, -50%) rotate(45deg);
                 left: 10%;
                 top: 50%; }
-              main.market ul li span.title span.down_arrow:after {
+              main.market aside ul li span.title span.down_arrow:after {
                 -webkit-transform: translate(0%, -50%) rotate(-45deg);
                 -ms-transform: translate(0%, -50%) rotate(-45deg);
                 transform: translate(0%, -50%) rotate(-45deg);
                 right: 9%;
                 top: 50%; }
-      main.market ul li section.content {
+      main.market aside ul li section.content {
         padding: 0 1.5vw 10px 1.5vw;
         border-top: 2px solid #e0e3f3; }
-        main.market ul li section.content span {
+        main.market aside ul li section.content span {
           display: inline-block; }
-          main.market ul li section.content span.time_more {
+          main.market aside ul li section.content span.time_more {
             height: 3vh;
             width: 100%; }
-            main.market ul li section.content span.time_more span {
+            main.market aside ul li section.content span.time_more span {
               display: inline-block; }
-              main.market ul li section.content span.time_more span.time {
+              main.market aside ul li section.content span.time_more span.time {
                 color: #838ba0;
                 margin: 0 0 0 3px;
                 font-size: 1.7vh;
@@ -817,11 +922,11 @@ main.market {
                 line-height: 1.7vh;
                 vertical-align: bottom;
                 font-weight: lighter; }
-                main.market ul li section.content span.time_more span.time p {
+                main.market aside ul li section.content span.time_more span.time p {
                   display: inline-block; }
-            main.market ul li section.content span.time_more div {
+            main.market aside ul li section.content span.time_more div {
               display: inline-block; }
-              main.market ul li section.content span.time_more div.icon_game {
+              main.market aside ul li section.content span.time_more div.icon_game {
                 position: relative;
                 width: 25px;
                 height: 15px;
@@ -830,7 +935,7 @@ main.market {
                 background: url(../images/market/game_icon.png) no-repeat;
                 background-size: cover;
                 background-position: center center; }
-              main.market ul li section.content span.time_more div.icon_live {
+              main.market aside ul li section.content span.time_more div.icon_live {
                 position: relative;
                 width: 23px;
                 height: 20px;
@@ -839,7 +944,7 @@ main.market {
                 background: url(../images/market/tv_icon.png) no-repeat;
                 background-size: cover;
                 background-position: center center; }
-              main.market ul li section.content span.time_more div.more {
+              main.market aside ul li section.content span.time_more div.more {
                 float: right;
                 height: 100%;
                 white-space: nowrap;
@@ -851,20 +956,20 @@ main.market {
                 -webkit-box-align: end;
                 -ms-flex-align: end;
                 align-items: flex-end; }
-                main.market ul li section.content span.time_more div.more p {
+                main.market aside ul li section.content span.time_more div.more p {
                   display: inline-block;
                   height: 1.9vh;
                   line-height: 1.9vh;
                   vertical-align: bottom;
                   font-size: 1.9vh; }
-                main.market ul li section.content span.time_more div.more span {
+                main.market aside ul li section.content span.time_more div.more span {
                   height: 1.9vh;
                   line-height: 1.9vh;
                   vertical-align: bottom; }
-                  main.market ul li section.content span.time_more div.more span.num {
+                  main.market aside ul li section.content span.time_more div.more span.num {
                     margin-bottom: -2%;
                     font-size: 1.2vh; }
-                  main.market ul li section.content span.time_more div.more span.right_arrow {
+                  main.market aside ul li section.content span.time_more div.more span.right_arrow {
                     position: relative;
                     -webkit-transform: rotate(-90deg);
                     -ms-transform: rotate(-90deg);
@@ -872,61 +977,62 @@ main.market {
                     height: 1.2vh;
                     width: 16px;
                     margin-bottom: 4%; }
-                    main.market ul li section.content span.time_more div.more span.right_arrow:after, main.market ul li section.content span.time_more div.more span.right_arrow:before {
+                    main.market aside ul li section.content span.time_more div.more span.right_arrow:after, main.market aside ul li section.content span.time_more div.more span.right_arrow:before {
                       content: "";
                       position: absolute;
                       background-color: #838ba0;
                       width: 50%;
                       height: 1px;
                       vertical-align: bottom; }
-                    main.market ul li section.content span.time_more div.more span.right_arrow:before {
+                    main.market aside ul li section.content span.time_more div.more span.right_arrow:before {
                       -webkit-transform: translate(0%, -50%) rotate(45deg);
                       -ms-transform: translate(0%, -50%) rotate(45deg);
                       transform: translate(0%, -50%) rotate(45deg);
                       left: 10%;
                       top: 50%; }
-                    main.market ul li section.content span.time_more div.more span.right_arrow:after {
+                    main.market aside ul li section.content span.time_more div.more span.right_arrow:after {
                       -webkit-transform: translate(0%, -50%) rotate(-45deg);
                       -ms-transform: translate(0%, -50%) rotate(-45deg);
                       transform: translate(0%, -50%) rotate(-45deg);
                       right: 9%;
                       top: 50%; }
-          main.market ul li section.content span.counter {
+          main.market aside ul li section.content span.counter {
             width: 100%;
             height: 4vh;
             white-space: nowrap;
             position: relative; }
-            main.market ul li section.content span.counter div,
-            main.market ul li section.content span.counter span,
-            main.market ul li section.content span.counter p {
+            main.market aside ul li section.content span.counter div,
+            main.market aside ul li section.content span.counter span,
+            main.market aside ul li section.content span.counter p {
               display: inline-block; }
-            main.market ul li section.content span.counter p {
+            main.market aside ul li section.content span.counter p {
               vertical-align: middle;
               color: #1b255c; }
-              main.market ul li section.content span.counter p.name {
+              main.market aside ul li section.content span.counter p.name {
                 font-size: 1.7vh;
                 vertical-align: middle;
                 white-space: nowrap; }
-              main.market ul li section.content span.counter p.mid {
+              main.market aside ul li section.content span.counter p.mid {
                 position: absolute;
                 -webkit-transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
                 top: 50%;
                 left: 50%; }
-            main.market ul li section.content span.counter div.country:first-child {
+            main.market aside ul li section.content span.counter div.country:first-child {
               position: absolute;
               -webkit-transform: translate(0%, -50%);
               -ms-transform: translate(0%, -50%);
               transform: translate(0%, -50%);
               top: 50%;
               left: 0;
-              width: calc(50% - 15px); }
-              main.market ul li section.content span.counter div.country:first-child p, main.market ul li section.content span.counter div.country:first-child span {
+              width: calc(50% - 20px); }
+              main.market aside ul li section.content span.counter div.country:first-child p,
+              main.market aside ul li section.content span.counter div.country:first-child span {
                 float: right; }
-              main.market ul li section.content span.counter div.country:first-child span {
+              main.market aside ul li section.content span.counter div.country:first-child span {
                 margin: 0 0 0 5px; }
-            main.market ul li section.content span.counter div.country:last-child {
+            main.market aside ul li section.content span.counter div.country:last-child {
               position: absolute;
               -webkit-transform: translate(0%, -50%);
               -ms-transform: translate(0%, -50%);
@@ -934,76 +1040,76 @@ main.market {
               top: 50%;
               right: 0;
               width: calc(50% - 25px); }
-            main.market ul li section.content span.counter div.country span {
+            main.market aside ul li section.content span.counter div.country span {
               vertical-align: middle; }
-              main.market ul li section.content span.counter div.country span.icon1 {
+              main.market aside ul li section.content span.counter div.country span.icon1 {
                 background: url(../images/market/icon_country1.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 25px;
                 height: 17px; }
-              main.market ul li section.content span.counter div.country span.icon2 {
+              main.market aside ul li section.content span.counter div.country span.icon2 {
                 background: url(../images/market/icon_country2.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 13px;
                 height: 17px; }
-              main.market ul li section.content span.counter div.country span.icon3 {
+              main.market aside ul li section.content span.counter div.country span.icon3 {
                 background: url(../images/market/icon_country3.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 14px;
                 height: 16px; }
-              main.market ul li section.content span.counter div.country span.icon4 {
+              main.market aside ul li section.content span.counter div.country span.icon4 {
                 background: url(../images/market/icon_country4.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 18px;
                 height: 17px; }
-              main.market ul li section.content span.counter div.country span.icon5 {
+              main.market aside ul li section.content span.counter div.country span.icon5 {
                 background: url(../images/market/icon_country5.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 13px;
                 height: 15px; }
-              main.market ul li section.content span.counter div.country span.icon6 {
+              main.market aside ul li section.content span.counter div.country span.icon6 {
                 background: url(../images/market/icon_country6.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 13px;
                 height: 17px; }
-              main.market ul li section.content span.counter div.country span.icon7 {
+              main.market aside ul li section.content span.counter div.country span.icon7 {
                 background: url(../images/market/icon_country7.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 17px;
                 height: 17px; }
-              main.market ul li section.content span.counter div.country span.icon8 {
+              main.market aside ul li section.content span.counter div.country span.icon8 {
                 background: url(../images/market/icon_country8.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 16px;
                 height: 17px; }
-          main.market ul li section.content span.num_group {
+          main.market aside ul li section.content span.num_group {
             width: 100%;
             text-align: center; }
-            main.market ul li section.content span.num_group div {
+            main.market aside ul li section.content span.num_group div {
               display: inline-block;
               text-align: center;
               width: 25%;
               line-height: 20px;
               background-color: #f6f8ff; }
-              main.market ul li section.content span.num_group div p {
+              main.market aside ul li section.content span.num_group div p {
                 color: #838ba0;
                 line-height: 16px;
                 font-size: 1.7vh;
                 vertical-align: bottom;
                 display: inline-block;
                 width: 100%; }
-              main.market ul li section.content span.num_group div span {
+              main.market aside ul li section.content span.num_group div span {
                 color: #1b255c;
                 line-height: 20px; }
-              main.market ul li section.content span.num_group div.tie {
+              main.market aside ul li section.content span.num_group div.tie {
                 margin: 0 5px 0 5px; }
 
 footer ul li.teach span {
@@ -1045,6 +1151,14 @@ footer ul li.refresh span {
   width: 22px;
   height: 24px;
   display: inline-block; }
+
+.en_name {
+  font-family: Bahnschrift; }
+
+aside ul li section.content span.time_more div.icon_live.yet.yet.yet {
+  background: url(../images/market/tv_icon_y.png) no-repeat;
+  background-size: cover;
+  background-position: center center; }
 
 @-webkit-keyframes marquee {
   0% {

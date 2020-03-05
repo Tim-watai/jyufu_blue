@@ -1,3 +1,27 @@
-div{
-    
+.en_name{
+    font-family: Bahnschrift;
+}
+
+aside{
+    ul{
+        li{
+            section{
+                &.content{
+                    span{
+                        &.time_more{
+                            div{
+                                &.icon_live{
+                                    &.yet.yet.yet{
+                                        background: url(../images/market/tv_icon_y.png)no-repeat;
+                                        background-size: cover;
+                                        background-position: center center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
