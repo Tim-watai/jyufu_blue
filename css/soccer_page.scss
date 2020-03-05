@@ -1,0 +1,166 @@
+$bg_gbgray: linear-gradient(to bottom, #fff 50%, #f3f3f3 100%);
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+//*******進度圖
+// --vars
+$bg-color: #f9f9f9;
+$progress_solid-color: #4d60c2;
+$progress_false-color: #cbd4ee;
+$font_color: #1b255c;
+
+
+$default-size: 9vh;
+$circle-font-size: 2.6vh;
+ul{
+    &.game_kinds {
+    
+      li {
+        
+        div{
+            &.game_detail{
+                width: 80%;
+                height: 100%;
+                position: absolute;
+                right: 0;
+                span{
+                    display: inline-block;
+                    &.counter{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                
+            }
+        }
+
+        @mixin draw-progress($progress, $color) {
+            .pie {
+              .half-circle {
+                border-color: $color;
+              }
+          
+              .left-side {
+                transform: rotate($progress * 3.6deg);
+              }
+              @if $progress <= 50 {
+                .right-side {
+                  display: none;
+                }
+              } @else {
+                clip: rect(auto, auto, auto, auto);
+                .right-side {
+                  transform: rotate(180deg);
+                }
+              } //else
+            } //pie
+          }
+          .percent-wrapper {
+              z-index: 9;
+            @include size($default-size, $default-size);
+            // margin: 15px;
+            // margin-right: 3%;
+            // position: relative;
+            // margin-left: 6vw;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 17%;
+          
+            .pie {
+              @include size(100%, 100%);
+              clip: rect(0, $default-size, $default-size, $default-size / 2);
+              left: 0;
+              position: absolute;
+              top: 0;
+          
+              .half-circle {
+                @include size(100%, 100%);
+                border: ($default-size / 10) solid $progress_solid-color;
+                border-radius: 50%;
+                clip: rect(0, $default-size/2, $default-size, 0);
+                left: 0;
+                position: absolute;
+                top: 0;
+              }
+            }
+            .label {
+              background: $bg_gbgray;
+              color: $bg-color;
+              border-radius: 100%;
+              line-height: calc(10vh * 0.8);
+              @include size(80%, 80%);
+              cursor: default;
+              position: absolute;
+              text-align: center;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              p,
+              .smaller {
+                font-weight: bolder;
+              }
+              p {
+                font-size: 3.5vh;
+                position: relative;
+                color: $font_color;
+                font-family: Bahnschrift;
+                // padding: 5px 0 0 0;
+              }
+              .smaller {
+                color: $font_color;
+                font-size: 0.45em;
+                margin-left: -10%;
+              }
+            }
+          
+            .shadow {
+              @include size(100%, 100%);
+              border: $default-size / 10 solid $progress_false-color;
+              border-radius: 50%;
+            }
+          
+            &.progress_10 {
+              @include draw-progress(10, $progress_solid-color);
+            }
+            &.progress_20 {
+              @include draw-progress(20, $progress_solid-color);
+            }
+            &.progress_30 {
+              @include draw-progress(30, $progress_solid-color);
+            }
+            &.progress_32 {
+                @include draw-progress(32, $progress_solid-color);
+              }
+            &.progress_40 {
+              @include draw-progress(40, $progress_solid-color);
+            }
+            &.progress_50 {
+              @include draw-progress(50, $progress_solid-color);
+            }
+            &.progress_60 {
+              @include draw-progress(60, $progress_solid-color);
+            }
+            &.progress_70 {
+              @include draw-progress(70, $progress_solid-color);
+            }
+            &.progress_80 {
+              @include draw-progress(80, $progress_solid-color);
+            }
+            &.progress_90 {
+              @include draw-progress(90, $progress_solid-color);
+            }
+          }
+            a{
+                display: none;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 10;
+            }
+      }
+    }
+  }

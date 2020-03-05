@@ -1,0 +1,707 @@
+$d_gray: #4d515d;
+
+header {
+  ul.market {
+    padding: 0 33px 0 3vw;
+    li {
+      &.back {
+        float: left;
+        position: relative;
+        width: 3%;
+        height: 50%;
+        pointer-events: all;
+        a{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          pointer-events: all;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 1;
+        }
+        &:before,
+        &:after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 2px;
+          height: 50%;
+          background-color: $d_gray;
+        }
+        &:before {
+          transform: translateX(-50%) rotate(45deg);
+          top: 10%;
+        }
+        &:after {
+          transform: translateX(-50%) rotate(-45deg);
+          bottom: 10%;
+        }
+      }
+      &.title {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $d_gray;
+        font-family: "微軟正黑體";
+        display: inline-block;
+        font-size: 20px;
+        
+        span {
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 5px 5px 0 5px;
+          border-color: $d_gray transparent transparent transparent;
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 0 5px 4px;
+        }
+      }
+      &.wallet {
+        float: right;
+        background: url(../images/wallet.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 20px;
+        height: 20px;
+        margin: 0 20px 0 0;
+      }
+      &.search {
+        float: right;
+        background: url(../images/search_gray.png);
+        background-size: cover;
+        background-position: center center;
+        width: 18px;
+        height: 20px;
+      }
+    }
+  }
+}
+nav {
+  &.kinds {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin: calc(5vh + 10px) 0 0 0;
+    ul {
+      height: 7.6vh;
+      line-height: 7.6vh;
+      overflow: hidden;
+      overflow-x: scroll;
+      white-space: nowrap;
+      padding: 0 30px;
+      border-bottom: 2px solid #ef6b5d;
+      li {
+        display: inline-block;
+        width: auto;
+        height: 5vh;
+        line-height: 5vh;
+        color: #838ba0;
+        white-space: nowrap;
+        text-align: center;
+        pointer-events: all;
+        margin: 0 20px 0 0;
+        &:last-child {
+          margin: 0 0 0 0;
+        }
+        &.active {
+          color: #4d515d;
+          span {
+            &.football {
+              background: url(../images/market/football_h.png);
+              background-position: center center;
+              background-size: cover;
+            }
+            &.basketball {
+              background: url(../images/market/basketball_h.png);
+              background-position: center center;
+              background-size: cover;
+            }
+            &.horse {
+              background: url(../images/market/horse_h.png);
+              background-position: center center;
+              background-size: cover;
+            }
+            &.e_sport {
+              background: url(../images/market/e_sport_h.png);
+              background-position: center center;
+              background-size: cover;
+              width: 27px;
+            }
+            &.graph {
+              background: url(../images/market/graph_h.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              width: 23px;
+              height: 19px;
+            }
+            &.color_ball {
+              background: url(../images/market/color_ball_h.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              width: 20px;
+              height: 20px;
+            }
+            &.ice_ball {
+              background: url(../images/market/ice_ball_h.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+        div {
+          text-align: center;
+          float: left;
+          line-height: 1.7vh;
+          span {
+            display: inline-block;
+            &.football {
+              background: url(../images/market/football.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              width: 20px;
+              height: 20px;
+            }
+            &.basketball {
+              background: url(../images/market/basketball.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              width: 20px;
+              height: 20px;
+            }
+            &.horse {
+              background: url(../images/market/horse.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              width: 20px;
+              height: 20px;
+            }
+            &.e_sport {
+              background: url(../images/market/e_sport.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              width: 20px;
+              height: 20px;
+            }
+            &.graph {
+              background: url(../images/market/graph.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              width: 23px;
+              height: 19px;
+            }
+            &.color_ball {
+              background: url(../images/market/color_ball.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              width: 20px;
+              height: 20px;
+            }
+            &.ice_ball {
+              background: url(../images/market/ice_ball.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              width: 20px;
+              height: 20px;
+            }
+          }
+          p {
+            font-size: 1.2vh;
+            line-height: 1.2vh;
+            margin: 5px 0 0 0;
+            font-family: "微軟正黑體";
+          }
+        }
+        span {
+          &.num {
+            position: relative;
+            top: -34%;
+            font-size: 1.7vh;
+            line-height: 1.7vh;
+            font-family: Bahnschrift;
+          }
+        }
+      }
+    }
+    section {
+      &.yet {
+        div {
+          margin: 0 0 0 3vw;
+          line-height: 3vh;
+          width: 65px;
+          height: 3vh;
+          position: relative;
+          white-space: nowrap;
+          span {
+            display: inline-block;
+            background: url(../images/market/yet.png);
+            background-size: cover;
+            background-position: center center;
+            width: 15px;
+            height: 15px;
+            vertical-align: middle;
+            line-height: 17px;
+            margin: 0 0 4px 0;
+          }
+          p {
+            display: inline-block;
+            color: #4d515d;
+            font-family: "微軟正黑體";
+            font-size: 1.9vh;
+            line-height: 3vh;
+            margin: 0 0 0 5px;
+          }
+        }
+      }
+    }
+    article {
+      &.option {
+        height: 3.5vh;
+        background-color: #f7f7f7;
+        box-shadow: inset 0px 3px 3px 0 #e0e0e0;
+        div {
+          display: inline-block;
+          &.game_type {
+            color: #838ba0;
+            font-size: 1.9vh;
+            margin: 0 0 0 3vw;
+            p {
+              display: inline-block;
+              font-family: "微軟正黑體";
+            }
+            span {
+              font-weight: lighter;
+            }
+          }
+          &.mode {
+            float: right;
+            background-color: #d8d9de;
+            border-radius: 12px;
+            width: 30vw;
+            height: 85%;
+            line-height: 3vh;
+            padding: 0 0.5%;
+            position: relative;
+            transform: translateY(-50%);
+            top: 50%;
+            margin: 0 1vw 0 0;
+            span {
+              display: inline-block;
+              text-align: center;
+              position: relative;
+              transform: translateY(-50%);
+              top: 50%;
+              width: 50%;
+              height: 80%;
+              border-radius: 12px;
+              &.active {
+                background: #fff;
+                p {
+                  color: #838ba0;
+                }
+              }
+              p {
+                display: inline-block;
+                color: #fff;
+                font-size: 1.2vh;
+                position: relative;
+                transform: translateY(-50%);
+                top: 50%;
+              }
+              &:first-child {
+                float: left;
+              }
+              &:last-child {
+                float: right;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+main {
+  &.market {
+    margin-top: calc(19.1vh + 10px);
+    margin-bottom: 7vh;
+    height: calc(100vh - 19.1vh - 7vh - 10px);
+    overflow-y: scroll;
+    ul {
+      width: 100%;
+      height: auto;
+      background-color: #f7f7f7;
+      padding: 0 0 5px 0;
+      li {
+        background-color: #fff;
+        width: auto;
+        margin: 0 1.5vw 5px 1.5vw;
+        height: auto;
+        
+        span {
+          display: inline-block;
+          &.title {
+            width: 100%;
+            height: 3.5vh;
+            padding: 0 1.5vw 0 1.5vw;
+            position: relative;
+            p {
+              display: inline-block;
+              color: #1b255c;
+              font-weight: bold;
+              font-size: 2vh;
+            }
+            // &:before {
+            //   position: absolute;
+            //   transform: translateY(50%);
+            //   bottom: 0;
+            //   left: -1.5vw;
+            //   content: "";
+            //   width: 97vw;
+            //   height: 2px;
+            //   background-color: #e0e3f3;
+            // }
+            span {
+              display: inline-block;
+              float: right;
+              &.down_arrow {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                height: 1.5vh;
+                width: 16px;
+                &:after,
+                &:before {
+                  content: "";
+                  position: absolute;
+                  background-color: #838ba0;
+                  width: 50%;
+                  height: 1px;
+                }
+                &:before {
+                  transform: translate(0%, -50%) rotate(45deg);
+                  left: 10%;
+                  top: 50%;
+                }
+                &:after {
+                  transform: translate(0%, -50%) rotate(-45deg);
+                  right: 9%;
+                  top: 50%;
+                }
+              }
+            }
+          }
+        }
+        section {
+          &.content {
+            padding: 0 1.5vw 10px 1.5vw;
+            border-top: 2px solid #e0e3f3;
+            span {
+              display: inline-block;
+              &.time_more {
+                height: 3vh;
+                width: 100%;
+                span {
+                  display: inline-block;
+                  &.time {
+                    color: #838ba0;
+                    margin: 0 0 0 3px;
+                    font-size: 1.7vh;
+                    height: auto;
+                    line-height: 1.7vh;
+                    vertical-align: bottom;
+                    font-weight: lighter;
+                    p {
+                      display: inline-block;
+                    }
+                  }
+                }
+                div {
+                  display: inline-block;
+                  &.icon_game {
+                    position: relative;
+                    width: 25px;
+                    height: 15px;
+                    line-height: 15px;
+                    vertical-align: bottom;
+                    background: url(../images/market/game_icon.png) no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                  }
+                  &.icon_live {
+                    position: relative;
+                    width: 23px;
+                    height: 20px;
+                    line-height: 15px;
+                    vertical-align: bottom;
+                    background: url(../images/market/tv_icon.png) no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                  }
+                  &.more {
+                    float: right;
+                    height: 100%;
+                    white-space: nowrap;
+                    font-size: 1.6vh;
+                    color: #838ba0;
+                    display: flex;
+                    align-items: flex-end;
+
+                    p {
+                      display: inline-block;
+                      height: 1.9vh;
+                      line-height: 1.9vh;
+                      vertical-align: bottom;
+                      font-size: 1.9vh;
+                    }
+                    span {
+                      height: 1.9vh;
+                      line-height: 1.9vh;
+                      vertical-align: bottom;
+                      &.num {
+                        margin-bottom: -2%;
+                        font-size: 1.2vh;
+                      }
+                      &.right_arrow {
+                        position: relative;
+                        transform: rotate(-90deg);
+                        height: 1.2vh;
+                        width: 16px;
+                        margin-bottom: 4%;
+                        &:after,
+                        &:before {
+                          content: "";
+                          position: absolute;
+                          background-color: #838ba0;
+                          width: 50%;
+                          height: 1px;
+                          vertical-align: bottom;
+                        }
+                        &:before {
+                          transform: translate(0%, -50%) rotate(45deg);
+                          left: 10%;
+                          top: 50%;
+                        }
+                        &:after {
+                          transform: translate(0%, -50%) rotate(-45deg);
+                          right: 9%;
+                          top: 50%;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              &.counter {
+                width: 100%;
+                height: 4vh;
+                white-space: nowrap;
+                position: relative;
+                div,
+                span,
+                p {
+                  display: inline-block;
+                }
+                p {
+                  vertical-align: middle;
+                  color: #1b255c;
+                  &.name {
+                    font-size: 1.7vh;
+                    vertical-align: middle;
+                    white-space: nowrap;
+                  }
+                  &.mid {
+                    // margin: 0 20px 0 20px;
+
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    top: 50%;
+                    left: 50%;
+                  }
+                }
+                div {
+                  &.country {
+                    &:first-child {
+                      position: absolute;
+                      transform: translate(0%, -50%);
+                      top: 50%;
+                      left: 0;
+                      width: calc(50% - 15px);
+                      p,span{
+                        float: right;
+                      }
+                      span{
+                        margin: 0 0 0 5px;
+                      }
+                    }
+                    &:last-child {
+                      position: absolute;   
+                      transform: translate(0%, -50%);
+                      top: 50%;
+                      right: 0;
+                      width: calc(50% - 25px);
+                    }
+
+                    span {
+                      vertical-align: middle;
+                      &.icon1 {
+                        background: url(../images/market/icon_country1.png)
+                          no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                        width: 25px;
+                        height: 17px;
+                      }
+                      &.icon2 {
+                        background: url(../images/market/icon_country2.png)
+                          no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                        width: 13px;
+                        height: 17px;
+                      }
+                      &.icon3 {
+                        background: url(../images/market/icon_country3.png)
+                          no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                        width: 14px;
+                        height: 16px;
+                      }
+                      &.icon4 {
+                        background: url(../images/market/icon_country4.png)
+                          no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                        width: 18px;
+                        height: 17px;
+                      }
+                      &.icon5 {
+                        background: url(../images/market/icon_country5.png)
+                          no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                        width: 13px;
+                        height: 15px;
+                      }
+                      &.icon6 {
+                        background: url(../images/market/icon_country6.png)
+                          no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                        width: 13px;
+                        height: 17px;
+                      }
+                      &.icon7 {
+                        background: url(../images/market/icon_country7.png)
+                          no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                        width: 17px;
+                        height: 17px;
+                      }
+                      &.icon8 {
+                        background: url(../images/market/icon_country8.png)
+                          no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                        width: 16px;
+                        height: 17px;
+                      }
+                    }
+                  }
+                }
+              }
+              &.num_group {
+                width: 100%;
+                text-align: center;
+                div {
+                  display: inline-block;
+                  text-align: center;
+                  width: 25%;
+                  line-height: 20px;
+                  background-color: #f6f8ff;
+                  p {
+                    color: #838ba0;
+                    line-height: 16px;
+                    font-size: 1.7vh;
+                    vertical-align: bottom;
+                    display: inline-block;
+                    width: 100%;
+                  }
+                  span {
+                    color: #1b255c;
+                    line-height: 20px;
+                  }
+                  &.tie {
+                    margin: 0 5px 0 5px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer{
+  ul{
+    li{
+      &.teach {
+        span{
+          background: url(../images/market/teach.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 20px;
+          height: 24px;
+          display: inline-block;
+        }
+      }
+      &.set_table {
+        span{
+          background: url(../images/market/set_table.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 25px;
+          height: 24px;
+          display: inline-block;
+        }
+      }
+      &.not_yet {
+        span{
+          background: url(../images/market/not_yet.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 22px;
+          height: 24px;
+          display: inline-block;
+        }
+      }
+      &.yes_do {
+        span{
+          background: url(../images/market/yes_do.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 22px;
+          height: 24px;
+          display: inline-block;
+        }
+      }
+      &.refresh {
+        span{
+          background: url(../images/market/refresh.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 22px;
+          height: 24px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

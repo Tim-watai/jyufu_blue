@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--main.css-->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 
 <!-- jquery -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <!-- slick -->
-<link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 
     <title>Ready</title>
 </head>
@@ -29,17 +29,16 @@
 </header>
 
 <main>
+    
     <article class="banner warp">
 
     </article>
-    <article class="hot_area">
-        <ul>
+    <section>
+        <ul class="hot_area">
             <li class="marquee"><span class="horn_icon"></span><div><p>公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告</p></div></li>
-            <li><span class="hot_icon"></span><p>熱門賽事</p></li>
+            <li class="hot_btn"><span class="hot_icon"></span><p>熱門賽事</p></li>
         </ul>
-    </article>
-    <article class="profile">
-        <ul>
+        <ul class="profile">
             <li class="u_data">
                 <p class="u_name">user545<span class="vip"></span></p>
                 <p  class="u_money"><span class="currency">NT$ </span>0.00<span class="question"></span></p>
@@ -51,7 +50,7 @@
            
             </li>
         </ul>
-    </article>
+    </section>
     <article class="menu">
         <aside class="btn_group">
             <button class="hot"><span>熱門</span><p>3</p></button>
@@ -70,6 +69,8 @@
                <span class="item"></span>
                <div class="left_triagle"></div>
                <div class="right_triagle"></div>
+               <div class="point"></div>
+               <a href="/html/soccer_page.html"></a>
             </li>
 
             <li class="basketball">
@@ -82,6 +83,7 @@
                 <span class="item"></span>
                 <div class="left_triagle"></div>
                 <div class="right_triagle"></div>
+                <div class="point"></div>
              </li>
 
              <li class="esport">
@@ -94,6 +96,7 @@
                 <span class="item"></span>
                 <div class="left_triagle"></div>
                 <div class="right_triagle"></div>
+                <div class="point"></div>
              </li>
 
              <li class="tennis">
@@ -106,6 +109,7 @@
                 <span class="item"></span>
                 <div class="left_triagle"></div>
                 <div class="right_triagle"></div>
+                <div class="point"></div>
              </li>
        </ul>
     </article>
@@ -113,18 +117,78 @@
 </main>
 <footer>
     <ul>
-        <li class="index active"><span></span> <p>首頁</p> </li>
+        <li class="index blue"><span></span> <p>首頁</p> </li>
         <li class="event"><span></span> <p>優惠</p> </li>
         <li class="help"><span></span> <p>客服</p> </li>
         <li class="donate"><span></span> <p>贊助</p> </li>
         <li class="my have"><span></span> <p>我的</p> </li>
     </ul>
 </footer>
-    
+    <aside  class="hot_windows">
+        <article class="bg">
+            <span class="refresh"></span>
+            <span class="close"></span>
+            <span class="get_one">來一注 &raquo;</span>
+            <ul>
+                <li>
+                    <div class="lc">
+                        <span class="icon"></span>
+                        <p class="name">利華古遜</p>
+                    </div>
+                    <div class="rc">
+                        <span class="icon c2"></span>
+                        <p class="name">司徒加特</p>
+                    </div>
+                    <span class="data">
+                        <p class="g_name">德國杯</p>
+                        <p class="time">2020/02/06/ 01:30</p>
+                        <p>VS</p>
+                    </span>
+                </li>
+                <li>
+                    <div class="lc">
+                    <span class="icon c3"></span>
+                    <p class="name">拜仁慕尼黑</p>
+                </div>
+                <div class="rc">
+                    <span class="icon c4"></span>
+                    <p class="name">賀芬威</p>
+                </div>
+                <span class="data">
+                    <p class="g_name">德國杯</p>
+                    <p class="time">2020/02/06/ 01:30</p>
+                    <p>VS</p>
+                </span>
+                </li>
+                <li>
+                    <div class="lc">
+                    <span class="icon c5"></span>
+                    <p class="name">梅斯</p>
+                    </div>
+                <div class="rc">
+                    <span class="icon c6"></span>
+                    <p class="name">迪安</p>
+                </div>
+                <span class="data">
+                    <p class="g_name">法國甲組聯賽</p>
+                    <p class="time">2020/02/06/ 01:30</p>
+                    <p>VS</p>
+                </span>
+                </li>
+            </ul>
+        </article>
+    </aside>
+    <aside class="title_windows disabled">
+        <ul class="bg">
+            <li class="title">公告標題</li>
+            <li class="content">公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告</li>
+            <li class="footer"><div class="close"><p>關閉</p> </div><div class="detail"><p>查看全部</p></div></li>
+        </ul>
+    </aside>
  
-    <script type="text/javascript" src="../js/slick.min.js"></script>
-    <script type="text/javascript" src ="../js/slider.js"></script>
-    <script type="text/javascript" src ="../js/all.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src ="js/slider.js"></script>
+    <script type="text/javascript" src ="js/index.js"></script>
 
 </body>
 

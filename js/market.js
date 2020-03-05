@@ -9,4 +9,6 @@ $('nav.kinds ul li').click(
         }
     }
 );
+
+
 });//total

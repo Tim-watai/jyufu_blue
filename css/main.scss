@@ -1,7 +1,8 @@
 /*first-variable*/
 @import "css_reset.scss";
 @import "color.scss";
-@import "market.scss";
+@import "soccer_page.scss";
+@import "market_soccer.scss";
 @import "animation.scss";
 
 $all-font-family: Microsoft JhengHei;
@@ -499,6 +500,7 @@ main {
                 position: absolute;
                 left: 0;
                 top: 0;
+                z-index: 10;
               }
             }
             &.basketball {
@@ -517,7 +519,7 @@ main {
                   display: inline-block;
                   background: url(../images/item_basketball.png) no-repeat;
                   background-size: contain;
-                  @include size(22vh, 13vh);
+                  @include size(22vh, 12vh);
                   right: 0;
                   bottom: 0;
                   z-index: 2;
@@ -620,11 +622,12 @@ main {
                 }
               }
               &.right_triagle {
-                bottom: -30%;
+                bottom: 0;
+                right: 0;
                 float: right;
                 @include size(5vh, 5vh);
                 @include triagle_lblue;
-                position: relative;
+                position: absolute;
                 &:before {
                   position: absolute;
                   content: "";
@@ -635,6 +638,16 @@ main {
                   height: 155%;
                   background-color: #f6f8ff;
                 }
+              }
+              &.point{
+                position: absolute;
+                transform: translate(-50%,-50%);
+                top: 10%;
+                left: 4%;
+                @include size(10px,10px);
+                border-radius: 100px;
+                background: linear-gradient(to bottom, #dee4ff 0%,#d1d9ff 35%,#c5cfff 50%,#b5c2ff 65%,#a8b6ff 100%);
+                
               }
             }
           }
@@ -668,6 +681,7 @@ footer {
       &.blue {
         color: #2d43b6;
       }
+      
       &.index {
         span {
           background: url(../images/home.png) no-repeat;
