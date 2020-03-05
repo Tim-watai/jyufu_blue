@@ -227,7 +227,7 @@ nav {
       }
     }
     section {
-      &.yet {
+    
         div {
           margin: 0 0 0 3vw;
           line-height: 3vh;
@@ -236,15 +236,28 @@ nav {
           position: relative;
           white-space: nowrap;
           span {
-            display: inline-block;
-            background: url(../images/market/yet.png);
-            background-size: cover;
-            background-position: center center;
-            width: 15px;
-            height: 15px;
-            vertical-align: middle;
-            line-height: 17px;
-            margin: 0 0 4px 0;
+            &.yet{
+              display: inline-block;
+              background: url(../images/market/yet.png);
+              background-size: cover;
+              background-position: center center;
+              width: 15px;
+              height: 15px;
+              vertical-align: middle;
+              line-height: 17px;
+              margin: 0 0 4px 0;
+            }
+            &.doing{
+              display: inline-block;
+              background: url(../images/market/doing.png);
+              background-size: cover;
+              background-position: center center;
+              width: 15px;
+              height: 15px;
+              vertical-align: middle;
+              line-height: 17px;
+              margin: 0 0 4px 0;
+            }
           }
           p {
             display: inline-block;
@@ -252,10 +265,10 @@ nav {
             font-family: "微軟正黑體";
             font-size: 1.9vh;
             line-height: 3vh;
-            margin: 0 0 0 5px;
+            // margin: 0 0 0 5px;
           }
         }
-      }
+      
     }
     article {
       &.option {
