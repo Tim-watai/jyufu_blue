@@ -5,16 +5,29 @@
   box-sizing: border-box;
 }
 
+
+@font-face{
+  font-family: 'my_font';
+  src:local('微軟正黑體');
+  unicode-range: U+4E00-9FFF ,U+2E80-2EFF;
+}
+@font-face{
+  font-family: 'my_font';
+  src:local(Bahnschrift);
+  unicode-range: U+0020-007F;
+}
+
 p,
 button,
 input,
 a,
-div {
+div,span {
   // font-family: Microsoft JhengHei;
-  font-family: "微軟正黑體";
+  font-family: "my_font";
 }
 span{
-  font-family: Bahnschrift;
+  // font-family: Bahnschrift;
+   font-family: "my_font";
 }
 
 

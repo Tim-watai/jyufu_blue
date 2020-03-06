@@ -7,15 +7,25 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+@font-face {
+  font-family: 'my_font';
+  src: local("微軟正黑體");
+  unicode-range: U+4E00-9FFF ,U+2E80-2EFF; }
+
+@font-face {
+  font-family: 'my_font';
+  src: local(Bahnschrift);
+  unicode-range: U+0020-007F; }
+
 p,
 button,
 input,
 a,
-div {
-  font-family: "微軟正黑體"; }
+div, span {
+  font-family: "my_font"; }
 
 span {
-  font-family: Bahnschrift; }
+  font-family: "my_font"; }
 
 ul,
 li {
@@ -1108,7 +1118,9 @@ main.market {
                 width: 100%; }
               main.market aside ul li section.content span.num_group div span {
                 color: #1b255c;
-                line-height: 20px; }
+                line-height: 20px;
+                font-size: 1.7vh;
+                font-weight: bold; }
               main.market aside ul li section.content span.num_group div.tie {
                 margin: 0 5px 0 5px; }
 
@@ -1163,6 +1175,8 @@ aside ul li section.content span.time_more div.icon_live.yet.yet.yet {
 aside ul li section.content span.num_group div.esport_w.esport_w.esport_w {
   width: calc(50% - 10vw);
   margin: 0; }
+  aside ul li section.content span.num_group div.esport_w.esport_w.esport_w span {
+    margin: 5px 0 5px 0; }
 
 @-webkit-keyframes marquee {
   0% {
