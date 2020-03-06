@@ -827,22 +827,22 @@ main.market {
       width: auto;
       margin: 0 1.5vw 5px 1.5vw;
       height: auto; }
-      main.market aside ul li span {
+      main.market aside ul li.beginner span {
         display: inline-block; }
-        main.market aside ul li span.title {
+        main.market aside ul li.beginner span.title {
           width: 100%;
           height: 3.5vh;
           padding: 0 1.5vw 0 1.5vw;
           position: relative; }
-          main.market aside ul li span.title p {
+          main.market aside ul li.beginner span.title p {
             display: inline-block;
             color: #1b255c;
             font-weight: bold;
             font-size: 1.8vh; }
-          main.market aside ul li span.title span {
+          main.market aside ul li.beginner span.title span {
             display: inline-block;
             float: right; }
-            main.market aside ul li span.title span.down_arrow {
+            main.market aside ul li.beginner span.title span.down_arrow {
               position: relative;
               top: 50%;
               -webkit-transform: translateY(-50%);
@@ -850,41 +850,41 @@ main.market {
               transform: translateY(-50%);
               height: 1.5vh;
               width: 16px; }
-              main.market aside ul li span.title span.down_arrow:after, main.market aside ul li span.title span.down_arrow:before {
+              main.market aside ul li.beginner span.title span.down_arrow:after, main.market aside ul li.beginner span.title span.down_arrow:before {
                 content: "";
                 position: absolute;
                 background-color: #838ba0;
                 width: 50%;
                 height: 1px; }
-              main.market aside ul li span.title span.down_arrow:before {
+              main.market aside ul li.beginner span.title span.down_arrow:before {
                 -webkit-transform: translate(0%, -50%) rotate(45deg);
                 -ms-transform: translate(0%, -50%) rotate(45deg);
                 transform: translate(0%, -50%) rotate(45deg);
                 left: 10%;
                 top: 50%; }
-              main.market aside ul li span.title span.down_arrow:after {
+              main.market aside ul li.beginner span.title span.down_arrow:after {
                 -webkit-transform: translate(0%, -50%) rotate(-45deg);
                 -ms-transform: translate(0%, -50%) rotate(-45deg);
                 transform: translate(0%, -50%) rotate(-45deg);
                 right: 9%;
                 top: 50%; }
-      main.market aside ul li section.content {
+      main.market aside ul li.beginner section.content {
         padding: 0 1.5vw 10px 1.5vw;
         border-top: 2px solid #e0e3f3; }
-        main.market aside ul li section.content.empty span.counter p.mid {
+        main.market aside ul li.beginner section.content.empty span.counter p.mid {
           color: #838ba0; }
-        main.market aside ul li section.content.empty span.counter div.country p {
+        main.market aside ul li.beginner section.content.empty span.counter div.country p {
           color: #838ba0; }
-        main.market aside ul li section.content.empty span.num_group div {
+        main.market aside ul li.beginner section.content.empty span.num_group div {
           line-height: 36px; }
-        main.market aside ul li section.content span {
+        main.market aside ul li.beginner section.content span {
           display: inline-block; }
-          main.market aside ul li section.content span.time_more {
+          main.market aside ul li.beginner section.content span.time_more {
             height: 3vh;
             width: 100%; }
-            main.market aside ul li section.content span.time_more span {
+            main.market aside ul li.beginner section.content span.time_more span {
               display: inline-block; }
-              main.market aside ul li section.content span.time_more span.time {
+              main.market aside ul li.beginner section.content span.time_more span.time {
                 color: #838ba0;
                 margin: 0 0 0 3px;
                 font-size: 1.7vh;
@@ -892,11 +892,11 @@ main.market {
                 line-height: 1.7vh;
                 vertical-align: bottom;
                 font-weight: lighter; }
-                main.market aside ul li section.content span.time_more span.time p {
+                main.market aside ul li.beginner section.content span.time_more span.time p {
                   display: inline-block; }
-            main.market aside ul li section.content span.time_more div {
+            main.market aside ul li.beginner section.content span.time_more div {
               display: inline-block; }
-              main.market aside ul li section.content span.time_more div.icon_game {
+              main.market aside ul li.beginner section.content span.time_more div.icon_game {
                 position: relative;
                 width: 25px;
                 height: 15px;
@@ -905,11 +905,11 @@ main.market {
                 background: url(../images/market/game_icon.png) no-repeat;
                 background-size: cover;
                 background-position: center center; }
-                main.market aside ul li section.content span.time_more div.icon_game.yet.yet.yet {
+                main.market aside ul li.beginner section.content span.time_more div.icon_game.yet.yet.yet {
                   background: url(../images/market/game_icon_y.png) no-repeat;
                   background-size: cover;
                   background-position: center center; }
-              main.market aside ul li section.content span.time_more div.icon_live {
+              main.market aside ul li.beginner section.content span.time_more div.icon_live {
                 position: relative;
                 width: 23px;
                 height: 20px;
@@ -918,11 +918,11 @@ main.market {
                 background: url(../images/market/tv_icon.png) no-repeat;
                 background-size: cover;
                 background-position: center center; }
-                main.market aside ul li section.content span.time_more div.icon_live.yet.yet.yet {
+                main.market aside ul li.beginner section.content span.time_more div.icon_live.yet.yet.yet {
                   background: url(../images/market/tv_icon_y.png) no-repeat;
                   background-size: cover;
                   background-position: center center; }
-              main.market aside ul li section.content span.time_more div.more {
+              main.market aside ul li.beginner section.content span.time_more div.more {
                 float: right;
                 height: 100%;
                 white-space: nowrap;
@@ -934,20 +934,20 @@ main.market {
                 -webkit-box-align: end;
                 -ms-flex-align: end;
                 align-items: flex-end; }
-                main.market aside ul li section.content span.time_more div.more p {
+                main.market aside ul li.beginner section.content span.time_more div.more p {
                   display: inline-block;
                   height: 1.9vh;
                   line-height: 1.9vh;
                   vertical-align: bottom;
                   font-size: 1.9vh; }
-                main.market aside ul li section.content span.time_more div.more span {
+                main.market aside ul li.beginner section.content span.time_more div.more span {
                   height: 1.9vh;
                   line-height: 1.9vh;
                   vertical-align: bottom; }
-                  main.market aside ul li section.content span.time_more div.more span.num {
+                  main.market aside ul li.beginner section.content span.time_more div.more span.num {
                     margin-bottom: -2%;
                     font-size: 1.2vh; }
-                  main.market aside ul li section.content span.time_more div.more span.right_arrow {
+                  main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow {
                     position: relative;
                     -webkit-transform: rotate(-90deg);
                     -ms-transform: rotate(-90deg);
@@ -955,49 +955,49 @@ main.market {
                     height: 1.2vh;
                     width: 16px;
                     margin-bottom: 4%; }
-                    main.market aside ul li section.content span.time_more div.more span.right_arrow:after, main.market aside ul li section.content span.time_more div.more span.right_arrow:before {
+                    main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
                       content: "";
                       position: absolute;
                       background-color: #838ba0;
                       width: 50%;
                       height: 1px;
                       vertical-align: bottom; }
-                    main.market aside ul li section.content span.time_more div.more span.right_arrow:before {
+                    main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
                       -webkit-transform: translate(0%, -50%) rotate(45deg);
                       -ms-transform: translate(0%, -50%) rotate(45deg);
                       transform: translate(0%, -50%) rotate(45deg);
                       left: 10%;
                       top: 50%; }
-                    main.market aside ul li section.content span.time_more div.more span.right_arrow:after {
+                    main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after {
                       -webkit-transform: translate(0%, -50%) rotate(-45deg);
                       -ms-transform: translate(0%, -50%) rotate(-45deg);
                       transform: translate(0%, -50%) rotate(-45deg);
                       right: 9%;
                       top: 50%; }
-          main.market aside ul li section.content span.counter {
+          main.market aside ul li.beginner section.content span.counter {
             width: 100%;
             height: 4vh;
             white-space: nowrap;
             position: relative; }
-            main.market aside ul li section.content span.counter div,
-            main.market aside ul li section.content span.counter span,
-            main.market aside ul li section.content span.counter p {
+            main.market aside ul li.beginner section.content span.counter div,
+            main.market aside ul li.beginner section.content span.counter span,
+            main.market aside ul li.beginner section.content span.counter p {
               display: inline-block; }
-            main.market aside ul li section.content span.counter p {
+            main.market aside ul li.beginner section.content span.counter p {
               vertical-align: middle;
               color: #1b255c; }
-              main.market aside ul li section.content span.counter p.name {
+              main.market aside ul li.beginner section.content span.counter p.name {
                 font-size: 1.7vh;
                 vertical-align: middle;
                 white-space: nowrap; }
-              main.market aside ul li section.content span.counter p.mid {
+              main.market aside ul li.beginner section.content span.counter p.mid {
                 position: absolute;
                 -webkit-transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
                 top: 50%;
                 left: 50%; }
-            main.market aside ul li section.content span.counter div.country:first-child {
+            main.market aside ul li.beginner section.content span.counter div.country:first-child {
               position: absolute;
               -webkit-transform: translate(0%, -50%);
               -ms-transform: translate(0%, -50%);
@@ -1005,12 +1005,12 @@ main.market {
               top: 50%;
               left: 0;
               width: calc(50% - 20px); }
-              main.market aside ul li section.content span.counter div.country:first-child p,
-              main.market aside ul li section.content span.counter div.country:first-child span {
+              main.market aside ul li.beginner section.content span.counter div.country:first-child p,
+              main.market aside ul li.beginner section.content span.counter div.country:first-child span {
                 float: right; }
-              main.market aside ul li section.content span.counter div.country:first-child span {
+              main.market aside ul li.beginner section.content span.counter div.country:first-child span {
                 margin: 0 0 0 5px; }
-            main.market aside ul li section.content span.counter div.country:last-child {
+            main.market aside ul li.beginner section.content span.counter div.country:last-child {
               position: absolute;
               -webkit-transform: translate(0%, -50%);
               -ms-transform: translate(0%, -50%);
@@ -1018,79 +1018,361 @@ main.market {
               top: 50%;
               right: 0;
               width: calc(50% - 25px); }
-            main.market aside ul li section.content span.counter div.country span {
+            main.market aside ul li.beginner section.content span.counter div.country span {
               vertical-align: middle; }
-              main.market aside ul li section.content span.counter div.country span.icon1 {
+              main.market aside ul li.beginner section.content span.counter div.country span.icon1 {
                 background: url(../images/market/icon_country1.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 25px;
                 height: 17px; }
-              main.market aside ul li section.content span.counter div.country span.icon2 {
+              main.market aside ul li.beginner section.content span.counter div.country span.icon2 {
                 background: url(../images/market/icon_country2.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 13px;
                 height: 17px; }
-              main.market aside ul li section.content span.counter div.country span.icon3 {
+              main.market aside ul li.beginner section.content span.counter div.country span.icon3 {
                 background: url(../images/market/icon_country3.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 14px;
                 height: 16px; }
-              main.market aside ul li section.content span.counter div.country span.icon4 {
+              main.market aside ul li.beginner section.content span.counter div.country span.icon4 {
                 background: url(../images/market/icon_country4.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 18px;
                 height: 17px; }
-              main.market aside ul li section.content span.counter div.country span.icon5 {
+              main.market aside ul li.beginner section.content span.counter div.country span.icon5 {
                 background: url(../images/market/icon_country5.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 13px;
                 height: 15px; }
-              main.market aside ul li section.content span.counter div.country span.icon6 {
+              main.market aside ul li.beginner section.content span.counter div.country span.icon6 {
                 background: url(../images/market/icon_country6.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 13px;
                 height: 17px; }
-              main.market aside ul li section.content span.counter div.country span.icon7 {
+              main.market aside ul li.beginner section.content span.counter div.country span.icon7 {
                 background: url(../images/market/icon_country7.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 17px;
                 height: 17px; }
-              main.market aside ul li section.content span.counter div.country span.icon8 {
+              main.market aside ul li.beginner section.content span.counter div.country span.icon8 {
                 background: url(../images/market/icon_country8.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 width: 16px;
                 height: 17px; }
-          main.market aside ul li section.content span.num_group {
+          main.market aside ul li.beginner section.content span.num_group {
             width: 100%;
             text-align: center; }
-            main.market aside ul li section.content span.num_group div {
+            main.market aside ul li.beginner section.content span.num_group div {
               display: inline-block;
               text-align: center;
               width: 25%;
               line-height: 20px;
               background-color: #f6f8ff; }
-              main.market aside ul li section.content span.num_group div p {
+              main.market aside ul li.beginner section.content span.num_group div p {
                 color: #838ba0;
                 line-height: 16px;
                 font-size: 1.7vh;
                 vertical-align: bottom;
                 display: inline-block;
                 width: 100%; }
-              main.market aside ul li section.content span.num_group div span {
+              main.market aside ul li.beginner section.content span.num_group div span {
                 color: #1b255c;
                 line-height: 20px;
                 font-size: 1.7vh;
                 font-weight: bold; }
-              main.market aside ul li section.content span.num_group div.tie {
+              main.market aside ul li.beginner section.content span.num_group div.tie {
                 margin: 0 5px 0 5px; }
+      main.market aside ul li.senior {
+        display: none; }
+        main.market aside ul li.senior span {
+          display: inline-block; }
+          main.market aside ul li.senior span.title {
+            width: 100%;
+            height: 3.5vh;
+            padding: 0 1.5vw 0 1.5vw;
+            position: relative; }
+            main.market aside ul li.senior span.title p {
+              display: inline-block;
+              color: #1b255c;
+              font-weight: bold;
+              font-size: 1.8vh; }
+            main.market aside ul li.senior span.title span {
+              display: inline-block;
+              float: right; }
+              main.market aside ul li.senior span.title span.down_arrow {
+                position: relative;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+                height: 1.5vh;
+                width: 16px; }
+                main.market aside ul li.senior span.title span.down_arrow:after, main.market aside ul li.senior span.title span.down_arrow:before {
+                  content: "";
+                  position: absolute;
+                  background-color: #838ba0;
+                  width: 50%;
+                  height: 1px; }
+                main.market aside ul li.senior span.title span.down_arrow:before {
+                  -webkit-transform: translate(0%, -50%) rotate(45deg);
+                  -ms-transform: translate(0%, -50%) rotate(45deg);
+                  transform: translate(0%, -50%) rotate(45deg);
+                  left: 10%;
+                  top: 50%; }
+                main.market aside ul li.senior span.title span.down_arrow:after {
+                  -webkit-transform: translate(0%, -50%) rotate(-45deg);
+                  -ms-transform: translate(0%, -50%) rotate(-45deg);
+                  transform: translate(0%, -50%) rotate(-45deg);
+                  right: 9%;
+                  top: 50%; }
+        main.market aside ul li.senior section.content {
+          padding: 0 1.5vw 10px 1.5vw;
+          border-top: 2px solid #e0e3f3; }
+          main.market aside ul li.senior section.content.empty span.counter p.mid {
+            color: #838ba0; }
+          main.market aside ul li.senior section.content.empty span.counter div.country p {
+            color: #838ba0; }
+          main.market aside ul li.senior section.content.empty span.num_group div {
+            line-height: 36px; }
+          main.market aside ul li.senior section.content div.senior_mode {
+            height: 3vh;
+            width: 100%;
+            padding: 0;
+            position: relative; }
+            main.market aside ul li.senior section.content div.senior_mode:before {
+              position: absolute;
+              content: '';
+              bottom: 0;
+              left: 50%;
+              -webkit-transform: translateX(-50%);
+              -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
+              background: #e0e3f3;
+              width: 97vw;
+              height: 1px; }
+          main.market aside ul li.senior section.content span {
+            display: inline-block; }
+            main.market aside ul li.senior section.content span.time_more {
+              line-height: 3vh;
+              width: 100%; }
+              main.market aside ul li.senior section.content span.time_more span {
+                display: inline-block; }
+                main.market aside ul li.senior section.content span.time_more span.time {
+                  color: #838ba0;
+                  margin: 0 0 0 3px;
+                  font-size: 1.7vh;
+                  height: auto;
+                  line-height: 1;
+                  vertical-align: middle;
+                  font-weight: lighter; }
+                  main.market aside ul li.senior section.content span.time_more span.time p {
+                    display: inline-block; }
+              main.market aside ul li.senior section.content span.time_more div {
+                display: inline-block; }
+                main.market aside ul li.senior section.content span.time_more div.icon_game {
+                  position: relative;
+                  width: 25px;
+                  height: 15px;
+                  line-height: 15px;
+                  vertical-align: bottom;
+                  background: url(../images/market/game_icon.png) no-repeat;
+                  background-size: cover;
+                  background-position: center center; }
+                  main.market aside ul li.senior section.content span.time_more div.icon_game.yet.yet.yet {
+                    background: url(../images/market/game_icon_y.png) no-repeat;
+                    background-size: cover;
+                    background-position: center center; }
+                main.market aside ul li.senior section.content span.time_more div.icon_live {
+                  position: relative;
+                  width: 23px;
+                  height: 20px;
+                  line-height: 15px;
+                  vertical-align: bottom;
+                  background: url(../images/market/tv_icon.png) no-repeat;
+                  background-size: cover;
+                  background-position: center center; }
+                  main.market aside ul li.senior section.content span.time_more div.icon_live.yet.yet.yet {
+                    background: url(../images/market/tv_icon_y.png) no-repeat;
+                    background-size: cover;
+                    background-position: center center; }
+                main.market aside ul li.senior section.content span.time_more div.more {
+                  float: right;
+                  height: 100%;
+                  white-space: nowrap;
+                  font-size: 1.6vh;
+                  color: #838ba0;
+                  display: -webkit-box;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -webkit-box-align: end;
+                  -ms-flex-align: end;
+                  align-items: flex-end; }
+                  main.market aside ul li.senior section.content span.time_more div.more p {
+                    display: inline-block;
+                    height: 1.9vh;
+                    line-height: 1.9vh;
+                    vertical-align: bottom;
+                    font-size: 1.2vh; }
+                  main.market aside ul li.senior section.content span.time_more div.more span {
+                    height: 1.9vh;
+                    line-height: 1.9vh;
+                    vertical-align: bottom; }
+                    main.market aside ul li.senior section.content span.time_more div.more span.num {
+                      margin-bottom: -2%;
+                      font-size: 1.2vh; }
+                    main.market aside ul li.senior section.content span.time_more div.more span.right_arrow {
+                      position: relative;
+                      -webkit-transform: rotate(-90deg);
+                      -ms-transform: rotate(-90deg);
+                      transform: rotate(-90deg);
+                      height: 1.2vh;
+                      width: 16px;
+                      margin-bottom: 4%; }
+                      main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:before {
+                        content: "";
+                        position: absolute;
+                        background-color: #838ba0;
+                        width: 50%;
+                        height: 1px;
+                        vertical-align: bottom; }
+                      main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:before {
+                        -webkit-transform: translate(0%, -50%) rotate(45deg);
+                        -ms-transform: translate(0%, -50%) rotate(45deg);
+                        transform: translate(0%, -50%) rotate(45deg);
+                        left: 10%;
+                        top: 50%; }
+                      main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:after {
+                        -webkit-transform: translate(0%, -50%) rotate(-45deg);
+                        -ms-transform: translate(0%, -50%) rotate(-45deg);
+                        transform: translate(0%, -50%) rotate(-45deg);
+                        right: 9%;
+                        top: 50%; }
+            main.market aside ul li.senior section.content span.counter {
+              width: 100%;
+              height: 4vh;
+              white-space: nowrap;
+              position: relative; }
+              main.market aside ul li.senior section.content span.counter div,
+              main.market aside ul li.senior section.content span.counter span,
+              main.market aside ul li.senior section.content span.counter p {
+                display: inline-block; }
+              main.market aside ul li.senior section.content span.counter p {
+                vertical-align: middle;
+                color: #1b255c; }
+                main.market aside ul li.senior section.content span.counter p.name {
+                  font-size: 1.7vh;
+                  vertical-align: middle;
+                  white-space: nowrap; }
+                main.market aside ul li.senior section.content span.counter p.mid {
+                  position: absolute;
+                  -webkit-transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+                  top: 50%;
+                  left: 50%; }
+              main.market aside ul li.senior section.content span.counter div.country:first-child {
+                position: absolute;
+                -webkit-transform: translate(0%, -50%);
+                -ms-transform: translate(0%, -50%);
+                transform: translate(0%, -50%);
+                top: 50%;
+                left: 0;
+                width: calc(50% - 20px); }
+                main.market aside ul li.senior section.content span.counter div.country:first-child p,
+                main.market aside ul li.senior section.content span.counter div.country:first-child span {
+                  float: right; }
+                main.market aside ul li.senior section.content span.counter div.country:first-child span {
+                  margin: 0 0 0 5px; }
+              main.market aside ul li.senior section.content span.counter div.country:last-child {
+                position: absolute;
+                -webkit-transform: translate(0%, -50%);
+                -ms-transform: translate(0%, -50%);
+                transform: translate(0%, -50%);
+                top: 50%;
+                right: 0;
+                width: calc(50% - 25px); }
+              main.market aside ul li.senior section.content span.counter div.country span {
+                vertical-align: middle; }
+                main.market aside ul li.senior section.content span.counter div.country span.icon1 {
+                  background: url(../images/market/icon_country1.png) no-repeat;
+                  background-position: center center;
+                  background-size: cover;
+                  width: 25px;
+                  height: 17px; }
+                main.market aside ul li.senior section.content span.counter div.country span.icon2 {
+                  background: url(../images/market/icon_country2.png) no-repeat;
+                  background-position: center center;
+                  background-size: cover;
+                  width: 13px;
+                  height: 17px; }
+                main.market aside ul li.senior section.content span.counter div.country span.icon3 {
+                  background: url(../images/market/icon_country3.png) no-repeat;
+                  background-position: center center;
+                  background-size: cover;
+                  width: 14px;
+                  height: 16px; }
+                main.market aside ul li.senior section.content span.counter div.country span.icon4 {
+                  background: url(../images/market/icon_country4.png) no-repeat;
+                  background-position: center center;
+                  background-size: cover;
+                  width: 18px;
+                  height: 17px; }
+                main.market aside ul li.senior section.content span.counter div.country span.icon5 {
+                  background: url(../images/market/icon_country5.png) no-repeat;
+                  background-position: center center;
+                  background-size: cover;
+                  width: 13px;
+                  height: 15px; }
+                main.market aside ul li.senior section.content span.counter div.country span.icon6 {
+                  background: url(../images/market/icon_country6.png) no-repeat;
+                  background-position: center center;
+                  background-size: cover;
+                  width: 13px;
+                  height: 17px; }
+                main.market aside ul li.senior section.content span.counter div.country span.icon7 {
+                  background: url(../images/market/icon_country7.png) no-repeat;
+                  background-position: center center;
+                  background-size: cover;
+                  width: 17px;
+                  height: 17px; }
+                main.market aside ul li.senior section.content span.counter div.country span.icon8 {
+                  background: url(../images/market/icon_country8.png) no-repeat;
+                  background-position: center center;
+                  background-size: cover;
+                  width: 16px;
+                  height: 17px; }
+            main.market aside ul li.senior section.content span.num_group {
+              width: 100%;
+              text-align: center; }
+              main.market aside ul li.senior section.content span.num_group div {
+                display: inline-block;
+                text-align: center;
+                width: 25%;
+                line-height: 20px;
+                background-color: #f6f8ff; }
+                main.market aside ul li.senior section.content span.num_group div p {
+                  color: #838ba0;
+                  line-height: 16px;
+                  font-size: 1.7vh;
+                  vertical-align: bottom;
+                  display: inline-block;
+                  width: 100%; }
+                main.market aside ul li.senior section.content span.num_group div span {
+                  color: #1b255c;
+                  line-height: 20px;
+                  font-size: 1.7vh;
+                  font-weight: bold; }
+                main.market aside ul li.senior section.content span.num_group div.tie {
+                  margin: 0 5px 0 5px; }
 
 footer ul li.teach span {
   background: url(../images/market/teach.png) no-repeat;
@@ -1568,6 +1850,14 @@ main {
             border-radius: 8px;
             z-index: -1;
             border: none; }
+    main article.menu ul.today {
+      display: block; }
+    main article.menu ul.run_ball {
+      display: none; }
+    main article.menu ul.early {
+      display: none; }
+    main article.menu ul.double {
+      display: none; }
     main article.menu ul.game_kinds {
       width: calc(87% - 10px);
       overflow-y: scroll;
@@ -1908,7 +2198,7 @@ aside.hot_windows {
               width: 28px; }
           aside.hot_windows article.bg ul li div.lc p.name, aside.hot_windows article.bg ul li div.rc p.name {
             margin: 0.5vh 0 0 0;
-            font-family: '微軟正黑體';
+            font-family: "微軟正黑體";
             font-size: 1.6vh;
             line-height: 17px; }
         aside.hot_windows article.bg ul li span.data {
@@ -1920,7 +2210,7 @@ aside.hot_windows {
           transform: translate(-50%, -50%);
           text-align: center; }
           aside.hot_windows article.bg ul li span.data p.g_name {
-            font-family: '微軟正黑體';
+            font-family: "微軟正黑體";
             font-weight: normal;
             font-size: 2vh; }
           aside.hot_windows article.bg ul li span.data p.time {
@@ -1934,7 +2224,6 @@ aside.hot_windows {
       display: inline-block;
       position: relative;
       float: right;
-      right: 0;
       top: -10%;
       width: 28px;
       height: 28px;
@@ -1987,9 +2276,9 @@ aside.hot_windows {
         display: inline-block;
         line-height: 20px;
         width: 55px;
-        font-family: '微軟正黑體'; }
+        font-family: "微軟正黑體"; }
     aside.hot_windows article.bg span.get_one {
-      font-family: '微軟正黑體';
+      font-family: "微軟正黑體";
       font-size: 2.1vh;
       text-align: center;
       position: absolute;
@@ -2040,7 +2329,7 @@ aside.title_windows {
     margin: 0 auto;
     border-radius: 15px; }
     aside.title_windows ul.bg li {
-      font-family: '微軟正黑體';
+      font-family: "微軟正黑體";
       font-weight: normal;
       text-align: center; }
       aside.title_windows ul.bg li.title {

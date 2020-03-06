@@ -432,345 +432,704 @@ main {
         height: auto;
         background-color: #f7f7f7;
         padding: 0 0 5px 0;
-
+     
+    
+        
         li {
           background-color: #fff;
           width: auto;
           margin: 0 1.5vw 5px 1.5vw;
           height: auto;
-
-          span {
-            display: inline-block;
-            &.title {
-              width: 100%;
-              height: 3.5vh;
-              padding: 0 1.5vw 0 1.5vw;
-              position: relative;
-              p {
-                display: inline-block;
-                color: #1b255c;
-                font-weight: bold;
-                font-size: 1.8vh;
+          &.beginner{
+            span {
+              display: inline-block;
+              &.title {
+                width: 100%;
+                height: 3.5vh;
+                padding: 0 1.5vw 0 1.5vw;
+                position: relative;
+                p {
+                  display: inline-block;
+                  color: #1b255c;
+                  font-weight: bold;
+                  font-size: 1.8vh;
+                }
+                span {
+                  display: inline-block;
+                  float: right;
+                  &.down_arrow {
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 1.5vh;
+                    width: 16px;
+                    &:after,
+                    &:before {
+                      content: "";
+                      position: absolute;
+                      background-color: #838ba0;
+                      width: 50%;
+                      height: 1px;
+                    }
+                    &:before {
+                      transform: translate(0%, -50%) rotate(45deg);
+                      left: 10%;
+                      top: 50%;
+                    }
+                    &:after {
+                      transform: translate(0%, -50%) rotate(-45deg);
+                      right: 9%;
+                      top: 50%;
+                    }
+                  }
+                }
               }
-              span {
-                display: inline-block;
-                float: right;
-                &.down_arrow {
-                  position: relative;
-                  top: 50%;
-                  transform: translateY(-50%);
-                  height: 1.5vh;
-                  width: 16px;
-                  &:after,
-                  &:before {
-                    content: "";
-                    position: absolute;
-                    background-color: #838ba0;
-                    width: 50%;
-                    height: 1px;
+            }
+            section {
+              &.content {
+                padding: 0 1.5vw 10px 1.5vw;
+                border-top: 2px solid #e0e3f3;
+                &.empty{
+                  span{
+                    &.counter{
+                      p{
+                        &.mid{
+                          color: #838ba0;
+                        }
+                      }
+                      div{
+                        &.country{
+                          p{
+                            color: #838ba0;
+                            
+                          }
+                        }
+                      }
+                    }
+                    &.num_group{
+                      div{
+                        line-height: 36px;
+                      }
+                    }
                   }
-                  &:before {
-                    transform: translate(0%, -50%) rotate(45deg);
-                    left: 10%;
-                    top: 50%;
+                }
+                span {
+                  display: inline-block;
+                  &.time_more {
+                    height: 3vh;
+                    width: 100%;
+                    span {
+                      display: inline-block;
+                      &.time {
+                        color: #838ba0;
+                        margin: 0 0 0 3px;
+                        font-size: 1.7vh;
+                        height: auto;
+                        line-height: 1.7vh;
+                        vertical-align: bottom;
+                        font-weight: lighter;
+                        p {
+                          display: inline-block;
+                        }
+                      }
+                    }
+                    div {
+                      display: inline-block;
+                      &.icon_game {
+                        position: relative;
+                        width: 25px;
+                        height: 15px;
+                        line-height: 15px;
+                        vertical-align: bottom;
+                        background: url(../images/market/game_icon.png) no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        &.yet.yet.yet{
+                          background: url(../images/market/game_icon_y.png)no-repeat;
+                          background-size: cover;
+                          background-position: center center;
+                        }
+                      }
+                      &.icon_live {
+                        position: relative;
+                        width: 23px;
+                        height: 20px;
+                        line-height: 15px;
+                        vertical-align: bottom;
+                        background: url(../images/market/tv_icon.png) no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        &.yet.yet.yet {
+                          background: url(../images/market/tv_icon_y.png) no-repeat;
+                          background-size: cover;
+                          background-position: center center;
+                        }
+                      }
+                      &.more {
+                        float: right;
+                        height: 100%;
+                        white-space: nowrap;
+                        font-size: 1.6vh;
+                        color: #838ba0;
+                        display: flex;
+                        align-items: flex-end;
+  
+                        p {
+                          display: inline-block;
+                          height: 1.9vh;
+                          line-height: 1.9vh;
+                          vertical-align: bottom;
+                          font-size: 1.9vh;
+                        }
+                        span {
+                          height: 1.9vh;
+                          line-height: 1.9vh;
+                          vertical-align: bottom;
+                          &.num {
+                            margin-bottom: -2%;
+                            font-size: 1.2vh;
+                          }
+                          &.right_arrow {
+                            position: relative;
+                            transform: rotate(-90deg);
+                            height: 1.2vh;
+                            width: 16px;
+                            margin-bottom: 4%;
+                            &:after,
+                            &:before {
+                              content: "";
+                              position: absolute;
+                              background-color: #838ba0;
+                              width: 50%;
+                              height: 1px;
+                              vertical-align: bottom;
+                            }
+                            &:before {
+                              transform: translate(0%, -50%) rotate(45deg);
+                              left: 10%;
+                              top: 50%;
+                            }
+                            &:after {
+                              transform: translate(0%, -50%) rotate(-45deg);
+                              right: 9%;
+                              top: 50%;
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
-                  &:after {
-                    transform: translate(0%, -50%) rotate(-45deg);
-                    right: 9%;
-                    top: 50%;
+                  &.counter {
+                    width: 100%;
+                    height: 4vh;
+                    white-space: nowrap;
+                    position: relative;
+                    div,
+                    span,
+                    p {
+                      display: inline-block;
+                    }
+                    p {
+                      vertical-align: middle;
+                      color: #1b255c;
+                      &.name {
+                        font-size: 1.7vh;
+                        vertical-align: middle;
+                        white-space: nowrap;
+                      }
+                      &.mid {
+                        // margin: 0 20px 0 20px;
+  
+                        position: absolute;
+                        transform: translate(-50%, -50%);
+                        top: 50%;
+                        left: 50%;
+                      }
+                    }
+                    div {
+                      &.country {
+                        &:first-child {
+                          position: absolute;
+                          transform: translate(0%, -50%);
+                          top: 50%;
+                          left: 0;
+                          width: calc(50% - 20px);
+                          p,
+                          span {
+                            float: right;
+                          }
+                          span {
+                            margin: 0 0 0 5px;
+                          }
+                        }
+                        &:last-child {
+                          position: absolute;
+                          transform: translate(0%, -50%);
+                          top: 50%;
+                          right: 0;
+                          width: calc(50% - 25px);
+                        }
+  
+                        span {
+                          vertical-align: middle;
+                          &.icon1 {
+                            background: url(../images/market/icon_country1.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 25px;
+                            height: 17px;
+                          }
+                          &.icon2 {
+                            background: url(../images/market/icon_country2.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 13px;
+                            height: 17px;
+                          }
+                          &.icon3 {
+                            background: url(../images/market/icon_country3.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 14px;
+                            height: 16px;
+                          }
+                          &.icon4 {
+                            background: url(../images/market/icon_country4.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 18px;
+                            height: 17px;
+                          }
+                          &.icon5 {
+                            background: url(../images/market/icon_country5.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 13px;
+                            height: 15px;
+                          }
+                          &.icon6 {
+                            background: url(../images/market/icon_country6.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 13px;
+                            height: 17px;
+                          }
+                          &.icon7 {
+                            background: url(../images/market/icon_country7.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 17px;
+                            height: 17px;
+                          }
+                          &.icon8 {
+                            background: url(../images/market/icon_country8.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 16px;
+                            height: 17px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  &.num_group {
+                    width: 100%;
+                    text-align: center;
+                   
+                    div {
+                      display: inline-block;
+                      text-align: center;
+                      width: 25%;
+                    
+                      line-height: 20px;
+                      background-color: #f6f8ff;
+                      p {
+                        color: #838ba0;
+                        line-height: 16px;
+                        font-size: 1.7vh;
+                        vertical-align: bottom;
+                        display: inline-block;
+                        width: 100%;
+                      }
+                      span {
+                        color: #1b255c;
+                        line-height: 20px;
+                        font-size: 1.7vh;
+                        font-weight: bold;
+                      }
+                      &.tie {
+                        margin: 0 5px 0 5px;
+                      }
+                    }
                   }
                 }
               }
             }
           }
-          section {
-            &.content {
-              padding: 0 1.5vw 10px 1.5vw;
-              border-top: 2px solid #e0e3f3;
-              &.empty{
-                span{
-                  &.counter{
-                    p{
-                      &.mid{
-                        color: #838ba0;
-                      }
+          &.senior{
+            display: none;
+            span {
+              display: inline-block;
+              &.title {
+                width: 100%;
+                height: 3.5vh;
+                padding: 0 1.5vw 0 1.5vw;
+                position: relative;
+                p {
+                  display: inline-block;
+                  color: #1b255c;
+                  font-weight: bold;
+                  font-size: 1.8vh;
+                }
+                span {
+                  display: inline-block;
+                  float: right;
+                  &.down_arrow {
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 1.5vh;
+                    width: 16px;
+                    &:after,
+                    &:before {
+                      content: "";
+                      position: absolute;
+                      background-color: #838ba0;
+                      width: 50%;
+                      height: 1px;
                     }
-                    div{
-                      &.country{
-                        p{
-                          color: #838ba0;
-                          
-                        }
-                      }
+                    &:before {
+                      transform: translate(0%, -50%) rotate(45deg);
+                      left: 10%;
+                      top: 50%;
                     }
-                  }
-                  &.num_group{
-                    div{
-                      line-height: 36px;
+                    &:after {
+                      transform: translate(0%, -50%) rotate(-45deg);
+                      right: 9%;
+                      top: 50%;
                     }
                   }
                 }
               }
-              span {
-                display: inline-block;
-                &.time_more {
-                  height: 3vh;
-                  width: 100%;
-                  span {
-                    display: inline-block;
-                    &.time {
-                      color: #838ba0;
-                      margin: 0 0 0 3px;
-                      font-size: 1.7vh;
-                      height: auto;
-                      line-height: 1.7vh;
-                      vertical-align: bottom;
-                      font-weight: lighter;
-                      p {
-                        display: inline-block;
+            }
+            section {
+              &.content {
+                padding: 0 1.5vw 10px 1.5vw;
+                border-top: 2px solid #e0e3f3;
+                &.empty{
+                  span{
+                    &.counter{
+                      p{
+                        &.mid{
+                          color: #838ba0;
+                        }
+                      }
+                      div{
+                        &.country{
+                          p{
+                            color: #838ba0;
+                            
+                          }
+                        }
+                      }
+                    }
+                    &.num_group{
+                      div{
+                        line-height: 36px;
                       }
                     }
                   }
-                  div {
-                    display: inline-block;
-                    &.icon_game {
-                      position: relative;
-                      width: 25px;
-                      height: 15px;
-                      line-height: 15px;
-                      vertical-align: bottom;
-                      background: url(../images/market/game_icon.png) no-repeat;
-                      background-size: cover;
-                      background-position: center center;
-                      &.yet.yet.yet{
-                        background: url(../images/market/game_icon_y.png)no-repeat;
-                        background-size: cover;
-                        background-position: center center;
+                }
+                div{
+                  &.senior_mode{
+                    height: 3vh;
+                    width: 100%;
+                    // border-bottom: 1px solid #e0e3f3;
+                    padding: 0;
+                    position: relative;
+                    &:before{
+                      position: absolute;
+                      content:'';
+                      bottom: 0;
+                      left: 50%;
+                      transform: translateX(-50%);
+                      background: #e0e3f3;
+                      width: 97vw;
+                      height: 1px;
+                    }
+                  }
+                }
+                span {
+                  display: inline-block;
+                
+                  &.time_more {
+                    line-height: 3vh;
+                    width: 100%;
+                    span {
+                      display: inline-block;
+                      &.time {
+                        color: #838ba0;
+                        margin: 0 0 0 3px;
+                        font-size: 1.7vh;
+                        height: auto;
+                        line-height: 1;
+                        vertical-align: middle;
+                        font-weight: lighter;
+                        p {
+                          display: inline-block;
+                        }
                       }
                     }
-                    &.icon_live {
-                      position: relative;
-                      width: 23px;
-                      height: 20px;
-                      line-height: 15px;
-                      vertical-align: bottom;
-                      background: url(../images/market/tv_icon.png) no-repeat;
-                      background-size: cover;
-                      background-position: center center;
-                      &.yet.yet.yet {
-                        background: url(../images/market/tv_icon_y.png) no-repeat;
+                    div {
+                      display: inline-block;
+                      &.icon_game {
+                        position: relative;
+                        width: 25px;
+                        height: 15px;
+                        line-height: 15px;
+                        vertical-align: bottom;
+                        background: url(../images/market/game_icon.png) no-repeat;
                         background-size: cover;
                         background-position: center center;
+                        &.yet.yet.yet{
+                          background: url(../images/market/game_icon_y.png)no-repeat;
+                          background-size: cover;
+                          background-position: center center;
+                        }
                       }
-                    }
-                    &.more {
-                      float: right;
-                      height: 100%;
-                      white-space: nowrap;
-                      font-size: 1.6vh;
-                      color: #838ba0;
-                      display: flex;
-                      align-items: flex-end;
-
-                      p {
-                        display: inline-block;
-                        height: 1.9vh;
-                        line-height: 1.9vh;
+                      &.icon_live {
+                        position: relative;
+                        width: 23px;
+                        height: 20px;
+                        line-height: 15px;
                         vertical-align: bottom;
-                        font-size: 1.9vh;
+                        background: url(../images/market/tv_icon.png) no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        &.yet.yet.yet {
+                          background: url(../images/market/tv_icon_y.png) no-repeat;
+                          background-size: cover;
+                          background-position: center center;
+                        }
                       }
-                      span {
-                        height: 1.9vh;
-                        line-height: 1.9vh;
-                        vertical-align: bottom;
-                        &.num {
-                          margin-bottom: -2%;
+                      &.more {
+                        float: right;
+                        height: 100%;
+                        white-space: nowrap;
+                        font-size: 1.6vh;
+                        color: #838ba0;
+                        display: flex;
+                        align-items: flex-end;
+  
+                        p {
+                          display: inline-block;
+                          height: 1.9vh;
+                          line-height: 1.9vh;
+                          vertical-align: bottom;
                           font-size: 1.2vh;
                         }
-                        &.right_arrow {
-                          position: relative;
-                          transform: rotate(-90deg);
-                          height: 1.2vh;
-                          width: 16px;
-                          margin-bottom: 4%;
-                          &:after,
-                          &:before {
-                            content: "";
-                            position: absolute;
-                            background-color: #838ba0;
-                            width: 50%;
-                            height: 1px;
-                            vertical-align: bottom;
-                          }
-                          &:before {
-                            transform: translate(0%, -50%) rotate(45deg);
-                            left: 10%;
-                            top: 50%;
-                          }
-                          &:after {
-                            transform: translate(0%, -50%) rotate(-45deg);
-                            right: 9%;
-                            top: 50%;
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-                &.counter {
-                  width: 100%;
-                  height: 4vh;
-                  white-space: nowrap;
-                  position: relative;
-                  div,
-                  span,
-                  p {
-                    display: inline-block;
-                  }
-                  p {
-                    vertical-align: middle;
-                    color: #1b255c;
-                    &.name {
-                      font-size: 1.7vh;
-                      vertical-align: middle;
-                      white-space: nowrap;
-                    }
-                    &.mid {
-                      // margin: 0 20px 0 20px;
-
-                      position: absolute;
-                      transform: translate(-50%, -50%);
-                      top: 50%;
-                      left: 50%;
-                    }
-                  }
-                  div {
-                    &.country {
-                      &:first-child {
-                        position: absolute;
-                        transform: translate(0%, -50%);
-                        top: 50%;
-                        left: 0;
-                        width: calc(50% - 20px);
-                        p,
                         span {
-                          float: right;
-                        }
-                        span {
-                          margin: 0 0 0 5px;
-                        }
-                      }
-                      &:last-child {
-                        position: absolute;
-                        transform: translate(0%, -50%);
-                        top: 50%;
-                        right: 0;
-                        width: calc(50% - 25px);
-                      }
-
-                      span {
-                        vertical-align: middle;
-                        &.icon1 {
-                          background: url(../images/market/icon_country1.png)
-                            no-repeat;
-                          background-position: center center;
-                          background-size: cover;
-                          width: 25px;
-                          height: 17px;
-                        }
-                        &.icon2 {
-                          background: url(../images/market/icon_country2.png)
-                            no-repeat;
-                          background-position: center center;
-                          background-size: cover;
-                          width: 13px;
-                          height: 17px;
-                        }
-                        &.icon3 {
-                          background: url(../images/market/icon_country3.png)
-                            no-repeat;
-                          background-position: center center;
-                          background-size: cover;
-                          width: 14px;
-                          height: 16px;
-                        }
-                        &.icon4 {
-                          background: url(../images/market/icon_country4.png)
-                            no-repeat;
-                          background-position: center center;
-                          background-size: cover;
-                          width: 18px;
-                          height: 17px;
-                        }
-                        &.icon5 {
-                          background: url(../images/market/icon_country5.png)
-                            no-repeat;
-                          background-position: center center;
-                          background-size: cover;
-                          width: 13px;
-                          height: 15px;
-                        }
-                        &.icon6 {
-                          background: url(../images/market/icon_country6.png)
-                            no-repeat;
-                          background-position: center center;
-                          background-size: cover;
-                          width: 13px;
-                          height: 17px;
-                        }
-                        &.icon7 {
-                          background: url(../images/market/icon_country7.png)
-                            no-repeat;
-                          background-position: center center;
-                          background-size: cover;
-                          width: 17px;
-                          height: 17px;
-                        }
-                        &.icon8 {
-                          background: url(../images/market/icon_country8.png)
-                            no-repeat;
-                          background-position: center center;
-                          background-size: cover;
-                          width: 16px;
-                          height: 17px;
+                          height: 1.9vh;
+                          line-height: 1.9vh;
+                          vertical-align: bottom;
+                          &.num {
+                            margin-bottom: -2%;
+                            font-size: 1.2vh;
+                          }
+                          &.right_arrow {
+                            position: relative;
+                            transform: rotate(-90deg);
+                            height: 1.2vh;
+                            width: 16px;
+                            margin-bottom: 4%;
+                            &:after,
+                            &:before {
+                              content: "";
+                              position: absolute;
+                              background-color: #838ba0;
+                              width: 50%;
+                              height: 1px;
+                              vertical-align: bottom;
+                            }
+                            &:before {
+                              transform: translate(0%, -50%) rotate(45deg);
+                              left: 10%;
+                              top: 50%;
+                            }
+                            &:after {
+                              transform: translate(0%, -50%) rotate(-45deg);
+                              right: 9%;
+                              top: 50%;
+                            }
+                          }
                         }
                       }
                     }
                   }
-                }
-                &.num_group {
-                  width: 100%;
-                  text-align: center;
-                 
-                  div {
-                    display: inline-block;
-                    text-align: center;
-                    width: 25%;
-                  
-                    line-height: 20px;
-                    background-color: #f6f8ff;
+                  &.counter {
+                    width: 100%;
+                    height: 4vh;
+                    white-space: nowrap;
+                    position: relative;
+                    div,
+                    span,
                     p {
-                      color: #838ba0;
-                      line-height: 16px;
-                      font-size: 1.7vh;
-                      vertical-align: bottom;
                       display: inline-block;
-                      width: 100%;
                     }
-                    span {
+                    p {
+                      vertical-align: middle;
                       color: #1b255c;
-                      line-height: 20px;
-                      font-size: 1.7vh;
-                      font-weight: bold;
+                      &.name {
+                        font-size: 1.7vh;
+                        vertical-align: middle;
+                        white-space: nowrap;
+                      }
+                      &.mid {
+                        // margin: 0 20px 0 20px;
+  
+                        position: absolute;
+                        transform: translate(-50%, -50%);
+                        top: 50%;
+                        left: 50%;
+                      }
                     }
-                    &.tie {
-                      margin: 0 5px 0 5px;
+                    div {
+                      &.country {
+                        &:first-child {
+                          position: absolute;
+                          transform: translate(0%, -50%);
+                          top: 50%;
+                          left: 0;
+                          width: calc(50% - 20px);
+                          p,
+                          span {
+                            float: right;
+                          }
+                          span {
+                            margin: 0 0 0 5px;
+                          }
+                        }
+                        &:last-child {
+                          position: absolute;
+                          transform: translate(0%, -50%);
+                          top: 50%;
+                          right: 0;
+                          width: calc(50% - 25px);
+                        }
+  
+                        span {
+                          vertical-align: middle;
+                          &.icon1 {
+                            background: url(../images/market/icon_country1.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 25px;
+                            height: 17px;
+                          }
+                          &.icon2 {
+                            background: url(../images/market/icon_country2.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 13px;
+                            height: 17px;
+                          }
+                          &.icon3 {
+                            background: url(../images/market/icon_country3.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 14px;
+                            height: 16px;
+                          }
+                          &.icon4 {
+                            background: url(../images/market/icon_country4.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 18px;
+                            height: 17px;
+                          }
+                          &.icon5 {
+                            background: url(../images/market/icon_country5.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 13px;
+                            height: 15px;
+                          }
+                          &.icon6 {
+                            background: url(../images/market/icon_country6.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 13px;
+                            height: 17px;
+                          }
+                          &.icon7 {
+                            background: url(../images/market/icon_country7.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 17px;
+                            height: 17px;
+                          }
+                          &.icon8 {
+                            background: url(../images/market/icon_country8.png)
+                              no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            width: 16px;
+                            height: 17px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  &.num_group {
+                    width: 100%;
+                    text-align: center;
+                   
+                    div {
+                      display: inline-block;
+                      text-align: center;
+                      width: 25%;
+                    
+                      line-height: 20px;
+                      background-color: #f6f8ff;
+                      p {
+                        color: #838ba0;
+                        line-height: 16px;
+                        font-size: 1.7vh;
+                        vertical-align: bottom;
+                        display: inline-block;
+                        width: 100%;
+                      }
+                      span {
+                        color: #1b255c;
+                        line-height: 20px;
+                        font-size: 1.7vh;
+                        font-weight: bold;
+                      }
+                      &.tie {
+                        margin: 0 5px 0 5px;
+                      }
                     }
                   }
                 }
               }
             }
           }
+          
         }
       }
     }
