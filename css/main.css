@@ -695,65 +695,6 @@ nav section div {
     font-size: 1.9vh;
     line-height: 3vh; }
 
-nav article.option {
-  height: 3.5vh;
-  background-color: #f7f7f7;
-  -webkit-box-shadow: inset 0px 3px 3px 0 #e0e0e0;
-  box-shadow: inset 0px 3px 3px 0 #e0e0e0; }
-  nav article.option div {
-    display: inline-block; }
-    nav article.option div.game_type {
-      color: #838ba0;
-      font-size: 1.9vh;
-      margin: 0 0 0 3vw; }
-      nav article.option div.game_type p {
-        display: inline-block;
-        font-family: "微軟正黑體"; }
-      nav article.option div.game_type span {
-        font-weight: lighter; }
-    nav article.option div.mode {
-      float: right;
-      background-color: #d8d9de;
-      border-radius: 12px;
-      width: 30vw;
-      height: 85%;
-      line-height: 3vh;
-      padding: 0 0.5%;
-      position: relative;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      top: 50%;
-      margin: 0 1vw 0 0; }
-      nav article.option div.mode span {
-        display: inline-block;
-        text-align: center;
-        position: relative;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        top: 50%;
-        width: 50%;
-        height: 80%;
-        border-radius: 12px; }
-        nav article.option div.mode span.active {
-          background: #fff; }
-          nav article.option div.mode span.active p {
-            color: #838ba0; }
-        nav article.option div.mode span p {
-          display: inline-block;
-          color: #fff;
-          font-size: 1.2vh;
-          position: relative;
-          -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-          top: 50%; }
-        nav article.option div.mode span:first-child {
-          float: left; }
-        nav article.option div.mode span:last-child {
-          float: right; }
-
 main.market {
   margin-top: calc(12.6vh + 10px);
   margin-bottom: 7vh;
@@ -783,6 +724,18 @@ main.market {
       vertical-align: middle;
       line-height: 17px;
       margin: 0 0 4px 0; }
+  main.market aside section.status.early {
+    border-top: 2px solid #fab419; }
+    main.market aside section.status.early div span {
+      display: inline-block;
+      background: url(../images/market/early_icon.png);
+      background-size: cover;
+      background-position: center center;
+      width: 15px;
+      height: 15px;
+      vertical-align: middle;
+      line-height: 17px;
+      margin: 0 0 4px 0; }
   main.market aside section.status div {
     margin: 0 0 0 3vw;
     line-height: 3vh;
@@ -802,11 +755,12 @@ main.market {
     main.market aside section.status div p {
       display: inline-block;
       color: #4d515d;
-      font-family: "微軟正黑體";
+      font-family: 'my_font';
       font-size: 1.9vh;
       line-height: 3vh; }
   main.market aside article.option {
     height: 3.5vh;
+    line-height: 3.5vh;
     background-color: #f7f7f7;
     -webkit-box-shadow: inset 0px 3px 3px 0 #e0e0e0;
     box-shadow: inset 0px 3px 3px 0 #e0e0e0; }
@@ -917,6 +871,12 @@ main.market {
       main.market aside ul li section.content {
         padding: 0 1.5vw 10px 1.5vw;
         border-top: 2px solid #e0e3f3; }
+        main.market aside ul li section.content.empty span.counter p.mid {
+          color: #838ba0; }
+        main.market aside ul li section.content.empty span.counter div.country p {
+          color: #838ba0; }
+        main.market aside ul li section.content.empty span.num_group div {
+          line-height: 36px; }
         main.market aside ul li section.content span {
           display: inline-block; }
           main.market aside ul li section.content span.time_more {
@@ -945,6 +905,10 @@ main.market {
                 background: url(../images/market/game_icon.png) no-repeat;
                 background-size: cover;
                 background-position: center center; }
+                main.market aside ul li section.content span.time_more div.icon_game.yet.yet.yet {
+                  background: url(../images/market/game_icon_y.png) no-repeat;
+                  background-size: cover;
+                  background-position: center center; }
               main.market aside ul li section.content span.time_more div.icon_live {
                 position: relative;
                 width: 23px;
@@ -954,6 +918,10 @@ main.market {
                 background: url(../images/market/tv_icon.png) no-repeat;
                 background-size: cover;
                 background-position: center center; }
+                main.market aside ul li section.content span.time_more div.icon_live.yet.yet.yet {
+                  background: url(../images/market/tv_icon_y.png) no-repeat;
+                  background-size: cover;
+                  background-position: center center; }
               main.market aside ul li section.content span.time_more div.more {
                 float: right;
                 height: 100%;
@@ -1164,13 +1132,31 @@ footer ul li.refresh span {
   height: 24px;
   display: inline-block; }
 
+nav.kinds ul.early {
+  font-family: 'my_font';
+  height: 5vh;
+  line-height: 5vh;
+  padding: 0 16px;
+  border-bottom: 1px solid #e0e3f3; }
+  nav.kinds ul.early li {
+    position: relative; }
+    nav.kinds ul.early li.active {
+      color: #4d515d; }
+      nav.kinds ul.early li.active:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: #7c87bc;
+        bottom: 0;
+        left: 0; }
+
+main.early_page {
+  margin-top: calc(17.6vh + 10px);
+  height: calc(100vh - 17.6vh - 7vh - 10px); }
+
 .en_name {
   font-family: Bahnschrift; }
-
-aside ul li section.content span.time_more div.icon_live.yet.yet.yet {
-  background: url(../images/market/tv_icon_y.png) no-repeat;
-  background-size: cover;
-  background-position: center center; }
 
 aside ul li section.content span.num_group div.esport_w.esport_w.esport_w {
   width: calc(50% - 10vw);
