@@ -769,7 +769,7 @@ main.market {
       main.market aside article.option div.game_type {
         color: #838ba0;
         font-size: 1.9vh;
-        margin: 0 0 0 3vw; }
+        margin: 0 0 0 4vw; }
         main.market aside article.option div.game_type p {
           display: inline-block;
           font-family: "微軟正黑體"; }
@@ -832,7 +832,7 @@ main.market {
         main.market aside ul li.beginner span.title {
           width: 100%;
           height: 3.5vh;
-          padding: 0 1.5vw 0 1.5vw;
+          padding: 0 2.5vw 0 2.5vw;
           position: relative; }
           main.market aside ul li.beginner span.title p {
             display: inline-block;
@@ -869,7 +869,7 @@ main.market {
                 right: 9%;
                 top: 50%; }
       main.market aside ul li.beginner section.content {
-        padding: 0 1.5vw 10px 1.5vw;
+        padding: 0 2.5vw 10px 2.5vw;
         border-top: 2px solid #e0e3f3; }
         main.market aside ul li.beginner section.content.empty span.counter p.mid {
           color: #838ba0; }
@@ -926,7 +926,6 @@ main.market {
                 float: right;
                 height: 100%;
                 white-space: nowrap;
-                font-size: 1.6vh;
                 color: #838ba0;
                 display: -webkit-box;
                 display: -ms-flexbox;
@@ -936,44 +935,35 @@ main.market {
                 align-items: flex-end; }
                 main.market aside ul li.beginner section.content span.time_more div.more p {
                   display: inline-block;
-                  height: 1.9vh;
-                  line-height: 1.9vh;
-                  vertical-align: bottom;
-                  font-size: 1.9vh; }
-                main.market aside ul li.beginner section.content span.time_more div.more span {
-                  height: 1.9vh;
-                  line-height: 1.9vh;
-                  vertical-align: bottom; }
-                  main.market aside ul li.beginner section.content span.time_more div.more span.num {
-                    margin-bottom: -2%;
-                    font-size: 1.2vh; }
-                  main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow {
-                    position: relative;
-                    -webkit-transform: rotate(-90deg);
-                    -ms-transform: rotate(-90deg);
-                    transform: rotate(-90deg);
-                    height: 1.2vh;
-                    width: 16px;
-                    margin-bottom: 4%; }
-                    main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
-                      content: "";
-                      position: absolute;
-                      background-color: #838ba0;
-                      width: 50%;
-                      height: 1px;
-                      vertical-align: bottom; }
-                    main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
-                      -webkit-transform: translate(0%, -50%) rotate(45deg);
-                      -ms-transform: translate(0%, -50%) rotate(45deg);
-                      transform: translate(0%, -50%) rotate(45deg);
-                      left: 10%;
-                      top: 50%; }
-                    main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after {
-                      -webkit-transform: translate(0%, -50%) rotate(-45deg);
-                      -ms-transform: translate(0%, -50%) rotate(-45deg);
-                      transform: translate(0%, -50%) rotate(-45deg);
-                      right: 9%;
-                      top: 50%; }
+                  font-size: 1.2vh; }
+                main.market aside ul li.beginner section.content span.time_more div.more span.num {
+                  font-size: 1.2vh; }
+                main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow {
+                  position: relative;
+                  -webkit-transform: rotate(-90deg);
+                  -ms-transform: rotate(-90deg);
+                  transform: rotate(-90deg);
+                  height: 1.2vh;
+                  width: 16px;
+                  margin-bottom: 6%; }
+                  main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
+                    content: "";
+                    position: absolute;
+                    background-color: #838ba0;
+                    width: 50%;
+                    height: 1px; }
+                  main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
+                    -webkit-transform: translate(0%, -50%) rotate(45deg);
+                    -ms-transform: translate(0%, -50%) rotate(45deg);
+                    transform: translate(0%, -50%) rotate(45deg);
+                    left: 10%;
+                    top: 50%; }
+                  main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after {
+                    -webkit-transform: translate(0%, -50%) rotate(-45deg);
+                    -ms-transform: translate(0%, -50%) rotate(-45deg);
+                    transform: translate(0%, -50%) rotate(-45deg);
+                    right: 9%;
+                    top: 50%; }
           main.market aside ul li.beginner section.content span.counter {
             width: 100%;
             height: 4vh;
@@ -1098,7 +1088,8 @@ main.market {
           main.market aside ul li.senior span.title {
             width: 100%;
             height: 3.5vh;
-            padding: 0 1.5vw 0 1.5vw;
+            line-height: 3.5vh;
+            padding: 0 2.5vw 0 2.5vw;
             position: relative; }
             main.market aside ul li.senior span.title p {
               display: inline-block;
@@ -1135,7 +1126,7 @@ main.market {
                   right: 9%;
                   top: 50%; }
         main.market aside ul li.senior section.content {
-          padding: 0 1.5vw 10px 1.5vw;
+          padding: 0 2.5vw 10px 2.5vw;
           border-top: 2px solid #e0e3f3; }
           main.market aside ul li.senior section.content.empty span.counter p.mid {
             color: #838ba0; }
@@ -1163,12 +1154,12 @@ main.market {
             display: inline-block; }
             main.market aside ul li.senior section.content span.time_more {
               line-height: 3vh;
+              height: 3vh;
               width: 100%; }
               main.market aside ul li.senior section.content span.time_more span {
                 display: inline-block; }
                 main.market aside ul li.senior section.content span.time_more span.time {
                   color: #838ba0;
-                  margin: 0 0 0 3px;
                   font-size: 1.7vh;
                   height: auto;
                   line-height: 1;
@@ -1208,171 +1199,134 @@ main.market {
                   float: right;
                   height: 100%;
                   white-space: nowrap;
-                  font-size: 1.6vh;
                   color: #838ba0;
                   display: -webkit-box;
                   display: -ms-flexbox;
                   display: flex;
-                  -webkit-box-align: end;
-                  -ms-flex-align: end;
-                  align-items: flex-end; }
+                  -webkit-box-align: center;
+                  -ms-flex-align: center;
+                  align-items: center; }
                   main.market aside ul li.senior section.content span.time_more div.more p {
                     display: inline-block;
-                    height: 1.9vh;
-                    line-height: 1.9vh;
-                    vertical-align: bottom;
                     font-size: 1.2vh; }
-                  main.market aside ul li.senior section.content span.time_more div.more span {
-                    height: 1.9vh;
-                    line-height: 1.9vh;
-                    vertical-align: bottom; }
-                    main.market aside ul li.senior section.content span.time_more div.more span.num {
-                      margin-bottom: -2%;
-                      font-size: 1.2vh; }
-                    main.market aside ul li.senior section.content span.time_more div.more span.right_arrow {
-                      position: relative;
-                      -webkit-transform: rotate(-90deg);
-                      -ms-transform: rotate(-90deg);
-                      transform: rotate(-90deg);
-                      height: 1.2vh;
-                      width: 16px;
-                      margin-bottom: 4%; }
-                      main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:before {
-                        content: "";
-                        position: absolute;
-                        background-color: #838ba0;
-                        width: 50%;
-                        height: 1px;
-                        vertical-align: bottom; }
-                      main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:before {
-                        -webkit-transform: translate(0%, -50%) rotate(45deg);
-                        -ms-transform: translate(0%, -50%) rotate(45deg);
-                        transform: translate(0%, -50%) rotate(45deg);
-                        left: 10%;
-                        top: 50%; }
-                      main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:after {
-                        -webkit-transform: translate(0%, -50%) rotate(-45deg);
-                        -ms-transform: translate(0%, -50%) rotate(-45deg);
-                        transform: translate(0%, -50%) rotate(-45deg);
-                        right: 9%;
-                        top: 50%; }
-            main.market aside ul li.senior section.content span.counter {
+                  main.market aside ul li.senior section.content span.time_more div.more span.num {
+                    font-size: 1.2vh; }
+                  main.market aside ul li.senior section.content span.time_more div.more span.right_arrow {
+                    position: relative;
+                    -webkit-transform: rotate(-90deg);
+                    -ms-transform: rotate(-90deg);
+                    transform: rotate(-90deg);
+                    height: 1.2vh;
+                    width: 16px;
+                    line-height: 1;
+                    margin: 0 0 4% -5%; }
+                    main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:before {
+                      content: "";
+                      position: absolute;
+                      background-color: #838ba0;
+                      width: 50%;
+                      height: 1px; }
+                    main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:before {
+                      -webkit-transform: translate(0%, -50%) rotate(45deg);
+                      -ms-transform: translate(0%, -50%) rotate(45deg);
+                      transform: translate(0%, -50%) rotate(45deg);
+                      left: 10%;
+                      top: 50%; }
+                    main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:after {
+                      -webkit-transform: translate(0%, -50%) rotate(-45deg);
+                      -ms-transform: translate(0%, -50%) rotate(-45deg);
+                      transform: translate(0%, -50%) rotate(-45deg);
+                      right: 9%;
+                      top: 50%; }
+            main.market aside ul li.senior section.content span.point_box {
               width: 100%;
-              height: 4vh;
-              white-space: nowrap;
-              position: relative; }
-              main.market aside ul li.senior section.content span.counter div,
-              main.market aside ul li.senior section.content span.counter span,
-              main.market aside ul li.senior section.content span.counter p {
-                display: inline-block; }
-              main.market aside ul li.senior section.content span.counter p {
-                vertical-align: middle;
-                color: #1b255c; }
-                main.market aside ul li.senior section.content span.counter p.name {
-                  font-size: 1.7vh;
-                  vertical-align: middle;
-                  white-space: nowrap; }
-                main.market aside ul li.senior section.content span.counter p.mid {
-                  position: absolute;
-                  -webkit-transform: translate(-50%, -50%);
-                  -ms-transform: translate(-50%, -50%);
-                  transform: translate(-50%, -50%);
-                  top: 50%;
-                  left: 50%; }
-              main.market aside ul li.senior section.content span.counter div.country:first-child {
-                position: absolute;
-                -webkit-transform: translate(0%, -50%);
-                -ms-transform: translate(0%, -50%);
-                transform: translate(0%, -50%);
-                top: 50%;
-                left: 0;
-                width: calc(50% - 20px); }
-                main.market aside ul li.senior section.content span.counter div.country:first-child p,
-                main.market aside ul li.senior section.content span.counter div.country:first-child span {
-                  float: right; }
-                main.market aside ul li.senior section.content span.counter div.country:first-child span {
-                  margin: 0 0 0 5px; }
-              main.market aside ul li.senior section.content span.counter div.country:last-child {
-                position: absolute;
-                -webkit-transform: translate(0%, -50%);
-                -ms-transform: translate(0%, -50%);
-                transform: translate(0%, -50%);
-                top: 50%;
-                right: 0;
-                width: calc(50% - 25px); }
-              main.market aside ul li.senior section.content span.counter div.country span {
-                vertical-align: middle; }
-                main.market aside ul li.senior section.content span.counter div.country span.icon1 {
-                  background: url(../images/market/icon_country1.png) no-repeat;
-                  background-position: center center;
-                  background-size: cover;
-                  width: 25px;
-                  height: 17px; }
-                main.market aside ul li.senior section.content span.counter div.country span.icon2 {
-                  background: url(../images/market/icon_country2.png) no-repeat;
-                  background-position: center center;
-                  background-size: cover;
-                  width: 13px;
-                  height: 17px; }
-                main.market aside ul li.senior section.content span.counter div.country span.icon3 {
-                  background: url(../images/market/icon_country3.png) no-repeat;
-                  background-position: center center;
-                  background-size: cover;
-                  width: 14px;
-                  height: 16px; }
-                main.market aside ul li.senior section.content span.counter div.country span.icon4 {
-                  background: url(../images/market/icon_country4.png) no-repeat;
-                  background-position: center center;
-                  background-size: cover;
-                  width: 18px;
-                  height: 17px; }
-                main.market aside ul li.senior section.content span.counter div.country span.icon5 {
-                  background: url(../images/market/icon_country5.png) no-repeat;
-                  background-position: center center;
-                  background-size: cover;
-                  width: 13px;
-                  height: 15px; }
-                main.market aside ul li.senior section.content span.counter div.country span.icon6 {
-                  background: url(../images/market/icon_country6.png) no-repeat;
-                  background-position: center center;
-                  background-size: cover;
-                  width: 13px;
-                  height: 17px; }
-                main.market aside ul li.senior section.content span.counter div.country span.icon7 {
-                  background: url(../images/market/icon_country7.png) no-repeat;
-                  background-position: center center;
-                  background-size: cover;
-                  width: 17px;
-                  height: 17px; }
-                main.market aside ul li.senior section.content span.counter div.country span.icon8 {
-                  background: url(../images/market/icon_country8.png) no-repeat;
-                  background-position: center center;
-                  background-size: cover;
-                  width: 16px;
-                  height: 17px; }
-            main.market aside ul li.senior section.content span.num_group {
-              width: 100%;
-              text-align: center; }
-              main.market aside ul li.senior section.content span.num_group div {
-                display: inline-block;
-                text-align: center;
-                width: 25%;
-                line-height: 20px;
-                background-color: #f6f8ff; }
-                main.market aside ul li.senior section.content span.num_group div p {
-                  color: #838ba0;
-                  line-height: 16px;
-                  font-size: 1.7vh;
-                  vertical-align: bottom;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+              justify-content: space-between; }
+              main.market aside ul li.senior section.content span.point_box span.counter {
+                width: 48%;
+                height: 15vh;
+                position: relative; }
+                main.market aside ul li.senior section.content span.point_box span.counter div,
+                main.market aside ul li.senior section.content span.point_box span.counter span,
+                main.market aside ul li.senior section.content span.point_box span.counter p {
+                  display: inline-block; }
+                main.market aside ul li.senior section.content span.point_box span.counter p {
+                  color: #1b255c; }
+                  main.market aside ul li.senior section.content span.point_box span.counter p.name {
+                    font-size: 1.7vh;
+                    vertical-align: bottom;
+                    line-height: 1;
+                    white-space: nowrap; }
+                main.market aside ul li.senior section.content span.point_box span.counter div {
+                  width: 100%;
                   display: inline-block;
-                  width: 100%; }
-                main.market aside ul li.senior section.content span.num_group div span {
-                  color: #1b255c;
-                  line-height: 20px;
-                  font-size: 1.7vh;
-                  font-weight: bold; }
-                main.market aside ul li.senior section.content span.num_group div.tie {
-                  margin: 0 5px 0 5px; }
+                  line-height: calc(15vh / 3); }
+                  main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game {
+                    position: relative;
+                    width: 25px;
+                    height: 15px;
+                    line-height: 1;
+                    vertical-align: bottom;
+                    background: url(../images/market/game_icon.png) no-repeat;
+                    background-size: cover;
+                    background-position: center center; }
+                    main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game.yet.yet.yet {
+                      background: url(../images/market/game_icon_y.png) no-repeat;
+                      background-size: cover;
+                      background-position: center center; }
+                  main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live {
+                    position: relative;
+                    width: 23px;
+                    height: 20px;
+                    line-height: 1;
+                    vertical-align: bottom;
+                    background: url(../images/market/tv_icon.png) no-repeat;
+                    background-size: cover;
+                    background-position: center center; }
+                    main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.yet.yet.yet {
+                      background: url(../images/market/tv_icon_y.png) no-repeat;
+                      background-size: cover;
+                      background-position: center center; }
+              main.market aside ul li.senior section.content span.point_box span.num_group {
+                width: 50%;
+                text-align: left;
+                height: 15vh; }
+                main.market aside ul li.senior section.content span.point_box span.num_group span.solo_win {
+                  width: calc(100% / 3);
+                  text-align: center; }
+                  main.market aside ul li.senior section.content span.point_box span.num_group span.solo_win div {
+                    width: 100%;
+                    height: calc(15vh / 3 - 3px);
+                    margin: 0 0 3px 0; }
+                    main.market aside ul li.senior section.content span.point_box span.num_group span.solo_win div p {
+                      margin: 0 0 0.5vh 0; }
+                main.market aside ul li.senior section.content span.point_box span.num_group div {
+                  display: inline-block;
+                  background-color: #f6f8ff;
+                  display: -webkit-box;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -webkit-box-orient: vertical;
+                  -webkit-box-direction: normal;
+                  -ms-flex-direction: column;
+                  flex-direction: column;
+                  -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                  justify-content: center; }
+                  main.market aside ul li.senior section.content span.point_box span.num_group div p {
+                    color: #838ba0;
+                    line-height: 1;
+                    font-size: 1.7vh;
+                    display: inline-block; }
+                  main.market aside ul li.senior section.content span.point_box span.num_group div span {
+                    color: #1b255c;
+                    line-height: 1;
+                    font-size: 1.7vh;
+                    font-weight: bold; }
 
 footer ul li.teach span {
   background: url(../images/market/teach.png) no-repeat;
