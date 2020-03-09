@@ -804,6 +804,7 @@ main.market {
           top: 50%;
           width: 50%;
           height: 80%;
+          line-height: 80%;
           border-radius: 12px; }
           main.market aside article.option div.mode span.active {
             background: #fff; }
@@ -817,7 +818,8 @@ main.market {
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-            top: 50%; }
+            top: 50%;
+            line-height: 1; }
           main.market aside article.option div.mode span:first-child {
             float: left; }
           main.market aside article.option div.mode span:last-child {

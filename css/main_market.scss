@@ -404,6 +404,7 @@ main {
                 top: 50%;
                 width: 50%;
                 height: 80%;
+                line-height: 80%;
                 border-radius: 12px;
                 &.active {
                   background: #fff;
@@ -418,6 +419,7 @@ main {
                   position: relative;
                   transform: translateY(-50%);
                   top: 50%;
+                  line-height: 1;
                 }
                 &:first-child {
                   float: left;
