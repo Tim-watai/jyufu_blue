@@ -31,6 +31,15 @@ $('main.market aside article.option div.mode span').click(
     }
 
 );
+$('main.market aside ul li.senior section.content span.point_box span.num_group span div').click(
+    function(){
+        if($(this).hasClass('active') != true){
+            return $(this).addClass('active');
+        }else {
+            return $(this).removeClass('active');
+        }
+    }
+);
 
 
 

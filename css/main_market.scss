@@ -844,9 +844,7 @@ main {
                       }
                     }
                     &.num_group{
-                      div{
-                        line-height: 36px;
-                      }
+                  
                     }
                   }
                 }
@@ -1065,6 +1063,12 @@ main {
                         height: 15vh;
                         display: flex;
                         span{
+                          div{
+                            pointer-events: all;
+                            &.active{
+                              background: #d3dbff;
+                            }
+                          }
                           &.left_side{
                             width:  calc(100% / 3 - 3px);
                             text-align: center;
