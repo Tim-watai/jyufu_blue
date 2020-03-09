@@ -4,6 +4,7 @@
 @import "soccer_page.scss";
 @import "main_market.scss";
 @import "market_soccer_early.scss";
+@import "market_soccer_double.scss";
 @import "market_esport.scss";
 @import "animation.scss";
 
@@ -667,11 +668,16 @@ main {
 footer {
   @include size(100%, 7vh);
   position: fixed;
+  z-index: 10;
   bottom: 0;
   left: 0;
   box-shadow: 0 -3px 5px 0 #e2e2e2;
   border-top-left-radius: 20px 20px;
   border-top-right-radius: 20px 20px;
+  background: #fff;
+  &.double_mode{
+    box-shadow: none;
+  }
   ul {
     width: calc(100% - 20px);
     height: 100%;

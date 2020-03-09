@@ -126,7 +126,8 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  line-height: 1.5; }
+  line-height: 1.5;
+  background: #f7f7f7; }
 
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
@@ -551,7 +552,8 @@ nav.kinds {
     overflow: hidden;
     overflow-x: scroll;
     white-space: nowrap;
-    padding: 0 30px; }
+    padding: 0 30px;
+    background: #fff; }
     nav.kinds ul li {
       display: inline-block;
       width: auto;
@@ -667,7 +669,8 @@ nav section div {
   width: 65px;
   height: 3vh;
   position: relative;
-  white-space: nowrap; }
+  white-space: nowrap;
+  background: #fff; }
   nav section div span.yet {
     display: inline-block;
     background: url(../images/market/yet.png);
@@ -700,64 +703,66 @@ main.market {
   margin-bottom: 7vh;
   height: calc(100vh - 12.6vh - 7vh - 10px);
   overflow-y: scroll; }
-  main.market aside section.status.yet {
-    border-top: 2px solid #ef6b5d; }
-    main.market aside section.status.yet div span {
-      display: inline-block;
-      background: url(../images/market/yet.png);
-      background-size: cover;
-      background-position: center center;
-      width: 15px;
-      height: 15px;
-      vertical-align: middle;
-      line-height: 17px;
-      margin: 0 0 4px 0; }
-  main.market aside section.status.doing {
-    border-top: 2px solid #5875e0; }
-    main.market aside section.status.doing div span {
-      display: inline-block;
-      background: url(../images/market/doing.png);
-      background-size: cover;
-      background-position: center center;
-      width: 15px;
-      height: 15px;
-      vertical-align: middle;
-      line-height: 17px;
-      margin: 0 0 4px 0; }
-  main.market aside section.status.early {
-    border-top: 2px solid #fab419; }
-    main.market aside section.status.early div span {
-      display: inline-block;
-      background: url(../images/market/early_icon.png);
-      background-size: cover;
-      background-position: center center;
-      width: 15px;
-      height: 15px;
-      vertical-align: middle;
-      line-height: 17px;
-      margin: 0 0 4px 0; }
-  main.market aside section.status div {
-    margin: 0 0 0 3vw;
-    line-height: 3vh;
-    width: 100%;
-    height: 3vh;
-    position: relative; }
-    main.market aside section.status div span.doing {
-      display: inline-block;
-      background: url(../images/market/doing.png);
-      background-size: cover;
-      background-position: center center;
-      width: 15px;
-      height: 15px;
-      vertical-align: middle;
-      line-height: 17px;
-      margin: 0 0 4px 0; }
-    main.market aside section.status div p {
-      display: inline-block;
-      color: #4d515d;
-      font-family: 'my_font';
-      font-size: 1.9vh;
-      line-height: 3vh; }
+  main.market aside section {
+    background: #fff; }
+    main.market aside section.status.yet {
+      border-top: 2px solid #ef6b5d; }
+      main.market aside section.status.yet div span {
+        display: inline-block;
+        background: url(../images/market/yet.png);
+        background-size: cover;
+        background-position: center center;
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+        line-height: 17px;
+        margin: 0 0 4px 0; }
+    main.market aside section.status.doing {
+      border-top: 2px solid #5875e0; }
+      main.market aside section.status.doing div span {
+        display: inline-block;
+        background: url(../images/market/doing.png);
+        background-size: cover;
+        background-position: center center;
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+        line-height: 17px;
+        margin: 0 0 4px 0; }
+    main.market aside section.status.early {
+      border-top: 2px solid #fab419; }
+      main.market aside section.status.early div span {
+        display: inline-block;
+        background: url(../images/market/early_icon.png);
+        background-size: cover;
+        background-position: center center;
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+        line-height: 17px;
+        margin: 0 0 4px 0; }
+    main.market aside section.status div {
+      margin: 0 0 0 3vw;
+      line-height: 3vh;
+      width: 100%;
+      height: 3vh;
+      position: relative; }
+      main.market aside section.status div span.doing {
+        display: inline-block;
+        background: url(../images/market/doing.png);
+        background-size: cover;
+        background-position: center center;
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+        line-height: 17px;
+        margin: 0 0 4px 0; }
+      main.market aside section.status div p {
+        display: inline-block;
+        color: #4d515d;
+        font-family: 'my_font';
+        font-size: 1.9vh;
+        line-height: 3vh; }
   main.market aside article.option {
     height: 3.5vh;
     line-height: 3.5vh;
@@ -832,6 +837,7 @@ main.market {
         main.market aside ul li.beginner span.title {
           width: 100%;
           height: 3.5vh;
+          line-height: 3.5vh;
           padding: 0 2.5vw 0 2.5vw;
           position: relative; }
           main.market aside ul li.beginner span.title p {
@@ -1083,6 +1089,8 @@ main.market {
                 margin: 0 5px 0 5px; }
       main.market aside ul li.senior {
         display: none; }
+        main.market aside ul li.senior.double {
+          display: block; }
         main.market aside ul li.senior span {
           display: inline-block; }
           main.market aside ul li.senior span.title {
@@ -1437,6 +1445,74 @@ nav.kinds ul.early {
 main.early_page {
   margin-top: calc(17.6vh + 10px);
   height: calc(100vh - 17.6vh - 7vh - 10px); }
+
+main div.double_mode {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 15vh;
+  z-index: 1;
+  background: #959dc5;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  text-align: center; }
+  main div.double_mode span {
+    display: inline-block; }
+    main div.double_mode span.box {
+      width: 86vw;
+      height: 8vh;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      color: #fff; }
+      main div.double_mode span.box div.langth, main div.double_mode span.box div.balance {
+        width: 50%; }
+      main div.double_mode span.box div.langth {
+        text-align: left;
+        line-height: 8vh; }
+        main div.double_mode span.box div.langth p {
+          display: inline-block; }
+        main div.double_mode span.box div.langth span.num {
+          font-size: 16px;
+          font-weight: bold;
+          color: #959dc5;
+          background: #fff;
+          height: 23px;
+          width: 23px;
+          text-align: center;
+          line-height: 23px;
+          border-radius: 100%;
+          margin: 0 3px 0 0; }
+        main div.double_mode span.box div.langth p {
+          line-height: 1;
+          vertical-align: middle;
+          font-size: 2vh; }
+      main div.double_mode span.box div.balance {
+        text-align: right;
+        padding: 2vh 0 0 0; }
+        main div.double_mode span.box div.balance p {
+          font-size: 2vh; }
+          main div.double_mode span.box div.balance p.currency {
+            font-size: 1.2vh; }
+          main div.double_mode span.box div.balance p.cash {
+            font-size: 3vh;
+            font-weight: bold; }
+        main div.double_mode span.box div.balance span.double_arrow {
+          height: 13px;
+          width: 13px;
+          background: url(../images/double_arrow.png) no-repeat;
+          background-position: center center;
+          background-size: cover;
+          vertical-align: text-top;
+          margin: 0 0 0 5px; }
+        main div.double_mode span.box div.balance p, main div.double_mode span.box div.balance span {
+          display: inline-block;
+          line-height: 1;
+          vertical-align: sub; }
 
 .en_name {
   font-family: Bahnschrift; }
@@ -2045,12 +2121,17 @@ footer {
   width: 100%;
   height: 7vh;
   position: fixed;
+  z-index: 10;
   bottom: 0;
   left: 0;
   -webkit-box-shadow: 0 -3px 5px 0 #e2e2e2;
   box-shadow: 0 -3px 5px 0 #e2e2e2;
   border-top-left-radius: 20px 20px;
-  border-top-right-radius: 20px 20px; }
+  border-top-right-radius: 20px 20px;
+  background: #fff; }
+  footer.double_mode {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
   footer ul {
     width: calc(100% - 20px);
     height: 100%;
