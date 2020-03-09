@@ -1292,18 +1292,46 @@ main.market {
                       background-size: cover;
                       background-position: center center; }
               main.market aside ul li.senior section.content span.point_box span.num_group {
-                width: 50%;
+                width: 60%;
                 text-align: left;
-                height: 15vh; }
-                main.market aside ul li.senior section.content span.point_box span.num_group span.solo_win {
-                  width: calc(100% / 3);
-                  text-align: center; }
-                  main.market aside ul li.senior section.content span.point_box span.num_group span.solo_win div {
+                height: 15vh;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex; }
+                main.market aside ul li.senior section.content span.point_box span.num_group span.left_side {
+                  width: calc(100% / 3 - 3px);
+                  text-align: center;
+                  height: 100%;
+                  margin: 0 3px 0 0; }
+                  main.market aside ul li.senior section.content span.point_box span.num_group span.left_side div {
                     width: 100%;
                     height: calc(15vh / 3 - 3px);
                     margin: 0 0 3px 0; }
-                    main.market aside ul li.senior section.content span.point_box span.num_group span.solo_win div p {
+                    main.market aside ul li.senior section.content span.point_box span.num_group span.left_side div p {
                       margin: 0 0 0.5vh 0; }
+                main.market aside ul li.senior section.content span.point_box span.num_group span.mid_side {
+                  width: calc(100% / 3 - 3px);
+                  text-align: center;
+                  height: 100%;
+                  margin: 0 3px 0 0; }
+                  main.market aside ul li.senior section.content span.point_box span.num_group span.mid_side div {
+                    width: 100%;
+                    height: 50%;
+                    height: calc(15vh / 2 - 3px);
+                    margin: 0 0 3px 0; }
+                    main.market aside ul li.senior section.content span.point_box span.num_group span.mid_side div p {
+                      margin: 0 0 1.5vh 0; }
+                main.market aside ul li.senior section.content span.point_box span.num_group span.right_side {
+                  width: calc(100% / 3 - 3px);
+                  text-align: center;
+                  height: 100%; }
+                  main.market aside ul li.senior section.content span.point_box span.num_group span.right_side div {
+                    width: 100%;
+                    height: 50%;
+                    height: calc(15vh / 2 - 3px);
+                    margin: 0 0 3px 0; }
+                    main.market aside ul li.senior section.content span.point_box span.num_group span.right_side div p {
+                      margin: 0 0 1.5vh 0; }
                 main.market aside ul li.senior section.content span.point_box span.num_group div {
                   display: inline-block;
                   background-color: #f6f8ff;
