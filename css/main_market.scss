@@ -850,6 +850,25 @@ main {
                     // border-bottom: 1px solid #e0e3f3;
                     padding: 0;
                     position: relative;
+                    text-align: right;
+                    span{
+                      float: right;
+                      display: inline-block;
+                      width: 60%;
+                      height: 100%;
+                      display: flex;
+                      align-items: center;
+                      
+                      p{
+                        display: inline-block;
+                        font-size: 1.7vh;
+                        color: #4d515d;
+                        width: calc(100% / 3 - 3px);
+                        text-align: center;
+                        margin: 0 0 0 3px;
+                      }
+
+                    }
                     &:before{
                       position: absolute;
                       content:'';
@@ -972,7 +991,7 @@ main {
                     justify-content: space-between;
                     span{
                       &.counter {
-                        width: 48%;
+                        width: 40%;
                         height: 15vh;
                         position: relative;
                       

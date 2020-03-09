@@ -1138,7 +1138,26 @@ main.market {
             height: 3vh;
             width: 100%;
             padding: 0;
-            position: relative; }
+            position: relative;
+            text-align: right; }
+            main.market aside ul li.senior section.content div.senior_mode span {
+              float: right;
+              display: inline-block;
+              width: 60%;
+              height: 100%;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center; }
+              main.market aside ul li.senior section.content div.senior_mode span p {
+                display: inline-block;
+                font-size: 1.7vh;
+                color: #4d515d;
+                width: calc(100% / 3 - 3px);
+                text-align: center;
+                margin: 0 0 0 3px; }
             main.market aside ul li.senior section.content div.senior_mode:before {
               position: absolute;
               content: '';
@@ -1247,7 +1266,7 @@ main.market {
               -ms-flex-pack: justify;
               justify-content: space-between; }
               main.market aside ul li.senior section.content span.point_box span.counter {
-                width: 48%;
+                width: 40%;
                 height: 15vh;
                 position: relative; }
                 main.market aside ul li.senior section.content span.point_box span.counter div,
