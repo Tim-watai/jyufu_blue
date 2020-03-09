@@ -3,7 +3,7 @@ blue jyufu</br>
 ※下載下來用本地端開啟</br>
 目前做好的點擊</br>
 公告、熱門賽事、足球頁>足球市場列表、返回按鍵、電競頁>電競市場列表</br>
-8_finsh/24_項</br>
+9_finsh/24_項</br>
 1.首頁_彈窗_熱門finish</br>
 2.首頁_彈窗_公告finish</br>
 3.首頁_finish</br>
@@ -11,7 +11,7 @@ blue jyufu</br>
 5.首頁_圓環(足球版本首頁)finish</br>
 6.今日_專業版(足球)finish</br>
 7.早盤finish</br>
-8.串關(非足球專業版頁面_other)</br>
+8.串關(非足球專業版頁面_other)finish</br>
 9.串關_電競</br>
 10.賽事串關</br>
 11.賽是串關2</br>
