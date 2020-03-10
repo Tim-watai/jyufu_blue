@@ -1,0 +1,4 @@
+header.double_inner {
+  background: #000; }
+  header.double_inner ul.market li.back:before, header.double_inner ul.market li.back:after {
+    background-color: #fff; }
