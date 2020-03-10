@@ -1,30 +1,68 @@
 .en_name{
     font-family: Bahnschrift;
 }
-
-aside{
-    ul{
-        li{
-            section{
-                &.content{
-                    span{
-                        &.time_more{
-                            div{
-                                &.icon_live{
-                                    
+main{
+    &.market{
+        aside{
+            ul{
+                li{
+                    section{
+                        &.content{
+                            span{
+                               
+                                &.num_group{
+                                    div{
+                                        &.esport_w.esport_w.esport_w{
+                                            width: calc(50% - 10vw);
+                                            margin: 0;
+                                            span{
+                                                margin: 5px 0 5px 0;
+                                            }
+                                        }
+                                        
+                                    }
                                 }
                             }
                         }
-                        &.num_group{
-                            div{
-                                &.esport_w.esport_w.esport_w{
-                                    width: calc(50% - 10vw);
-                                    margin: 0;
+                    }
+                    
+                    &.senior{
+                        &.e_sport{
+                           
+                            section{
+                                &.content{
+                                    padding: 0 2.5vw 0px 2.5vw;
                                     span{
-                                        margin: 5px 0 5px 0;
+                                        &.point_box{
+                                            span{
+                                                &.counter{
+                                                    height: 14vh;
+                                                    div{ 
+                                                        line-height: calc(14vh / 3);
+                                                        p,span{
+                                                            line-height: 1;
+                                                            vertical-align: middle;
+                                                        }
+                                                    }
+                                                }
+                                                &.num_group{
+                                                    height: 14vh;
+                                                    span{
+                                                        &.two_side{
+                                                            div{
+                                                                height: calc(14vh / 3 - 3px);
+                                                                p{
+                                                                    font-size: 1.2vh;
+                                                                    margin: 0 0 0.5vh 0;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
                                     }
                                 }
-                                
                             }
                         }
                     }
