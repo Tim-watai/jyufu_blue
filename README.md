@@ -15,7 +15,7 @@ blue jyufu</br>
 6.今日_專業版(足球)finish</br>
 7.早盤finish</br>
 8.串關(非足球專業版頁面_other)finish</br>
-9.串關_電競ing</br>
+9.串關_電競finish</br>
 10.賽事串關</br>
 11.賽是串關2</br>
 12.今日_空空如也~</br>
