@@ -1460,7 +1460,7 @@ main.early_page {
   margin-top: calc(17.6vh + 10px);
   height: calc(100vh - 17.6vh - 7vh - 10px); }
 
-main div.double_mode {
+div.double_mode {
   width: 100%;
   position: fixed;
   bottom: 0px;
@@ -1470,9 +1470,11 @@ main div.double_mode {
   border-top-left-radius: 20px 20px;
   border-top-right-radius: 20px 20px;
   text-align: center; }
-  main div.double_mode span {
+  div.double_mode.half {
+    height: 8vh; }
+  div.double_mode span {
     display: inline-block; }
-    main div.double_mode span.box {
+    div.double_mode span.box {
       width: 86vw;
       height: 8vh;
       margin: 0 auto;
@@ -1483,14 +1485,14 @@ main div.double_mode {
       -ms-flex-pack: justify;
       justify-content: space-between;
       color: #fff; }
-      main div.double_mode span.box div.langth, main div.double_mode span.box div.balance {
+      div.double_mode span.box div.langth, div.double_mode span.box div.balance {
         width: 50%; }
-      main div.double_mode span.box div.langth {
+      div.double_mode span.box div.langth {
         text-align: left;
         line-height: 8vh; }
-        main div.double_mode span.box div.langth p {
+        div.double_mode span.box div.langth p {
           display: inline-block; }
-        main div.double_mode span.box div.langth span.num {
+        div.double_mode span.box div.langth span.num {
           font-size: 16px;
           font-weight: bold;
           color: #959dc5;
@@ -1501,21 +1503,21 @@ main div.double_mode {
           line-height: 23px;
           border-radius: 100%;
           margin: 0 3px 0 0; }
-        main div.double_mode span.box div.langth p {
+        div.double_mode span.box div.langth p {
           line-height: 1;
           vertical-align: middle;
           font-size: 2vh; }
-      main div.double_mode span.box div.balance {
+      div.double_mode span.box div.balance {
         text-align: right;
         padding: 2vh 0 0 0; }
-        main div.double_mode span.box div.balance p {
+        div.double_mode span.box div.balance p {
           font-size: 2vh; }
-          main div.double_mode span.box div.balance p.currency {
+          div.double_mode span.box div.balance p.currency {
             font-size: 1.2vh; }
-          main div.double_mode span.box div.balance p.cash {
+          div.double_mode span.box div.balance p.cash {
             font-size: 3vh;
             font-weight: bold; }
-        main div.double_mode span.box div.balance span.double_arrow {
+        div.double_mode span.box div.balance span.double_arrow {
           height: 13px;
           width: 13px;
           background: url(../images/double_arrow.png) no-repeat;
@@ -1523,7 +1525,7 @@ main div.double_mode {
           background-size: cover;
           vertical-align: text-top;
           margin: 0 0 0 5px; }
-        main div.double_mode span.box div.balance p, main div.double_mode span.box div.balance span {
+        div.double_mode span.box div.balance p, div.double_mode span.box div.balance span {
           display: inline-block;
           line-height: 1;
           vertical-align: sub; }
@@ -1548,8 +1550,23 @@ header.double_inner {
         header.double_inner ul.market li.title span {
           border-color: #fff transparent transparent transparent; }
   header.double_inner section {
-    height: 23vh;
+    height: 27.5vh;
     position: relative; }
+    header.double_inner section article.game_time {
+      position: absolute;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 33%;
+      text-align: center; }
+      header.double_inner section article.game_time span, header.double_inner section article.game_time p {
+        color: #fff; }
+      header.double_inner section article.game_time span {
+        font-size: 1.2vh; }
+      header.double_inner section article.game_time p {
+        font-size: 4vh;
+        font-weight: bold; }
     header.double_inner section article.game_data {
       width: 100%;
       height: 15vh;
@@ -1636,25 +1653,65 @@ header.double_inner {
             text-align: left; }
           header.double_inner section article.game_live div.wrap div:last-child {
             text-align: right; }
-    header.double_inner section article.game_time {
+    header.double_inner section article.game_type {
+      height: 4.5vh;
+      line-height: 4.5vh;
+      background: #fff;
+      padding: 0 8vw 0 5vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
+      header.double_inner section article.game_type span {
+        color: #838ba0;
+        display: inline-block;
+        height: 100%;
+        font-weight: bold;
+        pointer-events: all; }
+        header.double_inner section article.game_type span.active {
+          border-bottom: 2px solid #1b255c;
+          color: #1b255c; }
+    header.double_inner section article.game_refresh {
       position: absolute;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      left: 50%;
-      top: 40%;
-      text-align: center; }
-      header.double_inner section article.game_time span, header.double_inner section article.game_time p {
-        color: #fff; }
-      header.double_inner section article.game_time span {
-        font-size: 1.2vh; }
-      header.double_inner section article.game_time p {
-        font-size: 4vh;
-        font-weight: bold; }
+      top: 77%;
+      left: 92%;
+      line-height: 1.7vh;
+      pointer-events: all;
+      white-space: nowrap; }
+      header.double_inner section article.game_refresh p, header.double_inner section article.game_refresh span {
+        display: inline-block; }
+      header.double_inner section article.game_refresh span {
+        background: url(../images/refresh_w.png) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 18px;
+        height: 18px;
+        line-height: 1;
+        vertical-align: middle;
+        margin: 0 3px 0 0; }
+      header.double_inner section article.game_refresh p {
+        font-size: 1.7vh;
+        font-weight: normal;
+        color: #fff;
+        line-height: 18px;
+        vertical-align: middle; }
 
 main.double_inner_page {
-  margin-top: calc(28vh + 10px);
-  height: calc(100vh - 28vh - 7vh - 10px); }
+  margin-top: calc(32.5vh + 10px);
+  height: calc(100vh - 32.5vh - 7vh - 10px); }
+  main.double_inner_page ul {
+    padding: 0 2vw; }
+    main.double_inner_page ul li {
+      background: #fff;
+      width: 100%;
+      height: 5vh; }
 
 .en_name {
   font-family: Bahnschrift; }
