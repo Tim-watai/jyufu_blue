@@ -1,6 +1,7 @@
 $(document).ready(function(){
-    console.log("hello This is {Pony all.js}");
+    console.log("all.js");
    
 
+//double賽事串關
 
 });//total
