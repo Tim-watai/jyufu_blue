@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'my_font';
-  src: local(Bahnschrift);
+  src: url(../font/Bahnschrift.TTF);
   unicode-range: U+0020-007F; }
 
 p,
@@ -1560,7 +1560,8 @@ header.double_inner {
       left: 50%;
       top: 33%;
       text-align: center; }
-      header.double_inner section article.game_time span, header.double_inner section article.game_time p {
+      header.double_inner section article.game_time span,
+      header.double_inner section article.game_time p {
         color: #fff; }
       header.double_inner section article.game_time span {
         font-size: 1.2vh; }
@@ -1628,7 +1629,8 @@ header.double_inner {
           width: 50%;
           height: 100%;
           position: relative; }
-          header.double_inner section article.game_live div.wrap div p, header.double_inner section article.game_live div.wrap div span {
+          header.double_inner section article.game_live div.wrap div p,
+          header.double_inner section article.game_live div.wrap div span {
             display: inline-block; }
           header.double_inner section article.game_live div.wrap div p {
             color: #fff;
@@ -1686,7 +1688,8 @@ header.double_inner {
       line-height: 1.7vh;
       pointer-events: all;
       white-space: nowrap; }
-      header.double_inner section article.game_refresh p, header.double_inner section article.game_refresh span {
+      header.double_inner section article.game_refresh p,
+      header.double_inner section article.game_refresh span {
         display: inline-block; }
       header.double_inner section article.game_refresh span {
         background: url(../images/refresh_w.png) no-repeat;
@@ -1706,18 +1709,23 @@ header.double_inner {
 
 main.double_inner_page {
   margin-top: calc(32.5vh + 10px);
-  height: calc(100vh - 32.5vh - 7vh - 10px); }
+  height: calc(100vh - 32.5vh - 8vh - 10px);
+  margin-bottom: 8vh;
+  overflow-y: scroll; }
   main.double_inner_page ul {
     padding: 0 2vw; }
     main.double_inner_page ul li {
       background: #fff;
-      width: 100%; }
+      width: 100%;
+      margin: 0 0 10px 0; }
       main.double_inner_page ul li div {
+        height: 38px;
         margin: 0 8px 0 8px; }
         main.double_inner_page ul li div.title {
           position: relative;
           height: 38px;
           border-bottom: 1px solid #e0e3f3;
+          margin: 0 8px 5px 8px;
           padding: 12px 0 0 0;
           display: -webkit-box;
           display: -ms-flexbox;
@@ -1729,7 +1737,7 @@ main.double_inner_page {
           -ms-flex-align: start;
           align-items: flex-start; }
           main.double_inner_page ul li div.title p {
-            margin: 0 0 0 8px;
+            margin: 0 0 0 10px;
             line-height: 1;
             font-weight: bold;
             color: #1b255c; }
@@ -1741,7 +1749,7 @@ main.double_inner_page {
             background-position: center center;
             background-size: cover; }
           main.double_inner_page ul li div.title:before {
-            content: '';
+            content: "";
             position: absolute;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
@@ -1752,6 +1760,52 @@ main.double_inner_page {
             height: 16px;
             border-radius: 30px;
             background-color: #b5c1ff; }
+        main.double_inner_page ul li div.content {
+          padding: 0 0 5px 0;
+          height: 45px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          main.double_inner_page ul li div.content.form_2 span {
+            width: calc(100% / 2 - 3px); }
+          main.double_inner_page ul li div.content.form_3 span {
+            width: calc(100% / 3 - 3px); }
+          main.double_inner_page ul li div.content.form_4 span {
+            width: calc(100% / 4 - 4px); }
+          main.double_inner_page ul li div.content span {
+            display: inline-block;
+            height: 100%;
+            background: #f6f8ff;
+            line-height: 45px; }
+            main.double_inner_page ul li div.content span p {
+              font-size: 14px;
+              line-height: 1;
+              display: inline-block;
+              vertical-align: middle;
+              color: #4d515d; }
+            main.double_inner_page ul li div.content span.between {
+              padding: 0 8px 0 16px; }
+              main.double_inner_page ul li div.content span.between p:last-child {
+                float: right;
+                line-height: 45px; }
+            main.double_inner_page ul li div.content span.center {
+              text-align: center; }
+            main.double_inner_page ul li div.content span.center_2 {
+              text-align: center; }
+              main.double_inner_page ul li div.content span.center_2 p:first-child {
+                color: #838ba0;
+                margin: 0 5px 0 0; }
+            main.double_inner_page ul li div.content span.center_right {
+              text-align: center; }
+              main.double_inner_page ul li div.content span.center_right p:first-child {
+                margin: 0 0 0 5px; }
+              main.double_inner_page ul li div.content span.center_right p:last-child {
+                margin: 0 5px 0 0;
+                float: right;
+                line-height: 45px; }
 
 .en_name {
   font-family: Bahnschrift; }
