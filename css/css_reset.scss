@@ -21,6 +21,11 @@
   src:url(../font/Bahnschrift.TTF);
   unicode-range: U+0040;
 }
+@font-face{
+  font-family: 'my_font';
+  src:url(../font/Bahnschrift.TTF);
+  unicode-range: U+0024;
+}
 
 p,
 button,
