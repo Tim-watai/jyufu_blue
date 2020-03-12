@@ -1573,12 +1573,12 @@ div.window_double_mode.active {
                     font-weight: normal; }
                 div.window_double_mode.active div.all_box div.content ul li.the_detail div.data span.mid, div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.mid {
                   width: 100%;
-                  font-size: 1.2vh;
+                  font-size: 1.7vh;
                   font-weight: normal;
                   margin: 0 0 3px 0; }
                 div.window_double_mode.active div.all_box div.content ul li.the_detail div.data span.bottom, div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.bottom {
                   color: #838ba0;
-                  font-size: 1.2vh; }
+                  font-size: 1.7vh; }
                   div.window_double_mode.active div.all_box div.content ul li.the_detail div.data span.bottom span, div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.bottom span {
                     display: inline-block;
                     margin: 0 6px 0 6px; }
@@ -1601,17 +1601,108 @@ div.window_double_mode.active {
               div.window_double_mode.active div.all_box div.content ul li.the_detail div.right_total span {
                 font-size: 2vh;
                 display: inline-block; }
-          div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.mid span {
-            margin: 0 3px 0 3px; }
-          div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.mid p {
-            display: inline-block;
-            color: #d46572; }
-          div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.bottom span {
-            width: 12px;
-            height: 12px;
-            background: url(../images/arrows_blue.png) no-repeat;
-            background-size: cover;
-            background-position: center center; }
+            div.window_double_mode.active div.all_box div.content ul li.the_detail div.data {
+              width: 65vw; }
+          div.window_double_mode.active div.all_box div.content ul li.the_total {
+            background-color: #f6f8ff; }
+            div.window_double_mode.active div.all_box div.content ul li.the_total div.data {
+              width: 40vw; }
+              div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.title {
+                width: 100%; }
+              div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.mid {
+                width: 100%; }
+                div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.mid span {
+                  margin: 0 3px 0 3px; }
+                div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.mid p {
+                  display: inline-block;
+                  color: #d46572; }
+              div.window_double_mode.active div.all_box div.content ul li.the_total div.data span.bottom span {
+                width: 12px;
+                height: 12px;
+                background: url(../images/arrows_blue.png) no-repeat;
+                background-size: cover;
+                background-position: center center; }
+            div.window_double_mode.active div.all_box div.content ul li.the_total div.right_total {
+              float: right;
+              line-height: 10vh;
+              text-align: right;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+              flex-direction: column; }
+              div.window_double_mode.active div.all_box div.content ul li.the_total div.right_total input {
+                text-align: center;
+                width: 40vw;
+                border: 2px solid #e0e3f3;
+                border-radius: 4px;
+                color: #000;
+                line-height: 2.3vh;
+                vertical-align: top;
+                padding: 5px; }
+                div.window_double_mode.active div.all_box div.content ul li.the_total div.right_total input::-webkit-input-placeholder {
+                  color: #ced1e0;
+                  font-size: 1.2vh; }
+                div.window_double_mode.active div.all_box div.content ul li.the_total div.right_total input:-ms-input-placeholder {
+                  color: #ced1e0;
+                  font-size: 1.2vh; }
+                div.window_double_mode.active div.all_box div.content ul li.the_total div.right_total input::-ms-input-placeholder {
+                  color: #ced1e0;
+                  font-size: 1.2vh; }
+                div.window_double_mode.active div.all_box div.content ul li.the_total div.right_total input::placeholder {
+                  color: #ced1e0;
+                  font-size: 1.2vh; }
+              div.window_double_mode.active div.all_box div.content ul li.the_total div.right_total span {
+                color: #838ba0; }
+                div.window_double_mode.active div.all_box div.content ul li.the_total div.right_total span.total {
+                  display: inline-block;
+                  width: 100%;
+                  line-height: 1;
+                  font-size: 1.7vh;
+                  margin: 5px 0 0 0; }
+                  div.window_double_mode.active div.all_box div.content ul li.the_total div.right_total span.total span {
+                    margin: 0 5px; }
+                  div.window_double_mode.active div.all_box div.content ul li.the_total div.right_total span.total p {
+                    display: inline-block; }
+          div.window_double_mode.active div.all_box div.content ul li.computer {
+            width: 100%;
+            height: 35vh;
+            background: #fbfcff;
+            padding: 1.5vh 8vw 1.5vh 5vw; }
+            div.window_double_mode.active div.all_box div.content ul li.computer div.inner {
+              width: calc(100vw - 13vw);
+              height: calc(35vh - 3vh);
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              white-space: nowrap; }
+              div.window_double_mode.active div.all_box div.content ul li.computer div.inner span, div.window_double_mode.active div.all_box div.content ul li.computer div.inner p {
+                display: inline-block; }
+              div.window_double_mode.active div.all_box div.content ul li.computer div.inner span.nums {
+                width: 70%;
+                height: 100%;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex; }
+                div.window_double_mode.active div.all_box div.content ul li.computer div.inner span.nums p {
+                  width: calc(100% / 3 - 2px);
+                  background: #fff;
+                  color: #4d515d;
+                  text-align: center;
+                  line-height: calc((35vh - 3vh) / 4 - 2px);
+                  vertical-align: middle;
+                  margin: 0 2px 2px 0;
+                  font-size: 3.5vh;
+                  font-weight: bold;
+                  border-radius: 8px;
+                  border: 1px solid #f7f8ff; }
+              div.window_double_mode.active div.all_box div.content ul li.computer div.inner span.uses {
+                width: 30%;
+                height: 100%; }
     div.window_double_mode.active div.all_box div.footer {
       width: 100%;
       position: relative;
@@ -1734,7 +1825,16 @@ div.double_mode {
           text-align: center;
           line-height: 23px;
           border-radius: 100%;
-          margin: 0 3px 0 0; }
+          margin: 0 3px 0 0;
+          position: relative;
+          vertical-align: middle; }
+          div.double_mode span.box div.langth span.num span {
+            position: absolute;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%; }
         div.double_mode span.box div.langth p {
           line-height: 1;
           vertical-align: middle;

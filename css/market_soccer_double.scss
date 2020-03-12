@@ -85,6 +85,7 @@ div {
                         line-height: 1;
                         padding: 0 0 0 3px;
                         vertical-align: middle;
+                       
                         span{
                           display: inline-block;
                           line-height: 1;
@@ -114,13 +115,13 @@ div {
                           }
                           &.mid{
                             width: 100%;
-                            font-size: 1.2vh;
+                            font-size: 1.7vh;
                             font-weight: normal;
                             margin: 0 0 3px 0;
                           }
                           &.bottom{
                             color:#838ba0;
-                            font-size: 1.2vh;
+                            font-size: 1.7vh;
                             span{
                               display: inline-block;
                               margin: 0 6px 0 6px;
@@ -145,6 +146,7 @@ div {
                       &.right_total{
                         white-space: nowrap;
                         float: right;
+                        
                         span{
                           font-size: 2vh;
                           display: inline-block;
@@ -155,14 +157,23 @@ div {
                         font-size: 2.5vh;
                         color: #4d515d;
                       }
+                      &.data{
+                        width: 65vw;
+                      }
                   }
                  
                   }
                   &.the_total{
+                    background-color: #f6f8ff;
                     div{
                       &.data{
+                        width: 40vw;
                         span{
+                          &.title{
+                            width: 100%;
+                          }
                           &.mid{
+                            width: 100%;
                             span{
                               margin: 0 3px 0 3px;
                             }
@@ -179,6 +190,88 @@ div {
                               background-size: cover;
                               background-position: center center;
                             }
+                          }
+                        }
+                      }
+                      &.right_total{
+                        float: right;
+                        line-height: 10vh;
+                        text-align: right;
+                        display: flex;
+                        flex-direction: column;
+                        input{
+                          text-align: center;
+                          width: 40vw;
+                          border:2px solid #e0e3f3;
+                          border-radius: 4px;
+                          color: #000;
+                          line-height: 2.3vh;
+                          vertical-align: top;
+                          padding: 5px;
+                          &::placeholder{
+                            color: #ced1e0;
+                            font-size: 1.2vh;
+                          }
+                        }
+                        span{
+                          color:#838ba0;
+                          &.total{
+                            display: inline-block;
+                            width: 100%;
+                            line-height: 1;
+                            font-size: 1.7vh;
+                            margin: 5px 0 0 0;
+                            span{
+                              margin: 0 5px;
+                            }
+                            p{
+                              display: inline-block;
+                            }
+                          }
+                          
+                        }
+                      }
+                    }
+                  }
+                  &.computer{
+                    width: 100%;
+                    height: 35vh;
+                    background: #fbfcff;
+                    padding: 1.5vh 8vw 1.5vh 5vw;
+                    div{
+                      &.inner{
+                        
+                        width: calc(100vw - 13vw);
+                        height: calc(35vh - 3vh);
+                        display: flex;
+                        white-space:nowrap;
+                        span,p{
+                          display: inline-block;
+                        }
+                        span{
+                          &.nums{
+                            width: 70%;
+                            height: 100%;
+                            flex-wrap: wrap;
+                            display: flex;
+                           
+                            p{
+                              width: calc(100% / 3 - 2px);
+                              background: #fff;
+                              color: #4d515d;
+                              text-align: center;
+                              line-height: calc((35vh - 3vh) / 4 - 2px);
+                              vertical-align: middle;
+                              margin: 0 2px 2px 0;
+                              font-size: 3.5vh;
+                              font-weight: bold;
+                              border-radius:8px;
+                              border: 1px solid #f7f8ff;
+                            }
+                          }
+                          &.uses{
+                            width: 30%;
+                            height: 100%;
                           }
                         }
                       }
@@ -326,6 +419,14 @@ div {
                 line-height: 23px;
                 border-radius: 100%;
                 margin: 0 3px 0 0;
+                position: relative;
+                vertical-align: middle;
+                span{
+                  position: absolute;
+                  transform: translate(-50%,-50%);
+                  top: 50%;
+                  left: 50%;
+                }
               }
             }
             p {
