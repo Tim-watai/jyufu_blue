@@ -1717,6 +1717,106 @@ aside.bet_window {
         color: #fff;
         font-size: 7vw; }
 
+aside.set_window {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 500;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  display: none; }
+  aside.set_window ul.side_bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    background: #f7f7f7; }
+    aside.set_window ul.side_bar li {
+      height: 7vh;
+      line-height: 7vh;
+      background: #fff;
+      padding: 0 4vw;
+      position: relative;
+      color: #4d515d;
+      font-size: 4.3vw;
+      font-weight: bold;
+      border-bottom: 1px solid #f7f8ff; }
+      aside.set_window ul.side_bar li div {
+        display: inline-block; }
+        aside.set_window ul.side_bar li div.box {
+          float: right; }
+          aside.set_window ul.side_bar li div.box div.check {
+            height: 4vh;
+            line-height: 4vh;
+            width: 30vw;
+            background: #737997;
+            vertical-align: middle;
+            border-radius: 20px;
+            padding: 0 10px; }
+            aside.set_window ul.side_bar li div.box div.check p {
+              display: inline-block;
+              font-size: 2vw;
+              border-radius: 20px;
+              height: 80%; }
+              aside.set_window ul.side_bar li div.box div.check p.active {
+                background: #fff; }
+              aside.set_window ul.side_bar li div.box div.check p.p_right {
+                float: right; }
+      aside.set_window ul.side_bar li.title {
+        margin: 0 0 12px 0; }
+        aside.set_window ul.side_bar li.title span {
+          display: inline-block; }
+          aside.set_window ul.side_bar li.title span.all {
+            position: absolute;
+            margin: 0 0 0 3vw;
+            font-size: 3vw;
+            color: #838ba0; }
+          aside.set_window ul.side_bar li.title span.soccers {
+            float: right;
+            line-height: 7vh; }
+            aside.set_window ul.side_bar li.title span.soccers p {
+              display: inline-block;
+              width: 28vw;
+              height: 7vw;
+              background: url(../images/soccers.png) no-repeat;
+              background-position: center center;
+              background-size: cover;
+              vertical-align: middle; }
+          aside.set_window ul.side_bar li.title span.more {
+            float: right;
+            margin: 0 0 0 3vw;
+            font-size: 3vw;
+            color: #838ba0; }
+            aside.set_window ul.side_bar li.title span.more p.arrow {
+              display: inline-block;
+              width: 3vw;
+              height: 3vw;
+              background: url(../images/arrow_gray.png) no-repeat;
+              background-position: center center;
+              background-size: contain;
+              vertical-align: text-top; }
+      aside.set_window ul.side_bar li.close {
+        text-align: center;
+        padding: 0;
+        font-size: 5vw;
+        margin: 12px 0 0 0;
+        border: none; }
+
 nav.kinds ul.early {
   font-family: 'my_font';
   height: 5vh;
