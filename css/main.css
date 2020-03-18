@@ -1448,14 +1448,12 @@ footer ul li.refresh span {
   display: inline-block; }
 
 aside.bet_window {
+  display: none;
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   z-index: 500;
   position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -1470,7 +1468,41 @@ aside.bet_window {
     background: #fff;
     display: inline-block;
     width: 80vw;
-    border-radius: 13px; }
+    border-radius: 13px;
+    position: relative; }
+    aside.bet_window div.bet_page span.close {
+      display: inline-block;
+      position: absolute;
+      top: -38px;
+      right: 0;
+      width: 28px;
+      height: 28px;
+      border-radius: 100%;
+      border: 2px solid white;
+      cursor: pointer;
+      pointer-events: all; }
+      aside.bet_window div.bet_page span.close:before {
+        content: "";
+        width: 15px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%) rotate(45deg);
+        -ms-transform: translate(-50%, -50%) rotate(45deg);
+        transform: translate(-50%, -50%) rotate(45deg);
+        top: 50%; }
+      aside.bet_window div.bet_page span.close:after {
+        content: "";
+        width: 15px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+        -ms-transform: translate(-50%, -50%) rotate(-45deg);
+        transform: translate(-50%, -50%) rotate(-45deg);
+        top: 50%; }
     aside.bet_window div.bet_page div.title {
       display: inline-block;
       position: relative;
@@ -1560,7 +1592,8 @@ aside.bet_window {
         aside.bet_window div.bet_page div.content div.info span {
           display: inline-block;
           width: 100%;
-          color: #fff; }
+          color: #fff;
+          font-size: 4.3vw; }
           aside.bet_window div.bet_page div.content div.info span.tie {
             margin: 2vh 0 0 0; }
         aside.bet_window div.bet_page div.content div.info div.circle {
@@ -1638,14 +1671,33 @@ aside.bet_window {
           display: inline-block;
           width: calc((75vw - 5vw) / 3);
           height: 5vh;
+          line-height: 5vh;
           border: 1px solid #e0e3f3;
           border-radius: 8px;
           font-size: 4.3vw;
-          margin: 0 2.5vw 0 0; }
+          margin: 0 2.5vw 1vh 0;
+          text-align: center;
+          vertical-align: bottom;
+          color: #4d515d; }
+          aside.bet_window div.bet_page div.content div.input_group div.btns span p {
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle; }
           aside.bet_window div.bet_page div.content div.input_group div.btns span:nth-child(3) {
-            margin: 0; }
+            margin: 0 0 1vh 0; }
           aside.bet_window div.bet_page div.content div.input_group div.btns span:last-child {
-            margin: 0; }
+            margin: 0 0 1vh 0; }
+      aside.bet_window div.bet_page div.content div.be_win {
+        width: 100%;
+        text-align: center;
+        font-size: 4vw;
+        line-height: 1;
+        margin: 2vh 0 2vh 0; }
+        aside.bet_window div.bet_page div.content div.be_win p {
+          font-weight: bold;
+          color: #4d515d; }
+          aside.bet_window div.bet_page div.content div.be_win p span {
+            color: #d46572; }
     aside.bet_window div.bet_page div.footer {
       position: relative;
       display: inline-block;

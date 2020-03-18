@@ -36,7 +36,7 @@ $(document).ready(function() {
     }
   });
   //開啟_投注頁面
-  $("main.market aside ul li.beginner ,aside.bet_window").click(function() {
+  $("main.market aside ul li.beginner ,aside.bet_window div.bet_page span.close").click(function() {
     if ($("aside.bet_window").hasClass("active") != true) {
       return $("aside.bet_window").addClass("active");
     }else{
