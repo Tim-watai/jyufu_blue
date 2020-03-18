@@ -1592,10 +1592,12 @@ aside.bet_window {
             line-height: 1;
             float: right; }
       aside.bet_window div.bet_page div.content div.input_group {
-        width: 100%; }
+        width: 100%;
+        overflow: auto; }
         aside.bet_window div.bet_page div.content div.input_group div.input_box {
           position: relative;
-          margin: 0 0 1vh 0; }
+          margin: 0 0 1vh 0;
+          width: 100%; }
           aside.bet_window div.bet_page div.content div.input_group div.input_box:before {
             content: "元";
             position: absolute;
@@ -1632,6 +1634,18 @@ aside.bet_window {
               color: #ced1e0;
               font-weight: bold;
               font-size: 4.3vw; }
+        aside.bet_window div.bet_page div.content div.input_group div.btns span {
+          display: inline-block;
+          width: calc((75vw - 5vw) / 3);
+          height: 5vh;
+          border: 1px solid #e0e3f3;
+          border-radius: 8px;
+          font-size: 4.3vw;
+          margin: 0 2.5vw 0 0; }
+          aside.bet_window div.bet_page div.content div.input_group div.btns span:nth-child(3) {
+            margin: 0; }
+          aside.bet_window div.bet_page div.content div.input_group div.btns span:last-child {
+            margin: 0; }
     aside.bet_window div.bet_page div.footer {
       position: relative;
       display: inline-block;
