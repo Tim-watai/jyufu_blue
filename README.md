@@ -16,12 +16,12 @@ blue jyufu</br>
 7.早盤_finish</br>
 8.串關_非足球專業版頁面_other_finish</br>
 9.串關_電競_finish</br>
-10.賽事串關now</br>
-11.賽是串關2now</br>
+10.賽事串關_finish</br>
+11.賽是串關2_finish</br>
 12.今日_空空如也~</br>
-13.串關展開1</br>
-14.串關展開2</br>
-15.串關展開3</br>
+13.串關展開1_finish</br>
+14.串關展開2_now</br>
+15.串關展開3_finish</br>
 16.投注彈窗</br>
 17.菜單設置</br>
 18.菜單設置_選擇聯賽</br>
