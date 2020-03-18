@@ -1447,6 +1447,71 @@ footer ul li.refresh span {
   height: 24px;
   display: inline-block; }
 
+aside.bet_window {
+  width: 100vw;
+  height: 100vh;
+  line-height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 500;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  aside.bet_window.active {
+    display: block; }
+  aside.bet_window div.box {
+    background: #fff;
+    display: inline-block;
+    width: 80vw;
+    height: 55vh;
+    line-height: calc(55vh - 8vh);
+    border-radius: 13px; }
+    aside.bet_window div.box div.title {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      height: 10vh;
+      background: #556de7;
+      vertical-align: top;
+      border-radius: 13px 13px 0 0;
+      text-align: center; }
+      aside.bet_window div.box div.title span {
+        display: inline-block; }
+        aside.bet_window div.box div.title span.game_name {
+          line-height: 1;
+          width: 100%;
+          font-size: 5vw;
+          font-weight: bold;
+          color: #4d515d;
+          vertical-align: top; }
+          aside.bet_window div.box div.title span.game_name p {
+            display: inline-block; }
+    aside.bet_window div.box div.footer {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      height: 8vh;
+      background: #556de7;
+      vertical-align: top;
+      bottom: -1px;
+      border-radius: 0 0 13px 13px; }
+      aside.bet_window div.box div.footer:before {
+        content: '投注';
+        position: absolute;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        font-size: 7vw; }
+
 nav.kinds ul.early {
   font-family: 'my_font';
   height: 5vh;
@@ -1702,7 +1767,43 @@ div.window_double_mode.active {
                   border: 1px solid #f7f8ff; }
               div.window_double_mode.active div.all_box div.content ul li.computer div.inner span.uses {
                 width: 30%;
-                height: 100%; }
+                height: 100%;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between; }
+                div.window_double_mode.active div.all_box div.content ul li.computer div.inner span.uses p {
+                  background: #f6f8ff;
+                  width: 100%;
+                  height: 49%;
+                  border-radius: 8px;
+                  border: 1px solid #f7f8ff;
+                  position: relative; }
+                  div.window_double_mode.active div.all_box div.content ul li.computer div.inner span.uses p.delete:before {
+                    content: '';
+                    position: absolute;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                    top: 50%;
+                    width: 31px;
+                    height: 26px;
+                    background: url(../images/delete.png) no-repeat;
+                    background-position: center center;
+                    background-size: cover; }
+                  div.window_double_mode.active div.all_box div.content ul li.computer div.inner span.uses p.back {
+                    font-weight: bold;
+                    color: #4d515d;
+                    line-height: calc(32vh *0.49);
+                    text-align: center;
+                    font-size: 6vw; }
     div.window_double_mode.active div.all_box div.footer {
       width: 100%;
       position: relative;

@@ -272,6 +272,38 @@ div {
                           &.uses{
                             width: 30%;
                             height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            p{
+                              background: #f6f8ff;
+                              width: 100%;
+                              height: 49%;
+                              border-radius:8px;
+                              border: 1px solid #f7f8ff;
+                              position: relative;
+                              &.delete{
+                                &:before{
+                                  content:'';
+                                  position: absolute;
+                                  transform: translate(-50%,-50%);
+                                  left: 50%;
+                                  top: 50%;
+                                  width: 31px;
+                                  height: 26px;
+                                  background: url(../images/delete.png)no-repeat;
+                                  background-position: center center;
+                                  background-size: cover;
+                                }
+                              }
+                              &.back{
+                                font-weight: bold;
+                                color: #4d515d;
+                                line-height: calc(32vh *0.49);
+                                text-align: center;
+                                font-size: 6vw;
+                              }
+                            }
                           }
                         }
                       }

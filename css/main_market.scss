@@ -1206,3 +1206,78 @@ footer {
     }
   }
 }
+aside{
+  &.bet_window{
+    // display: none;
+    width: 100vw;
+    height: 100vh;
+    line-height: 100vh;
+    background: rgba(0,0,0,0.5);
+    z-index: 500;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.active{
+      display: block;
+    }
+    div{
+      &.box{
+        background: #fff;
+        display: inline-block;
+        width: 80vw;
+        height: 55vh;
+        line-height: calc(55vh - 8vh);
+        border-radius: 13px;
+       
+        div{
+          &.title{
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            height: 10vh;
+            background: #556de7;
+            vertical-align: top;
+            border-radius: 13px 13px 0 0 ;
+            text-align: center;
+            span{
+              display: inline-block;
+              &.game_name{
+                line-height: 1;
+             
+                width: 100%;
+                font-size: 5vw;
+                font-weight: bold;
+                color: #4d515d;
+                vertical-align: top;
+                p{
+                  display: inline-block;
+                }
+              }
+              &.counter{}
+            }
+          }
+          &.footer{
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            height: 8vh;
+            background: #556de7;
+            vertical-align: top;
+            bottom: -1px;
+            border-radius: 0 0 13px 13px;
+            &:before{
+              content:'投注';
+              position: absolute;
+              transform: translate(-50%,-50%);
+              left: 50%;
+              top:50%;
+              color: #fff;
+              font-size: 7vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
