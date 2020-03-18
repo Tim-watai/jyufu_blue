@@ -20,7 +20,7 @@ blue jyufu</br>
 11.賽是串關2_finish</br>
 12.今日_空空如也~</br>
 13.串關展開1_finish</br>
-14.串關展開2_now</br>
+14.串關展開2_finish</br>
 15.串關展開3_finish</br>
 16.投注彈窗</br>
 17.菜單設置</br>
