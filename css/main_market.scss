@@ -1730,7 +1730,7 @@ aside{
               height: 5vh;
               font-size: 4vw;
               border-radius: 30px;
-              padding: 2px 0 0 12vw;
+              padding: 2px 0 0 14vw;
               &::placeholder{
                 color: #ced1e0;
               }
@@ -1740,7 +1740,7 @@ aside{
               position: absolute;
               transform: translateY(-50%);
               top: 50%;
-              left: 8vw;
+              left: 10vw;
               background: url(../images/search_gray.png);
               background-size: cover;
               background-position: center center;
@@ -1792,30 +1792,111 @@ aside{
                 display: inline-block;
                 width: 100%;
                 font-size: 4.3vw;
-                padding: 1vh 0 1vh 0;
+                padding: 1vh 0 1vh 6vw;
+                color: #4d515d;
+                background: #f6f8ff;
                 span{
-                  &.arrow{
+                  width: 4.3vw;
+                  height: 2.9vw;
+                  &.arrow_w{
                       display: inline-block;
-                      width: 0;
-                      height: 0;
-                      border-style: solid;
-                      border-width: 3vw 3vw 0 3vw;
-                      border-color: #ffffff transparent transparent transparent;
+                      width: 4.3vw;
+                      height: 2.9vw;
+                      background: url(../images/arrow_w.png)no-repeat;
+                      background-size: cover;
+                      background-position: center center;
                       position: relative;
-                      &:before{
-                        content:'';
-                        position: absolute; 
-                        left: 0;
-                        border-style: solid;
-                        border-width: 3vw 3vw 0 3vw;
-                        border-color: #959dc5 transparent transparent transparent;
-                      }
-                     
+                      margin: 0 1vw 0 0;
                   }
                 }
                 &.hot{
                   color: #fff;
                   background: #959dc5;
+                }
+              }
+            }
+            ul{
+              li{
+                width: 88vw;
+                margin: 0 6vw 0 6vw;
+                padding: 4vw 5vw 4vw 10vw;
+                font-size: 4vw;
+                color: #838ba0;
+                border-bottom: 0.5px solid #e0e3f3;
+                position: relative;
+                &:last-child{
+                  border-bottom: none;
+                }
+                span{
+                  display: inline-block;
+                  &.local_game_1{
+                    background: url(../images/local_games_1.png)no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    width: 6vw;
+                    height: 6vw;
+                    position: absolute;
+                    transform: translateY(-50%);
+                    top: 50%;
+                    left: 3vw;
+                  }
+                  &.local_game_2{
+                    background: url(../images/local_games_2.png)no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    width: 6vw;
+                    height: 6vw;
+                    position: absolute;
+                    transform: translateY(-50%);
+                    top: 50%;
+                    left: 3vw;
+                  }
+                  &.local_game_3{
+                    background: url(../images/local_games_3.png)no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    width: 6vw;
+                    height: 6vw;
+                    position: absolute;
+                    transform: translateY(-50%);
+                    top: 50%;
+                    left: 3vw;
+                  }
+                }
+                div{
+                  &.point_area{
+                    display: inline-block;
+                    float: right;
+                    span{
+                      &.point{
+                        display: inline-block;
+                          border-radius: 100px;
+                          border: 1px solid #838ba0;
+                          width: 3.5vw;
+                          height: 3.5vw;
+                          margin: 0 0 0 2vw;
+                          position: relative;
+                          vertical-align: middle;
+                          &:active,
+                          &.active,
+                          &:hover{
+                            &:before{
+                              content: '';
+                              position: absolute;
+                              -webkit-transform: translate(-50%, -50%);
+                              -ms-transform: translate(-50%, -50%);
+                              transform: translate(-50%, -50%);
+                              top: 50%;
+                              left: 50%;
+                              width: 2.5vw;
+                              height: 2.5vw;
+                              border-radius: 100px;
+                              background: #838ba0;
+                            }
+                          }
+                      }
+                    }
+                  }
                 }
               }
             }
