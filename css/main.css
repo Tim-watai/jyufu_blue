@@ -3033,11 +3033,11 @@ main {
         background: url(../images/vip.png) no-repeat;
         background-size: cover;
         background-position: center center;
-        width: 51px;
-        height: 2vh;
+        width: 13vw;
+        height: 4vw;
         display: inline-block;
         border-radius: 3px;
-        vertical-align: middle;
+        border-radius: 3px;
         margin-left: 5px; }
     main section ul.profile li.u_data p.u_money {
       color: #1b255c;
@@ -3879,3 +3879,52 @@ aside.my_windows {
     background: url(../images/option.png) no-repeat;
     background-size: cover;
     background-position: center center; }
+  aside.my_windows div.hellocard {
+    width: 100%;
+    height: 20vw;
+    line-height: 20vw;
+    padding: 0 3vw 0 3vw; }
+    aside.my_windows div.hellocard div.avatar {
+      display: inline-block;
+      position: relative;
+      width: 20vw;
+      height: 20vw;
+      background: url(../images/avatar.png) no-repeat;
+      background-position: center center;
+      background-size: cover;
+      vertical-align: top; }
+    aside.my_windows div.hellocard div.player_data {
+      line-height: 1;
+      vertical-align: middle;
+      display: inline-block;
+      position: relative;
+      margin: 0 0 0 3vw; }
+      aside.my_windows div.hellocard div.player_data P.name {
+        font-size: 5.5vw;
+        color: #4d515d; }
+        aside.my_windows div.hellocard div.player_data P.name span.vip {
+          background: url(../images/vip.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 13vw;
+          height: 4vw;
+          display: inline-block;
+          border-radius: 3px;
+          margin: 0 0 0 2vw; }
+      aside.my_windows div.hellocard div.player_data P.days {
+        font-size: 5vw;
+        color: #838ba0;
+        margin: 2vw 0 0 0; }
+    aside.my_windows div.hellocard div.arrow {
+      float: right;
+      display: inline-block;
+      width: 5vw;
+      height: 5vw;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      background: url(../images/arrow_gray.png) no-repeat;
+      background-size: cover;
+      background-position: center center; }
