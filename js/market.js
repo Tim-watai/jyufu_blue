@@ -40,10 +40,37 @@ $(document).ready(function() {
     if ($("aside.bet_window").hasClass("active") != true) {
       return $("aside.bet_window").addClass("active");
     }else{
-   //關閉_投注頁面
         return $("aside.bet_window").removeClass("active");
     }
   });
+  //開啟_設置頁面
+  $('footer ul li.set_table ,aside.set_window ul.side_bar li.close').click(
+    function (){
+      if($('aside.set_window').hasClass('active') != true){
+        return $('aside.set_window').addClass('active');
+      }
+      else{
+        return $('aside.set_window').removeClass('active');
+      }
+    }
+  );
+  //***設置頁面_切換
+  $('aside.set_window ul.side_bar li div.box div.check span').click(
+    function(){
+      $(this).addClass('active');
+      $(this).siblings().removeClass('active')
+    }
+  );
+  //開啟_賽事選擇頁面_search_window
+  $('header ul.market li.search , aside.search_window div.header ul li.close').click(
+    function(){
+      if($('aside.search_window').hasClass('active') != true){
+        return $('aside.search_window').addClass('active');
+      }else{
+        return $('aside.search_window').removeClass('active');
+      }
+    }
+  )
   
  
 }); //total
