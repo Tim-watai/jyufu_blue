@@ -1980,13 +1980,22 @@ aside.search_window {
       color: #4d515d;
       background: #f6f8ff; }
       aside.search_window div.content div.group p.title span {
-        width: 4.3vw;
+        width: 4vw;
         height: 2.9vw; }
         aside.search_window div.content div.group p.title span.arrow_w {
           display: inline-block;
-          width: 4.3vw;
+          width: 4vw;
           height: 2.9vw;
           background: url(../images/arrow_w.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
+          position: relative;
+          margin: 0 1vw 0 0; }
+        aside.search_window div.content div.group p.title span.arrow_d {
+          display: inline-block;
+          width: 4vw;
+          height: 2.9vw;
+          background: url(../images/arrow_d.png) no-repeat;
           background-size: cover;
           background-position: center center;
           position: relative;
@@ -1994,6 +2003,9 @@ aside.search_window {
       aside.search_window div.content div.group p.title.hot {
         color: #fff;
         background: #959dc5; }
+    aside.search_window div.content div.group ul.scroll {
+      overflow-y: scroll;
+      max-height: 22vh; }
     aside.search_window div.content div.group ul li {
       width: 88vw;
       margin: 0 6vw 0 6vw;
@@ -2002,6 +2014,8 @@ aside.search_window {
       color: #838ba0;
       border-bottom: 0.5px solid #e0e3f3;
       position: relative; }
+      aside.search_window div.content div.group ul li.default {
+        padding: 4vw 5vw 4vw 5vw; }
       aside.search_window div.content div.group ul li:last-child {
         border-bottom: none; }
       aside.search_window div.content div.group ul li span {
