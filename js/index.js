@@ -1,41 +1,27 @@
 $(document).ready(function() {
   console.log("index ready");
-  // window.addEventListener('load',function() {
-  //   setTimeout(function(){
-  //   window.scrollTo(0, 1); }, 10);
-  // });
+
  
-
-  $("li.hot_btn").click(function() {
-    if ($("aside.hot_windows").hasClass("abled") != true) {
-      $("aside.hot_windows").removeClass("disabled");
-      $("aside.hot_windows").addClass("abled");
-      return;
-    }
+  //切換_熱門賽事
+  $("li.hot_btn , article.bg span.close").click(function() {
+    if ($("aside.hot_windows").hasClass("active") != true) {
+      return $("aside.hot_windows").addClass('active');
+     }else{
+       return  $("aside.hot_windows").removeClass('active');
+     }
+    
   });
-  $("article.bg span.close").click(function() {
-    if ($("aside.hot_windows").hasClass("abled") == true) {
-      $("aside.hot_windows").removeClass("abled");
-      $("aside.hot_windows").addClass("disabled");
-      return;
-    }
-  });
-
-  $("li.message_icon").click(function() {
-    if ($("aside.title_windows").hasClass("abled") != true) {
-      $("aside.title_windows").removeClass("disabled");
-      $("aside.title_windows").addClass("abled");
-      return;
-    }
-  });
-  $("aside.title_windows div.close").click(function() {
-    if ($("aside.title_windows").hasClass("abled") == true) {
-      $("aside.title_windows").removeClass("abled");
-      $("aside.title_windows").addClass("disabled");
-      return;
+ 
+  //切換_訊息視窗
+  $("li.message_icon , aside.title_windows div.close").click(function() {
+    if ($("aside.title_windows").hasClass("active") != true) {
+     return $("aside.title_windows").addClass('active');
+    }else{
+      return  $("aside.title_windows").removeClass('active');
     }
   });
 
+  //切換_賭盤種類
   $('main article.menu aside.btn_group button').click(
     function () {
         if($(this).hasClass('hot') == false){
@@ -68,9 +54,18 @@ $(document).ready(function() {
             $('main article.menu ul.early').css('display','none');
             $('main article.menu ul.double').css('display','block');
         }
+    });
+  //切換_我的視窗
+  $('footer ul li.my ,aside.my_windows').click(function(){
+    if($('aside.my_windows').hasClass('active') !== true)
+    {
+      $('aside.my_windows').addClass('active');    
+    }else{
+      $('aside.my_windows').removeClass('active');   
     }
-   
-);
+  });
+  //首頁_關閉全部彈窗
+
 
 
 }); //total
