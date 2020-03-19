@@ -23,8 +23,8 @@ blue jyufu</br>
 14.串關展開2_finish</br>
 15.串關展開3_finish</br>
 16.投注彈窗_finish</br>
-17.菜單設置_now</br>
-18.菜單設置_選擇聯賽</br>
+17.菜單設置_finish</br>
+18.菜單設置_finish</br>
 19.我的_個人資料</br>
 20.客服</br>
 21.客服_意見反饋</br>
