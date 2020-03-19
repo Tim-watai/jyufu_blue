@@ -1972,8 +1972,29 @@ aside.search_window {
     width: 100%;
     overflow-y: scroll;
     overflow-x: hidden; }
-    aside.search_window div.content ul.hot span {
-      display: inline-block; }
+    aside.search_window div.content div.group p.title {
+      display: inline-block;
+      width: 100%;
+      font-size: 4.3vw;
+      padding: 1vh 0 1vh 0; }
+      aside.search_window div.content div.group p.title span.arrow {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 3vw 3vw 0 3vw;
+        border-color: #ffffff transparent transparent transparent;
+        position: relative; }
+        aside.search_window div.content div.group p.title span.arrow:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          border-style: solid;
+          border-width: 3vw 3vw 0 3vw;
+          border-color: #959dc5 transparent transparent transparent; }
+      aside.search_window div.content div.group p.title.hot {
+        color: #fff;
+        background: #959dc5; }
 
 nav.kinds ul.early {
   font-family: 'my_font';
