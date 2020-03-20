@@ -810,6 +810,10 @@ aside{
               transform: rotate(90deg);
               pointer-events: all;
             }
+            &.right{
+              float: right;
+              display: inline-block;
+            }
           }
       }
     }
@@ -1695,6 +1699,85 @@ aside{
             }
           }
         }
+      }
+    }
+  }
+  &.my_windows_mb{
+    width: 100vw;
+    height: 100vh;
+    background: #f7f7f7;
+    z-index: 400;
+    display: inline-block;
+    position: fixed;
+    transform: translateX(100%);
+    transition: all 0.4s ease-in-out;
+    &.active{
+      transform: translateX(0%);
+    }
+    div{
+      &.header{
+        ul{
+          li{
+            &.right{
+              font-size: 5vw;
+              color: #4d515d;
+            }
+          }
+        }
+      }
+      &.mb_content{
+        background: #fff;
+        margin: 1vh 3vw 0 3vw;
+        width: 94vw;
+        
+        div{
+          &.title{
+            width: 100%;
+            line-height: 25vw;
+            padding: 5vw 0 5px 5vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            position: relative;
+            p{
+              display: inline-block;
+              line-height: 1;
+              &.total{
+                color: #4d515d;
+                font-size: 4vw;
+                margin: 0 0 3vw 0;
+              }
+              &.num{
+                color: #4d515d;
+                font-size: 6.5vw;
+                font-weight: bold;
+
+                span{
+                font-size: 3vw;
+                }
+              }
+            }
+            div{
+              &.save_money{
+                position: absolute;
+                right: 5vw;
+                bottom: 5px;
+                line-height: 9vw;
+                display: inline-block;
+                width: 20vw;
+                text-align: center;
+                background: linear-gradient(to right, #9aa6e3 0%,#495dc5 100%);
+                border-radius: 30px;
+                box-shadow: 0 0 12px 0px #a7a5a5;
+                p{
+                  color: #fff;
+                  font-size: 4vw;
+                }
+              }
+            }
+          }
+        }
+
       }
     }
   }
