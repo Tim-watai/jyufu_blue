@@ -664,7 +664,7 @@ main {
 footer {
   @include size(100%, 7vh);
   position: fixed;
-  z-index: 10;
+  z-index: 500;
   bottom: 0;
   left: 0;
   box-shadow: 0 -3px 5px 0 #e2e2e2;
@@ -785,7 +785,148 @@ aside{
           -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
           box-shadow: 0 3px 5px 0 #e2e2e2;
           padding: 0 3vw 0 3vw;
+          li{
+            &.title{
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              color: #4d515d;
+              font-family: "my_font";
+              display: inline-block;
+              font-size: 5vw;
+            }
+            &.back{
+              position: relative;
+              background: url(../images/arrow_d.png)no-repeat;
+              background-position: center center;
+              background-size: 100%;
+              width: 5vw;
+              height:5vw;
+              vertical-align: middle;
+              display: inline-block;
+              transform: rotate(90deg);
+              pointer-events: all;
+            }
+          }
       }
+    }
+    &.row_btn{
+      background: #fff;
+      line-height: 15vw;
+      padding: 0 3vw 0 3vw;
+      margin: 0 0 13px 0;
+      position: relative;
+      &:first-child{
+        margin: 14px 0 0 0;
+      }
+      &.line{
+        margin: 0 0 1px 0;
+        &:before{
+          content: '';
+          position: absolute;
+          bottom: -1px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 94vw;
+          height: 1px;
+          background: #e0e3f3;
+        }
+      }
+      span{
+        display: inline-block;
+      }
+      p{
+        display: inline-block;
+        font-size: 4vw;
+        &:first-child{
+          color: #4d515d;
+          span{
+            &.cr{
+              background: url(../images/my_cr_s.png) no-repeat;
+              width: 5.1vw;
+              height: 6vw;
+              background-position: center center;
+              background-size: cover;
+              line-height: 1;
+              vertical-align: middle;
+              margin: 0 3vw 0 0;
+            }
+            &.hp{
+              background: url(../images/my_hp_s.png) no-repeat;
+              width: 5.1vw;
+              height: 6vw;
+              background-position: center center;
+              background-size: 100%;
+              line-height: 1;
+              vertical-align: middle;
+              margin: 0 3vw 0 0;
+            }
+            &.ab{
+              background: url(../images/my_ab_s.png) no-repeat;
+              width: 5.1vw;
+              height: 6vw;
+              background-position: center center;
+              background-size: 100%;
+              line-height: 1;
+              vertical-align: middle;
+              margin: 0 3vw 0 0;
+            }
+            &.jo{
+              background: url(../images/my_jo_s.png) no-repeat;
+              width: 5.1vw;
+              height: 6vw;
+              background-position: center center;
+              background-size: 100%;
+              line-height: 1;
+              vertical-align: middle;
+              margin: 0 3vw 0 0;
+            }
+            &.sh{
+              background: url(../images/my_sh_s.png) no-repeat;
+              width: 5.1vw;
+              height: 6vw;
+              background-position: center center;
+              background-size: 100%;
+              line-height: 1;
+              vertical-align: middle;
+              margin: 0 3vw 0 0;
+            }
+            &.app{
+              background: url(../images/my_app_s.png) no-repeat;
+              width: 5.1vw;
+              height: 6vw;
+              background-position: center center;
+              background-size: 100%;
+              line-height: 1;
+              vertical-align: middle;
+              margin: 0 3vw 0 0;
+            }
+          }
+        }
+        &:last-child{
+          color: #838ba0;
+          line-height: 15vw;
+          float: right;
+          span{
+            &.arrow{
+              display: inline-block;
+              width: 3vw;
+              height: 5vw;
+              position: relative;
+              background: url(../images/arrow_lg.png) no-repeat;
+              background-size: cover;
+              background-position: center center;
+              margin: 0 0 0 3vw;
+              line-height: 1;
+              vertical-align: sub;
+            }
+          }
+        }
+      }
+
     }
   }
   &.hot_windows {
@@ -1093,7 +1234,7 @@ aside{
     width: 100vw;
     height: 100vh;
     background: #f7f7f7;
-    z-index: 500;
+    z-index: 400;
     display: inline-block;
     position: fixed;
     transform: translateX(100%);
@@ -1234,21 +1375,20 @@ aside{
           &.arrow{
             float: right;
             display: inline-block;
-            width: 5vw;
-            height: 3vw;
+            width: 3vw;
+            height: 5vw;
             position: relative;
             top: 50%;
             transform: translateY(-50%);
-            background: url(../images/arrow_d.png)no-repeat;
+            background: url(../images/arrow_lg.png)no-repeat;
             background-size: cover;
             background-position: center center;
-            transform: rotate(270deg);
           }
         }
       }
       &.banner{
         width: 100%;
-        padding: 3vh 3vw 0 3vw;
+        padding: 3vh 3vw 6px 3vw;
         background: #fff;
         div{
           &.p1{
@@ -1264,7 +1404,6 @@ aside{
       }
       &.group{
         padding: 3vh 4vw 1vh 4vw;
-        margin: 0 0 14px 0;
         background: #fff;
         ul{
           li{
@@ -1283,40 +1422,40 @@ aside{
             span{
               &.money_icon{
                 background: url(../images/my_moneybag.png)no-repeat;
-                background-size: cover;
+                background-size: 100%;
                 background-position: center center;
-                height: 9vw;
+                height: 8vw;
                 width: 9vw;
                 margin: 0 0 2vw 0;
               }
               &.record_icon{
                 background: url(../images/my_record.png)no-repeat;
-                background-size: cover;
+                background-size: 100%;
                 background-position: center center;
-                height: 9vw;
+                height: 8vw;
                 width: 9vw;
                 margin: 0 0 2vw 0;
               }
               &.transaction_icon{
                 background: url(../images/my_transaction.png)no-repeat;
-                background-size: cover;
+                background-size: 100%;
                 background-position: center center;
-                height: 9vw;
+                height: 8vw;
                 width: 9vw;
                 margin: 0 0 2vw 0;
               }
               &.card_icon{
                 background: url(../images/my_card.png)no-repeat;
-                background-size: cover;
+                background-size: 100%;
                 background-position: center center;
-                height: 9vw;
+                height: 8vw;
                 width: 9vw;
                 margin: 0 0 2vw 0;
                 border-radius: 8px;
               }
             }
               p{
-                font-size: 5vw;
+                font-size: 4.5vw;
                 font-weight: bold;
                 color: #4d515d;
               }
@@ -1324,10 +1463,33 @@ aside{
           }
         }
       }
+      &.row_scroll{
+        height: calc(100vh - 18vw - 4vh - 14px - 3vh - 18vw - 20vw - 7vh);
+        padding: 0 0 200px 0;
+        overflow: scroll;
+      }
       &.row_btn{
         background: #fff;
         line-height: 15vw;
         padding: 0 3vw 0 3vw;
+        margin: 0 0 13px 0;
+        position: relative;
+        &:first-child{
+          margin: 14px 0 0 0;
+        }
+        &.line{
+          margin: 0 0 1px 0;
+          &:before{
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 94vw;
+            height: 1px;
+            background: #e0e3f3;
+          }
+        }
         span{
           display: inline-block;
         }
@@ -1347,13 +1509,97 @@ aside{
                 vertical-align: middle;
                 margin: 0 3vw 0 0;
               }
+              &.hp{
+                background: url(../images/my_hp_s.png) no-repeat;
+                width: 5.1vw;
+                height: 6vw;
+                background-position: center center;
+                background-size: 100%;
+                line-height: 1;
+                vertical-align: middle;
+                margin: 0 3vw 0 0;
+              }
+              &.ab{
+                background: url(../images/my_ab_s.png) no-repeat;
+                width: 5.1vw;
+                height: 6vw;
+                background-position: center center;
+                background-size: 100%;
+                line-height: 1;
+                vertical-align: middle;
+                margin: 0 3vw 0 0;
+              }
+              &.jo{
+                background: url(../images/my_jo_s.png) no-repeat;
+                width: 5.1vw;
+                height: 6vw;
+                background-position: center center;
+                background-size: 100%;
+                line-height: 1;
+                vertical-align: middle;
+                margin: 0 3vw 0 0;
+              }
+              &.sh{
+                background: url(../images/my_sh_s.png) no-repeat;
+                width: 5.1vw;
+                height: 6vw;
+                background-position: center center;
+                background-size: 100%;
+                line-height: 1;
+                vertical-align: middle;
+                margin: 0 3vw 0 0;
+              }
+              &.app{
+                background: url(../images/my_app_s.png) no-repeat;
+                width: 5.1vw;
+                height: 6vw;
+                background-position: center center;
+                background-size: 100%;
+                line-height: 1;
+                vertical-align: middle;
+                margin: 0 3vw 0 0;
+              }
             }
           }
           &:last-child{
             color: #838ba0;
+            line-height: 15vw;
+            float: right;
+            span{
+              &.arrow{
+                display: inline-block;
+                width: 3vw;
+                height: 5vw;
+                position: relative;
+                background: url(../images/arrow_lg.png) no-repeat;
+                background-size: cover;
+                background-position: center center;
+                margin: 0 0 0 3vw;
+                line-height: 1;
+                vertical-align: sub;
+              }
+            }
           }
         }
 
+      }
+    }
+  }
+  &.my_windows_set{
+    width: 100vw;
+    height: 100vh;
+    background: #f7f7f7;
+    z-index: 400;
+    display: inline-block;
+    position: fixed;
+    transform: translateX(100%);
+    transition: all 0.4s ease-in-out;
+    &.active{
+      transform: translateX(0%);
+    }
+    div{
+      &.header{
+        margin: 0 0 1vh 0;
       }
     }
   }

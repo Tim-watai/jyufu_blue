@@ -1550,14 +1550,13 @@ aside{
                   background: #737997;
                   vertical-align: middle;
                   border-radius: 20px;
-                  padding: 0 5px;
+                  padding: 0 2px;
                   span{
                     display: inline-block;
                     font-size: 2vw;
                     border-radius: 20px;
-                    line-height: calc(4vh * 0.8);
-                    height: 80%;
-                    vertical-align: middle;
+                    line-height: calc(4vh - 4px);
+                    height: calc(4vh - 4px);
                     width: 15vw;
                     text-align: center;
                     &.active{
@@ -1566,8 +1565,13 @@ aside{
                         color: #4d515d;
                       }
                     }
+                    &.p_left{
+                      top: 2px;
+                      position: relative;
+                      float: left;
+                    }
                     &.p_right{
-                      top: 10%;
+                      top: 2px;
                       position: relative;
                       float: right;
                     }

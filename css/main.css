@@ -1764,22 +1764,25 @@ aside.set_window {
             background: #737997;
             vertical-align: middle;
             border-radius: 20px;
-            padding: 0 5px; }
+            padding: 0 2px; }
             aside.set_window ul.side_bar li div.box div.check span {
               display: inline-block;
               font-size: 2vw;
               border-radius: 20px;
-              line-height: calc(4vh * 0.8);
-              height: 80%;
-              vertical-align: middle;
+              line-height: calc(4vh - 4px);
+              height: calc(4vh - 4px);
               width: 15vw;
               text-align: center; }
               aside.set_window ul.side_bar li div.box div.check span.active {
                 background: #fff; }
                 aside.set_window ul.side_bar li div.box div.check span.active p {
                   color: #4d515d; }
+              aside.set_window ul.side_bar li div.box div.check span.p_left {
+                top: 2px;
+                position: relative;
+                float: left; }
               aside.set_window ul.side_bar li div.box div.check span.p_right {
-                top: 10%;
+                top: 2px;
                 position: relative;
                 float: right; }
               aside.set_window ul.side_bar li div.box div.check span p {
@@ -3427,7 +3430,7 @@ footer {
   width: 100%;
   height: 7vh;
   position: fixed;
-  z-index: 10;
+  z-index: 500;
   bottom: 0;
   left: 0;
   -webkit-box-shadow: 0 -3px 5px 0 #e2e2e2;
@@ -3523,6 +3526,128 @@ aside div.header ul {
   -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
   box-shadow: 0 3px 5px 0 #e2e2e2;
   padding: 0 3vw 0 3vw; }
+  aside div.header ul li.title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #4d515d;
+    font-family: "my_font";
+    display: inline-block;
+    font-size: 5vw; }
+  aside div.header ul li.back {
+    position: relative;
+    background: url(../images/arrow_d.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    width: 5vw;
+    height: 5vw;
+    vertical-align: middle;
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    pointer-events: all; }
+
+aside div.row_btn {
+  background: #fff;
+  line-height: 15vw;
+  padding: 0 3vw 0 3vw;
+  margin: 0 0 13px 0;
+  position: relative; }
+  aside div.row_btn:first-child {
+    margin: 14px 0 0 0; }
+  aside div.row_btn.line {
+    margin: 0 0 1px 0; }
+    aside div.row_btn.line:before {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      width: 94vw;
+      height: 1px;
+      background: #e0e3f3; }
+  aside div.row_btn span {
+    display: inline-block; }
+  aside div.row_btn p {
+    display: inline-block;
+    font-size: 4vw; }
+    aside div.row_btn p:first-child {
+      color: #4d515d; }
+      aside div.row_btn p:first-child span.cr {
+        background: url(../images/my_cr_s.png) no-repeat;
+        width: 5.1vw;
+        height: 6vw;
+        background-position: center center;
+        background-size: cover;
+        line-height: 1;
+        vertical-align: middle;
+        margin: 0 3vw 0 0; }
+      aside div.row_btn p:first-child span.hp {
+        background: url(../images/my_hp_s.png) no-repeat;
+        width: 5.1vw;
+        height: 6vw;
+        background-position: center center;
+        background-size: 100%;
+        line-height: 1;
+        vertical-align: middle;
+        margin: 0 3vw 0 0; }
+      aside div.row_btn p:first-child span.ab {
+        background: url(../images/my_ab_s.png) no-repeat;
+        width: 5.1vw;
+        height: 6vw;
+        background-position: center center;
+        background-size: 100%;
+        line-height: 1;
+        vertical-align: middle;
+        margin: 0 3vw 0 0; }
+      aside div.row_btn p:first-child span.jo {
+        background: url(../images/my_jo_s.png) no-repeat;
+        width: 5.1vw;
+        height: 6vw;
+        background-position: center center;
+        background-size: 100%;
+        line-height: 1;
+        vertical-align: middle;
+        margin: 0 3vw 0 0; }
+      aside div.row_btn p:first-child span.sh {
+        background: url(../images/my_sh_s.png) no-repeat;
+        width: 5.1vw;
+        height: 6vw;
+        background-position: center center;
+        background-size: 100%;
+        line-height: 1;
+        vertical-align: middle;
+        margin: 0 3vw 0 0; }
+      aside div.row_btn p:first-child span.app {
+        background: url(../images/my_app_s.png) no-repeat;
+        width: 5.1vw;
+        height: 6vw;
+        background-position: center center;
+        background-size: 100%;
+        line-height: 1;
+        vertical-align: middle;
+        margin: 0 3vw 0 0; }
+    aside div.row_btn p:last-child {
+      color: #838ba0;
+      line-height: 15vw;
+      float: right; }
+      aside div.row_btn p:last-child span.arrow {
+        display: inline-block;
+        width: 3vw;
+        height: 5vw;
+        position: relative;
+        background: url(../images/arrow_lg.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 0 0 0 3vw;
+        line-height: 1;
+        vertical-align: sub; }
 
 aside.hot_windows {
   display: none;
@@ -3788,7 +3913,7 @@ aside.my_windows {
   width: 100vw;
   height: 100vh;
   background: #f7f7f7;
-  z-index: 500;
+  z-index: 400;
   display: inline-block;
   position: fixed;
   -webkit-transform: translateX(100%);
@@ -3918,22 +4043,19 @@ aside.my_windows {
     aside.my_windows div.hellocard div.arrow {
       float: right;
       display: inline-block;
-      width: 5vw;
-      height: 3vw;
+      width: 3vw;
+      height: 5vw;
       position: relative;
       top: 50%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
-      background: url(../images/arrow_d.png) no-repeat;
+      background: url(../images/arrow_lg.png) no-repeat;
       background-size: cover;
-      background-position: center center;
-      -webkit-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-      transform: rotate(270deg); }
+      background-position: center center; }
   aside.my_windows div.banner {
     width: 100%;
-    padding: 3vh 3vw 0 3vw;
+    padding: 3vh 3vw 6px 3vw;
     background: #fff; }
     aside.my_windows div.banner div.p1 {
       width: 94vw;
@@ -3946,7 +4068,6 @@ aside.my_windows {
       box-shadow: 0 0 5px 3px #e9e9e9; }
   aside.my_windows div.group {
     padding: 3vh 4vw 1vh 4vw;
-    margin: 0 0 14px 0;
     background: #fff; }
     aside.my_windows div.group ul li {
       width: 20vw;
@@ -3961,41 +4082,62 @@ aside.my_windows {
         display: inline-block; }
       aside.my_windows div.group ul li span.money_icon {
         background: url(../images/my_moneybag.png) no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-position: center center;
-        height: 9vw;
+        height: 8vw;
         width: 9vw;
         margin: 0 0 2vw 0; }
       aside.my_windows div.group ul li span.record_icon {
         background: url(../images/my_record.png) no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-position: center center;
-        height: 9vw;
+        height: 8vw;
         width: 9vw;
         margin: 0 0 2vw 0; }
       aside.my_windows div.group ul li span.transaction_icon {
         background: url(../images/my_transaction.png) no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-position: center center;
-        height: 9vw;
+        height: 8vw;
         width: 9vw;
         margin: 0 0 2vw 0; }
       aside.my_windows div.group ul li span.card_icon {
         background: url(../images/my_card.png) no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-position: center center;
-        height: 9vw;
+        height: 8vw;
         width: 9vw;
         margin: 0 0 2vw 0;
         border-radius: 8px; }
       aside.my_windows div.group ul li p {
-        font-size: 5vw;
+        font-size: 4.5vw;
         font-weight: bold;
         color: #4d515d; }
+  aside.my_windows div.row_scroll {
+    height: calc(100vh - 18vw - 4vh - 14px - 3vh - 18vw - 20vw - 7vh);
+    padding: 0 0 200px 0;
+    overflow: scroll; }
   aside.my_windows div.row_btn {
     background: #fff;
     line-height: 15vw;
-    padding: 0 3vw 0 3vw; }
+    padding: 0 3vw 0 3vw;
+    margin: 0 0 13px 0;
+    position: relative; }
+    aside.my_windows div.row_btn:first-child {
+      margin: 14px 0 0 0; }
+    aside.my_windows div.row_btn.line {
+      margin: 0 0 1px 0; }
+      aside.my_windows div.row_btn.line:before {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 94vw;
+        height: 1px;
+        background: #e0e3f3; }
     aside.my_windows div.row_btn span {
       display: inline-block; }
     aside.my_windows div.row_btn p {
@@ -4012,5 +4154,83 @@ aside.my_windows {
           line-height: 1;
           vertical-align: middle;
           margin: 0 3vw 0 0; }
+        aside.my_windows div.row_btn p:first-child span.hp {
+          background: url(../images/my_hp_s.png) no-repeat;
+          width: 5.1vw;
+          height: 6vw;
+          background-position: center center;
+          background-size: 100%;
+          line-height: 1;
+          vertical-align: middle;
+          margin: 0 3vw 0 0; }
+        aside.my_windows div.row_btn p:first-child span.ab {
+          background: url(../images/my_ab_s.png) no-repeat;
+          width: 5.1vw;
+          height: 6vw;
+          background-position: center center;
+          background-size: 100%;
+          line-height: 1;
+          vertical-align: middle;
+          margin: 0 3vw 0 0; }
+        aside.my_windows div.row_btn p:first-child span.jo {
+          background: url(../images/my_jo_s.png) no-repeat;
+          width: 5.1vw;
+          height: 6vw;
+          background-position: center center;
+          background-size: 100%;
+          line-height: 1;
+          vertical-align: middle;
+          margin: 0 3vw 0 0; }
+        aside.my_windows div.row_btn p:first-child span.sh {
+          background: url(../images/my_sh_s.png) no-repeat;
+          width: 5.1vw;
+          height: 6vw;
+          background-position: center center;
+          background-size: 100%;
+          line-height: 1;
+          vertical-align: middle;
+          margin: 0 3vw 0 0; }
+        aside.my_windows div.row_btn p:first-child span.app {
+          background: url(../images/my_app_s.png) no-repeat;
+          width: 5.1vw;
+          height: 6vw;
+          background-position: center center;
+          background-size: 100%;
+          line-height: 1;
+          vertical-align: middle;
+          margin: 0 3vw 0 0; }
       aside.my_windows div.row_btn p:last-child {
-        color: #838ba0; }
+        color: #838ba0;
+        line-height: 15vw;
+        float: right; }
+        aside.my_windows div.row_btn p:last-child span.arrow {
+          display: inline-block;
+          width: 3vw;
+          height: 5vw;
+          position: relative;
+          background: url(../images/arrow_lg.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
+          margin: 0 0 0 3vw;
+          line-height: 1;
+          vertical-align: sub; }
+
+aside.my_windows_set {
+  width: 100vw;
+  height: 100vh;
+  background: #f7f7f7;
+  z-index: 400;
+  display: inline-block;
+  position: fixed;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  aside.my_windows_set.active {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); }
+  aside.my_windows_set div.header {
+    margin: 0 0 1vh 0; }
