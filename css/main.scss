@@ -840,7 +840,10 @@ aside{
       }
       p{
         display: inline-block;
-        font-size: 4vw;
+        font-size: 4.3vw;
+        &.dark_blue.dark_blue{
+          color: #4d515d;
+        }
         &:first-child{
           color: #4d515d;
           span{
@@ -927,6 +930,15 @@ aside{
         }
       }
 
+    }
+    &.get_out{
+      width: 100%;
+      text-align: center;
+      background: #fff;
+      line-height: 15vw;
+      position: relative;
+      color: #4d515d;
+      font-size: 4.3vw;
     }
   }
   &.hot_windows {
@@ -1495,7 +1507,7 @@ aside{
         }
         p{
           display: inline-block;
-          font-size: 4vw;
+          font-size: 4.3vw;
           &:first-child{
             color: #4d515d;
             span{
@@ -1600,6 +1612,89 @@ aside{
     div{
       &.header{
         margin: 0 0 1vh 0;
+      }
+      &.row_btn{
+        div{
+          &.box{
+            display: inline-block;
+            float: right;
+            div{
+              &.check{
+                display: inline-block;
+                height: 4vh;
+                line-height: 4vh;
+                width: 34vw;
+                background: #737997;
+                vertical-align: middle;
+                border-radius: 20px;
+                padding: 0 2px;
+                span{
+                  display: inline-block;
+                  font-size: 2vw;
+                  border-radius: 20px;
+                  line-height: calc(4vh - 4px);
+                  height: calc(4vh - 4px);
+                  width: 15vw;
+                  text-align: center;
+                  &.active{
+                    background: #fff;
+                    p{
+                      color: #4d515d;
+                    }
+                  }
+                  &.p_left{
+                    top: 2px;
+                    position: relative;
+                    float: left;
+                  }
+                  &.p_right{
+                    top: 2px;
+                    position: relative;
+                    float: right;
+                  }
+                  p{
+                    display: inline-block;
+                    vertical-align: middle;
+                    line-height: 1;
+                    color: #fff;
+                    float: none;
+                    font-size: 3vw;
+                  }
+                }
+              }
+            }
+          }
+          &.box_empty{
+            display: inline-block;
+            float: right;
+            div{
+              &.check{
+                display: inline-block;
+                height: 7vw;
+                line-height: 7vw;
+                background: #737997;
+                vertical-align: middle;
+                border-radius: 20px;
+                padding: 0 2px;
+                width: 13vw;
+                span{
+                  &.switch{
+                    position: relative;
+                  top: 2px;
+                  width: calc(7vw - 4px);
+                  height: calc(7vw - 4px);
+                  background: #fff;
+                  border-radius: 20px;
+                  transition: all 0.3s ease-in-out;
+                  &.active{
+                    transform: translateX(calc(13vw - 7vw));
+                  }
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

@@ -1789,7 +1789,8 @@ aside.set_window {
                 display: inline-block;
                 vertical-align: middle;
                 line-height: 1;
-                color: #fff; }
+                color: #fff;
+                font-size: 3vw; }
       aside.set_window ul.side_bar li.title {
         margin: 0 0 12px 0; }
         aside.set_window ul.side_bar li.title span {
@@ -3576,7 +3577,9 @@ aside div.row_btn {
     display: inline-block; }
   aside div.row_btn p {
     display: inline-block;
-    font-size: 4vw; }
+    font-size: 4.3vw; }
+    aside div.row_btn p.dark_blue.dark_blue {
+      color: #4d515d; }
     aside div.row_btn p:first-child {
       color: #4d515d; }
       aside div.row_btn p:first-child span.cr {
@@ -3648,6 +3651,15 @@ aside div.row_btn {
         margin: 0 0 0 3vw;
         line-height: 1;
         vertical-align: sub; }
+
+aside div.get_out {
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  line-height: 15vw;
+  position: relative;
+  color: #4d515d;
+  font-size: 4.3vw; }
 
 aside.hot_windows {
   display: none;
@@ -4142,7 +4154,7 @@ aside.my_windows {
       display: inline-block; }
     aside.my_windows div.row_btn p {
       display: inline-block;
-      font-size: 4vw; }
+      font-size: 4.3vw; }
       aside.my_windows div.row_btn p:first-child {
         color: #4d515d; }
         aside.my_windows div.row_btn p:first-child span.cr {
@@ -4234,3 +4246,68 @@ aside.my_windows_set {
     transform: translateX(0%); }
   aside.my_windows_set div.header {
     margin: 0 0 1vh 0; }
+  aside.my_windows_set div.row_btn div.box {
+    display: inline-block;
+    float: right; }
+    aside.my_windows_set div.row_btn div.box div.check {
+      display: inline-block;
+      height: 4vh;
+      line-height: 4vh;
+      width: 34vw;
+      background: #737997;
+      vertical-align: middle;
+      border-radius: 20px;
+      padding: 0 2px; }
+      aside.my_windows_set div.row_btn div.box div.check span {
+        display: inline-block;
+        font-size: 2vw;
+        border-radius: 20px;
+        line-height: calc(4vh - 4px);
+        height: calc(4vh - 4px);
+        width: 15vw;
+        text-align: center; }
+        aside.my_windows_set div.row_btn div.box div.check span.active {
+          background: #fff; }
+          aside.my_windows_set div.row_btn div.box div.check span.active p {
+            color: #4d515d; }
+        aside.my_windows_set div.row_btn div.box div.check span.p_left {
+          top: 2px;
+          position: relative;
+          float: left; }
+        aside.my_windows_set div.row_btn div.box div.check span.p_right {
+          top: 2px;
+          position: relative;
+          float: right; }
+        aside.my_windows_set div.row_btn div.box div.check span p {
+          display: inline-block;
+          vertical-align: middle;
+          line-height: 1;
+          color: #fff;
+          float: none;
+          font-size: 3vw; }
+  aside.my_windows_set div.row_btn div.box_empty {
+    display: inline-block;
+    float: right; }
+    aside.my_windows_set div.row_btn div.box_empty div.check {
+      display: inline-block;
+      height: 7vw;
+      line-height: 7vw;
+      background: #737997;
+      vertical-align: middle;
+      border-radius: 20px;
+      padding: 0 2px;
+      width: 13vw; }
+      aside.my_windows_set div.row_btn div.box_empty div.check span.switch {
+        position: relative;
+        top: 2px;
+        width: calc(7vw - 4px);
+        height: calc(7vw - 4px);
+        background: #fff;
+        border-radius: 20px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+        aside.my_windows_set div.row_btn div.box_empty div.check span.switch.active {
+          -webkit-transform: translateX(calc(13vw - 7vw));
+          -ms-transform: translateX(calc(13vw - 7vw));
+          transform: translateX(calc(13vw - 7vw)); }

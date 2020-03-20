@@ -1304,7 +1304,8 @@ aside.set_window {
                 display: inline-block;
                 vertical-align: middle;
                 line-height: 1;
-                color: #fff; }
+                color: #fff;
+                font-size: 3vw; }
       aside.set_window ul.side_bar li.title {
         margin: 0 0 12px 0; }
         aside.set_window ul.side_bar li.title span {

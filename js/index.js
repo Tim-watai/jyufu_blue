@@ -65,7 +65,7 @@ $(document).ready(function() {
     }
   });
    //切換_我的視窗_設定
-   $('aside.my_windows div.header ul li.option , aside div.header ul li.back').click(function(){
+   $('aside.my_windows div.header ul li.option , aside div.header ul li.back ,aside div.get_out').click(function(){
     if($('aside.my_windows_set').hasClass('active') !== true)
     {
       $('aside.my_windows_set').addClass('active');    
@@ -73,6 +73,23 @@ $(document).ready(function() {
       $('aside.my_windows_set').removeClass('active');   
     }
   });
+  $('aside.my_windows_set div.row_btn div.box div.check span').click(function(){
+    if($(this).hasClass('active') !== true)
+    {
+      $(this).addClass('active');
+      $(this).siblings().removeClass('active');  
+    }
+  });
+  $('aside.my_windows_set div.row_btn div.box_empty div.check span.switch').click(function(){
+    if($(this).hasClass('active') !== true)
+    {
+      $(this).addClass('active');    
+    }else{
+      $(this).removeClass('active');   
+    }
+  });
+
+  
   //首頁_關閉全部彈窗
 
 
