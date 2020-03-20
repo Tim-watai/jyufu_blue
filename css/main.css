@@ -802,7 +802,7 @@ main.market {
         border-radius: 12px;
         width: 30vw;
         height: 85%;
-        line-height: 3vh;
+        line-height: calc(3.5vh * 0.85);
         padding: 0 0.5%;
         position: relative;
         -webkit-transform: translateY(-50%);
@@ -820,7 +820,7 @@ main.market {
           top: 50%;
           width: 50%;
           height: 80%;
-          line-height: 80%;
+          line-height: calc(3.5vh * 0.85 * 0.8);
           border-radius: 12px; }
           main.market aside article.option div.mode span.active {
             background: #fff; }
@@ -829,12 +829,9 @@ main.market {
           main.market aside article.option div.mode span p {
             display: inline-block;
             color: #fff;
-            font-size: 1.2vh;
+            font-size: 3vw;
             position: relative;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            top: 50%;
+            vertical-align: middle;
             line-height: 1; }
           main.market aside article.option div.mode span:first-child {
             float: left; }
