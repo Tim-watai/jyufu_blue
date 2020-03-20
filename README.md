@@ -19,7 +19,7 @@ blue jyufu</br>
 	論述內頁
 
 滾球
-	主頁<
+	主頁
 今日	
 	空空如也~
 	(小視窗)可投注餘額
@@ -39,7 +39,7 @@ blue jyufu</br>
 我的
 	主頁_finish
 		設置_finish
-		錢包_now<
+		錢包_now
 			提款
 			轉帳
 		卡片
@@ -85,4 +85,4 @@ blue jyufu</br>
 		QA1
 		QA1_解答
 		QA2
-		QA2解答```
+		QA2解答
