@@ -4651,7 +4651,7 @@ aside.my_windows_mb {
         color: #838ba0;
         font-size: 3vw; }
 
-aside.my_windows_mb_take_out {
+aside.my_windows_mb_transfer {
   width: 100vw;
   height: 100vh;
   background: #f7f7f7;
@@ -4664,36 +4664,36 @@ aside.my_windows_mb_take_out {
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
-  aside.my_windows_mb_take_out.active {
+  aside.my_windows_mb_transfer.active {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
-  aside.my_windows_mb_take_out div.header ul {
+  aside.my_windows_mb_transfer div.header ul {
     padding: 0 7vw 0 3vw; }
-    aside.my_windows_mb_take_out div.header ul li.question {
+    aside.my_windows_mb_transfer div.header ul li.question {
       background: url(../images/question.png) no-repeat;
       background-size: 100%;
       background-position: center;
       width: 5vw;
       height: 5vh;
       position: relative; }
-  aside.my_windows_mb_take_out div.content {
+  aside.my_windows_mb_transfer div.content {
     background: #fff;
     width: 100vw;
     margin: 1vh 0 0 0;
     padding: 0 3vw 0 3vw; }
-    aside.my_windows_mb_take_out div.content div {
+    aside.my_windows_mb_transfer div.content div {
       border-bottom: 1px solid #e0e3f3; }
-      aside.my_windows_mb_take_out div.content div.title {
+      aside.my_windows_mb_transfer div.content div.title {
         height: 12vw;
         line-height: 12vw; }
-        aside.my_windows_mb_take_out div.content div.title p {
+        aside.my_windows_mb_transfer div.content div.title p {
           display: inline-block; }
-          aside.my_windows_mb_take_out div.content div.title p.money_total {
+          aside.my_windows_mb_transfer div.content div.title p.money_total {
             font-weight: bold;
             color: #4d515d;
             font-size: 4.5vw; }
-            aside.my_windows_mb_take_out div.content div.title p.money_total span {
+            aside.my_windows_mb_transfer div.content div.title p.money_total span {
               display: inline-block;
               width: 4vw;
               height: 4vw;
@@ -4701,14 +4701,14 @@ aside.my_windows_mb_take_out {
               background-size: 100%;
               background-position: center;
               margin: 0 0 0 1vw; }
-          aside.my_windows_mb_take_out div.content div.title p.recycle {
+          aside.my_windows_mb_transfer div.content div.title p.recycle {
             float: right;
             color: #556de7;
             font-size: 4.5vw; }
-      aside.my_windows_mb_take_out div.content div.money_type {
+      aside.my_windows_mb_transfer div.content div.money_type {
         white-space: nowrap;
         position: relative; }
-        aside.my_windows_mb_take_out div.content div.money_type:before {
+        aside.my_windows_mb_transfer div.content div.money_type:before {
           content: '';
           position: absolute;
           top: 50%;
@@ -4719,17 +4719,17 @@ aside.my_windows_mb_take_out {
           width: 1px;
           height: 7vw;
           background: #e0e3f3; }
-        aside.my_windows_mb_take_out div.content div.money_type span {
+        aside.my_windows_mb_transfer div.content div.money_type span {
           display: inline-block; }
-          aside.my_windows_mb_take_out div.content div.money_type span.center {
+          aside.my_windows_mb_transfer div.content div.money_type span.center {
             width: 50%;
             text-align: center;
             margin: 3vw 0 3vw 0; }
-            aside.my_windows_mb_take_out div.content div.money_type span.center p.title {
+            aside.my_windows_mb_transfer div.content div.money_type span.center p.title {
               display: inline-block;
               font-size: 4vw;
               color: #4d515d; }
-              aside.my_windows_mb_take_out div.content div.money_type span.center p.title span {
+              aside.my_windows_mb_transfer div.content div.money_type span.center p.title span {
                 display: inline-block;
                 width: 4vw;
                 height: 4vw;
@@ -4737,20 +4737,20 @@ aside.my_windows_mb_take_out {
                 background-size: 100%;
                 background-position: center;
                 margin: 0 1vw 0 0; }
-            aside.my_windows_mb_take_out div.content div.money_type span.center p.balance {
+            aside.my_windows_mb_transfer div.content div.money_type span.center p.balance {
               font-size: 6vw;
               line-height: 1;
               margin: 2vw 0 0 0;
               color: #556de7; }
-          aside.my_windows_mb_take_out div.content div.money_type span.lock {
+          aside.my_windows_mb_transfer div.content div.money_type span.lock {
             width: 50%;
             text-align: center;
             margin: 3vw 0 3vw 0; }
-            aside.my_windows_mb_take_out div.content div.money_type span.lock p.title {
+            aside.my_windows_mb_transfer div.content div.money_type span.lock p.title {
               display: inline-block;
               font-size: 4vw;
               color: #4d515d; }
-              aside.my_windows_mb_take_out div.content div.money_type span.lock p.title span {
+              aside.my_windows_mb_transfer div.content div.money_type span.lock p.title span {
                 display: inline-block;
                 width: 4vw;
                 height: 4vw;
@@ -4758,22 +4758,22 @@ aside.my_windows_mb_take_out {
                 background-size: 100%;
                 background-position: center;
                 margin: 0 1vw 0 0; }
-            aside.my_windows_mb_take_out div.content div.money_type span.lock p.balance {
+            aside.my_windows_mb_transfer div.content div.money_type span.lock p.balance {
               font-size: 6vw;
               line-height: 1;
               margin: 2vw 0 0 0;
               color: #556de7; }
-      aside.my_windows_mb_take_out div.content div.groups {
+      aside.my_windows_mb_transfer div.content div.groups {
         white-space: nowrap;
         position: relative;
         border-bottom: none; }
-        aside.my_windows_mb_take_out div.content div.groups div.line {
+        aside.my_windows_mb_transfer div.content div.groups div.line {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex; }
-          aside.my_windows_mb_take_out div.content div.groups div.line.last.last {
+          aside.my_windows_mb_transfer div.content div.groups div.line.last.last {
             border-bottom: none; }
-            aside.my_windows_mb_take_out div.content div.groups div.line.last.last span:before {
+            aside.my_windows_mb_transfer div.content div.groups div.line.last.last span:before {
               content: '';
               position: absolute;
               top: 50%;
@@ -4784,16 +4784,16 @@ aside.my_windows_mb_take_out {
               width: 1px;
               height: 7vw;
               background: #e0e3f3; }
-            aside.my_windows_mb_take_out div.content div.groups div.line.last.last span p:first-child {
+            aside.my_windows_mb_transfer div.content div.groups div.line.last.last span p:first-child {
               color: #838ba0; }
-            aside.my_windows_mb_take_out div.content div.groups div.line.last.last span p:last-child {
+            aside.my_windows_mb_transfer div.content div.groups div.line.last.last span p:last-child {
               background: url(../images/double_arrow_gray.png) no-repeat;
               background-size: 100%;
               background-position: center;
               width: 3.5vw;
               height: 3.5vw;
               margin: 2vw 0 0 0; }
-          aside.my_windows_mb_take_out div.content div.groups div.line span {
+          aside.my_windows_mb_transfer div.content div.groups div.line span {
             width: 25%;
             display: -webkit-box;
             display: -ms-flexbox;
@@ -4807,10 +4807,22 @@ aside.my_windows_mb_take_out {
             align-items: center;
             margin: 3vw 0 3vw 0;
             position: relative; }
-            aside.my_windows_mb_take_out div.content div.groups div.line span:last-child:before {
+            aside.my_windows_mb_transfer div.content div.groups div.line span.active p em {
+              position: absolute;
+              top: 30%;
+              -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              transform: translate(100%, -50%);
+              right: 0;
+              width: 3.5vw;
+              height: 3.5vw;
+              background: url(../images/information.png) no-repeat;
+              background-size: 100%;
+              background-position: center; }
+            aside.my_windows_mb_transfer div.content div.groups div.line span:last-child:before {
               width: 0;
               height: 0; }
-            aside.my_windows_mb_take_out div.content div.groups div.line span:before {
+            aside.my_windows_mb_transfer div.content div.groups div.line span:before {
               content: '';
               position: absolute;
               top: 50%;
@@ -4822,27 +4834,58 @@ aside.my_windows_mb_take_out {
               width: 1px;
               height: 7vw;
               background: #e0e3f3; }
-            aside.my_windows_mb_take_out div.content div.groups div.line span p {
+            aside.my_windows_mb_transfer div.content div.groups div.line span p {
               display: inline-block;
               line-height: 1; }
-              aside.my_windows_mb_take_out div.content div.groups div.line span p:first-child {
+              aside.my_windows_mb_transfer div.content div.groups div.line span p:first-child {
                 color: #4d515d;
-                font-size: 4vw;
+                font-size: 3.5vw;
                 position: relative; }
-                aside.my_windows_mb_take_out div.content div.groups div.line span p:first-child.active:before {
-                  content: '';
-                  position: absolute;
-                  top: 30%;
-                  -webkit-transform: translateY(-50%);
-                  -ms-transform: translateY(-50%);
-                  transform: translate(100%, -50%);
-                  right: 0;
-                  width: 3.5vw;
-                  height: 3.5vw;
-                  background: url(../images/information.png) no-repeat;
-                  background-size: 100%;
-                  background-position: center; }
-              aside.my_windows_mb_take_out div.content div.groups div.line span p:last-child {
+              aside.my_windows_mb_transfer div.content div.groups div.line span p:last-child {
                 color: #838ba0;
                 font-size: 4vw;
                 margin: 3vw 0 0 0; }
+  aside.my_windows_mb_transfer div.auto {
+    margin: 1.5vh 0 0 0;
+    padding: 0 3vw;
+    background: #fff;
+    position: relative; }
+    aside.my_windows_mb_transfer div.auto p {
+      font-weight: bold;
+      color: #4d515d;
+      font-size: 4.5vw;
+      line-height: 13.5vw;
+      height: 13.5vw;
+      letter-spacing: 0.5px;
+      display: inline-block; }
+    aside.my_windows_mb_transfer div.auto div.box_empty {
+      display: inline-block;
+      float: right;
+      line-height: 13.5vw; }
+      aside.my_windows_mb_transfer div.auto div.box_empty div.check {
+        display: inline-block;
+        height: 7vw;
+        line-height: 7vw;
+        background: #737997;
+        background: #adafbb;
+        vertical-align: middle;
+        border-radius: 20px;
+        padding: 0 2px;
+        width: 13vw; }
+        aside.my_windows_mb_transfer div.auto div.box_empty div.check.active {
+          background: #737997; }
+          aside.my_windows_mb_transfer div.auto div.box_empty div.check.active span.switch {
+            -webkit-transform: translateX(calc(13vw - 7vw));
+            -ms-transform: translateX(calc(13vw - 7vw));
+            transform: translateX(calc(13vw - 7vw)); }
+        aside.my_windows_mb_transfer div.auto div.box_empty div.check span.switch {
+          display: inline-block;
+          position: relative;
+          top: 2px;
+          width: calc(7vw - 4px);
+          height: calc(7vw - 4px);
+          background: #fff;
+          border-radius: 20px;
+          -webkit-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out; }

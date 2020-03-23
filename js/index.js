@@ -81,6 +81,7 @@ $(document).ready(function() {
      return $(this).siblings().removeClass('active');  
     }
   });
+  //switch
   $('aside.my_windows_set div.row_btn div.box_empty div.check span.switch').click(function(){
     if($(this).hasClass('active') !== true)
     {
@@ -100,15 +101,24 @@ $(document).ready(function() {
       return $('aside.my_windows_mb').removeClass('active');   
     }
   });
-  //切換_我的視窗_取款
+  //切換_我的視窗_轉帳
   
-  $('aside.my_windows_mb_take_out div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.take_out').click(function(){
+  $('aside.my_windows_mb_transfer div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.transfer').click(function(){
     console.log('mb');
-    if($('aside.my_windows_mb_take_out').hasClass('active') !== true)
+    if($('aside.my_windows_mb_transfer').hasClass('active') !== true)
     {
-      return $('aside.my_windows_mb_take_out').addClass('active');    
+      return $('aside.my_windows_mb_transfer').addClass('active');    
     }else{
-      return $('aside.my_windows_mb_take_out').removeClass('active');   
+      return $('aside.my_windows_mb_transfer').removeClass('active');   
+    }
+  });
+  //switch
+  $('aside.my_windows_mb_transfer div.auto div.box_empty div.check').click(function(){
+    if($(this).hasClass('active') !== true)
+    {
+      return $(this).addClass('active');    
+    }else{
+      return $(this).removeClass('active');   
     }
   });
   //首頁_關閉全部彈窗
