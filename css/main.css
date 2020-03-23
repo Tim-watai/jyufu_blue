@@ -4408,7 +4408,7 @@ aside.my_windows_mb {
             background-position: center center;
             width: 8vw;
             height: 9vw; }
-        aside.my_windows_mb div.mb_content div.btns div.withdraw span.withdraw_icon {
+        aside.my_windows_mb div.mb_content div.btns div.take_out span.take_out_icon {
           background: url(../images/get.png) no-repeat;
           background-size: 100%;
           background-position: center center;
@@ -4650,3 +4650,58 @@ aside.my_windows_mb {
       aside.my_windows_mb div.mb_record div.content p {
         color: #838ba0;
         font-size: 3vw; }
+
+aside.my_windows_mb_take_out {
+  width: 100vw;
+  height: 100vh;
+  background: #f7f7f7;
+  z-index: 500;
+  display: inline-block;
+  position: fixed;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  aside.my_windows_mb_take_out.active {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); }
+  aside.my_windows_mb_take_out div.header ul {
+    padding: 0 7vw 0 3vw; }
+    aside.my_windows_mb_take_out div.header ul li.question {
+      background: url(../images/question.png) no-repeat;
+      background-size: 100%;
+      background-position: center;
+      width: 5vw;
+      height: 5vh;
+      position: relative; }
+  aside.my_windows_mb_take_out div.content {
+    background: #fff;
+    width: 100vw;
+    margin: 1vh 0 0 0;
+    padding: 0 3vw 0 3vw; }
+    aside.my_windows_mb_take_out div.content div {
+      border-bottom: 1px solid #e0e3f3; }
+      aside.my_windows_mb_take_out div.content div.title {
+        height: 12vw;
+        line-height: 12vw; }
+        aside.my_windows_mb_take_out div.content div.title p {
+          display: inline-block; }
+          aside.my_windows_mb_take_out div.content div.title p.money_total {
+            font-weight: bold;
+            color: #4d515d;
+            font-size: 4.5vw; }
+            aside.my_windows_mb_take_out div.content div.title p.money_total span {
+              display: inline-block;
+              width: 4vw;
+              height: 4vw;
+              background: url(../images/refresh_b.png) no-repeat;
+              background-size: 100%;
+              background-position: center;
+              margin: 0 0 0 1vw; }
+          aside.my_windows_mb_take_out div.content div.title p.recycle {
+            float: right;
+            color: #556de7;
+            font-size: 4.5vw; }

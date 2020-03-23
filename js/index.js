@@ -92,12 +92,23 @@ $(document).ready(function() {
 
   //切換_我的視窗_錢包
   $('aside.my_windows div.group ul li.my_mb , aside.my_windows_mb div.header ul li.back').click(function(){
-    console.log('mb');
+   
     if($('aside.my_windows_mb').hasClass('active') !== true)
     {
       return $('aside.my_windows_mb').addClass('active');    
     }else{
       return $('aside.my_windows_mb').removeClass('active');   
+    }
+  });
+  //切換_我的視窗_取款
+  
+  $('aside.my_windows_mb_take_out div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.take_out').click(function(){
+    console.log('mb');
+    if($('aside.my_windows_mb_take_out').hasClass('active') !== true)
+    {
+      return $('aside.my_windows_mb_take_out').addClass('active');    
+    }else{
+      return $('aside.my_windows_mb_take_out').removeClass('active');   
     }
   });
   //首頁_關閉全部彈窗
