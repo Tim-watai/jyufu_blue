@@ -1866,6 +1866,50 @@ aside{
         }
 
       }
+      &.mb_event{
+        margin: 1vh 3vw 0 3vw;
+        width: 94vw;
+        div{
+          &.title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding: 0 0 0 2vw;
+            &:before{
+              content: '';
+              width: 3px;
+              height: 5vw;
+              position: absolute;
+              border-radius: 8px;
+              top: 40%;
+              left: 0%;
+              transform: translate(0%,-50%);
+              background-color: #b5c1ff;
+            }
+            h1,
+            p{
+              display: inline-block;
+            }
+            h1{
+              font-weight: bold;
+              color: #525661;
+              font-size: 5vw;
+              position: relative;
+              
+            }
+            p{
+              font-size: 4vw;
+              color: #7181d4;
+              span{
+                &.arrow{
+                  
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

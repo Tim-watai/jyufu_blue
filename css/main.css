@@ -4450,3 +4450,41 @@ aside.my_windows_mb {
             position: absolute;
             right: 5vw;
             bottom: 5.5vw; }
+  aside.my_windows_mb div.mb_event {
+    margin: 1vh 3vw 0 3vw;
+    width: 94vw; }
+    aside.my_windows_mb div.mb_event div.title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      position: relative;
+      padding: 0 0 0 2vw; }
+      aside.my_windows_mb div.mb_event div.title:before {
+        content: '';
+        width: 3px;
+        height: 5vw;
+        position: absolute;
+        border-radius: 8px;
+        top: 40%;
+        left: 0%;
+        -webkit-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        background-color: #b5c1ff; }
+      aside.my_windows_mb div.mb_event div.title h1,
+      aside.my_windows_mb div.mb_event div.title p {
+        display: inline-block; }
+      aside.my_windows_mb div.mb_event div.title h1 {
+        font-weight: bold;
+        color: #525661;
+        font-size: 5vw;
+        position: relative; }
+      aside.my_windows_mb div.mb_event div.title p {
+        font-size: 4vw;
+        color: #7181d4; }
