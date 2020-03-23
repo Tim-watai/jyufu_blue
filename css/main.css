@@ -4338,7 +4338,10 @@ aside.my_windows_mb {
   aside.my_windows_mb div.mb_content {
     background: #fff;
     margin: 1vh 3vw 0 3vw;
-    width: 94vw; }
+    width: 94vw;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 5px 1px #ececec;
+    box-shadow: 0 0 5px 1px #ececec; }
     aside.my_windows_mb div.mb_content div.title {
       width: 100%;
       line-height: 25vw;
@@ -4385,6 +4388,65 @@ aside.my_windows_mb {
         aside.my_windows_mb div.mb_content div.title div.save_money p {
           color: #fff;
           font-size: 4vw; }
-    aside.my_windows_mb div.mb_content div.btns div {
-      display: inline-block;
-      text-align: center; }
+    aside.my_windows_mb div.mb_content div.btns {
+      text-align: center;
+      padding: 12vw 8vw 4vw 8vw; }
+      aside.my_windows_mb div.mb_content div.btns div {
+        display: inline-block;
+        text-align: center;
+        line-height: 1; }
+        aside.my_windows_mb div.mb_content div.btns div p {
+          color: #4d515d;
+          font-size: 4vw; }
+        aside.my_windows_mb div.mb_content div.btns div span {
+          display: inline-block; }
+        aside.my_windows_mb div.mb_content div.btns div.transfer {
+          float: left; }
+          aside.my_windows_mb div.mb_content div.btns div.transfer span.transfer_icon {
+            background: url(../images/translate.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            width: 8vw;
+            height: 9vw; }
+        aside.my_windows_mb div.mb_content div.btns div.withdraw span.withdraw_icon {
+          background: url(../images/get.png) no-repeat;
+          background-size: 100%;
+          background-position: center center;
+          width: 8vw;
+          height: 9vw; }
+        aside.my_windows_mb div.mb_content div.btns div.card {
+          float: right; }
+          aside.my_windows_mb div.mb_content div.btns div.card span.card_icon {
+            background: url(../images/my_card.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            width: 10vw;
+            height: 9vw; }
+    aside.my_windows_mb div.mb_content div.footer {
+      overflow: auto;
+      border-top: 1px solid #e0e3f3;
+      padding: 4vw 11vw 5vw 5vw;
+      line-height: 4vw;
+      position: relative; }
+      aside.my_windows_mb div.mb_content div.footer p {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 4vw; }
+        aside.my_windows_mb div.mb_content div.footer p.money_detail {
+          color: #4d515d;
+          float: left; }
+        aside.my_windows_mb div.mb_content div.footer p.balance {
+          color: #838ba0;
+          float: right; }
+          aside.my_windows_mb div.mb_content div.footer p.balance span.cross_icon {
+            display: inline-block;
+            width: 4vw;
+            height: 4vw;
+            background: url(../images/cross.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            vertical-align: baseline;
+            border-radius: 2px;
+            position: absolute;
+            right: 5vw;
+            bottom: 5.5vw; }
