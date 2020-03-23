@@ -4385,3 +4385,6 @@ aside.my_windows_mb {
         aside.my_windows_mb div.mb_content div.title div.save_money p {
           color: #fff;
           font-size: 4vw; }
+    aside.my_windows_mb div.mb_content div.btns div {
+      display: inline-block;
+      text-align: center; }

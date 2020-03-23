@@ -1776,6 +1776,23 @@ aside{
               }
             }
           }
+          &.btns{
+            div{
+              display: inline-block;
+              text-align: center;
+              p{
+                
+              }
+              &.transfer{
+                span{
+                  &.transfer_icon{
+
+                  }
+                }
+                
+              }
+            }
+          }
         }
 
       }
