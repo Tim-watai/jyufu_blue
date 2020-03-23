@@ -4501,7 +4501,43 @@ aside.my_windows_mb {
             margin: 0 0 0 1vw;
             position: absolute;
             top: 0.5vw; }
-    aside.my_windows_mb div.mb_event div.events p {
-      display: inline-block; }
-      aside.my_windows_mb div.mb_event div.events p span {
+    aside.my_windows_mb div.mb_event div.events {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      line-height: 1; }
+      aside.my_windows_mb div.mb_event div.events div {
         display: inline-block; }
+        aside.my_windows_mb div.mb_event div.events div span {
+          display: inline-block; }
+          aside.my_windows_mb div.mb_event div.events div span p {
+            display: inline-block; }
+            aside.my_windows_mb div.mb_event div.events div span p span {
+              display: inline-block; }
+        aside.my_windows_mb div.mb_event div.events div.level_up span {
+          background: url(../images/flog.png) no-repeat;
+          background-size: 100%;
+          background-position: center center;
+          width: 5vw;
+          height: 5vw; }
+        aside.my_windows_mb div.mb_event div.events div.sign_in span {
+          background: url(../images/days.png) no-repeat;
+          background-size: 100%;
+          background-position: center center;
+          width: 5vw;
+          height: 5vw; }
+        aside.my_windows_mb div.mb_event div.events div.beginner_mission span {
+          background: url(../images/beginner_mission.png) no-repeat;
+          background-size: 100%;
+          background-position: center center;
+          width: 4vw;
+          height: 5vw; }
+        aside.my_windows_mb div.mb_event div.events div.gifts span {
+          background: url(../images/gifts.png) no-repeat;
+          background-size: 100%;
+          background-position: center center;
+          width: 4vw;
+          height: 5vw; }

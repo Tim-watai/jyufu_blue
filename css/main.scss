@@ -1919,12 +1919,58 @@ aside{
             }
           }
           &.events{
-            p{
+            display: flex;
+            justify-content: space-between;
+            line-height: 1;
+            div{
               display: inline-block;
               span{
                 display: inline-block;
-              };
+                p{
+                  display: inline-block;
+                  span{
+                    display: inline-block;
+                  };
+                }
+              }
+              &.level_up{
+                span{
+                  background: url(../images/flog.png)no-repeat;
+                  background-size: 100%;
+                  background-position: center center;
+                  width: 5vw;
+                  height: 5vw;
+                }
+              }
+              &.sign_in{
+                span{
+                  background: url(../images/days.png)no-repeat;
+                  background-size: 100%;
+                  background-position: center center;
+                  width: 5vw;
+                  height: 5vw;
+                }
+              }
+              &.beginner_mission{
+                span{
+                  background: url(../images/beginner_mission.png)no-repeat;
+                  background-size: 100%;
+                  background-position: center center;
+                  width: 4vw;
+                  height: 5vw;
+                }
+              }
+              &.gifts{
+                span{
+                  background: url(../images/gifts.png)no-repeat;
+                  background-size: 100%;
+                  background-position: center center;
+                  width: 4vw;
+                  height: 5vw;
+                }
+              }
             }
+           
           }
         }
       }
