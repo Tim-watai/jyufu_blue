@@ -2298,6 +2298,7 @@ aside{
                             line-height: 3vw;
                             height: 5vw;
                             padding: 1vw;
+                            border-radius: 8px;
                             background: #95969a;
                             color: #fff;
                             font-size: 3vw;
@@ -2411,6 +2412,44 @@ aside{
     transition: all 0.4s ease-in-out;
     &.active{
       transform: translateX(0%);
+    }
+    div{
+      &.content{
+        width: 100vw;
+        margin: 1vh 0 0 0;
+        padding: 0 3vw 0 3vw;
+        background: #fff;
+        ul{
+          li{
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #e0e3f3;
+            padding: 3vw 0 3vw 0;
+            &:last-child{
+              border-bottom:none;
+              input{
+                border:1px solid #e0e3f3;
+                color: #4d515d;
+                border-radius: 4px;
+                padding: 2vw 0 2vw 2vw;
+              }
+            }
+            p{
+              display: inline-block;
+              font-size: 4.3vw;
+              &:first-child{
+                color: #4d515d;
+                width: 22vw;
+                padding: 0 0 0 2vw;
+                font-weight: bold;
+              }
+              &:last-child{
+                color: #838ba0;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

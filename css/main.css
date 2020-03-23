@@ -4844,6 +4844,7 @@ aside.my_windows_mb_transfer {
                 line-height: 3vw;
                 height: 5vw;
                 padding: 1vw;
+                border-radius: 8px;
                 background: #95969a;
                 color: #fff;
                 font-size: 3vw;
@@ -4936,3 +4937,34 @@ aside.my_windows_mb_take_out {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
+  aside.my_windows_mb_take_out div.content {
+    width: 100vw;
+    margin: 1vh 0 0 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff; }
+    aside.my_windows_mb_take_out div.content ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-bottom: 1px solid #e0e3f3;
+      padding: 3vw 0 3vw 0; }
+      aside.my_windows_mb_take_out div.content ul li:last-child {
+        border-bottom: none; }
+        aside.my_windows_mb_take_out div.content ul li:last-child input {
+          border: 1px solid #e0e3f3;
+          color: #4d515d;
+          border-radius: 4px;
+          padding: 2vw 0 2vw 2vw; }
+      aside.my_windows_mb_take_out div.content ul li p {
+        display: inline-block;
+        font-size: 4.3vw; }
+        aside.my_windows_mb_take_out div.content ul li p:first-child {
+          color: #4d515d;
+          width: 22vw;
+          padding: 0 0 0 2vw;
+          font-weight: bold; }
+        aside.my_windows_mb_take_out div.content ul li p:last-child {
+          color: #838ba0; }

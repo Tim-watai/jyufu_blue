@@ -102,7 +102,16 @@ $(document).ready(function() {
     }
   });
   //切換_我的視窗_轉帳
-  
+  $('aside.my_windows_mb_take_out div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.take_out').click(function(){
+    console.log('mb');
+    if($('aside.my_windows_mb_take_out').hasClass('active') !== true)
+    {
+      return $('aside.my_windows_mb_take_out').addClass('active');    
+    }else{
+      return $('aside.my_windows_mb_take_out').removeClass('active');   
+    }
+  });
+  //切換_我的視窗_轉帳
   $('aside.my_windows_mb_transfer div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.transfer').click(function(){
     console.log('mb');
     if($('aside.my_windows_mb_transfer').hasClass('active') !== true)
