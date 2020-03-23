@@ -4705,3 +4705,108 @@ aside.my_windows_mb_take_out {
             float: right;
             color: #556de7;
             font-size: 4.5vw; }
+      aside.my_windows_mb_take_out div.content div.money_type {
+        white-space: nowrap;
+        position: relative; }
+        aside.my_windows_mb_take_out div.content div.money_type:before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          width: 1px;
+          height: 7vw;
+          background: #e0e3f3; }
+        aside.my_windows_mb_take_out div.content div.money_type span {
+          display: inline-block; }
+          aside.my_windows_mb_take_out div.content div.money_type span.center {
+            width: 50%;
+            text-align: center;
+            margin: 3vw 0 3vw 0; }
+            aside.my_windows_mb_take_out div.content div.money_type span.center p.title {
+              display: inline-block;
+              font-size: 4vw;
+              color: #4d515d; }
+              aside.my_windows_mb_take_out div.content div.money_type span.center p.title span {
+                display: inline-block;
+                width: 4vw;
+                height: 4vw;
+                background: url(../images/mb_w.png) no-repeat;
+                background-size: 100%;
+                background-position: center;
+                margin: 0 1vw 0 0; }
+            aside.my_windows_mb_take_out div.content div.money_type span.center p.balance {
+              font-size: 6vw;
+              line-height: 1;
+              margin: 2vw 0 0 0;
+              color: #556de7; }
+          aside.my_windows_mb_take_out div.content div.money_type span.lock {
+            width: 50%;
+            text-align: center;
+            margin: 3vw 0 3vw 0; }
+            aside.my_windows_mb_take_out div.content div.money_type span.lock p.title {
+              display: inline-block;
+              font-size: 4vw;
+              color: #4d515d; }
+              aside.my_windows_mb_take_out div.content div.money_type span.lock p.title span {
+                display: inline-block;
+                width: 4vw;
+                height: 4vw;
+                background: url(../images/mb_w.png) no-repeat;
+                background-size: 100%;
+                background-position: center;
+                margin: 0 1vw 0 0; }
+            aside.my_windows_mb_take_out div.content div.money_type span.lock p.balance {
+              font-size: 6vw;
+              line-height: 1;
+              margin: 2vw 0 0 0;
+              color: #556de7; }
+      aside.my_windows_mb_take_out div.content div.groups {
+        white-space: nowrap;
+        position: relative;
+        border-bottom: none; }
+        aside.my_windows_mb_take_out div.content div.groups div.line {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          aside.my_windows_mb_take_out div.content div.groups div.line span {
+            width: 25%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin: 3vw 0 3vw 0;
+            position: relative; }
+            aside.my_windows_mb_take_out div.content div.groups div.line span:last-child:before {
+              width: 0;
+              height: 0; }
+            aside.my_windows_mb_take_out div.content div.groups div.line span:before {
+              content: '';
+              position: absolute;
+              top: 50%;
+              right: 0;
+              /* left: 50%; */
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(0%, -50%);
+              width: 1px;
+              height: 7vw;
+              background: #e0e3f3; }
+            aside.my_windows_mb_take_out div.content div.groups div.line span p {
+              display: inline-block;
+              line-height: 1; }
+              aside.my_windows_mb_take_out div.content div.groups div.line span p:first-child {
+                color: #4d515d;
+                font-size: 4vw; }
+              aside.my_windows_mb_take_out div.content div.groups div.line span p:last-child {
+                color: #838ba0;
+                font-size: 4vw;
+                margin: 3vw 0 0 0; }

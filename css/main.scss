@@ -2145,6 +2145,125 @@ aside{
               }
             }
           }
+          &.money_type{
+            white-space: nowrap;
+            position: relative;
+            &:before{
+              content:'';
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50% ,-50%);
+              width: 1px;
+              height: 7vw;
+              background: #e0e3f3;
+            }
+            span{
+              display: inline-block;
+              &.center{
+                width: 50%;
+                text-align: center;
+                margin: 3vw 0 3vw 0;
+                p{ 
+                  &.title{
+                    display: inline-block;
+                    font-size: 4vw;
+                    color: #4d515d;
+                    span{
+                      display: inline-block;
+                      width: 4vw;
+                      height: 4vw;
+                      background: url(../images/mb_w.png)no-repeat;
+                      background-size: 100%;
+                      background-position: center;
+                      margin: 0 1vw 0 0;
+                    }
+                  }
+                  &.balance{
+                    font-size: 6vw;
+                    line-height: 1;
+                    margin: 2vw 0 0 0;
+                    color: #556de7;
+                  }
+                }
+              }
+              &.lock{
+                width: 50%;
+                text-align: center;
+                margin: 3vw 0 3vw 0;
+                p{ 
+                  &.title{
+                    display: inline-block;
+                    font-size: 4vw;
+                    color: #4d515d;
+                    span{
+                      display: inline-block;
+                      width: 4vw;
+                      height: 4vw;
+                      background: url(../images/mb_w.png)no-repeat;
+                      background-size: 100%;
+                      background-position: center;
+                      margin: 0 1vw 0 0;
+                    }
+                  }
+                  &.balance{
+                    font-size: 6vw;
+                    line-height: 1;
+                    margin: 2vw 0 0 0;
+                    color: #556de7;
+                  }
+                }
+              }
+            }
+          }
+          &.groups{
+            white-space: nowrap;
+            position: relative;
+            border-bottom: none;
+            div{
+              &.line{
+                display: flex;
+                span{
+                  width: 25%;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  margin: 3vw 0 3vw 0;
+                  position: relative;
+                  &:last-child:before{
+                    width: 0;
+                    height: 0;
+                  }
+                  &:before{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    /* left: 50%; */
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(0%, -50%);
+                    width: 1px;
+                    height: 7vw;
+                    background: #e0e3f3;
+                  }
+                  p{
+                    display: inline-block;
+                    line-height: 1;
+                    &:first-child{
+                      color: #4d515d;
+                      font-size: 4vw;
+                    }
+                    &:last-child{
+                      color: #838ba0;
+                      font-size: 4vw;
+                      margin: 3vw 0 0 0;
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
