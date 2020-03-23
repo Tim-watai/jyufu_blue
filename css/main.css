@@ -4818,7 +4818,36 @@ aside.my_windows_mb_transfer {
               height: 3.5vw;
               background: url(../images/information.png) no-repeat;
               background-size: 100%;
-              background-position: center; }
+              background-position: center;
+              font-style: normal; }
+              aside.my_windows_mb_transfer div.content div.groups div.line span.active p em:hover:before {
+                content: '';
+                position: absolute;
+                top: -2.5vw;
+                left: 50%;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 2vw 2vw 0 2vw;
+                border-color: #95969a transparent transparent transparent; }
+              aside.my_windows_mb_transfer div.content div.groups div.line span.active p em:hover:after {
+                content: 'LB彩票和PG電子的遊戲錢包';
+                position: absolute;
+                top: -7vw;
+                left: 50%;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+                line-height: 3vw;
+                height: 5vw;
+                padding: 1vw;
+                background: #95969a;
+                color: #fff;
+                font-size: 3vw;
+                display: inline-block; }
             aside.my_windows_mb_transfer div.content div.groups div.line span:last-child:before {
               width: 0;
               height: 0; }
@@ -4889,3 +4918,21 @@ aside.my_windows_mb_transfer {
           -webkit-transition: all 0.3s ease-in-out;
           -o-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out; }
+
+aside.my_windows_mb_take_out {
+  width: 100vw;
+  height: 100vh;
+  background: #f7f7f7;
+  z-index: 500;
+  display: inline-block;
+  position: fixed;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  aside.my_windows_mb_take_out.active {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); }
