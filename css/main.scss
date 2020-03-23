@@ -2223,6 +2223,36 @@ aside{
             div{
               &.line{
                 display: flex;
+                &.last.last{
+                  border-bottom: none;
+                  span{
+                    &:before{
+                      content: '';
+                      position: absolute;
+                      top: 50%;
+                      right: 0;
+                      -webkit-transform: translate(-50%, -50%);
+                      -ms-transform: translate(-50%, -50%);
+                      transform: translate(0%, -50%);
+                      width: 1px;
+                      height: 7vw;
+                      background: #e0e3f3;
+                    }
+                    p{
+                      &:first-child{
+                        color: #838ba0;;
+                      }
+                      &:last-child{
+                        background: url(../images/double_arrow_gray.png)no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                        width: 3.5vw;
+                        height: 3.5vw;
+                        margin:2vw 0 0 0;
+                      }
+                    }
+                  }
+                }
                 span{
                   width: 25%;
                   display: flex;
@@ -2253,6 +2283,23 @@ aside{
                     &:first-child{
                       color: #4d515d;
                       font-size: 4vw;
+                      position: relative;
+                      &.active{
+                        &:before{
+                          content: '';
+                          position: absolute;
+                          top: 30%;
+                          -webkit-transform: translateY(-50%);
+                          -ms-transform: translateY(-50%);
+                          transform: translate(100%,-50%);
+                          right: 0;
+                          width: 3.5vw;
+                          height: 3.5vw;
+                          background: url(../images/information.png) no-repeat;
+                          background-size: 100%;
+                          background-position: center;
+                        }
+                      }
                     }
                     &:last-child{
                       color: #838ba0;
