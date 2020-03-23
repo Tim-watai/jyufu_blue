@@ -4451,7 +4451,7 @@ aside.my_windows_mb {
             right: 5vw;
             bottom: 5.5vw; }
   aside.my_windows_mb div.mb_event {
-    margin: 1vh 3vw 0 3vw;
+    margin: 5vw 3vw 0 3vw;
     width: 94vw; }
     aside.my_windows_mb div.mb_event div.title {
       display: -webkit-box;
@@ -4464,11 +4464,11 @@ aside.my_windows_mb {
       -ms-flex-align: center;
       align-items: center;
       position: relative;
-      padding: 0 0 0 2vw; }
+      padding: 0 4vw 0 2vw; }
       aside.my_windows_mb div.mb_event div.title:before {
         content: '';
-        width: 3px;
-        height: 5vw;
+        width: 4px;
+        height: 4vw;
         position: absolute;
         border-radius: 8px;
         top: 40%;
@@ -4487,4 +4487,21 @@ aside.my_windows_mb {
         position: relative; }
       aside.my_windows_mb div.mb_event div.title p {
         font-size: 4vw;
-        color: #7181d4; }
+        color: #7181d4;
+        line-height: 4vw;
+        position: relative; }
+        aside.my_windows_mb div.mb_event div.title p span {
+          display: inline-block; }
+          aside.my_windows_mb div.mb_event div.title p span.arrow {
+            width: 2vw;
+            height: 2vw;
+            background: url(../images/arrow_lg.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            margin: 0 0 0 1vw;
+            position: absolute;
+            top: 0.5vw; }
+    aside.my_windows_mb div.mb_event div.events p {
+      display: inline-block; }
+      aside.my_windows_mb div.mb_event div.events p span {
+        display: inline-block; }
