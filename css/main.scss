@@ -1922,24 +1922,28 @@ aside{
             display: flex;
             justify-content: space-between;
             line-height: 1;
+            padding: 5vw 3vw 0 3vw;
             div{
-              display: inline-block;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
               span{
                 display: inline-block;
+                margin: 0 0 2vw 0;
+              }
                 p{
                   display: inline-block;
-                  span{
-                    display: inline-block;
-                  };
+                  color: #838ba0;
+                  font-size: 3.5vw;
                 }
-              }
+             
               &.level_up{
                 span{
                   background: url(../images/flog.png)no-repeat;
                   background-size: 100%;
                   background-position: center center;
-                  width: 5vw;
-                  height: 5vw;
+                  width: 7vw;
+                  height: 8vw;
                 }
               }
               &.sign_in{
@@ -1947,8 +1951,8 @@ aside{
                   background: url(../images/days.png)no-repeat;
                   background-size: 100%;
                   background-position: center center;
-                  width: 5vw;
-                  height: 5vw;
+                  width: 7vw;
+                  height: 8vw;
                 }
               }
               &.beginner_mission{
@@ -1956,21 +1960,124 @@ aside{
                   background: url(../images/beginner_mission.png)no-repeat;
                   background-size: 100%;
                   background-position: center center;
-                  width: 4vw;
-                  height: 5vw;
+                  width: 7vw;
+                  height: 8vw;
                 }
               }
               &.gifts{
                 span{
-                  background: url(../images/gifts.png)no-repeat;
+                  background: url(../images/bag.png)no-repeat;
                   background-size: 100%;
                   background-position: center center;
-                  width: 4vw;
-                  height: 5vw;
+                  width: 7vw;
+                  height: 8vw;
                 }
               }
             }
            
+          }
+        }
+      }
+      &.mb_banner{
+        padding: 0 3vw;
+        margin: 10vw 0 0 0;
+        div{
+          &.banner{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background: #ccd5ff;
+            height: 18vw;
+            border-radius: 40px;
+            padding: 0 5vw 0 0;
+            div{
+              &.text_area{
+                display: flex;
+                flex-direction: column;
+               
+                h1{
+                  color: #5566c4;
+                  font-size: 4.5vw;
+                  margin: 2vw 0 0 0;
+                  letter-spacing: 0.5px;
+                }
+                p{
+                  color: #5566c4;
+                  font-size: 3vw;
+                  margin: -1vw 0 0 0;
+                }
+              }
+              &.big_gift{
+                width: 29vw;
+                height: 18vw;
+                background: url(../images/big_gift.png)no-repeat;
+                background-size: 100%;
+                background-position: center;
+                margin: 0 0 0 2vw;
+              }
+            }
+          }
+        }
+      }
+      &.mb_record{
+        margin: 5vw 3vw 0 3vw;
+        width: 94vw;
+        div{
+          &.title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding: 0 4vw 0 2vw;
+            &:before{
+              content: '';
+              width: 4px;
+              height: 4vw;
+              position: absolute;
+              border-radius: 8px;
+              top: 40%;
+              left: 0%;
+              transform: translate(0%,-50%);
+              background-color: #b5c1ff;
+            }
+            h1,
+            p{
+              display: inline-block;
+            }
+            h1{
+              font-weight: bold;
+              color: #525661;
+              font-size: 5vw;
+              position: relative;
+              
+            }
+            p{
+              font-size: 4vw;
+              color: #838ba0;
+              line-height: 4vw;
+              position: relative;
+              span{
+                display: inline-block;
+                &.arrow{
+                  width: 2vw;
+                  height: 2vw;
+                  background: url(../images/arrow_lg.png)no-repeat;
+                  background-size: 100%;
+                  background-position: center center;
+                  margin: 0 0 0 1vw;
+                  position: absolute;
+                  top: 0.5vw;
+                }
+              }
+            }
+          }
+          &.content{
+            text-align: center;
+            margin: 5vw 0 0 0;
+            p{
+              color: #838ba0;
+              font-size: 3vw;
+            }
           }
         }
       }

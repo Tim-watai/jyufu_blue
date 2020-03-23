@@ -4508,36 +4508,145 @@ aside.my_windows_mb {
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
-      line-height: 1; }
+      line-height: 1;
+      padding: 5vw 3vw 0 3vw; }
       aside.my_windows_mb div.mb_event div.events div {
-        display: inline-block; }
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
         aside.my_windows_mb div.mb_event div.events div span {
-          display: inline-block; }
-          aside.my_windows_mb div.mb_event div.events div span p {
-            display: inline-block; }
-            aside.my_windows_mb div.mb_event div.events div span p span {
-              display: inline-block; }
+          display: inline-block;
+          margin: 0 0 2vw 0; }
+        aside.my_windows_mb div.mb_event div.events div p {
+          display: inline-block;
+          color: #838ba0;
+          font-size: 3.5vw; }
         aside.my_windows_mb div.mb_event div.events div.level_up span {
           background: url(../images/flog.png) no-repeat;
           background-size: 100%;
           background-position: center center;
-          width: 5vw;
-          height: 5vw; }
+          width: 7vw;
+          height: 8vw; }
         aside.my_windows_mb div.mb_event div.events div.sign_in span {
           background: url(../images/days.png) no-repeat;
           background-size: 100%;
           background-position: center center;
-          width: 5vw;
-          height: 5vw; }
+          width: 7vw;
+          height: 8vw; }
         aside.my_windows_mb div.mb_event div.events div.beginner_mission span {
           background: url(../images/beginner_mission.png) no-repeat;
           background-size: 100%;
           background-position: center center;
-          width: 4vw;
-          height: 5vw; }
+          width: 7vw;
+          height: 8vw; }
         aside.my_windows_mb div.mb_event div.events div.gifts span {
-          background: url(../images/gifts.png) no-repeat;
+          background: url(../images/bag.png) no-repeat;
           background-size: 100%;
           background-position: center center;
-          width: 4vw;
-          height: 5vw; }
+          width: 7vw;
+          height: 8vw; }
+  aside.my_windows_mb div.mb_banner {
+    padding: 0 3vw;
+    margin: 10vw 0 0 0; }
+    aside.my_windows_mb div.mb_banner div.banner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background: #ccd5ff;
+      height: 18vw;
+      border-radius: 40px;
+      padding: 0 5vw 0 0; }
+      aside.my_windows_mb div.mb_banner div.banner div.text_area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        aside.my_windows_mb div.mb_banner div.banner div.text_area h1 {
+          color: #5566c4;
+          font-size: 4.5vw;
+          margin: 2vw 0 0 0;
+          letter-spacing: 0.5px; }
+        aside.my_windows_mb div.mb_banner div.banner div.text_area p {
+          color: #5566c4;
+          font-size: 3vw;
+          margin: -1vw 0 0 0; }
+      aside.my_windows_mb div.mb_banner div.banner div.big_gift {
+        width: 29vw;
+        height: 18vw;
+        background: url(../images/big_gift.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        margin: 0 0 0 2vw; }
+  aside.my_windows_mb div.mb_record {
+    margin: 5vw 3vw 0 3vw;
+    width: 94vw; }
+    aside.my_windows_mb div.mb_record div.title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      position: relative;
+      padding: 0 4vw 0 2vw; }
+      aside.my_windows_mb div.mb_record div.title:before {
+        content: '';
+        width: 4px;
+        height: 4vw;
+        position: absolute;
+        border-radius: 8px;
+        top: 40%;
+        left: 0%;
+        -webkit-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        background-color: #b5c1ff; }
+      aside.my_windows_mb div.mb_record div.title h1,
+      aside.my_windows_mb div.mb_record div.title p {
+        display: inline-block; }
+      aside.my_windows_mb div.mb_record div.title h1 {
+        font-weight: bold;
+        color: #525661;
+        font-size: 5vw;
+        position: relative; }
+      aside.my_windows_mb div.mb_record div.title p {
+        font-size: 4vw;
+        color: #838ba0;
+        line-height: 4vw;
+        position: relative; }
+        aside.my_windows_mb div.mb_record div.title p span {
+          display: inline-block; }
+          aside.my_windows_mb div.mb_record div.title p span.arrow {
+            width: 2vw;
+            height: 2vw;
+            background: url(../images/arrow_lg.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            margin: 0 0 0 1vw;
+            position: absolute;
+            top: 0.5vw; }
+    aside.my_windows_mb div.mb_record div.content {
+      text-align: center;
+      margin: 5vw 0 0 0; }
+      aside.my_windows_mb div.mb_record div.content p {
+        color: #838ba0;
+        font-size: 3vw; }
