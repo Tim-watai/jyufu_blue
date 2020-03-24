@@ -233,7 +233,7 @@ main.market {
   margin-bottom: 7vh;
   height: calc(100vh - 12.6vh - 7vh - 10px);
   overflow-y: scroll; }
-  main.market aside section {
+  main.market aside section.status {
     background: #fff; }
     main.market aside section.status.yet {
       border-top: 2px solid #ef6b5d; }
@@ -406,9 +406,21 @@ main.market {
                 top: 50%; }
       main.market aside ul li.beginner section.content {
         padding: 0 2.5vw 10px 2.5vw;
-        border-top: 2px solid #e0e3f3; }
+        border-top: 1px solid #e0e3f3; }
+        main.market aside ul li.beginner section.content span.title {
+          width: 100%;
+          height: 3.5vh;
+          line-height: 3.5vh;
+          padding: 0 2.5vw 0 2.5vw;
+          position: relative; }
         main.market aside ul li.beginner section.content:nth-child(odd) {
           background: #eef1ff; }
+          main.market aside ul li.beginner section.content:nth-child(odd) span.num_group div {
+            background-color: #fff; }
+        main.market aside ul li.beginner section.content.blue {
+          background: #eef1ff; }
+          main.market aside ul li.beginner section.content.blue span.num_group div {
+            background-color: #fff; }
         main.market aside ul li.beginner section.content.empty span.counter p.mid {
           color: #838ba0; }
         main.market aside ul li.beginner section.content.empty span.counter div.country p {
@@ -609,6 +621,14 @@ main.market {
           main.market aside ul li.beginner section.content span.num_group {
             width: 100%;
             text-align: center; }
+            main.market aside ul li.beginner section.content span.num_group.two_mode div {
+              background-color: #f6f8ff;
+              display: inline-block;
+              text-align: center;
+              width: 40%;
+              line-height: 35px; }
+              main.market aside ul li.beginner section.content span.num_group.two_mode div:first-child {
+                margin: 0 2px 0 0; }
             main.market aside ul li.beginner section.content span.num_group div {
               display: inline-block;
               text-align: center;
@@ -682,6 +702,10 @@ main.market {
           main.market aside ul li.senior section.content:nth-child(odd) {
             background: #eef1ff; }
             main.market aside ul li.senior section.content:nth-child(odd) span.point_box span.num_group div {
+              background: #fff; }
+          main.market aside ul li.senior section.content.blue {
+            background: #eef1ff; }
+            main.market aside ul li.senior section.content.blue span.point_box span.num_group div {
               background: #fff; }
           main.market aside ul li.senior section.content.empty span.counter p.mid {
             color: #838ba0; }
