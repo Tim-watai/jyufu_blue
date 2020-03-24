@@ -539,7 +539,14 @@ main.market {
               main.market aside ul li.beginner section.content span.counter p.name {
                 font-size: 1.7vh;
                 vertical-align: middle;
-                white-space: nowrap; }
+                white-space: nowrap;
+                overflow: hidden;
+                white-space: nowrap;
+                -o-text-overflow: ellipsis;
+                text-overflow: ellipsis;
+                width: 70%; }
+              main.market aside ul li.beginner section.content span.counter p.right {
+                text-align: right; }
               main.market aside ul li.beginner section.content span.counter p.mid {
                 position: absolute;
                 -webkit-transform: translate(-50%, -50%);
@@ -928,7 +935,7 @@ main.market {
                   margin: 0 3px 0 0; }
                   main.market aside ul li.senior section.content span.point_box span.num_group span.three_side div {
                     width: 100%;
-                    height: calc(15vh / 3 - 3px);
+                    height: calc(13vh / 3 - 3px);
                     margin: 0 0 3px 0; }
                     main.market aside ul li.senior section.content span.point_box span.num_group span.three_side div p {
                       margin: 0 0 0.5vh 0; }
@@ -940,7 +947,7 @@ main.market {
                   main.market aside ul li.senior section.content span.point_box span.num_group span.two_side div {
                     width: 100%;
                     height: 50%;
-                    height: calc(15vh / 2 - 3px);
+                    height: calc(13vh / 2 - 3px);
                     margin: 0 0 3px 0; }
                     main.market aside ul li.senior section.content span.point_box span.num_group span.two_side div p {
                       margin: 0 0 1.5vh 0; }
