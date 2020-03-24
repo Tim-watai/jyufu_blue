@@ -2606,18 +2606,54 @@ aside {
             p{
               font-size: 4vw;
               padding: 1vw;
-              line-height: 1;
+              line-height: 4vw;
               position: relative;
-              &:before{
-                content: '';
-                position: absolute;
+              color: #4d515d;
+              span{
+                display: inline-block;
                 width: 0;
                 height: 0;
-                top: 50%;
+                border-style: solid;
+                border-width: 5px 5px 0 5px;
+                border-color: #a4a7ae transparent transparent transparent;
+                vertical-align: middle;
+                margin: 0 0 0 1.5vw;
               }
             }
           }
         }
+      }
+      &.content{
+        height: calc(100vh - (5vh + 14vw));
+        &.empty{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          .empty_icon{
+            background:url(../images/bet_record_empty.png)no-repeat;
+            background-size: 100%;
+            background-position: center;
+            width: 50vw;
+            height: 50vw;
+            margin: 40vw 0 0 0;
+          }
+          p{
+            color: #838ba0;
+            font-size: 4vw;
+            margin: 4vw 0 8vw 0;
+          }
+          button{
+            color: #fff;
+            background: linear-gradient(to right, #9aa6e3 0%,#485cc4 100%);
+            border:none;
+            border-radius: 3px;
+            font-size: 4vw;
+            padding: 2vw 10vw;
+          }
+        }
+        
+        
       }
     }
   }

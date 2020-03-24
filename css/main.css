@@ -5101,11 +5101,52 @@ aside.my_windows_bet_record {
       aside.my_windows_bet_record div.title div.tack p {
         font-size: 4vw;
         padding: 1vw;
-        line-height: 1;
-        position: relative; }
-        aside.my_windows_bet_record div.title div.tack p:before {
-          content: '';
-          position: absolute;
+        line-height: 4vw;
+        position: relative;
+        color: #4d515d; }
+        aside.my_windows_bet_record div.title div.tack p span {
+          display: inline-block;
           width: 0;
           height: 0;
-          top: 50%; }
+          border-style: solid;
+          border-width: 5px 5px 0 5px;
+          border-color: #a4a7ae transparent transparent transparent;
+          vertical-align: middle;
+          margin: 0 0 0 1.5vw; }
+  aside.my_windows_bet_record div.content {
+    height: calc(100vh - (5vh + 14vw)); }
+    aside.my_windows_bet_record div.content.empty {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      aside.my_windows_bet_record div.content.empty .empty_icon {
+        background: url(../images/bet_record_empty.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 50vw;
+        height: 50vw;
+        margin: 40vw 0 0 0; }
+      aside.my_windows_bet_record div.content.empty p {
+        color: #838ba0;
+        font-size: 4vw;
+        margin: 4vw 0 8vw 0; }
+      aside.my_windows_bet_record div.content.empty button {
+        color: #fff;
+        background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
+        background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
+        background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
+        background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
+        border: none;
+        border-radius: 3px;
+        font-size: 4vw;
+        padding: 2vw 10vw; }
