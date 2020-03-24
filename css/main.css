@@ -5107,4 +5107,5 @@ aside.my_windows_bet_record {
           content: '';
           position: absolute;
           width: 0;
-          height: 0; }
+          height: 0;
+          top: 50%; }
