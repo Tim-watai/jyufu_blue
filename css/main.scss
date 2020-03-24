@@ -474,196 +474,195 @@ main {
             overflow: hidden;
             box-shadow: 0 0 4px 1px #e5e5e5;
             position: relative;
-            .title{
-              
-            }
-            span{
+            span {
               position: absolute;
               display: inline-block;
-              &.text{
-
+              &.text {
+                background: url(../images/text_games.png) no-repeat;
+                background-size: cover;
+                right: 0;
+                top: 0;
+                width: 200px;
+                height: 41px;
+                z-index: 1;
               }
-              &.item{
+              &.item {
                 background: url(../images/item_games.png) no-repeat;
                 background-size: cover;
-                
-                width: 143px;
-                height: 85px;
+                width: 180px;
+                height: 105px;
                 right: 0;
                 bottom: 0;
                 z-index: 2;
               }
             }
-              
-            
+
             &.soccer {
               span {
-                
                 &.text {
-                
                 }
                 &.item {
                   background-position: 0 0;
-              }
-              a {
-                width: 100%;
-                height: 100%;
-                display: inline-block;
-                position: absolute;
-                left: 0;
-                top: 0;
-                z-index: 10;
+                }
+                a {
+                  width: 100%;
+                  height: 100%;
+                  display: inline-block;
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  z-index: 10;
+                }
               }
             }
-          }
             &.basketball {
               span {
                 &.text {
-                 
+                  background-position: -200px 0;
                 }
                 &.item {
-                  background-position: -400px 0;
+                  background-position: -180px 0;
                 }
               }
             }
             &.esport {
               span {
                 &.text {
-                 
+                  background-position: -397px 0;
                 }
                 &.item {
-                  
+                  background-position: -360px 0;
                 }
               }
             }
             &.tennis {
               span {
                 &.text {
-                 
+                  background-position: -597px 0;
                 }
                 &.item {
-                  
+                  background-position: -540px 0;
                 }
               }
             }
             &.baseball {
               span {
                 &.text {
-                  
+                  background-position: -797px 0;
                 }
                 &.item {
-                  
+                  background-position: -720px 0;
                 }
               }
             }
             &.horse_race {
               span {
                 &.text {
-
+                  background-position: -995px 0;
                 }
                 &.item {
-
+                  background-position: -900px 0;
                 }
               }
             }
             &.football {
               span {
                 &.text {
-
+                  background-position: -1195px 0;
                 }
                 &.item {
-
+                  background-position: -1080px 0;
                 }
               }
             }
             &.beach_soccer {
               span {
                 &.text {
-   
+                  background-position: -1391px 0;
                 }
                 &.item {
-  
+                  background-position: -1272px 0;
                 }
               }
             }
             &.ice_hockey {
               span {
                 &.text {
-
+                  background-position: -1591px 0;
                 }
                 &.item {
-
+                  background-position: -1452px 0;
                 }
               }
             }
             &.snooker {
               span {
                 &.text {
- 
+                  background-position: -1791px 0;
                 }
                 &.item {
- 
+                  background-position: -1634px 0;
                 }
               }
             }
-            
+
             &.badminton {
               span {
                 &.text {
-
+                  background-position: -1991px 0;
                 }
                 &.item {
-   
+                  background-position: -1816px 0;
                 }
               }
             }
             &.motor_sport {
               span {
                 &.text {
-
+                  background-position: -2190px 0;
                 }
                 &.item {
-
+                  background-position: -1996px 0;
                 }
               }
             }
             &.volleyball {
               span {
                 &.text {
-
+                  background-position: -2385px 0;
                 }
                 &.item {
-
+                  background-position: -2176px 0;
                 }
               }
             }
             &.lottery {
               span {
                 &.text {
-
+                  background-position: -2585px 0;
                 }
                 &.item {
-
+                  background-position: -2356px 0;
                 }
               }
             }
             &.stock_index {
               span {
                 &.text {
-
+                  background-position: -2785px 0;
                 }
                 &.item {
- 
+                  background-position: -2536px 0;
                 }
               }
             }
             &.table_tennis {
               span {
                 &.text {
-
+                  background-position: -2985px 0;
                 }
                 &.item {
-
+                  background-position: -2723px 0;
                 }
               }
             }
@@ -672,9 +671,9 @@ main {
                 position: absolute;
                 z-index: 1;
                 text-align: center;
-                transform: translateY(-50%);
+                transform: translate(-50%, -50%);
                 top: 50%;
-                left: 15%;
+                left: 20%;
                 p {
                   color: $text-dblue;
                   &.name {
@@ -753,7 +752,7 @@ main {
       }
     }
   }
-
+}
 footer {
   @include size(100%, 7vh);
   position: fixed;
@@ -861,7 +860,6 @@ footer {
       }
     }
   }
-}
 }
 
 aside {
@@ -2565,19 +2563,19 @@ aside {
           font-size: 4vw;
         }
       }
-      &.note{
+      &.note {
         background: #fff;
         margin: 0 3vw 0 3vw;
         padding: 3vw;
         border-radius: 8px;
-          h1{
-            font-size: 4vw;
-            color: #4d515d;
-          }
-          p{
-            font-size: 4vw;
-            color: #838ba0;
-          }
+        h1 {
+          font-size: 4vw;
+          color: #4d515d;
+        }
+        p {
+          font-size: 4vw;
+          color: #838ba0;
+        }
       }
     }
   }
