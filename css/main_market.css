@@ -290,7 +290,7 @@ main.market {
       main.market aside section.status div p {
         display: inline-block;
         color: #4d515d;
-        font-family: 'my_font';
+        font-family: "my_font";
         font-size: 1.9vh;
         line-height: 3vh; }
   main.market aside article.option {
@@ -407,6 +407,8 @@ main.market {
       main.market aside ul li.beginner section.content {
         padding: 0 2.5vw 10px 2.5vw;
         border-top: 2px solid #e0e3f3; }
+        main.market aside ul li.beginner section.content:nth-child(odd) {
+          background: #eef1ff; }
         main.market aside ul li.beginner section.content.empty span.counter p.mid {
           color: #838ba0; }
         main.market aside ul li.beginner section.content.empty span.counter div.country p {
@@ -439,11 +441,11 @@ main.market {
                 line-height: 15px;
                 vertical-align: bottom;
                 background: url(../images/market/game_icon.png) no-repeat;
-                background-size: cover;
+                background-size: 100%;
                 background-position: center center; }
                 main.market aside ul li.beginner section.content span.time_more div.icon_game.yet.yet.yet {
                   background: url(../images/market/game_icon_y.png) no-repeat;
-                  background-size: cover;
+                  background-size: 100%;
                   background-position: center center; }
               main.market aside ul li.beginner section.content span.time_more div.icon_live {
                 position: relative;
@@ -458,6 +460,16 @@ main.market {
                   background: url(../images/market/tv_icon_y.png) no-repeat;
                   background-size: cover;
                   background-position: center center; }
+              main.market aside ul li.beginner section.content span.time_more div.timing {
+                color: #5875e0;
+                border: 1px solid #5875e0;
+                border-radius: 5px;
+                font-size: 2vw;
+                width: 10vw;
+                text-align: center;
+                line-height: 1;
+                vertical-align: bottom;
+                padding: 1px 0 1px 0; }
               main.market aside ul li.beginner section.content span.time_more div.more {
                 float: right;
                 height: 100%;
@@ -664,9 +676,13 @@ main.market {
                   right: 9%;
                   top: 50%; }
         main.market aside ul li.senior section.content {
-          padding: 0 2.5vw 10px 2.5vw;
+          padding: 0 0 10px 0;
           border-top: 2px solid #e0e3f3;
           position: relative; }
+          main.market aside ul li.senior section.content:nth-child(odd) {
+            background: #eef1ff; }
+            main.market aside ul li.senior section.content:nth-child(odd) span.point_box span.num_group div {
+              background: #fff; }
           main.market aside ul li.senior section.content.empty span.counter p.mid {
             color: #838ba0; }
           main.market aside ul li.senior section.content.empty span.counter div.country p {
@@ -674,7 +690,8 @@ main.market {
           main.market aside ul li.senior section.content div.senior_mode {
             height: 3vh;
             width: 100%;
-            padding: 0;
+            background: #f6f8ff;
+            padding: 0 2.5vw;
             position: relative;
             text-align: right; }
             main.market aside ul li.senior section.content div.senior_mode span {
@@ -697,7 +714,7 @@ main.market {
                 margin: 0 0 0 3px; }
             main.market aside ul li.senior section.content div.senior_mode:before {
               position: absolute;
-              content: '';
+              content: "";
               bottom: 0;
               left: 50%;
               -webkit-transform: translateX(-50%);
@@ -711,7 +728,8 @@ main.market {
             main.market aside ul li.senior section.content span.time_more {
               line-height: 3vh;
               height: 3vh;
-              width: 100%; }
+              width: 100%;
+              padding: 0 2.5vw; }
               main.market aside ul li.senior section.content span.time_more span {
                 display: inline-block; }
                 main.market aside ul li.senior section.content span.time_more span.time {
@@ -751,6 +769,16 @@ main.market {
                     background: url(../images/market/tv_icon_y.png) no-repeat;
                     background-size: cover;
                     background-position: center center; }
+                main.market aside ul li.senior section.content span.time_more div.timing {
+                  color: #5875e0;
+                  border: 1px solid #5875e0;
+                  border-radius: 5px;
+                  font-size: 2vw;
+                  width: 10vw;
+                  text-align: center;
+                  line-height: 1;
+                  vertical-align: text-top;
+                  padding: 1px 0 1px 0; }
                 main.market aside ul li.senior section.content span.time_more div.more {
                   float: right;
                   height: 100%;
@@ -801,7 +829,8 @@ main.market {
               display: flex;
               -webkit-box-pack: justify;
               -ms-flex-pack: justify;
-              justify-content: space-between; }
+              justify-content: space-between;
+              padding: 0 2.5vw; }
               main.market aside ul li.senior section.content span.point_box span.counter {
                 width: 40%;
                 height: 15vh;
@@ -1218,7 +1247,7 @@ aside.bet_window {
       vertical-align: top;
       border-radius: 0 0 13px 13px; }
       aside.bet_window div.bet_page div.footer:before {
-        content: '投注';
+        content: "投注";
         position: absolute;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -1396,7 +1425,7 @@ aside.search_window {
       display: inline-block;
       pointer-events: all; }
       aside.search_window div.header ul li.close:before, aside.search_window div.header ul li.close:after {
-        content: '';
+        content: "";
         position: absolute;
         border-radius: 100px;
         background: #4d515d;
@@ -1446,7 +1475,7 @@ aside.search_window {
         aside.search_window div.input_area div.input_box input::placeholder {
           color: #ced1e0; }
       aside.search_window div.input_area div.input_box:before {
-        content: '';
+        content: "";
         position: absolute;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -1472,7 +1501,7 @@ aside.search_window {
         margin: 0 0 0 2vw;
         position: relative; }
         aside.search_window div.input_area div.all span.active:before, aside.search_window div.input_area div.all span:active:before, aside.search_window div.input_area div.all span:hover:before {
-          content: '';
+          content: "";
           position: absolute;
           -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
@@ -1584,7 +1613,7 @@ aside.search_window {
           position: relative;
           vertical-align: middle; }
           aside.search_window div.content div.group ul li div.point_area span.point:active:before, aside.search_window div.content div.group ul li div.point_area span.point.active:before, aside.search_window div.content div.group ul li div.point_area span.point:hover:before {
-            content: '';
+            content: "";
             position: absolute;
             -webkit-transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);

@@ -269,7 +269,6 @@ nav {
       }
     }
   }
-
 }
 main {
   &.market {
@@ -280,11 +279,11 @@ main {
     aside {
       section {
         background: #fff;
-        &.status{
-          &.yet{
+        &.status {
+          &.yet {
             border-top: 2px solid #ef6b5d;
-            div{
-              span{
+            div {
+              span {
                 display: inline-block;
                 background: url(../images/market/yet.png);
                 background-size: cover;
@@ -295,13 +294,12 @@ main {
                 line-height: 17px;
                 margin: 0 0 4px 0;
               }
-             
             }
           }
-          &.doing{
+          &.doing {
             border-top: 2px solid #5875e0;
-            div{
-              span{
+            div {
+              span {
                 display: inline-block;
                 background: url(../images/market/doing.png);
                 background-size: cover;
@@ -314,10 +312,10 @@ main {
               }
             }
           }
-          &.early{
+          &.early {
             border-top: 2px solid #fab419;
-            div{
-              span{
+            div {
+              span {
                 display: inline-block;
                 background: url(../images/market/early_icon.png);
                 background-size: cover;
@@ -330,7 +328,7 @@ main {
               }
             }
           }
-         
+
           div {
             margin: 0 0 0 3vw;
             line-height: 3vh;
@@ -338,7 +336,6 @@ main {
             height: 3vh;
             position: relative;
             span {
-
               &.doing {
                 display: inline-block;
                 background: url(../images/market/doing.png);
@@ -354,14 +351,13 @@ main {
             p {
               display: inline-block;
               color: #4d515d;
-              font-family: 'my_font';
+              font-family: "my_font";
               font-size: 1.9vh;
               line-height: 3vh;
               // margin: 0 0 0 5px;
             }
           }
         }
-       
       }
       article {
         &.option {
@@ -436,14 +432,13 @@ main {
         background-color: #f7f7f7;
         padding: 0 0 5px 0;
         position: relative;
-    
-        
+
         li {
           background-color: #fff;
           width: auto;
           margin: 0 1.5vw 5px 1.5vw;
           height: auto;
-          &.beginner{
+          &.beginner {
             span {
               display: inline-block;
               &.title {
@@ -493,26 +488,27 @@ main {
               &.content {
                 padding: 0 2.5vw 10px 2.5vw;
                 border-top: 2px solid #e0e3f3;
-              
-                &.empty{
-                  span{
-                    &.counter{
-                      p{
-                        &.mid{
+                &:nth-child(odd){
+                  background: #eef1ff;
+                }
+                &.empty {
+                  span {
+                    &.counter {
+                      p {
+                        &.mid {
                           color: #838ba0;
                         }
                       }
-                      div{
-                        &.country{
-                          p{
+                      div {
+                        &.country {
+                          p {
                             color: #838ba0;
-                            
                           }
                         }
                       }
                     }
-                    &.num_group{
-                      div{
+                    &.num_group {
+                      div {
                         line-height: 36px;
                       }
                     }
@@ -546,12 +542,14 @@ main {
                         height: 13px;
                         line-height: 15px;
                         vertical-align: bottom;
-                        background: url(../images/market/game_icon.png) no-repeat;
-                        background-size: cover;
+                        background: url(../images/market/game_icon.png)
+                          no-repeat;
+                        background-size: 100%;
                         background-position: center center;
-                        &.yet.yet.yet{
-                          background: url(../images/market/game_icon_y.png)no-repeat;
-                          background-size: cover;
+                        &.yet.yet.yet {
+                          background: url(../images/market/game_icon_y.png)
+                            no-repeat;
+                          background-size: 100%;
                           background-position: center center;
                         }
                       }
@@ -565,10 +563,22 @@ main {
                         background-size: cover;
                         background-position: center center;
                         &.yet.yet.yet {
-                          background: url(../images/market/tv_icon_y.png) no-repeat;
+                          background: url(../images/market/tv_icon_y.png)
+                            no-repeat;
                           background-size: cover;
                           background-position: center center;
                         }
+                      }
+                      &.timing {
+                        color: #5875e0;
+                        border: 1px solid #5875e0;
+                        border-radius: 5px;
+                        font-size: 2vw;
+                        width: 10vw;
+                        text-align: center;
+                        line-height: 1;
+                        vertical-align: bottom;
+                        padding: 1px 0 1px 0;
                       }
                       &.more {
                         float: right;
@@ -577,15 +587,14 @@ main {
                         color: #838ba0;
                         display: flex;
                         align-items: flex-end;
-  
+
                         p {
-                          display: inline-block; 
-                        
+                          display: inline-block;
+
                           font-size: 1.2vh;
                         }
                         span {
                           &.num {
-                          
                             font-size: 1.2vh;
                           }
                           &.right_arrow {
@@ -601,7 +610,6 @@ main {
                               background-color: #838ba0;
                               width: 50%;
                               height: 1px;
-                              
                             }
                             &:before {
                               transform: translate(0%, -50%) rotate(45deg);
@@ -638,7 +646,7 @@ main {
                       }
                       &.mid {
                         // margin: 0 20px 0 20px;
-  
+
                         position: absolute;
                         transform: translate(-50%, -50%);
                         top: 50%;
@@ -668,7 +676,7 @@ main {
                           right: 0;
                           width: calc(50% - 25px);
                         }
-  
+
                         span {
                           vertical-align: middle;
                           &.icon1 {
@@ -742,12 +750,12 @@ main {
                   &.num_group {
                     width: 100%;
                     text-align: center;
-                   
+
                     div {
                       display: inline-block;
                       text-align: center;
                       width: 25%;
-                    
+
                       line-height: 20px;
                       background-color: #f6f8ff;
                       p {
@@ -773,9 +781,9 @@ main {
               }
             }
           }
-          &.senior{
+          &.senior {
             display: none;
-            &.double{
+            &.double {
               display: block;
             }
             span {
@@ -825,45 +833,59 @@ main {
             }
             section {
               &.content {
-                padding: 0 2.5vw 10px 2.5vw;
+                padding: 0 0 10px 0;
                 border-top: 2px solid #e0e3f3;
                 position: relative;
-                &.empty{
+                &:nth-child(odd){
+                  background: #eef1ff;
                   span{
-                    &.counter{
-                      p{
-                        &.mid{
-                          color: #838ba0;
-                        }
-                      }
-                      div{
-                        &.country{
-                          p{
-                            color: #838ba0;
-                            
+                    &.point_box{
+                      span{
+                        &.num_group{
+                          div{
+                            background: #fff;
                           }
                         }
                       }
                     }
                   }
                 }
-                div{
-                  &.senior_mode{
+                &.empty {
+                  span {
+                    &.counter {
+                      p {
+                        &.mid {
+                          color: #838ba0;
+                        }
+                      }
+                      div {
+                        &.country {
+                          p {
+                            color: #838ba0;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                div {
+                  &.senior_mode {
                     height: 3vh;
                     width: 100%;
+                    background: #f6f8ff;
                     // border-bottom: 1px solid #e0e3f3;
-                    padding: 0;
+                    padding: 0 2.5vw;
                     position: relative;
                     text-align: right;
-                    span{
+                    span {
                       float: right;
                       display: inline-block;
                       width: 60%;
                       height: 100%;
                       display: flex;
                       align-items: center;
-                      
-                      p{
+
+                      p {
                         display: inline-block;
                         font-size: 1.7vh;
                         color: #4d515d;
@@ -871,11 +893,10 @@ main {
                         text-align: center;
                         margin: 0 0 0 3px;
                       }
-
                     }
-                    &:before{
+                    &:before {
                       position: absolute;
-                      content:'';
+                      content: "";
                       bottom: 0;
                       left: 50%;
                       transform: translateX(-50%);
@@ -887,11 +908,12 @@ main {
                 }
                 span {
                   display: inline-block;
-                
+
                   &.time_more {
                     line-height: 3vh;
                     height: 3vh;
                     width: 100%;
+                    padding: 0 2.5vw;
                     span {
                       display: inline-block;
                       &.time {
@@ -915,11 +937,13 @@ main {
                         height: 13px;
                         line-height: 15px;
                         vertical-align: bottom;
-                        background: url(../images/market/game_icon.png) no-repeat;
+                        background: url(../images/market/game_icon.png)
+                          no-repeat;
                         background-size: cover;
                         background-position: center center;
-                        &.yet.yet.yet{
-                          background: url(../images/market/game_icon_y.png)no-repeat;
+                        &.yet.yet.yet {
+                          background: url(../images/market/game_icon_y.png)
+                            no-repeat;
                           background-size: cover;
                           background-position: center center;
                         }
@@ -934,10 +958,22 @@ main {
                         background-size: cover;
                         background-position: center center;
                         &.yet.yet.yet {
-                          background: url(../images/market/tv_icon_y.png) no-repeat;
+                          background: url(../images/market/tv_icon_y.png)
+                            no-repeat;
                           background-size: cover;
                           background-position: center center;
                         }
+                      }
+                      &.timing {
+                        color: #5875e0;
+                        border: 1px solid #5875e0;
+                        border-radius: 5px;
+                        font-size: 2vw;
+                        width: 10vw;
+                        text-align: center;
+                        line-height: 1;
+                        vertical-align: text-top;
+                        padding: 1px 0 1px 0;
                       }
                       &.more {
                         float: right;
@@ -946,13 +982,12 @@ main {
                         color: #838ba0;
                         display: flex;
                         align-items: center;
-  
+
                         p {
                           // line-height: 1;
                           // vertical-align: bottom;
                           display: inline-block;
                           font-size: 1.2vh;
-                       
                         }
                         span {
                           &.num {
@@ -972,7 +1007,6 @@ main {
                               background-color: #838ba0;
                               width: 50%;
                               height: 1px;
-                              
                             }
                             &:before {
                               transform: translate(0%, -50%) rotate(45deg);
@@ -989,16 +1023,17 @@ main {
                       }
                     }
                   }
-                  &.point_box{
+                  &.point_box {
                     width: 100%;
                     display: flex;
                     justify-content: space-between;
-                    span{
+                    padding: 0 2.5vw;
+                    span {
                       &.counter {
                         width: 40%;
                         height: 15vh;
                         position: relative;
-                      
+
                         div,
                         span,
                         p {
@@ -1018,25 +1053,26 @@ main {
                           display: inline-block;
                           line-height: calc(15vh / 3);
                           &.country {
-                          
                           }
-                          &.live{
-                            span{
+                          &.live {
+                            span {
                               &.icon_game {
                                 position: relative;
                                 width: 18px;
                                 height: 13px;
                                 line-height: 1;
                                 vertical-align: bottom;
-                                background: url(../images/market/game_icon.png) no-repeat;
+                                background: url(../images/market/game_icon.png)
+                                  no-repeat;
                                 background-size: cover;
                                 background-position: center center;
-                                &.yet.yet.yet{
-                                  background: url(../images/market/game_icon_y.png)no-repeat;
+                                &.yet.yet.yet {
+                                  background: url(../images/market/game_icon_y.png)
+                                    no-repeat;
                                   background-size: cover;
                                   background-position: center center;
                                 }
-                                &.middle{
+                                &.middle {
                                   vertical-align: middle;
                                 }
                               }
@@ -1046,15 +1082,17 @@ main {
                                 height: 15px;
                                 line-height: 1;
                                 vertical-align: bottom;
-                                background: url(../images/market/tv_icon.png) no-repeat;
+                                background: url(../images/market/tv_icon.png)
+                                  no-repeat;
                                 background-size: cover;
                                 background-position: center center;
                                 &.yet.yet.yet {
-                                  background: url(../images/market/tv_icon_y.png) no-repeat;
+                                  background: url(../images/market/tv_icon_y.png)
+                                    no-repeat;
                                   background-size: cover;
                                   background-position: center center;
                                 }
-                                &.middle{
+                                &.middle {
                                   vertical-align: middle;
                                 }
                               }
@@ -1067,15 +1105,16 @@ main {
                         text-align: left;
                         height: 15vh;
                         display: flex;
-                        span{
-                          div{
+                        span {
+                          div {
                             pointer-events: all;
-                            &.active{
+                            &.active {
                               background: #d3dbff;
                             }
-                            &.lock{
-                              span{
-                                background: url(../images/market/lock.png)no-repeat;
+                            &.lock {
+                              span {
+                                background: url(../images/market/lock.png)
+                                  no-repeat;
                                 background-size: cover;
                                 background-position: center center;
                                 width: 13px;
@@ -1083,32 +1122,32 @@ main {
                               }
                             }
                           }
-                          &.three_side{
-                            width:  calc(100% / 3 - 3px);
-                            text-align: center;
-                            height: 100%;
-                            margin:0 3px 0 0;
-                            div{
-                              width: 100%;
-                              height:calc(15vh / 3 - 3px);
-                              margin: 0 0 3px 0;
-                              p{
-                               margin:0 0 0.5vh 0;
-                              }
-                            }
-                          }
-                          &.two_side{
+                          &.three_side {
                             width: calc(100% / 3 - 3px);
                             text-align: center;
                             height: 100%;
-                            margin:0 3px 0 0;
-                            div{
+                            margin: 0 3px 0 0;
+                            div {
+                              width: 100%;
+                              height: calc(15vh / 3 - 3px);
+                              margin: 0 0 3px 0;
+                              p {
+                                margin: 0 0 0.5vh 0;
+                              }
+                            }
+                          }
+                          &.two_side {
+                            width: calc(100% / 3 - 3px);
+                            text-align: center;
+                            height: 100%;
+                            margin: 0 3px 0 0;
+                            div {
                               width: 100%;
                               height: 50%;
                               height: calc(15vh / 2 - 3px);
                               margin: 0 0 3px 0;
-                              p{
-                                margin:0 0 1.5vh 0;
+                              p {
+                                margin: 0 0 1.5vh 0;
                               }
                             }
                           }
@@ -1135,13 +1174,11 @@ main {
                         }
                       }
                     }
-                   
                   }
                 }
               }
             }
           }
-          
         }
       }
     }
@@ -1204,22 +1241,22 @@ footer {
     }
   }
 }
-aside{
-  &.bet_window{
+aside {
+  &.bet_window {
     display: none;
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 500;
     position: fixed;
-   
+
     justify-content: center;
     align-items: center;
-    &.active{
+    &.active {
       display: flex;
     }
-    div{
-      &.bet_page{
+    div {
+      &.bet_page {
         background: #fff;
         display: inline-block;
         width: 80vw;
@@ -1257,9 +1294,8 @@ aside{
             top: 50%;
           }
         }
-        div{
-       
-          &.title{
+        div {
+          &.title {
             display: inline-block;
             position: relative;
             width: 100%;
@@ -1269,9 +1305,9 @@ aside{
             /* vertical-align: top; */
             border-radius: 13px 13px 0 0;
             text-align: center;
-            span{
+            span {
               display: inline-block;
-              &.game_name{
+              &.game_name {
                 line-height: 1;
                 padding: 2.5vh 0 0 0;
                 width: 100%;
@@ -1279,11 +1315,11 @@ aside{
                 font-weight: bold;
                 color: #4d515d;
                 vertical-align: top;
-                p{
+                p {
                   display: inline-block;
                   position: relative;
                 }
-                em{
+                em {
                   position: relative;
                   transform: translate(-50%, 0) rotate(0deg) skew(-20deg);
                   top: 0;
@@ -1292,7 +1328,7 @@ aside{
                   height: 3vw;
                   display: inline-block;
                   border-radius: 100px;
-                  &:first-child{
+                  &:first-child {
                     margin: 0 5px 1vw 0;
                     &:before {
                       content: "";
@@ -1305,7 +1341,7 @@ aside{
                       border-radius: 100px;
                     }
                   }
-                  &:last-child{
+                  &:last-child {
                     margin: 0 0 1vw 8px;
                     &:before {
                       content: "";
@@ -1320,56 +1356,55 @@ aside{
                   }
                 }
               }
-              &.counter{
+              &.counter {
                 width: 80%;
                 padding: 1.5vh 0 0 0;
                 position: relative;
-                p{
+                p {
                   color: #4d515d;
                   display: inline-block;
                   font-size: 4.3vw;
-                  &:first-child{
+                  &:first-child {
                     float: left;
                   }
-                  &:last-child{
+                  &:last-child {
                     float: right;
                   }
                 }
-                span{
-                  &.vs{
+                span {
+                  &.vs {
                     font-size: 4vw;
                     position: absolute;
                     transform: translateX(-50%);
                     left: 50%;
                     top: 1.5vh;
                   }
-                  
                 }
               }
             }
           }
-          &.content{
+          &.content {
             width: 100%;
             padding: 0 2.5vw;
-            div{
-              &.info{
+            div {
+              &.info {
                 width: 100%;
                 height: 13vh;
                 background: #556de7;
                 border-radius: 8px;
                 position: relative;
                 text-align: center;
-                span{
+                span {
                   display: inline-block;
                   width: 100%;
                   color: #fff;
-                  font-size:4.3vw;
-                  &.tie{
+                  font-size: 4.3vw;
+                  &.tie {
                     margin: 2vh 0 0 0;
                   }
                 }
-                div{
-                  &.circle{
+                div {
+                  &.circle {
                     position: absolute;
                     right: 2vw;
                     bottom: 1vh;
@@ -1384,111 +1419,109 @@ aside{
                   }
                 }
               }
-              &.detail{
+              &.detail {
                 width: 100%;
                 overflow: auto;
                 padding: 1vh 0;
-                p{
+                p {
                   color: #838ba0;
                   font-size: 4.3vw;
-                  span{
-                    &.num{
-                      color:#556de7 ;
+                  span {
+                    &.num {
+                      color: #556de7;
                       font-size: 4.3vw;
                     }
                   }
-                  &.balance{
+                  &.balance {
                     line-height: 1;
                     float: left;
                   }
-                  &.limit{
+                  &.limit {
                     line-height: 1;
                     float: right;
                   }
                 }
               }
-              &.input_group{
+              &.input_group {
                 width: 100%;
                 overflow: auto;
-               div{
-                 &.input_box{
-                  position: relative;
-                  margin: 0 0 1vh 0;
-                  width: 100%;
-                  &:before{
-                    content: "元";
-                    position: absolute;
-                    top: 50%;
-                    right: 4vw;
-                    transform: translateY(-50%);
-                    font-size: 4.3vw;
-                    color: #242424;
-                    z-index: 1;
-                    font-weight: bold;
-                  }
-                  input{
+                div {
+                  &.input_box {
+                    position: relative;
+                    margin: 0 0 1vh 0;
                     width: 100%;
-                    height: 6vh;
-                    border-radius: 8px;
-                    outline: none;
-                    padding: 0 10vw 0 4vw;
-                    border: 1px solid #e0e3f3;
-                    font-size: 4.3vw;
-                   
-                    &::placeholder{
-                      color: #ced1e0;
-                      font-weight: bold;
+                    &:before {
+                      content: "元";
+                      position: absolute;
+                      top: 50%;
+                      right: 4vw;
+                      transform: translateY(-50%);
                       font-size: 4.3vw;
+                      color: #242424;
+                      z-index: 1;
+                      font-weight: bold;
                     }
-                    
+                    input {
+                      width: 100%;
+                      height: 6vh;
+                      border-radius: 8px;
+                      outline: none;
+                      padding: 0 10vw 0 4vw;
+                      border: 1px solid #e0e3f3;
+                      font-size: 4.3vw;
+
+                      &::placeholder {
+                        color: #ced1e0;
+                        font-weight: bold;
+                        font-size: 4.3vw;
+                      }
+                    }
                   }
-                 }
-                 &.btns{
-                   
-                   span{
-                     display: inline-block;
-                     width: calc((75vw - 5vw) / 3);
-                     height: 5vh;
-                     line-height: 5vh;
-                     border: 1px solid #e0e3f3;
-                     border-radius: 8px;
-                     font-size: 4.3vw;
-                     margin: 0 2.5vw 1vh 0;
-                     text-align: center;
-                     vertical-align: bottom;
-                     color: #4d515d;
-                     p{
-                       display: inline-block;
-                       line-height: 1;
-                      vertical-align: middle;
-                     }
-                     &:nth-child(3){
-                      margin: 0 0 1vh 0;
-                     }
-                     &:last-child{
-                      margin: 0 0 1vh 0;
-                     }
-                   }
-                 }
-               }
+                  &.btns {
+                    span {
+                      display: inline-block;
+                      width: calc((75vw - 5vw) / 3);
+                      height: 5vh;
+                      line-height: 5vh;
+                      border: 1px solid #e0e3f3;
+                      border-radius: 8px;
+                      font-size: 4.3vw;
+                      margin: 0 2.5vw 1vh 0;
+                      text-align: center;
+                      vertical-align: bottom;
+                      color: #4d515d;
+                      p {
+                        display: inline-block;
+                        line-height: 1;
+                        vertical-align: middle;
+                      }
+                      &:nth-child(3) {
+                        margin: 0 0 1vh 0;
+                      }
+                      &:last-child {
+                        margin: 0 0 1vh 0;
+                      }
+                    }
+                  }
+                }
               }
-              &.be_win{
+              &.be_win {
                 width: 100%;
                 text-align: center;
                 font-size: 4vw;
                 line-height: 1;
                 margin: 2vh 0 2vh 0;
-                p{
+                p {
                   font-weight: bold;
                   color: #4d515d;
-                  span{
+                  span {
                     color: #d46572;
                   }
                 }
               }
             }
           }
-          &.footer{
+          &.footer {
             position: relative;
             display: inline-block;
             width: 100%;
@@ -1496,12 +1529,12 @@ aside{
             background: #556de7;
             vertical-align: top;
             border-radius: 0 0 13px 13px;
-            &:before{
-              content:'投注';
+            &:before {
+              content: "投注";
               position: absolute;
-              transform: translate(-50%,-50%);
+              transform: translate(-50%, -50%);
               left: 50%;
-              top:50%;
+              top: 50%;
               color: #fff;
               font-size: 7vw;
             }
@@ -1510,25 +1543,25 @@ aside{
       }
     }
   }
-  &.set_window{
+  &.set_window {
     display: none;
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 500;
     position: fixed;
     flex-direction: column;
     justify-content: flex-end;
-    &.active{
+    &.active {
       display: flex;
     }
-    ul{
-      &.side_bar{
+    ul {
+      &.side_bar {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         background: #f7f7f7;
-        li{
+        li {
           height: 7vh;
           line-height: 7vh;
           background: #fff;
@@ -1538,12 +1571,12 @@ aside{
           font-size: 4.3vw;
           font-weight: bold;
           border-bottom: 1px solid #f7f8ff;
-          div{
+          div {
             display: inline-block;
-            &.box{
+            &.box {
               float: right;
-              div{
-                &.check{
+              div {
+                &.check {
                   height: 4vh;
                   line-height: 4vh;
                   width: 34vw;
@@ -1551,7 +1584,7 @@ aside{
                   vertical-align: middle;
                   border-radius: 20px;
                   padding: 0 2px;
-                  span{
+                  span {
                     display: inline-block;
                     font-size: 2vw;
                     border-radius: 20px;
@@ -1559,23 +1592,23 @@ aside{
                     height: calc(4vh - 4px);
                     width: 15vw;
                     text-align: center;
-                    &.active{
+                    &.active {
                       background: #fff;
-                      p{
+                      p {
                         color: #4d515d;
                       }
                     }
-                    &.p_left{
+                    &.p_left {
                       top: 2px;
                       position: relative;
                       float: left;
                     }
-                    &.p_right{
+                    &.p_right {
                       top: 2px;
                       position: relative;
                       float: right;
                     }
-                    p{
+                    p {
                       display: inline-block;
                       vertical-align: middle;
                       line-height: 1;
@@ -1587,51 +1620,50 @@ aside{
               }
             }
           }
-          &.title{
+          &.title {
             margin: 0 0 12px 0;
-            span{
+            span {
               display: inline-block;
-              &.all{
+              &.all {
                 position: absolute;
                 margin: 0 0 0 3vw;
                 font-size: 3vw;
                 color: #838ba0;
               }
-              &.soccers{
-                    float: right;
-                    line-height: 7vh;
-                    
-                    p{
-                      display: inline-block;
-                      width: 28vw;
-                      height: 7vw;
-                      background: url(../images/soccers.png)no-repeat;
-                      background-position: center center;
-                      background-size: cover;
-                      vertical-align: middle;
-                    }
+              &.soccers {
+                float: right;
+                line-height: 7vh;
+
+                p {
+                  display: inline-block;
+                  width: 28vw;
+                  height: 7vw;
+                  background: url(../images/soccers.png) no-repeat;
+                  background-position: center center;
+                  background-size: cover;
+                  vertical-align: middle;
+                }
               }
-              &.more{
-                float: right;             
+              &.more {
+                float: right;
                 margin: 0 0 0 3vw;
                 font-size: 3vw;
                 color: #838ba0;
-                p{
-                  &.arrow{
+                p {
+                  &.arrow {
                     display: inline-block;
                     width: 3vw;
                     height: 3vw;
-                    background: url(../images/arrow_gray.png)no-repeat;
+                    background: url(../images/arrow_gray.png) no-repeat;
                     background-position: center center;
                     background-size: contain;
                     vertical-align: text-top;
                   }
                 }
               }
-
             }
           }
-          &.close{
+          &.close {
             text-align: center;
             padding: 0;
             font-size: 5vw;
@@ -1643,7 +1675,7 @@ aside{
       }
     }
   }
-  &.search_window{
+  &.search_window {
     width: 100vw;
     height: 100vh;
     background: #fff;
@@ -1651,13 +1683,13 @@ aside{
     display: inline-block;
     position: fixed;
     transform: translateX(100%);
-    transition:all 0.4s ease-in-out;
-    &.active{
+    transition: all 0.4s ease-in-out;
+    &.active {
       transform: translateX(0%);
     }
-    div{
-      &.header{
-        ul{
+    div {
+      &.header {
+        ul {
           position: relative;
           width: 100%;
           height: 5vh;
@@ -1669,8 +1701,8 @@ aside{
           -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
           box-shadow: 0 3px 5px 0 #e2e2e2;
           padding: 0 3vw 0 3vw;
-          li{
-            &.title{
+          li {
+            &.title {
               position: absolute;
               left: 50%;
               top: 50%;
@@ -1682,32 +1714,33 @@ aside{
               display: inline-block;
               font-size: 5vw;
             }
-            &.close{
+            &.close {
               position: relative;
               width: 5vw;
-              height:5vw;
+              height: 5vw;
               vertical-align: middle;
               display: inline-block;
               pointer-events: all;
-              &:before,&:after{
-                content:'';
+              &:before,
+              &:after {
+                content: "";
                 position: absolute;
                 border-radius: 100px;
                 background: #4d515d;
                 width: 100%;
                 height: 2px;
-                transform: translate(-50%,-50%);
+                transform: translate(-50%, -50%);
                 top: 50%;
                 left: 50%;
               }
-              &:before{
-                transform: translate(-50%,-50%) rotate(45deg);
+              &:before {
+                transform: translate(-50%, -50%) rotate(45deg);
               }
-              &:after{
-                transform: translate(-50%,-50%) rotate(-45deg);
+              &:after {
+                transform: translate(-50%, -50%) rotate(-45deg);
               }
             }
-            &.finish{
+            &.finish {
               position: relative;
               display: inline-block;
               float: right;
@@ -1717,15 +1750,15 @@ aside{
           }
         }
       }
-      &.input_area{
+      &.input_area {
         margin: 1vh 0 0 0;
         width: 100%;
         overflow: auto;
-        div{
-          &.input_box{
+        div {
+          &.input_box {
             position: relative;
             padding: 0 4vw;
-            input{
+            input {
               background: #f5f5fa;
               color: #4d515d;
               border: none;
@@ -1734,12 +1767,12 @@ aside{
               font-size: 4vw;
               border-radius: 30px;
               padding: 2px 0 0 14vw;
-              &::placeholder{
+              &::placeholder {
                 color: #ced1e0;
               }
             }
-            &:before{
-              content:'';
+            &:before {
+              content: "";
               position: absolute;
               transform: translateY(-50%);
               top: 50%;
@@ -1751,12 +1784,12 @@ aside{
               height: 5vw;
             }
           }
-          &.all{
+          &.all {
             float: right;
             font-size: 4.3vw;
             color: #4d515d;
             padding: 1vh 10vw 0 0;
-            span{
+            span {
               display: inline-block;
               border-radius: 100px;
               border: 1px solid #838ba0;
@@ -1766,12 +1799,11 @@ aside{
               position: relative;
               &.active,
               &:active,
-              &:hover
-              {
-                &:before{
-                  content:'';
+              &:hover {
+                &:before {
+                  content: "";
                   position: absolute;
-                  transform: translate(-50%,-50%);
+                  transform: translate(-50%, -50%);
                   top: 50%;
                   left: 50%;
                   width: 2.5vw;
@@ -1784,56 +1816,56 @@ aside{
           }
         }
       }
-      &.content{
+      &.content {
         width: 100%;
-        overflow-y:scroll;
+        overflow-y: scroll;
         overflow-x: hidden;
-        div{
-          &.group{
-            p{
-              &.title{
+        div {
+          &.group {
+            p {
+              &.title {
                 display: inline-block;
                 width: 100%;
                 font-size: 4.3vw;
                 padding: 1vh 0 1vh 6vw;
                 color: #4d515d;
                 background: #f6f8ff;
-                span{
+                span {
                   width: 4vw;
                   height: 2.9vw;
-                  &.arrow_w{
-                      display: inline-block;
-                      width: 4vw;
-                      height: 2.9vw;
-                      background: url(../images/arrow_w.png)no-repeat;
-                      background-size: cover;
-                      background-position: center center;
-                      position: relative;
-                      margin: 0 1vw 0 0;
-                  }
-                  &.arrow_d{
+                  &.arrow_w {
                     display: inline-block;
                     width: 4vw;
                     height: 2.9vw;
-                    background: url(../images/arrow_d.png)no-repeat;
+                    background: url(../images/arrow_w.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     position: relative;
                     margin: 0 1vw 0 0;
+                  }
+                  &.arrow_d {
+                    display: inline-block;
+                    width: 4vw;
+                    height: 2.9vw;
+                    background: url(../images/arrow_d.png) no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    position: relative;
+                    margin: 0 1vw 0 0;
+                  }
                 }
-                }
-                &.hot{
+                &.hot {
                   color: #fff;
                   background: #959dc5;
                 }
               }
             }
-            ul{
-              &.scroll{
+            ul {
+              &.scroll {
                 overflow-y: scroll;
                 max-height: 22vh;
               }
-              li{
+              li {
                 width: 88vw;
                 margin: 0 6vw 0 6vw;
                 padding: 4vw 5vw 4vw 10vw;
@@ -1841,16 +1873,16 @@ aside{
                 color: #838ba0;
                 border-bottom: 0.5px solid #e0e3f3;
                 position: relative;
-                &.default{
+                &.default {
                   padding: 4vw 5vw 4vw 5vw;
                 }
-                &:last-child{
+                &:last-child {
                   border-bottom: none;
                 }
-                span{
+                span {
                   display: inline-block;
-                  &.local_game_1{
-                    background: url(../images/local_games_1.png)no-repeat;
+                  &.local_game_1 {
+                    background: url(../images/local_games_1.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     width: 6vw;
@@ -1860,8 +1892,8 @@ aside{
                     top: 50%;
                     left: 3vw;
                   }
-                  &.local_game_2{
-                    background: url(../images/local_games_2.png)no-repeat;
+                  &.local_game_2 {
+                    background: url(../images/local_games_2.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     width: 6vw;
@@ -1871,8 +1903,8 @@ aside{
                     top: 50%;
                     left: 3vw;
                   }
-                  &.local_game_3{
-                    background: url(../images/local_games_3.png)no-repeat;
+                  &.local_game_3 {
+                    background: url(../images/local_games_3.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     width: 6vw;
@@ -1883,54 +1915,54 @@ aside{
                     left: 3vw;
                   }
                 }
-                div{
-                  &.point_area{
+                div {
+                  &.point_area {
                     display: inline-block;
                     float: right;
-                    span{
-                      &.point{
+                    span {
+                      &.point {
                         display: inline-block;
-                          border-radius: 100px;
-                          border: 1px solid #838ba0;
-                          width: 3.5vw;
-                          height: 3.5vw;
-                          margin: 0 0 0 2vw;
-                          position: relative;
-                          vertical-align: middle;
-                          &:active,
-                          &.active,
-                          &:hover{
-                            &:before{
-                              content: '';
-                              position: absolute;
-                              -webkit-transform: translate(-50%, -50%);
-                              -ms-transform: translate(-50%, -50%);
-                              transform: translate(-50%, -50%);
-                              top: 50%;
-                              left: 50%;
-                              width: 2.5vw;
-                              height: 2.5vw;
-                              border-radius: 100px;
-                              background: #838ba0;
-                            }
+                        border-radius: 100px;
+                        border: 1px solid #838ba0;
+                        width: 3.5vw;
+                        height: 3.5vw;
+                        margin: 0 0 0 2vw;
+                        position: relative;
+                        vertical-align: middle;
+                        &:active,
+                        &.active,
+                        &:hover {
+                          &:before {
+                            content: "";
+                            position: absolute;
+                            -webkit-transform: translate(-50%, -50%);
+                            -ms-transform: translate(-50%, -50%);
+                            transform: translate(-50%, -50%);
+                            top: 50%;
+                            left: 50%;
+                            width: 2.5vw;
+                            height: 2.5vw;
+                            border-radius: 100px;
+                            background: #838ba0;
                           }
+                        }
                       }
                     }
                   }
                 }
               }
             }
-          //   ul{
-          //     &.hot{
-          //       li{   
-          //         color: #fff;
-          //         background: #959dc5;
-          //       }
-          //     } 
-          //       span{
-          //         display: inline-block;
-          //       } 
-          // }
+            //   ul{
+            //     &.hot{
+            //       li{
+            //         color: #fff;
+            //         background: #959dc5;
+            //       }
+            //     }
+            //       span{
+            //         display: inline-block;
+            //       }
+            // }
           }
         }
       }
