@@ -460,7 +460,7 @@ main {
           li {
             margin: 0 auto 10px auto;
             width: calc(100% - 4px);
-            height: 14vh;
+            height: 105px;
             background: repeating-linear-gradient(
               -45deg,
               #fcfdff 0%,
@@ -474,26 +474,36 @@ main {
             overflow: hidden;
             box-shadow: 0 0 4px 1px #e5e5e5;
             position: relative;
+            .title{
+              
+            }
+            span{
+              position: absolute;
+              display: inline-block;
+              &.text{
 
+              }
+              &.item{
+                background: url(../images/item_games.png) no-repeat;
+                background-size: cover;
+                
+                width: 143px;
+                height: 85px;
+                right: 0;
+                bottom: 0;
+                z-index: 2;
+              }
+            }
+              
+            
             &.soccer {
               span {
-                position: absolute;
-                display: inline-block;
+                
                 &.text {
-                  background: url(../images/text_soccer.png) no-repeat;
-                  background-size: contain;
-                  @include size(14vh, 6vh);
-                  right: 0;
-                  z-index: 1;
+                
                 }
                 &.item {
-                  background: url(../images/item_soccer.png) no-repeat;
-                  background-size: contain;
-                  @include size(22vh, 13vh);
-                  right: 0;
-                  bottom: 0;
-                  z-index: 2;
-                }
+                  background-position: 0 0;
               }
               a {
                 width: 100%;
@@ -505,72 +515,155 @@ main {
                 z-index: 10;
               }
             }
+          }
             &.basketball {
               span {
                 &.text {
-                  position: absolute;
-                  display: inline-block;
-                  background: url(../images/text_basketball.png) no-repeat;
-                  background-size: contain;
-                  @include size(22vh, 6vh);
-                  right: 0;
-                  z-index: 1;
+                 
                 }
                 &.item {
-                  position: absolute;
-                  display: inline-block;
-                  background: url(../images/item_basketball.png) no-repeat;
-                  background-size: contain;
-                  @include size(22vh, 12vh);
-                  right: 0;
-                  bottom: 0;
-                  z-index: 2;
+                  background-position: -400px 0;
                 }
               }
             }
             &.esport {
               span {
                 &.text {
-                  position: absolute;
-                  display: inline-block;
-                  background: url(../images/text_esports.png) no-repeat;
-                  background-size: contain;
-                  @include size(19vh, 6vh);
-                  right: 0;
-                  z-index: 1;
+                 
                 }
                 &.item {
-                  position: absolute;
-                  display: inline-block;
-                  background: url(../images/item_esport.png) no-repeat;
-                  background-size: contain;
-                  @include size(22vh, 13vh);
-                  right: 0;
-                  bottom: 0;
-                  z-index: 2;
+                  
                 }
               }
             }
             &.tennis {
               span {
                 &.text {
-                  position: absolute;
-                  display: inline-block;
-                  background: url(../images/text_tennis.png) no-repeat;
-                  background-size: contain;
-                  @include size(15vh, 6vh);
-                  right: 0;
-                  z-index: 1;
+                 
                 }
                 &.item {
-                  position: absolute;
-                  display: inline-block;
-                  background: url(../images/item_tennis.png) no-repeat;
-                  background-size: contain;
-                  @include size(22vh, 13vh);
-                  right: 0;
-                  bottom: 0;
-                  z-index: 2;
+                  
+                }
+              }
+            }
+            &.baseball {
+              span {
+                &.text {
+                  
+                }
+                &.item {
+                  
+                }
+              }
+            }
+            &.horse_race {
+              span {
+                &.text {
+
+                }
+                &.item {
+
+                }
+              }
+            }
+            &.football {
+              span {
+                &.text {
+
+                }
+                &.item {
+
+                }
+              }
+            }
+            &.beach_soccer {
+              span {
+                &.text {
+   
+                }
+                &.item {
+  
+                }
+              }
+            }
+            &.ice_hockey {
+              span {
+                &.text {
+
+                }
+                &.item {
+
+                }
+              }
+            }
+            &.snooker {
+              span {
+                &.text {
+ 
+                }
+                &.item {
+ 
+                }
+              }
+            }
+            
+            &.badminton {
+              span {
+                &.text {
+
+                }
+                &.item {
+   
+                }
+              }
+            }
+            &.motor_sport {
+              span {
+                &.text {
+
+                }
+                &.item {
+
+                }
+              }
+            }
+            &.volleyball {
+              span {
+                &.text {
+
+                }
+                &.item {
+
+                }
+              }
+            }
+            &.lottery {
+              span {
+                &.text {
+
+                }
+                &.item {
+
+                }
+              }
+            }
+            &.stock_index {
+              span {
+                &.text {
+
+                }
+                &.item {
+ 
+                }
+              }
+            }
+            &.table_tennis {
+              span {
+                &.text {
+
+                }
+                &.item {
+
                 }
               }
             }
@@ -660,7 +753,7 @@ main {
       }
     }
   }
-}
+
 footer {
   @include size(100%, 7vh);
   position: fixed;
@@ -768,6 +861,7 @@ footer {
       }
     }
   }
+}
 }
 
 aside {
