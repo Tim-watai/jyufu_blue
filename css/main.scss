@@ -2598,6 +2598,7 @@ aside {
     display: inline-block;
     position: fixed;
     transform: translateX(100%);
+    overflow-y: scroll;
     transition: all 0.4s ease-in-out;
     &.active {
       transform: translateX(0%);
@@ -2773,6 +2774,7 @@ aside {
           p{
             color: #4d515d;
             margin: 0 20px 0 0;
+            line-height: 1;
           }
           input{
             border: none;
@@ -3006,6 +3008,21 @@ aside {
             font-size: 3.8vw;
             color: #838ba0;
           }
+        }
+      }
+      //代客儲值
+      &.service_push{
+        margin: 1vh 0 1vh 0;
+        padding: 0 3vw 3vw 3vw;
+        background: #fff;
+        h1{
+          &.title{
+            border: none;
+          }
+        }
+        p{
+          color: #838ba0;
+          font-size: 3.8vw;
         }
       }
     }

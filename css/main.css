@@ -5089,6 +5089,7 @@ aside.my_windows_mb_save {
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
+  overflow-y: scroll;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
@@ -5239,7 +5240,8 @@ aside.my_windows_mb_save {
         font-size: 4.5vw; }
       aside.my_windows_mb_save div.save_name .box p {
         color: #4d515d;
-        margin: 0 20px 0 0; }
+        margin: 0 20px 0 0;
+        line-height: 1; }
       aside.my_windows_mb_save div.save_name .box input {
         border: none; }
         aside.my_windows_mb_save div.save_name .box input::-webkit-input-placeholder {
@@ -5451,6 +5453,15 @@ aside.my_windows_mb_save {
     aside.my_windows_mb_save div.save_page p.point {
       font-size: 3.8vw;
       color: #838ba0; }
+  aside.my_windows_mb_save div.service_push {
+    margin: 1vh 0 1vh 0;
+    padding: 0 3vw 3vw 3vw;
+    background: #fff; }
+    aside.my_windows_mb_save div.service_push h1.title {
+      border: none; }
+    aside.my_windows_mb_save div.service_push p {
+      color: #838ba0;
+      font-size: 3.8vw; }
 
 aside.my_windows_bet_record {
   width: 100vw;
