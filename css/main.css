@@ -5104,23 +5104,6 @@ aside.my_windows_mb_save {
     line-height: 1;
     vertical-align: bottom;
     color: #4d515d; }
-  aside.my_windows_mb_save div.choice_bank {
-    margin: 1vh 0 1vh 0;
-    padding: 0 3vw 0 3vw;
-    background: #fff;
-    line-height: 10vw; }
-    aside.my_windows_mb_save div.choice_bank p {
-      font-size: 4.5vw;
-      display: inline-block; }
-    aside.my_windows_mb_save div.choice_bank span {
-      display: inline-block;
-      float: right;
-      background: url(../images/arrow_gray.png) no-repeat;
-      background-position: center center;
-      background-size: 100%;
-      width: 4vw;
-      height: 4vw;
-      margin: 3vw 0 0 0; }
   aside.my_windows_mb_save div.content {
     margin: 1vh 0 0 0;
     padding: 0 3vw 0 3vw;
@@ -5186,6 +5169,10 @@ aside.my_windows_mb_save {
             background-size: cover; }
           aside.my_windows_mb_save div.content .pay_type .warp:hover p, aside.my_windows_mb_save div.content .pay_type .warp:active p, aside.my_windows_mb_save div.content .pay_type .warp.active p {
             color: #fff; }
+          aside.my_windows_mb_save div.content .pay_type .warp:hover.push:before, aside.my_windows_mb_save div.content .pay_type .warp:active.push:before, aside.my_windows_mb_save div.content .pay_type .warp.active.push:before {
+            background: url(../images/push_h.png) no-repeat;
+            background-size: 100%;
+            background-position: center; }
         aside.my_windows_mb_save div.content .pay_type .warp span {
           background: url(../images/my_mb_pay_icon.png) no-repeat;
           background-size: cover;
@@ -5209,6 +5196,179 @@ aside.my_windows_mb_save {
           margin: 9px 0 0 0;
           font-size: 3.8vw;
           color: #4d515d; }
+  aside.my_windows_mb_save div.save_choice_type {
+    margin: 1vh 0 1vh 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff; }
+    aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 0 5vw 0 3vw; }
+      aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp span {
+        background: url(../images/wechat_c.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 20px;
+        height: 20px; }
+      aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:hover span, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:active span, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp.active span {
+        background: url(../images/wechat_c_h.png) no-repeat;
+        background-size: 100%;
+        background-position: center; }
+      aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:hover p, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:active p, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp.active p {
+        color: #fff; }
+      aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:after {
+        display: none; }
+  aside.my_windows_mb_save div.save_name {
+    margin: 1vh 0 1vh 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff; }
+    aside.my_windows_mb_save div.save_name .box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 3vw 0 3vw 0;
+      border-bottom: 1px solid #e0e3f3; }
+      aside.my_windows_mb_save div.save_name .box p, aside.my_windows_mb_save div.save_name .box input {
+        font-size: 4.5vw; }
+      aside.my_windows_mb_save div.save_name .box p {
+        color: #4d515d;
+        margin: 0 20px 0 0; }
+      aside.my_windows_mb_save div.save_name .box input {
+        border: none; }
+        aside.my_windows_mb_save div.save_name .box input::-webkit-input-placeholder {
+          color: #838ba0; }
+        aside.my_windows_mb_save div.save_name .box input:-ms-input-placeholder {
+          color: #838ba0; }
+        aside.my_windows_mb_save div.save_name .box input::-ms-input-placeholder {
+          color: #838ba0; }
+        aside.my_windows_mb_save div.save_name .box input::placeholder {
+          color: #838ba0; }
+    aside.my_windows_mb_save div.save_name p.subtitle {
+      color: #838ba0;
+      font-size: 4vw;
+      padding: 5px 0 5px 0; }
+  aside.my_windows_mb_save div.alipay_type {
+    margin: 1vh 0 1vh 0;
+    padding: 1vh 3vw 1vh 3vw;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    aside.my_windows_mb_save div.alipay_type .warp {
+      width: 45.5vw;
+      text-align: center;
+      border: 1px solid #e0e3f3;
+      border-radius: 8px; }
+      aside.my_windows_mb_save div.alipay_type .warp p {
+        font-size: 3.8vw;
+        color: #4d515d;
+        padding: 1.5vw 0 1.5vw 0; }
+      aside.my_windows_mb_save div.alipay_type .warp:hover, aside.my_windows_mb_save div.alipay_type .warp:active, aside.my_windows_mb_save div.alipay_type .warp.active {
+        background: #556de7;
+        border: none; }
+        aside.my_windows_mb_save div.alipay_type .warp:hover p, aside.my_windows_mb_save div.alipay_type .warp:active p, aside.my_windows_mb_save div.alipay_type .warp.active p {
+          color: #fff; }
+  aside.my_windows_mb_save div.choice_bank {
+    margin: 1vh 0 1vh 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff;
+    line-height: 10vw; }
+    aside.my_windows_mb_save div.choice_bank p {
+      font-size: 4.5vw;
+      display: inline-block; }
+    aside.my_windows_mb_save div.choice_bank span {
+      display: inline-block;
+      float: right;
+      background: url(../images/arrow_gray.png) no-repeat;
+      background-position: center center;
+      background-size: 100%;
+      width: 4vw;
+      height: 4vw;
+      margin: 3vw 0 0 0; }
+  aside.my_windows_mb_save div .save_type {
+    padding: 3vw 0 0vw 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    aside.my_windows_mb_save div .save_type .disabled {
+      border: none;
+      width: 21vw;
+      height: 12vw; }
+    aside.my_windows_mb_save div .save_type .warp {
+      border: 1px solid #e0e3f3;
+      display: inline-block;
+      width: 21vw;
+      height: 12vw;
+      text-align: center;
+      white-space: nowrap;
+      border-radius: 8px;
+      margin: 0 0 3vw 0;
+      position: relative;
+      line-height: 12vw; }
+      aside.my_windows_mb_save div .save_type .warp:hover, aside.my_windows_mb_save div .save_type .warp:active, aside.my_windows_mb_save div .save_type .warp.active {
+        background: #556de7;
+        color: #fff; }
+        aside.my_windows_mb_save div .save_type .warp:hover:after, aside.my_windows_mb_save div .save_type .warp:active:after, aside.my_windows_mb_save div .save_type .warp.active:after {
+          content: "";
+          position: absolute;
+          right: 3px;
+          bottom: 3px;
+          width: 15px;
+          height: 15px;
+          background: url(../images/pay_check.png) no-repeat;
+          background-size: 100%; }
+        aside.my_windows_mb_save div .save_type .warp:hover span, aside.my_windows_mb_save div .save_type .warp:active span, aside.my_windows_mb_save div .save_type .warp.active span {
+          color: #fff; }
+        aside.my_windows_mb_save div .save_type .warp:hover p, aside.my_windows_mb_save div .save_type .warp:active p, aside.my_windows_mb_save div .save_type .warp.active p {
+          color: #fff; }
+      aside.my_windows_mb_save div .save_type .warp.other {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        aside.my_windows_mb_save div .save_type .warp.other span,
+        aside.my_windows_mb_save div .save_type .warp.other p {
+          font-size: 3vw;
+          line-height: 1; }
+        aside.my_windows_mb_save div .save_type .warp.other p {
+          color: #838ba0; }
+        aside.my_windows_mb_save div .save_type .warp.other:hover span,
+        aside.my_windows_mb_save div .save_type .warp.other:hover p, aside.my_windows_mb_save div .save_type .warp.other:active span,
+        aside.my_windows_mb_save div .save_type .warp.other:active p, aside.my_windows_mb_save div .save_type .warp.other.active span,
+        aside.my_windows_mb_save div .save_type .warp.other.active p {
+          color: #fff; }
+      aside.my_windows_mb_save div .save_type .warp span,
+      aside.my_windows_mb_save div .save_type .warp p {
+        display: inline-block; }
+      aside.my_windows_mb_save div .save_type .warp span {
+        font-size: 3vw; }
+      aside.my_windows_mb_save div .save_type .warp p {
+        font-size: 5vw;
+        color: #4d515d; }
   aside.my_windows_mb_save div.save_page {
     margin: 1vh 0 1vh 0;
     padding: 0 3vw 0 3vw;
@@ -5273,7 +5433,8 @@ aside.my_windows_mb_save {
             font-size: 3vw;
             line-height: 1; }
           aside.my_windows_mb_save div.save_page .save_type .warp.other p {
-            color: #838ba0; }
+            color: #838ba0;
+            margin: 3px 0 0 0; }
           aside.my_windows_mb_save div.save_page .save_type .warp.other:hover span,
           aside.my_windows_mb_save div.save_page .save_type .warp.other:hover p, aside.my_windows_mb_save div.save_page .save_type .warp.other:active span,
           aside.my_windows_mb_save div.save_page .save_type .warp.other:active p, aside.my_windows_mb_save div.save_page .save_type .warp.other.active span,
@@ -5287,6 +5448,9 @@ aside.my_windows_mb_save {
         aside.my_windows_mb_save div.save_page .save_type .warp p {
           font-size: 5vw;
           color: #4d515d; }
+    aside.my_windows_mb_save div.save_page p.point {
+      font-size: 3.8vw;
+      color: #838ba0; }
 
 aside.my_windows_bet_record {
   width: 100vw;

@@ -2614,26 +2614,7 @@ aside {
       }
     }
     div {
-      &.choice_bank{
-        margin: 1vh 0 1vh 0;
-        padding: 0 3vw 0 3vw;
-        background: #fff;
-        line-height: 10vw;
-        p{
-          font-size: 4.5vw;
-          display: inline-block;
-        }
-        span{
-          display: inline-block;
-          float: right;
-          background: url(../images/arrow_gray.png) no-repeat;
-            background-position: center center;
-            background-size: 100%;
-            width: 4vw;
-            height: 4vw;
-            margin: 3vw 0 0 0;
-        }
-      }
+      //支付方式
       &.content {
         margin: 1vh 0 0 0;
         padding: 0 3vw 0 3vw;
@@ -2694,6 +2675,13 @@ aside {
               p {
                 color: #fff;
               }
+              &.push{
+                &:before {
+                  background: url(../images/push_h.png) no-repeat;
+                  background-size: 100%;
+                  background-position: center;
+                }
+              }
             }
             span {
               background: url(../images/my_mb_pay_icon.png) no-repeat;
@@ -2730,6 +2718,206 @@ aside {
           }
         }
       }
+      //微信_支付通道
+      &.save_choice_type{
+        margin: 1vh 0 1vh 0;
+        padding: 0 3vw 0 3vw;
+        background: #fff;
+        div{
+          &.save_type{
+            &.choice_type{
+              .warp{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 5vw 0 3vw;
+                span{
+                  background: url(../images/wechat_c.png)no-repeat;
+                  background-size: 100%;
+                  background-position: center;
+                  width: 20px;
+                  height: 20px;
+                }
+                &:hover,
+                &:active,
+                &.active{
+                  span{
+                    background: url(../images/wechat_c_h.png)no-repeat;
+                  background-size: 100%;
+                  background-position: center;
+                  }
+                  p{
+                    color: #fff;
+                  }    
+                }
+                &:after{
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+      //網銀&銀行卡:使用者姓名
+      &.save_name{
+        margin: 1vh 0 1vh 0;
+        padding: 0 3vw 0 3vw;
+        background: #fff;
+        .box{
+          display: flex;
+          padding: 3vw 0 3vw 0;
+          border-bottom: 1px solid #e0e3f3;
+          p,input{
+            font-size: 4.5vw;
+          }
+          p{
+            color: #4d515d;
+            margin: 0 20px 0 0;
+          }
+          input{
+            border: none;
+            &::placeholder{
+              color: #838ba0;
+            }
+          }
+        }
+        p{
+          &.subtitle{
+            color: #838ba0;
+            font-size: 4vw;
+          padding: 5px 0 5px 0;
+          }
+        }
+      }
+      //支付寶種類
+      &.alipay_type{
+        margin: 1vh 0 1vh 0;
+        padding: 1vh 3vw 1vh 3vw;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        .warp{
+          width: 45.5vw;
+          text-align: center;
+          border: 1px solid #e0e3f3;
+          border-radius: 8px;
+          p{
+            font-size: 3.8vw;
+            color: #4d515d;
+            padding: 1.5vw 0 1.5vw 0;
+          }
+          &:hover,
+          &:active,
+          &.active{
+            background: #556de7;
+            border: none;
+            p{
+              color: #fff;
+            }
+          }
+        }
+      }
+      //網銀_選擇銀行
+      &.choice_bank{
+        margin: 1vh 0 1vh 0;
+        padding: 0 3vw 0 3vw;
+        background: #fff;
+        line-height: 10vw;
+        p{
+          font-size: 4.5vw;
+          display: inline-block;
+        }
+        span{
+          display: inline-block;
+          float: right;
+          background: url(../images/arrow_gray.png) no-repeat;
+            background-position: center center;
+            background-size: 100%;
+            width: 4vw;
+            height: 4vw;
+            margin: 3vw 0 0 0;
+        }
+      }
+      //共用的表格模組
+      .save_type {
+        padding: 3vw 0 0vw 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .disabled {
+          border: none;
+          width: 21vw;
+          height: 12vw;
+        }
+        .warp {
+          border: 1px solid #e0e3f3;
+          display: inline-block;
+          width: 21vw;
+          height: 12vw;
+          text-align: center;
+          white-space: nowrap;
+          border-radius: 8px;
+          margin: 0 0 3vw 0;
+          position: relative;
+          line-height: 12vw;
+          &:hover,
+          &:active,
+          &.active {
+            background: #556de7;
+            color: #fff;
+            &:after {
+              content: "";
+              position: absolute;
+              right: 3px;
+              bottom: 3px;
+              width: 15px;
+              height: 15px;
+              background: url(../images/pay_check.png) no-repeat;
+              background-size: 100%;
+            }
+            span {
+              color: #fff;
+            }
+            p {
+              color: #fff;
+            }
+          }
+          &.other {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            span,
+            p {
+              font-size: 3vw;
+              line-height: 1;
+            }
+            p {
+              color: #838ba0;
+            }
+            &:hover,
+            &:active,
+            &.active {
+              span,
+              p {
+                color: #fff;
+              }
+            }
+          }
+          span,
+          p {
+            display: inline-block;
+          }
+          span {
+            font-size: 3vw;
+          }
+          p {
+            font-size: 5vw;
+            color: #4d515d;
+          }
+        }
+      }
+      //網銀&銀行卡_存款金額
       &.save_page {
         margin: 1vh 0 1vh 0;
         padding: 0 3vw 0 3vw;
@@ -2789,6 +2977,7 @@ aside {
               }
               p {
                 color: #838ba0;
+                margin: 3px 0 0 0;
               }
               &:hover,
               &:active,
@@ -2810,6 +2999,12 @@ aside {
               font-size: 5vw;
               color: #4d515d;
             }
+          }
+        }
+        p{
+          &.point{
+            font-size: 3.8vw;
+            color: #838ba0;
           }
         }
       }
