@@ -895,9 +895,9 @@ aside {
             background: url(../images/arrow_d.png) no-repeat;
             background-position: center center;
             background-size: 100%;
-            width: 5vw;
-            height: 5vw;
-            vertical-align: middle;
+            width: 4vw;
+            height: 4vw;
+            margin: calc(2.5vh - (5vw / 2)) 0 0 0;
             display: inline-block;
             transform: rotate(90deg);
             pointer-events: all;
@@ -905,6 +905,17 @@ aside {
           &.right {
             float: right;
             display: inline-block;
+          }
+          &.question_icon{
+            position: relative;
+            background: url(../images/question.png) no-repeat;
+            background-position: center center;
+            background-size: 100%;
+            width: 5vw;
+            height: 5vw;
+            display: inline-block;
+            pointer-events: all;
+            margin: calc(2.5vh - (5vw / 2)) 0 0 0;
           }
         }
       }
@@ -2575,6 +2586,205 @@ aside {
         p {
           font-size: 4vw;
           color: #838ba0;
+        }
+      }
+    }
+  }
+  &.my_windows_mb_save{
+    width: 100vw;
+    height: 100vh;
+    background: #f7f7f7;
+    z-index: 500;
+    display: inline-block;
+    position: fixed;
+    transform: translateX(100%);
+    transition: all 0.4s ease-in-out;
+    &.active {
+      transform: translateX(0%);
+    }
+    h1{
+      &.title{
+        text-align: left;
+        border-bottom: 1px solid #e0e3f3;
+        padding: 3vw 0 3vw 0;
+        font-size: 4.5vw;
+        line-height: 1;
+        vertical-align: bottom;
+        color: #4d515d;
+      }
+    }
+    div{   
+      
+     
+      &.content{
+        margin: 1vh 0 0 0;
+        padding: 0 3vw 0 3vw;
+        background: #fff;  
+      }
+      &.pay_type{
+        padding: 3vw 0 0vw 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .disabled{
+          border: none;
+          width: 21vw;
+          height: 20vw;
+        }
+        .warp{
+          border: 1px solid #e0e3f3;
+          display: flex;
+          width: 21vw;
+          height: 20vw;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 8px;
+          margin: 0 0 3vw 0;
+          position: relative;
+          &.push{
+            &:before{
+              content: '';
+              position: absolute;
+              right: 2px;
+              top: 2px;
+              background: url(../images/push.png) no-repeat;
+              background-size: 100%;
+              background-position: center;
+              width: 12px;
+              height: 12px;
+            }
+          }
+          &:hover,
+          &:active,
+          &.active{
+            background: #556de7;
+            color: #fff;
+            &:after{
+              content: '';
+              position: absolute;
+              right: 3px;
+              bottom: 3px;
+              width: 15px;
+              height: 15px;
+              background: url(../images/pay_check.png) no-repeat;
+              background-size: 100%;
+            }
+            span{
+              background: url(../images/my_mb_pay_icon_h.png)no-repeat;
+              background-size: cover;
+            }
+          }
+          span{
+            background: url(../images/my_mb_pay_icon.png)no-repeat;
+            background-size: cover;
+            width: 25px;
+            height: 20px;
+            &.i1{
+              background-position: 0 0;
+            }
+            &.i2{
+              background-position: -24px 0;
+            }
+            &.i3{
+              background-position: -48px 0;
+            }
+            &.i4{
+              background-position: -71px 0;
+            }
+            &.i5{
+              background-position: -95px 0;
+            }
+            &.i6{
+              background-position: -119px 0;
+            }
+            &.i7{
+              background-position: -144px 0;
+            }
+          }
+          p{
+            margin: 9px 0 0 0;
+            font-size: 3.8vw;
+          }
+        }
+      }
+      &.save_page{
+        margin: 1vh 0 0 0;
+        padding: 0 3vw 0 3vw;
+        background: #fff;
+      }
+      &.save_type{
+        padding: 3vw 0 0vw 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .disabled{
+          border: none;
+          width: 21vw;
+          height: 20vw;
+        }
+        .warp{
+          border: 1px solid #e0e3f3;
+          display: flex;
+          width: 21vw;
+          height: 20vw;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 8px;
+          margin: 0 0 3vw 0;
+          position: relative;
+          &:hover,
+          &:active,
+          &.active{
+            background: #556de7;
+            color: #fff;
+            &:after{
+              content: '';
+              position: absolute;
+              right: 3px;
+              bottom: 3px;
+              width: 15px;
+              height: 15px;
+              background: url(../images/pay_check.png) no-repeat;
+              background-size: 100%;
+            }
+            span{
+              background: url(../images/my_mb_pay_icon_h.png)no-repeat;
+              background-size: cover;
+            }
+          }
+          span{
+            background: url(../images/my_mb_pay_icon.png)no-repeat;
+            background-size: cover;
+            width: 25px;
+            height: 20px;
+            &.i1{
+              background-position: 0 0;
+            }
+            &.i2{
+              background-position: -24px 0;
+            }
+            &.i3{
+              background-position: -48px 0;
+            }
+            &.i4{
+              background-position: -71px 0;
+            }
+            &.i5{
+              background-position: -95px 0;
+            }
+            &.i6{
+              background-position: -119px 0;
+            }
+            &.i7{
+              background-position: -144px 0;
+            }
+          }
+          p{
+            margin: 9px 0 0 0;
+            font-size: 3.8vw;
+          }
         }
       }
     }

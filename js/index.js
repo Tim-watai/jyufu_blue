@@ -101,7 +101,7 @@ $(document).ready(function() {
       return $('aside.my_windows_mb').removeClass('active');   
     }
   });
-  //切換_我的視窗_轉帳
+  //切換_我的視窗_錢包_取款
   $('aside.my_windows_mb_take_out div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.take_out').click(function(){
     console.log('mb');
     if($('aside.my_windows_mb_take_out').hasClass('active') !== true)
@@ -111,7 +111,7 @@ $(document).ready(function() {
       return $('aside.my_windows_mb_take_out').removeClass('active');   
     }
   });
-  //切換_我的視窗_轉帳
+  //切換_我的視窗_錢包_轉帳
   $('aside.my_windows_mb_transfer div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.transfer').click(function(){
     console.log('mb');
     if($('aside.my_windows_mb_transfer').hasClass('active') !== true)
@@ -121,6 +121,7 @@ $(document).ready(function() {
       return $('aside.my_windows_mb_transfer').removeClass('active');   
     }
   });
+  
   //switch
   $('aside.my_windows_mb_transfer div.auto div.box_empty div.check').click(function(){
     if($(this).hasClass('active') !== true)
@@ -130,6 +131,16 @@ $(document).ready(function() {
       return $(this).removeClass('active');   
     }
   });
+    //切換_我的視窗_錢包_存款
+    $('aside.my_windows_mb_save div.header ul li.back , aside.my_windows_mb div.mb_content div.title div.save_money').click(function(){
+      console.log('mb');
+      if($('aside.my_windows_mb_save').hasClass('active') !== true)
+      {
+        return $('aside.my_windows_mb_save').addClass('active');    
+      }else{
+        return $('aside.my_windows_mb_save').removeClass('active');   
+      }
+    });
   //切換_我的視窗_投注紀錄
   $('aside.my_windows_bet_record div.header ul li.back , aside.my_windows div.group ul li.my_rd').click(function(){
     console.log('mb');
