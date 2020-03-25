@@ -4462,6 +4462,24 @@ aside.my_windows_help {
           float: left;
           color: #4d515d; }
 
+aside.my_windows_t_record {
+  width: 100vw;
+  height: 100vh;
+  background: #f7f7f7;
+  z-index: 400;
+  display: inline-block;
+  position: fixed;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  aside.my_windows_t_record.active {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); }
+
 aside.my_windows_mb {
   width: 100vw;
   height: 100vh;

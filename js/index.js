@@ -92,7 +92,6 @@ $(document).ready(function() {
   });
 
   //切換_我的視窗_幫助中心
-  'aside.my_windows div.row_btn'
   $('aside.my_windows div.row_btn , aside.my_windows_help div.header ul li.back').click(function(){
    
     if($('aside.my_windows_help').hasClass('active') !== true)
@@ -100,6 +99,16 @@ $(document).ready(function() {
       return $('aside.my_windows_help').addClass('active');    
     }else{
       return $('aside.my_windows_help').removeClass('active');   
+    }
+  });
+   //切換_我的視窗_交易紀錄
+   $('aside.my_windows_t_record div.header ul li.back , aside.my_windows div.group ul li.my_tr').click(function(){
+   
+    if($('aside.my_windows_t_record').hasClass('active') !== true)
+    {
+      return $('aside.my_windows_t_record').addClass('active');    
+    }else{
+      return $('aside.my_windows_t_record').removeClass('active');   
     }
   });
 
