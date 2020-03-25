@@ -5606,3 +5606,63 @@ aside.my_windows_card {
       font-size: 4.5vw;
       color: #838ba0;
       margin: 3vw 0 0 0; }
+  aside.my_windows_card div.have {
+    margin: 4vh 0 0 0; }
+    aside.my_windows_card div.have div.card {
+      background: -webkit-gradient(linear, left top, right top, from(#cfb05e), to(#d8be76));
+      background: -webkit-linear-gradient(left, #cfb05e 0%, #d8be76 100%);
+      background: -o-linear-gradient(left, #cfb05e 0%, #d8be76 100%);
+      background: linear-gradient(to right, #cfb05e 0%, #d8be76 100%);
+      position: relative;
+      margin: 0px auto;
+      width: 94vw;
+      height: 153px;
+      padding: 14px 18px;
+      margin-top: 1vh;
+      border-radius: 5px;
+      color: #fff; }
+      aside.my_windows_card div.have div.card span.shine {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: calc(93vw * 3 / 4);
+        height: 153px;
+        border-color: rgba(255, 255, 255, 0.3) transparent transparent transparent;
+        border-style: solid solid solid solid;
+        border-width: 153px 0px 0px 180px; }
+      aside.my_windows_card div.have div.card .title {
+        text-align: center;
+        font-size: 4.5vw; }
+      aside.my_windows_card div.have div.card .ic_warp .ic {
+        background: url(../images/ic.png) no-repeat;
+        background-size: 100%;
+        background-position: top;
+        width: 30px;
+        height: 20px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 1px 0px 0 #b76a06;
+        box-shadow: 0 1px 0px 0 #b76a06; }
+      aside.my_windows_card div.have div.card .account_warp {
+        padding: 10px 0 10px 0;
+        border-bottom: 1px solid #fff; }
+        aside.my_windows_card div.have div.card .account_warp p {
+          display: inline-block; }
+          aside.my_windows_card div.have div.card .account_warp p:first-child {
+            margin: 0 20px 0 0; }
+        aside.my_windows_card div.have div.card .account_warp:last-child {
+          padding: 10px 0 0 0;
+          border: none; }
+    aside.my_windows_card div.have div.alert_box {
+      margin: 4vh 3vw 0 3vw;
+      padding: 4vw 4vw 0 4vw;
+      background: #fff;
+      border-radius: 8px; }
+      aside.my_windows_card div.have div.alert_box h1.title {
+        color: #4d515d;
+        font-size: 4.5vw;
+        margin: 0 0 2vw 0; }
+      aside.my_windows_card div.have div.alert_box p {
+        color: #838ba0;
+        margin: 0 0 4vw 0;
+        display: inline-block;
+        font-size: 4.3vw; }
