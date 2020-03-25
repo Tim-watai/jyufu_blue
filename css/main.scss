@@ -1804,6 +1804,64 @@ aside {
       }
     }
   }
+  &.my_windows_help{
+    width: 100vw;
+    height: 100vh;
+    background: #f7f7f7;
+    z-index: 500;
+    display: inline-block;
+    position: fixed;
+    transform: translateX(100%);
+    transition: all 0.4s ease-in-out;
+    &.active {
+      transform: translateX(0%);
+    }
+    ul{
+      &.content{
+        margin: 1vh 0 0 0;
+        padding: 0 3vw 0 3vw;
+        background: #fff;
+        li{
+          line-height: 50px;
+          overflow: auto;
+          div{
+            display: inline-block;
+            &.icon{
+              background: url(../images/help_icon.png)no-repeat;
+              background-size: cover;
+              background-position: 0 0;
+              width: 23px;
+              height: 23px;
+              vertical-align: middle;
+              margin: 13.5px 15px 0 0;
+              float: left;
+            }
+            &.arrow{
+              background: url(../images/arrow_lg.png)no-repeat;
+              background-size: 100%;
+              background-position:center;
+              width: 12px;
+              height: 14px;
+              vertical-align: middle;
+              float: right;
+              margin: 18px 0 0 0;
+            }
+          }
+          p{
+            display: inline-block;
+            vertical-align: middle;
+            &.subtitle{
+              float: right;
+              color: #838ba0;
+            }
+            &.title{
+              float: left;
+            }
+          }
+        }
+      }
+    }
+  }
   &.my_windows_mb {
     width: 100vw;
     height: 100vh;
@@ -3024,6 +3082,18 @@ aside {
           color: #838ba0;
           font-size: 3.8vw;
         }
+      }
+    }
+    button{
+      &.save_now{
+        width: 94vw;
+        line-height: 12vw;
+        margin: 0 3vw;
+        border-radius: 8px;
+        border: none;
+        color: #fff;
+        font-size: 4.5vw;
+        background:linear-gradient(to right, #9ba8e4 0% ,#485cc4 100% );
       }
     }
   }

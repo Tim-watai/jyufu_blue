@@ -4391,6 +4391,59 @@ aside.my_windows_set {
           -ms-transform: translateX(calc(13vw - 7vw));
           transform: translateX(calc(13vw - 7vw)); }
 
+aside.my_windows_help {
+  width: 100vw;
+  height: 100vh;
+  background: #f7f7f7;
+  z-index: 500;
+  display: inline-block;
+  position: fixed;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  aside.my_windows_help.active {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); }
+  aside.my_windows_help ul.content {
+    margin: 1vh 0 0 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff; }
+    aside.my_windows_help ul.content li {
+      line-height: 50px;
+      overflow: auto; }
+      aside.my_windows_help ul.content li div {
+        display: inline-block; }
+        aside.my_windows_help ul.content li div.icon {
+          background: url(../images/help_icon.png) no-repeat;
+          background-size: cover;
+          background-position: 0 0;
+          width: 23px;
+          height: 23px;
+          vertical-align: middle;
+          margin: 13.5px 15px 0 0;
+          float: left; }
+        aside.my_windows_help ul.content li div.arrow {
+          background: url(../images/arrow_lg.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 12px;
+          height: 14px;
+          vertical-align: middle;
+          float: right;
+          margin: 18px 0 0 0; }
+      aside.my_windows_help ul.content li p {
+        display: inline-block;
+        vertical-align: middle; }
+        aside.my_windows_help ul.content li p.subtitle {
+          float: right;
+          color: #838ba0; }
+        aside.my_windows_help ul.content li p.title {
+          float: left; }
+
 aside.my_windows_mb {
   width: 100vw;
   height: 100vh;
@@ -5462,6 +5515,18 @@ aside.my_windows_mb_save {
     aside.my_windows_mb_save div.service_push p {
       color: #838ba0;
       font-size: 3.8vw; }
+  aside.my_windows_mb_save button.save_now {
+    width: 94vw;
+    line-height: 12vw;
+    margin: 0 3vw;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 4.5vw;
+    background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
+    background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.my_windows_bet_record {
   width: 100vw;

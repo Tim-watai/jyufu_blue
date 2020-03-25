@@ -91,6 +91,19 @@ $(document).ready(function() {
     }
   });
 
+  //切換_我的視窗_幫助中心
+  'aside.my_windows div.row_btn'
+  $('aside.my_windows div.row_btn , aside.my_windows_help div.header ul li.back').click(function(){
+   
+    if($('aside.my_windows_help').hasClass('active') !== true)
+    {
+      return $('aside.my_windows_help').addClass('active');    
+    }else{
+      return $('aside.my_windows_help').removeClass('active');   
+    }
+  });
+
+
   //切換_我的視窗_錢包
   $('aside.my_windows div.group ul li.my_mb , aside.my_windows_mb div.header ul li.back').click(function(){
    
