@@ -906,7 +906,7 @@ aside {
             float: right;
             display: inline-block;
           }
-          &.question_icon{
+          &.question_icon {
             position: relative;
             background: url(../images/question.png) no-repeat;
             background-position: center center;
@@ -2590,7 +2590,7 @@ aside {
       }
     }
   }
-  &.my_windows_mb_save{
+  &.my_windows_mb_save {
     width: 100vw;
     height: 100vh;
     background: #f7f7f7;
@@ -2602,8 +2602,8 @@ aside {
     &.active {
       transform: translateX(0%);
     }
-    h1{
-      &.title{
+    h1 {
+      &.title {
         text-align: left;
         border-bottom: 1px solid #e0e3f3;
         padding: 3vw 0 3vw 0;
@@ -2613,183 +2613,209 @@ aside {
         color: #4d515d;
       }
     }
-    div{   
-      
-     
-      &.content{
-        margin: 1vh 0 0 0;
+    div {
+      &.choice_bank{
+        margin: 1vh 0 1vh 0;
         padding: 0 3vw 0 3vw;
-        background: #fff;  
-      }
-      &.pay_type{
-        padding: 3vw 0 0vw 0;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        .disabled{
-          border: none;
-          width: 21vw;
-          height: 20vw;
+        background: #fff;
+        line-height: 10vw;
+        p{
+          font-size: 4.5vw;
+          display: inline-block;
         }
-        .warp{
-          border: 1px solid #e0e3f3;
-          display: flex;
-          width: 21vw;
-          height: 20vw;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          border-radius: 8px;
-          margin: 0 0 3vw 0;
-          position: relative;
-          &.push{
-            &:before{
-              content: '';
-              position: absolute;
-              right: 2px;
-              top: 2px;
-              background: url(../images/push.png) no-repeat;
-              background-size: 100%;
-              background-position: center;
-              width: 12px;
-              height: 12px;
-            }
-          }
-          &:hover,
-          &:active,
-          &.active{
-            background: #556de7;
-            color: #fff;
-            &:after{
-              content: '';
-              position: absolute;
-              right: 3px;
-              bottom: 3px;
-              width: 15px;
-              height: 15px;
-              background: url(../images/pay_check.png) no-repeat;
-              background-size: 100%;
-            }
-            span{
-              background: url(../images/my_mb_pay_icon_h.png)no-repeat;
-              background-size: cover;
-            }
-          }
-          span{
-            background: url(../images/my_mb_pay_icon.png)no-repeat;
-            background-size: cover;
-            width: 25px;
-            height: 20px;
-            &.i1{
-              background-position: 0 0;
-            }
-            &.i2{
-              background-position: -24px 0;
-            }
-            &.i3{
-              background-position: -48px 0;
-            }
-            &.i4{
-              background-position: -71px 0;
-            }
-            &.i5{
-              background-position: -95px 0;
-            }
-            &.i6{
-              background-position: -119px 0;
-            }
-            &.i7{
-              background-position: -144px 0;
-            }
-          }
-          p{
-            margin: 9px 0 0 0;
-            font-size: 3.8vw;
-          }
+        span{
+          display: inline-block;
+          float: right;
+          background: url(../images/arrow_gray.png) no-repeat;
+            background-position: center center;
+            background-size: 100%;
+            width: 4vw;
+            height: 4vw;
+            margin: 3vw 0 0 0;
         }
       }
-      &.save_page{
+      &.content {
         margin: 1vh 0 0 0;
         padding: 0 3vw 0 3vw;
         background: #fff;
-      }
-      &.save_type{
-        padding: 3vw 0 0vw 0;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        .disabled{
-          border: none;
-          width: 21vw;
-          height: 20vw;
-        }
-        .warp{
-          border: 1px solid #e0e3f3;
+        .pay_type {
+          padding: 3vw 0 0vw 0;
           display: flex;
-          width: 21vw;
-          height: 20vw;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          border-radius: 8px;
-          margin: 0 0 3vw 0;
-          position: relative;
-          &:hover,
-          &:active,
-          &.active{
-            background: #556de7;
-            color: #fff;
-            &:after{
-              content: '';
-              position: absolute;
-              right: 3px;
-              bottom: 3px;
-              width: 15px;
-              height: 15px;
-              background: url(../images/pay_check.png) no-repeat;
-              background-size: 100%;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          .disabled {
+            border: none;
+            width: 21vw;
+            height: 20vw;
+          }
+          .warp {
+            border: 1px solid #e0e3f3;
+            display: flex;
+            width: 21vw;
+            height: 20vw;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            margin: 0 0 3vw 0;
+            position: relative;
+            &.push {
+              &:before {
+                content: "";
+                position: absolute;
+                right: 2px;
+                top: 2px;
+                background: url(../images/push.png) no-repeat;
+                background-size: 100%;
+                background-position: center;
+                width: 12px;
+                height: 12px;
+              }
             }
-            span{
-              background: url(../images/my_mb_pay_icon_h.png)no-repeat;
+            &:hover,
+            &:active,
+            &.active {
+              background: #556de7;
+              color: #fff;
+              &:after {
+                content: "";
+                position: absolute;
+                right: 3px;
+                bottom: 3px;
+                width: 15px;
+                height: 15px;
+                background: url(../images/pay_check.png) no-repeat;
+                background-size: 100%;
+              }
+              span {
+                background: url(../images/my_mb_pay_icon_h.png) no-repeat;
+                background-size: cover;
+              }
+              p {
+                color: #fff;
+              }
+            }
+            span {
+              background: url(../images/my_mb_pay_icon.png) no-repeat;
               background-size: cover;
+              width: 25px;
+              height: 20px;
+              &.i1 {
+                background-position: 0 0;
+              }
+              &.i2 {
+                background-position: -24px 0;
+              }
+              &.i3 {
+                background-position: -48px 0;
+              }
+              &.i4 {
+                background-position: -71px 0;
+              }
+              &.i5 {
+                background-position: -95px 0;
+              }
+              &.i6 {
+                background-position: -119px 0;
+              }
+              &.i7 {
+                background-position: -144px 0;
+              }
+            }
+            p {
+              margin: 9px 0 0 0;
+              font-size: 3.8vw;
+              color: #4d515d;
             }
           }
-          span{
-            background: url(../images/my_mb_pay_icon.png)no-repeat;
-            background-size: cover;
-            width: 25px;
-            height: 20px;
-            &.i1{
-              background-position: 0 0;
-            }
-            &.i2{
-              background-position: -24px 0;
-            }
-            &.i3{
-              background-position: -48px 0;
-            }
-            &.i4{
-              background-position: -71px 0;
-            }
-            &.i5{
-              background-position: -95px 0;
-            }
-            &.i6{
-              background-position: -119px 0;
-            }
-            &.i7{
-              background-position: -144px 0;
-            }
+        }
+      }
+      &.save_page {
+        margin: 1vh 0 1vh 0;
+        padding: 0 3vw 0 3vw;
+        background: #fff;
+        .save_type {
+          padding: 3vw 0 0vw 0;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          .disabled {
+            border: none;
+            width: 21vw;
+            height: 10vw;
           }
-          p{
-            margin: 9px 0 0 0;
-            font-size: 3.8vw;
+          .warp {
+            border: 1px solid #e0e3f3;
+            display: inline-block;
+            width: 21vw;
+            height: 12vw;
+            text-align: center;
+            white-space: nowrap;
+            border-radius: 8px;
+            margin: 0 0 3vw 0;
+            position: relative;
+            line-height: 12vw;
+            &:hover,
+            &:active,
+            &.active {
+              background: #556de7;
+              color: #fff;
+              &:after {
+                content: "";
+                position: absolute;
+                right: 3px;
+                bottom: 3px;
+                width: 15px;
+                height: 15px;
+                background: url(../images/pay_check.png) no-repeat;
+                background-size: 100%;
+              }
+              span {
+                color: #fff;
+              }
+              p {
+                color: #fff;
+              }
+            }
+            &.other {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              span,
+              p {
+                font-size: 3vw;
+                line-height: 1;
+              }
+              p {
+                color: #838ba0;
+              }
+              &:hover,
+              &:active,
+              &.active {
+                span,
+                p {
+                  color: #fff;
+                }
+              }
+            }
+            span,
+            p {
+              display: inline-block;
+            }
+            span {
+              font-size: 3vw;
+            }
+            p {
+              font-size: 5vw;
+              color: #4d515d;
+            }
           }
         }
       }
     }
   }
-  &.my_windows_bet_record{
+  &.my_windows_bet_record {
     width: 100vw;
     height: 100vh;
     background: #f7f7f7;
@@ -2801,25 +2827,25 @@ aside {
     &.active {
       transform: translateX(0%);
     }
-    div{
-      &.title{
+    div {
+      &.title {
         background: #fff;
         padding: calc(5vh + 3vw) 3vw 0 3vw;
         margin: -5vh 0 0 0;
         display: flex;
-        div{
-          &.tack{
+        div {
+          &.tack {
             background: #f7f8fc;
             margin: 0 3vw 3vw 0;
             padding: 1vw 3vw 1vw 3vw;
             border-radius: 30px;
-            p{
+            p {
               font-size: 4vw;
               padding: 1vw;
               line-height: 4vw;
               position: relative;
               color: #4d515d;
-              span{
+              span {
                 display: inline-block;
                 width: 0;
                 height: 0;
@@ -2833,37 +2859,35 @@ aside {
           }
         }
       }
-      &.content{
+      &.content {
         height: calc(100vh - (5vh + 14vw));
-        &.empty{
+        &.empty {
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
           align-items: center;
-          .empty_icon{
-            background:url(../images/bet_record_empty.png)no-repeat;
+          .empty_icon {
+            background: url(../images/bet_record_empty.png) no-repeat;
             background-size: 100%;
             background-position: center;
             width: 50vw;
             height: 50vw;
             margin: 40vw 0 0 0;
           }
-          p{
+          p {
             color: #838ba0;
             font-size: 4vw;
             margin: 4vw 0 8vw 0;
           }
-          button{
+          button {
             color: #fff;
-            background: linear-gradient(to right, #9aa6e3 0%,#485cc4 100%);
-            border:none;
+            background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
+            border: none;
             border-radius: 3px;
             font-size: 4vw;
             padding: 2vw 10vw;
           }
         }
-        
-        
       }
     }
   }
