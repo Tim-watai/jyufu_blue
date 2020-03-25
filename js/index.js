@@ -141,6 +141,18 @@ $(document).ready(function() {
         return $('aside.my_windows_mb_save').removeClass('active');   
       }
     });
+//切換_我的視窗_卡片管理
+$('aside.my_windows_card div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.card').click(function(){
+  console.log('mb');
+  if($('aside.my_windows_card').hasClass('active') !== true)
+  {
+    return $('aside.my_windows_card').addClass('active');    
+  }else{
+    return $('aside.my_windows_card').removeClass('active');   
+  }
+});
+
+
   //切換_我的視窗_投注紀錄
   $('aside.my_windows_bet_record div.header ul li.back , aside.my_windows div.group ul li.my_rd').click(function(){
     console.log('mb');

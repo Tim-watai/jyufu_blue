@@ -5544,3 +5544,65 @@ aside.my_windows_bet_record {
         border-radius: 3px;
         font-size: 4vw;
         padding: 2vw 10vw; }
+
+aside.my_windows_card {
+  width: 100vw;
+  height: 100vh;
+  background: #f7f7f7;
+  z-index: 500;
+  display: inline-block;
+  position: fixed;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  aside.my_windows_card.active {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); }
+  aside.my_windows_card div.empty {
+    margin: 1vh 0 0 0;
+    text-align: center; }
+    aside.my_windows_card div.empty .empty_icon {
+      background: url(../images/card_empty.png) no-repeat;
+      background-size: 100%;
+      background-position: center;
+      width: 50vw;
+      height: 50vw;
+      display: inline-block;
+      margin: 20vw 0 0 0; }
+    aside.my_windows_card div.empty button {
+      width: 94vw;
+      line-height: 20vw;
+      background: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 5vw;
+      font-weight: bold; }
+      aside.my_windows_card div.empty button span {
+        display: inline-block;
+        width: 5vw;
+        height: 5vw;
+        position: relative;
+        margin: 0vw 4px 0 0; }
+        aside.my_windows_card div.empty button span:before, aside.my_windows_card div.empty button span:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background: #000;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+        aside.my_windows_card div.empty button span:before {
+          -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          -ms-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg); }
+    aside.my_windows_card div.empty p {
+      font-size: 4.5vw;
+      color: #838ba0;
+      margin: 3vw 0 0 0; }
