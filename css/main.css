@@ -4792,7 +4792,8 @@ aside.my_windows_mb {
         aside.my_windows_mb div.mb_content div.btns div span {
           display: inline-block; }
         aside.my_windows_mb div.mb_content div.btns div.transfer {
-          float: left; }
+          float: left;
+          position: relative; }
           aside.my_windows_mb div.mb_content div.btns div.transfer span.transfer_icon {
             background: url(../images/translate.png) no-repeat;
             background-size: 100%;
@@ -5054,7 +5055,8 @@ aside.my_windows_mb_transfer {
   transform: translateX(100%);
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out; }
+  transition: all 0.4s ease-in-out;
+  overflow-y: scroll; }
   aside.my_windows_mb_transfer.active {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
@@ -5076,14 +5078,14 @@ aside.my_windows_mb_transfer {
     aside.my_windows_mb_transfer div.content div {
       border-bottom: 1px solid #e0e3f3; }
       aside.my_windows_mb_transfer div.content div.title {
-        height: 12vw;
-        line-height: 12vw; }
+        height: 44px;
+        line-height: 43px; }
         aside.my_windows_mb_transfer div.content div.title p {
           display: inline-block; }
           aside.my_windows_mb_transfer div.content div.title p.money_total {
             font-weight: bold;
             color: #4d515d;
-            font-size: 4.5vw; }
+            font-size: 16px; }
             aside.my_windows_mb_transfer div.content div.title p.money_total span {
               display: inline-block;
               width: 4vw;
@@ -5095,7 +5097,7 @@ aside.my_windows_mb_transfer {
           aside.my_windows_mb_transfer div.content div.title p.recycle {
             float: right;
             color: #556de7;
-            font-size: 4.5vw; }
+            font-size: 16px; }
       aside.my_windows_mb_transfer div.content div.money_type {
         white-space: nowrap;
         position: relative; }
@@ -5112,48 +5114,44 @@ aside.my_windows_mb_transfer {
           background: #e0e3f3; }
         aside.my_windows_mb_transfer div.content div.money_type span {
           display: inline-block; }
-          aside.my_windows_mb_transfer div.content div.money_type span.center {
+          aside.my_windows_mb_transfer div.content div.money_type span.center, aside.my_windows_mb_transfer div.content div.money_type span.lock {
             width: 50%;
             text-align: center;
-            margin: 3vw 0 3vw 0; }
-            aside.my_windows_mb_transfer div.content div.money_type span.center p.title {
+            margin: 10px 0 10px 0; }
+          aside.my_windows_mb_transfer div.content div.money_type span.center p.title {
+            display: inline-block;
+            font-size: 14px;
+            color: #4d515d; }
+            aside.my_windows_mb_transfer div.content div.money_type span.center p.title span {
               display: inline-block;
-              font-size: 4vw;
-              color: #4d515d; }
-              aside.my_windows_mb_transfer div.content div.money_type span.center p.title span {
-                display: inline-block;
-                width: 4vw;
-                height: 4vw;
-                background: url(../images/mb_w.png) no-repeat;
-                background-size: 100%;
-                background-position: center;
-                margin: 0 1vw 0 0; }
-            aside.my_windows_mb_transfer div.content div.money_type span.center p.balance {
-              font-size: 6vw;
-              line-height: 1;
-              margin: 2vw 0 0 0;
-              color: #556de7; }
-          aside.my_windows_mb_transfer div.content div.money_type span.lock {
-            width: 50%;
-            text-align: center;
-            margin: 3vw 0 3vw 0; }
-            aside.my_windows_mb_transfer div.content div.money_type span.lock p.title {
+              width: 4vw;
+              height: 4vw;
+              background: url(../images/mb_w.png) no-repeat;
+              background-size: 100%;
+              background-position: center;
+              margin: 0 1vw 0 0; }
+          aside.my_windows_mb_transfer div.content div.money_type span.center p.balance {
+            font-size: 6vw;
+            line-height: 1;
+            margin: 7px 0 0 0;
+            color: #556de7; }
+          aside.my_windows_mb_transfer div.content div.money_type span.lock p.title {
+            display: inline-block;
+            font-size: 14px;
+            color: #4d515d; }
+            aside.my_windows_mb_transfer div.content div.money_type span.lock p.title span {
               display: inline-block;
-              font-size: 4vw;
-              color: #4d515d; }
-              aside.my_windows_mb_transfer div.content div.money_type span.lock p.title span {
-                display: inline-block;
-                width: 4vw;
-                height: 4vw;
-                background: url(../images/mb_w.png) no-repeat;
-                background-size: 100%;
-                background-position: center;
-                margin: 0 1vw 0 0; }
-            aside.my_windows_mb_transfer div.content div.money_type span.lock p.balance {
-              font-size: 6vw;
-              line-height: 1;
-              margin: 2vw 0 0 0;
-              color: #556de7; }
+              width: 4vw;
+              height: 4vw;
+              background: url(../images/mb_w.png) no-repeat;
+              background-size: 100%;
+              background-position: center;
+              margin: 0 1vw 0 0; }
+          aside.my_windows_mb_transfer div.content div.money_type span.lock p.balance {
+            font-size: 6vw;
+            line-height: 1;
+            margin: 2vw 0 0 0;
+            color: #556de7; }
       aside.my_windows_mb_transfer div.content div.groups {
         white-space: nowrap;
         position: relative;
@@ -5266,60 +5264,241 @@ aside.my_windows_mb_transfer {
                 color: #838ba0;
                 font-size: 4vw;
                 margin: 3vw 0 0 0; }
-  aside.my_windows_mb_transfer div.auto {
+  aside.my_windows_mb_transfer div.transfer_area {
     margin: 1.5vh 0 0 0;
     padding: 0 3vw;
     background: #fff;
     position: relative; }
-    aside.my_windows_mb_transfer div.auto p {
-      font-weight: bold;
-      color: #4d515d;
-      font-size: 4.5vw;
-      line-height: 13.5vw;
-      height: 13.5vw;
-      letter-spacing: 0.5px;
-      display: inline-block; }
-    aside.my_windows_mb_transfer div.auto div.box_empty {
-      display: inline-block;
-      float: right;
-      line-height: 13.5vw; }
-      aside.my_windows_mb_transfer div.auto div.box_empty div.check {
+    aside.my_windows_mb_transfer div.transfer_area div.auto {
+      border-bottom: 1px solid #e0e3f3; }
+      aside.my_windows_mb_transfer div.transfer_area div.auto p.title_auto {
+        font-weight: bold;
+        color: #4d515d;
+        font-size: 16px;
+        line-height: 50px;
+        height: 50px;
+        letter-spacing: 0.5px;
+        display: inline-block; }
+      aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty {
         display: inline-block;
-        height: 7vw;
-        line-height: 7vw;
-        background: #737997;
-        background: #adafbb;
-        vertical-align: middle;
-        border-radius: 20px;
-        padding: 0 2px;
-        width: 13vw; }
-        aside.my_windows_mb_transfer div.auto div.box_empty div.check.active {
-          background: #737997; }
-          aside.my_windows_mb_transfer div.auto div.box_empty div.check.active span.switch {
-            -webkit-transform: translateX(calc(13vw - 7vw));
-            -ms-transform: translateX(calc(13vw - 7vw));
-            transform: translateX(calc(13vw - 7vw)); }
-        aside.my_windows_mb_transfer div.auto div.box_empty div.check span.switch {
+        float: right;
+        line-height: 13.5vw; }
+        aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty div.check {
           display: inline-block;
-          position: relative;
-          top: 2px;
-          width: calc(7vw - 4px);
-          height: calc(7vw - 4px);
-          background: #fff;
+          height: 7vw;
+          line-height: 7vw;
+          background: #737997;
+          background: #adafbb;
+          vertical-align: middle;
           border-radius: 20px;
-          -webkit-transition: all 0.3s ease-in-out;
-          -o-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out; }
+          padding: 0 2px;
+          width: 13vw; }
+          aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty div.check.active {
+            background: #737997; }
+            aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty div.check.active span.switch {
+              -webkit-transform: translateX(calc(13vw - 7vw));
+              -ms-transform: translateX(calc(13vw - 7vw));
+              transform: translateX(calc(13vw - 7vw)); }
+          aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty div.check span.switch {
+            display: inline-block;
+            position: relative;
+            top: 2px;
+            width: calc(7vw - 4px);
+            height: calc(7vw - 4px);
+            background: #fff;
+            border-radius: 20px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; }
+    aside.my_windows_mb_transfer div.transfer_area div.box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      line-height: 1;
+      padding: 8px 0; }
+      aside.my_windows_mb_transfer div.transfer_area div.box p {
+        color: #4d515d;
+        font-size: 15px;
+        font-weight: lighter;
+        padding: 9px 0 9px 0; }
+      aside.my_windows_mb_transfer div.transfer_area div.box .drow_box {
+        width: 60vw;
+        text-align: center;
+        border: 1px solid #b9bfdc;
+        border-radius: 5px;
+        color: #4d515d;
+        font-size: 15px;
+        font-weight: lighter;
+        padding: 8px 0 8px 0;
+        position: relative; }
+        aside.my_windows_mb_transfer div.transfer_area div.box .drow_box:before {
+          content: '';
+          background: url(../images/arrow_lg.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          position: absolute;
+          top: 8px;
+          right: 3vw;
+          width: 6px;
+          height: 17px;
+          -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          transform: rotate(90deg); }
+    aside.my_windows_mb_transfer div.transfer_area div.input_area {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      line-height: 1;
+      padding: 8px 0; }
+      aside.my_windows_mb_transfer div.transfer_area div.input_area input {
+        border: 1px solid #b9bfdc;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: lighter;
+        width: 65vw;
+        padding: 7px 0 7px 3vw; }
+      aside.my_windows_mb_transfer div.transfer_area div.input_area p {
+        padding: 9px 0 9px 0; }
+  aside.my_windows_mb_transfer button {
+    width: 70vw;
+    margin: 20px 15vw 0 15vw;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
+    background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
+    border-radius: 8px;
+    padding: 10px 40px 10px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative; }
 
 aside.my_windows_mb_transfer_doing {
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.6);
   z-index: 600;
-  position: fixed; }
+  position: fixed;
+  display: none; }
+  aside.my_windows_mb_transfer_doing.active {
+    display: block; }
   aside.my_windows_mb_transfer_doing .windows {
-    width: 94vw;
-    margin: 150px 3vw 0 3vw; }
+    width: 86vw;
+    margin: 150px auto 0 auto;
+    background: #fff;
+    border-radius: 8px; }
+    aside.my_windows_mb_transfer_doing .windows div.top_warp {
+      background: #959dc5;
+      color: #fff;
+      text-align: center;
+      padding: 12px 0 7px 0;
+      border-radius: 8px 8px 0 0; }
+      aside.my_windows_mb_transfer_doing .windows div.top_warp h1.title {
+        font-weight: lighter;
+        font-size: 16px; }
+      aside.my_windows_mb_transfer_doing .windows div.top_warp p {
+        font-size: 12px; }
+    aside.my_windows_mb_transfer_doing .windows div.content {
+      padding: 16px 6vw 16px 6vw; }
+      aside.my_windows_mb_transfer_doing .windows div.content .box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        line-height: 1;
+        margin: 0 0 20px 0; }
+        aside.my_windows_mb_transfer_doing .windows div.content .box p {
+          color: #4d515d;
+          font-size: 17px;
+          font-weight: lighter;
+          padding: 9px 0 9px 0; }
+        aside.my_windows_mb_transfer_doing .windows div.content .box .drow_box {
+          width: 60vw;
+          text-align: center;
+          border: 1px solid #b9bfdc;
+          border-radius: 5px;
+          color: #4d515d;
+          font-size: 17px;
+          font-weight: lighter;
+          padding: 8px 0 8px 0;
+          position: relative; }
+          aside.my_windows_mb_transfer_doing .windows div.content .box .drow_box:before {
+            content: '';
+            background: url(../images/arrow_lg.png) no-repeat;
+            background-size: 100%;
+            background-position: center;
+            position: absolute;
+            top: 8px;
+            right: 3vw;
+            width: 8px;
+            height: 17px;
+            -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg); }
+      aside.my_windows_mb_transfer_doing .windows div.content .input_area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        line-height: 1;
+        margin: 0 0 20px 0; }
+        aside.my_windows_mb_transfer_doing .windows div.content .input_area input {
+          border: 1px solid #b9bfdc;
+          border-radius: 5px;
+          font-size: 16px;
+          font-weight: lighter;
+          width: 65vw;
+          padding: 7px 0 7px 3vw; }
+          aside.my_windows_mb_transfer_doing .windows div.content .input_area input::-webkit-input-placeholder {
+            line-height: 1;
+            font-size: 16px;
+            color: #838ba0;
+            padding: 9px 0 9px 0; }
+          aside.my_windows_mb_transfer_doing .windows div.content .input_area input:-ms-input-placeholder {
+            line-height: 1;
+            font-size: 16px;
+            color: #838ba0;
+            padding: 9px 0 9px 0; }
+          aside.my_windows_mb_transfer_doing .windows div.content .input_area input::-ms-input-placeholder {
+            line-height: 1;
+            font-size: 16px;
+            color: #838ba0;
+            padding: 9px 0 9px 0; }
+          aside.my_windows_mb_transfer_doing .windows div.content .input_area input::placeholder {
+            line-height: 1;
+            font-size: 16px;
+            color: #838ba0;
+            padding: 9px 0 9px 0; }
+        aside.my_windows_mb_transfer_doing .windows div.content .input_area p {
+          padding: 9px 0 9px 0; }
+      aside.my_windows_mb_transfer_doing .windows div.content button {
+        width: 100%;
+        display: inline-block;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
+        background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+        background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+        background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
+        border-radius: 8px;
+        padding: 10px 40px 10px 40px;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative; }
 
 aside.my_windows_mb_take_out {
   width: 100vw;

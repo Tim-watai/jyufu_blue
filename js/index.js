@@ -134,15 +134,15 @@ $(document).ready(function() {
     }
   });
   //切換_我的視窗_錢包_轉帳
-  $('aside.my_windows_mb_transfer div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.transfer').click(function(){
-    console.log('mb');
-    if($('aside.my_windows_mb_transfer').hasClass('active') !== true)
-    {
-      return $('aside.my_windows_mb_transfer').addClass('active');    
-    }else{
-      return $('aside.my_windows_mb_transfer').removeClass('active');   
-    }
-  });
+  // $('aside.my_windows_mb_transfer div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.transfer').click(function(){
+  //   console.log('mb');
+  //   if($('aside.my_windows_mb_transfer').hasClass('active') !== true)
+  //   {
+  //     return $('aside.my_windows_mb_transfer').addClass('active');    
+  //   }else{
+  //     return $('aside.my_windows_mb_transfer').removeClass('active');   
+  //   }
+  // });
   
   //switch
   $('aside.my_windows_mb_transfer div.auto div.box_empty div.check').click(function(){
