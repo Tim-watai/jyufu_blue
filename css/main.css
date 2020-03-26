@@ -2157,14 +2157,14 @@ aside.search_window {
 
 section.message_type {
   margin: 6vh 0 0 0;
-  background: #fff; }
+  background: #fff;
+  -webkit-box-shadow: 0 2px 4px 0 #e4e4e4;
+  box-shadow: 0 2px 4px 0 #e4e4e4; }
   section.message_type ul {
     padding: 0 3vw 0 3vw;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-shadow: 0 2px 4px 0 #e4e4e4;
-    box-shadow: 0 2px 4px 0 #e4e4e4; }
+    display: flex; }
     section.message_type ul li {
       width: 25%;
       text-align: center;
@@ -2172,10 +2172,10 @@ section.message_type {
       color: #838ba0;
       padding: 5px 0 7px 0;
       position: relative; }
-      section.message_type ul li:last-child {
-        text-align: right; }
       section.message_type ul li:hover, section.message_type ul li:active, section.message_type ul li.active {
-        border-bottom: 3px solid #7c87bc; }
+        border-bottom: 3px solid #7c87bc;
+        font-weight: bold;
+        color: #4d515d; }
     section.message_type ul span.yet_ready {
       position: absolute;
       top: 0;
@@ -2261,6 +2261,101 @@ section.message ul {
       top: 10px;
       color: #838ba0;
       font-size: 12px; }
+
+section.waitting {
+  text-align: center; }
+  section.waitting .watting_icon {
+    background: url(../images/message_page/waitting.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 23px;
+    height: 24px;
+    display: inline-block;
+    margin: calc(1vh + 10px) 0 10px 0; }
+
+section.game_message_type {
+  margin: 1vh 0 0 0;
+  background: #fff;
+  padding: 10px 3vw 10px 3vw;
+  border-bottom: 1px solid #e0e3f3; }
+  section.game_message_type .warp {
+    padding: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #cdd0dd;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold; }
+    section.game_message_type .warp div {
+      width: 50%;
+      text-align: center;
+      color: #838ba0;
+      border-radius: 8px; }
+      section.game_message_type .warp div.active, section.game_message_type .warp div:hover, section.game_message_type .warp div:active {
+        background: #fff;
+        color: #4d515d; }
+
+section.game_message_content {
+  background: #fff;
+  height: calc(100vh - (7vh + 42px + 47px));
+  overflow-y: scroll; }
+  section.game_message_content ul li {
+    padding: 11px 3vw 11px 3vw;
+    border-bottom: 1px solid #e0e3f3; }
+    section.game_message_content ul li .top_warp {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      line-height: 1;
+      padding: 0 0 12px 0; }
+      section.game_message_content ul li .top_warp h1 {
+        color: #4d515d;
+        font-size: 20px; }
+      section.game_message_content ul li .top_warp p {
+        color: #838ba0;
+        font-size: 12px;
+        vertical-align: bottom; }
+    section.game_message_content ul li p.content {
+      display: inline-block;
+      padding: 0 5px 0 0;
+      color: #4d515d;
+      font-weight: lighter;
+      letter-spacing: 0.1px; }
+
+section.game_message_empty {
+  height: calc(100vh - (7vh + 42px + 47px));
+  overflow-y: scroll;
+  text-align: center; }
+  section.game_message_empty .empty_icon {
+    background: url(../images/message_page/game_message_empty.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 50px 0 0 0; }
+  section.game_message_empty p {
+    color: #838ba0;
+    font-weight: lighter;
+    margin: 0 0 20px 0; }
+  section.game_message_empty button {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
+    background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
+    border-radius: 8px;
+    padding: 10px 40px 10px 40px; }
 
 nav.kinds ul.early {
   font-family: 'my_font';
