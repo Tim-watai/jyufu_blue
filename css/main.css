@@ -140,6 +140,7 @@ a {
 /* Set core body defaults */
 body {
   min-height: 100vh;
+  overflow-y: auto;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -484,15 +485,17 @@ ul.game_kinds li a {
   height: 100%;
   z-index: 10; }
 
-header ul.market {
-  padding: 0 33px 0 3vw; }
-  header ul.market li.back {
+header ul {
+  padding: 0 3vw 0 3vw; }
+  header ul.market {
+    padding: 0 33px 0 3vw; }
+  header ul li.back {
     float: left;
     position: relative;
     width: 3%;
     height: 50%;
     pointer-events: all; }
-    header ul.market li.back a {
+    header ul li.back a {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -502,7 +505,7 @@ header ul.market {
       -ms-transform: translateX(-50%);
       transform: translateX(-50%);
       z-index: 1; }
-    header ul.market li.back:before, header ul.market li.back:after {
+    header ul li.back:before, header ul li.back:after {
       content: "";
       position: absolute;
       left: 50%;
@@ -512,17 +515,17 @@ header ul.market {
       width: 2px;
       height: 50%;
       background-color: #4d515d; }
-    header ul.market li.back:before {
+    header ul li.back:before {
       -webkit-transform: translateX(-50%) rotate(45deg);
       -ms-transform: translateX(-50%) rotate(45deg);
       transform: translateX(-50%) rotate(45deg);
       top: 10%; }
-    header ul.market li.back:after {
+    header ul li.back:after {
       -webkit-transform: translateX(-50%) rotate(-45deg);
       -ms-transform: translateX(-50%) rotate(-45deg);
       transform: translateX(-50%) rotate(-45deg);
       bottom: 10%; }
-  header ul.market li.title {
+  header ul li.title {
     position: absolute;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -532,7 +535,7 @@ header ul.market {
     font-family: "微軟正黑體";
     display: inline-block;
     font-size: 20px; }
-    header ul.market li.title span {
+    header ul li.title span {
       width: 0;
       height: 0;
       border-style: solid;
@@ -541,7 +544,7 @@ header ul.market {
       display: inline-block;
       vertical-align: middle;
       margin: 0 0 5px 4px; }
-  header ul.market li.wallet {
+  header ul li.wallet {
     float: right;
     background: url(../images/wallet.png) no-repeat;
     background-size: cover;
@@ -549,13 +552,17 @@ header ul.market {
     width: 20px;
     height: 20px;
     margin: 0 20px 0 0; }
-  header ul.market li.search {
+  header ul li.search {
     float: right;
     background: url(../images/search_gray.png);
     background-size: cover;
     background-position: center center;
     width: 18px;
     height: 20px; }
+  header ul li.pure_text {
+    float: right;
+    font-size: 20px;
+    color: #4d515d; }
 
 nav.kinds {
   position: fixed;
@@ -2141,6 +2148,103 @@ aside.search_window {
             border-radius: 100px;
             background: #838ba0; }
 
+section.message_type {
+  margin: 6vh 0 0 0;
+  background: #fff; }
+  section.message_type ul {
+    padding: 0 3vw 0 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    section.message_type ul li {
+      width: 25%;
+      text-align: center;
+      font-size: 18px;
+      color: #838ba0;
+      padding: 5px 0 7px 0;
+      position: relative; }
+      section.message_type ul li:last-child {
+        text-align: right; }
+      section.message_type ul li:hover, section.message_type ul li:active, section.message_type ul li.active {
+        border-bottom: 3px solid #7c87bc; }
+    section.message_type ul span.yet_ready {
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: center;
+      background: #f30d0d;
+      line-height: 1;
+      color: #fff;
+      font-size: 12px;
+      padding: 1px 6px 1px 6px;
+      border-radius: 6px; }
+
+section.content {
+  background: #fff;
+  margin: 1vh 0 0 0; }
+  section.content ul {
+    padding: 0 3vw 0 3vw; }
+    section.content ul li {
+      padding: 10px 0 10px 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-bottom: 1px solid #e0e3f3;
+      position: relative; }
+      section.content ul li.yet_ready:before {
+        content: "";
+        position: absolute;
+        width: 9px;
+        height: 9px;
+        background: #f30d0d;
+        right: 3vw;
+        bottom: 15px;
+        border-radius: 10px; }
+      section.content ul li div.icon {
+        background: url(../images/message_horn.png) no-repeat;
+        background-size: 100%;
+        background-position: center center;
+        width: 35px;
+        height: 35px;
+        margin: 0 10px 0 0; }
+      section.content ul li div.box {
+        width: 80%; }
+        section.content ul li div.box h1 {
+          color: #4d515d;
+          position: relative;
+          display: inline-block; }
+          section.content ul li div.box h1.important:before {
+            content: "重要";
+            position: absolute;
+            right: -38px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            color: #f30d0d;
+            font-size: 12px;
+            line-height: 1;
+            vertical-align: bottom;
+            border: 1px solid #f30d0d;
+            padding: 1px 4px 1px 4px;
+            border-radius: 3px; }
+        section.content ul li div.box p {
+          color: #838ba0;
+          overflow: hidden;
+          white-space: nowrap;
+          -o-text-overflow: ellipsis;
+          text-overflow: ellipsis; }
+      section.content ul li div.time {
+        white-space: nowrap;
+        position: absolute;
+        right: 3vw;
+        top: 10px;
+        color: #838ba0;
+        font-size: 12px; }
+
 nav.kinds ul.early {
   font-family: 'my_font';
   height: 5vh;
@@ -2929,6 +3033,15 @@ html {
   width: 100%;
   height: 100%;
   overflow: auto; }
+
+a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
+  z-index: 100; }
 
 header {
   width: 100%;
@@ -3978,7 +4091,8 @@ aside.title_windows {
         height: 20%;
         border-top: 1px solid #e1e1e1;
         font-size: 2.6vh;
-        color: #313030; }
+        color: #313030;
+        white-space: nowrap; }
         aside.title_windows ul.bg li.footer div {
           display: inline-block; }
           aside.title_windows ul.bg li.footer div:first-child {

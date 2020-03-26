@@ -1,8 +1,11 @@
 $d_gray: #4d515d;
 
 header {
-  ul.market {
-    padding: 0 33px 0 3vw;
+  ul {
+    &.market{
+      padding: 0 33px 0 3vw;
+    }
+    padding: 0 3vw 0 3vw;
     li {
       &.back {
         float: left;
@@ -74,6 +77,11 @@ header {
         background-position: center center;
         width: 18px;
         height: 20px;
+      }
+      &.pure_text{
+        float: right;
+        font-size: 20px;
+        color: #4d515d;
       }
     }
   }

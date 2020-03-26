@@ -1,13 +1,15 @@
 @charset "UTF-8";
-header ul.market {
-  padding: 0 33px 0 3vw; }
-  header ul.market li.back {
+header ul {
+  padding: 0 3vw 0 3vw; }
+  header ul.market {
+    padding: 0 33px 0 3vw; }
+  header ul li.back {
     float: left;
     position: relative;
     width: 3%;
     height: 50%;
     pointer-events: all; }
-    header ul.market li.back a {
+    header ul li.back a {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -17,7 +19,7 @@ header ul.market {
       -ms-transform: translateX(-50%);
       transform: translateX(-50%);
       z-index: 1; }
-    header ul.market li.back:before, header ul.market li.back:after {
+    header ul li.back:before, header ul li.back:after {
       content: "";
       position: absolute;
       left: 50%;
@@ -27,17 +29,17 @@ header ul.market {
       width: 2px;
       height: 50%;
       background-color: #4d515d; }
-    header ul.market li.back:before {
+    header ul li.back:before {
       -webkit-transform: translateX(-50%) rotate(45deg);
       -ms-transform: translateX(-50%) rotate(45deg);
       transform: translateX(-50%) rotate(45deg);
       top: 10%; }
-    header ul.market li.back:after {
+    header ul li.back:after {
       -webkit-transform: translateX(-50%) rotate(-45deg);
       -ms-transform: translateX(-50%) rotate(-45deg);
       transform: translateX(-50%) rotate(-45deg);
       bottom: 10%; }
-  header ul.market li.title {
+  header ul li.title {
     position: absolute;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -47,7 +49,7 @@ header ul.market {
     font-family: "微軟正黑體";
     display: inline-block;
     font-size: 20px; }
-    header ul.market li.title span {
+    header ul li.title span {
       width: 0;
       height: 0;
       border-style: solid;
@@ -56,7 +58,7 @@ header ul.market {
       display: inline-block;
       vertical-align: middle;
       margin: 0 0 5px 4px; }
-  header ul.market li.wallet {
+  header ul li.wallet {
     float: right;
     background: url(../images/wallet.png) no-repeat;
     background-size: cover;
@@ -64,13 +66,17 @@ header ul.market {
     width: 20px;
     height: 20px;
     margin: 0 20px 0 0; }
-  header ul.market li.search {
+  header ul li.search {
     float: right;
     background: url(../images/search_gray.png);
     background-size: cover;
     background-position: center center;
     width: 18px;
     height: 20px; }
+  header ul li.pure_text {
+    float: right;
+    font-size: 20px;
+    color: #4d515d; }
 
 nav.kinds {
   position: fixed;

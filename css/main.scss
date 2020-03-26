@@ -3,6 +3,7 @@
 @import "color.scss";
 @import "soccer_page.scss";
 @import "main_market.scss";
+@import "message.scss";
 @import "market_soccer_early.scss";
 @import "market_soccer_double.scss";
 @import "market_soccer_double_inner.scss";
@@ -81,7 +82,15 @@ $text-dblue: #1b255c;
     #b5c1ff 100%
   );
 }
-
+a{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
+  z-index: 100;
+}
 header {
   width: 100%;
   position: fixed;
@@ -90,7 +99,8 @@ header {
   z-index: 100;
 
   ul {
-    @include size(100%, 5vh);
+    width: 100%;
+    height: 5vh;
     background-color: #fff;
     border-bottom-left-radius: 20px 20px;
     border-bottom-right-radius: 20px 20px;
@@ -105,7 +115,8 @@ header {
       display: inline-block;
 
       &.logo {
-        @include size(72px, 27px);
+        width: 72px;
+        height: 27px;
         background: url(../images/logo.png) no-repeat;
         background-size: cover;
         background-position: center center;
@@ -128,7 +139,8 @@ header {
             position: absolute;
             top: 0;
             right: 0;
-            @include size(23%, 23%);
+            width: 23%;
+            height: 23%;
             background-color: red;
             border-radius: 100px;
           }
@@ -151,7 +163,8 @@ main {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @include size(93vw, 3vh);
+        width: 93vw;
+        height: 3vh;
         margin: 0 auto 10px auto;
         // background-color: rgba(100,0,0,0.5);
         li {
@@ -164,7 +177,8 @@ main {
             span {
               &.horn_icon {
                 display: inline-block;
-                @include size(19px, 2vh);
+                width: 19px;
+                height: 2vh;
                 background: url(../images/horn_icon.png) no-repeat;
                 background-size: cover;
                 background-position: center right;
@@ -200,7 +214,8 @@ main {
             @include hot_icon_blue_bg;
             span.hot_icon {
               display: inline-block;
-              @include size(14px, 16px);
+              width: 14px;
+              height: 16px;
               background: url(../images/hot_icon.png) no-repeat;
               background-size: cover;
               background-position: center center;
@@ -250,7 +265,8 @@ main {
                   background: url(../images/question.png) no-repeat;
                   background-size: cover;
                   background-position: center center;
-                  @include size(18px, 18px);
+                  width: 18px;
+                  height: 18px;
                   display: inline-block;
                   line-height: 17px;
                   margin-left: 5px;
@@ -281,7 +297,8 @@ main {
                   background: url(../images/save.png) no-repeat;
                   background-size: contain;
                   background-position: center center;
-                  @include size(36px, 5.3vh);
+                  width: 36px;
+                  height: 5.3vh;
                 }
               }
               &.translate {
@@ -290,7 +307,8 @@ main {
                   background: url(../images/translate.png) no-repeat;
                   background-size: contain;
                   background-position: center center;
-                  @include size(36px, 5.3vh);
+                  width: 36px;
+                  height: 5.3vh;
                 }
               }
               &.get {
@@ -299,7 +317,8 @@ main {
                   background: url(../images/get.png) no-repeat;
                   background-size: contain;
                   background-position: center center;
-                  @include size(36px, 5.3vh);
+                  width: 36px;
+                  height: 5.3vh;
                 }
               }
             }
@@ -310,7 +329,8 @@ main {
   }
   article {
     &.banner {
-      @include size(93vw, 19vh);
+      width: 93vw;
+      height: 19vh;
       margin: 0 auto 10px auto;
       background: url(../images/banner.png) no-repeat;
       background-size: cover;
@@ -322,7 +342,8 @@ main {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @include size(93vw, 3vh);
+        width: 93vw;
+        height: 3vh;
         margin: 0 auto 10px auto;
         // background-color: rgba(100,0,0,0.5);
         li {
@@ -335,7 +356,8 @@ main {
             span {
               &.horn_icon {
                 display: inline-block;
-                @include size(19px, 2vh);
+                width: 19px;
+                height: 2vh;
                 background: url(../images/horn_icon.png) no-repeat;
                 background-size: cover;
                 background-position: center right;
@@ -371,7 +393,8 @@ main {
             @include hot_icon_blue_bg;
             span.hot_icon {
               display: inline-block;
-              @include size(14px, 16px);
+              width: 14px;
+              height: 16px;
               background: url(../images/hot_icon.png) no-repeat;
               background-size: cover;
               background-position: center center;
@@ -1320,6 +1343,7 @@ aside {
             border-top: 1px solid #e1e1e1;
             font-size: 2.6vh;
             color: #313030;
+            white-space: nowrap;
             div {
               display: inline-block;
               &:first-child {
