@@ -5311,6 +5311,16 @@ aside.my_windows_mb_transfer {
           -o-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out; }
 
+aside.my_windows_mb_transfer_doing {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 600;
+  position: fixed; }
+  aside.my_windows_mb_transfer_doing .windows {
+    width: 94vw;
+    margin: 150px 3vw 0 3vw; }
+
 aside.my_windows_mb_take_out {
   width: 100vw;
   height: 100vh;
