@@ -1,14 +1,15 @@
 /*first-variable*/
 @import "css_reset.scss";
-@import "color.scss";
+
 @import "soccer_page.scss";
-@import "main_market.scss";
 @import "message.scss";
-@import "market_soccer_early.scss";
-@import "market_soccer_double.scss";
-@import "market_soccer_double_inner.scss";
-@import "market_esport.scss";
-@import "animation.scss";
+
+@import "../css/market/main_market.scss";
+@import "../css/market/market_esport.scss";
+@import "../css/market/market_soccer.scss";
+@import "../css/market/market_soccer_double.scss";
+@import "../css/market/market_soccer_double_inner.scss";
+@import "../css/market/market_soccer_early.scss";
 
 $all-font-family: Microsoft JhengHei;
 $all-font-family-w: "微軟正黑體";
@@ -242,7 +243,7 @@ main {
               &.u_name {
                 color: $text-lgray;
                 font-weight: lighter;
-                font-family: Bahnschrift;
+                font-family: "my_font";
                 font-size: 2.1vh;
                 span.vip {
                   background: url(../images/vip.png) no-repeat;
@@ -258,7 +259,7 @@ main {
               }
               &.u_money {
                 color: $text-dblue;
-                font-family: Bahnschrift;
+                font-family: "my_font";
                 font-size: 3vh;
                 font-weight: bold;
                 span.question {
@@ -434,7 +435,7 @@ main {
               color: $text-dblue;
               font-size: 2.5vh;
               line-height: 2.5vh;
-              font-family: Bahnschrift;
+              font-family: "my_font";
             }
             &.hot {
               @include hot_btn_lblue;
@@ -705,7 +706,7 @@ main {
                     line-height: 2.6vh;
                   }
                   &.num {
-                    font-family: Bahnschrift;
+                    font-family: "my_font";
                     font-weight: bold;
                     font-size: 4.5vh;
                     line-height: 4.5vh;
@@ -1191,7 +1192,7 @@ aside {
                 }
                 &.time,
                 &:last-child {
-                  font-family: Bahnschrift;
+                  font-family: "my_font";
                   color: #1b255c;
                 }
               }

@@ -37,6 +37,9 @@ div, span {
 span {
   font-family: "my_font"; }
 
+* {
+  font-family: "my_font"; }
+
 a {
   position: absolute;
   width: 100%;
@@ -369,7 +372,7 @@ ul.game_kinds li .percent-wrapper {
       font-size: 3.5vh;
       position: relative;
       color: #1b255c;
-      font-family: Bahnschrift; }
+      font-family: "my_font"; }
     ul.game_kinds li .percent-wrapper .label .smaller {
       color: #1b255c;
       font-size: 0.45em;
@@ -484,6 +487,208 @@ ul.game_kinds li a {
   width: 100%;
   height: 100%;
   z-index: 10; }
+
+section.message_type {
+  margin: 6vh 0 0 0;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 4px 0 #e4e4e4;
+  box-shadow: 0 2px 4px 0 #e4e4e4; }
+  section.message_type ul {
+    padding: 0 3vw 0 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    section.message_type ul li {
+      width: 25%;
+      text-align: center;
+      font-size: 18px;
+      color: #838ba0;
+      padding: 5px 0 7px 0;
+      position: relative; }
+      section.message_type ul li:hover, section.message_type ul li:active, section.message_type ul li.active {
+        border-bottom: 3px solid #7c87bc;
+        font-weight: bold;
+        color: #4d515d; }
+    section.message_type ul span.yet_ready {
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: center;
+      background: #f30d0d;
+      line-height: 1;
+      color: #fff;
+      font-size: 12px;
+      padding: 1px 6px 1px 6px;
+      border-radius: 6px; }
+
+section.message.content {
+  background: #fff;
+  margin: 1vh 0 0 0; }
+
+section.message.message_inner {
+  margin: 6vh 0 0 0;
+  background: #fff; }
+
+section.message ul {
+  padding: 0 3vw 0 3vw; }
+  section.message ul li {
+    padding: 10px 0 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #e0e3f3;
+    position: relative; }
+    section.message ul li.inner_content {
+      border-bottom: none;
+      color: #4d515d; }
+    section.message ul li.yet_ready:before {
+      content: "";
+      position: absolute;
+      width: 9px;
+      height: 9px;
+      background: #f30d0d;
+      right: 3vw;
+      bottom: 15px;
+      border-radius: 10px; }
+    section.message ul li div.icon {
+      background: url(../images/message_horn.png) no-repeat;
+      background-size: 100%;
+      background-position: center center;
+      width: 35px;
+      height: 35px;
+      margin: 0 10px 0 0; }
+    section.message ul li div.box {
+      width: 80%; }
+      section.message ul li div.box h1 {
+        color: #4d515d;
+        position: relative;
+        display: inline-block; }
+        section.message ul li div.box h1.important:before {
+          content: "重要";
+          position: absolute;
+          right: -38px;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          color: #f30d0d;
+          font-size: 12px;
+          line-height: 1;
+          vertical-align: bottom;
+          border: 1px solid #f30d0d;
+          padding: 1px 4px 1px 4px;
+          border-radius: 3px; }
+      section.message ul li div.box p {
+        color: #838ba0;
+        overflow: hidden;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis; }
+    section.message ul li div.time {
+      white-space: nowrap;
+      position: absolute;
+      right: 3vw;
+      top: 10px;
+      color: #838ba0;
+      font-size: 12px; }
+
+section.waitting {
+  text-align: center; }
+  section.waitting .watting_icon {
+    background: url(../images/message_page/waitting.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 23px;
+    height: 24px;
+    display: inline-block;
+    margin: calc(1vh + 10px) 0 10px 0; }
+
+section.game_message_type {
+  margin: 1vh 0 0 0;
+  background: #fff;
+  padding: 10px 3vw 10px 3vw;
+  border-bottom: 1px solid #e0e3f3; }
+  section.game_message_type .warp {
+    padding: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #cdd0dd;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold; }
+    section.game_message_type .warp div {
+      width: 50%;
+      text-align: center;
+      color: #838ba0;
+      border-radius: 8px; }
+      section.game_message_type .warp div.active, section.game_message_type .warp div:hover, section.game_message_type .warp div:active {
+        background: #fff;
+        color: #4d515d; }
+
+section.game_message_content {
+  background: #fff;
+  height: calc(100vh - (7vh + 42px + 47px));
+  overflow-y: scroll; }
+  section.game_message_content ul li {
+    padding: 11px 3vw 11px 3vw;
+    border-bottom: 1px solid #e0e3f3; }
+    section.game_message_content ul li .top_warp {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      line-height: 1;
+      padding: 0 0 12px 0; }
+      section.game_message_content ul li .top_warp h1 {
+        color: #4d515d;
+        font-size: 20px; }
+      section.game_message_content ul li .top_warp p {
+        color: #838ba0;
+        font-size: 12px;
+        vertical-align: bottom; }
+    section.game_message_content ul li p.content {
+      display: inline-block;
+      padding: 0 5px 0 0;
+      color: #4d515d;
+      font-weight: lighter;
+      letter-spacing: 0.1px; }
+
+section.game_message_empty {
+  height: calc(100vh - (7vh + 42px + 47px));
+  overflow-y: scroll;
+  text-align: center; }
+  section.game_message_empty .empty_icon {
+    background: url(../images/message_page/game_message_empty.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 50px 0 0 0; }
+  section.game_message_empty p {
+    color: #838ba0;
+    font-weight: lighter;
+    margin: 0 0 20px 0; }
+  section.game_message_empty button {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
+    background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
+    border-radius: 8px;
+    padding: 10px 40px 10px 40px; }
 
 header ul {
   padding: 0 3vw 0 3vw; }
@@ -690,7 +895,7 @@ nav.kinds {
         position: relative;
         top: -34%;
         font-size: 3.5vw;
-        font-family: Bahnschrift; }
+        font-family: "my_font"; }
 
 nav section div {
   margin: 0 0 0 3vw;
@@ -2155,230 +2360,727 @@ aside.search_window {
             border-radius: 100px;
             background: #838ba0; }
 
-section.message_type {
-  margin: 6vh 0 0 0;
-  background: #fff;
-  -webkit-box-shadow: 0 2px 4px 0 #e4e4e4;
-  box-shadow: 0 2px 4px 0 #e4e4e4; }
-  section.message_type ul {
-    padding: 0 3vw 0 3vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    section.message_type ul li {
-      width: 25%;
-      text-align: center;
-      font-size: 18px;
-      color: #838ba0;
-      padding: 5px 0 7px 0;
-      position: relative; }
-      section.message_type ul li:hover, section.message_type ul li:active, section.message_type ul li.active {
-        border-bottom: 3px solid #7c87bc;
-        font-weight: bold;
-        color: #4d515d; }
-    section.message_type ul span.yet_ready {
-      position: absolute;
-      top: 0;
-      right: 0;
-      text-align: center;
-      background: #f30d0d;
+.en_name {
+  font-family: "my_font"; }
+
+main.market aside ul li section.content span.num_group div.esport_w.esport_w.esport_w {
+  width: calc(50% - 10vw);
+  margin: 0; }
+  main.market aside ul li section.content span.num_group div.esport_w.esport_w.esport_w span {
+    margin: 5px 0 5px 0; }
+
+main.market aside ul li.senior.e_sport section.content span.point_box span.counter {
+  height: 14vh; }
+  main.market aside ul li.senior.e_sport section.content span.point_box span.counter div {
+    line-height: calc(14vh / 3); }
+    main.market aside ul li.senior.e_sport section.content span.point_box span.counter div p, main.market aside ul li.senior.e_sport section.content span.point_box span.counter div span {
       line-height: 1;
-      color: #fff;
-      font-size: 12px;
-      padding: 1px 6px 1px 6px;
-      border-radius: 6px; }
+      vertical-align: middle; }
 
-section.message.content {
-  background: #fff;
-  margin: 1vh 0 0 0; }
+main.market aside ul li.senior.e_sport section.content span.point_box span.num_group {
+  height: 14vh; }
+  main.market aside ul li.senior.e_sport section.content span.point_box span.num_group span.two_side div {
+    height: calc(14vh / 3 - 3px); }
+    main.market aside ul li.senior.e_sport section.content span.point_box span.num_group span.two_side div p {
+      font-size: 1.2vh;
+      margin: 0 0 0.5vh 0; }
 
-section.message.message_inner {
-  margin: 6vh 0 0 0;
-  background: #fff; }
-
-section.message ul {
-  padding: 0 3vw 0 3vw; }
-  section.message ul li {
-    padding: 10px 0 10px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-bottom: 1px solid #e0e3f3;
-    position: relative; }
-    section.message ul li.inner_content {
-      border-bottom: none;
-      color: #4d515d; }
-    section.message ul li.yet_ready:before {
+header ul.market {
+  padding: 0 33px 0 3vw; }
+  header ul.market li.back {
+    float: left;
+    position: relative;
+    width: 3%;
+    height: 50%;
+    pointer-events: all; }
+    header ul.market li.back a {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      pointer-events: all;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      z-index: 1; }
+    header ul.market li.back:before, header ul.market li.back:after {
       content: "";
       position: absolute;
-      width: 9px;
-      height: 9px;
-      background: #f30d0d;
-      right: 3vw;
-      bottom: 15px;
-      border-radius: 10px; }
-    section.message ul li div.icon {
-      background: url(../images/message_horn.png) no-repeat;
-      background-size: 100%;
-      background-position: center center;
-      width: 35px;
-      height: 35px;
-      margin: 0 10px 0 0; }
-    section.message ul li div.box {
-      width: 80%; }
-      section.message ul li div.box h1 {
-        color: #4d515d;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      width: 2px;
+      height: 50%;
+      background-color: #4d515d; }
+    header ul.market li.back:before {
+      -webkit-transform: translateX(-50%) rotate(45deg);
+      -ms-transform: translateX(-50%) rotate(45deg);
+      transform: translateX(-50%) rotate(45deg);
+      top: 10%; }
+    header ul.market li.back:after {
+      -webkit-transform: translateX(-50%) rotate(-45deg);
+      -ms-transform: translateX(-50%) rotate(-45deg);
+      transform: translateX(-50%) rotate(-45deg);
+      bottom: 10%; }
+  header ul.market li.title {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #4d515d;
+    font-family: "微軟正黑體";
+    display: inline-block;
+    font-size: 20px; }
+    header ul.market li.title span {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 5px 5px 0 5px;
+      border-color: #4d515d transparent transparent transparent;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 0 5px 4px; }
+  header ul.market li.wallet {
+    float: right;
+    background: url(../images/wallet.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+    margin: 0 20px 0 0; }
+  header ul.market li.search {
+    float: right;
+    background: url(../images/search_gray.png);
+    background-size: cover;
+    background-position: center center;
+    width: 18px;
+    height: 20px; }
+
+nav.kinds {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  margin: calc(5vh + 10px) 0 0 0; }
+  nav.kinds ul {
+    height: 7.6vh;
+    line-height: 7.6vh;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 0 30px; }
+    nav.kinds ul li {
+      display: inline-block;
+      width: auto;
+      height: 5vh;
+      line-height: 5vh;
+      color: #838ba0;
+      white-space: nowrap;
+      text-align: center;
+      pointer-events: all;
+      margin: 0 20px 0 0; }
+      nav.kinds ul li:last-child {
+        margin: 0 0 0 0; }
+      nav.kinds ul li.active {
+        color: #4d515d; }
+        nav.kinds ul li.active span.football {
+          background: url(../images/market/football_h.png);
+          background-position: center center;
+          background-size: cover; }
+        nav.kinds ul li.active span.basketball {
+          background: url(../images/market/basketball_h.png);
+          background-position: center center;
+          background-size: cover; }
+        nav.kinds ul li.active span.horse {
+          background: url(../images/market/horse_h.png);
+          background-position: center center;
+          background-size: cover; }
+        nav.kinds ul li.active span.e_sport {
+          background: url(../images/market/e_sport_h.png);
+          background-position: center center;
+          background-size: cover;
+          width: 27px; }
+        nav.kinds ul li.active span.graph {
+          background: url(../images/market/graph_h.png) no-repeat;
+          background-position: center center;
+          background-size: cover;
+          width: 23px;
+          height: 19px; }
+        nav.kinds ul li.active span.color_ball {
+          background: url(../images/market/color_ball_h.png) no-repeat;
+          background-position: center center;
+          background-size: cover;
+          width: 20px;
+          height: 20px; }
+        nav.kinds ul li.active span.ice_ball {
+          background: url(../images/market/ice_ball_h.png) no-repeat;
+          background-position: center center;
+          background-size: cover;
+          width: 20px;
+          height: 20px; }
+      nav.kinds ul li div {
+        text-align: center;
+        float: left;
+        line-height: 1.7vh; }
+        nav.kinds ul li div span {
+          display: inline-block; }
+          nav.kinds ul li div span.football {
+            background: url(../images/market/football.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+          nav.kinds ul li div span.basketball {
+            background: url(../images/market/basketball.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+          nav.kinds ul li div span.horse {
+            background: url(../images/market/horse.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+          nav.kinds ul li div span.e_sport {
+            background: url(../images/market/e_sport.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+          nav.kinds ul li div span.graph {
+            background: url(../images/market/graph.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 23px;
+            height: 19px; }
+          nav.kinds ul li div span.color_ball {
+            background: url(../images/market/color_ball.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+          nav.kinds ul li div span.ice_ball {
+            background: url(../images/market/ice_ball.png) no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 20px;
+            height: 20px; }
+        nav.kinds ul li div p {
+          font-size: 1.2vh;
+          line-height: 1.2vh;
+          margin: 5px 0 0 0;
+          font-family: "微軟正黑體"; }
+      nav.kinds ul li span.num {
         position: relative;
-        display: inline-block; }
-        section.message ul li div.box h1.important:before {
-          content: "重要";
-          position: absolute;
-          right: -38px;
-          top: 50%;
+        top: -34%;
+        font-size: 1.7vh;
+        line-height: 1.7vh;
+        font-family: "my_font"; }
+
+nav section div {
+  margin: 0 0 0 3vw;
+  line-height: 3vh;
+  width: 65px;
+  height: 3vh;
+  position: relative;
+  white-space: nowrap; }
+  nav section div span.yet {
+    display: inline-block;
+    background: url(../images/market/yet.png);
+    background-size: cover;
+    background-position: center center;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    line-height: 17px;
+    margin: 0 0 4px 0; }
+  nav section div span.doing {
+    display: inline-block;
+    background: url(../images/market/doing.png);
+    background-size: cover;
+    background-position: center center;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    line-height: 17px;
+    margin: 0 0 4px 0; }
+  nav section div p {
+    display: inline-block;
+    color: #4d515d;
+    font-family: "微軟正黑體";
+    font-size: 1.9vh;
+    line-height: 3vh; }
+
+nav article.option {
+  height: 3.5vh;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: inset 0px 3px 3px 0 #e0e0e0;
+  box-shadow: inset 0px 3px 3px 0 #e0e0e0; }
+  nav article.option div {
+    display: inline-block; }
+    nav article.option div.game_type {
+      color: #838ba0;
+      font-size: 1.9vh;
+      margin: 0 0 0 3vw; }
+      nav article.option div.game_type p {
+        display: inline-block;
+        font-family: "微軟正黑體"; }
+      nav article.option div.game_type span {
+        font-weight: lighter; }
+    nav article.option div.mode {
+      float: right;
+      background-color: #d8d9de;
+      border-radius: 12px;
+      width: 30vw;
+      height: 85%;
+      line-height: 3vh;
+      padding: 0 0.5%;
+      position: relative;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      top: 50%;
+      margin: 0 1vw 0 0; }
+      nav article.option div.mode span {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        width: 50%;
+        height: 80%;
+        border-radius: 12px; }
+        nav article.option div.mode span.active {
+          background: #fff; }
+          nav article.option div.mode span.active p {
+            color: #838ba0; }
+        nav article.option div.mode span p {
+          display: inline-block;
+          color: #fff;
+          font-size: 1.2vh;
+          position: relative;
           -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-          color: #f30d0d;
-          font-size: 12px;
-          line-height: 1;
-          vertical-align: bottom;
-          border: 1px solid #f30d0d;
-          padding: 1px 4px 1px 4px;
-          border-radius: 3px; }
-      section.message ul li div.box p {
-        color: #838ba0;
-        overflow: hidden;
-        white-space: nowrap;
-        -o-text-overflow: ellipsis;
-        text-overflow: ellipsis; }
-    section.message ul li div.time {
-      white-space: nowrap;
-      position: absolute;
-      right: 3vw;
-      top: 10px;
-      color: #838ba0;
-      font-size: 12px; }
+          top: 50%; }
+        nav article.option div.mode span:first-child {
+          float: left; }
+        nav article.option div.mode span:last-child {
+          float: right; }
 
-section.waitting {
-  text-align: center; }
-  section.waitting .watting_icon {
-    background: url(../images/message_page/waitting.png) no-repeat;
-    background-size: 100%;
-    background-position: center;
-    width: 23px;
-    height: 24px;
-    display: inline-block;
-    margin: calc(1vh + 10px) 0 10px 0; }
-
-section.game_message_type {
-  margin: 1vh 0 0 0;
-  background: #fff;
-  padding: 10px 3vw 10px 3vw;
-  border-bottom: 1px solid #e0e3f3; }
-  section.game_message_type .warp {
-    padding: 1px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background: #cdd0dd;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold; }
-    section.game_message_type .warp div {
-      width: 50%;
-      text-align: center;
-      color: #838ba0;
-      border-radius: 8px; }
-      section.game_message_type .warp div.active, section.game_message_type .warp div:hover, section.game_message_type .warp div:active {
-        background: #fff;
-        color: #4d515d; }
-
-section.game_message_content {
-  background: #fff;
-  height: calc(100vh - (7vh + 42px + 47px));
+main.market {
+  margin-top: calc(12.6vh + 10px);
+  margin-bottom: 7vh;
+  height: calc(100vh - 12.6vh - 7vh - 10px);
   overflow-y: scroll; }
-  section.game_message_content ul li {
-    padding: 11px 3vw 11px 3vw;
-    border-bottom: 1px solid #e0e3f3; }
-    section.game_message_content ul li .top_warp {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      -webkit-box-align: end;
-      -ms-flex-align: end;
-      align-items: flex-end;
-      line-height: 1;
-      padding: 0 0 12px 0; }
-      section.game_message_content ul li .top_warp h1 {
-        color: #4d515d;
-        font-size: 20px; }
-      section.game_message_content ul li .top_warp p {
-        color: #838ba0;
-        font-size: 12px;
-        vertical-align: bottom; }
-    section.game_message_content ul li p.content {
+  main.market aside section.status.yet {
+    border-top: 2px solid #ef6b5d; }
+    main.market aside section.status.yet div span {
       display: inline-block;
-      padding: 0 5px 0 0;
-      color: #4d515d;
-      font-weight: lighter;
-      letter-spacing: 0.1px; }
-
-section.game_message_empty {
-  height: calc(100vh - (7vh + 42px + 47px));
-  overflow-y: scroll;
-  text-align: center; }
-  section.game_message_empty .empty_icon {
-    background: url(../images/message_page/game_message_empty.png) no-repeat;
-    background-size: 100%;
-    background-position: center;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    margin: 50px 0 0 0; }
-  section.game_message_empty p {
-    color: #838ba0;
-    font-weight: lighter;
-    margin: 0 0 20px 0; }
-  section.game_message_empty button {
-    display: inline-block;
-    font-size: 16px;
-    color: #fff;
-    border: none;
-    background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
-    background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
-    background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
-    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
-    border-radius: 8px;
-    padding: 10px 40px 10px 40px; }
-
-nav.kinds ul.early {
-  font-family: 'my_font';
-  height: 5vh;
-  line-height: 5vh;
-  padding: 0 16px;
-  border-bottom: 1px solid #e0e3f3; }
-  nav.kinds ul.early li {
+      background: url(../images/market/yet.png);
+      background-size: cover;
+      background-position: center center;
+      width: 15px;
+      height: 15px;
+      vertical-align: middle;
+      line-height: 17px;
+      margin: 0 0 4px 0; }
+  main.market aside section.status.doing {
+    border-top: 2px solid #5875e0; }
+    main.market aside section.status.doing div span {
+      display: inline-block;
+      background: url(../images/market/doing.png);
+      background-size: cover;
+      background-position: center center;
+      width: 15px;
+      height: 15px;
+      vertical-align: middle;
+      line-height: 17px;
+      margin: 0 0 4px 0; }
+  main.market aside section.status div {
+    margin: 0 0 0 3vw;
+    line-height: 3vh;
+    width: 100%;
+    height: 3vh;
     position: relative; }
-    nav.kinds ul.early li.active {
-      color: #4d515d; }
-      nav.kinds ul.early li.active:before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 4px;
-        background-color: #7c87bc;
-        bottom: 0;
-        left: 0; }
+    main.market aside section.status div span.doing {
+      display: inline-block;
+      background: url(../images/market/doing.png);
+      background-size: cover;
+      background-position: center center;
+      width: 15px;
+      height: 15px;
+      vertical-align: middle;
+      line-height: 17px;
+      margin: 0 0 4px 0; }
+    main.market aside section.status div p {
+      display: inline-block;
+      color: #4d515d;
+      font-family: "微軟正黑體";
+      font-size: 1.9vh;
+      line-height: 3vh; }
+  main.market aside article.option {
+    height: 3.5vh;
+    background-color: #f7f7f7;
+    -webkit-box-shadow: inset 0px 3px 3px 0 #e0e0e0;
+    box-shadow: inset 0px 3px 3px 0 #e0e0e0; }
+    main.market aside article.option div {
+      display: inline-block; }
+      main.market aside article.option div.game_type {
+        color: #838ba0;
+        font-size: 1.9vh;
+        margin: 0 0 0 3vw; }
+        main.market aside article.option div.game_type p {
+          display: inline-block;
+          font-family: "微軟正黑體"; }
+        main.market aside article.option div.game_type span {
+          font-weight: lighter; }
+      main.market aside article.option div.mode {
+        float: right;
+        background-color: #d8d9de;
+        border-radius: 12px;
+        width: 30vw;
+        height: 85%;
+        line-height: 3vh;
+        padding: 0 0.5%;
+        position: relative;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        margin: 0 1vw 0 0; }
+        main.market aside article.option div.mode span {
+          display: inline-block;
+          text-align: center;
+          position: relative;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          top: 50%;
+          width: 50%;
+          height: 80%;
+          border-radius: 12px; }
+          main.market aside article.option div.mode span.active {
+            background: #fff; }
+            main.market aside article.option div.mode span.active p {
+              color: #838ba0; }
+          main.market aside article.option div.mode span p {
+            display: inline-block;
+            color: #fff;
+            font-size: 1.2vh;
+            position: relative;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            top: 50%; }
+          main.market aside article.option div.mode span:first-child {
+            float: left; }
+          main.market aside article.option div.mode span:last-child {
+            float: right; }
+  main.market aside ul {
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+    padding: 0 0 5px 0; }
+    main.market aside ul li {
+      background-color: #fff;
+      width: auto;
+      margin: 0 1.5vw 5px 1.5vw;
+      height: auto; }
+      main.market aside ul li span {
+        display: inline-block; }
+        main.market aside ul li span.title {
+          width: 100%;
+          height: 3.5vh;
+          padding: 0 1.5vw 0 1.5vw;
+          position: relative; }
+          main.market aside ul li span.title p {
+            display: inline-block;
+            color: #1b255c;
+            font-weight: bold;
+            font-size: 1.8vh; }
+          main.market aside ul li span.title span {
+            display: inline-block;
+            float: right; }
+            main.market aside ul li span.title span.down_arrow {
+              position: relative;
+              top: 50%;
+              -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+              height: 1.5vh;
+              width: 16px; }
+              main.market aside ul li span.title span.down_arrow:after, main.market aside ul li span.title span.down_arrow:before {
+                content: "";
+                position: absolute;
+                background-color: #838ba0;
+                width: 50%;
+                height: 1px; }
+              main.market aside ul li span.title span.down_arrow:before {
+                -webkit-transform: translate(0%, -50%) rotate(45deg);
+                -ms-transform: translate(0%, -50%) rotate(45deg);
+                transform: translate(0%, -50%) rotate(45deg);
+                left: 10%;
+                top: 50%; }
+              main.market aside ul li span.title span.down_arrow:after {
+                -webkit-transform: translate(0%, -50%) rotate(-45deg);
+                -ms-transform: translate(0%, -50%) rotate(-45deg);
+                transform: translate(0%, -50%) rotate(-45deg);
+                right: 9%;
+                top: 50%; }
+      main.market aside ul li section.content {
+        padding: 0 1.5vw 10px 1.5vw;
+        border-top: 2px solid #e0e3f3; }
+        main.market aside ul li section.content span {
+          display: inline-block; }
+          main.market aside ul li section.content span.time_more {
+            height: 3vh;
+            width: 100%; }
+            main.market aside ul li section.content span.time_more span {
+              display: inline-block; }
+              main.market aside ul li section.content span.time_more span.time {
+                color: #838ba0;
+                margin: 0 0 0 3px;
+                font-size: 1.7vh;
+                height: auto;
+                line-height: 1.7vh;
+                vertical-align: bottom;
+                font-weight: lighter; }
+                main.market aside ul li section.content span.time_more span.time p {
+                  display: inline-block; }
+            main.market aside ul li section.content span.time_more div {
+              display: inline-block; }
+              main.market aside ul li section.content span.time_more div.icon_game {
+                position: relative;
+                width: 25px;
+                height: 15px;
+                line-height: 15px;
+                vertical-align: bottom;
+                background: url(../images/market/game_icon.png) no-repeat;
+                background-size: cover;
+                background-position: center center; }
+              main.market aside ul li section.content span.time_more div.icon_live {
+                position: relative;
+                width: 23px;
+                height: 20px;
+                line-height: 15px;
+                vertical-align: bottom;
+                background: url(../images/market/tv_icon.png) no-repeat;
+                background-size: cover;
+                background-position: center center; }
+              main.market aside ul li section.content span.time_more div.more {
+                float: right;
+                height: 100%;
+                white-space: nowrap;
+                font-size: 1.6vh;
+                color: #838ba0;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: end;
+                -ms-flex-align: end;
+                align-items: flex-end; }
+                main.market aside ul li section.content span.time_more div.more p {
+                  display: inline-block;
+                  height: 1.9vh;
+                  line-height: 1.9vh;
+                  vertical-align: bottom;
+                  font-size: 1.9vh; }
+                main.market aside ul li section.content span.time_more div.more span {
+                  height: 1.9vh;
+                  line-height: 1.9vh;
+                  vertical-align: bottom; }
+                  main.market aside ul li section.content span.time_more div.more span.num {
+                    margin-bottom: -2%;
+                    font-size: 1.2vh; }
+                  main.market aside ul li section.content span.time_more div.more span.right_arrow {
+                    position: relative;
+                    -webkit-transform: rotate(-90deg);
+                    -ms-transform: rotate(-90deg);
+                    transform: rotate(-90deg);
+                    height: 1.2vh;
+                    width: 16px;
+                    margin-bottom: 4%; }
+                    main.market aside ul li section.content span.time_more div.more span.right_arrow:after, main.market aside ul li section.content span.time_more div.more span.right_arrow:before {
+                      content: "";
+                      position: absolute;
+                      background-color: #838ba0;
+                      width: 50%;
+                      height: 1px;
+                      vertical-align: bottom; }
+                    main.market aside ul li section.content span.time_more div.more span.right_arrow:before {
+                      -webkit-transform: translate(0%, -50%) rotate(45deg);
+                      -ms-transform: translate(0%, -50%) rotate(45deg);
+                      transform: translate(0%, -50%) rotate(45deg);
+                      left: 10%;
+                      top: 50%; }
+                    main.market aside ul li section.content span.time_more div.more span.right_arrow:after {
+                      -webkit-transform: translate(0%, -50%) rotate(-45deg);
+                      -ms-transform: translate(0%, -50%) rotate(-45deg);
+                      transform: translate(0%, -50%) rotate(-45deg);
+                      right: 9%;
+                      top: 50%; }
+          main.market aside ul li section.content span.counter {
+            width: 100%;
+            height: 4vh;
+            white-space: nowrap;
+            position: relative; }
+            main.market aside ul li section.content span.counter div,
+            main.market aside ul li section.content span.counter span,
+            main.market aside ul li section.content span.counter p {
+              display: inline-block; }
+            main.market aside ul li section.content span.counter p {
+              vertical-align: middle;
+              color: #1b255c; }
+              main.market aside ul li section.content span.counter p.name {
+                font-size: 1.7vh;
+                vertical-align: middle;
+                white-space: nowrap; }
+              main.market aside ul li section.content span.counter p.mid {
+                position: absolute;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                top: 50%;
+                left: 50%; }
+            main.market aside ul li section.content span.counter div.country:first-child {
+              position: absolute;
+              -webkit-transform: translate(0%, -50%);
+              -ms-transform: translate(0%, -50%);
+              transform: translate(0%, -50%);
+              top: 50%;
+              left: 0;
+              width: calc(50% - 20px); }
+              main.market aside ul li section.content span.counter div.country:first-child p,
+              main.market aside ul li section.content span.counter div.country:first-child span {
+                float: right; }
+              main.market aside ul li section.content span.counter div.country:first-child span {
+                margin: 0 0 0 5px; }
+            main.market aside ul li section.content span.counter div.country:last-child {
+              position: absolute;
+              -webkit-transform: translate(0%, -50%);
+              -ms-transform: translate(0%, -50%);
+              transform: translate(0%, -50%);
+              top: 50%;
+              right: 0;
+              width: calc(50% - 25px); }
+            main.market aside ul li section.content span.counter div.country span {
+              vertical-align: middle; }
+              main.market aside ul li section.content span.counter div.country span.icon1 {
+                background: url(../images/market/icon_country1.png) no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: 25px;
+                height: 17px; }
+              main.market aside ul li section.content span.counter div.country span.icon2 {
+                background: url(../images/market/icon_country2.png) no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: 13px;
+                height: 17px; }
+              main.market aside ul li section.content span.counter div.country span.icon3 {
+                background: url(../images/market/icon_country3.png) no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: 14px;
+                height: 16px; }
+              main.market aside ul li section.content span.counter div.country span.icon4 {
+                background: url(../images/market/icon_country4.png) no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: 18px;
+                height: 17px; }
+              main.market aside ul li section.content span.counter div.country span.icon5 {
+                background: url(../images/market/icon_country5.png) no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: 13px;
+                height: 15px; }
+              main.market aside ul li section.content span.counter div.country span.icon6 {
+                background: url(../images/market/icon_country6.png) no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: 13px;
+                height: 17px; }
+              main.market aside ul li section.content span.counter div.country span.icon7 {
+                background: url(../images/market/icon_country7.png) no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: 17px;
+                height: 17px; }
+              main.market aside ul li section.content span.counter div.country span.icon8 {
+                background: url(../images/market/icon_country8.png) no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: 16px;
+                height: 17px; }
+          main.market aside ul li section.content span.num_group {
+            width: 100%;
+            text-align: center; }
+            main.market aside ul li section.content span.num_group div {
+              display: inline-block;
+              text-align: center;
+              width: 25%;
+              line-height: 20px;
+              background-color: #f6f8ff; }
+              main.market aside ul li section.content span.num_group div p {
+                color: #838ba0;
+                line-height: 16px;
+                font-size: 1.7vh;
+                vertical-align: bottom;
+                display: inline-block;
+                width: 100%; }
+              main.market aside ul li section.content span.num_group div span {
+                color: #1b255c;
+                line-height: 20px;
+                font-size: 1.7vh;
+                font-weight: bold; }
+              main.market aside ul li section.content span.num_group div.tie {
+                margin: 0 5px 0 5px; }
 
-main.early_page {
-  margin-top: calc(17.6vh + 10px);
-  height: calc(100vh - 17.6vh - 7vh - 10px); }
+footer ul li.teach span {
+  background: url(../images/market/teach.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 20px;
+  height: 24px;
+  display: inline-block; }
+
+footer ul li.set_table span {
+  background: url(../images/market/set_table.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 25px;
+  height: 24px;
+  display: inline-block; }
+
+footer ul li.not_yet span {
+  background: url(../images/market/not_yet.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 22px;
+  height: 24px;
+  display: inline-block; }
+
+footer ul li.yes_do span {
+  background: url(../images/market/yes_do.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 22px;
+  height: 24px;
+  display: inline-block; }
+
+footer ul li.refresh span {
+  background: url(../images/market/refresh.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 22px;
+  height: 24px;
+  display: inline-block; }
 
 div.window_double_mode.active {
   z-index: 200;
@@ -3089,46 +3791,28 @@ main.double_inner_page {
                 float: right;
                 line-height: 45px; }
 
-.en_name {
-  font-family: Bahnschrift; }
+nav.kinds ul.early {
+  font-family: 'my_font';
+  height: 5vh;
+  line-height: 5vh;
+  padding: 0 16px;
+  border-bottom: 1px solid #e0e3f3; }
+  nav.kinds ul.early li {
+    position: relative; }
+    nav.kinds ul.early li.active {
+      color: #4d515d; }
+      nav.kinds ul.early li.active:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: #7c87bc;
+        bottom: 0;
+        left: 0; }
 
-main.market aside ul li section.content span.num_group div.esport_w.esport_w.esport_w {
-  width: calc(50% - 10vw);
-  margin: 0; }
-  main.market aside ul li section.content span.num_group div.esport_w.esport_w.esport_w span {
-    margin: 5px 0 5px 0; }
-
-main.market aside ul li.senior.e_sport section.content span.point_box span.counter {
-  height: 14vh; }
-  main.market aside ul li.senior.e_sport section.content span.point_box span.counter div {
-    line-height: calc(14vh / 3); }
-    main.market aside ul li.senior.e_sport section.content span.point_box span.counter div p, main.market aside ul li.senior.e_sport section.content span.point_box span.counter div span {
-      line-height: 1;
-      vertical-align: middle; }
-
-main.market aside ul li.senior.e_sport section.content span.point_box span.num_group {
-  height: 14vh; }
-  main.market aside ul li.senior.e_sport section.content span.point_box span.num_group span.two_side div {
-    height: calc(14vh / 3 - 3px); }
-    main.market aside ul li.senior.e_sport section.content span.point_box span.num_group span.two_side div p {
-      font-size: 1.2vh;
-      margin: 0 0 0.5vh 0; }
-
-@-webkit-keyframes marquee {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0); }
-  100% {
-    -webkit-transform: translateX(-145%);
-    transform: translateX(-145%); } }
-
-@keyframes marquee {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0); }
-  100% {
-    -webkit-transform: translateX(-145%);
-    transform: translateX(-145%); } }
+main.early_page {
+  margin-top: calc(17.6vh + 10px);
+  height: calc(100vh - 17.6vh - 7vh - 10px); }
 
 .clearfix {
   display: block;
@@ -3311,7 +3995,7 @@ main {
     main section ul.profile li.u_data p.u_name {
       color: #838ba0;
       font-weight: lighter;
-      font-family: Bahnschrift;
+      font-family: "my_font";
       font-size: 2.1vh; }
       main section ul.profile li.u_data p.u_name span.vip {
         background: url(../images/vip.png) no-repeat;
@@ -3325,7 +4009,7 @@ main {
         margin-left: 5px; }
     main section ul.profile li.u_data p.u_money {
       color: #1b255c;
-      font-family: Bahnschrift;
+      font-family: "my_font";
       font-size: 3vh;
       font-weight: bold; }
       main section ul.profile li.u_data p.u_money span.question {
@@ -3494,7 +4178,7 @@ main {
           color: #1b255c;
           font-size: 2.5vh;
           line-height: 2.5vh;
-          font-family: Bahnschrift; }
+          font-family: "my_font"; }
         main article.menu aside.btn_group button.hot {
           background: -webkit-gradient(linear, left top, left bottom, from(#8e9bdb), color-stop(25%, #7b89d4), color-stop(75%, #4a5dc1), to(#3449b9));
           background: -webkit-linear-gradient(top, #8e9bdb 0%, #7b89d4 25%, #4a5dc1 75%, #3449b9 100%);
@@ -3652,7 +4336,7 @@ main {
               font-size: 2.6vh;
               line-height: 2.6vh; }
             main article.menu ul.game_kinds li div.title p.num {
-              font-family: Bahnschrift;
+              font-family: "my_font";
               font-weight: bold;
               font-size: 4.5vh;
               line-height: 4.5vh;
@@ -4069,7 +4753,7 @@ aside.hot_windows {
           aside.hot_windows article.bg ul li span.data p:last-child {
             font-size: 3vh; }
           aside.hot_windows article.bg ul li span.data p.time, aside.hot_windows article.bg ul li span.data p:last-child {
-            font-family: Bahnschrift;
+            font-family: "my_font";
             color: #1b255c; }
     aside.hot_windows article.bg span.close {
       display: inline-block;
