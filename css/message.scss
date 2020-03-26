@@ -9,6 +9,7 @@ section {
     ul {
       padding: 0 3vw 0 3vw;
       display: flex;
+      box-shadow: 0 2px 4px 0 #e4e4e4;
       li {
         width: 25%;
         text-align: center;
@@ -41,78 +42,90 @@ section {
       }
     }
   }
-  &.content {
-    background: #fff;
-    margin: 1vh 0 0 0;
-    ul {
-      padding: 0 3vw 0 3vw;
-      li {
-        padding: 10px 0 10px 0;
-        display: flex;
-        align-items: center;
-        border-bottom: 1px solid #e0e3f3;
-        position: relative;
-        &.yet_ready {
-          &:before {
-            content: "";
-            position: absolute;
-            width: 9px;
-            height: 9px;
-            background: #f30d0d;
-            right: 3vw;
-            bottom: 15px;
-            border-radius: 10px;
+  &.message{
+    &.content {
+        background: #fff;
+        margin: 1vh 0 0 0;  
+      }
+    &.message_inner{
+        margin: 6vh 0 0 0;
+        background: #fff;
+    }
+      ul {
+        padding: 0 3vw 0 3vw;
+        li {
+          padding: 10px 0 10px 0;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid #e0e3f3;
+          position: relative;
+          &.inner_content{
+            border-bottom:none;
+            color: #4d515d;
           }
-        }
-        div {
-          &.icon {
-            background: url(../images/message_horn.png) no-repeat;
-            background-size: 100%;
-            background-position: center center;
-            width: 35px;
-            height: 35px;
-            margin: 0 10px 0 0;
+          &.yet_ready {
+            &:before {
+              content: "";
+              position: absolute;
+              width: 9px;
+              height: 9px;
+              background: #f30d0d;
+              right: 3vw;
+              bottom: 15px;
+              border-radius: 10px;
+            }
           }
-          &.box {
-            width: 80%;
-            h1 {
-              color: #4d515d;
-              position: relative;
-              display: inline-block;
-              &.important {
-                &:before {
-                  content: "重要";
-                  position: absolute;
-                  right: -38px;
-                  top: 50%;
-                  transform: translateY(-50%);
-                  color: #f30d0d;
-                  font-size: 12px;
-                  line-height: 1;
-                  vertical-align: bottom;
-                  border: 1px solid #f30d0d;
-                  padding: 1px 4px 1px 4px;
-                  border-radius: 3px;
+          div {
+            &.icon {
+              background: url(../images/message_horn.png) no-repeat;
+              background-size: 100%;
+              background-position: center center;
+              width: 35px;
+              height: 35px;
+              margin: 0 10px 0 0;
+            }
+            &.box {
+              width: 80%;
+              h1 {
+                color: #4d515d;
+                position: relative;
+                display: inline-block;
+                &.important {
+                  &:before {
+                    content: "重要";
+                    position: absolute;
+                    right: -38px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    color: #f30d0d;
+                    font-size: 12px;
+                    line-height: 1;
+                    vertical-align: bottom;
+                    border: 1px solid #f30d0d;
+                    padding: 1px 4px 1px 4px;
+                    border-radius: 3px;
+                  }
                 }
               }
+              p {
+                color: #838ba0;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+              }
             }
-            p {
-              color: #838ba0;
-              overflow: hidden;
+            &.time {
               white-space: nowrap;
-              text-overflow: ellipsis;
+              position: absolute;
+              right: 3vw;
+              top: 10px;
+              color: #838ba0;
+              font-size: 12px;
             }
-          }
-          &.time {
-            white-space: nowrap;
-            position: absolute;
-            right: 3vw;
-            top: 10px;
-            color: #838ba0;
-            font-size: 12px;
           }
         }
       }
-    }
   }
+  
+  
 }

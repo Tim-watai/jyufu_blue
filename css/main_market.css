@@ -77,6 +77,13 @@ header ul {
     float: right;
     font-size: 20px;
     color: #4d515d; }
+  header ul li.edit_point {
+    float: right;
+    background: url(../images/edit_point.png) no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    width: 18px;
+    height: 20px; }
 
 nav.kinds {
   position: fixed;
