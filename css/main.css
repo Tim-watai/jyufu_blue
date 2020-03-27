@@ -4995,6 +4995,56 @@ aside.help_contact_us button {
   background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
   background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
+aside.event .event_content {
+  padding: 0 4vw;
+  background: #fff;
+  margin: 10px 0 0 0; }
+  aside.event .event_content .card {
+    background: url(../../images/event/banner_1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 92vw;
+    height: 145px;
+    position: relative; }
+    aside.event .event_content .card .new {
+      background: #d14040;
+      background: -webkit-gradient(linear, left top, left bottom, from(#e45252), to(#b43434));
+      background: -webkit-linear-gradient(top, #e45252 0%, #b43434 100%);
+      background: -o-linear-gradient(top, #e45252 0%, #b43434 100%);
+      background: linear-gradient(to bottom, #e45252 0%, #b43434 100%);
+      width: auto;
+      line-height: 1;
+      -webkit-clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+      clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+      color: #fff;
+      font-style: italic;
+      display: inline-block;
+      padding: 5px 20px 4px 15px;
+      font-size: 12px;
+      position: absolute;
+      top: 8px;
+      left: -3px; }
+    aside.event .event_content .card .time_wrap {
+      background: #fff;
+      position: absolute;
+      bottom: 9px;
+      font-size: 12px;
+      color: #4d515d;
+      border-radius: 0 8px 8px 0; }
+      aside.event .event_content .card .time_wrap .icon {
+        background: url(../../images/event/clock.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        line-height: 1;
+        vertical-align: middle; }
+      aside.event .event_content .card .time_wrap p {
+        display: inline-block;
+        line-height: 1;
+        vertical-align: middle; }
+
 .clearfix {
   display: block;
   content: "";
