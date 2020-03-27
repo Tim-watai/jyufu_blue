@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--RWD-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="../../../css/main.css">
+
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  
+
+    <title>Ready</title>
+</head>
+
+<body>
+    <aside class="my_windows_card">
+        <div class="header">
+            <ul>
+                <li class="back"> <a href="../../../index.html"></a></li>
+                <li class="title">卡片管理</li>
+            </ul>
+        </div>
+        <div class="empty" style = "display: none;">
+            <div class="empty_icon"></div>
+            <button><span></span>添加銀行卡</button>
+            <p>最多支持添加3張銀行卡</p>
+            
+        </div>
+        <div class="have" style = "display: none;"> 
+            <div class="card">
+                <span class="shine"></span>
+                <div class="title">工商銀行</div>
+                <div class="ic_warp">
+                    <div class="ic"></div>
+                </div>
+                <div class="account_warp">
+                    <p>帳戶</p>
+                    <p>1234567</p>
+                </div>
+                <div class="account_warp">
+                    <p>戶名</p>
+                    <p>林先生</p>
+                </div>
+            </div>
+            <div class="alert_box">
+                <h1 class="title">注意事項</h1>
+                <p>您的提領銀行卡已綁定，如需修改提領銀行卡請洽 詢客服。</p>
+            </div>
+        </div>
+        <div class="add_now">
+            <div class="warp">
+                <h1 class="title">添加銀行卡</h1>
+                <ul>
+                    <li class="bank"><p>開戶銀行</p><input type="text" placeholder="-選擇銀行-"></li>
+                    <li class="city"><p>開戶城市</p><input type="text" placeholder="-選擇省份-"><input type="text" placeholder="-選擇地級市-"></li>
+                    <li><p>支行名稱</p><input type="text"></li>
+                    <li><p>戶名</p><input type="text"></li>
+                    <li><p>銀行帳號</p><input type="text"></li>
+                    <li><p>確認帳號</p><input type="text"></li>
+                    <li><p>手機</p><input type="text"></li>
+                    <li><p>QQ</p><input type="text"></li>
+                    <li><p>wechat</p><input type="text"></li>
+                </ul>
+            </div>
+            <button>添加銀行卡</button>
+            
+        </div>
+    </aside>
+
+    <script type="text/javascript" src="/js/my_windows_transfer.js"></script>
+</body>
+
+</html>
