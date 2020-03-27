@@ -1,0 +1,108 @@
+aside {
+  &.help_contact_us {
+    ul {
+      &.contact_us {
+        background: #fff;
+        padding: 10px 4vw 0px 4vw;
+        margin: 10px 0 0 0;
+        &:last-child{
+            margin: 10px 0 0 0;
+        }
+        h1 {
+          color: #4d515d;
+          font-weight: normal;
+          padding: 0 0 0 10px;
+          position: relative;
+          font-size: 18px;
+          &::before {
+            content: "";
+            position: absolute;
+            top: 2px;
+            /* transform: translateY(-50%); */
+            left: 0;
+            height: 16px;
+            width: 3px;
+            background: #3348b8;
+            border-radius: 100px;
+          }
+        }
+        li {
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid #e0e3f3;
+          padding: 20px 0 20px 0;
+          position: relative;
+            &:last-child{
+                border-bottom: none;
+            }
+          .wrap {
+            padding: 0px 7vw;
+            border-right: 1px solid #e0e3f3;
+            .icon_mail {
+              background: url(../../images/help/mail_icon.png) no-repeat;
+              background-size: 100%;
+              background-position: center;
+              width: 35px;
+              height: 26px;
+            }
+            .icon_qq{
+                background: url(../../images/help/qq_icon.png) no-repeat;
+              background-size: 100%;
+              background-position: center;
+              width: 35px;
+              height: 38px;
+            }
+            .icon_skype{
+                background: url(../../images/help/skype_icon.png) no-repeat;
+              background-size: 100%;
+              background-position: center;
+              width: 35px;
+              height: 38px;
+            }
+            .icon_s{
+                background: url(../../images/help/s_icon.png) no-repeat;
+              background-size: 100%;
+              background-position: center;
+              width: 35px;
+              height: 38px;
+            }
+          }
+          .mid_wrap {
+            padding: 0 0 0 7vw;
+            color: #4d515d;
+            line-height: 1;
+            p {
+              &:first-child {
+                margin: 0 0 5px 0;
+              }
+            }
+          }
+          .copy {
+            line-height: 1;
+            position: absolute;
+            font-size: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            color: #959dc5;
+            border: 1px solid #959dc5;
+            padding: 8px 6vw 8px 6vw;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+
+    button {
+      border: none;
+      border-radius: 8px;
+      margin: 20px 4vw 0 4vw;
+      width: 92vw;
+      color: #fff;
+      font-size: 18px;
+      font-weight: lighter;
+      padding: 12px 0 12px 0;
+      background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
+    }
+  }
+}
