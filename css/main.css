@@ -4718,29 +4718,110 @@ aside.my_windows_card {
       background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.help {
-  height: calc(100vh - 7vh); }
+  height: calc(100vh - 7vh);
+  position: relative; }
   aside.help .blue_title {
     width: 100%;
-    height: 140px;
+    height: 120px;
     background: -webkit-gradient(linear, left top, right top, from(#8f9cdc), to(#4e61c2));
     background: -webkit-linear-gradient(left, #8f9cdc 0%, #4e61c2 100%);
     background: -o-linear-gradient(left, #8f9cdc 0%, #4e61c2 100%);
     background: linear-gradient(to right, #8f9cdc 0%, #4e61c2 100%);
-    border-radius: 0 0 80px 0; }
+    border-radius: 0 0 30px 0; }
     aside.help .blue_title .title {
       text-align: right;
       position: relative;
-      padding: 10px 3vw 0 0; }
+      padding: 10px 4vw 0 0; }
       aside.help .blue_title .title p {
         display: inline-block;
         color: #fff;
-        font-size: 18px; }
+        font-size: 18px;
+        position: relative; }
         aside.help .blue_title .title p:first-child {
           position: absolute;
           left: 50%;
           -webkit-transform: translateX(-50%);
           -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
+  aside.help .hellocard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    margin: 0 4vw 0 4vw;
+    width: 92vw;
+    padding: 20px 0 20px 20px;
+    border-radius: 8px;
+    position: absolute;
+    top: 60px; }
+    aside.help .hellocard .avater {
+      background: url(../../images/avatar.png) no-repeat;
+      background-size: 100%;
+      background-position: center;
+      width: 50px;
+      height: 50px; }
+    aside.help .hellocard .hello {
+      margin: 0 0 0 8px; }
+      aside.help .hellocard .hello p:first-child {
+        font-size: 20px;
+        color: #1b255c; }
+      aside.help .hellocard .hello p:last-child {
+        font-size: 15px;
+        color: #838ba0; }
+  aside.help .help_content {
+    margin: 50px 0 0 0;
+    background: #fff;
+    height: calc(100vh - (50px + 120px)); }
+    aside.help .help_content .card1 {
+      background: -webkit-gradient(linear, left top, right top, from(#3046b7), to(#bbc4f2));
+      background: -webkit-linear-gradient(left, #3046b7 0%, #bbc4f2 100%);
+      background: -o-linear-gradient(left, #3046b7 0%, #bbc4f2 100%);
+      background: linear-gradient(to right, #3046b7 0%, #bbc4f2 100%);
+      color: #fff;
+      width: 92vw;
+      margin: 0 4vw 30px 4vw;
+      padding: 20px 0 10px 20px;
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative; }
+      aside.help .help_content .card1.type2 {
+        background: #aec8eb; }
+        aside.help .help_content .card1.type2 .top_wrap .icon {
+          background: url(../../images/help/icon_other.png) no-repeat;
+          background-size: 100%;
+          background-position: center; }
+        aside.help .help_content .card1.type2 .server_color {
+          color: #dce7f6; }
+      aside.help .help_content .card1 .top_wrap {
+        line-height: 30px; }
+        aside.help .help_content .card1 .top_wrap .icon {
+          background: url(../../images/help/icon_24h.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 30px;
+          height: 30px;
+          display: inline-block;
+          line-height: 1;
+          margin: 0 3px 0 0;
+          vertical-align: bottom; }
+        aside.help .help_content .card1 .top_wrap h1 {
+          line-height: 1;
+          display: inline-block;
+          vertical-align: bottom;
+          font-weight: normal;
+          font-size: 26px; }
+      aside.help .help_content .card1 .server_color {
+        color: #c6cae9; }
+      aside.help .help_content .card1:before {
+        content: '';
+        position: absolute;
+        background: url(../../images/help/36588_logo.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        right: 0;
+        top: 15px;
+        width: 173px;
+        height: 78px; }
 
 .clearfix {
   display: block;
@@ -5440,7 +5521,7 @@ aside div.header ul {
     color: #4d515d;
     font-family: "my_font";
     display: inline-block;
-    font-size: 5vw; }
+    font-size: 20px; }
   aside div.header ul li.back {
     position: relative;
     background: url(../images/arrow_d.png) no-repeat;
@@ -5456,7 +5537,9 @@ aside div.header ul {
     pointer-events: all; }
   aside div.header ul li.right {
     float: right;
-    display: inline-block; }
+    display: inline-block;
+    font-size: 20px;
+    color: #4d515d; }
   aside div.header ul li.question_icon {
     position: relative;
     background: url(../images/question.png) no-repeat;

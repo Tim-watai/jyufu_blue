@@ -13,6 +13,7 @@
 @import "../css/my/my_windows_transfer.scss";
 @import "../css/my/my_mb/my_windows_card.scss";
 @import "../css/help/help.scss";
+@import "../css/help/help_board.scss";
 
 $all-font-family: Microsoft JhengHei;
 $all-font-family-w: "微軟正黑體";
@@ -918,7 +919,7 @@ aside {
             color: #4d515d;
             font-family: "my_font";
             display: inline-block;
-            font-size: 5vw;
+            font-size: 20px;
           }
           &.back {
             position: relative;
@@ -935,6 +936,8 @@ aside {
           &.right {
             float: right;
             display: inline-block;
+            font-size: 20px;
+            color: #4d515d;
           }
           &.question_icon {
             position: relative;
