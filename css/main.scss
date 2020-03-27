@@ -12,6 +12,7 @@
 @import "../css/my/my_windows_help.scss";
 @import "../css/my/my_windows_transfer.scss";
 @import "../css/my/my_mb/my_windows_card.scss";
+@import "../css/help/help.scss";
 
 $all-font-family: Microsoft JhengHei;
 $all-font-family-w: "微軟正黑體";
@@ -780,7 +781,9 @@ main {
   }
 }
 footer {
-  @include size(100%, 7vh);
+
+  width: 100%;
+  height: 7vh;
   position: fixed;
   z-index: 500;
   bottom: 0;
@@ -806,6 +809,7 @@ footer {
       font-size: 1.7vh;
       line-height: 1.8vh;
       margin-bottom: 5px;
+      position: relative;
       &.active {
         color: #2d43b6;
       }
