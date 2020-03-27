@@ -5030,7 +5030,8 @@ aside.event .event_content {
       bottom: 9px;
       font-size: 12px;
       color: #4d515d;
-      border-radius: 0 8px 8px 0; }
+      border-radius: 0 12px 12px 0;
+      padding: 0 12px 2px 12px; }
       aside.event .event_content .card .time_wrap .icon {
         background: url(../../images/event/clock.png) no-repeat;
         background-size: 100%;
@@ -5039,11 +5040,40 @@ aside.event .event_content {
         height: 12px;
         display: inline-block;
         line-height: 1;
-        vertical-align: middle; }
+        vertical-align: middle;
+        margin: 0 3px 0 0; }
       aside.event .event_content .card .time_wrap p {
         display: inline-block;
         line-height: 1;
         vertical-align: middle; }
+    aside.event .event_content .card .detail_wrap {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background: -webkit-gradient(linear, left top, left bottom, from(#546ce6), to(#1c3380));
+      background: -webkit-linear-gradient(top, #546ce6 0%, #1c3380 100%);
+      background: -o-linear-gradient(top, #546ce6 0%, #1c3380 100%);
+      background: linear-gradient(to bottom, #546ce6 0%, #1c3380 100%);
+      color: #fff;
+      border-radius: 8px 0 8px 0;
+      font-size: 12px;
+      letter-spacing: 1px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 5px 5px 5px 10px;
+      width: 82px; }
+      aside.event .event_content .card .detail_wrap p {
+        line-height: 1;
+        margin: 0 5px 0 0;
+        width: 52px;
+        text-align: center; }
+      aside.event .event_content .card .detail_wrap .icon {
+        background: url(../../images/arrows_blue.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 10px;
+        height: 10px; }
 
 .clearfix {
   display: block;

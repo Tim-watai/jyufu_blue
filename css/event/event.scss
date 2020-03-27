@@ -32,7 +32,8 @@ aside{
                     bottom: 9px;
                     font-size: 12px;
                     color: #4d515d;
-                    border-radius: 0 8px 8px 0;
+                    border-radius: 0 12px 12px 0;
+                    padding: 0 12px 2px 12px;
                     .icon{
                         background: url(../../images/event/clock.png)no-repeat;
                         background-size: 100%;
@@ -42,11 +43,38 @@ aside{
                         display: inline-block;
                         line-height: 1;
                         vertical-align: middle;
+                        margin: 0 3px 0 0;
                     }
                     p{
                         display: inline-block;
                         line-height: 1;
                         vertical-align: middle;
+                    }
+                }
+                .detail_wrap{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    background: linear-gradient(to bottom ,#546ce6 0%, #1c3380 100%);
+                    color: #fff;
+                    border-radius: 8px 0 8px 0;
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                    display: flex;
+                    padding: 5px 5px 5px 10px;
+                    width: 82px;
+                    p{
+                        line-height: 1;
+                        margin: 0 5px 0 0;
+                        width: 52px;
+                        text-align: center;
+                    }
+                    .icon{
+                        background: url(../../images/arrows_blue.png)no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                        width: 10px;
+                        height: 10px;
                     }
                 }
             }
