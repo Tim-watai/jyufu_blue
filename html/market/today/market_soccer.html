@@ -14,7 +14,7 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-   
+
 
     <title>Ready</title>
 </head>
@@ -25,7 +25,12 @@
             <li class="back"> <a href="../../../index.html"></a></li>
             <li class="title">今日<span></span></li>
             <li class="search"> </li>
-            <li class="wallet"></li>
+            <li class="wallet">
+                <div class="balance">
+                    <p>可投注餘額</p>
+                    <p>NT$0.00</p>
+                </div>
+            </li>
 
         </ul>
     </header>
@@ -684,6 +689,17 @@
                 </li>
             </ul>
         </aside>
+        <aside class="empty_game" style="display: none;">
+            <div class="wrap">
+                <div class="empty_icon"></div>
+                <p>尚無賽事</p>
+            </div>
+
+        </aside>
+        <aside class="loading" style="display: none;">
+            <div class="loading_icon"></div>
+        </aside>
+
 
 
     </main>
@@ -710,9 +726,12 @@
         <div class="bet_page">
             <span class="close"></span>
             <div class="title">
-                <span class="game_name"><p><em></em>法國甲組聯賽<em></em></p></span>
+                <span class="game_name">
+                    <p><em></em>法國甲組聯賽<em></em></p>
+                </span>
                 <span class="counter">
-                    <p>里昂</p><span class="vs">vs</span><p>亞眠</p>
+                    <p>里昂</p><span class="vs">vs</span>
+                    <p>亞眠</p>
                 </span>
             </div>
             <div class="content">
@@ -729,10 +748,22 @@
                     <div class="input_box">
                         <input type="text" placeholder="請輸入金額">
                     </div>
-                   <div class="btns">
-                       <span><p>100</p></span><span><p>500</p></span><span><p>1000</p></span><br/>
-                       <span><p>2000</p></span><span><p>5000</p></span><span><p>最大</p></span>
-                   </div>
+                    <div class="btns">
+                        <span>
+                            <p>100</p>
+                        </span><span>
+                            <p>500</p>
+                        </span><span>
+                            <p>1000</p>
+                        </span><br />
+                        <span>
+                            <p>2000</p>
+                        </span><span>
+                            <p>5000</p>
+                        </span><span>
+                            <p>最大</p>
+                        </span>
+                    </div>
                 </div>
                 <div class="be_win">
                     <p>可贏金額&nbsp;:&nbsp;<span>NT$0</span></p>
@@ -742,46 +773,64 @@
         </div>
     </aside>
     <aside class="set_window">
-      <ul class="side_bar">
-          <li class="title">聯賽篩選
-              <span class="all">全部</span>
-              <span class="more">更多<p class="arrow"></p></span>
-              <span class="soccers"><p></p></span>
+        <ul class="side_bar">
+            <li class="title">聯賽篩選
+                <span class="all">全部</span>
+                <span class="more">更多<p class="arrow"></p></span>
+                <span class="soccers">
+                    <p></p>
+                </span>
             </li>
-          <li>投注模式 
-            <div class="box">
-                <div class="check">
-                    <span class="p_left active"><p>新手版</p></span>
-                    <span class="p_right"><p>專業版</p></span>
+            <li>投注模式
+                <div class="box">
+                    <div class="check">
+                        <span class="p_left active">
+                            <p>新手版</p>
+                        </span>
+                        <span class="p_right">
+                            <p>專業版</p>
+                        </span>
+                    </div>
                 </div>
-            </div>
-        </li>
-          <li>排序規則
-            <div class="box">
-                <div class="check">
-                    <span class="p_left active"><p>熱門</p></span>
-                    <span class="p_right"><p>時間</p></span>
+            </li>
+            <li>排序規則
+                <div class="box">
+                    <div class="check">
+                        <span class="p_left active">
+                            <p>熱門</p>
+                        </span>
+                        <span class="p_right">
+                            <p>時間</p>
+                        </span>
+                    </div>
                 </div>
-            </div>
-          </li>
-          <li>盤口設置
-            <div class="box">
-                <div class="check">
-                    <span class="p_left active"><p>歐洲盤</p></span>
-                    <span class="p_right"><p>香港盤</p></span>
+            </li>
+            <li>盤口設置
+                <div class="box">
+                    <div class="check">
+                        <span class="p_left active">
+                            <p>歐洲盤</p>
+                        </span>
+                        <span class="p_right">
+                            <p>香港盤</p>
+                        </span>
+                    </div>
                 </div>
-            </div>
-          </li>
-          <li>主題風格
-            <div class="box">
-                <div class="check">
-                    <span class="p_left active"><p>日間</p></span>
-                    <span class="p_right"><p>夜間</p></span>
+            </li>
+            <li>主題風格
+                <div class="box">
+                    <div class="check">
+                        <span class="p_left active">
+                            <p>日間</p>
+                        </span>
+                        <span class="p_right">
+                            <p>夜間</p>
+                        </span>
+                    </div>
                 </div>
-            </div>
-          </li>
-          <li class="close">關閉</li>
-      </ul>
+            </li>
+            <li class="close">關閉</li>
+        </ul>
     </aside>
     <aside class="search_window">
         <div class="header">
@@ -796,50 +845,72 @@
                 <input type="text" placeholder="請輸入聯賽名">
             </div>
             <div class="all">全選<span></span></div>
-            
+
         </div>
         <div class="content">
             <div class="group">
                 <p class="title hot"><span class="arrow_w"></span>熱門賽事</p>
                 <ul>
-                    <li><span class="local_game_1"></span>義大利甲組聯賽<div class="point_area">(1)<span class="point"></span></div></li>
-                    <li><span class="local_game_2"></span>法國甲組聯賽<div class="point_area">(7)<span class="point"></span></div></li>
-                    <li><span class="local_game_3"></span>英國足總杯<div class="point_area">(1)<span class="point"></span></div></li>
+                    <li><span class="local_game_1"></span>義大利甲組聯賽<div class="point_area">(1)<span class="point"></span>
+                        </div>
+                    </li>
+                    <li><span class="local_game_2"></span>法國甲組聯賽<div class="point_area">(7)<span class="point"></span>
+                        </div>
+                    </li>
+                    <li><span class="local_game_3"></span>英國足總杯<div class="point_area">(1)<span class="point"></span>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="group">
                 <p class="title"><span class="arrow_d"></span>埃及</p>
                 <ul>
-                    <li class="default">埃及超級聯賽<div class="point_area">(1)<span class="point"></span></div></li>
+                    <li class="default">埃及超級聯賽<div class="point_area">(1)<span class="point"></span></div>
+                    </li>
                 </ul>
             </div>
             <div class="group">
                 <p class="title"><span class="arrow_d"></span>阿爾及利亞</p>
                 <ul>
-                    <li class="default">阿爾及利亞甲組聯賽<div class="point_area">(1)<span class="point"></span></div></li>
+                    <li class="default">阿爾及利亞甲組聯賽<div class="point_area">(1)<span class="point"></span></div>
+                    </li>
                 </ul>
             </div>
             <div class="group">
                 <p class="title"><span class="arrow_d"></span>巴林</p>
                 <ul>
-                    <li class="default">巴林超級聯賽<div class="point_area">(1)<span class="point"></span></div></li>
+                    <li class="default">巴林超級聯賽<div class="point_area">(1)<span class="point"></span></div>
+                    </li>
                 </ul>
             </div>
             <div class="group">
                 <p class="title"><span class="arrow_d"></span>巴西</p>
                 <ul class="scroll">
-                    <li class="default">巴西杯<div class="point_area">(12)<span class="point"></span></div></li>
-                    <li class="default">巴西杯甲組聯賽<div class="point_area">(12)<span class="point"></span></div></li>
-                    <li class="default">巴西巴西利亞杯甲組聯賽<div class="point_area">(12)<span class="point"></span></div></li>
-                    <li class="default">巴西巴亞諾甲組聯賽<div class="point_area">(12)<span class="point"></span></div></li>
-                    <li class="default">巴西伯南布哥甲組聯賽<div class="point_area">(12)<span class="point"></span></div></li>
+                    <li class="default">巴西杯<div class="point_area">(12)<span class="point"></span></div>
+                    </li>
+                    <li class="default">巴西杯甲組聯賽<div class="point_area">(12)<span class="point"></span></div>
+                    </li>
+                    <li class="default">巴西巴西利亞杯甲組聯賽<div class="point_area">(12)<span class="point"></span></div>
+                    </li>
+                    <li class="default">巴西巴亞諾甲組聯賽<div class="point_area">(12)<span class="point"></span></div>
+                    </li>
+                    <li class="default">巴西伯南布哥甲組聯賽<div class="point_area">(12)<span class="point"></span></div>
+                    </li>
                 </ul>
             </div>
-           
+
         </div>
     </aside>
+    <aside class="now_bet_empty active">
+       <div class="wrap">
+           <h1>點擊空白區域可關閉彈窗</h1>
+           <div class="box">
+               <div class="empty_icon"></div>
+               <p>暫無注單</p>
+           </div>
+       </div>
+    </aside>
 
-   
     <script type="text/javascript" src="../../../js/market/market.js"></script>
 
 </body>

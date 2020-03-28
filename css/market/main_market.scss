@@ -5,7 +5,6 @@ header {
     &.market{
       padding: 0 33px 0 3vw;
     }
-    padding: 0 3vw 0 3vw;
     li {
       &.back {
         float: left;
@@ -13,15 +12,7 @@ header {
         width: 3%;
         height: 50%;
         pointer-events: all;
-        a {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          pointer-events: all;
-          left: 50%;
-          transform: translateX(-50%);
-          z-index: 1;
-        }
+       
         &:before,
         &:after {
           content: "";
@@ -69,6 +60,45 @@ header {
         width: 20px;
         height: 20px;
         margin: 0 20px 0 0;
+        position: relative;
+        .balance{
+          display: inline-block;
+          pointer-events: none;
+          opacity: 0;
+          position: absolute;
+          top:30px ;
+          transform: translateX(-50%);
+          left: 50%;
+          color: #fff;
+          background: rgba(0, 0, 0, 0.6);
+          font-size: 16px;
+          white-space: nowrap;
+          padding: 10px;
+          border-radius: 8px;
+          &:before{
+            content: '';
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0px 6px 6px 6px;
+            border-color: transparent transparent rgba(0,0,0,0.6) transparent;
+            display: inline-block;
+
+          }
+        }
+        &:hover,
+        &:active,
+        &.active{
+          .balance{
+            pointer-events: all;
+          opacity: 1;
+          }
+        }
+      
       }
       &.search {
         float: right;
@@ -293,8 +323,41 @@ main {
     height: calc(100vh - 12.6vh - 7vh - 10px);
     overflow-y: scroll;
     aside {
+      &.loading{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .loading_icon{
+          background:url(../../images/message_page/waitting.png)no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 60px;
+          height: 65px;
+          position: absolute;
+          transform: translate(-50%,-50%);
+          left: 50%;
+          top: 50%;
+        }
+      }
+      &.empty_game{
+        text-align: center;
+        .wrap{
+          display: inline-block;
+          margin-top: 150px;
+          .empty_icon{
+            background:url(../../images/market/empty_game.png)no-repeat;
+            background-size: 100%;
+            background-position: center;
+            width: 150px;
+            height: 150px;
+          }
+          p{
+            margin: 16px 0 0 0;
+            color: #838ba0;
+          }
+        }
+      }
       section {
-       
         &.status {
           background: #fff;
           &.yet {
@@ -2046,6 +2109,38 @@ aside {
             //       }
             // }
           }
+        }
+      }
+    }
+  }
+  &.now_bet_empty{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    z-index: 500;
+    display: inline-block;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    text-align: center;
+    &.active {
+      pointer-events: all;
+      opacity: 1;
+    }
+    .wrap{
+      h1{
+        color: white;
+        font-weight: normal;
+      }
+      .box{
+        background: #f7f7f7;
+        display: inline-block;
+        .empty_icon{
+          background: url(../../images/market/empty_bet.png)no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 260px;
+          height: 230px;
         }
       }
     }
