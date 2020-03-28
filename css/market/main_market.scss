@@ -2128,19 +2128,30 @@ aside {
       opacity: 1;
     }
     .wrap{
+      position: absolute;
+      transform: translateY(-50%);
+      top: 50%;
       h1{
         color: white;
         font-weight: normal;
+        font-size: 18px;
+        display: inline-block;
       }
       .box{
         background: #f7f7f7;
         display: inline-block;
+        padding: 40px 20px 40px 20px;
+        border-radius: 8px;
         .empty_icon{
           background: url(../../images/market/empty_bet.png)no-repeat;
           background-size: 100%;
           background-position: center;
           width: 260px;
           height: 230px;
+        }
+        p{
+          color: #838ba0;
+          margin: 40px 0 0 0;
         }
       }
     }

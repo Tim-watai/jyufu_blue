@@ -2124,18 +2124,31 @@ aside.now_bet_empty {
   aside.now_bet_empty.active {
     pointer-events: all;
     opacity: 1; }
-  aside.now_bet_empty .wrap h1 {
-    color: white;
-    font-weight: normal; }
-  aside.now_bet_empty .wrap .box {
-    background: #f7f7f7;
-    display: inline-block; }
-    aside.now_bet_empty .wrap .box .empty_icon {
-      background: url(../../images/market/empty_bet.png) no-repeat;
-      background-size: 100%;
-      background-position: center;
-      width: 260px;
-      height: 230px; }
+  aside.now_bet_empty .wrap {
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%; }
+    aside.now_bet_empty .wrap h1 {
+      color: white;
+      font-weight: normal;
+      font-size: 18px;
+      display: inline-block; }
+    aside.now_bet_empty .wrap .box {
+      background: #f7f7f7;
+      display: inline-block;
+      padding: 40px 20px 40px 20px;
+      border-radius: 8px; }
+      aside.now_bet_empty .wrap .box .empty_icon {
+        background: url(../../images/market/empty_bet.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 260px;
+        height: 230px; }
+      aside.now_bet_empty .wrap .box p {
+        color: #838ba0;
+        margin: 40px 0 0 0; }
 
 .en_name {
   font-family: "my_font"; }
