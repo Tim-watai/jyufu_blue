@@ -4120,6 +4120,82 @@ aside.my_windows_card {
       background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
       background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
+aside.my_windows_bet_record {
+  margin: calc(5vh + 10px) 0 0 0;
+  width: 100vw;
+  height: calc(100vh - (5vh + 10px));
+  background: #f7f7f7;
+  z-index: 0;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  aside.my_windows_bet_record div.title {
+    background: #fff;
+    padding: 5vh 3vw 0 3vw;
+    margin: -5vh 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    aside.my_windows_bet_record div.title div.tack {
+      background: #f7f8fc;
+      margin: 0 3vw 3vw 0;
+      padding: 1vw 3vw 1vw 3vw;
+      border-radius: 30px; }
+      aside.my_windows_bet_record div.title div.tack p {
+        font-size: 4vw;
+        padding: 1vw;
+        line-height: 4vw;
+        position: relative;
+        color: #4d515d; }
+        aside.my_windows_bet_record div.title div.tack p span {
+          display: inline-block;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 5px 5px 0 5px;
+          border-color: #a4a7ae transparent transparent transparent;
+          vertical-align: middle;
+          margin: 0 0 0 1.5vw; }
+  aside.my_windows_bet_record div.content {
+    height: calc(100vh - (5vh + 14vw)); }
+    aside.my_windows_bet_record div.content.empty {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      aside.my_windows_bet_record div.content.empty .empty_icon {
+        background: url(../images/bet_record_empty.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 50vw;
+        height: 50vw;
+        margin: 40vw 0 0 0; }
+      aside.my_windows_bet_record div.content.empty p {
+        color: #838ba0;
+        font-size: 4vw;
+        margin: 4vw 0 8vw 0; }
+      aside.my_windows_bet_record div.content.empty button {
+        color: #fff;
+        background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
+        background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
+        background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
+        background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
+        border: none;
+        border-radius: 3px;
+        font-size: 4vw;
+        padding: 2vw 10vw; }
+
 aside.help {
   height: calc(100vh - 7vh);
   position: relative; }
@@ -6409,88 +6485,6 @@ aside.my_windows_mb_save {
     background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
     background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
-
-aside.my_windows_bet_record {
-  width: 100vw;
-  height: 100vh;
-  background: #f7f7f7;
-  z-index: 500;
-  display: inline-block;
-  position: fixed;
-  -webkit-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  transform: translateX(100%);
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out; }
-  aside.my_windows_bet_record.active {
-    -webkit-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    transform: translateX(0%); }
-  aside.my_windows_bet_record div.title {
-    background: #fff;
-    padding: calc(5vh + 3vw) 3vw 0 3vw;
-    margin: -5vh 0 0 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    aside.my_windows_bet_record div.title div.tack {
-      background: #f7f8fc;
-      margin: 0 3vw 3vw 0;
-      padding: 1vw 3vw 1vw 3vw;
-      border-radius: 30px; }
-      aside.my_windows_bet_record div.title div.tack p {
-        font-size: 4vw;
-        padding: 1vw;
-        line-height: 4vw;
-        position: relative;
-        color: #4d515d; }
-        aside.my_windows_bet_record div.title div.tack p span {
-          display: inline-block;
-          width: 0;
-          height: 0;
-          border-style: solid;
-          border-width: 5px 5px 0 5px;
-          border-color: #a4a7ae transparent transparent transparent;
-          vertical-align: middle;
-          margin: 0 0 0 1.5vw; }
-  aside.my_windows_bet_record div.content {
-    height: calc(100vh - (5vh + 14vw)); }
-    aside.my_windows_bet_record div.content.empty {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-pack: start;
-      -ms-flex-pack: start;
-      justify-content: flex-start;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; }
-      aside.my_windows_bet_record div.content.empty .empty_icon {
-        background: url(../images/bet_record_empty.png) no-repeat;
-        background-size: 100%;
-        background-position: center;
-        width: 50vw;
-        height: 50vw;
-        margin: 40vw 0 0 0; }
-      aside.my_windows_bet_record div.content.empty p {
-        color: #838ba0;
-        font-size: 4vw;
-        margin: 4vw 0 8vw 0; }
-      aside.my_windows_bet_record div.content.empty button {
-        color: #fff;
-        background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
-        background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-        background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-        background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
-        border: none;
-        border-radius: 3px;
-        font-size: 4vw;
-        padding: 2vw 10vw; }
 
 aside.jump_window {
   width: 100vw;
