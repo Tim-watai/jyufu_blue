@@ -1016,10 +1016,8 @@ main.market {
               transform: translate(0%, -50%);
               top: 50%;
               left: 0;
-              width: calc(50% - 20px); }
-              main.market aside ul li.beginner section.content span.counter div.country:first-child p,
-              main.market aside ul li.beginner section.content span.counter div.country:first-child span {
-                float: right; }
+              width: calc(50% - 20px);
+              text-align: right; }
               main.market aside ul li.beginner section.content span.counter div.country:first-child span {
                 margin: 0 0 0 5px; }
             main.market aside ul li.beginner section.content span.counter div.country:last-child {

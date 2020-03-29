@@ -783,10 +783,11 @@ main {
                           top: 50%;
                           left: 0;
                           width: calc(50% - 20px);
-                          p,
-                          span {
-                            float: right;
-                          }
+                          text-align: right;
+                          // p,
+                          // span {
+                          //   float: right;
+                          // }
                           span {
                             margin: 0 0 0 5px;
                           }
