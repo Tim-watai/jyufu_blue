@@ -4160,7 +4160,7 @@ aside.my_windows_bet_record {
           margin: 0 0 0 1.5vw; }
   aside.my_windows_bet_record div.content {
     height: calc(100vh - (5vh + 14vw)); }
-    aside.my_windows_bet_record div.content.empty {
+    aside.my_windows_bet_record div.content .empty_page {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -4174,18 +4174,18 @@ aside.my_windows_bet_record {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-      aside.my_windows_bet_record div.content.empty .empty_icon {
+      aside.my_windows_bet_record div.content .empty_page .empty_icon {
         background: url(../images/bet_record_empty.png) no-repeat;
         background-size: 100%;
         background-position: center;
         width: 50vw;
         height: 50vw;
         margin: 40vw 0 0 0; }
-      aside.my_windows_bet_record div.content.empty p {
+      aside.my_windows_bet_record div.content .empty_page p {
         color: #838ba0;
         font-size: 4vw;
         margin: 4vw 0 8vw 0; }
-      aside.my_windows_bet_record div.content.empty button {
+      aside.my_windows_bet_record div.content .empty_page button {
         color: #fff;
         background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
         background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
@@ -4195,6 +4195,25 @@ aside.my_windows_bet_record {
         border-radius: 3px;
         font-size: 4vw;
         padding: 2vw 10vw; }
+    aside.my_windows_bet_record div.content ul.record {
+      margin: 20px 3vw 0 3vw;
+      width: 94vw;
+      border: 1px solid #9ba1c5;
+      border-radius: 8px; }
+      aside.my_windows_bet_record div.content ul.record li {
+        padding: 10px 10px 10px 10px; }
+        aside.my_windows_bet_record div.content ul.record li.title {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          border-bottom: 1px solid #e0e3f3; }
+          aside.my_windows_bet_record div.content ul.record li.title p:first-child {
+            color: #d46571; }
+          aside.my_windows_bet_record div.content ul.record li.title p:last-child {
+            color: #838b9f; }
 
 aside.help {
   height: calc(100vh - 7vh);

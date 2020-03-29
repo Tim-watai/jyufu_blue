@@ -44,11 +44,12 @@ aside{
           }
           &.content {
             height: calc(100vh - (5vh + 14vw));
-            &.empty {
+            .empty_page {
               display: flex;
               flex-direction: column;
               justify-content: flex-start;
               align-items: center;
+              
               .empty_icon {
                 background: url(../images/bet_record_empty.png) no-repeat;
                 background-size: 100%;
@@ -69,6 +70,30 @@ aside{
                 border-radius: 3px;
                 font-size: 4vw;
                 padding: 2vw 10vw;
+              }
+            }
+            ul{
+              &.record{
+                margin: 20px 3vw 0 3vw;
+                width: 94vw;
+                border:1px solid #9ba1c5;
+                border-radius: 8px;
+                li{
+                  padding: 10px 10px 10px 10px;
+                  &.title{
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #e0e3f3;
+                    p{
+                      &:first-child{
+                        color: #d46571;
+                      }
+                      &:last-child{
+                        color: #838b9f;
+                      }
+                    }
+                  }
+                }
               }
             }
           }
