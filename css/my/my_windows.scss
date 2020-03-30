@@ -15,6 +15,7 @@ aside{
           &.header {
             position: fixed;
             width: 100%;
+            z-index: 1;
             ul {
               li {
                 &.title {
@@ -101,7 +102,7 @@ aside{
             line-height: 20vw;
             padding: 7vh 3vw 0 3vw;
             background: #fff;
-    
+            position: relative;
             div {
               &.avatar {
                 display: inline-block;

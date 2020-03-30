@@ -2929,7 +2929,8 @@ aside.my_windows {
     transform: translateX(0%); }
   aside.my_windows div.header {
     position: fixed;
-    width: 100%; }
+    width: 100%;
+    z-index: 1; }
     aside.my_windows div.header ul li.title {
       position: absolute;
       left: 50%;
@@ -3009,7 +3010,8 @@ aside.my_windows {
     height: calc(20vw + 7vh);
     line-height: 20vw;
     padding: 7vh 3vw 0 3vw;
-    background: #fff; }
+    background: #fff;
+    position: relative; }
     aside.my_windows div.hellocard div.avatar {
       display: inline-block;
       position: relative;
@@ -3939,6 +3941,347 @@ aside.jump_window.my_windwos_transfer_fail .windows {
           width: 1px;
           height: 100%;
           background: #e0e3f3; }
+
+aside.my_windows_mb {
+  width: 100vw;
+  height: 100vh;
+  background: #f7f7f7;
+  z-index: 400;
+  display: inline-block;
+  position: fixed;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  aside.my_windows_mb.active {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); }
+  aside.my_windows_mb div.header ul li.right {
+    font-size: 5vw;
+    color: #4d515d;
+    position: relative; }
+  aside.my_windows_mb div.mb_content {
+    background: #fff;
+    margin: 1vh 3vw 0 3vw;
+    width: 94vw;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 5px 1px #ececec;
+    box-shadow: 0 0 5px 1px #ececec; }
+    aside.my_windows_mb div.mb_content div.title {
+      width: 100%;
+      line-height: 25vw;
+      padding: 5vw 0 5px 5vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      position: relative; }
+      aside.my_windows_mb div.mb_content div.title p {
+        display: inline-block;
+        line-height: 1; }
+        aside.my_windows_mb div.mb_content div.title p.total {
+          color: #4d515d;
+          font-size: 4vw;
+          margin: 0 0 3vw 0; }
+        aside.my_windows_mb div.mb_content div.title p.num {
+          color: #4d515d;
+          font-size: 6.5vw;
+          font-weight: bold; }
+          aside.my_windows_mb div.mb_content div.title p.num span {
+            font-size: 3vw; }
+      aside.my_windows_mb div.mb_content div.title div.save_money {
+        position: absolute;
+        right: 5vw;
+        bottom: 5px;
+        line-height: 9vw;
+        display: inline-block;
+        width: 20vw;
+        text-align: center;
+        background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#495dc5));
+        background: -webkit-linear-gradient(left, #9aa6e3 0%, #495dc5 100%);
+        background: -o-linear-gradient(left, #9aa6e3 0%, #495dc5 100%);
+        background: linear-gradient(to right, #9aa6e3 0%, #495dc5 100%);
+        border-radius: 30px;
+        -webkit-box-shadow: 0 0 12px 0px #a7a5a5;
+        box-shadow: 0 0 12px 0px #a7a5a5; }
+        aside.my_windows_mb div.mb_content div.title div.save_money p {
+          color: #fff;
+          font-size: 4vw; }
+    aside.my_windows_mb div.mb_content div.btns {
+      text-align: center;
+      padding: 12vw 8vw 4vw 8vw; }
+      aside.my_windows_mb div.mb_content div.btns div {
+        display: inline-block;
+        text-align: center;
+        line-height: 1; }
+        aside.my_windows_mb div.mb_content div.btns div p {
+          color: #4d515d;
+          font-size: 4vw; }
+        aside.my_windows_mb div.mb_content div.btns div span {
+          display: inline-block; }
+        aside.my_windows_mb div.mb_content div.btns div.transfer {
+          float: left;
+          position: relative; }
+          aside.my_windows_mb div.mb_content div.btns div.transfer span.transfer_icon {
+            background: url(../images/translate.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            width: 8vw;
+            height: 9vw; }
+        aside.my_windows_mb div.mb_content div.btns div.take_out {
+          position: relative; }
+          aside.my_windows_mb div.mb_content div.btns div.take_out span.take_out_icon {
+            background: url(../images/get.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            width: 8vw;
+            height: 9vw; }
+        aside.my_windows_mb div.mb_content div.btns div.card {
+          float: right;
+          position: relative; }
+          aside.my_windows_mb div.mb_content div.btns div.card span.card_icon {
+            background: url(../images/my_card.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            width: 10vw;
+            height: 9vw; }
+    aside.my_windows_mb div.mb_content div.footer {
+      overflow: auto;
+      border-top: 1px solid #e0e3f3;
+      padding: 4vw 11vw 5vw 5vw;
+      line-height: 4vw;
+      position: relative; }
+      aside.my_windows_mb div.mb_content div.footer p {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 4vw; }
+        aside.my_windows_mb div.mb_content div.footer p.money_detail {
+          color: #4d515d;
+          float: left; }
+        aside.my_windows_mb div.mb_content div.footer p.balance {
+          color: #838ba0;
+          float: right; }
+          aside.my_windows_mb div.mb_content div.footer p.balance span.cross_icon {
+            display: inline-block;
+            width: 4vw;
+            height: 4vw;
+            background: url(../images/cross.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            vertical-align: baseline;
+            border-radius: 2px;
+            position: absolute;
+            right: 5vw;
+            bottom: 5.5vw; }
+  aside.my_windows_mb div.mb_event {
+    margin: 5vw 3vw 0 3vw;
+    width: 94vw; }
+    aside.my_windows_mb div.mb_event div.title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      position: relative;
+      padding: 0 4vw 0 2vw; }
+      aside.my_windows_mb div.mb_event div.title:before {
+        content: "";
+        width: 4px;
+        height: 4vw;
+        position: absolute;
+        border-radius: 8px;
+        top: 40%;
+        left: 0%;
+        -webkit-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        background-color: #b5c1ff; }
+      aside.my_windows_mb div.mb_event div.title h1,
+      aside.my_windows_mb div.mb_event div.title p {
+        display: inline-block; }
+      aside.my_windows_mb div.mb_event div.title h1 {
+        font-weight: bold;
+        color: #525661;
+        font-size: 5vw;
+        position: relative; }
+      aside.my_windows_mb div.mb_event div.title p {
+        font-size: 4vw;
+        color: #7181d4;
+        line-height: 4vw;
+        position: relative; }
+        aside.my_windows_mb div.mb_event div.title p span {
+          display: inline-block; }
+          aside.my_windows_mb div.mb_event div.title p span.arrow {
+            width: 2vw;
+            height: 2vw;
+            background: url(../images/arrow_lg.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            margin: 0 0 0 1vw;
+            position: absolute;
+            top: 0.5vw; }
+    aside.my_windows_mb div.mb_event div.events {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      line-height: 1;
+      padding: 5vw 3vw 0 3vw; }
+      aside.my_windows_mb div.mb_event div.events div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        aside.my_windows_mb div.mb_event div.events div span {
+          display: inline-block;
+          margin: 0 0 2vw 0; }
+        aside.my_windows_mb div.mb_event div.events div p {
+          display: inline-block;
+          color: #838ba0;
+          font-size: 3.5vw; }
+        aside.my_windows_mb div.mb_event div.events div.level_up span {
+          background: url(../images/flog.png) no-repeat;
+          background-size: 100%;
+          background-position: center center;
+          width: 7vw;
+          height: 8vw; }
+        aside.my_windows_mb div.mb_event div.events div.sign_in span {
+          background: url(../images/days.png) no-repeat;
+          background-size: 100%;
+          background-position: center center;
+          width: 7vw;
+          height: 8vw; }
+        aside.my_windows_mb div.mb_event div.events div.beginner_mission span {
+          background: url(../images/beginner_mission.png) no-repeat;
+          background-size: 100%;
+          background-position: center center;
+          width: 7vw;
+          height: 8vw; }
+        aside.my_windows_mb div.mb_event div.events div.gifts span {
+          background: url(../images/bag.png) no-repeat;
+          background-size: 100%;
+          background-position: center center;
+          width: 7vw;
+          height: 8vw; }
+  aside.my_windows_mb div.mb_banner {
+    padding: 0 3vw;
+    margin: 10vw 0 0 0; }
+    aside.my_windows_mb div.mb_banner div.banner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background: #ccd5ff;
+      height: 18vw;
+      border-radius: 40px;
+      padding: 0 5vw 0 0; }
+      aside.my_windows_mb div.mb_banner div.banner div.text_area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        aside.my_windows_mb div.mb_banner div.banner div.text_area h1 {
+          color: #5566c4;
+          font-size: 4.5vw;
+          margin: 2vw 0 0 0;
+          letter-spacing: 0.5px; }
+        aside.my_windows_mb div.mb_banner div.banner div.text_area p {
+          color: #5566c4;
+          font-size: 3vw;
+          margin: -1vw 0 0 0; }
+      aside.my_windows_mb div.mb_banner div.banner div.big_gift {
+        width: 29vw;
+        height: 18vw;
+        background: url(../images/big_gift.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        margin: 0 0 0 2vw; }
+  aside.my_windows_mb div.mb_record {
+    margin: 5vw 3vw 0 3vw;
+    width: 94vw; }
+    aside.my_windows_mb div.mb_record div.title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      position: relative;
+      padding: 0 4vw 0 2vw; }
+      aside.my_windows_mb div.mb_record div.title:before {
+        content: "";
+        width: 4px;
+        height: 4vw;
+        position: absolute;
+        border-radius: 8px;
+        top: 40%;
+        left: 0%;
+        -webkit-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        background-color: #b5c1ff; }
+      aside.my_windows_mb div.mb_record div.title h1,
+      aside.my_windows_mb div.mb_record div.title p {
+        display: inline-block; }
+      aside.my_windows_mb div.mb_record div.title h1 {
+        font-weight: bold;
+        color: #525661;
+        font-size: 5vw;
+        position: relative; }
+      aside.my_windows_mb div.mb_record div.title p {
+        font-size: 4vw;
+        color: #838ba0;
+        line-height: 4vw;
+        position: relative; }
+        aside.my_windows_mb div.mb_record div.title p span {
+          display: inline-block; }
+          aside.my_windows_mb div.mb_record div.title p span.arrow {
+            width: 2vw;
+            height: 2vw;
+            background: url(../images/arrow_lg.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            margin: 0 0 0 1vw;
+            position: absolute;
+            top: 0.5vw; }
+    aside.my_windows_mb div.mb_record div.content {
+      text-align: center;
+      margin: 5vw 0 0 0; }
+      aside.my_windows_mb div.mb_record div.content p {
+        color: #838ba0;
+        font-size: 3vw; }
 
 aside.my_windows_card {
   width: 100vw;
@@ -4978,7 +5321,8 @@ main {
         width: calc(100% / 3);
         text-align: center;
         margin-left: 28px;
-        line-height: 1.9vh; }
+        line-height: 1.9vh;
+        position: relative; }
         main section ul.profile li.u_option div p {
           font-size: 1.9vh; }
         main section ul.profile li.u_option div span {
@@ -5871,7 +6215,8 @@ aside.my_windows_mb {
     transform: translateX(0%); }
   aside.my_windows_mb div.header ul li.right {
     font-size: 5vw;
-    color: #4d515d; }
+    color: #4d515d;
+    position: relative; }
   aside.my_windows_mb div.mb_content {
     background: #fff;
     margin: 1vh 3vw 0 3vw;
@@ -5946,12 +6291,14 @@ aside.my_windows_mb {
             background-position: center center;
             width: 8vw;
             height: 9vw; }
-        aside.my_windows_mb div.mb_content div.btns div.take_out span.take_out_icon {
-          background: url(../images/get.png) no-repeat;
-          background-size: 100%;
-          background-position: center center;
-          width: 8vw;
-          height: 9vw; }
+        aside.my_windows_mb div.mb_content div.btns div.take_out {
+          position: relative; }
+          aside.my_windows_mb div.mb_content div.btns div.take_out span.take_out_icon {
+            background: url(../images/get.png) no-repeat;
+            background-size: 100%;
+            background-position: center center;
+            width: 8vw;
+            height: 9vw; }
         aside.my_windows_mb div.mb_content div.btns div.card {
           float: right;
           position: relative; }
