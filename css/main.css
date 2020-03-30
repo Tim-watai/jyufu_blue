@@ -292,7 +292,7 @@ section.message ul {
 section.waitting {
   text-align: center; }
   section.waitting .watting_icon {
-    background: url(../images/message_page/waitting.png) no-repeat;
+    background: url(../../images/message_page/wait.gif) no-repeat;
     background-size: 100%;
     background-position: center;
     width: 23px;
@@ -664,7 +664,7 @@ main.market {
     height: 100%;
     position: relative; }
     main.market aside.loading .loading_icon {
-      background: url(../../images/message_page/waitting.png) no-repeat;
+      background: url(../../images/message_page/wait.gif) no-repeat;
       background-size: 100%;
       background-position: center;
       width: 60px;
