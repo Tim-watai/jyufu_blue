@@ -1,0 +1,89 @@
+aside{
+    &.my_data_edit{
+        margin: calc(5vh + 10px) 0 0 0;
+        background: #fff;
+        padding: 0 0 7vh 0;
+        ul{
+            li{
+                padding: 10px 0 10px 0;
+                margin: 0 4vw;
+                border-bottom: 1px solid #e0e3f3;
+                position: relative;
+                p{
+                    &:first-child{
+                        color: #4d515d;
+                    }
+                    &:last-child{
+                        color: #838ba0;
+                    }
+                }
+                &.title{
+                    .avatar{
+                        background: url(../../../images/avatar.png)no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                        position: relative;
+                        width: 20vw;
+                        height: 20vw;
+                        &:before{
+                            content: '';
+                            position: absolute;
+                            right: 0;
+                            bottom: 0;
+                            width: 20px;
+                            height: 20px;
+                            background: url(../../../images/avatar_edit.png)no-repeat;
+                            background-size: 100%;
+                            background-position: center;
+                        }
+                    }
+                    p{
+                        &:first-child{
+                            margin: 0 0 8px 3px;
+                        }
+                    }
+                }
+                &.name{
+                    p{
+                        &:last-child{
+                            color: #4d515d;
+                        }
+                    }
+                }
+                &.arrow{
+                    &:before{
+                        content:'';
+                        position: absolute;
+                        right: 0;
+                        top: 10px;
+                        background: url(../../../images/arrow_lg.png)no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                        width: 8px;
+                        height: 16px;
+                    }
+                }
+                &.line_close{
+                    border-bottom: none;
+                }
+                &.footer{
+                    padding: 10px 4vw 10px 4vw;
+                    margin: 0;
+                    background: #f7f7f7;
+                    text-align: center;
+                    p{
+                        color: #838ba0;
+                        display: inline-block;
+                    }
+                    span{
+                        display: inline-block;
+                        position: relative;
+                        &.blue{
+                            color: #599bcf;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
