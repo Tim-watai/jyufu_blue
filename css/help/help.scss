@@ -35,7 +35,7 @@ aside{
             position: absolute;
             top: 60px;
             .avater{
-                background: url(../../images/avatar.png)no-repeat;
+                background: url(../images/avatar.png)no-repeat;
                 background-size: 100%;
                 background-position: center;
                 width: 50px;
@@ -72,7 +72,7 @@ aside{
                     background: #aec8eb;
                     .top_wrap{
                         .icon{
-                            background: url(../../images/help/icon_other.png)no-repeat;
+                            background: url(../images/help/icon_other.png)no-repeat;
                             background-size: 100%;
                             background-position: center;
                         }
@@ -84,7 +84,7 @@ aside{
                 .top_wrap{
                     line-height: 30px;
                     .icon{
-                        background: url(../../images/help/icon_24h.png)no-repeat;
+                        background: url(../images/help/icon_24h.png)no-repeat;
                         background-size: 100%;
                         background-position: center;
                         width: 30px;
@@ -108,7 +108,7 @@ aside{
                 &:before{
                     content:'';
                     position: absolute;
-                    background: url(../../images/help/36588_logo.png)no-repeat;
+                    background: url(../images/help/36588_logo.png)no-repeat;
                     background-size: 100%;
                     background-position: center;
                     right: 0;
