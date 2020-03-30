@@ -26,6 +26,10 @@ aside{
                     position: absolute;
                     top: 8px;
                     left: -3px;
+                    &:before{
+                        content:'';
+                        position: absolute;
+                    }
                 }
                 .time_wrap{
                     background: #fff;

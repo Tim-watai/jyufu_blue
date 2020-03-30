@@ -4277,7 +4277,6 @@ aside.my_windows_bet_record {
 aside.my_windows_t_record {
   margin: calc(5vh + 10px) 0 0 0;
   width: 100vw;
-  height: calc(100vh - (5vh + 10px));
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
@@ -4301,6 +4300,10 @@ aside.my_windows_t_record {
       aside.my_windows_t_record div.title .wrap:hover, aside.my_windows_t_record div.title .wrap:active, aside.my_windows_t_record div.title .wrap.active {
         border-bottom: 2px solid #7c87bc;
         color: #4d515d; }
+  aside.my_windows_t_record div.content {
+    height: calc(100vh - (5vh + 41px + 10px));
+    display: inline-block;
+    overflow-y: scroll; }
   aside.my_windows_t_record .empty_page {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4336,12 +4339,57 @@ aside.my_windows_t_record {
       border-radius: 3px;
       font-size: 4vw;
       padding: 2vw 10vw; }
+  aside.my_windows_t_record ul.yet.yet {
+    background: #f5f5f5; }
+    aside.my_windows_t_record ul.yet.yet li.title {
+      background: #bcbec9;
+      border-left: 1px solid #bcbec9;
+      border-right: 1px solid #bcbec9; }
+    aside.my_windows_t_record ul.yet.yet li p {
+      color: #a1a6b2; }
   aside.my_windows_t_record ul.t_record {
-    margin: 20px 4vw 0 4vw;
+    margin: 10px 4vw 0 4vw;
     width: 92vw;
-    border: 1px solid #9ba1c5;
     border-radius: 8px;
     background: #fff; }
+    aside.my_windows_t_record ul.t_record li {
+      font-size: 13px;
+      border-left: 1px solid #e0e3f3;
+      border-right: 1px solid #e0e3f3;
+      padding: 0 10px 0 10px; }
+      aside.my_windows_t_record ul.t_record li.title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        border-left: 1px solid #9ba1c5;
+        border-right: 1px solid #9ba1c5;
+        padding: 5px 10px 5px 10px;
+        background: #7b8bd7;
+        border-radius: 8px 8px 0px 0px; }
+        aside.my_windows_t_record ul.t_record li.title p {
+          color: #fff; }
+      aside.my_windows_t_record ul.t_record li .wrap {
+        width: 72px;
+        height: 30px;
+        line-height: 31px;
+        color: #4d515d;
+        display: inline-block; }
+        aside.my_windows_t_record ul.t_record li .wrap p {
+          display: inline-block; }
+        aside.my_windows_t_record ul.t_record li .wrap.no_limit {
+          width: auto; }
+        aside.my_windows_t_record ul.t_record li .wrap.right {
+          float: right;
+          width: auto; }
+        aside.my_windows_t_record ul.t_record li .wrap.blue {
+          color: #556de7; }
+      aside.my_windows_t_record ul.t_record li.line {
+        border-bottom: 1px solid #e0e3f3; }
+      aside.my_windows_t_record ul.t_record li.footer {
+        border-radius: 0 0 8px 8px; }
 
 aside.help {
   height: calc(100vh - 7vh);
@@ -4652,6 +4700,9 @@ aside.event {
         position: absolute;
         top: 8px;
         left: -3px; }
+        aside.event .event_content .card .new:before {
+          content: '';
+          position: absolute; }
       aside.event .event_content .card .time_wrap {
         background: #fff;
         position: absolute;
@@ -5902,7 +5953,8 @@ aside.my_windows_mb {
           width: 8vw;
           height: 9vw; }
         aside.my_windows_mb div.mb_content div.btns div.card {
-          float: right; }
+          float: right;
+          position: relative; }
           aside.my_windows_mb div.mb_content div.btns div.card span.card_icon {
             background: url(../images/my_card.png) no-repeat;
             background-size: 100%;

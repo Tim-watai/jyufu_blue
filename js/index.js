@@ -56,14 +56,14 @@ $(document).ready(function() {
         }
     });
   //切換_我的視窗
-  $('footer ul li.my ,aside.my_windows div.header ul li.close').click(function(){
-    if($('aside.my_windows').hasClass('active') !== true)
-    {
-      $('aside.my_windows').addClass('active');    
-    }else{
-      $('aside.my_windows').removeClass('active');   
-    }
-  });
+  // $('footer ul li.my ,aside.my_windows div.header ul li.close').click(function(){
+  //   if($('aside.my_windows').hasClass('active') !== true)
+  //   {
+  //     $('aside.my_windows').addClass('active');    
+  //   }else{
+  //     $('aside.my_windows').removeClass('active');   
+  //   }
+  // });
    //切換_我的視窗_設定
    $('aside.my_windows div.header ul li.option,aside div.get_out').click(function(){
     console.log('mb');
