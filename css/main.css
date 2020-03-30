@@ -3256,7 +3256,7 @@ aside.my_data_edit {
       aside.my_data_edit ul li p:last-child {
         color: #838ba0; }
       aside.my_data_edit ul li.title .avatar {
-        background: url(../../../images/avatar.png) no-repeat;
+        background: url(../images/avatar.png) no-repeat;
         background-size: 100%;
         background-position: center;
         position: relative;
@@ -3269,7 +3269,7 @@ aside.my_data_edit {
           bottom: 0;
           width: 20px;
           height: 20px;
-          background: url(../../../images/avatar_edit.png) no-repeat;
+          background: url(../images/avatar_edit.png) no-repeat;
           background-size: 100%;
           background-position: center; }
       aside.my_data_edit ul li.title p:first-child {
@@ -3281,7 +3281,7 @@ aside.my_data_edit {
         position: absolute;
         right: 0;
         top: 10px;
-        background: url(../../../images/arrow_lg.png) no-repeat;
+        background: url(../images/arrow_lg.png) no-repeat;
         background-size: 100%;
         background-position: center;
         width: 8px;
