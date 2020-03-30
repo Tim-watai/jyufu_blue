@@ -3224,61 +3224,63 @@ aside.my_data_edit {
   margin: calc(5vh + 10px) 0 0 0;
   background: #fff;
   padding: 0 0 7vh 0; }
-  aside.my_data_edit ul li {
-    padding: 10px 0 10px 0;
-    margin: 0 4vw;
-    border-bottom: 1px solid #e0e3f3;
+  aside.my_data_edit ul {
     position: relative; }
-    aside.my_data_edit ul li p:first-child {
-      color: #4d515d; }
-    aside.my_data_edit ul li p:last-child {
-      color: #838ba0; }
-    aside.my_data_edit ul li.title .avatar {
-      background: url(../../../images/avatar.png) no-repeat;
-      background-size: 100%;
-      background-position: center;
-      position: relative;
-      width: 20vw;
-      height: 20vw; }
-      aside.my_data_edit ul li.title .avatar:before {
+    aside.my_data_edit ul li {
+      padding: 10px 0 10px 0;
+      margin: 0 4vw;
+      border-bottom: 1px solid #e0e3f3;
+      position: relative; }
+      aside.my_data_edit ul li p:first-child {
+        color: #4d515d; }
+      aside.my_data_edit ul li p:last-child {
+        color: #838ba0; }
+      aside.my_data_edit ul li.title .avatar {
+        background: url(../../../images/avatar.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        position: relative;
+        width: 20vw;
+        height: 20vw; }
+        aside.my_data_edit ul li.title .avatar:before {
+          content: '';
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          width: 20px;
+          height: 20px;
+          background: url(../../../images/avatar_edit.png) no-repeat;
+          background-size: 100%;
+          background-position: center; }
+      aside.my_data_edit ul li.title p:first-child {
+        margin: 0 0 8px 3px; }
+      aside.my_data_edit ul li.name p:last-child {
+        color: #4d515d; }
+      aside.my_data_edit ul li.arrow:before {
         content: '';
         position: absolute;
         right: 0;
-        bottom: 0;
-        width: 20px;
-        height: 20px;
-        background: url(../../../images/avatar_edit.png) no-repeat;
+        top: 10px;
+        background: url(../../../images/arrow_lg.png) no-repeat;
         background-size: 100%;
-        background-position: center; }
-    aside.my_data_edit ul li.title p:first-child {
-      margin: 0 0 8px 3px; }
-    aside.my_data_edit ul li.name p:last-child {
-      color: #4d515d; }
-    aside.my_data_edit ul li.arrow:before {
-      content: '';
-      position: absolute;
-      right: 0;
-      top: 10px;
-      background: url(../../../images/arrow_lg.png) no-repeat;
-      background-size: 100%;
-      background-position: center;
-      width: 8px;
-      height: 16px; }
-    aside.my_data_edit ul li.line_close {
-      border-bottom: none; }
-    aside.my_data_edit ul li.footer {
-      padding: 10px 4vw 10px 4vw;
-      margin: 0;
-      background: #f7f7f7;
-      text-align: center; }
-      aside.my_data_edit ul li.footer p {
-        color: #838ba0;
-        display: inline-block; }
-      aside.my_data_edit ul li.footer span {
-        display: inline-block;
-        position: relative; }
-        aside.my_data_edit ul li.footer span.blue {
-          color: #599bcf; }
+        background-position: center;
+        width: 8px;
+        height: 16px; }
+      aside.my_data_edit ul li.line_close {
+        border-bottom: none; }
+      aside.my_data_edit ul li.footer {
+        padding: 10px 4vw 10px 4vw;
+        margin: 0;
+        background: #f7f7f7;
+        text-align: center; }
+        aside.my_data_edit ul li.footer p {
+          color: #838ba0;
+          display: inline-block; }
+        aside.my_data_edit ul li.footer span {
+          display: inline-block;
+          position: relative; }
+          aside.my_data_edit ul li.footer span.blue {
+            color: #599bcf; }
 
 aside.my_windows_set {
   width: 100vw;
