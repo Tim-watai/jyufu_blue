@@ -4289,6 +4289,59 @@ aside.my_windows_t_record {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
+  aside.my_windows_t_record div.title {
+    background: #fff;
+    padding: calc(5vh + 10px) 0 0 0;
+    margin: calc(-5vh - 10px) 0 0 0;
+    text-align: center;
+    color: #838ba0; }
+    aside.my_windows_t_record div.title .wrap {
+      display: inline-block;
+      padding: 5px 7vw 10px 7vw; }
+      aside.my_windows_t_record div.title .wrap:hover, aside.my_windows_t_record div.title .wrap:active, aside.my_windows_t_record div.title .wrap.active {
+        border-bottom: 2px solid #7c87bc;
+        color: #4d515d; }
+  aside.my_windows_t_record .empty_page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    aside.my_windows_t_record .empty_page .empty_icon {
+      background: url(../../../images/empty_t_record.png) no-repeat;
+      background-size: 100%;
+      background-position: center;
+      width: 50vw;
+      height: 50vw;
+      margin: 40vw 0 0 0; }
+    aside.my_windows_t_record .empty_page p {
+      color: #838ba0;
+      font-size: 4vw;
+      margin: 4vw 0 8vw 0; }
+    aside.my_windows_t_record .empty_page button {
+      color: #fff;
+      background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
+      background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
+      background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
+      background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
+      border: none;
+      border-radius: 3px;
+      font-size: 4vw;
+      padding: 2vw 10vw; }
+  aside.my_windows_t_record ul.t_record {
+    margin: 20px 4vw 0 4vw;
+    width: 92vw;
+    border: 1px solid #9ba1c5;
+    border-radius: 8px;
+    background: #fff; }
 
 aside.help {
   height: calc(100vh - 7vh);
@@ -4568,85 +4621,87 @@ aside.help_contact_us button {
   background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
   background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
-aside.event .event_content {
-  padding: 0 4vw;
-  background: #fff;
-  margin: 10px 0 0 0; }
-  aside.event .event_content .card {
-    background: url(../../images/event/banner_1.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 92vw;
-    height: 145px;
-    position: relative; }
-    aside.event .event_content .card .new {
-      background: #d14040;
-      background: -webkit-gradient(linear, left top, left bottom, from(#e45252), to(#b43434));
-      background: -webkit-linear-gradient(top, #e45252 0%, #b43434 100%);
-      background: -o-linear-gradient(top, #e45252 0%, #b43434 100%);
-      background: linear-gradient(to bottom, #e45252 0%, #b43434 100%);
-      width: auto;
-      line-height: 1;
-      -webkit-clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
-      clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
-      color: #fff;
-      font-style: italic;
-      display: inline-block;
-      padding: 5px 20px 4px 15px;
-      font-size: 12px;
-      position: absolute;
-      top: 8px;
-      left: -3px; }
-    aside.event .event_content .card .time_wrap {
-      background: #fff;
-      position: absolute;
-      bottom: 9px;
-      font-size: 12px;
-      color: #4d515d;
-      border-radius: 0 12px 12px 0;
-      padding: 0 12px 2px 12px; }
-      aside.event .event_content .card .time_wrap .icon {
-        background: url(../../images/event/clock.png) no-repeat;
-        background-size: 100%;
-        background-position: center;
-        width: 12px;
-        height: 12px;
+aside.event {
+  margin: calc(5vh + 10px) 0 0 0; }
+  aside.event .event_content {
+    padding: 0 4vw;
+    background: #fff;
+    margin: 10px 0 0 0; }
+    aside.event .event_content .card {
+      background: url(../../images/event/banner_1.png) no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 92vw;
+      height: 145px;
+      position: relative; }
+      aside.event .event_content .card .new {
+        background: #d14040;
+        background: -webkit-gradient(linear, left top, left bottom, from(#e45252), to(#b43434));
+        background: -webkit-linear-gradient(top, #e45252 0%, #b43434 100%);
+        background: -o-linear-gradient(top, #e45252 0%, #b43434 100%);
+        background: linear-gradient(to bottom, #e45252 0%, #b43434 100%);
+        width: auto;
+        line-height: 1;
+        -webkit-clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+        clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+        color: #fff;
+        font-style: italic;
         display: inline-block;
-        line-height: 1;
-        vertical-align: middle;
-        margin: 0 3px 0 0; }
-      aside.event .event_content .card .time_wrap p {
-        display: inline-block;
-        line-height: 1;
-        vertical-align: middle; }
-    aside.event .event_content .card .detail_wrap {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      background: -webkit-gradient(linear, left top, left bottom, from(#546ce6), to(#1c3380));
-      background: -webkit-linear-gradient(top, #546ce6 0%, #1c3380 100%);
-      background: -o-linear-gradient(top, #546ce6 0%, #1c3380 100%);
-      background: linear-gradient(to bottom, #546ce6 0%, #1c3380 100%);
-      color: #fff;
-      border-radius: 8px 0 8px 0;
-      font-size: 12px;
-      letter-spacing: 1px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      padding: 5px 5px 5px 10px;
-      width: 82px; }
-      aside.event .event_content .card .detail_wrap p {
-        line-height: 1;
-        margin: 0 5px 0 0;
-        width: 52px;
-        text-align: center; }
-      aside.event .event_content .card .detail_wrap .icon {
-        background: url(../../images/arrows_blue.png) no-repeat;
-        background-size: 100%;
-        background-position: center;
-        width: 10px;
-        height: 10px; }
+        padding: 5px 20px 4px 15px;
+        font-size: 12px;
+        position: absolute;
+        top: 8px;
+        left: -3px; }
+      aside.event .event_content .card .time_wrap {
+        background: #fff;
+        position: absolute;
+        bottom: 9px;
+        font-size: 12px;
+        color: #4d515d;
+        border-radius: 0 12px 12px 0;
+        padding: 0 12px 2px 12px; }
+        aside.event .event_content .card .time_wrap .icon {
+          background: url(../../images/event/clock.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 12px;
+          height: 12px;
+          display: inline-block;
+          line-height: 1;
+          vertical-align: middle;
+          margin: 0 3px 0 0; }
+        aside.event .event_content .card .time_wrap p {
+          display: inline-block;
+          line-height: 1;
+          vertical-align: middle; }
+      aside.event .event_content .card .detail_wrap {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: -webkit-gradient(linear, left top, left bottom, from(#546ce6), to(#1c3380));
+        background: -webkit-linear-gradient(top, #546ce6 0%, #1c3380 100%);
+        background: -o-linear-gradient(top, #546ce6 0%, #1c3380 100%);
+        background: linear-gradient(to bottom, #546ce6 0%, #1c3380 100%);
+        color: #fff;
+        border-radius: 8px 0 8px 0;
+        font-size: 12px;
+        letter-spacing: 1px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 5px 5px 5px 10px;
+        width: 82px; }
+        aside.event .event_content .card .detail_wrap p {
+          line-height: 1;
+          margin: 0 5px 0 0;
+          width: 52px;
+          text-align: center; }
+        aside.event .event_content .card .detail_wrap .icon {
+          background: url(../../images/arrows_blue.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 10px;
+          height: 10px; }
 
 .clearfix {
   display: block;
