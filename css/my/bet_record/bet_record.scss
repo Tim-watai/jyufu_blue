@@ -74,16 +74,21 @@ aside{
             }
             ul{
               &.record{
-                margin: 20px 3vw 0 3vw;
-                width: 94vw;
+                margin: 20px 4vw 0 4vw;
+                width: 92vw;
                 border:1px solid #9ba1c5;
                 border-radius: 8px;
+                background: #fff;
                 li{
-                  padding: 10px 10px 10px 10px;
+                  
+                  display: flex;
+                  font-size: 13px;
+                  border-bottom: 1px solid #e0e3f3;
                   &.title{
                     display: flex;
                     justify-content: space-between;
                     border-bottom: 1px solid #e0e3f3;
+                    padding: 5px 10px 5px 10px;
                     p{
                       &:first-child{
                         color: #d46571;
@@ -92,6 +97,64 @@ aside{
                         color: #838b9f;
                       }
                     }
+                  }
+                  .wrap{
+                    width: 72px;
+                    height: 30px;
+                    border-right: 1px solid #e0e3f3;
+                    display: flex;
+                    align-items: center;
+                    background: #f7f8fc;
+                    color: #4d515d;
+                    &.no_limit{
+                      width: auto;
+                      border-right: none;
+                      background: #fff;
+                    }
+                    &.wrap_2{
+                      width: 80px;
+                      border-right: none;
+                      background: #fff;
+                    }
+                    
+                    p{
+                      padding: 0 0 0 10px;
+                    }
+                  }
+                  .wrap_footer{
+                    width: auto;
+                    height: auto;
+                    padding: 5px 10px 5px 10px;
+                    border-radius: 8px 8px 8px 8px;
+                    border-right: none;
+                    color: #4d515d;
+                    p{
+                      position: relative;
+                      &:before{
+                        content: '';
+                        position: absolute;
+                        right: -10px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        width: 1px;
+                        height: 18px;
+                        background: #e0e3f3;
+                      }
+                    }
+                  }
+                  .blue{
+                    color: #556de7;
+                  }
+                  .green{
+                    color: #36a500;
+                  }
+                  .white_red.white_red{
+                    color: #fff;
+                    background: #d46572;
+                    line-height: 1;
+                    padding: 3px;
+                    margin: 0 0 0 10px;
+                    border-radius: 3px;
                   }
                 }
               }

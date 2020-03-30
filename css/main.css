@@ -4196,12 +4196,17 @@ aside.my_windows_bet_record {
         font-size: 4vw;
         padding: 2vw 10vw; }
     aside.my_windows_bet_record div.content ul.record {
-      margin: 20px 3vw 0 3vw;
-      width: 94vw;
+      margin: 20px 4vw 0 4vw;
+      width: 92vw;
       border: 1px solid #9ba1c5;
-      border-radius: 8px; }
+      border-radius: 8px;
+      background: #fff; }
       aside.my_windows_bet_record div.content ul.record li {
-        padding: 10px 10px 10px 10px; }
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 13px;
+        border-bottom: 1px solid #e0e3f3; }
         aside.my_windows_bet_record div.content ul.record li.title {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -4209,11 +4214,81 @@ aside.my_windows_bet_record {
           -webkit-box-pack: justify;
           -ms-flex-pack: justify;
           justify-content: space-between;
-          border-bottom: 1px solid #e0e3f3; }
+          border-bottom: 1px solid #e0e3f3;
+          padding: 5px 10px 5px 10px; }
           aside.my_windows_bet_record div.content ul.record li.title p:first-child {
             color: #d46571; }
           aside.my_windows_bet_record div.content ul.record li.title p:last-child {
             color: #838b9f; }
+        aside.my_windows_bet_record div.content ul.record li .wrap {
+          width: 72px;
+          height: 30px;
+          border-right: 1px solid #e0e3f3;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          background: #f7f8fc;
+          color: #4d515d; }
+          aside.my_windows_bet_record div.content ul.record li .wrap.no_limit {
+            width: auto;
+            border-right: none;
+            background: #fff; }
+          aside.my_windows_bet_record div.content ul.record li .wrap.wrap_2 {
+            width: 80px;
+            border-right: none;
+            background: #fff; }
+          aside.my_windows_bet_record div.content ul.record li .wrap p {
+            padding: 0 0 0 10px; }
+        aside.my_windows_bet_record div.content ul.record li .wrap_footer {
+          width: auto;
+          height: auto;
+          padding: 5px 10px 5px 10px;
+          border-radius: 8px 8px 8px 8px;
+          border-right: none;
+          color: #4d515d; }
+          aside.my_windows_bet_record div.content ul.record li .wrap_footer p {
+            position: relative; }
+            aside.my_windows_bet_record div.content ul.record li .wrap_footer p:before {
+              content: '';
+              position: absolute;
+              right: -10px;
+              top: 50%;
+              -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+              width: 1px;
+              height: 18px;
+              background: #e0e3f3; }
+        aside.my_windows_bet_record div.content ul.record li .blue {
+          color: #556de7; }
+        aside.my_windows_bet_record div.content ul.record li .green {
+          color: #36a500; }
+        aside.my_windows_bet_record div.content ul.record li .white_red.white_red {
+          color: #fff;
+          background: #d46572;
+          line-height: 1;
+          padding: 3px;
+          margin: 0 0 0 10px;
+          border-radius: 3px; }
+
+aside.my_windows_t_record {
+  margin: calc(5vh + 10px) 0 0 0;
+  width: 100vw;
+  height: calc(100vh - (5vh + 10px));
+  background: #f7f7f7;
+  z-index: 0;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  aside.my_windows_t_record.active {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); }
 
 aside.help {
   height: calc(100vh - 7vh);
@@ -5670,24 +5745,6 @@ aside.title_windows {
               -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
               white-space: nowrap; }
-
-aside.my_windows_t_record {
-  width: 100vw;
-  height: 100vh;
-  background: #f7f7f7;
-  z-index: 400;
-  display: inline-block;
-  position: fixed;
-  -webkit-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  transform: translateX(100%);
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out; }
-  aside.my_windows_t_record.active {
-    -webkit-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    transform: translateX(0%); }
 
 aside.my_windows_mb {
   width: 100vw;

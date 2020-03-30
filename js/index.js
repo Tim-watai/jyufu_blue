@@ -102,15 +102,15 @@ $(document).ready(function() {
     }
   });
    //切換_我的視窗_交易紀錄
-   $('aside.my_windows_t_record div.header ul li.back , aside.my_windows div.group ul li.my_tr').click(function(){
+  //  $('aside.my_windows_t_record div.header ul li.back , aside.my_windows div.group ul li.my_tr').click(function(){
    
-    if($('aside.my_windows_t_record').hasClass('active') !== true)
-    {
-      return $('aside.my_windows_t_record').addClass('active');    
-    }else{
-      return $('aside.my_windows_t_record').removeClass('active');   
-    }
-  });
+  //   if($('aside.my_windows_t_record').hasClass('active') !== true)
+  //   {
+  //     return $('aside.my_windows_t_record').addClass('active');    
+  //   }else{
+  //     return $('aside.my_windows_t_record').removeClass('active');   
+  //   }
+  // });
 
 
   //切換_我的視窗_錢包
