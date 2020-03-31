@@ -3,14 +3,10 @@ aside{
         width: 100vw;
         height: 100vh;
         background: #f7f7f7;
-        z-index: 400;
+        z-index: 0;
         display: inline-block;
         position: fixed;
-        transform: translateX(100%);
         transition: all 0.4s ease-in-out;
-        &.active {
-          transform: translateX(0%);
-        }
         div {
           &.header {
             position: fixed;
@@ -350,6 +346,78 @@ aside{
                     margin: 0 0 0 3vw;
                     line-height: 1;
                     vertical-align: sub;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &.title_windows {
+        display: none;
+        z-index: 500;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        &.active {
+          display: block;
+        }
+        ul {
+          &.bg {
+            position: relative;
+            top: 30%;
+            width: 88vw;
+            height: 33vh;
+            background-color: #fff;
+            margin: 0 auto;
+            border-radius: 15px;
+            li {
+              font-family: "微軟正黑體";
+              font-weight: normal;
+              text-align: center;
+              &.title {
+                text-align: center;
+                font-size: 2.6vh;
+                color: #313030;
+                padding: 6% 0 0 0;
+                height: 20%;
+                margin: 0 0 0 0;
+              }
+              &.content {
+                color: #838ba0;
+                padding: 3% 10% 0 10%;
+                font-size: 2.1vh;
+                line-height: 26px;
+                height: 60%;
+              }
+              &.footer {
+                height: 20%;
+                border-top: 1px solid #e1e1e1;
+                font-size: 2.6vh;
+                color: #313030;
+                white-space: nowrap;
+                div {
+                  display: inline-block;
+                  &:first-child {
+                    border-right: 2px solid #e1e1e1;
+                  }
+                  &.detail {
+                    color: #2d43b6;
+                  }
+                  &.close,
+                  &.detail {
+                    position: relative;
+                    width: 50%;
+                    height: 100%;
+                    p {
+                      position: absolute;
+                      display: inline-block;
+                      left: 50%;
+                      top: 50%;
+                      transform: translate(-50%, -50%);
+                      white-space: nowrap;
+                    }
                   }
                 }
               }

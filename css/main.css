@@ -2159,7 +2159,7 @@ aside.now_bet_empty {
       padding: 40px 20px 40px 20px;
       border-radius: 8px; }
       aside.now_bet_empty .wrap .box .empty_icon {
-        background: url(../../images/market/empty_bet.png) no-repeat;
+        background: url(../images/market/empty_bet.png) no-repeat;
         background-size: 100%;
         background-position: center;
         width: 260px;
@@ -2934,19 +2934,12 @@ aside.my_windows {
   width: 100vw;
   height: 100vh;
   background: #f7f7f7;
-  z-index: 400;
+  z-index: 0;
   display: inline-block;
   position: fixed;
-  -webkit-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  transform: translateX(100%);
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
-  aside.my_windows.active {
-    -webkit-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    transform: translateX(0%); }
   aside.my_windows div.header {
     position: fixed;
     width: 100%;
@@ -3239,6 +3232,66 @@ aside.my_windows {
           margin: 0 0 0 3vw;
           line-height: 1;
           vertical-align: sub; }
+
+aside.title_windows {
+  display: none;
+  z-index: 500;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed; }
+  aside.title_windows.active {
+    display: block; }
+  aside.title_windows ul.bg {
+    position: relative;
+    top: 30%;
+    width: 88vw;
+    height: 33vh;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 15px; }
+    aside.title_windows ul.bg li {
+      font-family: "微軟正黑體";
+      font-weight: normal;
+      text-align: center; }
+      aside.title_windows ul.bg li.title {
+        text-align: center;
+        font-size: 2.6vh;
+        color: #313030;
+        padding: 6% 0 0 0;
+        height: 20%;
+        margin: 0 0 0 0; }
+      aside.title_windows ul.bg li.content {
+        color: #838ba0;
+        padding: 3% 10% 0 10%;
+        font-size: 2.1vh;
+        line-height: 26px;
+        height: 60%; }
+      aside.title_windows ul.bg li.footer {
+        height: 20%;
+        border-top: 1px solid #e1e1e1;
+        font-size: 2.6vh;
+        color: #313030;
+        white-space: nowrap; }
+        aside.title_windows ul.bg li.footer div {
+          display: inline-block; }
+          aside.title_windows ul.bg li.footer div:first-child {
+            border-right: 2px solid #e1e1e1; }
+          aside.title_windows ul.bg li.footer div.detail {
+            color: #2d43b6; }
+          aside.title_windows ul.bg li.footer div.close, aside.title_windows ul.bg li.footer div.detail {
+            position: relative;
+            width: 50%;
+            height: 100%; }
+            aside.title_windows ul.bg li.footer div.close p, aside.title_windows ul.bg li.footer div.detail p {
+              position: absolute;
+              display: inline-block;
+              left: 50%;
+              top: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              white-space: nowrap; }
 
 aside.my_data_edit {
   margin: calc(5vh + 10px) 0 0 0;
@@ -5256,6 +5309,20 @@ header {
           height: 23%;
           background-color: red;
           border-radius: 100px; }
+      header ul li.option {
+        position: relative;
+        display: inline-block;
+        float: right;
+        margin: 2px 5vw 0 0;
+        width: 4vw;
+        height: 4vw;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background: url(../images/option.png) no-repeat;
+        background-size: cover;
+        background-position: center center; }
 
 main {
   width: 100%;
@@ -6217,66 +6284,6 @@ aside.hot_windows {
       background-position: center center;
       right: 5%;
       top: 5%; }
-
-aside.title_windows {
-  display: none;
-  z-index: 500;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: fixed; }
-  aside.title_windows.active {
-    display: block; }
-  aside.title_windows ul.bg {
-    position: relative;
-    top: 30%;
-    width: 88vw;
-    height: 33vh;
-    background-color: #fff;
-    margin: 0 auto;
-    border-radius: 15px; }
-    aside.title_windows ul.bg li {
-      font-family: "微軟正黑體";
-      font-weight: normal;
-      text-align: center; }
-      aside.title_windows ul.bg li.title {
-        text-align: center;
-        font-size: 2.6vh;
-        color: #313030;
-        padding: 6% 0 0 0;
-        height: 20%;
-        margin: 0 0 0 0; }
-      aside.title_windows ul.bg li.content {
-        color: #838ba0;
-        padding: 3% 10% 0 10%;
-        font-size: 2.1vh;
-        line-height: 26px;
-        height: 60%; }
-      aside.title_windows ul.bg li.footer {
-        height: 20%;
-        border-top: 1px solid #e1e1e1;
-        font-size: 2.6vh;
-        color: #313030;
-        white-space: nowrap; }
-        aside.title_windows ul.bg li.footer div {
-          display: inline-block; }
-          aside.title_windows ul.bg li.footer div:first-child {
-            border-right: 2px solid #e1e1e1; }
-          aside.title_windows ul.bg li.footer div.detail {
-            color: #2d43b6; }
-          aside.title_windows ul.bg li.footer div.close, aside.title_windows ul.bg li.footer div.detail {
-            position: relative;
-            width: 50%;
-            height: 100%; }
-            aside.title_windows ul.bg li.footer div.close p, aside.title_windows ul.bg li.footer div.detail p {
-              position: absolute;
-              display: inline-block;
-              left: 50%;
-              top: 50%;
-              -webkit-transform: translate(-50%, -50%);
-              -ms-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
-              white-space: nowrap; }
 
 aside.my_windows_mb {
   width: 100vw;
