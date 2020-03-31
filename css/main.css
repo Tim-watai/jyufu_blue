@@ -5150,87 +5150,127 @@ aside.help_contact_us button {
 aside.event {
   margin: calc(5vh + 10px) 0 0 0; }
   aside.event .event_content {
-    padding: 0 4vw;
+    padding: 10px 4vw 10px 4vw;
     background: #fff;
-    margin: 10px 0 0 0; }
-    aside.event .event_content .card {
-      background: url(../images/event/banner_1.png) no-repeat;
-      background-size: cover;
-      background-position: center;
-      width: 92vw;
-      height: 145px;
-      position: relative; }
-      aside.event .event_content .card .new {
-        background: #d14040;
-        background: -webkit-gradient(linear, left top, left bottom, from(#e45252), to(#b43434));
-        background: -webkit-linear-gradient(top, #e45252 0%, #b43434 100%);
-        background: -o-linear-gradient(top, #e45252 0%, #b43434 100%);
-        background: linear-gradient(to bottom, #e45252 0%, #b43434 100%);
-        width: auto;
-        line-height: 1;
-        -webkit-clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
-        clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
-        color: #fff;
-        font-style: italic;
-        display: inline-block;
-        padding: 5px 20px 4px 15px;
-        font-size: 12px;
-        position: absolute;
-        top: 8px;
-        left: -3px; }
-        aside.event .event_content .card .new:before {
-          content: '';
-          position: absolute; }
-      aside.event .event_content .card .time_wrap {
-        background: #fff;
-        position: absolute;
-        bottom: 9px;
-        font-size: 12px;
+    margin: 0 0 0; }
+    aside.event .event_content .card_wrap {
+      padding: 0 0 10px 0;
+      -webkit-box-shadow: 0px 0px 5px 5px #ececec;
+      box-shadow: 0px 0px 5px 5px #ececec;
+      border-radius: 8px; }
+      aside.event .event_content .card_wrap .card {
+        background: url(../images/event/banner_1.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 92vw;
+        height: 145px;
+        position: relative; }
+        aside.event .event_content .card_wrap .card:before {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 5px 5px 0px;
+          border-color: transparent #472424 transparent;
+          top: 28px;
+          left: -5px; }
+        aside.event .event_content .card_wrap .card .new {
+          background: #d14040;
+          background: -webkit-gradient(linear, left top, left bottom, from(#e45252), to(#b43434));
+          background: -webkit-linear-gradient(top, #e45252 0%, #b43434 100%);
+          background: -o-linear-gradient(top, #e45252 0%, #b43434 100%);
+          background: linear-gradient(to bottom, #e45252 0%, #b43434 100%);
+          width: auto;
+          line-height: 1;
+          -webkit-clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+          clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+          color: #fff;
+          font-style: italic;
+          display: inline-block;
+          padding: 5px 20px 4px 15px;
+          font-size: 12px;
+          position: absolute;
+          top: 8px;
+          left: -5px; }
+        aside.event .event_content .card_wrap .card .time_wrap {
+          background: #fff;
+          position: absolute;
+          bottom: 9px;
+          font-size: 12px;
+          color: #4d515d;
+          border-radius: 0 12px 12px 0;
+          padding: 0 12px 2px 12px; }
+          aside.event .event_content .card_wrap .card .time_wrap .icon {
+            background: url(../images/event/clock.png) no-repeat;
+            background-size: 100%;
+            background-position: center;
+            width: 12px;
+            height: 12px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            margin: 0 3px 0 0; }
+          aside.event .event_content .card_wrap .card .time_wrap p {
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle; }
+        aside.event .event_content .card_wrap .card .detail_wrap {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          background: -webkit-gradient(linear, left top, left bottom, from(#546ce6), to(#1c3380));
+          background: -webkit-linear-gradient(top, #546ce6 0%, #1c3380 100%);
+          background: -o-linear-gradient(top, #546ce6 0%, #1c3380 100%);
+          background: linear-gradient(to bottom, #546ce6 0%, #1c3380 100%);
+          color: #fff;
+          border-radius: 8px 0 8px 0;
+          font-size: 12px;
+          letter-spacing: 1px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          padding: 5px 5px 5px 10px;
+          width: 82px; }
+          aside.event .event_content .card_wrap .card .detail_wrap p {
+            line-height: 1;
+            margin: 0 5px 0 0;
+            width: 52px;
+            text-align: center; }
+          aside.event .event_content .card_wrap .card .detail_wrap .icon {
+            background: url(../images/arrows_blue.png) no-repeat;
+            background-size: 100%;
+            background-position: center;
+            width: 10px;
+            height: 10px; }
+      aside.event .event_content .card_wrap .card_inner h1 {
+        text-align: center;
+        color: #cfa37b;
+        padding: 20px 0 10px 0;
+        font-size: 18px; }
+      aside.event .event_content .card_wrap .card_inner .subtitle_wrap {
         color: #4d515d;
-        border-radius: 0 12px 12px 0;
-        padding: 0 12px 2px 12px; }
-        aside.event .event_content .card .time_wrap .icon {
-          background: url(../../images/event/clock.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 12px;
-          height: 12px;
-          display: inline-block;
-          line-height: 1;
-          vertical-align: middle;
-          margin: 0 3px 0 0; }
-        aside.event .event_content .card .time_wrap p {
-          display: inline-block;
-          line-height: 1;
-          vertical-align: middle; }
-      aside.event .event_content .card .detail_wrap {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        background: -webkit-gradient(linear, left top, left bottom, from(#546ce6), to(#1c3380));
-        background: -webkit-linear-gradient(top, #546ce6 0%, #1c3380 100%);
-        background: -o-linear-gradient(top, #546ce6 0%, #1c3380 100%);
-        background: linear-gradient(to bottom, #546ce6 0%, #1c3380 100%);
-        color: #fff;
-        border-radius: 8px 0 8px 0;
-        font-size: 12px;
-        letter-spacing: 1px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        padding: 5px 5px 5px 10px;
-        width: 82px; }
-        aside.event .event_content .card .detail_wrap p {
-          line-height: 1;
-          margin: 0 5px 0 0;
-          width: 52px;
-          text-align: center; }
-        aside.event .event_content .card .detail_wrap .icon {
-          background: url(../../images/arrows_blue.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 10px;
-          height: 10px; }
+        padding: 0 0 0 10px; }
+      aside.event .event_content .card_wrap .card_inner h2 {
+        text-align: center;
+        color: #d2aa85;
+        padding: 20px 0 10px 0;
+        font-size: 17px; }
+      aside.event .event_content .card_wrap .card_inner .detail_wrap li {
+        padding: 0 0 0 25px;
+        margin: 0 0 10px 0;
+        color: #987657;
+        position: relative;
+        font-size: 14px; }
+        aside.event .event_content .card_wrap .card_inner .detail_wrap li:before {
+          content: '';
+          position: absolute;
+          top: 8px;
+          left: 14px;
+          width: 6px;
+          height: 6px;
+          background: #987657;
+          border-radius: 8px; }
 
 .clearfix {
   display: block;

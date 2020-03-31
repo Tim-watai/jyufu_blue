@@ -12,7 +12,7 @@ $(document).ready(function() {
     }
   });
   //切換_我的視窗_設定
-  $('header ul li.option').click(function(){
+  $('header ul li.option , aside div.header ul li.back').click(function(){
     console.log('mb');
     if($('aside.my_windows_set').hasClass('active') !== true)
     {
