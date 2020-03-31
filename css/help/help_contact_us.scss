@@ -1,5 +1,14 @@
 aside {
   &.help_contact_us {
+    margin: calc(5vh + 10px) 0 0 0;
+    width: 100vw;
+    height: calc(100vh - 5vh - 10px);
+    background: #f7f7f7;
+    z-index: 0;
+    display: inline-block;
+    position: fixed;
+    overflow-y: scroll;
+    padding: 0 0 100px 0;
     ul {
       &.contact_us {
         background: #fff;
@@ -39,28 +48,28 @@ aside {
             padding: 0px 7vw;
             border-right: 1px solid #e0e3f3;
             .icon_mail {
-              background: url(../../images/help/mail_icon.png) no-repeat;
+              background: url(../images/help/mail_icon.png) no-repeat;
               background-size: 100%;
               background-position: center;
               width: 35px;
               height: 26px;
             }
             .icon_qq{
-                background: url(../../images/help/qq_icon.png) no-repeat;
+                background: url(../images/help/qq_icon.png) no-repeat;
               background-size: 100%;
               background-position: center;
               width: 35px;
               height: 38px;
             }
             .icon_skype{
-                background: url(../../images/help/skype_icon.png) no-repeat;
+                background: url(../images/help/skype_icon.png) no-repeat;
               background-size: 100%;
               background-position: center;
               width: 35px;
               height: 38px;
             }
             .icon_s{
-                background: url(../../images/help/s_icon.png) no-repeat;
+                background: url(../images/help/s_icon.png) no-repeat;
               background-size: 100%;
               background-position: center;
               width: 35px;

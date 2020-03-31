@@ -1,0 +1,88 @@
+aside {
+  &.my_windows_mb_take_out {
+    margin: calc(5vh + 10px) 0 0 0;
+    width: 100vw;
+    height: calc(100vh - 5vh - 10px);
+    background: #f7f7f7;
+    z-index: 0;
+    display: inline-block;
+    position: fixed;
+    overflow-y: scroll;
+    padding: 0 0 100px 0;
+    div {
+      &.content {
+        width: 100vw;
+        padding: 0 3vw 0 3vw;
+        background: #fff;
+        ul {
+          li {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #e0e3f3;
+            padding: 3vw 0 3vw 0;
+            &:last-child {
+              border-bottom: none;
+              input {
+                border: 1px solid #e0e3f3;
+                color: #4d515d;
+                border-radius: 4px;
+                padding: 2vw 0 2vw 2vw;
+              }
+            }
+            p {
+              display: inline-block;
+              font-size: 4.3vw;
+              &:first-child {
+                color: #4d515d;
+                width: 22vw;
+                padding: 0 0 0 2vw;
+                font-weight: bold;
+              }
+              &:last-child {
+                color: #838ba0;
+              }
+            }
+          }
+        }
+      }
+      &.btn_area {
+        text-align: center;
+        padding: 3vw 3vw 0 3vw;
+        button {
+          width: 100%;
+          margin: 0 0 2vw 0;
+          padding: 3vw 0 3vw 0;
+          background: #fff;
+          border: none;
+          color: #bec2cc;
+          font-size: 5vw;
+          border-radius: 8px;
+          font-weight: bold;
+          &.active {
+            background: linear-gradient(to right, #99a6e3 0%, #485cc4 100%);
+            color: #fff;
+          }
+        }
+        p {
+          display: inline-block;
+          color: #838ba0;
+          font-size: 4vw;
+        }
+      }
+      &.note {
+        background: #fff;
+        margin: 0 3vw 0 3vw;
+        padding: 3vw;
+        border-radius: 8px;
+        h1 {
+          font-size: 4vw;
+          color: #4d515d;
+        }
+        p {
+          font-size: 4vw;
+          color: #838ba0;
+        }
+      }
+    }
+  }
+}

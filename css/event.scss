@@ -1,6 +1,7 @@
 aside {
   &.event {
     margin: calc(5vh + 10px) 0 0 0;
+    padding: 0 0 100px 0;
     .event_content {
     padding: 10px 4vw 10px 4vw;
       background: #fff;
@@ -9,13 +10,27 @@ aside {
                 padding: 0 0 10px 0;
                 box-shadow: 0px 0px 5px 5px #ececec;
                 border-radius: 8px;
+                margin: 0 0 10px 0;
               .card {
-                background: url(../images/event/banner_1.png) no-repeat;
-                background-size: cover;
-                background-position: center;
+                
                 width: 92vw;
                 height: 145px;
                 position: relative;
+                &.c1{
+                background: url(../images/event/banner_1.png) no-repeat;
+                background-size: cover;
+                background-position: center;
+                }
+                &.c2{
+                  background: url(../images/event/banner_2.png) no-repeat;
+                  background-size: cover;
+                  background-position: center;
+                  }
+                  &.c3{
+                    background: url(../images/event/banner_3.png) no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    }
                 &:before {
                   content: "";
                   position: absolute;
