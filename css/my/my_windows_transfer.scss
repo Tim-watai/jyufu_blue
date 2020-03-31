@@ -1,37 +1,19 @@
 aside {
   &.my_windows_mb_transfer {
+    margin: calc(5vh + 10px) 0 0 0;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 5vh - 10px);
     background: #f7f7f7;
-    z-index: 500;
+    z-index: 0;
     display: inline-block;
     position: fixed;
-    transform: translateX(100%);
-    transition: all 0.4s ease-in-out;
     overflow-y: scroll;
-    &.active {
-      transform: translateX(0%);
-    }
+    padding: 0 0 100px 0;
     div {
-      &.header {
-        ul {
-          padding: 0 7vw 0 3vw;
-          li {
-            &.question {
-              background: url(../images/question.png) no-repeat;
-              background-size: 100%;
-              background-position: center;
-              width: 5vw;
-              height: 5vh;
-              position: relative;
-            }
-          }
-        }
-      }
+   
       &.content {
         background: #fff;
         width: 100vw;
-        margin: 1vh 0 0 0;
         padding: 0 3vw 0 3vw;
         div {
           border-bottom: 1px solid #e0e3f3;

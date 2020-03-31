@@ -1,15 +1,16 @@
 aside{
     &.my_windows_card{
-        width: 100vw;
-        height: 100vh;
-        background: #f7f7f7;
-        z-index: 500;
-        display: inline-block;
-        position: fixed;
-        transition: all 0.4s ease-in-out;
+      margin: calc(5vh + 10px) 0 0 0;
+      width: 100vw;
+      height: calc(100vh - 5vh - 10px);
+      background: #f7f7f7;
+      z-index: 0;
+      display: inline-block;
+      position: fixed;
+      overflow-y: scroll;
+      padding: 0 0 100px 0;
         div{
             &.empty{
-              margin: 1vh 0 0 0;
               text-align: center;
               .empty_icon{
                 background: url(../images/card_empty.png) no-repeat;
@@ -133,7 +134,6 @@ aside{
               }
             }
             &.add_now{
-                margin: 1vh 0 0 0;
                 .warp{
                     background: #fff;
                 }
@@ -153,6 +153,9 @@ aside{
                         display: flex;
                         padding: 10px 3vw 10px 3vw;
                         border-bottom: 1px solid #e0e3f3;
+                        &:last-child{
+                          border-bottom: none;
+                        }
                         &:not(.city):not(.bank){
                             justify-content: space-between;
                             input{

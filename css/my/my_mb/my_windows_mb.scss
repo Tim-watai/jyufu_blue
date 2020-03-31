@@ -1,28 +1,13 @@
 aside{
     &.my_windows_mb {
+      margin: calc(5vh + 10px) 0 0 0;
         width: 100vw;
-        height: 100vh;
+        height: calc(100vh - 5vh - 10px);
         background: #f7f7f7;
-        z-index: 400;
+        z-index: 0;
         display: inline-block;
         position: fixed;
-        transform: translateX(100%);
-        transition: all 0.4s ease-in-out;
-        &.active {
-          transform: translateX(0%);
-        }
         div {
-          &.header {
-            ul {
-              li {
-                &.right {
-                  font-size: 5vw;
-                  color: #4d515d;
-                  position: relative;
-                }
-              }
-            }
-          }
           &.mb_content {
             background: #fff;
             margin: 1vh 3vw 0 3vw;

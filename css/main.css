@@ -3531,36 +3531,18 @@ aside.my_windows_help_inner {
       padding: 15px 0 0 0; }
 
 aside.my_windows_mb_transfer {
+  margin: calc(5vh + 10px) 0 0 0;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
-  z-index: 500;
+  z-index: 0;
   display: inline-block;
   position: fixed;
-  -webkit-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  transform: translateX(100%);
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  overflow-y: scroll; }
-  aside.my_windows_mb_transfer.active {
-    -webkit-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    transform: translateX(0%); }
-  aside.my_windows_mb_transfer div.header ul {
-    padding: 0 7vw 0 3vw; }
-    aside.my_windows_mb_transfer div.header ul li.question {
-      background: url(../images/question.png) no-repeat;
-      background-size: 100%;
-      background-position: center;
-      width: 5vw;
-      height: 5vh;
-      position: relative; }
+  overflow-y: scroll;
+  padding: 0 0 100px 0; }
   aside.my_windows_mb_transfer div.content {
     background: #fff;
     width: 100vw;
-    margin: 1vh 0 0 0;
     padding: 0 3vw 0 3vw; }
     aside.my_windows_mb_transfer div.content div {
       border-bottom: 1px solid #e0e3f3; }
@@ -4097,26 +4079,13 @@ aside.jump_window.my_windwos_transfer_fail .windows {
           background: #e0e3f3; }
 
 aside.my_windows_mb {
+  margin: calc(5vh + 10px) 0 0 0;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
-  z-index: 400;
+  z-index: 0;
   display: inline-block;
-  position: fixed;
-  -webkit-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  transform: translateX(100%);
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out; }
-  aside.my_windows_mb.active {
-    -webkit-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    transform: translateX(0%); }
-  aside.my_windows_mb div.header ul li.right {
-    font-size: 5vw;
-    color: #4d515d;
-    position: relative; }
+  position: fixed; }
   aside.my_windows_mb div.mb_content {
     background: #fff;
     margin: 1vh 3vw 0 3vw;
@@ -4437,18 +4406,407 @@ aside.my_windows_mb {
         color: #838ba0;
         font-size: 3vw; }
 
-aside.my_windows_card {
+aside.my_windows_mb_save {
+  margin: calc(5vh + 10px) 0 0 0;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
-  z-index: 500;
+  z-index: 0;
   display: inline-block;
   position: fixed;
+  overflow-y: scroll;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
-  aside.my_windows_card div.empty {
+  aside.my_windows_mb_save h1.title {
+    text-align: left;
+    border-bottom: 1px solid #e0e3f3;
+    padding: 3vw 0 3vw 0;
+    font-size: 4.5vw;
+    line-height: 1;
+    vertical-align: bottom;
+    color: #4d515d; }
+  aside.my_windows_mb_save div.content {
     margin: 1vh 0 0 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff; }
+    aside.my_windows_mb_save div.content .pay_type {
+      padding: 3vw 0 0vw 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      aside.my_windows_mb_save div.content .pay_type .disabled {
+        border: none;
+        width: 21vw;
+        height: 20vw; }
+      aside.my_windows_mb_save div.content .pay_type .warp {
+        border: 1px solid #e0e3f3;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 21vw;
+        height: 20vw;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin: 0 0 3vw 0;
+        position: relative; }
+        aside.my_windows_mb_save div.content .pay_type .warp.push:before {
+          content: "";
+          position: absolute;
+          right: 2px;
+          top: 2px;
+          background: url(../images/push.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 12px;
+          height: 12px; }
+        aside.my_windows_mb_save div.content .pay_type .warp:hover, aside.my_windows_mb_save div.content .pay_type .warp:active, aside.my_windows_mb_save div.content .pay_type .warp.active {
+          background: #556de7;
+          color: #fff; }
+          aside.my_windows_mb_save div.content .pay_type .warp:hover:after, aside.my_windows_mb_save div.content .pay_type .warp:active:after, aside.my_windows_mb_save div.content .pay_type .warp.active:after {
+            content: "";
+            position: absolute;
+            right: 3px;
+            bottom: 3px;
+            width: 15px;
+            height: 15px;
+            background: url(../images/pay_check.png) no-repeat;
+            background-size: 100%; }
+          aside.my_windows_mb_save div.content .pay_type .warp:hover span, aside.my_windows_mb_save div.content .pay_type .warp:active span, aside.my_windows_mb_save div.content .pay_type .warp.active span {
+            background: url(../images/my_mb_pay_icon_h.png) no-repeat;
+            background-size: cover; }
+          aside.my_windows_mb_save div.content .pay_type .warp:hover p, aside.my_windows_mb_save div.content .pay_type .warp:active p, aside.my_windows_mb_save div.content .pay_type .warp.active p {
+            color: #fff; }
+          aside.my_windows_mb_save div.content .pay_type .warp:hover.push:before, aside.my_windows_mb_save div.content .pay_type .warp:active.push:before, aside.my_windows_mb_save div.content .pay_type .warp.active.push:before {
+            background: url(../images/push_h.png) no-repeat;
+            background-size: 100%;
+            background-position: center; }
+        aside.my_windows_mb_save div.content .pay_type .warp span {
+          background: url(../images/my_mb_pay_icon.png) no-repeat;
+          background-size: cover;
+          width: 25px;
+          height: 20px; }
+          aside.my_windows_mb_save div.content .pay_type .warp span.i1 {
+            background-position: 0 0; }
+          aside.my_windows_mb_save div.content .pay_type .warp span.i2 {
+            background-position: -24px 0; }
+          aside.my_windows_mb_save div.content .pay_type .warp span.i3 {
+            background-position: -48px 0; }
+          aside.my_windows_mb_save div.content .pay_type .warp span.i4 {
+            background-position: -71px 0; }
+          aside.my_windows_mb_save div.content .pay_type .warp span.i5 {
+            background-position: -95px 0; }
+          aside.my_windows_mb_save div.content .pay_type .warp span.i6 {
+            background-position: -119px 0; }
+          aside.my_windows_mb_save div.content .pay_type .warp span.i7 {
+            background-position: -144px 0; }
+        aside.my_windows_mb_save div.content .pay_type .warp p {
+          margin: 9px 0 0 0;
+          font-size: 3.8vw;
+          color: #4d515d; }
+  aside.my_windows_mb_save div.save_choice_type {
+    margin: 1vh 0 1vh 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff; }
+    aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 0 5vw 0 3vw; }
+      aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp span {
+        background: url(../images/wechat_c.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 20px;
+        height: 20px; }
+      aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:hover span, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:active span, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp.active span {
+        background: url(../images/wechat_c_h.png) no-repeat;
+        background-size: 100%;
+        background-position: center; }
+      aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:hover p, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:active p, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp.active p {
+        color: #fff; }
+      aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:after {
+        display: none; }
+  aside.my_windows_mb_save div.save_name {
+    margin: 1vh 0 1vh 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff; }
+    aside.my_windows_mb_save div.save_name .box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 3vw 0 3vw 0;
+      border-bottom: 1px solid #e0e3f3; }
+      aside.my_windows_mb_save div.save_name .box p, aside.my_windows_mb_save div.save_name .box input {
+        font-size: 4.5vw; }
+      aside.my_windows_mb_save div.save_name .box p {
+        color: #4d515d;
+        margin: 0 20px 0 0;
+        line-height: 1; }
+      aside.my_windows_mb_save div.save_name .box input {
+        border: none; }
+        aside.my_windows_mb_save div.save_name .box input::-webkit-input-placeholder {
+          color: #838ba0; }
+        aside.my_windows_mb_save div.save_name .box input:-ms-input-placeholder {
+          color: #838ba0; }
+        aside.my_windows_mb_save div.save_name .box input::-ms-input-placeholder {
+          color: #838ba0; }
+        aside.my_windows_mb_save div.save_name .box input::placeholder {
+          color: #838ba0; }
+    aside.my_windows_mb_save div.save_name p.subtitle {
+      color: #838ba0;
+      font-size: 4vw;
+      padding: 5px 0 5px 0; }
+  aside.my_windows_mb_save div.alipay_type {
+    margin: 1vh 0 1vh 0;
+    padding: 1vh 3vw 1vh 3vw;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    aside.my_windows_mb_save div.alipay_type .warp {
+      width: 45.5vw;
+      text-align: center;
+      border: 1px solid #e0e3f3;
+      border-radius: 8px; }
+      aside.my_windows_mb_save div.alipay_type .warp p {
+        font-size: 3.8vw;
+        color: #4d515d;
+        padding: 1.5vw 0 1.5vw 0; }
+      aside.my_windows_mb_save div.alipay_type .warp:hover, aside.my_windows_mb_save div.alipay_type .warp:active, aside.my_windows_mb_save div.alipay_type .warp.active {
+        background: #556de7;
+        border: none; }
+        aside.my_windows_mb_save div.alipay_type .warp:hover p, aside.my_windows_mb_save div.alipay_type .warp:active p, aside.my_windows_mb_save div.alipay_type .warp.active p {
+          color: #fff; }
+  aside.my_windows_mb_save div.choice_bank {
+    margin: 1vh 0 1vh 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff;
+    line-height: 10vw; }
+    aside.my_windows_mb_save div.choice_bank p {
+      font-size: 4.5vw;
+      display: inline-block; }
+    aside.my_windows_mb_save div.choice_bank span {
+      display: inline-block;
+      float: right;
+      background: url(../images/arrow_gray.png) no-repeat;
+      background-position: center center;
+      background-size: 100%;
+      width: 4vw;
+      height: 4vw;
+      margin: 3vw 0 0 0; }
+  aside.my_windows_mb_save div .save_type {
+    padding: 3vw 0 0vw 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    aside.my_windows_mb_save div .save_type .disabled {
+      border: none;
+      width: 21vw;
+      height: 12vw; }
+    aside.my_windows_mb_save div .save_type .warp {
+      border: 1px solid #e0e3f3;
+      display: inline-block;
+      width: 21vw;
+      height: 12vw;
+      text-align: center;
+      white-space: nowrap;
+      border-radius: 8px;
+      margin: 0 0 3vw 0;
+      position: relative;
+      line-height: 12vw; }
+      aside.my_windows_mb_save div .save_type .warp:hover, aside.my_windows_mb_save div .save_type .warp:active, aside.my_windows_mb_save div .save_type .warp.active {
+        background: #556de7;
+        color: #fff; }
+        aside.my_windows_mb_save div .save_type .warp:hover:after, aside.my_windows_mb_save div .save_type .warp:active:after, aside.my_windows_mb_save div .save_type .warp.active:after {
+          content: "";
+          position: absolute;
+          right: 3px;
+          bottom: 3px;
+          width: 15px;
+          height: 15px;
+          background: url(../images/pay_check.png) no-repeat;
+          background-size: 100%; }
+        aside.my_windows_mb_save div .save_type .warp:hover span, aside.my_windows_mb_save div .save_type .warp:active span, aside.my_windows_mb_save div .save_type .warp.active span {
+          color: #fff; }
+        aside.my_windows_mb_save div .save_type .warp:hover p, aside.my_windows_mb_save div .save_type .warp:active p, aside.my_windows_mb_save div .save_type .warp.active p {
+          color: #fff; }
+      aside.my_windows_mb_save div .save_type .warp.other {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        aside.my_windows_mb_save div .save_type .warp.other span,
+        aside.my_windows_mb_save div .save_type .warp.other p {
+          font-size: 3vw;
+          line-height: 1; }
+        aside.my_windows_mb_save div .save_type .warp.other p {
+          color: #838ba0; }
+        aside.my_windows_mb_save div .save_type .warp.other:hover span,
+        aside.my_windows_mb_save div .save_type .warp.other:hover p, aside.my_windows_mb_save div .save_type .warp.other:active span,
+        aside.my_windows_mb_save div .save_type .warp.other:active p, aside.my_windows_mb_save div .save_type .warp.other.active span,
+        aside.my_windows_mb_save div .save_type .warp.other.active p {
+          color: #fff; }
+      aside.my_windows_mb_save div .save_type .warp span,
+      aside.my_windows_mb_save div .save_type .warp p {
+        display: inline-block; }
+      aside.my_windows_mb_save div .save_type .warp span {
+        font-size: 3vw; }
+      aside.my_windows_mb_save div .save_type .warp p {
+        font-size: 5vw;
+        color: #4d515d; }
+  aside.my_windows_mb_save div.save_page {
+    margin: 1vh 0 1vh 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff; }
+    aside.my_windows_mb_save div.save_page .save_type {
+      padding: 3vw 0 0vw 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      aside.my_windows_mb_save div.save_page .save_type .disabled {
+        border: none;
+        width: 21vw;
+        height: 10vw; }
+      aside.my_windows_mb_save div.save_page .save_type .warp {
+        border: 1px solid #e0e3f3;
+        display: inline-block;
+        width: 21vw;
+        height: 12vw;
+        text-align: center;
+        white-space: nowrap;
+        border-radius: 8px;
+        margin: 0 0 3vw 0;
+        position: relative;
+        line-height: 12vw; }
+        aside.my_windows_mb_save div.save_page .save_type .warp:hover, aside.my_windows_mb_save div.save_page .save_type .warp:active, aside.my_windows_mb_save div.save_page .save_type .warp.active {
+          background: #556de7;
+          color: #fff; }
+          aside.my_windows_mb_save div.save_page .save_type .warp:hover:after, aside.my_windows_mb_save div.save_page .save_type .warp:active:after, aside.my_windows_mb_save div.save_page .save_type .warp.active:after {
+            content: "";
+            position: absolute;
+            right: 3px;
+            bottom: 3px;
+            width: 15px;
+            height: 15px;
+            background: url(../images/pay_check.png) no-repeat;
+            background-size: 100%; }
+          aside.my_windows_mb_save div.save_page .save_type .warp:hover span, aside.my_windows_mb_save div.save_page .save_type .warp:active span, aside.my_windows_mb_save div.save_page .save_type .warp.active span {
+            color: #fff; }
+          aside.my_windows_mb_save div.save_page .save_type .warp:hover p, aside.my_windows_mb_save div.save_page .save_type .warp:active p, aside.my_windows_mb_save div.save_page .save_type .warp.active p {
+            color: #fff; }
+        aside.my_windows_mb_save div.save_page .save_type .warp.other {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+          aside.my_windows_mb_save div.save_page .save_type .warp.other span,
+          aside.my_windows_mb_save div.save_page .save_type .warp.other p {
+            font-size: 3vw;
+            line-height: 1; }
+          aside.my_windows_mb_save div.save_page .save_type .warp.other p {
+            color: #838ba0;
+            margin: 3px 0 0 0; }
+          aside.my_windows_mb_save div.save_page .save_type .warp.other:hover span,
+          aside.my_windows_mb_save div.save_page .save_type .warp.other:hover p, aside.my_windows_mb_save div.save_page .save_type .warp.other:active span,
+          aside.my_windows_mb_save div.save_page .save_type .warp.other:active p, aside.my_windows_mb_save div.save_page .save_type .warp.other.active span,
+          aside.my_windows_mb_save div.save_page .save_type .warp.other.active p {
+            color: #fff; }
+        aside.my_windows_mb_save div.save_page .save_type .warp span,
+        aside.my_windows_mb_save div.save_page .save_type .warp p {
+          display: inline-block; }
+        aside.my_windows_mb_save div.save_page .save_type .warp span {
+          font-size: 3vw; }
+        aside.my_windows_mb_save div.save_page .save_type .warp p {
+          font-size: 5vw;
+          color: #4d515d; }
+    aside.my_windows_mb_save div.save_page p.point {
+      font-size: 3.8vw;
+      color: #838ba0; }
+  aside.my_windows_mb_save div.service_push {
+    margin: 1vh 0 1vh 0;
+    padding: 0 3vw 3vw 3vw;
+    background: #fff; }
+    aside.my_windows_mb_save div.service_push h1.title {
+      border: none; }
+    aside.my_windows_mb_save div.service_push p {
+      color: #838ba0;
+      font-size: 3.8vw; }
+  aside.my_windows_mb_save button.save_now {
+    width: 94vw;
+    line-height: 12vw;
+    margin: 0 3vw;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 4.5vw;
+    background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
+    background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
+
+aside.my_windows_card {
+  margin: calc(5vh + 10px) 0 0 0;
+  width: 100vw;
+  height: calc(100vh - 5vh - 10px);
+  background: #f7f7f7;
+  z-index: 0;
+  display: inline-block;
+  position: fixed;
+  overflow-y: scroll;
+  padding: 0 0 100px 0; }
+  aside.my_windows_card div.empty {
     text-align: center; }
     aside.my_windows_card div.empty .empty_icon {
       background: url(../images/card_empty.png) no-repeat;
@@ -4551,71 +4909,71 @@ aside.my_windows_card {
         margin: 0 0 4vw 0;
         display: inline-block;
         font-size: 4.3vw; }
-  aside.my_windows_card div.add_now {
-    margin: 1vh 0 0 0; }
-    aside.my_windows_card div.add_now .warp {
-      background: #fff; }
-    aside.my_windows_card div.add_now h1 {
-      text-align: center;
-      color: #4d515d;
-      padding: 10px 0 10px 0;
-      border-bottom: 1px solid #e0e3f3;
-      margin: 0 3vw 0 3vw; }
-    aside.my_windows_card div.add_now ul {
-      padding: 0 3vw 0 3vw; }
-      aside.my_windows_card div.add_now ul li {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        padding: 10px 3vw 10px 3vw;
-        border-bottom: 1px solid #e0e3f3; }
-        aside.my_windows_card div.add_now ul li:not(.city):not(.bank) {
-          -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-          justify-content: space-between; }
-          aside.my_windows_card div.add_now ul li:not(.city):not(.bank) input {
-            width: 64vw; }
-        aside.my_windows_card div.add_now ul li.bank input {
-          margin: 0 0 0 7vw; }
-        aside.my_windows_card div.add_now ul li.city {
-          white-space: nowrap; }
-          aside.my_windows_card div.add_now ul li.city p {
-            margin: 0 7vw 0 0; }
-          aside.my_windows_card div.add_now ul li.city input {
-            width: 29vw; }
-            aside.my_windows_card div.add_now ul li.city input:last-child {
-              margin: 0 0 0 6vw; }
-        aside.my_windows_card div.add_now ul li p {
-          color: #4d515d; }
-        aside.my_windows_card div.add_now ul li input {
-          border: 1px solid #b9bfdc;
-          border-radius: 4px;
-          padding: 5px; }
-          aside.my_windows_card div.add_now ul li input::-webkit-input-placeholder {
-            font-size: 16px;
-            color: #838ba0; }
-          aside.my_windows_card div.add_now ul li input:-ms-input-placeholder {
-            font-size: 16px;
-            color: #838ba0; }
-          aside.my_windows_card div.add_now ul li input::-ms-input-placeholder {
-            font-size: 16px;
-            color: #838ba0; }
-          aside.my_windows_card div.add_now ul li input::placeholder {
-            font-size: 16px;
-            color: #838ba0; }
-    aside.my_windows_card div.add_now button {
-      width: 70vw;
-      margin: 15px 15vw 0 15vw;
-      padding: 12px 0;
-      border-radius: 8px;
-      border: none;
-      color: #fff;
-      font-size: 16px;
-      font-weight: bold;
-      background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
-      background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
-      background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
-      background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
+  aside.my_windows_card div.add_now .warp {
+    background: #fff; }
+  aside.my_windows_card div.add_now h1 {
+    text-align: center;
+    color: #4d515d;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #e0e3f3;
+    margin: 0 3vw 0 3vw; }
+  aside.my_windows_card div.add_now ul {
+    padding: 0 3vw 0 3vw; }
+    aside.my_windows_card div.add_now ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 10px 3vw 10px 3vw;
+      border-bottom: 1px solid #e0e3f3; }
+      aside.my_windows_card div.add_now ul li:last-child {
+        border-bottom: none; }
+      aside.my_windows_card div.add_now ul li:not(.city):not(.bank) {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        aside.my_windows_card div.add_now ul li:not(.city):not(.bank) input {
+          width: 64vw; }
+      aside.my_windows_card div.add_now ul li.bank input {
+        margin: 0 0 0 7vw; }
+      aside.my_windows_card div.add_now ul li.city {
+        white-space: nowrap; }
+        aside.my_windows_card div.add_now ul li.city p {
+          margin: 0 7vw 0 0; }
+        aside.my_windows_card div.add_now ul li.city input {
+          width: 29vw; }
+          aside.my_windows_card div.add_now ul li.city input:last-child {
+            margin: 0 0 0 6vw; }
+      aside.my_windows_card div.add_now ul li p {
+        color: #4d515d; }
+      aside.my_windows_card div.add_now ul li input {
+        border: 1px solid #b9bfdc;
+        border-radius: 4px;
+        padding: 5px; }
+        aside.my_windows_card div.add_now ul li input::-webkit-input-placeholder {
+          font-size: 16px;
+          color: #838ba0; }
+        aside.my_windows_card div.add_now ul li input:-ms-input-placeholder {
+          font-size: 16px;
+          color: #838ba0; }
+        aside.my_windows_card div.add_now ul li input::-ms-input-placeholder {
+          font-size: 16px;
+          color: #838ba0; }
+        aside.my_windows_card div.add_now ul li input::placeholder {
+          font-size: 16px;
+          color: #838ba0; }
+  aside.my_windows_card div.add_now button {
+    width: 70vw;
+    margin: 15px 15vw 0 15vw;
+    padding: 12px 0;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
+    background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.my_windows_bet_record {
   margin: calc(5vh + 10px) 0 0 0;
@@ -5382,6 +5740,19 @@ header {
         background: url(../images/option.png) no-repeat;
         background-size: cover;
         background-position: center center; }
+      header ul li.right_text {
+        display: inline-block;
+        position: relative;
+        float: right;
+        font-size: 20px;
+        color: #4d515d; }
+      header ul li.question_icon {
+        background: url(../images/question.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 5vw;
+        height: 5vh;
+        position: relative; }
 
 main {
   width: 100%;
@@ -6343,6 +6714,89 @@ aside.hot_windows {
       background-position: center center;
       right: 5%;
       top: 5%; }
+
+aside.my_windows_mb_take_out {
+  width: 100vw;
+  height: 100vh;
+  background: #f7f7f7;
+  z-index: 500;
+  display: inline-block;
+  position: fixed;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  aside.my_windows_mb_take_out.active {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%); }
+  aside.my_windows_mb_take_out div.content {
+    width: 100vw;
+    margin: 1vh 0 0 0;
+    padding: 0 3vw 0 3vw;
+    background: #fff; }
+    aside.my_windows_mb_take_out div.content ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-bottom: 1px solid #e0e3f3;
+      padding: 3vw 0 3vw 0; }
+      aside.my_windows_mb_take_out div.content ul li:last-child {
+        border-bottom: none; }
+        aside.my_windows_mb_take_out div.content ul li:last-child input {
+          border: 1px solid #e0e3f3;
+          color: #4d515d;
+          border-radius: 4px;
+          padding: 2vw 0 2vw 2vw; }
+      aside.my_windows_mb_take_out div.content ul li p {
+        display: inline-block;
+        font-size: 4.3vw; }
+        aside.my_windows_mb_take_out div.content ul li p:first-child {
+          color: #4d515d;
+          width: 22vw;
+          padding: 0 0 0 2vw;
+          font-weight: bold; }
+        aside.my_windows_mb_take_out div.content ul li p:last-child {
+          color: #838ba0; }
+  aside.my_windows_mb_take_out div.btn_area {
+    text-align: center;
+    padding: 3vw 3vw 0 3vw; }
+    aside.my_windows_mb_take_out div.btn_area button {
+      width: 100%;
+      margin: 0 0 2vw 0;
+      padding: 3vw 0 3vw 0;
+      background: #fff;
+      border: none;
+      color: #bec2cc;
+      font-size: 5vw;
+      border-radius: 8px;
+      font-weight: bold; }
+      aside.my_windows_mb_take_out div.btn_area button.active {
+        background: -webkit-gradient(linear, left top, right top, from(#99a6e3), to(#485cc4));
+        background: -webkit-linear-gradient(left, #99a6e3 0%, #485cc4 100%);
+        background: -o-linear-gradient(left, #99a6e3 0%, #485cc4 100%);
+        background: linear-gradient(to right, #99a6e3 0%, #485cc4 100%);
+        color: #fff; }
+    aside.my_windows_mb_take_out div.btn_area p {
+      display: inline-block;
+      color: #838ba0;
+      font-size: 4vw; }
+  aside.my_windows_mb_take_out div.note {
+    background: #fff;
+    margin: 0 3vw 0 3vw;
+    padding: 3vw;
+    border-radius: 8px; }
+    aside.my_windows_mb_take_out div.note h1 {
+      font-size: 4vw;
+      color: #4d515d; }
+    aside.my_windows_mb_take_out div.note p {
+      font-size: 4vw;
+      color: #838ba0; }
 
 aside.jump_window {
   width: 100vw;
