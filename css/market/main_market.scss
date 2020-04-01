@@ -1333,58 +1333,41 @@ main {
 
 footer {
   ul {
-    li {
-      &.teach {
-        span {
-          background: url(../images/market/teach.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          width: 20px;
-          height: 24px;
-          display: inline-block;
+    &.market{
+      li {
+        span{
+            background: url(../images/footer_icons_market.png) no-repeat;
+            background-size: cover;
+            background-position: center center;
         }
-      }
-      &.set_table {
-        span {
-          background: url(../images/market/set_table.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          width: 25px;
-          height: 24px;
-          display: inline-block;
+        &.teach {
+          span {
+            background-position: 0 0;
+          }
         }
-      }
-      &.not_yet {
-        span {
-          background: url(../images/market/not_yet.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          width: 22px;
-          height: 24px;
-          display: inline-block;
+        &.set_table {
+          span {
+            background-position: -24px 0;
+          }
         }
-      }
-      &.yes_do {
-        span {
-          background: url(../images/market/yes_do.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          width: 22px;
-          height: 24px;
-          display: inline-block;
+        &.not_yet {
+          span {
+            background-position: -51px 0;
+          }
         }
-      }
-      &.refresh {
-        span {
-          background: url(../images/market/refresh.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          width: 22px;
-          height: 24px;
-          display: inline-block;
+        &.yes_do {
+          span {
+            background-position: -76px 0;
+          }
+        }
+        &.refresh {
+          span {
+            background-position: -100px 0;
+          }
         }
       }
     }
+   
   }
 }
 aside {

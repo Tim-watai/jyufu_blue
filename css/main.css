@@ -1451,45 +1451,25 @@ main.market {
                     font-size: 1.7vh;
                     font-weight: bold; }
 
-footer ul li.teach span {
-  background: url(../images/market/teach.png) no-repeat;
+footer ul.market li span {
+  background: url(../images/footer_icons_market.png) no-repeat;
   background-size: cover;
-  background-position: center center;
-  width: 20px;
-  height: 24px;
-  display: inline-block; }
+  background-position: center center; }
 
-footer ul li.set_table span {
-  background: url(../images/market/set_table.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 25px;
-  height: 24px;
-  display: inline-block; }
+footer ul.market li.teach span {
+  background-position: 0 0; }
 
-footer ul li.not_yet span {
-  background: url(../images/market/not_yet.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 22px;
-  height: 24px;
-  display: inline-block; }
+footer ul.market li.set_table span {
+  background-position: -24px 0; }
 
-footer ul li.yes_do span {
-  background: url(../images/market/yes_do.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 22px;
-  height: 24px;
-  display: inline-block; }
+footer ul.market li.not_yet span {
+  background-position: -51px 0; }
 
-footer ul li.refresh span {
-  background: url(../images/market/refresh.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 22px;
-  height: 24px;
-  display: inline-block; }
+footer ul.market li.yes_do span {
+  background-position: -76px 0; }
+
+footer ul.market li.refresh span {
+  background-position: -100px 0; }
 
 aside.bet_window {
   display: none;
