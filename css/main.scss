@@ -895,6 +895,11 @@ footer {
         span {
           background-position: -86px -1px;
         }
+        &.active {
+          span {
+            background-position: -84px -27px;
+          }
+        }
       }
       &.my {
         span {

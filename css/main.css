@@ -6476,6 +6476,8 @@ footer {
         background-position: -56px -27px; }
       footer ul li.donate span {
         background-position: -86px -1px; }
+      footer ul li.donate.active span {
+        background-position: -84px -27px; }
       footer ul li.my span {
         background-position: -111px -1px; }
       footer ul li.my.active span {
