@@ -1,0 +1,11 @@
+aside{
+    &.help_board_my{
+        padding: calc(5vh + 10px) 0 100px 0;
+        width: 100vw;
+        height: calc(100vh - 5vh - 10px);
+        background: #f7f7f7;
+        z-index: 0;
+        display: inline-block;
+        position: fixed;
+    }
+}

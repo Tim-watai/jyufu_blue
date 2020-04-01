@@ -5506,16 +5506,48 @@ aside.help_board {
     background: #fff;
     padding: 20px 4vw 15px 4vw;
     color: #838ba0;
-    line-height: 20px; }
+    line-height: 20px;
+    position: relative; }
+    aside.help_board .board_content .choice_q:hover .drow {
+      display: inline; }
+    aside.help_board .board_content .choice_q:hover .arrow {
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg); }
+    aside.help_board .board_content .choice_q .drow {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 55px;
+      background: #fff;
+      z-index: 1;
+      width: 100%;
+      -webkit-box-shadow: 0 2px 5px 0 #dadada;
+      box-shadow: 0 2px 5px 0 #dadada;
+      border-radius: 0 0 20px 20px; }
+      aside.help_board .board_content .choice_q .drow li {
+        padding: 20px 4vw 15px 4vw;
+        border-bottom: 1px solid #e0e3f3;
+        color: #4d515d; }
+        aside.help_board .board_content .choice_q .drow li:first-child {
+          border-top: 1px solid #e0e3f3; }
+        aside.help_board .board_content .choice_q .drow li:last-child {
+          border-bottom: none; }
     aside.help_board .board_content .choice_q .arrow {
       background: url(../images/arrow_lg.png);
       background-size: 100%;
       background-position: center;
+      -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg);
       width: 10px;
       height: 16px;
       display: inline-block;
       vertical-align: top;
-      float: right; }
+      float: right;
+      -webkit-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
   aside.help_board .board_content textarea {
     width: 100%;
     border: none;
@@ -5568,6 +5600,15 @@ aside.help_board {
     background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
     background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
+
+aside.help_board_my {
+  padding: calc(5vh + 10px) 0 100px 0;
+  width: 100vw;
+  height: calc(100vh - 5vh - 10px);
+  background: #f7f7f7;
+  z-index: 0;
+  display: inline-block;
+  position: fixed; }
 
 aside.help_contact_us {
   padding: calc(5vh + 10px) 0 100px 0;

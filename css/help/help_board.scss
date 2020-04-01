@@ -24,15 +24,49 @@ aside {
         padding: 20px 4vw 15px 4vw;
         color: #838ba0;
         line-height: 20px;
+        position: relative;
+        
+        &:hover{
+          .drow{
+            display: inline;
+          }
+          .arrow{
+            transform: rotate(90deg);
+          }
+        }
+        .drow{
+          display: none;
+          position: absolute;
+          left: 0;
+          top: 55px;
+          background: #fff;
+          z-index: 1;
+          width: 100%;
+          box-shadow: 0 2px 5px 0 #dadada;
+          border-radius: 0 0 20px 20px;
+          li{
+            padding: 20px 4vw 15px 4vw;
+            border-bottom: 1px solid #e0e3f3;
+            color: #4d515d;
+            &:first-child{
+              border-top: 1px solid #e0e3f3;
+            }
+            &:last-child{
+              border-bottom:none;
+            }
+          }
+        }
         .arrow {
           background: url(../images/arrow_lg.png);
           background-size: 100%;
           background-position: center;
+          transform: rotate(-90deg);
           width: 10px;
           height: 16px;
           display: inline-block;
           vertical-align: top;
           float: right;
+          transition: all 0.3s ease-in-out;
         }
       }
       textarea {
