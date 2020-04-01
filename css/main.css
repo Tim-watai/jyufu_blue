@@ -4412,35 +4412,23 @@ aside.my_windows_mb {
         align-items: center; }
         aside.my_windows_mb div.mb_event div.events div span {
           display: inline-block;
-          margin: 0 0 2vw 0; }
+          margin: 0 0 2vw 0;
+          background: url(../images/my_mb_evetnts.png) no-repeat;
+          background-size: 385%;
+          width: 30px;
+          height: 30px; }
         aside.my_windows_mb div.mb_event div.events div p {
           display: inline-block;
           color: #838ba0;
-          font-size: 3.5vw; }
+          font-size: 14px; }
         aside.my_windows_mb div.mb_event div.events div.level_up span {
-          background: url(../images/flog.png) no-repeat;
-          background-size: 100%;
-          background-position: center center;
-          width: 7vw;
-          height: 8vw; }
+          background-position: 3px 0; }
         aside.my_windows_mb div.mb_event div.events div.sign_in span {
-          background: url(../images/days.png) no-repeat;
-          background-size: 100%;
-          background-position: center center;
-          width: 7vw;
-          height: 8vw; }
+          background-position: -28px 0; }
         aside.my_windows_mb div.mb_event div.events div.beginner_mission span {
-          background: url(../images/beginner_mission.png) no-repeat;
-          background-size: 100%;
-          background-position: center center;
-          width: 7vw;
-          height: 8vw; }
+          background-position: -58px 0; }
         aside.my_windows_mb div.mb_event div.events div.gifts span {
-          background: url(../images/bag.png) no-repeat;
-          background-size: 100%;
-          background-position: center center;
-          width: 7vw;
-          height: 8vw; }
+          background-position: -88px 0; }
   aside.my_windows_mb div.mb_banner {
     padding: 0 3vw;
     margin: 10vw 0 0 0; }
@@ -6066,9 +6054,9 @@ main {
         main section ul.profile li.u_option div p {
           font-size: 1.9vh; }
         main section ul.profile li.u_option div span {
-          margin-bottom: 3px; }
+          margin-bottom: 3px;
+          display: inline-block; }
         main section ul.profile li.u_option div.save span {
-          display: inline-block;
           background: url(../images/save.png) no-repeat;
           background-size: contain;
           background-position: center center;

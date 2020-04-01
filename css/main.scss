@@ -333,10 +333,10 @@ main {
               }
               span {
                 margin-bottom: 3px;
+                display: inline-block;
               }
               &.save {
                 span {
-                  display: inline-block;
                   background: url(../images/save.png) no-repeat;
                   background-size: contain;
                   background-position: center center;

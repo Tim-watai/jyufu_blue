@@ -214,47 +214,38 @@ aside{
                   span {
                     display: inline-block;
                     margin: 0 0 2vw 0;
+                    background: url(../images/my_mb_evetnts.png)no-repeat;
+                    background-size: 385%;
+                    width: 30px;
+                    height: 30px;
                   }
                   p {
                     display: inline-block;
                     color: #838ba0;
-                    font-size: 3.5vw;
+                    font-size: 14px;
                   }
     
                   &.level_up {
                     span {
-                      background: url(../images/flog.png) no-repeat;
-                      background-size: 100%;
-                      background-position: center center;
-                      width: 7vw;
-                      height: 8vw;
+                     background-position: 3px 0;
+                    
                     }
                   }
                   &.sign_in {
                     span {
-                      background: url(../images/days.png) no-repeat;
-                      background-size: 100%;
-                      background-position: center center;
-                      width: 7vw;
-                      height: 8vw;
+                      background-position: -28px 0;
+                     
                     }
                   }
                   &.beginner_mission {
                     span {
-                      background: url(../images/beginner_mission.png) no-repeat;
-                      background-size: 100%;
-                      background-position: center center;
-                      width: 7vw;
-                      height: 8vw;
+                      background-position: -58px 0;
+                     
                     }
                   }
                   &.gifts {
                     span {
-                      background: url(../images/bag.png) no-repeat;
-                      background-size: 100%;
-                      background-position: center center;
-                      width: 7vw;
-                      height: 8vw;
+                      background-position: -88px 0;
                     }
                   }
                 }
