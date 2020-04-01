@@ -190,6 +190,7 @@ aside{
                   display: inline-block;
                 }
                 span {
+                  
                   &.money_icon {
                     background: url(../images/my_moneybag.png) no-repeat;
                     background-size: 100%;
@@ -268,65 +269,30 @@ aside{
               &:first-child {
                 color: #4d515d;
                 span {
-                  &.cr {
-                    background: url(../images/my_cr_s.png) no-repeat;
-                    width: 5.1vw;
-                    height: 6vw;
-                    background-position: center center;
-                    background-size: cover;
-                    line-height: 1;
+                  line-height: 1;
                     vertical-align: middle;
                     margin: 0 3vw 0 0;
+                  background: url(../images/my_windows_icons.png)no-repeat;
+                  width: 22px;
+                  height: 22px;
+                    background-size: cover;
+                  &.cr {
+                    background-position:-0px 0;
                   }
                   &.hp {
-                    background: url(../images/my_hp_s.png) no-repeat;
-                    width: 5.1vw;
-                    height: 6vw;
-                    background-position: center center;
-                    background-size: 100%;
-                    line-height: 1;
-                    vertical-align: middle;
-                    margin: 0 3vw 0 0;
+                    background-position:-22px 0;
                   }
                   &.ab {
-                    background: url(../images/my_ab_s.png) no-repeat;
-                    width: 5.1vw;
-                    height: 6vw;
-                    background-position: center center;
-                    background-size: 100%;
-                    line-height: 1;
-                    vertical-align: middle;
-                    margin: 0 3vw 0 0;
+                    background-position:-44px 0;
                   }
                   &.jo {
-                    background: url(../images/my_jo_s.png) no-repeat;
-                    width: 5.1vw;
-                    height: 6vw;
-                    background-position: center center;
-                    background-size: 100%;
-                    line-height: 1;
-                    vertical-align: middle;
-                    margin: 0 3vw 0 0;
+                    background-position:-66px 0;
                   }
                   &.sh {
-                    background: url(../images/my_sh_s.png) no-repeat;
-                    width: 5.1vw;
-                    height: 6vw;
-                    background-position: center center;
-                    background-size: 100%;
-                    line-height: 1;
-                    vertical-align: middle;
-                    margin: 0 3vw 0 0;
+                    background-position:-88px 0;
                   }
                   &.app {
-                    background: url(../images/my_app_s.png) no-repeat;
-                    width: 5.1vw;
-                    height: 6vw;
-                    background-position: center center;
-                    background-size: 100%;
-                    line-height: 1;
-                    vertical-align: middle;
-                    margin: 0 3vw 0 0;
+                    background-position:-110px 0;
                   }
                 }
               }

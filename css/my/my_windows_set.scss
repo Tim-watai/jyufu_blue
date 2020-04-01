@@ -20,6 +20,30 @@ aside{
             padding: 10px 0 5px 0;
           }
           &.row_btn {
+            background: #fff;
+            line-height: 15vw;
+            padding: 0 3vw 0 3vw;
+            margin: 0 0 13px 0;
+            position: relative;
+            &:first-child {
+              margin: 14px 0 0 0;
+            }
+            &.line {
+              margin: 0 0 1px 0;
+              &:before {
+                content: "";
+                position: absolute;
+                bottom: -1px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 94vw;
+                height: 1px;
+                background: #e0e3f3;
+              }
+            }
+            span {
+              display: inline-block;
+            }
             div {
               &.box {
                 display: inline-block;
@@ -101,6 +125,47 @@ aside{
                 }
               }
             }
+            p {
+              display: inline-block;
+              font-size: 4.3vw;
+              &.dark_blue.dark_blue {
+                color: #4d515d;
+              }
+              &:first-child {
+                color: #4d515d;
+                span {
+                  
+                }
+              }
+              &:last-child {
+                color: #838ba0;
+                line-height: 15vw;
+                float: right;
+                span {
+                  &.arrow {
+                    display: inline-block;
+                    width: 3vw;
+                    height: 5vw;
+                    position: relative;
+                    background: url(../images/arrow_lg.png) no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    margin: 0 0 0 3vw;
+                    line-height: 1;
+                    vertical-align: sub;
+                  }
+                }
+              }
+            }
+          }
+          &.get_out {
+            width: 100%;
+            text-align: center;
+            background: #fff;
+            line-height: 15vw;
+            position: relative;
+            color: #4d515d;
+            font-size: 4.3vw;
           }
         }
       }

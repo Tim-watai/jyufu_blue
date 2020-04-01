@@ -3143,60 +3143,26 @@ aside.my_windows {
       font-size: 4.3vw; }
       aside.my_windows div.row_btn p:first-child {
         color: #4d515d; }
-        aside.my_windows div.row_btn p:first-child span.cr {
-          background: url(../images/my_cr_s.png) no-repeat;
-          width: 5.1vw;
-          height: 6vw;
-          background-position: center center;
-          background-size: cover;
+        aside.my_windows div.row_btn p:first-child span {
           line-height: 1;
           vertical-align: middle;
-          margin: 0 3vw 0 0; }
-        aside.my_windows div.row_btn p:first-child span.hp {
-          background: url(../images/my_hp_s.png) no-repeat;
-          width: 5.1vw;
-          height: 6vw;
-          background-position: center center;
-          background-size: 100%;
-          line-height: 1;
-          vertical-align: middle;
-          margin: 0 3vw 0 0; }
-        aside.my_windows div.row_btn p:first-child span.ab {
-          background: url(../images/my_ab_s.png) no-repeat;
-          width: 5.1vw;
-          height: 6vw;
-          background-position: center center;
-          background-size: 100%;
-          line-height: 1;
-          vertical-align: middle;
-          margin: 0 3vw 0 0; }
-        aside.my_windows div.row_btn p:first-child span.jo {
-          background: url(../images/my_jo_s.png) no-repeat;
-          width: 5.1vw;
-          height: 6vw;
-          background-position: center center;
-          background-size: 100%;
-          line-height: 1;
-          vertical-align: middle;
-          margin: 0 3vw 0 0; }
-        aside.my_windows div.row_btn p:first-child span.sh {
-          background: url(../images/my_sh_s.png) no-repeat;
-          width: 5.1vw;
-          height: 6vw;
-          background-position: center center;
-          background-size: 100%;
-          line-height: 1;
-          vertical-align: middle;
-          margin: 0 3vw 0 0; }
-        aside.my_windows div.row_btn p:first-child span.app {
-          background: url(../images/my_app_s.png) no-repeat;
-          width: 5.1vw;
-          height: 6vw;
-          background-position: center center;
-          background-size: 100%;
-          line-height: 1;
-          vertical-align: middle;
-          margin: 0 3vw 0 0; }
+          margin: 0 3vw 0 0;
+          background: url(../images/my_windows_icons.png) no-repeat;
+          width: 22px;
+          height: 22px;
+          background-size: cover; }
+          aside.my_windows div.row_btn p:first-child span.cr {
+            background-position: -0px 0; }
+          aside.my_windows div.row_btn p:first-child span.hp {
+            background-position: -22px 0; }
+          aside.my_windows div.row_btn p:first-child span.ab {
+            background-position: -44px 0; }
+          aside.my_windows div.row_btn p:first-child span.jo {
+            background-position: -66px 0; }
+          aside.my_windows div.row_btn p:first-child span.sh {
+            background-position: -88px 0; }
+          aside.my_windows div.row_btn p:first-child span.app {
+            background-position: -110px 0; }
       aside.my_windows div.row_btn p:last-child {
         color: #838ba0;
         line-height: 15vw;
@@ -3432,71 +3398,124 @@ aside.my_windows_set {
     text-align: center;
     font-size: 18px;
     padding: 10px 0 5px 0; }
-  aside.my_windows_set div.row_btn div.box {
-    display: inline-block;
-    float: right; }
-    aside.my_windows_set div.row_btn div.box div.check {
+  aside.my_windows_set div.row_btn {
+    background: #fff;
+    line-height: 15vw;
+    padding: 0 3vw 0 3vw;
+    margin: 0 0 13px 0;
+    position: relative; }
+    aside.my_windows_set div.row_btn:first-child {
+      margin: 14px 0 0 0; }
+    aside.my_windows_set div.row_btn.line {
+      margin: 0 0 1px 0; }
+      aside.my_windows_set div.row_btn.line:before {
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 94vw;
+        height: 1px;
+        background: #e0e3f3; }
+    aside.my_windows_set div.row_btn span {
+      display: inline-block; }
+    aside.my_windows_set div.row_btn div.box {
       display: inline-block;
-      height: 4vh;
-      line-height: 4vh;
-      width: 34vw;
-      background: #737997;
-      vertical-align: middle;
-      border-radius: 20px;
-      padding: 0 2px; }
-      aside.my_windows_set div.row_btn div.box div.check span {
+      float: right; }
+      aside.my_windows_set div.row_btn div.box div.check {
         display: inline-block;
-        font-size: 2vw;
+        height: 4vh;
+        line-height: 4vh;
+        width: 34vw;
+        background: #737997;
+        vertical-align: middle;
         border-radius: 20px;
-        line-height: calc(4vh - 4px);
-        height: calc(4vh - 4px);
-        width: 15vw;
-        text-align: center; }
-        aside.my_windows_set div.row_btn div.box div.check span.active {
-          background: #fff; }
-          aside.my_windows_set div.row_btn div.box div.check span.active p {
-            color: #4d515d; }
-        aside.my_windows_set div.row_btn div.box div.check span.p_left {
-          top: 2px;
-          position: relative;
-          float: left; }
-        aside.my_windows_set div.row_btn div.box div.check span.p_right {
-          top: 2px;
-          position: relative;
-          float: right; }
-        aside.my_windows_set div.row_btn div.box div.check span p {
+        padding: 0 2px; }
+        aside.my_windows_set div.row_btn div.box div.check span {
           display: inline-block;
-          vertical-align: middle;
-          line-height: 1;
-          color: #fff;
-          float: none;
-          font-size: 3vw; }
-  aside.my_windows_set div.row_btn div.box_empty {
-    display: inline-block;
-    float: right; }
-    aside.my_windows_set div.row_btn div.box_empty div.check {
+          font-size: 2vw;
+          border-radius: 20px;
+          line-height: calc(4vh - 4px);
+          height: calc(4vh - 4px);
+          width: 15vw;
+          text-align: center; }
+          aside.my_windows_set div.row_btn div.box div.check span.active {
+            background: #fff; }
+            aside.my_windows_set div.row_btn div.box div.check span.active p {
+              color: #4d515d; }
+          aside.my_windows_set div.row_btn div.box div.check span.p_left {
+            top: 2px;
+            position: relative;
+            float: left; }
+          aside.my_windows_set div.row_btn div.box div.check span.p_right {
+            top: 2px;
+            position: relative;
+            float: right; }
+          aside.my_windows_set div.row_btn div.box div.check span p {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1;
+            color: #fff;
+            float: none;
+            font-size: 3vw; }
+    aside.my_windows_set div.row_btn div.box_empty {
       display: inline-block;
-      height: 7vw;
-      line-height: 7vw;
-      background: #737997;
-      vertical-align: middle;
-      border-radius: 20px;
-      padding: 0 2px;
-      width: 13vw; }
-      aside.my_windows_set div.row_btn div.box_empty div.check span.switch {
-        position: relative;
-        top: 2px;
-        width: calc(7vw - 4px);
-        height: calc(7vw - 4px);
-        background: #fff;
+      float: right; }
+      aside.my_windows_set div.row_btn div.box_empty div.check {
+        display: inline-block;
+        height: 7vw;
+        line-height: 7vw;
+        background: #737997;
+        vertical-align: middle;
         border-radius: 20px;
-        -webkit-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-        aside.my_windows_set div.row_btn div.box_empty div.check span.switch.active {
-          -webkit-transform: translateX(calc(13vw - 7vw));
-          -ms-transform: translateX(calc(13vw - 7vw));
-          transform: translateX(calc(13vw - 7vw)); }
+        padding: 0 2px;
+        width: 13vw; }
+        aside.my_windows_set div.row_btn div.box_empty div.check span.switch {
+          position: relative;
+          top: 2px;
+          width: calc(7vw - 4px);
+          height: calc(7vw - 4px);
+          background: #fff;
+          border-radius: 20px;
+          -webkit-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out; }
+          aside.my_windows_set div.row_btn div.box_empty div.check span.switch.active {
+            -webkit-transform: translateX(calc(13vw - 7vw));
+            -ms-transform: translateX(calc(13vw - 7vw));
+            transform: translateX(calc(13vw - 7vw)); }
+    aside.my_windows_set div.row_btn p {
+      display: inline-block;
+      font-size: 4.3vw; }
+      aside.my_windows_set div.row_btn p.dark_blue.dark_blue {
+        color: #4d515d; }
+      aside.my_windows_set div.row_btn p:first-child {
+        color: #4d515d; }
+      aside.my_windows_set div.row_btn p:last-child {
+        color: #838ba0;
+        line-height: 15vw;
+        float: right; }
+        aside.my_windows_set div.row_btn p:last-child span.arrow {
+          display: inline-block;
+          width: 3vw;
+          height: 5vw;
+          position: relative;
+          background: url(../images/arrow_lg.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
+          margin: 0 0 0 3vw;
+          line-height: 1;
+          vertical-align: sub; }
+  aside.my_windows_set div.get_out {
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    line-height: 15vw;
+    position: relative;
+    color: #4d515d;
+    font-size: 4.3vw; }
 
 aside.my_windows_help {
   width: 100vw;
@@ -6483,115 +6502,6 @@ footer {
             position: absolute;
             right: -4px;
             top: -4px; }
-
-aside div.row_btn {
-  background: #fff;
-  line-height: 15vw;
-  padding: 0 3vw 0 3vw;
-  margin: 0 0 13px 0;
-  position: relative; }
-  aside div.row_btn:first-child {
-    margin: 14px 0 0 0; }
-  aside div.row_btn.line {
-    margin: 0 0 1px 0; }
-    aside div.row_btn.line:before {
-      content: "";
-      position: absolute;
-      bottom: -1px;
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      transform: translateX(-50%);
-      width: 94vw;
-      height: 1px;
-      background: #e0e3f3; }
-  aside div.row_btn span {
-    display: inline-block; }
-  aside div.row_btn p {
-    display: inline-block;
-    font-size: 4.3vw; }
-    aside div.row_btn p.dark_blue.dark_blue {
-      color: #4d515d; }
-    aside div.row_btn p:first-child {
-      color: #4d515d; }
-      aside div.row_btn p:first-child span.cr {
-        background: url(../images/my_cr_s.png) no-repeat;
-        width: 5.1vw;
-        height: 6vw;
-        background-position: center center;
-        background-size: cover;
-        line-height: 1;
-        vertical-align: middle;
-        margin: 0 3vw 0 0; }
-      aside div.row_btn p:first-child span.hp {
-        background: url(../images/my_hp_s.png) no-repeat;
-        width: 5.1vw;
-        height: 6vw;
-        background-position: center center;
-        background-size: 100%;
-        line-height: 1;
-        vertical-align: middle;
-        margin: 0 3vw 0 0; }
-      aside div.row_btn p:first-child span.ab {
-        background: url(../images/my_ab_s.png) no-repeat;
-        width: 5.1vw;
-        height: 6vw;
-        background-position: center center;
-        background-size: 100%;
-        line-height: 1;
-        vertical-align: middle;
-        margin: 0 3vw 0 0; }
-      aside div.row_btn p:first-child span.jo {
-        background: url(../images/my_jo_s.png) no-repeat;
-        width: 5.1vw;
-        height: 6vw;
-        background-position: center center;
-        background-size: 100%;
-        line-height: 1;
-        vertical-align: middle;
-        margin: 0 3vw 0 0; }
-      aside div.row_btn p:first-child span.sh {
-        background: url(../images/my_sh_s.png) no-repeat;
-        width: 5.1vw;
-        height: 6vw;
-        background-position: center center;
-        background-size: 100%;
-        line-height: 1;
-        vertical-align: middle;
-        margin: 0 3vw 0 0; }
-      aside div.row_btn p:first-child span.app {
-        background: url(../images/my_app_s.png) no-repeat;
-        width: 5.1vw;
-        height: 6vw;
-        background-position: center center;
-        background-size: 100%;
-        line-height: 1;
-        vertical-align: middle;
-        margin: 0 3vw 0 0; }
-    aside div.row_btn p:last-child {
-      color: #838ba0;
-      line-height: 15vw;
-      float: right; }
-      aside div.row_btn p:last-child span.arrow {
-        display: inline-block;
-        width: 3vw;
-        height: 5vw;
-        position: relative;
-        background: url(../images/arrow_lg.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
-        margin: 0 0 0 3vw;
-        line-height: 1;
-        vertical-align: sub; }
-
-aside div.get_out {
-  width: 100%;
-  text-align: center;
-  background: #fff;
-  line-height: 15vw;
-  position: relative;
-  color: #4d515d;
-  font-size: 4.3vw; }
 
 aside.hot_windows {
   display: none;
