@@ -2,11 +2,10 @@ aside {
   &.my_windows_t_record {
     margin: calc(5vh + 10px) 0 0 0;
     width: 100vw;
-
     background: #f7f7f7;
     z-index: 0;
     display: inline-block;
-    position: relative;
+    position: fixed;
     transition: all 0.4s ease-in-out;
     &.active {
       transform: translateX(0%);
@@ -33,6 +32,7 @@ aside {
         height: calc(100vh - (5vh + 41px + 10px));
         display: inline-block;
         overflow-y: scroll;
+        padding: 0 0 100px 0;
       }
     }
 
@@ -42,7 +42,7 @@ aside {
       justify-content: flex-start;
       align-items: center;
       .empty_icon {
-        background: url(../../../images/empty_t_record.png) no-repeat;
+        background: url(../images/empty_t_record.png) no-repeat;
         background-size: 100%;
         background-position: center;
         width: 50vw;

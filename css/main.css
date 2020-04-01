@@ -3240,17 +3240,17 @@ aside.title_windows {
               white-space: nowrap; }
 
 aside.my_data_edit {
-  margin: calc(5vh + 10px) 0 0 0;
+  padding: calc(5vh + 10px) 0 100px 0;
   width: 100vw;
   height: calc(100vh - 5vh - 10px);
-  background: #fff;
+  background: #f7f7f7;
   z-index: 0;
   display: inline-block;
   position: fixed;
-  overflow-y: scroll;
-  padding: 0 0 100px 0; }
+  overflow-y: scroll; }
   aside.my_data_edit ul {
-    position: relative; }
+    position: relative;
+    background: #fff; }
     aside.my_data_edit ul li {
       padding: 10px 0 10px 0;
       margin: 0 4vw;
@@ -3518,16 +3518,14 @@ aside.my_windows_set {
     font-size: 4.3vw; }
 
 aside.my_windows_help {
+  padding: calc(5vh + 10px) 0 100px 0;
   width: 100vw;
   height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
   position: fixed;
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  margin: calc(5vh + 10px) 0 0 0; }
+  overflow-y: scroll; }
   aside.my_windows_help ul.content {
     padding: 0 3vw 0 3vw;
     background: #fff;
@@ -3586,18 +3584,17 @@ aside.my_windows_help {
           color: #4d515d; }
 
 aside.my_windows_help_inner {
+  padding: calc(5vh + 10px) 0 100px 0;
   width: 100vw;
   height: calc(100vh - 5vh - 10px);
-  background: #fff;
+  background: #f7f7f7;
   z-index: 0;
   display: inline-block;
   position: fixed;
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  margin: calc(5vh + 10px) 0 0 0; }
+  overflow-y: scroll; }
   aside.my_windows_help_inner ul.content {
-    padding: 0 4vw; }
+    padding: 0 4vw;
+    background: #fff; }
     aside.my_windows_help_inner ul.content li.title {
       font-weight: bold;
       padding: 15px 0 15px 0;
@@ -3608,15 +3605,14 @@ aside.my_windows_help_inner {
       padding: 15px 0 0 0; }
 
 aside.my_windows_mb_transfer {
-  margin: calc(5vh + 10px) 0 0 0;
+  padding: calc(5vh + 10px) 0 100px 0;
   width: 100vw;
   height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
   position: fixed;
-  overflow-y: scroll;
-  padding: 0 0 100px 0; }
+  overflow-y: scroll; }
   aside.my_windows_mb_transfer div.content {
     background: #fff;
     width: 100vw;
@@ -4157,15 +4153,14 @@ aside.jump_window.my_windwos_transfer_fail .windows {
           background: #e0e3f3; }
 
 aside.my_windows_mb_take_out {
-  margin: calc(5vh + 10px) 0 0 0;
+  padding: calc(5vh + 10px) 0 100px 0;
   width: 100vw;
   height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
   position: fixed;
-  overflow-y: scroll;
-  padding: 0 0 100px 0; }
+  overflow-y: scroll; }
   aside.my_windows_mb_take_out div.content {
     width: 100vw;
     padding: 0 3vw 0 3vw;
@@ -4548,17 +4543,14 @@ aside.my_windows_mb {
         font-size: 3vw; }
 
 aside.my_windows_mb_save {
-  margin: calc(5vh + 10px) 0 0 0;
+  padding: calc(5vh + 10px) 0 100px 0;
   width: 100vw;
   height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
   position: fixed;
-  overflow-y: scroll;
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out; }
+  overflow-y: scroll; }
   aside.my_windows_mb_save h1.title {
     text-align: left;
     border-bottom: 1px solid #e0e3f3;
@@ -4568,7 +4560,6 @@ aside.my_windows_mb_save {
     vertical-align: bottom;
     color: #4d515d; }
   aside.my_windows_mb_save div.content {
-    margin: 1vh 0 0 0;
     padding: 0 3vw 0 3vw;
     background: #fff; }
     aside.my_windows_mb_save div.content .pay_type {
@@ -4938,15 +4929,14 @@ aside.my_windows_mb_save {
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.my_windows_card {
-  margin: calc(5vh + 10px) 0 0 0;
+  padding: calc(5vh + 10px) 0 100px 0;
   width: 100vw;
   height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
   position: fixed;
-  overflow-y: scroll;
-  padding: 0 0 100px 0; }
+  overflow-y: scroll; }
   aside.my_windows_card div.empty {
     text-align: center; }
     aside.my_windows_card div.empty .empty_icon {
@@ -5117,32 +5107,30 @@ aside.my_windows_card {
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.my_windows_bet_record {
-  margin: calc(5vh + 10px) 0 0 0;
+  padding: calc(5vh + 10px) 0 100px 0;
   width: 100vw;
-  height: calc(100vh - (5vh + 10px));
+  height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
-  position: relative;
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out; }
+  position: fixed; }
   aside.my_windows_bet_record div.title {
     background: #fff;
-    padding: 5vh 3vw 0 3vw;
-    margin: -5vh 0 0 0;
+    /* padding: 5vh 3vw 0 3vw; */
+    /* margin: -5vh 0 0 0; */
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    position: fixed;
+    width: 100%; }
     aside.my_windows_bet_record div.title div.tack {
       background: #f7f8fc;
-      margin: 0 3vw 3vw 0;
-      padding: 1vw 3vw 1vw 3vw;
+      margin: 10px 3vw 10px 3vw;
+      padding: 10px 10px 10px 10px;
       border-radius: 30px; }
       aside.my_windows_bet_record div.title div.tack p {
-        font-size: 4vw;
-        padding: 1vw;
-        line-height: 4vw;
+        font-size: 14px;
+        line-height: 14px;
         position: relative;
         color: #4d515d; }
         aside.my_windows_bet_record div.title div.tack p span {
@@ -5155,7 +5143,10 @@ aside.my_windows_bet_record {
           vertical-align: middle;
           margin: 0 0 0 1.5vw; }
   aside.my_windows_bet_record div.content {
-    height: calc(100vh - (5vh + 14vw)); }
+    height: calc(100vh - (5vh + 64px));
+    margin: 64px 0 0 0;
+    overflow-y: scroll;
+    padding: 0 0 100px 0; }
     aside.my_windows_bet_record div.content .empty_page {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -5192,7 +5183,7 @@ aside.my_windows_bet_record {
         font-size: 4vw;
         padding: 2vw 10vw; }
     aside.my_windows_bet_record div.content ul.record {
-      margin: 20px 4vw 0 4vw;
+      margin: 10px 4vw 0 4vw;
       width: 92vw;
       border: 1px solid #9ba1c5;
       border-radius: 8px;
@@ -5276,7 +5267,7 @@ aside.my_windows_t_record {
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
-  position: relative;
+  position: fixed;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
@@ -5299,7 +5290,8 @@ aside.my_windows_t_record {
   aside.my_windows_t_record div.content {
     height: calc(100vh - (5vh + 41px + 10px));
     display: inline-block;
-    overflow-y: scroll; }
+    overflow-y: scroll;
+    padding: 0 0 100px 0; }
   aside.my_windows_t_record .empty_page {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5315,7 +5307,7 @@ aside.my_windows_t_record {
     -ms-flex-align: center;
     align-items: center; }
     aside.my_windows_t_record .empty_page .empty_icon {
-      background: url(../../../images/empty_t_record.png) no-repeat;
+      background: url(../images/empty_t_record.png) no-repeat;
       background-size: 100%;
       background-position: center;
       width: 50vw;
@@ -5578,21 +5570,20 @@ aside.help_board {
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.help_contact_us {
-  margin: calc(5vh + 10px) 0 0 0;
+  padding: calc(5vh + 10px) 0 100px 0;
   width: 100vw;
   height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
   position: fixed;
-  overflow-y: scroll;
-  padding: 0 0 100px 0; }
+  overflow-y: scroll; }
   aside.help_contact_us ul.contact_us {
     background: #fff;
     padding: 10px 4vw 0px 4vw;
     margin: 10px 0 0 0; }
-    aside.help_contact_us ul.contact_us:last-child {
-      margin: 10px 0 0 0; }
+    aside.help_contact_us ul.contact_us:first-child {
+      margin: 0 0 0 0; }
     aside.help_contact_us ul.contact_us h1 {
       color: #4d515d;
       font-weight: normal;

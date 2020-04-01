@@ -1,14 +1,13 @@
 aside{
     &.my_windows_mb_save {
-        margin: calc(5vh + 10px) 0 0 0;
-        width: 100vw;
-        height: calc(100vh - 5vh - 10px);
-        background: #f7f7f7;
-        z-index: 0;
-        display: inline-block;
-        position: fixed;
-        overflow-y: scroll;
-        transition: all 0.4s ease-in-out;
+      padding: calc(5vh + 10px) 0 100px 0;
+      width: 100vw;
+      height: calc(100vh - 5vh - 10px);
+      background: #f7f7f7;
+      z-index: 0;
+      display: inline-block;
+      position: fixed;
+      overflow-y: scroll;
      
         h1 {
           &.title {
@@ -24,7 +23,6 @@ aside{
         div {
           //支付方式
           &.content {
-            margin: 1vh 0 0 0;
             padding: 0 3vw 0 3vw;
             background: #fff;
             .pay_type {

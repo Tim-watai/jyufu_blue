@@ -1,13 +1,13 @@
 aside {
   &.my_windows_help {
-    width: 100vw;
-    height: calc(100vh - 5vh - 10px);
-    background: #f7f7f7;
-    z-index: 0;
-    display: inline-block;
-    position: fixed;
-    transition: all 0.4s ease-in-out;
-    margin: calc(5vh + 10px) 0 0 0;
+      padding: calc(5vh + 10px) 0 100px 0;
+      width: 100vw;
+      height: calc(100vh - 5vh - 10px);
+      background: #f7f7f7;
+      z-index: 0;
+      display: inline-block;
+      position: fixed;
+      overflow-y:scroll;
 
     ul {
       &.content {
@@ -86,17 +86,18 @@ aside {
     }
   }
   &.my_windows_help_inner {
-    width: 100vw;
-    height: calc(100vh - 5vh - 10px);
-    background: #fff;
-    z-index: 0;
-    display: inline-block;
-    position: fixed;
-    transition: all 0.4s ease-in-out;
-    margin: calc(5vh + 10px) 0 0 0;
+      padding: calc(5vh + 10px) 0 100px 0;
+      width: 100vw;
+      height: calc(100vh - 5vh - 10px);
+      background: #f7f7f7;
+      z-index: 0;
+      display: inline-block;
+      position: fixed;
+      overflow-y:scroll;
     ul {
       &.content {
         padding: 0 4vw;
+        background: #fff;
         li {
           &.title {
             font-weight: bold;
