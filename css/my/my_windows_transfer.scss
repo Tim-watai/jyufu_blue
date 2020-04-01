@@ -252,6 +252,7 @@ aside {
         background: #fff;
         position: relative;
         div {
+          
           &.auto {
             border-bottom: 1px solid #e0e3f3;
             p {
@@ -269,7 +270,7 @@ aside {
               &.box_empty {
                 display: inline-block;
                 float: right;
-                line-height: 13.5vw;
+                line-height: 50px;
                 div {
                   &.check {
                     display: inline-block;
@@ -311,6 +312,7 @@ aside {
             justify-content: space-between;
             line-height: 1;
             padding: 8px 0;
+            width: 94vw;
             p {
               color: #4d515d;
               font-size: 15px;

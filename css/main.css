@@ -3447,7 +3447,11 @@ aside.my_windows_set {
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
   aside.my_windows_set div.header {
-    margin: 0 0 1vh 0; }
+    margin: 0 0 1vh 0;
+    background: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0 5px 0; }
   aside.my_windows_set div.row_btn div.box {
     display: inline-block;
     float: right; }
@@ -3825,7 +3829,7 @@ aside.my_windows_mb_transfer {
       aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty {
         display: inline-block;
         float: right;
-        line-height: 13.5vw; }
+        line-height: 50px; }
         aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty div.check {
           display: inline-block;
           height: 7vw;
@@ -3861,7 +3865,8 @@ aside.my_windows_mb_transfer {
       -ms-flex-pack: justify;
       justify-content: space-between;
       line-height: 1;
-      padding: 8px 0; }
+      padding: 8px 0;
+      width: 94vw; }
       aside.my_windows_mb_transfer div.transfer_area div.box p {
         color: #4d515d;
         font-size: 15px;
@@ -5877,7 +5882,7 @@ header {
         width: 72px;
         height: 27px;
         background: url(../images/logo.png) no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-position: center center;
         float: left; }
       header ul li.message_icon {
@@ -6472,49 +6477,31 @@ footer {
       position: relative; }
       footer ul li.active {
         color: #2d43b6; }
+      footer ul li span {
+        background: url(../images/footer_icons.png) no-repeat;
+        background-size: 550%;
+        width: 25px;
+        height: 22px;
+        display: inline-block;
+        margin: 0 0 2px 0; }
       footer ul li.index span {
-        background: url(../images/home.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 23px;
-        height: 26px;
-        display: inline-block; }
+        background-position: -1px -3px; }
       footer ul li.index.active span {
-        background: url(../images/home_a.png) no-repeat;
-        background-size: cover;
-        background-position: center center; }
+        background-position: -1px -28px; }
       footer ul li.event span {
-        background: url(../images/event.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 22px;
-        height: 21px;
-        display: inline-block; }
+        background-position: -28px -1px; }
+      footer ul li.event.active span {
+        background-position: -28px -28px; }
       footer ul li.help span {
-        background: url(../images/help.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 26px;
-        height: 21px;
-        display: inline-block; }
+        background-position: -57px -1px; }
+      footer ul li.help.active span {
+        background-position: -56px -27px; }
       footer ul li.donate span {
-        background: url(../images/donate.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 19px;
-        height: 20px;
-        display: inline-block; }
+        background-position: -86px -1px; }
       footer ul li.my span {
-        background: url(../images/my.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 19px;
-        height: 21px;
-        display: inline-block; }
+        background-position: -111px -1px; }
       footer ul li.my.active span {
-        background: url(../images/my_a.png) no-repeat;
-        background-size: cover;
-        background-position: center center; }
+        background-position: -111px -27px; }
       footer ul li.my.have {
         position: relative; }
         footer ul li.my.have span {

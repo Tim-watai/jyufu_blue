@@ -132,7 +132,7 @@ header {
         width: 72px;
         height: 27px;
         background: url(../images/logo.png) no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-position: center center;
         float: left;
       }
@@ -852,63 +852,57 @@ footer {
       &.active {
         color: #2d43b6;
       }
+      span{
+        background: url(../images/footer_icons.png) no-repeat;
+        background-size: 550%;
+        width: 25px;
+        height: 22px;
+        display: inline-block;
+        margin: 0 0 2px 0;
+      }
       &.index {
-        span {
-          background: url(../images/home.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          @include size(23px, 26px);
-          display: inline-block;
+        span{
+          background-position: -1px -3px;
         }
         &.active {
           span {
-            background: url(../images/home_a.png) no-repeat;
-            background-size: cover;
-            background-position: center center;
+          background-position: -1px -28px;
           }
         }
       }
 
       &.event {
         span {
-          background: url(../images/event.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          @include size(22px, 21px);
-          display: inline-block;
+          background-position: -28px -1px;
+        }
+        &.active {
+          span {
+          background-position: -28px -28px;
+          }
         }
       }
       &.help {
         span {
-          background: url(../images/help.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          @include size(26px, 21px);
-          display: inline-block;
+          background-position: -57px -1px;
+        }
+        &.active {
+          span {
+            background-position: -56px -27px;
+          }
         }
       }
       &.donate {
         span {
-          background: url(../images/donate.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          @include size(19px, 20px);
-          display: inline-block;
+          background-position: -86px -1px;
         }
       }
       &.my {
         span {
-          background: url(../images/my.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          @include size(19px, 21px);
-          display: inline-block;
+          background-position: -111px -1px;
         }
         &.active {
           span {
-            background: url(../images/my_a.png) no-repeat;
-            background-size: cover;
-            background-position: center center;
+          background-position: -111px -27px;
           }
         }
       }
