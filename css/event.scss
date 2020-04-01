@@ -12,25 +12,7 @@ aside {
                 border-radius: 8px;
                 margin: 0 0 10px 0;
               .card {
-                
-                width: 92vw;
-                height: 145px;
                 position: relative;
-                &.c1{
-                background: url(../images/event/banner_1.png) no-repeat;
-                background-size: cover;
-                background-position: center;
-                }
-                &.c2{
-                  background: url(../images/event/banner_2.png) no-repeat;
-                  background-size: cover;
-                  background-position: center;
-                  }
-                  &.c3{
-                    background: url(../images/event/banner_3.png) no-repeat;
-                    background-size: cover;
-                    background-position: center;
-                    }
                 &:before {
                   content: "";
                   position: absolute;
