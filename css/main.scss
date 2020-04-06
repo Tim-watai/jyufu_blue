@@ -24,6 +24,8 @@
 @import "../css/help/help_board_my.scss";
 @import "../css/help/help_contact_us.scss";
 @import "../css/event.scss";
+@import "../css/donate/donate.scss";
+@import "../css/teach/teach.scss";
 
 $all-font-family: Microsoft JhengHei;
 $all-font-family-w: "微軟正黑體";
@@ -130,8 +132,8 @@ header {
       display: inline-block;
 
       &.logo {
-        width: 72px;
-        height: 27px;
+        width: 56px;
+        height: 20px;
         background: url(../images/logo.png) no-repeat;
         background-size: 100%;
         background-position: center center;
@@ -159,6 +161,26 @@ header {
             background-color: red;
             border-radius: 100px;
           }
+        }
+      }
+      &.title {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $d_gray;
+        font-family: "微軟正黑體";
+        display: inline-block;
+        font-size: 18px;
+
+        span {
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 5px 5px 0 5px;
+          border-color: $d_gray transparent transparent transparent;
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 0 5px 4px;
         }
       }
       &.option {
@@ -751,8 +773,8 @@ main {
                   &.num {
                     font-family: "my_font";
                     font-weight: bold;
-                    font-size: 4.5vh;
-                    line-height: 4.5vh;
+                    font-size: 3.5vh;
+                    line-height: 3.5vh;
                     margin: 1vh 0 0 0;
                   }
                   &.subtitle {
@@ -855,7 +877,7 @@ footer {
       }
       span{
         background: url(../images/footer_icons.png) no-repeat;
-        background-size: 550%;
+        background-size: 560%;
         width: 25px;
         height: 22px;
         display: inline-block;

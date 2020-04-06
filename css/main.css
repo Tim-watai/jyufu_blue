@@ -434,26 +434,6 @@ header ul li.back {
     transform: translateX(-50%) rotate(-45deg);
     bottom: 10%; }
 
-header ul li.title {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  color: #4d515d;
-  font-family: "微軟正黑體";
-  display: inline-block;
-  font-size: 20px; }
-  header ul li.title span {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 5px 0 5px;
-    border-color: #4d515d transparent transparent transparent;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0 5px 4px; }
-
 header ul li.wallet {
   float: right;
   background: url(../images/wallet.png) no-repeat;
@@ -5441,7 +5421,7 @@ aside.help {
       background: linear-gradient(to right, #3046b7 0%, #bbc4f2 100%);
       color: #fff;
       width: 92vw;
-      margin: 0 4vw 30px 4vw;
+      margin: 0 4vw 18px 4vw;
       padding: 20px 0 10px 20px;
       border-radius: 8px;
       overflow: hidden;
@@ -5835,6 +5815,70 @@ aside.event {
           background: #987657;
           border-radius: 8px; }
 
+aside.donate {
+  padding: calc(5vh + 10px) 0 100px 0;
+  width: 100vw;
+  height: calc(100vh - 5vh - 10px);
+  background: #f7f7f7;
+  z-index: 0;
+  display: inline-block;
+  position: fixed;
+  overflow-y: scroll; }
+  aside.donate .content {
+    background: #fff; }
+    aside.donate .content .card {
+      width: 94vw;
+      margin: 0 3vw 0 3vw; }
+      aside.donate .content .card .wrap {
+        float: right;
+        text-align: center; }
+        aside.donate .content .card .wrap .icon {
+          width: 50px;
+          height: 50px;
+          background: url(../images/donate/d_icon1.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          display: inline-block; }
+        aside.donate .content .card .wrap h1 {
+          color: #4d515d;
+          letter-spacing: 0.5px; }
+        aside.donate .content .card .wrap .donate_type {
+          color: #838ba0;
+          letter-spacing: 0.5px; }
+        aside.donate .content .card .wrap button {
+          border: 1px solid #599bcf;
+          background: #fff;
+          border-radius: 18px;
+          color: #599bcf;
+          padding: 3px 15px 3px 15px; }
+
+aside.teach {
+  padding: 0 0 100px 0;
+  width: 100vw;
+  height: calc(100vh - 5vh - 10px);
+  background: #f7f7f7;
+  z-index: 0;
+  display: inline-block;
+  position: fixed;
+  overflow-y: scroll; }
+  aside.teach .title {
+    padding: calc(5vh + 10px) 50px 0 50px;
+    background: #fff;
+    font-size: 18px;
+    -webkit-box-shadow: 0px 1px 3px 1px #e7e7e7;
+    box-shadow: 0px 1px 3px 1px #e7e7e7; }
+    aside.teach .title div {
+      color: #838ba0;
+      display: inline-block;
+      line-height: 40px;
+      width: 80px;
+      text-align: center; }
+      aside.teach .title div:last-child {
+        float: right; }
+      aside.teach .title div.active, aside.teach .title div:hover, aside.teach .title div.hover {
+        color: #4d515d;
+        border-bottom: 2px solid #7c87bc; }
+
 .clearfix {
   display: block;
   content: "";
@@ -5884,8 +5928,8 @@ header {
       position: relative;
       display: inline-block; }
       header ul li.logo {
-        width: 72px;
-        height: 27px;
+        width: 56px;
+        height: 20px;
         background: url(../images/logo.png) no-repeat;
         background-size: 100%;
         background-position: center center;
@@ -5912,6 +5956,25 @@ header {
           height: 23%;
           background-color: red;
           border-radius: 100px; }
+      header ul li.title {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        color: #4d515d;
+        font-family: "微軟正黑體";
+        display: inline-block;
+        font-size: 18px; }
+        header ul li.title span {
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 5px 5px 0 5px;
+          border-color: #4d515d transparent transparent transparent;
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 0 5px 4px; }
       header ul li.option {
         position: relative;
         display: inline-block;
@@ -6387,8 +6450,8 @@ main {
             main article.menu ul.game_kinds li div.title p.num {
               font-family: "my_font";
               font-weight: bold;
-              font-size: 4.5vh;
-              line-height: 4.5vh;
+              font-size: 3.5vh;
+              line-height: 3.5vh;
               margin: 1vh 0 0 0; }
             main article.menu ul.game_kinds li div.title p.subtitle {
               color: #838ba0;
@@ -6484,7 +6547,7 @@ footer {
         color: #2d43b6; }
       footer ul li span {
         background: url(../images/footer_icons.png) no-repeat;
-        background-size: 550%;
+        background-size: 560%;
         width: 25px;
         height: 22px;
         display: inline-block;
