@@ -191,6 +191,11 @@ aside {
                         background-size: 100%;
                         background-position: center;
                         }
+                        &.half{
+                            background: url(../images/teach/gold_half.png)no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                        }
                     }
                     &:first-child{
                         float: left;

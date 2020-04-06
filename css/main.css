@@ -6015,6 +6015,10 @@ aside.teach {
               background: url(../images/teach/gold.png) no-repeat;
               background-size: 100%;
               background-position: center; }
+            aside.teach .content .card .bingo_area .wrap .icon.half {
+              background: url(../images/teach/gold_half.png) no-repeat;
+              background-size: 100%;
+              background-position: center; }
           aside.teach .content .card .bingo_area .wrap:first-child {
             float: left;
             padding: 0 0 0 10px; }
