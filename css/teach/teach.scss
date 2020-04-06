@@ -7,245 +7,249 @@ aside {
     z-index: 0;
     display: inline-block;
     position: fixed;
-    .title{
-        padding: calc(5vh + 10px) 50px 0 50px;
-        background: #fff;
-        font-size: 18px;
-        box-shadow: 0px 1px 3px 1px #e7e7e7;
-        div{
-            color: #838ba0;
-            display: inline-block;
-            line-height: 40px;
-            width: 80px;
-            text-align: center;
-            border-bottom: 2px solid transparent; 
-            &:last-child{
-                float: right;
-            }
-            &.active,
-            &:hover,
-            &.hover{
-                color: #4d515d;
-                border-bottom: 2px solid #7c87bc;
-            }
+    .title {
+      padding: calc(5vh + 10px) 50px 0 50px;
+      background: #fff;
+      font-size: 18px;
+      box-shadow: 0px 1px 3px 1px #e7e7e7;
+      div {
+        color: #838ba0;
+        display: inline-block;
+        line-height: 40px;
+        width: 80px;
+        text-align: center;
+        border-bottom: 2px solid transparent;
+        position: relative;
+        &:last-child {
+          float: right;
         }
+        &.active,
+        &:hover,
+        &.hover {
+          color: #4d515d;
+          border-bottom: 2px solid #7c87bc;
+        }
+      }
     }
-    .nav{
-        overflow-x: scroll;
-        background: #fff;
-        white-space: nowrap;
-        padding: 10px calc(3vw + 10px) 10px calc(3vw + 10px);
-        border-bottom: 1px solid #e0e3f3;
-        div{
-            display: inline-block;
-            color: #838ba0;
-            text-align: center;
-            width: 80px;
-            line-height: 35px;
-            border-radius: 18px;
-            &.active,
-            &:hover,
-            &:active{
-                background:linear-gradient(to right ,#93a0e0 0% , #4a5ec5 100%) ;
-                color: #fff;
-            }
-            
+    .nav {
+      overflow-x: scroll;
+      background: #fff;
+      white-space: nowrap;
+      padding: 10px calc(3vw + 10px) 10px calc(3vw + 10px);
+      border-bottom: 1px solid #e0e3f3;
+      div {
+        display: inline-block;
+        color: #838ba0;
+        text-align: center;
+        width: 80px;
+        line-height: 35px;
+        border-radius: 18px;
+        &.active,
+        &:hover,
+        &:active {
+          background: linear-gradient(to right, #93a0e0 0%, #4a5ec5 100%);
+          color: #fff;
         }
+      }
     }
-    .content{
-        height: calc(100vh - (13.1vh + 56px + 42px));
-        overflow-y: scroll;
-        padding: 0 0 100px 0;
-        .card{
-            background: #fff;
-            padding: 0 3vw 50px 3vw;
-            &:first-child{
-                margin: 15px 0 0 0;
-            }
-            h1{
-                color: #4d515d;
-                padding: 15px 0 15px 12px;
-                border-bottom: 1px solid #e0e3f3;
-                position: relative;
-                &:before{
-                    position: absolute;
-                    left: 0;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    content: '';
-                    width: 4px;
-                    height: 17px;
-                    background: #b5c1ff;
-                    border-radius: 8px;
-                }
-            }
-            .vs_area{
-                position: relative;
-                padding: 30px 35px 0 35px;
-                overflow: hidden;
-                height: 100px;
-                .wrap{
-                    display: flex;
-                    &:first-child{
-                        float: left;
-                        .name{
-                            margin: 0 10px 0 0;
-                        }
-                    }
-                    &:last-child{
-                        float: right;
-                        .name{
-                            margin: 0 0 0 10px;
-                        }
-                    }
-                    .name{
-                        text-align: center;
-                        line-height: 1;
-                        color: #4d515d;
-                        p{
-                            &:first-child{
-                                font-weight: bold;
-                                padding: 0 0 5px 0;
-                            }
-                        }
-                    }
-                    .icon{
-                        background: url(../images/teach/blue_c.png)no-repeat;
-                        width: 42px;
-                        height: 38px;
-                        background-size: 100%;
-                        background-position: center;
-                    }
-                    .icon_o{
-                        background: url(../images/teach/orange_c.png)no-repeat;
-                        width: 42px;
-                        height: 38px;
-                        background-size: 100%;
-                        background-position: center;
-                    }
-                }
-                .vs_mid_area{
-                    position: absolute;
-                    left: 50%;
-                    top: 30px;
-                    transform: translate(-50%,0);
-                    text-align: center;
-                    p{
-                        &:first-child{
-                            color: #838ba0;
-                            font-family: '微軟正黑體';
-                            font-size: 20px;
-                        }
-                        &:last-child{
-                            color: #556de7;
-                            font-size: 14px;
-                        }
-                    }
-                }
-                
-            }
-            p{
-                &.ex_1{
-                    text-align: center;
-                    font-weight: bold;
-                    color: #4a5ec5;
-                    padding: 30px 0 0 0;
-                }
-            }
-            .bingo_area{
-                position: relative;
-                overflow: hidden;
-                height: 80px;
-                margin: 20px 0 0 0;
-                .bingo_bot{
-                    border-radius: 50px;
-                    padding: 6px 0 6px 0;
-                    overflow: hidden;
-                    margin: 10px 0 0 0;
-                    background: linear-gradient(to right, #e7eefd 0%,#effbff 40%,#effbff 60%,#e7eefd 100%);
-                }
-                .wrap{
-                    display: flex;
-                    text-align: center;
-                    align-items: center;
-                    .name{
-                        p{
-                            &.red.red{
-                                color: #f30d0d;
-                            }
-                            &:first-child{
-                                color: #838ba0;
-                            }
-                            &:last-child{
-                                font-weight: bold;
-                                color: #4d515d;
-                            }
-                        }
-                    }
-                    .icon{
-                        
-                        width: 30px;
-                        height: 30px;
-                        &.active{
-                        background: url(../images/teach/gold.png)no-repeat;
-                        background-size: 100%;
-                        background-position: center;
-                        }
-                        &.half{
-                            background: url(../images/teach/gold_half.png)no-repeat;
-                        background-size: 100%;
-                        background-position: center;
-                        }
-                    }
-                    &:first-child{
-                        float: left;
-                        padding: 0 0 0 10px;
-                        .name{
-                            margin: 0 0 0 5px;
-                        }
-                    }
-                    &:last-child{
-                        float: right;
-                        padding: 0 10px 0 0 ;
-                        .name{
-                            margin: 0 5px 0 0;
-                        }
-                    }
-                }
-                .mid_bingo{
-                    position: absolute;
-                    left: 50%;
-                    top: 50%;
-                    -webkit-transform: translate(-50%, -50%);
-                    -ms-transform: translate(-50%, -50%);
-                    transform: translate(-50%, -50%);
-                    display: inline-block;
-                    border-radius: 100px;
-                    text-align: center;
-                    background: #e9f5ff;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    width: 80px;
-                    height: 80px;
-                    line-height: 1;
-                    p{
-                        &.point{
-                            font-size: 24px;
-                            color: #4a5ec5;
-                            padding: 5px 0 2px 0;
-                        }
-                        &:first-child{
-                            color: #4d515d;
-                        }
-                        &:last-child{
-                            font-size: 12px;
-                            color: #838ba0;
-                        }
-                    }
-                }
-            }
+    .content {
+      height: calc(100vh - (13.1vh + 56px + 42px));
+      overflow-y: scroll;
+      padding: 0 0 100px 0;
+      .card {
+        background: #fff;
+        padding: 0 3vw 50px 3vw;
+        &:first-child {
+          margin: 15px 0 0 0;
         }
+        h1 {
+          color: #4d515d;
+          padding: 15px 0 15px 12px;
+          border-bottom: 1px solid #e0e3f3;
+          position: relative;
+          &:before {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            content: "";
+            width: 4px;
+            height: 17px;
+            background: #b5c1ff;
+            border-radius: 8px;
+          }
+        }
+        .vs_area {
+          position: relative;
+          padding: 30px 35px 0 35px;
+          overflow: hidden;
+          height: 100px;
+          .wrap {
+            display: flex;
+            &:first-child {
+              float: left;
+              .name {
+                margin: 0 10px 0 0;
+              }
+            }
+            &:last-child {
+              float: right;
+              .name {
+                margin: 0 0 0 10px;
+              }
+            }
+            .name {
+              text-align: center;
+              line-height: 1;
+              color: #4d515d;
+              p {
+                &:first-child {
+                  font-weight: bold;
+                  padding: 0 0 5px 0;
+                }
+              }
+            }
+            .icon {
+              background: url(../images/teach/blue_c.png) no-repeat;
+              width: 42px;
+              height: 38px;
+              background-size: 100%;
+              background-position: center;
+            }
+            .icon_o {
+              background: url(../images/teach/orange_c.png) no-repeat;
+              width: 42px;
+              height: 38px;
+              background-size: 100%;
+              background-position: center;
+            }
+          }
+          .vs_mid_area {
+            position: absolute;
+            left: 50%;
+            top: 30px;
+            transform: translate(-50%, 0);
+            text-align: center;
+            p {
+              &:first-child {
+                color: #838ba0;
+                font-family: "微軟正黑體";
+                font-size: 20px;
+              }
+              &:last-child {
+                color: #556de7;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+        p {
+          &.ex_1 {
+            text-align: center;
+            font-weight: bold;
+            color: #4a5ec5;
+            padding: 30px 0 0 0;
+          }
+        }
+        .bingo_area {
+          position: relative;
+          overflow: hidden;
+          height: 80px;
+          margin: 20px 0 0 0;
+          .bingo_bot {
+            border-radius: 50px;
+            padding: 6px 0 6px 0;
+            overflow: hidden;
+            margin: 10px 0 0 0;
+            background: linear-gradient(
+              to right,
+              #e7eefd 0%,
+              #effbff 40%,
+              #effbff 60%,
+              #e7eefd 100%
+            );
+          }
+          .wrap {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            .name {
+              p {
+                &.red.red {
+                  color: #f30d0d;
+                }
+                &:first-child {
+                  color: #838ba0;
+                }
+                &:last-child {
+                  font-weight: bold;
+                  color: #4d515d;
+                }
+              }
+            }
+            .icon {
+              width: 30px;
+              height: 30px;
+              &.active {
+                background: url(../images/teach/gold.png) no-repeat;
+                background-size: 100%;
+                background-position: center;
+              }
+              &.half {
+                background: url(../images/teach/gold_half.png) no-repeat;
+                background-size: 100%;
+                background-position: center;
+              }
+            }
+            &:first-child {
+              float: left;
+              padding: 0 0 0 10px;
+              .name {
+                margin: 0 0 0 5px;
+              }
+            }
+            &:last-child {
+              float: right;
+              padding: 0 10px 0 0;
+              .name {
+                margin: 0 5px 0 0;
+              }
+            }
+          }
+          .mid_bingo {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            display: inline-block;
+            border-radius: 100px;
+            text-align: center;
+            background: #e9f5ff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            line-height: 1;
+            p {
+              &.point {
+                font-size: 24px;
+                color: #4a5ec5;
+                padding: 5px 0 2px 0;
+              }
+              &:first-child {
+                color: #4d515d;
+              }
+              &:last-child {
+                font-size: 12px;
+                color: #838ba0;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
