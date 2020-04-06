@@ -19,6 +19,7 @@ aside {
             line-height: 40px;
             width: 80px;
             text-align: center;
+            border-bottom: 2px solid transparent; 
             &:last-child{
                 float: right;
             }
@@ -29,6 +30,31 @@ aside {
                 border-bottom: 2px solid #7c87bc;
             }
         }
+    }
+    .nav{
+        overflow-x: scroll;
+        background: #fff;
+        white-space: nowrap;
+        padding: 10px calc(3vw + 10px) 10px calc(3vw + 10px);
+        border-bottom: 1px solid #e0e3f3;
+        div{
+            display: inline-block;
+            color: #838ba0;
+            text-align: center;
+            width: 80px;
+            line-height: 35px;
+            border-radius: 18px;
+            &.active,
+            &:hover,
+            &:active{
+                background:linear-gradient(to right ,#93a0e0 0% , #4a5ec5 100%) ;
+                color: #fff;
+            }
+            
+        }
+    }
+    .content{
+        height: calc(100vh - (5vh + 10px + 56px));
     }
   }
 }
