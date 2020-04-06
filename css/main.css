@@ -5859,8 +5859,7 @@ aside.teach {
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
-  position: fixed;
-  overflow-y: scroll; }
+  position: fixed; }
   aside.teach .title {
     padding: calc(5vh + 10px) 50px 0 50px;
     background: #fff;
@@ -5899,7 +5898,166 @@ aside.teach {
         background: linear-gradient(to right, #93a0e0 0%, #4a5ec5 100%);
         color: #fff; }
   aside.teach .content {
-    height: calc(100vh - (5vh + 10px + 56px)); }
+    height: calc(100vh - (13.1vh + 56px + 42px));
+    overflow-y: scroll;
+    padding: 0 0 100px 0; }
+    aside.teach .content .card {
+      background: #fff;
+      padding: 0 3vw 50px 3vw; }
+      aside.teach .content .card:first-child {
+        margin: 15px 0 0 0; }
+      aside.teach .content .card h1 {
+        color: #4d515d;
+        padding: 15px 0 15px 12px;
+        border-bottom: 1px solid #e0e3f3;
+        position: relative; }
+        aside.teach .content .card h1:before {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          content: '';
+          width: 4px;
+          height: 17px;
+          background: #b5c1ff;
+          border-radius: 8px; }
+      aside.teach .content .card .vs_area {
+        position: relative;
+        padding: 30px 35px 0 35px;
+        overflow: hidden;
+        height: 100px; }
+        aside.teach .content .card .vs_area .wrap {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          aside.teach .content .card .vs_area .wrap:first-child {
+            float: left; }
+            aside.teach .content .card .vs_area .wrap:first-child .name {
+              margin: 0 10px 0 0; }
+          aside.teach .content .card .vs_area .wrap:last-child {
+            float: right; }
+            aside.teach .content .card .vs_area .wrap:last-child .name {
+              margin: 0 0 0 10px; }
+          aside.teach .content .card .vs_area .wrap .name {
+            text-align: center;
+            line-height: 1;
+            color: #4d515d; }
+            aside.teach .content .card .vs_area .wrap .name p:first-child {
+              font-weight: bold;
+              padding: 0 0 5px 0; }
+          aside.teach .content .card .vs_area .wrap .icon {
+            background: url(../images/teach/blue_c.png) no-repeat;
+            width: 42px;
+            height: 38px;
+            background-size: 100%;
+            background-position: center; }
+          aside.teach .content .card .vs_area .wrap .icon_o {
+            background: url(../images/teach/orange_c.png) no-repeat;
+            width: 42px;
+            height: 38px;
+            background-size: 100%;
+            background-position: center; }
+        aside.teach .content .card .vs_area .vs_mid_area {
+          position: absolute;
+          left: 50%;
+          top: 30px;
+          -webkit-transform: translate(-50%, 0);
+          -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+          text-align: center; }
+          aside.teach .content .card .vs_area .vs_mid_area p:first-child {
+            color: #838ba0;
+            font-family: '微軟正黑體';
+            font-size: 20px; }
+          aside.teach .content .card .vs_area .vs_mid_area p:last-child {
+            color: #556de7;
+            font-size: 14px; }
+      aside.teach .content .card p.ex_1 {
+        text-align: center;
+        font-weight: bold;
+        color: #4a5ec5;
+        padding: 30px 0 0 0; }
+      aside.teach .content .card .bingo_area {
+        position: relative;
+        overflow: hidden;
+        height: 80px;
+        margin: 20px 0 0 0; }
+        aside.teach .content .card .bingo_area .bingo_bot {
+          border-radius: 50px;
+          padding: 6px 0 6px 0;
+          overflow: hidden;
+          margin: 10px 0 0 0;
+          background: -webkit-gradient(linear, left top, right top, from(#e7eefd), color-stop(40%, #effbff), color-stop(60%, #effbff), to(#e7eefd));
+          background: -webkit-linear-gradient(left, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%);
+          background: -o-linear-gradient(left, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%);
+          background: linear-gradient(to right, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%); }
+        aside.teach .content .card .bingo_area .wrap {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          text-align: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+          aside.teach .content .card .bingo_area .wrap .name p.red.red {
+            color: #f30d0d; }
+          aside.teach .content .card .bingo_area .wrap .name p:first-child {
+            color: #838ba0; }
+          aside.teach .content .card .bingo_area .wrap .name p:last-child {
+            font-weight: bold;
+            color: #4d515d; }
+          aside.teach .content .card .bingo_area .wrap .icon {
+            width: 30px;
+            height: 30px; }
+            aside.teach .content .card .bingo_area .wrap .icon.active {
+              background: url(../images/teach/gold.png) no-repeat;
+              background-size: 100%;
+              background-position: center; }
+          aside.teach .content .card .bingo_area .wrap:first-child {
+            float: left;
+            padding: 0 0 0 10px; }
+            aside.teach .content .card .bingo_area .wrap:first-child .name {
+              margin: 0 0 0 5px; }
+          aside.teach .content .card .bingo_area .wrap:last-child {
+            float: right;
+            padding: 0 10px 0 0; }
+            aside.teach .content .card .bingo_area .wrap:last-child .name {
+              margin: 0 5px 0 0; }
+        aside.teach .content .card .bingo_area .mid_bingo {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          display: inline-block;
+          border-radius: 100px;
+          text-align: center;
+          background: #e9f5ff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          width: 80px;
+          height: 80px;
+          line-height: 1; }
+          aside.teach .content .card .bingo_area .mid_bingo p.point {
+            font-size: 24px;
+            color: #4a5ec5;
+            padding: 5px 0 2px 0; }
+          aside.teach .content .card .bingo_area .mid_bingo p:first-child {
+            color: #4d515d; }
+          aside.teach .content .card .bingo_area .mid_bingo p:last-child {
+            font-size: 12px;
+            color: #838ba0; }
 
 .clearfix {
   display: block;
