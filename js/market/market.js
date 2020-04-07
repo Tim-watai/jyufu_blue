@@ -44,14 +44,7 @@ $(document).ready(function() {
         return $("aside.bet_window").removeClass("active");
     }
   });
-  //開啟投注頁面_空
-  $("footer ul li.yes_do ,aside.now_bet_empty").click(function() {
-    if ($("aside.now_bet_empty").hasClass("active") != true) {
-      return $("aside.now_bet_empty").addClass("active");
-    }else{
-        return $("aside.now_bet_empty").removeClass("active");
-    }
-  });
+  
   //開啟_設置頁面
   $('footer ul li.set_table ,aside.set_window ul.side_bar li.close').click(
     function (){
@@ -90,4 +83,22 @@ $(document).ready(function() {
       }
     }
   );
+  //開啟_已結算注單
+  $('footer ul li.yes_do , aside.finish_bill .windows span.close').click(
+    function(){
+      if($('aside.finish_bill').hasClass('active') != true){
+        return $('aside.finish_bill').addClass('active');
+      }else{
+        return $('aside.finish_bill').removeClass('active');
+      }
+    }
+  );
+  //開啟注單頁面_空
+  // $("footer ul li.yes_do ,aside.now_bet_empty").click(function() {
+  //   if ($("aside.now_bet_empty").hasClass("active") != true) {
+  //     return $("aside.now_bet_empty").addClass("active");
+  //   }else{
+  //       return $("aside.now_bet_empty").removeClass("active");
+  //   }
+  // });
 }); //total
