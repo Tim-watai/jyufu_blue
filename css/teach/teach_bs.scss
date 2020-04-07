@@ -1,12 +1,18 @@
 aside {
   &.teach {
-   
-    .content{
-        &.teach_bs{
-            height: calc(100vh - (13.1vh + 42px));
-      overflow-y: scroll;
-      padding: 0 0 100px 0;
+    .content {
+      &.teach_bs {
+        height: calc(100vh - (13.1vh + 42px));
+        overflow-y: scroll;
+        padding: 0 0 100px 0;
+        .card{
+          .vs_area{
+            .wrap{
+              align-items: center;
+            }
+          }
         }
+      }
     }
   }
 }
