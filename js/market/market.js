@@ -79,7 +79,15 @@ $(document).ready(function() {
         return $('aside.search_window').removeClass('active');
       }
     }
-  )
-  
- 
+  );
+  //開啟_未結算注單
+  $('footer ul li.not_yet , aside.yet_bill .windows span.close').click(
+    function(){
+      if($('aside.yet_bill').hasClass('active') != true){
+        return $('aside.yet_bill').addClass('active');
+      }else{
+        return $('aside.yet_bill').removeClass('active');
+      }
+    }
+  );
 }); //total
