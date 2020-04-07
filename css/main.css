@@ -6321,6 +6321,218 @@ aside.teach .content.teach_bs {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+  aside.teach .content.teach_bs .card .question_wrap {
+    padding: 0 15px 0 15px;
+    margin: 20px 0 0 0; }
+    aside.teach .content.teach_bs .card .question_wrap .question {
+      color: #4d515d; }
+      aside.teach .content.teach_bs .card .question_wrap .question div {
+        display: inline-block; }
+        aside.teach .content.teach_bs .card .question_wrap .question div.icon_1 {
+          background: url(../images/teach/c1.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 15px;
+          height: 20px;
+          margin: 0 5px 0 5px; }
+        aside.teach .content.teach_bs .card .question_wrap .question div.icon_2 {
+          background: url(../images/teach/c2.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 15px;
+          height: 15px;
+          margin: 0 5px 0 5px; }
+        aside.teach .content.teach_bs .card .question_wrap .question div.blue {
+          color: #4d61c6;
+          font-size: 20px; }
+      aside.teach .content.teach_bs .card .question_wrap .question span.type {
+        font-size: 12px;
+        line-height: 1;
+        display: inline-block;
+        vertical-align: text-bottom;
+        background: #7b8bd7;
+        color: #fff;
+        padding: 2px 3px 2px 3px;
+        border-radius: 3px; }
+    aside.teach .content.teach_bs .card .question_wrap .choice_wrap {
+      margin: 20px 0 0 0; }
+      aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice {
+        line-height: 55px; }
+        aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice:first-child {
+          margin: 0 0 10px 0; }
+        aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div {
+          line-height: 1;
+          display: inline-block; }
+          aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.option {
+            vertical-align: middle;
+            margin: 0 10px 0 0;
+            color: #838ba0;
+            width: 16px;
+            height: 16px;
+            position: relative; }
+            aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.option.a:before {
+              content: "A.";
+              color: #838ba0; }
+            aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.option.b:before {
+              content: "B.";
+              color: #838ba0; }
+            aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.option.fail {
+              background: #f30d0d;
+              width: 20px;
+              height: 20px;
+              border-radius: 100px; }
+              aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.option.fail:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%) rotate(45deg);
+                -ms-transform: translate(-50%, -50%) rotate(45deg);
+                transform: translate(-50%, -50%) rotate(45deg);
+                height: 15px;
+                width: 2px;
+                background: #fff; }
+              aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.option.fail:after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+                -ms-transform: translate(-50%, -50%) rotate(-45deg);
+                transform: translate(-50%, -50%) rotate(-45deg);
+                height: 15px;
+                width: 2px;
+                background: #fff; }
+            aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.option.success {
+              background: #429cff;
+              width: 20px;
+              height: 20px;
+              border-radius: 100px; }
+              aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.option.success:before {
+                content: "";
+                position: absolute;
+                top: 45%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%) rotate(45deg);
+                -ms-transform: translate(-50%, -50%) rotate(45deg);
+                transform: translate(-50%, -50%) rotate(45deg);
+                border-right: 2px solid #fff;
+                border-bottom: 2px solid #fff;
+                height: 12px;
+                width: 6px;
+                background: transparent; }
+          aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.c_content {
+            vertical-align: middle;
+            background: #ebf4fe;
+            padding: 10px 40px 10px 40px;
+            border-radius: 5px;
+            text-align: center; }
+            aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.c_content:hover, aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.c_content:active, aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.c_content.active {
+              background: #d9e0ff; }
+            aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.c_content p {
+              position: relative; }
+              aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.c_content p:first-child {
+                color: #838ba0;
+                margin: 0 0 3px 0; }
+              aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.c_content p.red_up {
+                color: #f30d0d; }
+                aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.c_content p.red_up:before {
+                  content: "";
+                  position: relative;
+                  width: 0;
+                  height: 0;
+                  border-style: solid;
+                  border-width: 0 5px 5px 5px;
+                  border-color: transparent transparent #f30d0d transparent;
+                  display: inline-block;
+                  vertical-align: middle;
+                  margin: 0 5px 0 -5px; }
+              aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.c_content p.green_down {
+                color: #04d052; }
+                aside.teach .content.teach_bs .card .question_wrap .choice_wrap .choice div.c_content p.green_down:before {
+                  content: "";
+                  position: relative;
+                  width: 0;
+                  height: 0;
+                  border-style: solid;
+                  border-width: 5px 5px 0px 5px;
+                  border-color: #04d052 transparent transparent transparent;
+                  display: inline-block;
+                  vertical-align: middle;
+                  margin: 0 5px 0 -5px; }
+    aside.teach .content.teach_bs .card .question_wrap .result_wrap {
+      margin: 30px 0 0 0; }
+      aside.teach .content.teach_bs .card .question_wrap .result_wrap span {
+        display: inline-block; }
+      aside.teach .content.teach_bs .card .question_wrap .result_wrap .fail {
+        color: #f30d0d;
+        line-height: 20px; }
+        aside.teach .content.teach_bs .card .question_wrap .result_wrap .fail .icon {
+          background: url(../images/teach/fail.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 20px;
+          height: 20px;
+          line-height: 1;
+          vertical-align: middle;
+          margin: 0 5px 0 0; }
+      aside.teach .content.teach_bs .card .question_wrap .result_wrap .success {
+        color: #429cff; }
+        aside.teach .content.teach_bs .card .question_wrap .result_wrap .success .icon {
+          background: url(../images/teach/success.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 20px;
+          height: 20px;
+          line-height: 1;
+          vertical-align: middle;
+          margin: 0 5px 0 0; }
+      aside.teach .content.teach_bs .card .question_wrap .result_wrap .answer {
+        color: #4d515d;
+        margin: 20px 0 0 0; }
+        aside.teach .content.teach_bs .card .question_wrap .result_wrap .answer div {
+          display: inline-block; }
+          aside.teach .content.teach_bs .card .question_wrap .result_wrap .answer div.blue {
+            color: #4d61c6; }
+  aside.teach .content.teach_bs .card .button_wrap {
+    margin: 30px 0 0 0; }
+    aside.teach .content.teach_bs .card .button_wrap button {
+      width: 100%;
+      border-radius: 8px;
+      line-height: 1;
+      padding: 15px 0 15px 0;
+      font-size: 20px;
+      font-weight: bold;
+      position: relative;
+      margin: 0 0 20px 0; }
+      aside.teach .content.teach_bs .card .button_wrap button.deep_blue {
+        color: #fff;
+        background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#495dc4));
+        background: -webkit-linear-gradient(left, #9ba8e4 0%, #495dc4 100%);
+        background: -o-linear-gradient(left, #9ba8e4 0%, #495dc4 100%);
+        background: linear-gradient(to right, #9ba8e4 0%, #495dc4 100%);
+        border: none; }
+      aside.teach .content.teach_bs .card .button_wrap button.white_blue {
+        color: #4a5ec5;
+        border: 1px solid #4a5ec5;
+        background: #fff; }
+      aside.teach .content.teach_bs .card .button_wrap button.blue_arrow {
+        border: none;
+        background: #fff;
+        color: #4a5ec5;
+        display: inline-block; }
+        aside.teach .content.teach_bs .card .button_wrap button.blue_arrow:after {
+          position: relative;
+          content: "";
+          width: 15px;
+          height: 15px;
+          display: inline-block;
+          line-height: 15px;
+          vertical-align: baseline;
+          background: url(../images/arrow_double_blue.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          margin: 0 -8px 0 8px; }
 
 .clearfix {
   display: block;
