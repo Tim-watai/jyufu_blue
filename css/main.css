@@ -6342,6 +6342,20 @@ aside.teach .content.teach_bs {
           width: 15px;
           height: 15px;
           margin: 0 5px 0 5px; }
+        aside.teach .content.teach_bs .card .question_wrap .question div.icon_3 {
+          background: url(../images/teach/c3.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 15px;
+          height: 15px;
+          margin: 0 5px 0 5px; }
+        aside.teach .content.teach_bs .card .question_wrap .question div.icon_4 {
+          background: url(../images/teach/c4.png) no-repeat;
+          background-size: 100%;
+          background-position: center;
+          width: 15px;
+          height: 15px;
+          margin: 0 5px 0 5px; }
         aside.teach .content.teach_bs .card .question_wrap .question div.blue {
           color: #4d61c6;
           font-size: 20px; }
@@ -6461,12 +6475,28 @@ aside.teach .content.teach_bs {
                   vertical-align: middle;
                   margin: 0 5px 0 -5px; }
     aside.teach .content.teach_bs .card .question_wrap .result_wrap {
-      margin: 30px 0 0 0; }
+      margin: 30px 0 0 0;
+      padding: 15px 0 0 0;
+      position: relative; }
+      aside.teach .content.teach_bs .card .question_wrap .result_wrap:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 94vw;
+        background: #e0e3f3;
+        height: 1px; }
       aside.teach .content.teach_bs .card .question_wrap .result_wrap span {
         display: inline-block; }
       aside.teach .content.teach_bs .card .question_wrap .result_wrap .fail {
         color: #f30d0d;
-        line-height: 20px; }
+        line-height: 20px;
+        display: none; }
+        aside.teach .content.teach_bs .card .question_wrap .result_wrap .fail.active {
+          display: block; }
         aside.teach .content.teach_bs .card .question_wrap .result_wrap .fail .icon {
           background: url(../images/teach/fail.png) no-repeat;
           background-size: 100%;
@@ -6477,7 +6507,10 @@ aside.teach .content.teach_bs {
           vertical-align: middle;
           margin: 0 5px 0 0; }
       aside.teach .content.teach_bs .card .question_wrap .result_wrap .success {
-        color: #429cff; }
+        color: #429cff;
+        display: none; }
+        aside.teach .content.teach_bs .card .question_wrap .result_wrap .success.active {
+          display: block; }
         aside.teach .content.teach_bs .card .question_wrap .result_wrap .success .icon {
           background: url(../images/teach/success.png) no-repeat;
           background-size: 100%;
@@ -6489,13 +6522,19 @@ aside.teach .content.teach_bs {
           margin: 0 5px 0 0; }
       aside.teach .content.teach_bs .card .question_wrap .result_wrap .answer {
         color: #4d515d;
-        margin: 20px 0 0 0; }
+        margin: 20px 0 0 0;
+        display: none; }
+        aside.teach .content.teach_bs .card .question_wrap .result_wrap .answer.active {
+          display: block; }
         aside.teach .content.teach_bs .card .question_wrap .result_wrap .answer div {
           display: inline-block; }
           aside.teach .content.teach_bs .card .question_wrap .result_wrap .answer div.blue {
             color: #4d61c6; }
   aside.teach .content.teach_bs .card .button_wrap {
-    margin: 30px 0 0 0; }
+    margin: 30px 0 0 0;
+    display: none; }
+    aside.teach .content.teach_bs .card .button_wrap.active {
+      display: block; }
     aside.teach .content.teach_bs .card .button_wrap button {
       width: 100%;
       border-radius: 8px;

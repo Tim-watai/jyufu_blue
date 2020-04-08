@@ -34,6 +34,22 @@ aside {
                   height: 15px;
                   margin: 0 5px 0 5px;
                 }
+                &.icon_3 {
+                  background: url(../images/teach/c3.png) no-repeat;
+                  background-size: 100%;
+                  background-position: center;
+                  width: 15px;
+                  height: 15px;
+                  margin: 0 5px 0 5px;
+                }
+                &.icon_4 {
+                  background: url(../images/teach/c4.png) no-repeat;
+                  background-size: 100%;
+                  background-position: center;
+                  width: 15px;
+                  height: 15px;
+                  margin: 0 5px 0 5px;
+                }
                 &.blue {
                   color: #4d61c6;
                   font-size: 20px;
@@ -182,12 +198,28 @@ aside {
             }
             .result_wrap {
               margin: 30px 0 0 0;
+              padding: 15px 0 0 0;
+              position: relative;
+              &:before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 94vw;
+                background: #e0e3f3;
+                height: 1px;
+              }
               span {
                 display: inline-block;
               }
               .fail {
                 color: #f30d0d;
                 line-height: 20px;
+                display: none;
+                &.active{
+                  display: block;
+                }
                 .icon {
                   background: url(../images/teach/fail.png) no-repeat;
                   background-size: 100%;
@@ -201,6 +233,10 @@ aside {
               }
               .success {
                 color: #429cff;
+                display: none;
+                &.active{
+                  display: block;
+                }
                 .icon {
                   background: url(../images/teach/success.png) no-repeat;
                   background-size: 100%;
@@ -215,6 +251,10 @@ aside {
               .answer{
                 color: #4d515d;
                 margin: 20px 0 0 0;
+                display: none;
+                &.active{
+                  display: block;
+                }
                 div{
                   display: inline-block;
                   &.blue{
@@ -228,6 +268,10 @@ aside {
 
           .button_wrap {
             margin: 30px 0 0 0;
+            display: none;
+            &.active{
+              display: block;
+            }
             button {
               width: 100%;
               border-radius: 8px;
