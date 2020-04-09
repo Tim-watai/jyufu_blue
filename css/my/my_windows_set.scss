@@ -18,6 +18,9 @@ aside{
             text-align: center;
             font-size: 18px;
             padding: 10px 0 5px 0;
+            border-bottom-left-radius: 20px 20px;
+            border-bottom-right-radius: 20px 20px;
+            box-shadow: 0 2px 3px 0 #e2e2e2;
           }
           &.row_btn {
             background: #fff;
