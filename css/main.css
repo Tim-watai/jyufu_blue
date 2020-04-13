@@ -6828,7 +6828,7 @@ header {
         display: inline-block;
         position: relative;
         float: right;
-        font-size: 20px;
+        font-size: 18px;
         color: #4d515d; }
       header ul li.question_icon {
         background: url(../images/question.png) no-repeat;
