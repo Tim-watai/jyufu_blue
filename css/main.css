@@ -3126,6 +3126,78 @@ aside.finish_bill {
             color: #d46571;
             padding: 8px 0 8px 10px; }
 
+aside.set_pw {
+  width: 100%;
+  margin: calc(5vh + 10px) 0 0 0;
+  position: fixed;
+  top: 0; }
+  aside.set_pw ul {
+    display: block;
+    padding: 0 15px 0 15px;
+    background: #fff; }
+    aside.set_pw ul li {
+      white-space: nowrap;
+      display: block;
+      border-bottom: 1px solid #e0e3f3;
+      padding: 10px 10px 10px 10px;
+      line-height: 29px;
+      height: 50px; }
+      aside.set_pw ul li:last-child {
+        border-bottom: none; }
+      aside.set_pw ul li p {
+        display: inline-block;
+        line-height: 1;
+        vertical-align: middle;
+        color: #4d515d; }
+      aside.set_pw ul li input {
+        display: inline-block;
+        float: right;
+        width: 65%;
+        height: 100%;
+        border-radius: 4px;
+        border: 1px solid #b9bfdc;
+        padding: 10px; }
+      aside.set_pw ul li.double {
+        white-space: normal;
+        height: auto;
+        line-height: 1;
+        padding: 10px 10px 5px 10px; }
+        aside.set_pw ul li.double .wrap {
+          display: inline-block;
+          width: 100%;
+          line-height: 29px;
+          height: 40px; }
+          aside.set_pw ul li.double .wrap p {
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+            color: #4d515d; }
+          aside.set_pw ul li.double .wrap input {
+            height: 29px;
+            width: 65%; }
+        aside.set_pw ul li.double .wrap2 {
+          display: inline-block;
+          width: 100%; }
+          aside.set_pw ul li.double .wrap2 p {
+            color: #838ba0;
+            width: 65%;
+            float: right;
+            font-size: 14px; }
+  aside.set_pw button {
+    display: inline-block;
+    width: 70vw;
+    margin: 15px 15vw 0 15vw;
+    background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
+    background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
+    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
+    border: none;
+    border-radius: 4px;
+    padding: 15px 0 15px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold; }
+
 aside.my_windows {
   width: 100vw;
   height: 100vh;
@@ -7280,11 +7352,11 @@ footer {
       footer ul li.donate span {
         background-position: -86px -1px; }
       footer ul li.donate.active span {
-        background-position: -84px -27px; }
+        background-position: -86px -27px; }
       footer ul li.my span {
-        background-position: -111px -1px; }
+        background-position: -113px -1px; }
       footer ul li.my.active span {
-        background-position: -111px -27px; }
+        background-position: -113px -27px; }
       footer ul li.my.have {
         position: relative; }
         footer ul li.my.have span {

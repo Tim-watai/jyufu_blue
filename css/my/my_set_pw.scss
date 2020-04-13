@@ -1,0 +1,85 @@
+aside{
+    &.set_pw{
+            width: 100%;
+            margin: calc(5vh + 10px) 0 0 0;
+            position: fixed;
+            top: 0;
+        ul{
+            display:block;
+            padding: 0 15px 0 15px;
+             background: #fff;
+            li{
+                    white-space: nowrap;
+                    display: block;
+                    border-bottom: 1px solid #e0e3f3;
+                    padding: 10px 10px 10px 10px;
+                    line-height: 29px;
+                    height: 50px;
+                    &:last-child{
+                        border-bottom:none;
+                    }
+                    p{
+                        display: inline-block;
+                        line-height: 1;
+                        vertical-align: middle;
+                        color:#4d515d;
+                    }
+                    input{
+                            display: inline-block;
+                            float: right;
+                            width: 65%;
+                            height:100%;
+                            border-radius: 4px;
+                            border:1px solid #b9bfdc;
+                            padding: 10px;
+
+                    }
+                    &.double{
+                            white-space: normal;
+                            height:auto;
+                            line-height:1;
+                            padding: 10px 10px 5px 10px;
+                        .wrap{
+                            display: inline-block;
+                            width: 100%;
+                            line-height: 29px;
+                            height: 40px;
+                            p{
+                                display: inline-block;
+                                line-height: 1;
+                                vertical-align: middle;
+                                color: #4d515d;
+                            }
+                            input{
+                                height: 29px;
+                                width: 65%;
+                            }
+                        }
+                        .wrap2{
+                                display: inline-block;
+                                width: 100%;
+                            p{
+                                color:#838ba0;
+                                width: 65%;
+                                float: right;
+                                    font-size: 14px;
+                            }
+                        }
+                    }
+                   
+            }
+        }
+        button{
+            display: inline-block;
+            width: 70vw;
+            margin: 15px 15vw 0 15vw;
+            background: linear-gradient(to right, #9ba8e4 0% , #485cc4 100%);
+            border: none;
+            border-radius: 4px;
+            padding: 15px 0 15px 0;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}

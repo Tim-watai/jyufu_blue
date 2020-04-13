@@ -9,6 +9,7 @@
 @import "../css/market/market_soccer_double_inner.scss";
 @import "../css/market/market_soccer_early.scss";
 @import "../css/market/market_bill.scss";
+@import "../css/my/my_set_pw.scss";
 @import "../css/my/my_windows.scss";
 @import "../css/my/my_data_edit/my_data_edit.scss";
 @import "../css/my/my_windows_set.scss";
@@ -922,17 +923,17 @@ footer {
         }
         &.active {
           span {
-            background-position: -84px -27px;
+            background-position: -86px -27px;
           }
         }
       }
       &.my {
         span {
-          background-position: -111px -1px;
+          background-position: -113px -1px;
         }
         &.active {
           span {
-          background-position: -111px -27px;
+          background-position: -113px -27px;
           }
         }
       }
