@@ -5904,7 +5904,57 @@ aside.help_board_my {
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
-  position: fixed; }
+  position: fixed;
+  overflow-y: scroll; }
+  aside.help_board_my .content {
+    padding: 0 15px 0 15px; }
+    aside.help_board_my .content ul.card {
+      border-radius: 12px;
+      border: 1px solid #9ba1c5;
+      overflow: hidden;
+      margin: 0 0 15px 0; }
+      aside.help_board_my .content ul.card li.title {
+        background: #efefef;
+        padding: 10px 10px 10px 10px;
+        line-height: 25px;
+        position: relative; }
+        aside.help_board_my .content ul.card li.title h1,
+        aside.help_board_my .content ul.card li.title .status,
+        aside.help_board_my .content ul.card li.title .time {
+          display: inline-block; }
+        aside.help_board_my .content ul.card li.title h1 {
+          font-weight: normal;
+          font-size: 18px;
+          color: #4d515d;
+          vertical-align: middle;
+          line-height: 1; }
+        aside.help_board_my .content ul.card li.title .status {
+          font-size: 12px;
+          vertical-align: middle;
+          line-height: 1;
+          border: 1px solid;
+          border-radius: 3px;
+          margin: -3px 0 0 6px;
+          padding: 1px 3px 1px 3px; }
+          aside.help_board_my .content ul.card li.title .status.yet {
+            color: #838ba0;
+            border: 1px solid #838ba0; }
+          aside.help_board_my .content ul.card li.title .status.reply {
+            color: #5875e0;
+            border: 1px solid #5875e0; }
+        aside.help_board_my .content ul.card li.title .time {
+          line-height: 25px;
+          float: right;
+          font-size: 15px;
+          color: #838ba0; }
+      aside.help_board_my .content ul.card li.qa {
+        background: #fff;
+        padding: 10px 10px 0px 10px; }
+        aside.help_board_my .content ul.card li.qa p:first-child {
+          padding: 0 0px 10px 0; }
+        aside.help_board_my .content ul.card li.qa .answer {
+          color: #5875e0;
+          padding: 0 0 10px 0; }
 
 aside.help_contact_us {
   padding: calc(5vh + 10px) 0 100px 0;
