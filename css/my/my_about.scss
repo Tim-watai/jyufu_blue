@@ -1,0 +1,10 @@
+aside{
+    &.my_about{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        background: url(../images/my_about/bg.jpg)no-repeat;
+        background-size: cover;
+        
+    }
+}

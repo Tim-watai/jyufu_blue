@@ -3198,6 +3198,13 @@ aside.set_pw {
     font-size: 20px;
     font-weight: bold; }
 
+aside.my_about {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: url(../images/my_about/bg.jpg) no-repeat;
+  background-size: cover; }
+
 aside.my_windows {
   width: 100vw;
   height: 100vh;
