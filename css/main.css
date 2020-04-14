@@ -528,13 +528,45 @@ nav.kinds {
         nav.kinds ul li.active span.kind_icon {
           display: inline-block;
           background: url(../images/market/kinds.png) no-repeat;
-          background-size: 2100%;
-          width: 20px;
+          background-size: 1950%;
+          width: 22px;
           height: 20px; }
-        nav.kinds ul li.active span.football {
+        nav.kinds ul li.active span.all {
+          background-position: -24px -1px; }
+        nav.kinds ul li.active span.loves {
+          background-position: -1px -1px; }
+        nav.kinds ul li.active span.soccer {
           background-position: -48px 0; }
         nav.kinds ul li.active span.basketball {
-          background-position: -95px 0px; }
+          background-position: -96px 0px; }
+        nav.kinds ul li.active span.horse {
+          background-position: -120px 0px; }
+        nav.kinds ul li.active span.e_sport {
+          background-position: -144px 2px; }
+        nav.kinds ul li.active span.graph {
+          background-position: -168px 2px; }
+        nav.kinds ul li.active span.color_ball {
+          background-position: -192px 0px; }
+        nav.kinds ul li.active span.ice_ball {
+          background-position: -216px 1px; }
+        nav.kinds ul li.active span.basball {
+          background-position: -72px -0px; }
+        nav.kinds ul li.active span.tennis {
+          background-position: -239px 0px; }
+        nav.kinds ul li.active span.snooker {
+          background-position: -263px 0px; }
+        nav.kinds ul li.active span.volleyball {
+          background-position: -287px 0px; }
+        nav.kinds ul li.active span.motor_sport {
+          background-position: -310px 0px; }
+        nav.kinds ul li.active span.badminton {
+          background-position: -334px 0px; }
+        nav.kinds ul li.active span.football {
+          background-position: -358px 0px; }
+        nav.kinds ul li.active span.table_tennis {
+          background-position: -407px 0px; }
+        nav.kinds ul li.active span.beach_soccer {
+          background-position: -382px 0px; }
       nav.kinds ul li div {
         text-align: center;
         float: left;
@@ -542,13 +574,45 @@ nav.kinds {
         nav.kinds ul li div span.kind_icon {
           display: inline-block;
           background: url(../images/market/kinds.png) no-repeat;
-          background-size: 2100%;
-          width: 20px;
+          background-size: 1950%;
+          width: 22px;
           height: 20px; }
-        nav.kinds ul li div span.football {
-          background-position: -48px -19px; }
+        nav.kinds ul li div span.all {
+          background-position: -24px -20px; }
+        nav.kinds ul li div span.loves {
+          background-position: -1px -20px; }
+        nav.kinds ul li div span.soccer {
+          background-position: -48px -20px; }
         nav.kinds ul li div span.basketball {
-          background-position: -95px -19px; }
+          background-position: -96px -20px; }
+        nav.kinds ul li div span.horse {
+          background-position: -120px -20px; }
+        nav.kinds ul li div span.e_sport {
+          background-position: -144px -20px; }
+        nav.kinds ul li div span.graph {
+          background-position: -168px -20px; }
+        nav.kinds ul li div span.color_ball {
+          background-position: -192px -19px; }
+        nav.kinds ul li div span.ice_ball {
+          background-position: -216px -20px; }
+        nav.kinds ul li div span.basball {
+          background-position: -72px -19px; }
+        nav.kinds ul li div span.tennis {
+          background-position: -239px -20px; }
+        nav.kinds ul li div span.snooker {
+          background-position: -263px -20px; }
+        nav.kinds ul li div span.volleyball {
+          background-position: -287px -20px; }
+        nav.kinds ul li div span.motor_sport {
+          background-position: -310px -20px; }
+        nav.kinds ul li div span.badminton {
+          background-position: -334px -20px; }
+        nav.kinds ul li div span.football {
+          background-position: -358px -20px; }
+        nav.kinds ul li div span.table_tennis {
+          background-position: -407px -20px; }
+        nav.kinds ul li div span.beach_soccer {
+          background-position: -382px -20px; }
         nav.kinds ul li div p {
           font-size: 3vw;
           line-height: 1.2vh;
