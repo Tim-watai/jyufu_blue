@@ -1,10 +1,212 @@
-aside{
-    &.my_about{
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-        background: url(../images/my_about/bg.jpg)no-repeat;
-        background-size: cover;
-        
+aside {
+  &.my_about {
+    width: 100vw;
+    height: 100vh;
+    padding: 5vh 0 calc(7vh + 100px) 0;
+    position: fixed;
+    background: url(../images/my_about/bg.jpg) no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    .logo_wrap {
+      //   height: 35vh;
+      //   line-height: 35vh;
+      padding: 10vh 0 5vh 0;
+      text-align: center;
+      .logo_area {
+        vertical-align: bottom;
+        display: inline-block;
+        line-height: 1;
+        .logo {
+          width: 90px;
+          height: 90px;
+          line-height: 90px;
+          margin: 0px 0 12px 0;
+          border-radius: 12px;
+          background: linear-gradient(to bottom, #9aa7e2 0%, #495dc4 100%);
+          p {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1;
+            color: #fff;
+            font-size: 24px;
+          }
+        }
+        .title {
+          color: #838ba0;
+        }
+      }
     }
+    .office_wrap {
+      text-align: center;
+      margin: 5vh 0 0 0;
+      h1 {
+        color: #98a2ba;
+        font-size: 18px;
+        line-height: 1;
+        margin: 0 0 4vh 0;
+      }
+      ul {
+        width: 100%;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 4vw 0 4vw;
+        li {
+          display: inline-block;
+          text-align: center;
+          font-size: 13px;
+          width: calc(23vw - 5px);
+          line-height: 1;
+          div {
+            display: inline-block;
+          }
+          p {
+            // line-height: 1;
+            color: #838ba0;
+            line-height: 15px;
+          }
+          .icon_wrap {
+            height: 33px;
+            line-height: 33px;
+            margin: 0 0 8px 0;
+          }
+          .of1 {
+            background: url(./../images/my_about/of1.png) no-repeat;
+            width: 62px;
+            height: 17px;
+            background-size: 100%;
+            vertical-align: middle;
+          }
+          .of2 {
+            background: url(./../images/my_about/of2.png) no-repeat;
+            width: 48px;
+            height: 20px;
+            background-size: 100%;
+            vertical-align: middle;
+          }
+          .of3 {
+            background: url(./../images/my_about/of3.png) no-repeat;
+            width: 32px;
+            height: 33px;
+            background-size: 100%;
+            vertical-align: middle;
+          }
+          .of4 {
+            background: url(./../images/my_about/of4.png) no-repeat;
+            width: 32px;
+            height: 33px;
+            background-size: 100%;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+    .donate_wrap {
+      text-align: center;
+      margin: 5vh 0 0 0;
+      h1 {
+        color: #98a2ba;
+        font-size: 18px;
+        line-height: 1;
+        margin: 0 0 4vh 0;
+      }
+      ul {
+        p {
+          color: #838ba0;
+          line-height: 15px;
+          font-size: 13px;
+        }
+        //第一排
+        &:not(:last-child) {
+          width: 100%;
+          text-align: left;
+          display: flex;
+          justify-content: space-between;
+          padding: 0 4vw 0 4vw;
+          li {
+            display: inline-block;
+            text-align: center;
+
+            width: calc(23vw - 5px);
+            line-height: 1;
+            .icon_wrap {
+              text-align: center;
+              margin: 0 0 8px 0;
+            }
+            .da1 {
+              background: url(./../images/my_about/da1.png) no-repeat;
+              width: 33px;
+              height: 33px;
+              background-size: 100%;
+              vertical-align: middle;
+              display: inline-block;
+            }
+            .da2 {
+              background: url(./../images/my_about/da2.png) no-repeat;
+              width: 19px;
+              height: 33px;
+              background-size: 100%;
+              vertical-align: middle;
+              display: inline-block;
+            }
+            .da3 {
+              background: url(./../images/my_about/da3.png) no-repeat;
+              width: 33px;
+              height: 33px;
+              background-size: 100%;
+              vertical-align: middle;
+              display: inline-block;
+            }
+            .da4 {
+              background: url(./../images/my_about/da4.png) no-repeat;
+              width: 33px;
+              height: 33px;
+              background-size: 100%;
+              vertical-align: middle;
+              display: inline-block;
+            }
+          }
+        }
+        //最後一排
+        &:last-child {
+          width: 100%;
+          text-align: center;
+          margin: 15px 0 0 0;
+          li {
+            display: inline-block;
+            text-align: center;
+            width: calc(28vw - 5px);
+            line-height: 1;
+            .icon_wrap{
+                margin: 0 0 8px 0;
+            }
+            .da5 {
+              background: url(./../images/my_about/da5.png) no-repeat;
+              width: 24px;
+              height: 33px;
+              background-size: 100%;
+              vertical-align: middle;
+              display: inline-block;
+            }
+            .da6 {
+              background: url(./../images/my_about/da6.png) no-repeat;
+              width: 19px;
+              height: 33px;
+              background-size: 100%;
+              vertical-align: middle;
+              display: inline-block;
+            }
+            .da7 {
+                background: url(./../images/my_about/da7.png) no-repeat;
+                width: 33px;
+                height: 33px;
+                background-size: 100%;
+                vertical-align: middle;
+                display: inline-block;
+              }
+          }
+        }
+      }
+    }
+  }
 }

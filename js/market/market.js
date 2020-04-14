@@ -1,5 +1,9 @@
 $(document).ready(function() {
   console.log('market.js');
+  //抓取種類座標&定位
+  // $("nav.kinds ul").scrollLeft(300);
+
+
   //種類_active 未綁定
   $("nav.kinds ul li").click(function() {
     if ($(this).hasClass("active") == false) {

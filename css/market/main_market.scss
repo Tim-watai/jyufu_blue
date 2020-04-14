@@ -135,47 +135,57 @@ nav {
         &.active {
           color: #4d515d;
           span {
+            &.kind_icon{
+              display: inline-block;
+              background: url(../images/market/kinds.png) no-repeat;
+              background-size: 2100%;
+              width: 20px;
+              height: 20px;
+            }
+            
             &.football {
-              background: url(../images/market/football_h.png);
-              background-position: center center;
-              background-size: cover;
+              // background: url(../images/market/football_h.png);
+              // background-position: center center;
+              // background-size: cover;
+              background-position: -48px 0;
             }
             &.basketball {
-              background: url(../images/market/basketball_h.png);
-              background-position: center center;
-              background-size: cover;
+              // background: url(../images/market/basketball_h.png);
+              // background-position: center center;
+              // background-size: cover;
+              background-position: -95px 0px;
             }
             &.horse {
-              background: url(../images/market/horse_h.png);
-              background-position: center center;
-              background-size: cover;
+              // background: url(../images/market/horse_h.png);
+              // background-position: center center;
+              // background-size: cover;
             }
             &.e_sport {
-              background: url(../images/market/e_sport_h.png);
-              background-position: center center;
-              background-size: cover;
-              width: 27px;
+              // background: url(../images/market/e_sport_h.png);
+              // background-position: center center;
+              // background-size: cover;
+              // width: 27px;
             }
             &.graph {
-              background: url(../images/market/graph_h.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
-              width: 23px;
-              height: 19px;
+              // background: url(../images/market/graph_h.png) no-repeat;
+              // background-position: center center;
+              // background-size: cover;
+              // width: 23px;
+              // height: 19px;
             }
             &.color_ball {
-              background: url(../images/market/color_ball_h.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
-              width: 20px;
-              height: 20px;
+              // background: url(../images/market/color_ball_h.png) no-repeat;
+              // background-position: center center;
+              // background-size: cover;
+              // width: 20px;
+              // height: 20px;
             }
             &.ice_ball {
-              background: url(../images/market/ice_ball_h.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
-              width: 20px;
-              height: 20px;
+              // background: url(../images/market/ice_ball_h.png) no-repeat;
+              // background-position: center center;
+              // background-size: cover;
+              // width: 20px;
+              // height: 20px;
             }
           }
         }
@@ -184,55 +194,63 @@ nav {
           float: left;
           line-height: 1.7vh;
           span {
-            display: inline-block;
-            &.football {
-              background: url(../images/market/football.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
+            &.kind_icon{
+              display: inline-block;
+              background: url(../images/market/kinds.png) no-repeat;
+              background-size: 2100%;
               width: 20px;
               height: 20px;
+            }
+            &.football {
+              // background: url(../images/market/football.png) no-repeat;
+              // background-position: center center;
+              // background-size: cover;
+              // width: 20px;
+              // height: 20px;
+              background-position: -48px -19px;
             }
             &.basketball {
-              background: url(../images/market/basketball.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
-              width: 20px;
-              height: 20px;
+              // background: url(../images/market/basketball.png) no-repeat;
+              // background-position: center center;
+              // background-size: cover;
+              // width: 20px;
+              // height: 20px;
+              background-position: -95px -19px;
             }
             &.horse {
-              background: url(../images/market/horse.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
-              width: 20px;
-              height: 20px;
+              // background: url(../images/market/horse.png) no-repeat;
+              // background-position: center center;
+              // background-size: cover;
+              // width: 20px;
+              // height: 20px;
             }
             &.e_sport {
-              background: url(../images/market/e_sport.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
-              width: 20px;
-              height: 20px;
+              // background: url(../images/market/e_sport.png) no-repeat;
+              // background-position: center center;
+              // background-size: cover;
+              // width: 20px;
+              // height: 20px;
             }
             &.graph {
-              background: url(../images/market/graph.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
-              width: 23px;
-              height: 19px;
+              // background: url(../images/market/graph.png) no-repeat;
+              // background-position: center center;
+              // background-size: cover;
+              // width: 23px;
+              // height: 19px;
             }
             &.color_ball {
-              background: url(../images/market/color_ball.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
-              width: 20px;
-              height: 20px;
+              // background: url(../images/market/color_ball.png) no-repeat;
+              // background-position: center center;
+              // background-size: cover;
+              // width: 20px;
+              // height: 20px;
             }
             &.ice_ball {
-              background: url(../images/market/ice_ball.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
-              width: 20px;
-              height: 20px;
+              // background: url(../images/market/ice_ball.png) no-repeat;
+              // background-position: center center;
+              // background-size: cover;
+              // width: 20px;
+              // height: 20px;
             }
           }
           p {
@@ -303,6 +321,7 @@ main {
     margin-bottom: 7vh;
     height: calc(100vh - 12.6vh - 7vh - 10px);
     overflow-y: scroll;
+    padding: 0 0 100px 0;
     aside {
       &.loading{
         width: 100%;
