@@ -26,14 +26,36 @@
             <li class="title">今日<span></span></li>
             <li class="search"> </li>
             <li class="wallet"><div class="balance"><p>可投注餘額</p><p>NT$0.00</p></div></li>
-
         </ul>
     </header>
+     <!--讓kinds的滑動停在網球-->
+     <script>
+        $(document).ready(function() {
+          console.log("esport.js");
+          $("nav.kinds ul").scrollLeft(730);
+        }); //total
+      </script>
     <nav class="kinds">
         <ul>
+            <li >
+                <div>
+                    <span class="kind_icon all">
+                    </span>
+                    <p>全部</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
             <li>
                 <div>
-                    <span class="football">
+                    <span class="kind_icon loves">
+                    </span>
+                    <p>最愛</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
+            <li>
+                <div>
+                    <span class="kind_icon soccer">
                     </span>
                     <p>足球</p>
                 </div>
@@ -42,7 +64,7 @@
 
             <li>
                 <div>
-                    <span class="basketball">
+                    <span class="kind_icon basketball">
                     </span>
                     <p>籃球</p>
                 </div>
@@ -51,7 +73,7 @@
 
             <li>
                 <div>
-                    <span class="horse">
+                    <span class="kind_icon horse">
                     </span>
                     <p>賽馬賽狗</p>
                 </div>
@@ -59,7 +81,7 @@
             </li>
             <li>
                 <div>
-                    <span class="e_sport">
+                    <span class="kind_icon e_sport">
                     </span>
                     <p>電競</p>
                 </div>
@@ -67,7 +89,7 @@
             </li>
             <li>
                 <div>
-                    <span class="graph">
+                    <span class="kind_icon graph">
                     </span>
                     <p>指數</p>
                 </div>
@@ -75,7 +97,7 @@
             </li>
             <li>
                 <div>
-                    <span class="color_ball">
+                    <span class="kind_icon color_ball">
                     </span>
                     <p>彩球</p>
                 </div>
@@ -83,12 +105,85 @@
             </li>
             <li>
                 <div>
-                    <span class="ice_ball">
+                    <span class="kind_icon ice_ball">
                     </span>
                     <p>冰球</p>
                 </div>
                 <span class="num">(96)</span>
             </li>
+            <li>
+                <div>
+                    <span class="kind_icon basball">
+                    </span>
+                    <p>棒球</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
+            <li class="active">
+                <div>
+                    <span class="kind_icon tennis">
+                    </span>
+                    <p>網球</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
+            <li>
+                <div>
+                    <span class="kind_icon snooker">
+                    </span>
+                    <p>撞球</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
+            <li>
+                <div>
+                    <span class="kind_icon volleyball">
+                    </span>
+                    <p>排球</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
+            <li>
+                <div>
+                    <span class="kind_icon motor_sport">
+                    </span>
+                    <p>賽車</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
+            <li>
+                <div>
+                    <span class="kind_icon badminton">
+                    </span>
+                    <p>羽毛球</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
+            <li>
+                <div>
+                    <span class="kind_icon football">
+                    </span>
+                    <p>美式足球</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
+            <li>
+                <div>
+                    <span class="kind_icon table_tennis">
+                    </span>
+                    <p>桌球</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
+            <li>
+                <div>
+                    <span class="kind_icon beach_soccer">
+                    </span>
+                    <p>沙灘足球</p>
+                </div>
+                <span class="num">(96)</span>
+            </li>
+
 
         </ul>
     </nav>
@@ -103,7 +198,7 @@
             </section>
             <article class="option">
                 <div class="game_type">
-                    <p>籃球</p> <span>(96)</span>
+                    <p>網球</p> <span>(96)</span>
 
                 </div>
 
@@ -120,7 +215,7 @@
             <ul>
                 <li class="beginner">
                     <span class="title">
-                        <p>NBA美國職業籃球聯賽</p>
+                        <p>ATP馬哈拉施特拉邦公開賽</p>
                         <span class="down_arrow"></span>
                     </span>
                     <section class="content">
@@ -138,13 +233,13 @@
                         </span>
                         <span class="counter">
                             <div class="country">
-                                <span class="icon1"></span>
-                                <p class="name">多倫多暴龍</p>
+                             
+                                <p class="name">賽德里克．馬賽馬賽馬賽</p>
                             </div>
                             <p class="mid">vs</p>
                             <div class="country">
-                                <span class="icon2"></span>
-                                <p class="name">印第安納溜馬</p>
+
+                                <p class="name">理查達斯．貝蘭基...</p>
                             </div>
                         </span>
                         <span class="num_group two_mode">
@@ -171,16 +266,13 @@
                         </span>
                         <span class="counter">
                             <div class="country">
-                                <span class="icon1"></span>
-                                <p class="name">明尼蘇達灰狼</p>
-
-
-
+                           
+                                <p class="name">薩爾瓦托雷．卡卡卡</p>
                             </div>
                             <p class="mid">vs</p>
                             <div class="country">
-                                <span class="icon2"></span>
-                                <p class="name">亞特蘭大老鷹</p>
+     
+                                <p class="name">伊日．維斯利(捷克)</p>
                             </div>
                         </span>
                         <span class="num_group two_mode">
@@ -207,13 +299,11 @@
                         </span>
                         <span class="counter">
                             <div class="country">
-                                <span class="icon1"></span>
-                                <p class="name">達拉斯小牛</p>
+                                <p class="name">丹尼爾．太郎(日本)</p>
                             </div>
                             <p class="mid">vs</p>
                             <div class="country">
-                                <span class="icon2"></span>
-                                <p class="name">曼菲斯灰熊</p>
+                                <p class="name">薩斯．庫馬爾．穆昆德穆昆德</p>
                             </div>
                         </span>
                         <span class="num_group two_mode">
@@ -240,13 +330,11 @@
                         </span>
                         <span class="counter">
                             <div class="country">
-                                <span class="icon1"></span>
-                                <p class="name">洛杉磯快艇</p>
+                                <p class="name">杉田祐一(日本)</p>
                             </div>
                             <p class="mid">vs</p>
                             <div class="country">
-                                <span class="icon2"></span>
-                                <p class="name">邁阿密熱火</p>
+                                <p class="name">維克托．特洛西奇</p>
                             </div>
                         </span>
                         <span class="num_group two_mode">
@@ -259,49 +347,10 @@
                         </span>
                     </section>
                 </li>
-                <li class="beginner">
-                    <span class="title">
-                        <p>韓國籃球聯賽</p>
-                        <span class="down_arrow"></span>
-                    </span>
-                    <section class="content">
-                        <span class="time_more">
-                            <div class="icon_game"></div>
-                            <div class="icon_live"></div>
-                            <span class="time">02<p>月</p>06<p>日</p> 02:00</span>
-                            <div class="timing">00:00</div>
-                            <div class="more">
-                                <p>更多</p>
-                                <span class="num">(99)</span>
-                                <span class="right_arrow"></span>
-                            </div>
-
-                        </span>
-                        <span class="counter">
-                            <div class="country">
-                                <span class="icon3"></span>
-                                <p class="name">蔚山現代太陽神</p>
-                            </div>
-                            <p class="mid">vs</p>
-                            <div class="country">
-                                <span class="icon4"></span>
-                                <p class="name"> 原州東浦新時代</p>
-                            </div>
-                        </span>
-                        <span class="num_group two_mode">
-                            <div class="m_win">
-                                <span>1.44</span>
-                            </div>
-                            <div class="a_win">
-                                <span>4.70</span>
-                            </div>
-                        </span>
-                    </section>
-                   
-                </li>
+               
                 <li class="senior">
                     <span class="title">
-                        <p>NBA美國職業籃球聯賽</p>
+                        <p>ATP馬哈拉施特拉邦公開賽</p>
                         <span class="down_arrow"></span>
                     </span>
                     <section class="content">
@@ -325,11 +374,11 @@
                             <span class="counter">
 
                                 <div class="country">
-                                    <p class="name">多倫多暴龍</p>
+                                    <p class="name">賽德里克．馬塞爾．史 特比(德國)</p>
                                 </div>
 
                                 <div class="country">
-                                    <p class="name">印第安納溜馬</p>
+                                    <p class="name">理查達斯．貝蘭基斯 (立陶宛)</p>
                                 </div>
                                 <div class="live">
                                     <span class="icon_game"></span>
@@ -382,11 +431,11 @@
                             <span class="counter">
 
                                 <div class="country">
-                                    <p class="name">明尼蘇達灰狼</p>
+                                    <p class="name">薩爾瓦托雷．卡魯索 (義大利)</p>
                                 </div>
 
                                 <div class="country">
-                                    <p class="name">亞特蘭大老鷹</p>
+                                    <p class="name">伊日．維斯利(捷克)</p>
                                 </div>
                                 <div class="live">
                                     <span class="icon_game"></span>
@@ -439,11 +488,11 @@
                             <span class="counter">
 
                                 <div class="country">
-                                    <p class="name">洛杉磯快艇</p>
+                                    <p class="name">丹尼爾．太郎(日本)</p>
                                 </div>
 
                                 <div class="country">
-                                    <p class="name">邁阿密熱火</p>
+                                    <p class="name">薩斯．庫馬爾．穆昆德 (印度)</p>
                                 </div>
                                 <div class="live">
                                     <span class="icon_game"></span>
@@ -496,11 +545,11 @@
                             <span class="counter">
 
                                 <div class="country">
-                                    <p class="name">明尼蘇達灰狼</p>
+                                    <p class="name">杉田祐一(日本)</p>
                                 </div>
 
                                 <div class="country">
-                                    <p class="name">亞特蘭大老鷹</p>
+                                    <p class="name">維克托．特洛西奇 (塞爾維亞)</p>
                                 </div>
                                 <div class="live">
                                     <span class="icon_game"></span>
@@ -539,78 +588,6 @@
                             </span>
                         </span>
                     </section>
-                    </section>
-                </li>
-
-                <li class="senior">
-                    <span class="title">
-                        <p>韓國籃球聯賽</p>
-                        <span class="down_arrow"></span>
-                    </span>
-                    <section class="content">
-                        <div class="senior_mode">
-                            <span>
-                                <p>全場獨贏</p>
-                                <p>全場熱球</p>
-                                <p>全場大小</p>
-                            </span>
-
-                        </div>
-                        <span class="time_more">
-                            <span class="time">02<p>月</p>06<p>日</p> 03:45</span>
-                            <div class="timing">00:00</div>
-                            <div class="more">
-                                <p>17</p>
-                                <span class="num">+</span>
-                                <span class="right_arrow"></span>
-                            </div>
-                        </span>
-                        <span class="point_box">
-                            <span class="counter">
-
-                                <div class="country">
-                                    <p class="name">蔚山現代太陽神</p>
-                                </div>
-
-                                <div class="country">
-                                    <p class="name">原州東浦新時代</p>
-                                </div>
-                                <div class="live">
-                                    <span class="icon_game"></span>
-                                    <span class="icon_live"></span>
-                                </div>
-                            </span>
-                            <span class="num_group">
-                                <span class="two_side">
-                                    <div class="m_win">
-                                        <span>1.34</span>
-                                    </div>
-                                    <div class="a_win">
-                                        <span>8.00</span>
-                                    </div>
-                                </span>
-                                <span class="two_side">
-                                    <div class="m_win">
-                                        <p>-1.5</p>
-                                        <span>2.09</span>
-                                    </div>
-                                    <div class="a_win">
-                                        <p>+1.5</p>
-                                        <span>1.83</span>
-                                    </div>
-                                </span>
-                                <span class="two_side">
-                                    <div class="m_win">
-                                        <p>大3</p>
-                                        <span>1.95</span>
-                                    </div>
-                                    <div class="a_win">
-                                        <p>小3</p>
-                                        <span>1.95</span>
-                                    </div>
-                                </span>
-                            </span>
-                        </span>
                     </section>
                 </li>
             </ul>

@@ -1333,43 +1333,47 @@ main.market {
                   color: #1b255c; }
                   main.market aside ul li.senior section.content span.point_box span.counter p.name {
                     font-size: 1.7vh;
-                    vertical-align: bottom;
-                    line-height: 1;
-                    white-space: nowrap; }
+                    vertical-align: middle;
+                    line-height: 1; }
                 main.market aside ul li.senior section.content span.point_box span.counter div {
                   width: 100%;
                   display: inline-block;
                   line-height: calc(15vh / 3); }
-                  main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game {
-                    position: relative;
-                    width: 18px;
-                    height: 13px;
-                    line-height: 1;
-                    vertical-align: bottom;
-                    background: url(../images/market/game_icon.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center; }
-                    main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game.yet.yet.yet {
-                      background: url(../images/market/game_icon_y.png) no-repeat;
+                  main.market aside ul li.senior section.content span.point_box span.counter div.country {
+                    line-height: calc(13vh / 2 - 3px);
+                    margin: 0 0 3px 0; }
+                  main.market aside ul li.senior section.content span.point_box span.counter div.live {
+                    line-height: calc(15vh - ((13vh / 2 - 3px) * 2)); }
+                    main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game {
+                      position: relative;
+                      width: 18px;
+                      height: 13px;
+                      line-height: 1;
+                      vertical-align: bottom;
+                      background: url(../images/market/game_icon.png) no-repeat;
                       background-size: cover;
                       background-position: center center; }
-                    main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game.middle {
-                      vertical-align: middle; }
-                  main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live {
-                    position: relative;
-                    width: 18px;
-                    height: 15px;
-                    line-height: 1;
-                    vertical-align: bottom;
-                    background: url(../images/market/tv_icon.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center; }
-                    main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.yet.yet.yet {
-                      background: url(../images/market/tv_icon_y.png) no-repeat;
+                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game.yet.yet.yet {
+                        background: url(../images/market/game_icon_y.png) no-repeat;
+                        background-size: cover;
+                        background-position: center center; }
+                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game.middle {
+                        vertical-align: middle; }
+                    main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live {
+                      position: relative;
+                      width: 18px;
+                      height: 15px;
+                      line-height: 1;
+                      vertical-align: bottom;
+                      background: url(../images/market/tv_icon.png) no-repeat;
                       background-size: cover;
                       background-position: center center; }
-                    main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.middle {
-                      vertical-align: middle; }
+                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.yet.yet.yet {
+                        background: url(../images/market/tv_icon_y.png) no-repeat;
+                        background-size: cover;
+                        background-position: center center; }
+                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.middle {
+                        vertical-align: middle; }
               main.market aside ul li.senior section.content span.point_box span.num_group {
                 width: 60%;
                 text-align: left;

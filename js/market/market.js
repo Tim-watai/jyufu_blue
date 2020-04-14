@@ -2,7 +2,13 @@ $(document).ready(function() {
   console.log('market.js');
   //抓取種類座標&定位
   // $("nav.kinds ul").scrollLeft(300);
-
+  $("nav.kinds ul").scroll(
+    function()
+    {
+      let scroll_pos = $(this).scrollLeft();
+      console.log('scroll_pos ='+scroll_pos);
+    }
+  );
 
   //種類_active 未綁定
   $("nav.kinds ul li").click(function() {

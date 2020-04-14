@@ -1216,9 +1216,8 @@ main {
                           color: #1b255c;
                           &.name {
                             font-size: 1.7vh;
-                            vertical-align: bottom;
+                            vertical-align: middle;
                             line-height: 1;
-                            white-space: nowrap;
                           }
                         }
                         div {
@@ -1226,8 +1225,11 @@ main {
                           display: inline-block;
                           line-height: calc(15vh / 3);
                           &.country {
+                            line-height: calc(13vh / 2 - 3px);
+                            margin: 0 0 3px 0;
                           }
                           &.live {
+                            line-height: calc(15vh - ((13vh / 2 - 3px) * 2));
                             span {
                               &.icon_game {
                                 position: relative;
