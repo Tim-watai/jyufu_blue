@@ -1277,7 +1277,7 @@ main {
                       }
                       &.num_group {
                         width: 60%;
-                        text-align: left;
+                       justify-content: flex-end;
                         height: 15vh;
                         display: flex;
                         span {

@@ -1375,7 +1375,9 @@ main.market {
                         vertical-align: middle; }
               main.market aside ul li.senior section.content span.point_box span.num_group {
                 width: 60%;
-                text-align: left;
+                -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                justify-content: flex-end;
                 height: 15vh;
                 display: -webkit-box;
                 display: -ms-flexbox;
