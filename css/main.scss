@@ -174,7 +174,7 @@ header {
         color: $d_gray;
         font-family: "微軟正黑體";
         display: inline-block;
-        font-size: 18px;
+        font-size: 17px;
 
         span {
           width: 0;
@@ -204,7 +204,7 @@ header {
         display: inline-block;
         position: relative;
         float: right;
-        font-size: 18px;
+        font-size: 17px;
         color: #4d515d;
       }
       &.question_icon{
@@ -881,7 +881,7 @@ footer {
       }
       span{
         background: url(../images/footer_icons.png) no-repeat;
-        background-size: 560%;
+        background-size: 530%;
         width: 25px;
         height: 22px;
         display: inline-block;
@@ -889,52 +889,52 @@ footer {
       }
       &.index {
         span{
-          background-position: -1px -3px;
+          background-position: -1px -0px;
         }
         &.active {
           span {
-          background-position: -1px -28px;
+          background-position: -1px -25px;
           }
         }
       }
 
       &.event {
         span {
-          background-position: -28px -1px;
+          background-position: -27px 0px;
         }
         &.active {
           span {
-          background-position: -28px -28px;
+          background-position: -27px -25px;
           }
         }
       }
       &.help {
         span {
-          background-position: -57px -1px;
+          background-position: -54px -1px;
         }
         &.active {
           span {
-            background-position: -56px -27px;
+            background-position: -54px -25px;
           }
         }
       }
       &.donate {
         span {
-          background-position: -86px -1px;
+          background-position: -80px 0px;
         }
         &.active {
           span {
-            background-position: -86px -27px;
+            background-position: -80px -25px;
           }
         }
       }
       &.my {
         span {
-          background-position: -113px -1px;
+          background-position: -107px 0px;
         }
         &.active {
           span {
-          background-position: -113px -27px;
+            background-position: -107px -25px;
           }
         }
       }

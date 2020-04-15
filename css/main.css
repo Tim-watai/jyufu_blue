@@ -203,7 +203,7 @@ button {
     left: 0%; } }
 
 section.message_type {
-  margin: 6vh 0 0 0;
+  padding: 6vh 0 0 0;
   background: #fff;
   -webkit-box-shadow: 0 2px 4px 0 #e4e4e4;
   box-shadow: 0 2px 4px 0 #e4e4e4; }
@@ -237,7 +237,8 @@ section.message_type {
 
 section.message.content {
   background: #fff;
-  margin: 1vh 0 0 0; }
+  margin: 1vh 0 0 0;
+  height: calc(100vh - (7vh + 42px)); }
 
 section.message.message_inner {
   margin: 6vh 0 0 0;
@@ -321,7 +322,6 @@ section.waitting {
     margin: calc(1vh + 10px) 0 10px 0; }
 
 section.game_message_type {
-  margin: 1vh 0 0 0;
   background: #fff;
   padding: 10px 3vw 10px 3vw;
   border-bottom: 1px solid #e0e3f3; }
@@ -345,10 +345,10 @@ section.game_message_type {
 
 section.game_message_content {
   background: #fff;
-  height: calc(100vh - (7vh + 42px + 47px));
+  height: calc(100vh - (6vh + 42px + 47px));
   overflow-y: scroll; }
   section.game_message_content ul li {
-    padding: 11px 3vw 11px 3vw;
+    padding: 11px 25px 11px 25px;
     border-bottom: 1px solid #e0e3f3; }
     section.game_message_content ul li .top_warp {
       display: -webkit-box;
@@ -364,14 +364,13 @@ section.game_message_content {
       padding: 0 0 12px 0; }
       section.game_message_content ul li .top_warp h1 {
         color: #4d515d;
-        font-size: 20px; }
+        font-size: 18px; }
       section.game_message_content ul li .top_warp p {
         color: #838ba0;
         font-size: 12px;
         vertical-align: bottom; }
     section.game_message_content ul li p.content {
       display: inline-block;
-      padding: 0 5px 0 0;
       color: #4d515d;
       font-weight: lighter;
       letter-spacing: 0.1px; }
@@ -502,7 +501,7 @@ nav.kinds {
   position: fixed;
   width: 100%;
   height: auto;
-  padding: calc(5vh + 10px) 0 0 0;
+  padding: 5vh 0 0 0;
   background: #fff; }
   nav.kinds ul {
     height: 7.6vh;
@@ -660,9 +659,9 @@ nav section div {
     line-height: 3vh; }
 
 main.market {
-  margin-top: calc(12.6vh + 10px);
+  margin-top: calc(12.6vh);
   margin-bottom: 7vh;
-  height: calc(100vh - 12.6vh - 7vh - 10px);
+  height: calc(100vh - 12.6vh - 7vh);
   overflow-y: scroll;
   padding: 0 0 100px 0; }
   main.market aside.loading {
@@ -1521,7 +1520,7 @@ aside.bet_window {
       display: inline-block;
       position: relative;
       width: 100%;
-      height: 12vh;
+      height: calc(12vh - 7px);
       line-height: 1;
       background: #fff;
       /* vertical-align: top; */
@@ -1575,7 +1574,7 @@ aside.bet_window {
                 border-radius: 100px; }
         aside.bet_window div.bet_page div.title span.counter {
           width: 80%;
-          padding: 1.5vh 0 0 0;
+          padding: calc(1.5vh + 5px) 0 0 0;
           position: relative; }
           aside.bet_window div.bet_page div.title span.counter p {
             color: #4d515d;
@@ -1592,7 +1591,7 @@ aside.bet_window {
             -ms-transform: translateX(-50%);
             transform: translateX(-50%);
             left: 50%;
-            top: 1.5vh; }
+            top: calc(1.5vh + 5px); }
     aside.bet_window div.bet_page div.content {
       width: 100%;
       padding: 0 2.5vw; }
@@ -1688,11 +1687,12 @@ aside.bet_window {
           line-height: 5vh;
           border: 1px solid #e0e3f3;
           border-radius: 8px;
-          font-size: 4.3vw;
+          font-size: 5vw;
           margin: 0 2.5vw 1vh 0;
           text-align: center;
           vertical-align: bottom;
-          color: #4d515d; }
+          color: #4d515d;
+          font-weight: bold; }
           aside.bet_window div.bet_page div.content div.input_group div.btns span p {
             display: inline-block;
             line-height: 1;
@@ -1894,7 +1894,8 @@ aside.search_window {
       color: #4d515d;
       font-family: "my_font";
       display: inline-block;
-      font-size: 5vw; }
+      font-size: 5vw;
+      margin: 3px 0 0 0; }
     aside.search_window div.header ul li.close {
       position: relative;
       width: 5vw;
@@ -1927,7 +1928,8 @@ aside.search_window {
       display: inline-block;
       float: right;
       font-size: 5vw;
-      color: #8e9bdc; }
+      color: #8e9bdc;
+      margin: 3px 0 0 0; }
   aside.search_window div.input_area {
     margin: 1vh 0 0 0;
     width: 100%;
@@ -3720,7 +3722,8 @@ aside.title_windows {
               -webkit-transform: translate(-50%, -50%);
               -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
-              white-space: nowrap; }
+              white-space: nowrap;
+              margin: 3px 0 0 0; }
 
 aside.my_data_edit {
   padding: calc(5vh + 10px) 0 100px 0;
@@ -4707,7 +4710,7 @@ aside.my_windows_mb_take_out {
       font-size: 4vw; }
   aside.my_windows_mb_take_out div.note {
     background: #fff;
-    margin: 0 3vw 0 3vw;
+    margin: 22px 3vw 0 3vw;
     padding: 3vw;
     border-radius: 8px; }
     aside.my_windows_mb_take_out div.note h1 {
@@ -5096,8 +5099,8 @@ aside.my_windows_mb_save {
           background: url(../images/push.png) no-repeat;
           background-size: 100%;
           background-position: center;
-          width: 12px;
-          height: 12px; }
+          width: 14px;
+          height: 14px; }
         aside.my_windows_mb_save div.content .pay_type .warp:hover, aside.my_windows_mb_save div.content .pay_type .warp:active, aside.my_windows_mb_save div.content .pay_type .warp.active {
           background: #556de7;
           color: #fff; }
@@ -5139,11 +5142,11 @@ aside.my_windows_mb_save {
           aside.my_windows_mb_save div.content .pay_type .warp span.i7 {
             background-position: -144px 0; }
         aside.my_windows_mb_save div.content .pay_type .warp p {
-          margin: 9px 0 0 0;
+          margin: 3px 0 0 0;
           font-size: 3.8vw;
           color: #4d515d; }
   aside.my_windows_mb_save div.save_choice_type {
-    margin: 1vh 0 1vh 0;
+    margin: 10px 0 10px 0;
     padding: 0 3vw 0 3vw;
     background: #fff; }
     aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp {
@@ -5172,7 +5175,7 @@ aside.my_windows_mb_save {
       aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:after {
         display: none; }
   aside.my_windows_mb_save div.save_name {
-    margin: 1vh 0 1vh 0;
+    margin: 10px 0 10px 0;
     padding: 0 3vw 0 3vw;
     background: #fff; }
     aside.my_windows_mb_save div.save_name .box {
@@ -5202,7 +5205,7 @@ aside.my_windows_mb_save {
       font-size: 4vw;
       padding: 5px 0 5px 0; }
   aside.my_windows_mb_save div.alipay_type {
-    margin: 1vh 0 1vh 0;
+    margin: 10px 0 10px 0;
     padding: 1vh 3vw 1vh 3vw;
     background: #fff;
     display: -webkit-box;
@@ -5226,7 +5229,7 @@ aside.my_windows_mb_save {
         aside.my_windows_mb_save div.alipay_type .warp:hover p, aside.my_windows_mb_save div.alipay_type .warp:active p, aside.my_windows_mb_save div.alipay_type .warp.active p {
           color: #fff; }
   aside.my_windows_mb_save div.choice_bank {
-    margin: 1vh 0 1vh 0;
+    margin: 10px 0 10px 0;
     padding: 0 3vw 0 3vw;
     background: #fff;
     line-height: 10vw; }
@@ -5317,7 +5320,7 @@ aside.my_windows_mb_save {
         font-size: 5vw;
         color: #4d515d; }
   aside.my_windows_mb_save div.save_page {
-    margin: 1vh 0 1vh 0;
+    margin: 10px 0 10px 0;
     padding: 0 3vw 0 3vw;
     background: #fff; }
     aside.my_windows_mb_save div.save_page .save_type {
@@ -5399,7 +5402,7 @@ aside.my_windows_mb_save {
       font-size: 3.8vw;
       color: #838ba0; }
   aside.my_windows_mb_save div.service_push {
-    margin: 1vh 0 1vh 0;
+    margin: 10px 0 10px 0;
     padding: 0 3vw 3vw 3vw;
     background: #fff; }
     aside.my_windows_mb_save div.service_push h1.title {
@@ -5410,7 +5413,7 @@ aside.my_windows_mb_save {
   aside.my_windows_mb_save button.save_now {
     width: 94vw;
     line-height: 12vw;
-    margin: 0 3vw;
+    margin: 10px 3vw 0 3vw;
     border-radius: 8px;
     border: none;
     color: #fff;
@@ -5599,7 +5602,7 @@ aside.my_windows_card {
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.my_windows_bet_record {
-  padding: calc(5vh + 10px) 0 100px 0;
+  padding: 0 0 100px 0;
   width: 100vw;
   height: calc(100vh - 5vh - 10px);
   background: #f7f7f7;
@@ -5608,13 +5611,14 @@ aside.my_windows_bet_record {
   position: fixed; }
   aside.my_windows_bet_record div.title {
     background: #fff;
-    /* padding: 5vh 3vw 0 3vw; */
-    /* margin: -5vh 0 0 0; */
+    padding: calc(5vh + 10px) 0 0 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     position: fixed;
-    width: 100%; }
+    width: 100%;
+    -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
+    box-shadow: 0 3px 5px 0 #e2e2e2; }
     aside.my_windows_bet_record div.title div.tack {
       background: #f7f8fc;
       margin: 10px 3vw 10px 3vw;
@@ -5636,7 +5640,7 @@ aside.my_windows_bet_record {
           margin: 0 0 0 1.5vw; }
   aside.my_windows_bet_record div.content {
     height: calc(100vh - (5vh + 64px));
-    margin: 64px 0 0 0;
+    margin: calc(5vh + 64px) 0 0 0;
     overflow-y: scroll;
     padding: 0 0 100px 0; }
     aside.my_windows_bet_record div.content .empty_page {
@@ -6265,7 +6269,6 @@ aside.event {
     background: #fff;
     margin: 0 0 0; }
     aside.event .event_content .card_wrap {
-      padding: 0 0 10px 0;
       -webkit-box-shadow: 0px 0px 5px 5px #ececec;
       box-shadow: 0px 0px 5px 5px #ececec;
       border-radius: 8px;
@@ -6350,34 +6353,36 @@ aside.event {
             background-position: center;
             width: 10px;
             height: 10px; }
-      aside.event .event_content .card_wrap .card_inner h1 {
-        text-align: center;
-        color: #cfa37b;
-        padding: 20px 0 10px 0;
-        font-size: 18px; }
-      aside.event .event_content .card_wrap .card_inner .subtitle_wrap {
-        color: #4d515d;
-        padding: 0 0 0 10px; }
-      aside.event .event_content .card_wrap .card_inner h2 {
-        text-align: center;
-        color: #d2aa85;
-        padding: 20px 0 10px 0;
-        font-size: 17px; }
-      aside.event .event_content .card_wrap .card_inner .detail_wrap li {
-        padding: 0 0 0 25px;
-        margin: 0 0 10px 0;
-        color: #987657;
-        position: relative;
-        font-size: 14px; }
-        aside.event .event_content .card_wrap .card_inner .detail_wrap li:before {
-          content: '';
-          position: absolute;
-          top: 8px;
-          left: 14px;
-          width: 6px;
-          height: 6px;
-          background: #987657;
-          border-radius: 8px; }
+      aside.event .event_content .card_wrap .card_inner {
+        padding: 0 0 10px 0; }
+        aside.event .event_content .card_wrap .card_inner h1 {
+          text-align: center;
+          color: #cfa37b;
+          padding: 20px 0 10px 0;
+          font-size: 18px; }
+        aside.event .event_content .card_wrap .card_inner .subtitle_wrap {
+          color: #4d515d;
+          padding: 0 0 0 10px; }
+        aside.event .event_content .card_wrap .card_inner h2 {
+          text-align: center;
+          color: #d2aa85;
+          padding: 20px 0 10px 0;
+          font-size: 17px; }
+        aside.event .event_content .card_wrap .card_inner .detail_wrap li {
+          padding: 0 0 0 25px;
+          margin: 0 0 10px 0;
+          color: #987657;
+          position: relative;
+          font-size: 14px; }
+          aside.event .event_content .card_wrap .card_inner .detail_wrap li:before {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: 14px;
+            width: 6px;
+            height: 6px;
+            background: #987657;
+            border-radius: 8px; }
 
 aside.donate {
   padding: calc(5vh + 10px) 0 100px 0;
@@ -6998,7 +7003,7 @@ header {
         color: #4d515d;
         font-family: "微軟正黑體";
         display: inline-block;
-        font-size: 18px; }
+        font-size: 17px; }
         header ul li.title span {
           width: 0;
           height: 0;
@@ -7026,7 +7031,7 @@ header {
         display: inline-block;
         position: relative;
         float: right;
-        font-size: 18px;
+        font-size: 17px;
         color: #4d515d; }
       header ul li.question_icon {
         background: url(../images/question.png) no-repeat;
@@ -7580,31 +7585,31 @@ footer {
         color: #2d43b6; }
       footer ul li span {
         background: url(../images/footer_icons.png) no-repeat;
-        background-size: 560%;
+        background-size: 530%;
         width: 25px;
         height: 22px;
         display: inline-block;
         margin: 0 0 2px 0; }
       footer ul li.index span {
-        background-position: -1px -3px; }
+        background-position: -1px -0px; }
       footer ul li.index.active span {
-        background-position: -1px -28px; }
+        background-position: -1px -25px; }
       footer ul li.event span {
-        background-position: -28px -1px; }
+        background-position: -27px 0px; }
       footer ul li.event.active span {
-        background-position: -28px -28px; }
+        background-position: -27px -25px; }
       footer ul li.help span {
-        background-position: -57px -1px; }
+        background-position: -54px -1px; }
       footer ul li.help.active span {
-        background-position: -56px -27px; }
+        background-position: -54px -25px; }
       footer ul li.donate span {
-        background-position: -86px -1px; }
+        background-position: -80px 0px; }
       footer ul li.donate.active span {
-        background-position: -86px -27px; }
+        background-position: -80px -25px; }
       footer ul li.my span {
-        background-position: -113px -1px; }
+        background-position: -107px 0px; }
       footer ul li.my.active span {
-        background-position: -113px -27px; }
+        background-position: -107px -25px; }
       footer ul li.my.have {
         position: relative; }
         footer ul li.my.have span {

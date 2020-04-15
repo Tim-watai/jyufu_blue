@@ -55,8 +55,8 @@ aside{
                     background: url(../images/push.png) no-repeat;
                     background-size: 100%;
                     background-position: center;
-                    width: 12px;
-                    height: 12px;
+                    width: 14px;
+                    height: 14px;
                   }
                 }
                 &:hover,
@@ -117,7 +117,7 @@ aside{
                   }
                 }
                 p {
-                  margin: 9px 0 0 0;
+                  margin: 3px 0 0 0;
                   font-size: 3.8vw;
                   color: #4d515d;
                 }
@@ -126,7 +126,7 @@ aside{
           }
           //微信_支付通道
           &.save_choice_type{
-            margin: 1vh 0 1vh 0;
+            margin: 10px 0 10px 0;
             padding: 0 3vw 0 3vw;
             background: #fff;
             div{
@@ -166,7 +166,7 @@ aside{
           }
           //網銀&銀行卡:使用者姓名
           &.save_name{
-            margin: 1vh 0 1vh 0;
+            margin: 10px 0 10px 0;
             padding: 0 3vw 0 3vw;
             background: #fff;
             .box{
@@ -198,7 +198,7 @@ aside{
           }
           //支付寶種類
           &.alipay_type{
-            margin: 1vh 0 1vh 0;
+            margin: 10px 0 10px 0;
             padding: 1vh 3vw 1vh 3vw;
             background: #fff;
             display: flex;
@@ -226,7 +226,7 @@ aside{
           }
           //網銀_選擇銀行
           &.choice_bank{
-            margin: 1vh 0 1vh 0;
+            margin: 10px 0 10px 0;
             padding: 0 3vw 0 3vw;
             background: #fff;
             line-height: 10vw;
@@ -326,7 +326,7 @@ aside{
           }
           //網銀&銀行卡_存款金額
           &.save_page {
-            margin: 1vh 0 1vh 0;
+            margin: 10px 0 10px 0;
             padding: 0 3vw 0 3vw;
             background: #fff;
             .save_type {
@@ -417,7 +417,7 @@ aside{
           }
           //代客儲值
           &.service_push{
-            margin: 1vh 0 1vh 0;
+            margin: 10px 0 10px 0;
             padding: 0 3vw 3vw 3vw;
             background: #fff;
             h1{
@@ -435,7 +435,7 @@ aside{
           &.save_now{
             width: 94vw;
             line-height: 12vw;
-            margin: 0 3vw;
+            margin: 10px 3vw 0 3vw;
             border-radius: 8px;
             border: none;
             color: #fff;
