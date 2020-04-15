@@ -1,0 +1,69 @@
+main{
+    &.market{
+        aside{
+            ul{
+                li{
+                    section{
+                        &.content{
+                            span{
+                                &.horse_race_wrap{
+                                    width: 80%;
+                                    margin: 0 10%;
+                                }
+                                &.horse_race_type{
+                                    width: 100%;
+                                    height: 4vh;
+                                    white-space: nowrap;
+                                    position: relative;
+                                    text-align: center;
+                                    line-height: 4vh;
+                                    p{
+                                        color: #1b255c;
+                                        font-size: 1.7vh;
+                                        line-height: 1;
+                                        vertical-align: middle;
+                                        display: inline-block;
+                                    }
+                                }
+                                &.horse_race_choice_box{
+                                    width: 100%;
+                                    display: flex;
+                                    text-align: right;
+                                    justify-content: space-between;
+                                    div{
+                                        line-height: 35px;
+                                        width: calc(50% - 2px);
+                                        background: #f6f8ff;
+                                        position: relative;
+                                        p{
+                                            display: inline-block;
+                                            font-size: 15px;
+                                            &.point{
+                                                color: #1b255c;
+                                                font-weight: bold;
+                                                margin: 0 8% 0 0;
+                                            }
+                                            &.type{
+                                                color: #838ba0;
+                                                font-weight: bold;
+                                                position: absolute;
+                                                left: 30%;
+                                                transform: translateX(-50%);
+                                            }
+                                        }
+                                    }
+                                }
+                                &.horse_race_line{
+                                    background: #e0e3f3;
+                                    height: 2px;
+                                    width: 100%;
+                                    margin: 2.5vw 0 2.5vw 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
