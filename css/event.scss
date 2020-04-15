@@ -1,7 +1,7 @@
 aside {
   &.event {
-    margin: calc(5vh + 10px) 0 0 0;
-    padding: 0 0 100px 0;
+    padding: calc(5vh + 10px) 0 100px 0;
+    background: #fff;
     .event_content {
     padding: 10px 4vw 10px 4vw;
       background: #fff;

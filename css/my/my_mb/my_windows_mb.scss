@@ -89,6 +89,10 @@ aside{
                   }
                   &.take_out {
                     position: relative;
+                    margin: 0 -8vw 0 0;
+                    // position: absolute;
+                    // left: 50%;
+                    // transform: translateX(-50%);
                     span {
                       &.take_out_icon {
                         background: url(../images/get.png) no-repeat;

@@ -56,7 +56,7 @@ aside{
             }
         }
         .help_content{
-            margin: 50px 0 0 0;
+            margin: 68px 0 0 0;
             background: #fff;
             height: calc(100vh - (50px + 120px));
             .card1{
@@ -68,6 +68,7 @@ aside{
                 border-radius: 8px;
                 overflow: hidden;
                 position: relative;
+                box-shadow: 0px 4px 5px 0 #c1c5db;
                 &.type2{
                     background: #aec8eb;
                     .top_wrap{

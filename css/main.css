@@ -502,15 +502,15 @@ nav.kinds {
   position: fixed;
   width: 100%;
   height: auto;
-  margin: calc(5vh + 10px) 0 0 0; }
+  padding: calc(5vh + 10px) 0 0 0;
+  background: #fff; }
   nav.kinds ul {
     height: 7.6vh;
     line-height: 7.6vh;
     overflow: hidden;
     overflow-x: scroll;
     white-space: nowrap;
-    padding: 0 30px;
-    background: #fff; }
+    padding: 0 30px; }
     nav.kinds ul li {
       display: inline-block;
       width: auto;
@@ -1807,7 +1807,7 @@ aside.set_window {
                 display: inline-block;
                 vertical-align: middle;
                 line-height: 1;
-                color: #fff;
+                color: #ced1e0;
                 font-size: 3vw; }
       aside.set_window ul.side_bar li.title {
         margin: 0 0 12px 0; }
@@ -1850,6 +1850,10 @@ aside.set_window {
         border: none;
         -webkit-box-shadow: 0px -3px 6px 0px #e5e5e5;
         box-shadow: 0px -3px 6px 0px #e5e5e5; }
+        aside.set_window ul.side_bar li.close p {
+          display: inline-block;
+          line-height: 1;
+          vertical-align: text-bottom; }
 
 aside.search_window {
   width: 100vw;
@@ -3940,7 +3944,7 @@ aside.my_windows_set {
             display: inline-block;
             vertical-align: middle;
             line-height: 1;
-            color: #fff;
+            color: #ced1e0;
             float: none;
             font-size: 3vw; }
     aside.my_windows_set div.row_btn div.box_empty {
@@ -4796,7 +4800,8 @@ aside.my_windows_mb {
             width: 8vw;
             height: 9vw; }
         aside.my_windows_mb div.mb_content div.btns div.take_out {
-          position: relative; }
+          position: relative;
+          margin: 0 -8vw 0 0; }
           aside.my_windows_mb div.mb_content div.btns div.take_out span.take_out_icon {
             background: url(../images/get.png) no-repeat;
             background-size: 100%;
@@ -5770,7 +5775,7 @@ aside.my_windows_t_record {
     color: #838ba0; }
     aside.my_windows_t_record div.title .wrap {
       display: inline-block;
-      padding: 5px 7vw 10px 7vw; }
+      padding: 5px 8vw 10px 8vw; }
       aside.my_windows_t_record div.title .wrap:hover, aside.my_windows_t_record div.title .wrap:active, aside.my_windows_t_record div.title .wrap.active {
         border-bottom: 2px solid #7c87bc;
         color: #4d515d; }
@@ -5918,7 +5923,7 @@ aside.help {
         font-size: 15px;
         color: #838ba0; }
   aside.help .help_content {
-    margin: 50px 0 0 0;
+    margin: 68px 0 0 0;
     background: #fff;
     height: calc(100vh - (50px + 120px)); }
     aside.help .help_content .card1 {
@@ -5932,7 +5937,9 @@ aside.help {
       padding: 20px 0 10px 20px;
       border-radius: 8px;
       overflow: hidden;
-      position: relative; }
+      position: relative;
+      -webkit-box-shadow: 0px 4px 5px 0 #c1c5db;
+      box-shadow: 0px 4px 5px 0 #c1c5db; }
       aside.help .help_content .card1.type2 {
         background: #aec8eb; }
         aside.help .help_content .card1.type2 .top_wrap .icon {
@@ -6251,8 +6258,8 @@ aside.help_contact_us {
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.event {
-  margin: calc(5vh + 10px) 0 0 0;
-  padding: 0 0 100px 0; }
+  padding: calc(5vh + 10px) 0 100px 0;
+  background: #fff; }
   aside.event .event_content {
     padding: 10px 4vw 10px 4vw;
     background: #fff;
@@ -7609,8 +7616,8 @@ footer {
             background-color: red;
             border-radius: 100%;
             position: absolute;
-            right: -4px;
-            top: -4px; }
+            right: -2px;
+            top: -2px; }
 
 aside.hot_windows {
   display: none;
