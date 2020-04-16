@@ -72,29 +72,28 @@ aside{
                 box-shadow: 0px 4px 5px 0 #c1c5db;
                 &.type2{
                     background: #aec8eb;
-                    .top_wrap{
-                        .icon{
-                            background: url(../images/help/icon_other.png)no-repeat;
-                            background-size: 100%;
-                            background-position: center;
-                        }
-                    }
                     .server_color{
                         color: #dce7f6;
                     }
                 }
                 .top_wrap{
                     line-height: 30px;
-                    .icon{
-                        background: url(../images/help/icon_24h.png)no-repeat;
-                        background-size: 100%;
-                        background-position: center;
+                    span{
+                        background: url(../images/help/help_icons.png)no-repeat;
+                        background-size: 200%;
                         width: 30px;
                         height: 30px;
                         display: inline-block;
                         line-height: 1;
                         margin: 0 3px 0 0;
                         vertical-align: bottom;
+                    }
+                    .icon1{
+                        background-position: 0 0;
+                        
+                    }
+                    .icon2{
+                        background-position: -30px 0;
                     }
                     h1{
                         line-height: 1;

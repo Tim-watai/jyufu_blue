@@ -696,30 +696,25 @@ main.market {
         color: #838ba0; }
   main.market aside section.status {
     background: #fff; }
+    main.market aside section.status div span {
+      width: 15px;
+      height: 15px;
+      vertical-align: middle;
+      line-height: 17px;
+      margin: 0 0 4px 0;
+      display: inline-block; }
     main.market aside section.status.yet {
       border-top: 2px solid #ef6b5d; }
       main.market aside section.status.yet div span {
-        display: inline-block;
-        background: url(../images/market/yet.png);
-        background-size: cover;
-        background-position: center center;
-        width: 15px;
-        height: 15px;
-        vertical-align: middle;
-        line-height: 17px;
-        margin: 0 0 4px 0; }
+        background: url(../images/market/game_icons.png) no-repeat;
+        background-size: 910%;
+        background-position: -1px 0; }
     main.market aside section.status.doing {
       border-top: 2px solid #5875e0; }
       main.market aside section.status.doing div span {
-        display: inline-block;
-        background: url(../images/market/doing.png);
-        background-size: cover;
-        background-position: center center;
-        width: 15px;
-        height: 15px;
-        vertical-align: middle;
-        line-height: 17px;
-        margin: 0 0 4px 0; }
+        background: url(../images/market/game_icons.png) no-repeat;
+        background-size: 910%;
+        background-position: -18px 0; }
     main.market aside section.status.early {
       border-top: 2px solid #fab419; }
       main.market aside section.status.early div span {
@@ -5983,24 +5978,23 @@ aside.help {
       box-shadow: 0px 4px 5px 0 #c1c5db; }
       aside.help .help_content .card1.type2 {
         background: #aec8eb; }
-        aside.help .help_content .card1.type2 .top_wrap .icon {
-          background: url(../images/help/icon_other.png) no-repeat;
-          background-size: 100%;
-          background-position: center; }
         aside.help .help_content .card1.type2 .server_color {
           color: #dce7f6; }
       aside.help .help_content .card1 .top_wrap {
         line-height: 30px; }
-        aside.help .help_content .card1 .top_wrap .icon {
-          background: url(../images/help/icon_24h.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
+        aside.help .help_content .card1 .top_wrap span {
+          background: url(../images/help/help_icons.png) no-repeat;
+          background-size: 200%;
           width: 30px;
           height: 30px;
           display: inline-block;
           line-height: 1;
           margin: 0 3px 0 0;
           vertical-align: bottom; }
+        aside.help .help_content .card1 .top_wrap .icon1 {
+          background-position: 0 0; }
+        aside.help .help_content .card1 .top_wrap .icon2 {
+          background-position: -30px 0; }
         aside.help .help_content .card1 .top_wrap h1 {
           line-height: 1;
           display: inline-block;

@@ -387,19 +387,24 @@ main {
       section {
         &.status {
           background: #fff;
+          div{
+            span{
+              width: 15px;
+              height: 15px;
+              vertical-align: middle;
+              line-height: 17px;
+              margin: 0 0 4px 0;
+              display: inline-block;
+            }
+          }
           &.yet {
             border-top: 2px solid #ef6b5d;
             div {
               span {
-                display: inline-block;
-                background: url(../images/market/yet.png);
-                background-size: cover;
-                background-position: center center;
-                width: 15px;
-                height: 15px;
-                vertical-align: middle;
-                line-height: 17px;
-                margin: 0 0 4px 0;
+                background: url(../images/market/game_icons.png)no-repeat;
+                background-size: 910%;
+                background-position: -1px 0;
+              
               }
             }
           }
@@ -407,15 +412,9 @@ main {
             border-top: 2px solid #5875e0;
             div {
               span {
-                display: inline-block;
-                background: url(../images/market/doing.png);
-                background-size: cover;
-                background-position: center center;
-                width: 15px;
-                height: 15px;
-                vertical-align: middle;
-                line-height: 17px;
-                margin: 0 0 4px 0;
+                background: url(../images/market/game_icons.png)no-repeat;
+                background-size: 910%;
+                background-position: -18px 0;
               }
             }
           }
