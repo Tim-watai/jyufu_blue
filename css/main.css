@@ -435,12 +435,12 @@ header ul li.back {
 
 header ul li.wallet {
   float: right;
-  background: url(../images/wallet.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 20px;
-  height: 20px;
   margin: 0 20px 0 0;
+  width: 22px;
+  height: 20px;
+  background: url(../images/head_icons.png) no-repeat;
+  background-size: 582%;
+  background-position: -85px 0;
   position: relative; }
   header ul li.wallet .balance {
     display: inline-block;
@@ -478,11 +478,12 @@ header ul li.wallet {
 
 header ul li.search {
   float: right;
-  background: url(../images/search_gray.png);
-  background-size: cover;
-  background-position: center center;
-  width: 18px;
-  height: 20px; }
+  width: 22px;
+  height: 20px;
+  background: url(../images/head_icons.png) no-repeat;
+  background-size: 591%;
+  background-position: -21px 0;
+  position: relative; }
 
 header ul li.pure_text {
   float: right;
@@ -519,7 +520,8 @@ nav.kinds {
       white-space: nowrap;
       text-align: center;
       pointer-events: all;
-      margin: 0 20px 0 0; }
+      margin: 0 20px 0 0;
+      position: relative; }
       nav.kinds ul li:last-child {
         margin: 0 0 0 0; }
       nav.kinds ul li.active {
@@ -718,14 +720,11 @@ main.market {
     main.market aside section.status.early {
       border-top: 2px solid #fab419; }
       main.market aside section.status.early div span {
-        display: inline-block;
-        background: url(../images/market/early_icon.png);
-        background-size: cover;
-        background-position: center center;
-        width: 15px;
+        background: url(../images/market/game_icons.png) no-repeat;
+        background-size: 910%;
+        background-position: -42px 0;
+        width: 18px;
         height: 15px;
-        vertical-align: middle;
-        line-height: 17px;
         margin: 0 0 4px 0; }
     main.market aside section.status div {
       margin: 0 0 0 3vw;
@@ -817,48 +816,47 @@ main.market {
       width: auto;
       margin: 0 1.5vw 5px 1.5vw;
       height: auto; }
-      main.market aside ul li.beginner span {
+      main.market aside ul li span.title {
+        width: 100%;
+        height: 3.5vh;
+        line-height: 3.5vh;
+        padding: 0 2.5vw 0 2.5vw;
+        position: relative;
         display: inline-block; }
-        main.market aside ul li.beginner span.title {
-          width: 100%;
-          height: 3.5vh;
-          line-height: 3.5vh;
-          padding: 0 2.5vw 0 2.5vw;
-          position: relative; }
-          main.market aside ul li.beginner span.title p {
-            display: inline-block;
-            color: #1b255c;
-            font-weight: bold;
-            font-size: 1.8vh; }
-          main.market aside ul li.beginner span.title span {
-            display: inline-block;
-            float: right; }
-            main.market aside ul li.beginner span.title span.down_arrow {
-              position: relative;
-              top: 50%;
-              -webkit-transform: translateY(-50%);
-              -ms-transform: translateY(-50%);
-              transform: translateY(-50%);
-              height: 1.5vh;
-              width: 16px; }
-              main.market aside ul li.beginner span.title span.down_arrow:after, main.market aside ul li.beginner span.title span.down_arrow:before {
-                content: "";
-                position: absolute;
-                background-color: #838ba0;
-                width: 50%;
-                height: 1px; }
-              main.market aside ul li.beginner span.title span.down_arrow:before {
-                -webkit-transform: translate(0%, -50%) rotate(45deg);
-                -ms-transform: translate(0%, -50%) rotate(45deg);
-                transform: translate(0%, -50%) rotate(45deg);
-                left: 10%;
-                top: 50%; }
-              main.market aside ul li.beginner span.title span.down_arrow:after {
-                -webkit-transform: translate(0%, -50%) rotate(-45deg);
-                -ms-transform: translate(0%, -50%) rotate(-45deg);
-                transform: translate(0%, -50%) rotate(-45deg);
-                right: 9%;
-                top: 50%; }
+        main.market aside ul li span.title p {
+          display: inline-block;
+          color: #1b255c;
+          font-weight: bold;
+          font-size: 1.8vh; }
+        main.market aside ul li span.title span {
+          display: inline-block;
+          float: right; }
+          main.market aside ul li span.title span.down_arrow {
+            position: relative;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            height: 1.5vh;
+            width: 16px; }
+            main.market aside ul li span.title span.down_arrow:after, main.market aside ul li span.title span.down_arrow:before {
+              content: "";
+              position: absolute;
+              background-color: #838ba0;
+              width: 50%;
+              height: 1px; }
+            main.market aside ul li span.title span.down_arrow:before {
+              -webkit-transform: translate(0%, -50%) rotate(45deg);
+              -ms-transform: translate(0%, -50%) rotate(45deg);
+              transform: translate(0%, -50%) rotate(45deg);
+              left: 10%;
+              top: 50%; }
+            main.market aside ul li span.title span.down_arrow:after {
+              -webkit-transform: translate(0%, -50%) rotate(-45deg);
+              -ms-transform: translate(0%, -50%) rotate(-45deg);
+              transform: translate(0%, -50%) rotate(-45deg);
+              right: 9%;
+              top: 50%; }
       main.market aside ul li.beginner section.content {
         padding: 0 2.5vw 10px 2.5vw;
         border-top: 1px solid #e0e3f3; }
@@ -899,86 +897,78 @@ main.market {
                 font-weight: lighter; }
                 main.market aside ul li.beginner section.content span.time_more span.time p {
                   display: inline-block; }
-            main.market aside ul li.beginner section.content span.time_more div {
-              display: inline-block; }
-              main.market aside ul li.beginner section.content span.time_more div.icon_game {
+            main.market aside ul li.beginner section.content span.time_more div:not(.more), main.market aside ul li.beginner section.content span.time_more div:not(.timing) {
+              display: inline-block;
+              background: url(../images/market/game_icons.png) no-repeat;
+              background-size: 810%;
+              width: 18px;
+              height: 15px;
+              line-height: 15px;
+              position: relative;
+              vertical-align: bottom; }
+            main.market aside ul li.beginner section.content span.time_more div.icon_game {
+              background-position: -55px 0; }
+              main.market aside ul li.beginner section.content span.time_more div.icon_game.yet.yet.yet {
+                background-position: -73px 0; }
+            main.market aside ul li.beginner section.content span.time_more div.icon_live {
+              background-position: -91px 0; }
+              main.market aside ul li.beginner section.content span.time_more div.icon_live.yet.yet.yet {
+                background-position: -110px 0; }
+            main.market aside ul li.beginner section.content span.time_more div.timing {
+              color: #5875e0;
+              border: 1px solid #5875e0;
+              border-radius: 5px;
+              font-size: 2vw;
+              width: 10vw;
+              text-align: center;
+              line-height: 1;
+              vertical-align: bottom;
+              padding: 1px 0 1px 0;
+              background: none; }
+            main.market aside ul li.beginner section.content span.time_more div.more {
+              float: right;
+              height: 100%;
+              white-space: nowrap;
+              color: #838ba0;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: end;
+              -ms-flex-align: end;
+              align-items: flex-end;
+              background: none;
+              width: auto; }
+              main.market aside ul li.beginner section.content span.time_more div.more p {
+                display: inline-block;
+                font-size: 1.2vh; }
+              main.market aside ul li.beginner section.content span.time_more div.more span.num {
+                font-size: 1.2vh; }
+              main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow {
                 position: relative;
-                width: 18px;
-                height: 13px;
-                line-height: 15px;
-                vertical-align: bottom;
-                background: url(../images/market/game_icon.png) no-repeat;
-                background-size: 100%;
-                background-position: center center; }
-                main.market aside ul li.beginner section.content span.time_more div.icon_game.yet.yet.yet {
-                  background: url(../images/market/game_icon_y.png) no-repeat;
-                  background-size: 100%;
-                  background-position: center center; }
-              main.market aside ul li.beginner section.content span.time_more div.icon_live {
-                position: relative;
-                width: 18px;
-                height: 15px;
-                line-height: 15px;
-                vertical-align: bottom;
-                background: url(../images/market/tv_icon.png) no-repeat;
-                background-size: cover;
-                background-position: center center; }
-                main.market aside ul li.beginner section.content span.time_more div.icon_live.yet.yet.yet {
-                  background: url(../images/market/tv_icon_y.png) no-repeat;
-                  background-size: cover;
-                  background-position: center center; }
-              main.market aside ul li.beginner section.content span.time_more div.timing {
-                color: #5875e0;
-                border: 1px solid #5875e0;
-                border-radius: 5px;
-                font-size: 2vw;
-                width: 10vw;
-                text-align: center;
-                line-height: 1;
-                vertical-align: bottom;
-                padding: 1px 0 1px 0; }
-              main.market aside ul li.beginner section.content span.time_more div.more {
-                float: right;
-                height: 100%;
-                white-space: nowrap;
-                color: #838ba0;
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-box-align: end;
-                -ms-flex-align: end;
-                align-items: flex-end; }
-                main.market aside ul li.beginner section.content span.time_more div.more p {
-                  display: inline-block;
-                  font-size: 1.2vh; }
-                main.market aside ul li.beginner section.content span.time_more div.more span.num {
-                  font-size: 1.2vh; }
-                main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow {
-                  position: relative;
-                  -webkit-transform: rotate(-90deg);
-                  -ms-transform: rotate(-90deg);
-                  transform: rotate(-90deg);
-                  height: 1.2vh;
-                  width: 16px;
-                  margin-bottom: 6%; }
-                  main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
-                    content: "";
-                    position: absolute;
-                    background-color: #838ba0;
-                    width: 50%;
-                    height: 1px; }
-                  main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
-                    -webkit-transform: translate(0%, -50%) rotate(45deg);
-                    -ms-transform: translate(0%, -50%) rotate(45deg);
-                    transform: translate(0%, -50%) rotate(45deg);
-                    left: 10%;
-                    top: 50%; }
-                  main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after {
-                    -webkit-transform: translate(0%, -50%) rotate(-45deg);
-                    -ms-transform: translate(0%, -50%) rotate(-45deg);
-                    transform: translate(0%, -50%) rotate(-45deg);
-                    right: 9%;
-                    top: 50%; }
+                -webkit-transform: rotate(-90deg);
+                -ms-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+                height: 1.2vh;
+                width: 16px;
+                margin-bottom: 6%; }
+                main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
+                  content: "";
+                  position: absolute;
+                  background-color: #838ba0;
+                  width: 50%;
+                  height: 1px; }
+                main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
+                  -webkit-transform: translate(0%, -50%) rotate(45deg);
+                  -ms-transform: translate(0%, -50%) rotate(45deg);
+                  transform: translate(0%, -50%) rotate(45deg);
+                  left: 10%;
+                  top: 50%; }
+                main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after {
+                  -webkit-transform: translate(0%, -50%) rotate(-45deg);
+                  -ms-transform: translate(0%, -50%) rotate(-45deg);
+                  transform: translate(0%, -50%) rotate(-45deg);
+                  right: 9%;
+                  top: 50%; }
           main.market aside ul li.beginner section.content span.counter {
             width: 100%;
             height: 4vh;
@@ -1113,48 +1103,6 @@ main.market {
         display: none; }
         main.market aside ul li.senior.double {
           display: block; }
-        main.market aside ul li.senior span {
-          display: inline-block; }
-          main.market aside ul li.senior span.title {
-            width: 100%;
-            height: 3.5vh;
-            line-height: 3.5vh;
-            padding: 0 2.5vw 0 2.5vw;
-            position: relative; }
-            main.market aside ul li.senior span.title p {
-              display: inline-block;
-              color: #1b255c;
-              font-weight: bold;
-              font-size: 1.8vh; }
-            main.market aside ul li.senior span.title span {
-              display: inline-block;
-              float: right; }
-              main.market aside ul li.senior span.title span.down_arrow {
-                position: relative;
-                top: 50%;
-                -webkit-transform: translateY(-50%);
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-                height: 1.5vh;
-                width: 16px; }
-                main.market aside ul li.senior span.title span.down_arrow:after, main.market aside ul li.senior span.title span.down_arrow:before {
-                  content: "";
-                  position: absolute;
-                  background-color: #838ba0;
-                  width: 50%;
-                  height: 1px; }
-                main.market aside ul li.senior span.title span.down_arrow:before {
-                  -webkit-transform: translate(0%, -50%) rotate(45deg);
-                  -ms-transform: translate(0%, -50%) rotate(45deg);
-                  transform: translate(0%, -50%) rotate(45deg);
-                  left: 10%;
-                  top: 50%; }
-                main.market aside ul li.senior span.title span.down_arrow:after {
-                  -webkit-transform: translate(0%, -50%) rotate(-45deg);
-                  -ms-transform: translate(0%, -50%) rotate(-45deg);
-                  transform: translate(0%, -50%) rotate(-45deg);
-                  right: 9%;
-                  top: 50%; }
         main.market aside ul li.senior section.content {
           padding: 0 0 10px 0;
           border-top: 2px solid #e0e3f3;
@@ -1338,36 +1286,23 @@ main.market {
                     margin: 0 0 3px 0; }
                   main.market aside ul li.senior section.content span.point_box span.counter div.live {
                     line-height: calc(15vh - ((13vh / 2 - 3px) * 2)); }
-                    main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game {
-                      position: relative;
-                      width: 18px;
-                      height: 13px;
-                      line-height: 1;
-                      vertical-align: bottom;
-                      background: url(../images/market/game_icon.png) no-repeat;
-                      background-size: cover;
-                      background-position: center center; }
-                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game.yet.yet.yet {
-                        background: url(../images/market/game_icon_y.png) no-repeat;
-                        background-size: cover;
-                        background-position: center center; }
-                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game.middle {
-                        vertical-align: middle; }
-                    main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live {
-                      position: relative;
+                    main.market aside ul li.senior section.content span.point_box span.counter div.live span {
+                      display: inline-block;
+                      background: url(../images/market/game_icons.png) no-repeat;
+                      background-size: 810%;
                       width: 18px;
                       height: 15px;
-                      line-height: 1;
-                      vertical-align: bottom;
-                      background: url(../images/market/tv_icon.png) no-repeat;
-                      background-size: cover;
-                      background-position: center center; }
-                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.yet.yet.yet {
-                        background: url(../images/market/tv_icon_y.png) no-repeat;
-                        background-size: cover;
-                        background-position: center center; }
-                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.middle {
-                        vertical-align: middle; }
+                      line-height: 15px;
+                      position: relative;
+                      vertical-align: bottom; }
+                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game {
+                        background-position: -55px 0; }
+                        main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game.yet.yet.yet {
+                          background-position: -73px 0; }
+                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live {
+                        background-position: -92px 0; }
+                        main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.yet.yet.yet {
+                          background-position: -109x 0; }
               main.market aside ul li.senior section.content span.point_box span.num_group {
                 width: 60%;
                 -webkit-box-pack: end;
@@ -1430,7 +1365,8 @@ main.market {
                     color: #838ba0;
                     line-height: 1;
                     font-size: 1.7vh;
-                    display: inline-block; }
+                    display: inline-block;
+                    font-weight: bold; }
                   main.market aside ul li.senior section.content span.point_box span.num_group div span {
                     color: #1b255c;
                     line-height: 1;
@@ -1959,11 +1895,11 @@ aside.search_window {
         transform: translateY(-50%);
         top: 50%;
         left: 10vw;
-        background: url(../images/search_gray.png);
-        background-size: cover;
-        background-position: center center;
-        width: 4.3vw;
-        height: 5vw; }
+        width: 22px;
+        height: 20px;
+        background: url(../images/head_icons.png) no-repeat;
+        background-size: 591%;
+        background-position: -21px 0; }
     aside.search_window div.input_area div.all {
       float: right;
       font-size: 4.3vw;
@@ -3192,6 +3128,58 @@ main.market aside ul li section.content span.horse_race_line {
   height: 2px;
   width: 100%;
   margin: 2.5vw 0 2.5vw 0; }
+
+main.market aside ul li section.content span.point_box p.no_wrap {
+  white-space: nowrap; }
+
+main.market aside ul li.motor_sport_li h1 {
+  display: inline-block;
+  color: #1b255c;
+  font-weight: bold;
+  font-size: 1.8vh;
+  border-bottom: 2px solid #e0e3f3;
+  width: 100%;
+  padding: 3px 2.5vw 3px 2.5vw; }
+
+main.market aside ul li.motor_sport_li .wrap {
+  padding: 5px 0 10px 0; }
+  main.market aside ul li.motor_sport_li .wrap .line_wrap {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 8px 0 8px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 0 10px 0; }
+    main.market aside ul li.motor_sport_li .wrap .line_wrap:first-child {
+      margin: 0 0 10px 0; }
+    main.market aside ul li.motor_sport_li .wrap .line_wrap:last-child {
+      margin: 0; }
+    main.market aside ul li.motor_sport_li .wrap .line_wrap span {
+      display: inline-block;
+      width: calc(50% - 4px);
+      background: #f6f8ff;
+      padding: 0 6px;
+      line-height: 36px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      main.market aside ul li.motor_sport_li .wrap .line_wrap span:hover, main.market aside ul li.motor_sport_li .wrap .line_wrap span:active, main.market aside ul li.motor_sport_li .wrap .line_wrap span.active {
+        background: #d3dbff; }
+      main.market aside ul li.motor_sport_li .wrap .line_wrap span p {
+        display: inline-block;
+        color: #1b255c;
+        font-size: 15px; }
+        main.market aside ul li.motor_sport_li .wrap .line_wrap span p:first-child {
+          -o-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          width: 80%; }
+        main.market aside ul li.motor_sport_li .wrap .line_wrap span p:last-child {
+          float: right; }
 
 aside.set_pw {
   width: 100%;
@@ -7007,20 +6995,16 @@ header {
         position: relative;
         display: inline-block;
         float: right;
-        width: 6vw;
-        height: 5vw;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        background: url(../images/message_icon.png) no-repeat;
-        background-size: cover;
-        background-position: center center; }
+        width: 22px;
+        height: 20px;
+        background: url(../images/head_icons.png) no-repeat;
+        background-size: 582%;
+        background-position: -64px 0; }
         header ul li.message_icon.active:before {
           content: "";
           position: absolute;
-          top: 0;
-          right: 0;
+          top: 0px;
+          right: -4px;
           width: 23%;
           height: 23%;
           background-color: red;
@@ -7048,16 +7032,12 @@ header {
         position: relative;
         display: inline-block;
         float: right;
-        margin: 2px 5vw 0 0;
-        width: 4vw;
-        height: 4vw;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        background: url(../images/option.png) no-repeat;
-        background-size: cover;
-        background-position: center center; }
+        margin: 0px 5vw 0 0;
+        width: 22px;
+        height: 20px;
+        background: url(../images/head_icons.png) no-repeat;
+        background-size: 582%;
+        background-position: -107px 0; }
       header ul li.right_text {
         display: inline-block;
         position: relative;
@@ -7065,12 +7045,14 @@ header {
         font-size: 17px;
         color: #4d515d; }
       header ul li.question_icon {
-        background: url(../images/question.png) no-repeat;
-        background-size: 100%;
-        background-position: center;
-        width: 5vw;
-        height: 5vh;
-        position: relative; }
+        position: relative;
+        display: inline-block;
+        float: right;
+        width: 22px;
+        height: 20px;
+        background: url(../images/head_icons.png) no-repeat;
+        background-size: 582%;
+        background-position: -85px 0; }
 
 main {
   width: 100%;
@@ -7193,9 +7175,9 @@ main {
       font-size: 3vh;
       font-weight: bold; }
       main section ul.profile li.u_data p.u_money span.question {
-        background: url(../images/question.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
+        background: url(../images/head_icons.png) no-repeat;
+        background-size: 582%;
+        background-position: -70px 0;
         width: 18px;
         height: 18px;
         display: inline-block;

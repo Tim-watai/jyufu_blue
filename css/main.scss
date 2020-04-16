@@ -10,6 +10,7 @@
 @import "../css/market/market_soccer_early.scss";
 @import "../css/market/market_bill.scss";
 @import "../css/market/market_horse_race.scss";
+@import "../css/market/market_motor_sport.scss";
 @import "../css/my/my_set_pw.scss";
 @import "../css//my/my_about.scss";
 @import "../css/my/my_windows.scss";
@@ -148,19 +149,24 @@ header {
         position: relative;
         display: inline-block;
         float: right;
-        width: 6vw;
-        height: 5vw;
-        top: 50%;
-        transform: translateY(-50%);
-        background: url(../images/message_icon.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
+        width: 22px;
+        height: 20px;
+        background: url(../images/head_icons.png)no-repeat;
+        background-size: 582%;
+        background-position: -64px 0;
+
+        // top: 50%;
+        // transform: translateY(-50%);
+        // background: url(../images/message_icon.png) no-repeat;
+        // background-size: cover;
+        // background-position: center center;
+
         &.active {
           &:before {
             content: "";
             position: absolute;
-            top: 0;
-            right: 0;
+            top: 0px;
+            right: -4px;
             width: 23%;
             height: 23%;
             background-color: red;
@@ -192,14 +198,12 @@ header {
         position: relative;
         display: inline-block;
         float: right;
-        margin: 2px 5vw 0 0;
-        width: 4vw;
-        height: 4vw;
-        top: 50%;
-        transform: translateY(-50%);
-        background: url(../images/option.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
+        margin: 0px 5vw 0 0;
+        width: 22px;
+        height: 20px;
+        background: url(../images/head_icons.png) no-repeat;
+        background-size: 582%;
+        background-position: -107px 0;
       }
       &.right_text{
         display: inline-block;
@@ -209,12 +213,14 @@ header {
         color: #4d515d;
       }
       &.question_icon{
-        background: url(../images/question.png) no-repeat;
-        background-size: 100%;
-        background-position: center;
-        width: 5vw;
-        height: 5vh;
         position: relative;
+        display: inline-block;
+        float: right;
+        width: 22px;
+        height: 20px;
+        background: url(../images/head_icons.png) no-repeat;
+        background-size: 582%;
+        background-position: -85px 0;
       }
     }
   }
@@ -332,9 +338,9 @@ main {
                 font-size: 3vh;
                 font-weight: bold;
                 span.question {
-                  background: url(../images/question.png) no-repeat;
-                  background-size: cover;
-                  background-position: center center;
+                  background: url(../images/head_icons.png) no-repeat;
+                  background-size: 582%;
+                  background-position: -70px 0;
                   width: 18px;
                   height: 18px;
                   display: inline-block;

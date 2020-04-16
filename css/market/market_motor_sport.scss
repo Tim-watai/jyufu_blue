@@ -1,0 +1,64 @@
+main {
+  &.market {
+    aside {
+      ul {
+        li {
+          &.motor_sport_li {
+            h1 {
+              display: inline-block;
+              color: #1b255c;
+              font-weight: bold;
+              font-size: 1.8vh;
+              border-bottom: 2px solid #e0e3f3;
+              width: 100%;
+              padding: 3px 2.5vw 3px 2.5vw;
+            }
+            .wrap{
+                padding: 5px 0 10px 0;
+                .line_wrap{
+                    width: 100%;
+                    display: flex;
+                    padding: 0 8px 0 8px;
+                    justify-content: space-between;
+                    margin: 0 0 10px 0;
+                    &:first-child{
+                        margin: 0 0 10px 0;
+                    }
+                    &:last-child{
+                        margin: 0;
+                    }
+                    span{
+                        display: inline-block;
+                        width: calc(50% - 4px);
+                        background: #f6f8ff;
+                        padding: 0 6px;
+                        line-height: 36px;
+                        display: flex;
+                        &:hover,
+                        &:active,
+                        &.active{
+                            background: #d3dbff;
+                        }
+                        p{
+                            display: inline-block;
+                            color: #1b255c;
+                            font-size: 15px;
+                            &:first-child{
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                width: 80%;
+                            }
+                            &:last-child{
+                                float: right;
+                            }
+                        }
+                    }
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+}

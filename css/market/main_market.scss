@@ -35,12 +35,17 @@ header {
       
       &.wallet {
         float: right;
-        background: url(../images/wallet.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 20px;
-        height: 20px;
+        // background: url(../images/wallet.png) no-repeat;
+        // background-size: cover;
+        // background-position: center center;
+        // width: 20px;
+        // height: 20px;
         margin: 0 20px 0 0;
+        width: 22px;
+        height: 20px;
+        background: url(../images/head_icons.png) no-repeat;
+        background-size: 582%;
+        background-position: -85px 0;
         position: relative;
         .balance{
           display: inline-block;
@@ -83,11 +88,12 @@ header {
       }
       &.search {
         float: right;
-        background: url(../images/search_gray.png);
-        background-size: cover;
-        background-position: center center;
-        width: 18px;
+        width: 22px;
         height: 20px;
+        background: url(../images/head_icons.png) no-repeat;
+        background-size: 591%;
+        background-position: -21px 0;
+        position: relative;
       }
       &.pure_text{
         float: right;
@@ -129,6 +135,7 @@ nav {
         text-align: center;
         pointer-events: all;
         margin: 0 20px 0 0;
+        position: relative;
         &:last-child {
           margin: 0 0 0 0;
         }
@@ -422,14 +429,18 @@ main {
             border-top: 2px solid #fab419;
             div {
               span {
-                display: inline-block;
-                background: url(../images/market/early_icon.png);
-                background-size: cover;
-                background-position: center center;
-                width: 15px;
+                // display: inline-block;
+                // background: url(../images/market/early_icon.png);
+                // background-size: cover;
+                // background-position: center center;
+                // width: 15px;
+                // height: 15px;
+                // vertical-align: middle;
+                background: url(../images/market/game_icons.png)no-repeat;
+                background-size: 910%;
+                background-position: -42px 0;
+                width: 18px;
                 height: 15px;
-                vertical-align: middle;
-                line-height: 17px;
                 margin: 0 0 4px 0;
               }
             }
@@ -544,24 +555,14 @@ main {
           width: auto;
           margin: 0 1.5vw 5px 1.5vw;
           height: auto;
-          section{
-            &.content{
-              span{
-                &.num_group{
-
-                }
-              }
-            }
-          }
-          &.beginner {
-            span {
-              display: inline-block;
-              &.title {
+          span{
+             &.title {
                 width: 100%;
                 height: 3.5vh;
                 line-height: 3.5vh;
                 padding: 0 2.5vw 0 2.5vw;
                 position: relative;
+                display: inline-block;
                 p {
                   display: inline-block;
                   color: #1b255c;
@@ -598,7 +599,17 @@ main {
                   }
                 }
               }
+          }
+          section{
+            &.content{
+              span{
+                &.num_group{
+
+                }
+              }
             }
+          }
+          &.beginner {
             section {
               &.content {
                 span{
@@ -676,38 +687,53 @@ main {
                       }
                     }
                     div {
-                      display: inline-block;
-                      &.icon_game {
-                        position: relative;
-                        width: 18px;
-                        height: 13px;
-                        line-height: 15px;
-                        vertical-align: bottom;
-                        background: url(../images/market/game_icon.png)
-                          no-repeat;
-                        background-size: 100%;
-                        background-position: center center;
-                        &.yet.yet.yet {
-                          background: url(../images/market/game_icon_y.png)
-                            no-repeat;
-                          background-size: 100%;
-                          background-position: center center;
-                        }
-                      }
-                      &.icon_live {
-                        position: relative;
+                     
+                      &:not(.more),
+                      &:not(.timing){
+                        display: inline-block;
+                        background: url(../images/market/game_icons.png)no-repeat;
+                        background-size: 810%;
                         width: 18px;
                         height: 15px;
                         line-height: 15px;
+                        position: relative;
                         vertical-align: bottom;
-                        background: url(../images/market/tv_icon.png) no-repeat;
-                        background-size: cover;
-                        background-position: center center;
+                      }
+                      &.icon_game {
+                        // position: relative;
+                        // width: 18px;
+                        // height: 13px;
+                        // line-height: 15px;
+                        // vertical-align: bottom;
+                        // background: url(../images/market/game_icon.png)
+                        //   no-repeat;
+                        // background-size: 100%;
+                        // background-position: center center;
+                        background-position: -55px 0;
                         &.yet.yet.yet {
-                          background: url(../images/market/tv_icon_y.png)
-                            no-repeat;
-                          background-size: cover;
-                          background-position: center center;
+                          // background: url(../images/market/game_icon_y.png)
+                          //   no-repeat;
+                          // background-size: 100%;
+                          // background-position: center center;
+                          background-position: -73px 0;
+                        }
+                      }
+                      &.icon_live {
+                        // position: relative;
+                        // width: 18px;
+                        // height: 15px;
+                        // line-height: 15px;
+                        // vertical-align: bottom;
+                        // background: url(../images/market/tv_icon.png) no-repeat;
+                        // background-size: cover;
+                        // background-position: center center;
+                        background-position: -91px 0;
+                        &.yet.yet.yet {
+                          // background: url(../images/market/tv_icon_y.png)
+                          //   no-repeat;
+                          // background-size: cover;
+                          // background-position: center center;
+                          background-position: -110px 0;
                         }
                       }
                       &.timing {
@@ -720,6 +746,7 @@ main {
                         line-height: 1;
                         vertical-align: bottom;
                         padding: 1px 0 1px 0;
+                        background: none;
                       }
                       &.more {
                         float: right;
@@ -728,6 +755,8 @@ main {
                         color: #838ba0;
                         display: flex;
                         align-items: flex-end;
+                        background: none;
+                        width: auto;
 
                         p {
                           display: inline-block;
@@ -945,51 +974,7 @@ main {
             &.double {
               display: block;
             }
-            span {
-              display: inline-block;
-              &.title {
-                width: 100%;
-                height: 3.5vh;
-                line-height: 3.5vh;
-                padding: 0 2.5vw 0 2.5vw;
-                position: relative;
-                p {
-                  display: inline-block;
-                  color: #1b255c;
-                  font-weight: bold;
-                  font-size: 1.8vh;
-                }
-                span {
-                  display: inline-block;
-                  float: right;
-                  &.down_arrow {
-                    position: relative;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    height: 1.5vh;
-                    width: 16px;
-                    &:after,
-                    &:before {
-                      content: "";
-                      position: absolute;
-                      background-color: #838ba0;
-                      width: 50%;
-                      height: 1px;
-                    }
-                    &:before {
-                      transform: translate(0%, -50%) rotate(45deg);
-                      left: 10%;
-                      top: 50%;
-                    }
-                    &:after {
-                      transform: translate(0%, -50%) rotate(-45deg);
-                      right: 9%;
-                      top: 50%;
-                    }
-                  }
-                }
-              }
-            }
+         
             section {
               &.content {
                 padding: 0 0 10px 0;
@@ -1230,45 +1215,31 @@ main {
                           &.live {
                             line-height: calc(15vh - ((13vh / 2 - 3px) * 2));
                             span {
+                              display: inline-block;
+                              background: url(../images/market/game_icons.png)no-repeat;
+                              background-size: 810%;
+                              width: 18px;
+                              height: 15px;
+                              line-height: 15px;
+                              position: relative;
+                              vertical-align: bottom;
                               &.icon_game {
-                                position: relative;
-                                width: 18px;
-                                height: 13px;
-                                line-height: 1;
-                                vertical-align: bottom;
-                                background: url(../images/market/game_icon.png)
-                                  no-repeat;
-                                background-size: cover;
-                                background-position: center center;
+    
+                                background-position: -55px 0;
                                 &.yet.yet.yet {
-                                  background: url(../images/market/game_icon_y.png)
-                                    no-repeat;
-                                  background-size: cover;
-                                  background-position: center center;
+
+                                  background-position: -73px 0;
                                 }
-                                &.middle {
-                                  vertical-align: middle;
-                                }
+                               
                               }
                               &.icon_live {
-                                position: relative;
-                                width: 18px;
-                                height: 15px;
-                                line-height: 1;
-                                vertical-align: bottom;
-                                background: url(../images/market/tv_icon.png)
-                                  no-repeat;
-                                background-size: cover;
-                                background-position: center center;
+       
+                                background-position: -92px 0;
                                 &.yet.yet.yet {
-                                  background: url(../images/market/tv_icon_y.png)
-                                    no-repeat;
-                                  background-size: cover;
-                                  background-position: center center;
+
+                                  background-position: -109x 0;
                                 }
-                                &.middle {
-                                  vertical-align: middle;
-                                }
+        
                               }
                             }
                           }
@@ -1338,6 +1309,7 @@ main {
                             line-height: 1;
                             font-size: 1.7vh;
                             display: inline-block;
+                            font-weight: bold;
                           }
                           span {
                             color: #1b255c;
@@ -1948,11 +1920,11 @@ aside {
               transform: translateY(-50%);
               top: 50%;
               left: 10vw;
-              background: url(../images/search_gray.png);
-              background-size: cover;
-              background-position: center center;
-              width: 4.3vw;
-              height: 5vw;
+              width: 22px;
+              height: 20px;
+              background: url(../images/head_icons.png) no-repeat;
+              background-size: 591%;
+              background-position: -21px 0;
             }
           }
           &.all {
