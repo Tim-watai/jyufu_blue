@@ -62,8 +62,9 @@ aside{
               }
               &.btns {
                 text-align: center;
-                padding: 12vw 8vw 4vw 8vw;
+                padding: 12vw 10vw 4vw 8vw;
                 div {
+                  width: 60px;
                   display: inline-block;
                   text-align: center;
                   line-height: 1;
@@ -73,33 +74,28 @@ aside{
                   }
                   span {
                     display: inline-block;
+                    background: url(../images/my_mb_icons.png) no-repeat;
+                    background-size: 318%;
+                    width: 38px;
+                    height: 35px;
                   }
                   &.transfer {
                     float: left;
                     position: relative;
+
                     span {
+
                       &.transfer_icon {
-                        background: url(../images/translate.png) no-repeat;
-                        background-size: 100%;
-                        background-position: center center;
-                        width: 8vw;
-                        height: 9vw;
+
                       }
                     }
                   }
                   &.take_out {
                     position: relative;
-                    margin: 0 -8vw 0 0;
-                    // position: absolute;
-                    // left: 50%;
-                    // transform: translateX(-50%);
+                    margin: 0 -8vw 0 -30px;
                     span {
                       &.take_out_icon {
-                        background: url(../images/get.png) no-repeat;
-                        background-size: 100%;
-                        background-position: center center;
-                        width: 8vw;
-                        height: 9vw;
+                        background-position: -40px 0;
                       }
                     }
                   }
@@ -108,11 +104,7 @@ aside{
                     position: relative;
                     span {
                       &.card_icon {
-                        background: url(../images/my_card.png) no-repeat;
-                        background-size: 100%;
-                        background-position: center center;
-                        width: 10vw;
-                        height: 9vw;
+                        background-position: -82px 0;
                       }
                     }
                   }

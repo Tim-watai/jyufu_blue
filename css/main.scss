@@ -252,7 +252,7 @@ main {
                 background: url(../images/horn_icon.png) no-repeat;
                 background-size: cover;
                 background-position: center right;
-                margin-right: 3px;
+                margin-right: 9px;
               }
             }
             div {
@@ -362,34 +362,23 @@ main {
               span {
                 margin-bottom: 3px;
                 display: inline-block;
+                background: url(../images/index_icon.png) no-repeat;
+                background-size: 305%;
+                width: 36px;
+                height: 40px;
               }
               &.save {
                 span {
-                  background: url(../images/save.png) no-repeat;
-                  background-size: contain;
-                  background-position: center center;
-                  width: 36px;
-                  height: 5.3vh;
                 }
               }
               &.translate {
                 span {
-                  display: inline-block;
-                  background: url(../images/translate.png) no-repeat;
-                  background-size: contain;
-                  background-position: center center;
-                  width: 36px;
-                  height: 5.3vh;
+                  background-position: -37px 0;
                 }
               }
               &.get {
                 span {
-                  display: inline-block;
-                  background: url(../images/get.png) no-repeat;
-                  background-size: contain;
-                  background-position: center center;
-                  width: 36px;
-                  height: 5.3vh;
+                  background-position: -73px 0;
                 }
               }
             }
@@ -766,21 +755,21 @@ main {
                 z-index: 1;
                 text-align: center;
                 transform: translate(-50%, -50%);
-                top: 50%;
-                left: 20%;
+                top: 55%;
+                left: 23%;
                 p {
                   color: $text-dblue;
                   &.name {
                     font-weight: bold;
-                    font-size: 2.6vh;
-                    line-height: 2.6vh;
+                    font-size: 2.4vh;
+                    line-height: 1;
                   }
                   &.num {
                     font-family: "my_font";
                     font-weight: bold;
-                    font-size: 3.5vh;
-                    line-height: 3.5vh;
-                    margin: 1vh 0 0 0;
+                    font-size: 4.1vh;
+                    line-height: 1;
+                    
                   }
                   &.subtitle {
                     color: #838ba0;

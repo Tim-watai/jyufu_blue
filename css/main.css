@@ -501,7 +501,7 @@ nav.kinds {
   position: fixed;
   width: 100%;
   height: auto;
-  padding: 5vh 0 0 0;
+  padding: 6vh 0 0 0;
   background: #fff; }
   nav.kinds ul {
     height: 7.6vh;
@@ -615,7 +615,7 @@ nav.kinds {
         nav.kinds ul li div p {
           font-size: 3vw;
           line-height: 1.2vh;
-          margin: 5px 0 0 0;
+          margin: 1px 0 0 0;
           font-family: "微軟正黑體"; }
       nav.kinds ul li span.num {
         position: relative;
@@ -1780,7 +1780,7 @@ aside.set_window {
           aside.set_window ul.side_bar li div.box div.check {
             height: 4vh;
             line-height: 4vh;
-            width: 34vw;
+            width: 32vw;
             background: #737997;
             vertical-align: middle;
             border-radius: 20px;
@@ -3606,52 +3606,41 @@ aside.my_windows {
   aside.my_windows div.group {
     padding: 3vh 4vw 1vh 4vw;
     background: #fff; }
-    aside.my_windows div.group ul li {
-      width: 20vw;
-      height: 18vw;
-      line-height: 1;
-      text-align: center;
-      display: inline-block;
-      margin: 0 3vw 0 0;
-      position: relative; }
-      aside.my_windows div.group ul li:last-child {
-        margin: 0; }
-      aside.my_windows div.group ul li span,
-      aside.my_windows div.group ul li p {
-        display: inline-block; }
-      aside.my_windows div.group ul li span.money_icon {
-        background: url(../images/my_moneybag.png) no-repeat;
-        background-size: 100%;
-        background-position: center center;
-        height: 8vw;
-        width: 9vw;
-        margin: 0 0 2vw 0; }
-      aside.my_windows div.group ul li span.record_icon {
-        background: url(../images/my_record.png) no-repeat;
-        background-size: 100%;
-        background-position: center center;
-        height: 8vw;
-        width: 9vw;
-        margin: 0 0 2vw 0; }
-      aside.my_windows div.group ul li span.transaction_icon {
-        background: url(../images/my_transaction.png) no-repeat;
-        background-size: 100%;
-        background-position: center center;
-        height: 8vw;
-        width: 9vw;
-        margin: 0 0 2vw 0; }
-      aside.my_windows div.group ul li span.card_icon {
-        background: url(../images/my_card.png) no-repeat;
-        background-size: 100%;
-        background-position: center center;
-        height: 8vw;
-        width: 9vw;
-        margin: 0 0 2vw 0;
-        border-radius: 8px; }
-      aside.my_windows div.group ul li p {
-        font-size: 4.5vw;
-        font-weight: bold;
-        color: #4d515d; }
+    aside.my_windows div.group ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      aside.my_windows div.group ul li {
+        width: 20%;
+        height: auto;
+        line-height: 1;
+        text-align: center;
+        display: inline-block;
+        position: relative; }
+        aside.my_windows div.group ul li:last-child {
+          margin: 0; }
+        aside.my_windows div.group ul li span,
+        aside.my_windows div.group ul li p {
+          display: inline-block; }
+        aside.my_windows div.group ul li span {
+          background: url(../images/my/main_icon.png) no-repeat;
+          background-size: 395%;
+          height: 35px;
+          width: 38px;
+          margin: 0 0 3px 0; }
+          aside.my_windows div.group ul li span.record_icon {
+            background-position: -37px 0px; }
+          aside.my_windows div.group ul li span.transaction_icon {
+            background-position: -75px 0px; }
+          aside.my_windows div.group ul li span.card_icon {
+            background-position: -113px 0; }
+        aside.my_windows div.group ul li p {
+          font-size: 4.5vw;
+          font-weight: bold;
+          color: #4d515d; }
   aside.my_windows div.row_scroll {
     height: calc(100vh - 18vw - 4vh - 14px - 3vh - 18vw - 20vw - 7vh);
     padding: 0 0 200px 0;
@@ -3688,7 +3677,7 @@ aside.my_windows {
           line-height: 1;
           vertical-align: middle;
           margin: 0 3vw 0 0;
-          background: url(../images/my_windows_icons.png) no-repeat;
+          background: url(../images/my/my_windows_icons.png) no-repeat;
           width: 22px;
           height: 22px;
           background-size: cover; }
@@ -3974,7 +3963,7 @@ aside.my_windows_set {
         display: inline-block;
         height: 4vh;
         line-height: 4vh;
-        width: 34vw;
+        width: 32vw;
         background: #737997;
         vertical-align: middle;
         border-radius: 20px;
@@ -4839,8 +4828,9 @@ aside.my_windows_mb {
           font-size: 4vw; }
     aside.my_windows_mb div.mb_content div.btns {
       text-align: center;
-      padding: 12vw 8vw 4vw 8vw; }
+      padding: 12vw 10vw 4vw 8vw; }
       aside.my_windows_mb div.mb_content div.btns div {
+        width: 60px;
         display: inline-block;
         text-align: center;
         line-height: 1; }
@@ -4848,34 +4838,24 @@ aside.my_windows_mb {
           color: #4d515d;
           font-size: 4vw; }
         aside.my_windows_mb div.mb_content div.btns div span {
-          display: inline-block; }
+          display: inline-block;
+          background: url(../images/my_mb_icons.png) no-repeat;
+          background-size: 318%;
+          width: 38px;
+          height: 35px; }
         aside.my_windows_mb div.mb_content div.btns div.transfer {
           float: left;
           position: relative; }
-          aside.my_windows_mb div.mb_content div.btns div.transfer span.transfer_icon {
-            background: url(../images/translate.png) no-repeat;
-            background-size: 100%;
-            background-position: center center;
-            width: 8vw;
-            height: 9vw; }
         aside.my_windows_mb div.mb_content div.btns div.take_out {
           position: relative;
-          margin: 0 -8vw 0 0; }
+          margin: 0 -8vw 0 -30px; }
           aside.my_windows_mb div.mb_content div.btns div.take_out span.take_out_icon {
-            background: url(../images/get.png) no-repeat;
-            background-size: 100%;
-            background-position: center center;
-            width: 8vw;
-            height: 9vw; }
+            background-position: -40px 0; }
         aside.my_windows_mb div.mb_content div.btns div.card {
           float: right;
           position: relative; }
           aside.my_windows_mb div.mb_content div.btns div.card span.card_icon {
-            background: url(../images/my_card.png) no-repeat;
-            background-size: 100%;
-            background-position: center center;
-            width: 10vw;
-            height: 9vw; }
+            background-position: -82px 0; }
     aside.my_windows_mb div.mb_content div.footer {
       overflow: auto;
       border-top: 1px solid #e0e3f3;
@@ -5983,7 +5963,8 @@ aside.help {
         font-size: 15px;
         color: #838ba0; }
   aside.help .help_content {
-    margin: 68px 0 0 0;
+    margin: 48px 0 0 0;
+    padding: 18px 0 0 0;
     background: #fff;
     height: calc(100vh - (50px + 120px)); }
     aside.help .help_content .card1 {
@@ -7137,7 +7118,7 @@ main {
           background: url(../images/horn_icon.png) no-repeat;
           background-size: cover;
           background-position: center right;
-          margin-right: 3px; }
+          margin-right: 9px; }
         main section ul.hot_area li:first-child.marquee div {
           width: calc(100% - 22px);
           overflow: hidden;
@@ -7249,27 +7230,15 @@ main {
           font-size: 1.9vh; }
         main section ul.profile li.u_option div span {
           margin-bottom: 3px;
-          display: inline-block; }
-        main section ul.profile li.u_option div.save span {
-          background: url(../images/save.png) no-repeat;
-          background-size: contain;
-          background-position: center center;
+          display: inline-block;
+          background: url(../images/index_icon.png) no-repeat;
+          background-size: 305%;
           width: 36px;
-          height: 5.3vh; }
+          height: 40px; }
         main section ul.profile li.u_option div.translate span {
-          display: inline-block;
-          background: url(../images/translate.png) no-repeat;
-          background-size: contain;
-          background-position: center center;
-          width: 36px;
-          height: 5.3vh; }
+          background-position: -37px 0; }
         main section ul.profile li.u_option div.get span {
-          display: inline-block;
-          background: url(../images/get.png) no-repeat;
-          background-size: contain;
-          background-position: center center;
-          width: 36px;
-          height: 5.3vh; }
+          background-position: -73px 0; }
   main article.banner {
     width: 93vw;
     height: 19vh;
@@ -7533,20 +7502,19 @@ main {
           -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-          top: 50%;
-          left: 20%; }
+          top: 55%;
+          left: 23%; }
           main article.menu ul.game_kinds li div.title p {
             color: #1b255c; }
             main article.menu ul.game_kinds li div.title p.name {
               font-weight: bold;
-              font-size: 2.6vh;
-              line-height: 2.6vh; }
+              font-size: 2.4vh;
+              line-height: 1; }
             main article.menu ul.game_kinds li div.title p.num {
               font-family: "my_font";
               font-weight: bold;
-              font-size: 3.5vh;
-              line-height: 3.5vh;
-              margin: 1vh 0 0 0; }
+              font-size: 4.1vh;
+              line-height: 1; }
             main article.menu ul.game_kinds li div.title p.subtitle {
               color: #838ba0;
               font-size: 1vh;

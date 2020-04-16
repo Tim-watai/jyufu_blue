@@ -174,13 +174,14 @@ aside{
             padding: 3vh 4vw 1vh 4vw;
             background: #fff;
             ul {
+              display: flex;
+              justify-content: space-between;
               li {
-                width: 20vw;
-                height: 18vw;
+                width: 20%;
+                height: auto;
                 line-height: 1;
                 text-align: center;
                 display: inline-block;
-                margin: 0 3vw 0 0;
                 position: relative;
                 &:last-child {
                   margin: 0;
@@ -190,39 +191,24 @@ aside{
                   display: inline-block;
                 }
                 span {
-                  
+                  background: url(../images/my/main_icon.png) no-repeat;
+                  background-size: 395%;
+                  height: 35px;
+                  width: 38px;
+                  margin: 0 0 3px 0;
                   &.money_icon {
-                    background: url(../images/my_moneybag.png) no-repeat;
-                    background-size: 100%;
-                    background-position: center center;
-                    height: 8vw;
-                    width: 9vw;
-                    margin: 0 0 2vw 0;
+               
+                   
+                  
                   }
                   &.record_icon {
-                    background: url(../images/my_record.png) no-repeat;
-                    background-size: 100%;
-                    background-position: center center;
-                    height: 8vw;
-                    width: 9vw;
-                    margin: 0 0 2vw 0;
+                    background-position: -37px 0px;
                   }
                   &.transaction_icon {
-                    background: url(../images/my_transaction.png) no-repeat;
-                    background-size: 100%;
-                    background-position: center center;
-                    height: 8vw;
-                    width: 9vw;
-                    margin: 0 0 2vw 0;
+                    background-position: -75px 0px;
                   }
                   &.card_icon {
-                    background: url(../images/my_card.png) no-repeat;
-                    background-size: 100%;
-                    background-position: center center;
-                    height: 8vw;
-                    width: 9vw;
-                    margin: 0 0 2vw 0;
-                    border-radius: 8px;
+                    background-position: -113px 0;
                   }
                 }
                 p {
@@ -272,7 +258,7 @@ aside{
                   line-height: 1;
                     vertical-align: middle;
                     margin: 0 3vw 0 0;
-                  background: url(../images/my_windows_icons.png)no-repeat;
+                  background: url(../images/my/my_windows_icons.png)no-repeat;
                   width: 22px;
                   height: 22px;
                     background-size: cover;
