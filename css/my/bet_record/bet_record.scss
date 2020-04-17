@@ -9,38 +9,7 @@ aside{
       position: fixed;
       
         div {
-          &.title {
-            background: #fff;
-            padding: calc(5vh + 10px) 0 0 0;
-            display: flex;
-            position: fixed;
-            width: 100%;
-            box-shadow: 0 3px 5px 0 #e2e2e2;
-            div {
-              &.tack {
-                background: #f7f8fc;
-                margin: 10px 3vw 10px 3vw;
-                padding: 10px 10px 10px 10px;
-                border-radius: 30px;
-                p {
-                  font-size: 14px;
-                  line-height: 14px;
-                  position: relative;
-                  color: #4d515d;
-                  span {
-                    display: inline-block;
-                    width: 0;
-                    height: 0;
-                    border-style: solid;
-                    border-width: 5px 5px 0 5px;
-                    border-color: #a4a7ae transparent transparent transparent;
-                    vertical-align: middle;
-                    margin: 0 0 0 1.5vw;
-                  }
-                }
-              }
-            }
-          }
+      
           &.content {
             height: calc(100vh - (5vh + 64px));
             margin: calc(5vh + 64px) 0 0 0;

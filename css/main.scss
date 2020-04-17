@@ -24,6 +24,7 @@
 @import "../css/my/my_windows_save.scss";
 @import "../css/my/my_mb/my_windows_card.scss";
 @import "../css//my/bet_record/bet_record.scss";
+@import "../css/my/gift_record/gift_record.scss";
 @import "../css/my/t_record/t_record.scss";
 @import "../css/help/help.scss";
 @import "../css/help/help_board.scss";
@@ -1191,11 +1192,50 @@ aside {
       }
     }
   }
- 
-  
+  //bet_record , gift_record use
+  .hidden_title{
+    background: #fff;
+    padding: calc(5vh + 10px) 0 0 0;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 3px 5px 0 #e2e2e2;
 
-
-  
+      .tack {
+        background: #f7f8fc;
+        margin: 10px 3vw 10px 3vw;
+        padding: 10px 10px 10px 10px;
+        border-radius: 30px;
+        p {
+          font-size: 14px;
+          line-height: 14px;
+          position: relative;
+          color: #4d515d;
+          span {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 5px 5px 0 5px;
+            border-color: #a4a7ae transparent transparent transparent;
+            vertical-align: middle;
+            margin: 0 0 0 1.5vw;
+          }
+        }
+      }
+    p{
+      &.check_all{
+        display: inline-block;
+        position: absolute;
+        line-height: 1;
+        right: 10px;
+        bottom: 27px;
+        transform: translateY(50%);
+        font-size: 14px;
+        color: #77aee8;
+      }
+    }
+  }
   &.jump_window{
     width: 100vw;
     height: 100vh;
