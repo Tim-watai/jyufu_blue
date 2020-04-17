@@ -147,7 +147,8 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background: #f7f7f7; }
+  background: #f7f7f7;
+  position: relative; }
 
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
@@ -1677,7 +1678,8 @@ aside.set_window {
   flex-direction: column;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  top: 0; }
   aside.set_window.active {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2847,7 +2849,8 @@ aside.yet_bill {
   background: rgba(0, 0, 0, 0.5);
   z-index: 500;
   position: fixed;
-  display: none; }
+  display: none;
+  top: 0; }
   aside.yet_bill.active {
     display: block; }
   aside.yet_bill .windows {
@@ -2964,7 +2967,8 @@ aside.finish_bill {
   background: rgba(0, 0, 0, 0.5);
   z-index: 500;
   position: fixed;
-  display: none; }
+  display: none;
+  top: 0; }
   aside.finish_bill.active {
     display: block; }
   aside.finish_bill .windows {
@@ -3698,7 +3702,8 @@ aside.title_windows {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
-  position: fixed; }
+  position: fixed;
+  top: 0; }
   aside.title_windows.active {
     display: block; }
   aside.title_windows ul.bg {
@@ -5055,6 +5060,35 @@ aside.my_windows_mb {
       aside.my_windows_mb div.mb_record div.content p {
         color: #838ba0;
         font-size: 3vw; }
+
+aside.my_windows_share_app {
+  display: none;
+  z-index: 600;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0; }
+  aside.my_windows_share_app.active {
+    display: block; }
+
+aside .box {
+  width: 80vw;
+  margin: 60px 10vw 0 10vw; }
+  aside .box .box_wrap {
+    background: url(./../images/my/share_app/bg.jpg) no-repeat;
+    background-size: 100%; }
+    aside .box .box_wrap .title_wrap {
+      text-align: center;
+      padding: 15px 0 0 0;
+      margin: 0 0 5px 0;
+      line-height: 1; }
+    aside .box .box_wrap h1 {
+      display: inline-block;
+      background: url(../images/logo.png) no-repeat;
+      background-size: 100%;
+      width: 80px;
+      height: 25px; }
 
 aside.my_windows_mb_save {
   padding: calc(5vh + 10px) 0 100px 0;
@@ -6950,7 +6984,8 @@ aside.teach .content.teach_bs {
 html {
   width: 100%;
   height: 100%;
-  overflow: auto; }
+  overflow: auto;
+  position: relative; }
 
 a {
   position: absolute;
@@ -7056,8 +7091,8 @@ header {
 
 main {
   width: 100%;
-  height: 88vh;
-  position: fixed;
+  height: calc(100vh - 12vh - 10px);
+  position: relative;
   overflow: hidden;
   margin-top: calc(5vh + 10px);
   margin-bottom: 7vh; }
@@ -7215,9 +7250,13 @@ main {
           background-position: -37px 0; }
         main section ul.profile li.u_option div.get span {
           background-position: -73px 0; }
-  main article.banner {
+  main article.banner_wrap {
     width: 93vw;
     height: 19vh;
+    margin: 0 auto 10px auto; }
+  main article .banner {
+    width: 100%;
+    height: 100%;
     margin: 0 auto 10px auto;
     background: url(../images/banner.png) no-repeat;
     background-size: cover;
@@ -7630,7 +7669,8 @@ aside.hot_windows {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
-  position: fixed; }
+  position: fixed;
+  top: 0; }
   aside.hot_windows.active {
     display: block; }
   aside.hot_windows article.bg {

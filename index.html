@@ -14,8 +14,8 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <!-- slick -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 
     <title>Ready</title>
 </head>
@@ -30,8 +30,12 @@
 
     <main>
 
-        <article class="banner warp">
-
+        <article class="banner_wrap warp swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide banner"></div>
+                <div class="swiper-slide banner"></div>
+                <div class="swiper-slide banner"></div>
+            </div>
         </article>
         <section>
             <ul class="hot_area">
@@ -998,10 +1002,9 @@
   
    
     
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    <script type="text/javascript" src="js/slider.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-
+    <script type="text/javascript" src="js/my_swiper.js"></script>
 </body>
 
 </html>

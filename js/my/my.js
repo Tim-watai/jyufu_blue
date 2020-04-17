@@ -1,6 +1,6 @@
 $(document).ready(function() {
     console.log("my.js");
-}); //total
+
 
  //切換_訊息視窗
  $("header ul li.message_icon , aside.title_windows div.close").click(function() {
@@ -13,7 +13,7 @@ $(document).ready(function() {
   });
   //切換_我的視窗_設定
   $('header ul li.option , aside.my_windows_set div.get_out').click(function(){
-    console.log('mb');
+    console.log('set_click');
     if($('aside.my_windows_set').hasClass('active') !== true)
     {
      return $('aside.my_windows_set').addClass('active');    
@@ -48,3 +48,6 @@ $(document).ready(function() {
       return $('aside.my_windows_help').removeClass('active');   
     }
   });
+
+
+}); //total

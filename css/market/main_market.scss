@@ -1682,6 +1682,7 @@ aside {
     position: fixed;
     flex-direction: column;
     justify-content: flex-end;
+    top: 0;
     &.active {
       display: flex;
     }

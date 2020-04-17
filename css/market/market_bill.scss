@@ -8,6 +8,7 @@ aside {
     z-index: 500;
     position: fixed;
     display: none;
+    top: 0;
     &.active {
       display: block;
     }
@@ -149,6 +150,7 @@ aside {
     z-index: 500;
     position: fixed;
     display: none;
+    top: 0;
     &.active {
         display: block;
       }
