@@ -4,16 +4,17 @@ aside {
     z-index: 600;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
+    overflow-y: scroll;
     &.active {
       display: block;
     }
   }
   .box {
     width: 80vw;
-    margin: 6vh 10vw 0 10vw;
+    margin: 6vh 10vw 180px 10vw;
     border-radius: 8px;
     overflow: hidden;
     .box_wrap {
@@ -139,7 +140,7 @@ aside {
         margin: 4px 0 0 0;
         padding: 0 0 8px 0;
         div {
-        //   display: inline-block;
+          //   display: inline-block;
         }
         .phone_img {
           background: url(../images/my/share_app/phone.png) no-repeat;
@@ -148,35 +149,94 @@ aside {
           height: 180px;
         }
         .code_img {
-            background: url(../images/my/share_app/qrcode.png) no-repeat;
-            background-size: 100%;
-            width: 100px;
-            height: 100px;
-          }
+          background: url(../images/my/share_app/qrcode.png) no-repeat;
+          background-size: 100%;
+          width: 100px;
+          height: 100px;
+        }
       }
     }
-      .footer_wrap{
-          background: #fff;
-          text-align: center;
-          .footer_pack{
-            line-height: 16px;
-            padding: 8px 0 8px 0;
-          }
-          .check_icon{
-            background: url(../images/my/share_app/check.png) no-repeat;
-            background-size: 100%;
-            width: 16px;
-            height: 16px;
-            display: inline-block;
-            vertical-align:bottom;
-          }
-          p{
-              color: #7685d5;
-              display: inline-block;
-              vertical-align: middle;
-              font-size: 12px;
-          }
+    .footer_wrap {
+      background: #fff;
+      text-align: center;
+      .footer_pack {
+        line-height: 16px;
+        padding: 8px 0 8px 0;
       }
-    
+      .check_icon {
+        background: url(../images/my/share_app/check.png) no-repeat;
+        background-size: 100%;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+      p {
+        color: #7685d5;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 12px;
+      }
+    }
+  }
+  .box_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    .btn_group {
+      background: #f7f7f7;
+      display: flex;
+      padding: 22px 0 22px 0;
+      .wrap {
+        text-align: center;
+        display: flex;
+        margin: 0 0 0 16px;
+        flex-direction: column;
+        .c_wrap {
+          display: inline-block;
+          text-align: center;
+          background: #fff;
+          border-radius: 8px;
+          padding: 10px;
+          div {
+            background: url(../images/my/share_app/f_btns.png) no-repeat;
+            background-size: 283%;
+            width: 35px;
+            height: 35px;
+            &.c1 {
+              background-position: 0 0;
+            }
+            &.c2 {
+              background-position: -31px 0;
+            }
+            &.c3 {
+                background-position: -64px 0;
+              }
+          }
+        }
+        p {
+          line-height: 1;
+          font-size: 13px;
+          color: #838ba0;
+          padding: 8px 0 0 0;
+        }
+      }
+    }
+  
+        .quite_btn{
+            width: 100%;
+            background: #fff;
+            border: none;
+            padding: 0;
+            padding: 10px 0 10px 0;
+            text-align: center;
+            p{
+                display: inline-block;
+                line-height: 1;
+                color: #4d515d;
+                font-size: 20px;
+            }
+        }
+ 
   }
 }

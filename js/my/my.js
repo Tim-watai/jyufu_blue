@@ -49,5 +49,15 @@ $(document).ready(function() {
     }
   });
 
+  //切換_我的_分享APP
+  $('aside.my_windows div.row_btn.share_app , aside .box_footer .quite_btn').click(function(){
+   
+    if($('aside.my_windows_share_app').hasClass('active') !== true)
+    {
+      return $('aside.my_windows_share_app').addClass('active');    
+    }else{
+      return $('aside.my_windows_share_app').removeClass('active');   
+    }
+  });
 
 }); //total

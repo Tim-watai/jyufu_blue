@@ -5066,15 +5066,16 @@ aside.my_windows_share_app {
   z-index: 600;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
-  top: 0; }
+  top: 0;
+  overflow-y: scroll; }
   aside.my_windows_share_app.active {
     display: block; }
 
 aside .box {
   width: 80vw;
-  margin: 6vh 10vw 0 10vw;
+  margin: 6vh 10vw 180px 10vw;
   border-radius: 8px;
   overflow: hidden; }
   aside .box .box_wrap {
@@ -5224,6 +5225,61 @@ aside .box {
       display: inline-block;
       vertical-align: middle;
       font-size: 12px; }
+
+aside .box_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  aside .box_footer .btn_group {
+    background: #f7f7f7;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 22px 0 22px 0; }
+    aside .box_footer .btn_group .wrap {
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 0 0 16px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      aside .box_footer .btn_group .wrap .c_wrap {
+        display: inline-block;
+        text-align: center;
+        background: #fff;
+        border-radius: 8px;
+        padding: 10px; }
+        aside .box_footer .btn_group .wrap .c_wrap div {
+          background: url(../images/my/share_app/f_btns.png) no-repeat;
+          background-size: 283%;
+          width: 35px;
+          height: 35px; }
+          aside .box_footer .btn_group .wrap .c_wrap div.c1 {
+            background-position: 0 0; }
+          aside .box_footer .btn_group .wrap .c_wrap div.c2 {
+            background-position: -31px 0; }
+          aside .box_footer .btn_group .wrap .c_wrap div.c3 {
+            background-position: -64px 0; }
+      aside .box_footer .btn_group .wrap p {
+        line-height: 1;
+        font-size: 13px;
+        color: #838ba0;
+        padding: 8px 0 0 0; }
+  aside .box_footer .quite_btn {
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 0;
+    padding: 10px 0 10px 0;
+    text-align: center; }
+    aside .box_footer .quite_btn p {
+      display: inline-block;
+      line-height: 1;
+      color: #4d515d;
+      font-size: 20px; }
 
 aside.my_windows_mb_save {
   padding: calc(5vh + 10px) 0 100px 0;
