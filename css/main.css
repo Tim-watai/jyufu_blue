@@ -8190,9 +8190,9 @@ aside .hidden_title {
         border-color: #a4a7ae transparent transparent transparent;
         vertical-align: middle;
         margin: 0 0 0 1.5vw; }
-    aside .hidden_title .tack:hover {
+    aside .hidden_title .tack.active {
       border-radius: 30px 30px 0 0; }
-      aside .hidden_title .tack:hover ul {
+      aside .hidden_title .tack.active ul {
         display: block; }
     aside .hidden_title .tack ul {
       display: none;
