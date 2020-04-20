@@ -5994,6 +5994,65 @@ aside.my_windows_bet_record {
         aside.my_windows_bet_record div.content ul.btn_group li p {
           font-size: 14px; }
 
+aside.delete_windows ul {
+  background: #fff;
+  overflow: hidden;
+  width: 88%;
+  margin: 20vh auto 0 auto;
+  border-radius: 12px; }
+  aside.delete_windows ul h1 {
+    text-align: center;
+    line-height: 1;
+    background: #959dc5;
+    padding: 12px 0 10px 0; }
+    aside.delete_windows ul h1 p {
+      color: #fefeff;
+      font-weight: normal; }
+  aside.delete_windows ul li {
+    color: #4d515d;
+    font-size: 14px; }
+    aside.delete_windows ul li:nth-child(2) {
+      background: #f6f8ff; }
+    aside.delete_windows ul li:nth-child(4) {
+      background: #f6f8ff; }
+    aside.delete_windows ul li .wrap {
+      display: inline-block;
+      line-height: 1;
+      padding: 12px 0px 12px 12px;
+      width: 28%; }
+    aside.delete_windows ul li .wrap2 {
+      display: inline-block;
+      line-height: 1;
+      padding: 12px 0px 12px 12px;
+      width: auto;
+      color: #838ba0;
+      white-space: nowrap; }
+    aside.delete_windows ul li .blue {
+      display: inline-block;
+      color: #556de7; }
+  aside.delete_windows ul .btn_group {
+    line-height: 38px;
+    border-top: 1px solid #e0e3f3;
+    white-space: nowrap;
+    position: relative; }
+    aside.delete_windows ul .btn_group:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      height: 100%;
+      width: 1px;
+      background: #e0e3f3; }
+    aside.delete_windows ul .btn_group button {
+      width: 50%;
+      border: none;
+      background: none;
+      color: #4d515d;
+      font-size: 14px;
+      letter-spacing: 8px; }
+
 aside.my_windwos_gift_record {
   padding: 0 0 100px 0;
   width: 100vw;
@@ -8114,7 +8173,7 @@ aside .hidden_title {
     background: #f7f8fc;
     margin: 10px 3vw 10px 3vw;
     padding: 10px 10px 10px 10px;
-    border-radius: 30px 30px 0 0;
+    border-radius: 30px;
     position: relative;
     white-space: nowrap; }
     aside .hidden_title .tack p {
@@ -8131,17 +8190,31 @@ aside .hidden_title {
         border-color: #a4a7ae transparent transparent transparent;
         vertical-align: middle;
         margin: 0 0 0 1.5vw; }
+    aside .hidden_title .tack:hover {
+      border-radius: 30px 30px 0 0; }
+      aside .hidden_title .tack:hover ul {
+        display: block; }
     aside .hidden_title .tack ul {
-      bottom: -41px;
+      display: none;
+      bottom: -45px;
       left: 0;
       position: absolute;
       background: #f7f8fc;
       border-radius: 0 0 30px 30px;
-      /* margin: 10px 3vw 10px 3vw; */
-      padding: 0px 20px 10px 10px;
+      line-height: 1;
       font-size: 14px;
       color: #4d515d;
-      width: 90px; }
+      width: 90px;
+      padding: 0 0 10px 0; }
+      aside .hidden_title .tack ul li {
+        padding: 0px 20px 0 10px;
+        margin: 0 0 0 0;
+        position: relative; }
+        aside .hidden_title .tack ul li:first-child {
+          margin: 0 0 10px 0; }
+        aside .hidden_title .tack ul li:hover {
+          color: #fff;
+          background: #000; }
   aside .hidden_title p.check_all {
     display: inline-block;
     position: absolute;
