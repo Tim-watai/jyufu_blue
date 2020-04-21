@@ -31,7 +31,7 @@ aside {
                   display: inline-block;
                   width: 4vw;
                   height: 4vw;
-                  background: url(../images/refresh_b.png) no-repeat;
+                  background: url(../images/icon/refresh_b.png) no-repeat;
                   background-size: 100%;
                   background-position: center;
                   margin: 0 0 0 1vw;
@@ -75,7 +75,7 @@ aside {
                       display: inline-block;
                       width: 4vw;
                       height: 4vw;
-                      background: url(../images/mb_w.png) no-repeat;
+                      background: url(../images/icon/mb_w.png) no-repeat;
                       background-size: 100%;
                       background-position: center;
                       margin: 0 1vw 0 0;
@@ -99,7 +99,7 @@ aside {
                       display: inline-block;
                       width: 4vw;
                       height: 4vw;
-                      background: url(../images/mb_w.png) no-repeat;
+                      background: url(../images/icon/mb_w.png) no-repeat;
                       background-size: 100%;
                       background-position: center;
                       margin: 0 1vw 0 0;
@@ -142,7 +142,7 @@ aside {
                         color: #838ba0;
                       }
                       &:last-child {
-                        background: url(../images/double_arrow_gray.png)
+                        background: url(../images/icon/double_arrow_gray.png)
                           no-repeat;
                         background-size: 100%;
                         background-position: center;
@@ -171,7 +171,7 @@ aside {
                         right: 0;
                         width: 3.5vw;
                         height: 3.5vw;
-                        background: url(../images/information.png) no-repeat;
+                        background: url(../images/icon/information.png) no-repeat;
                         background-size: 100%;
                         background-position: center;
                         font-style: normal;
@@ -330,7 +330,7 @@ aside {
               position: relative;
               &:before {
                 content: "";
-                background: url(../images/arrow_lg.png) no-repeat;
+                background: url(../images/icon/arrow_lg.png) no-repeat;
                 background-size: 100%;
                 background-position: center;
                 position: absolute;
@@ -428,7 +428,7 @@ aside {
                     position: relative;
                     &:before {
                       content: "";
-                      background: url(../images/arrow_lg.png) no-repeat;
+                      background: url(../images/icon/arrow_lg.png) no-repeat;
                       background-size: 100%;
                       background-position: center;
                       position: absolute;
@@ -577,7 +577,7 @@ aside {
                     justify-content: center;
                     align-items: center;
                     .fail_icon{
-                        background:url(../../images/transfer_fail.png)no-repeat;
+                        background:url(../../images/icon/transfer_fail.png)no-repeat;
                         background-size: 100%;
                         background-position: center;
                         width: 30px;

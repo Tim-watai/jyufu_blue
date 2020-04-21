@@ -102,7 +102,7 @@ header {
       }
       &.edit_point{
         float: right;
-        background: url(../images/edit_point.png)no-repeat;
+        background: url(../images/icon/edit_point.png)no-repeat;
         background-size: 100%;
         background-position: center center;
         width: 18px;
@@ -1785,7 +1785,7 @@ aside {
                     display: inline-block;
                     width: 3vw;
                     height: 3vw;
-                    background: url(../images/arrow_gray.png) no-repeat;
+                    background: url(../images/icon/arrow_gray.png) no-repeat;
                     background-position: center center;
                     background-size: contain;
                     vertical-align: text-top;
@@ -1981,7 +1981,7 @@ aside {
                     display: inline-block;
                     width: 4vw;
                     height: 2.9vw;
-                    background: url(../images/arrow_w.png) no-repeat;
+                    background: url(../images/icon/arrow_w.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     position: relative;
@@ -1991,7 +1991,7 @@ aside {
                     display: inline-block;
                     width: 4vw;
                     height: 2.9vw;
-                    background: url(../images/arrow_d.png) no-repeat;
+                    background: url(../images/icon/arrow_d.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     position: relative;
@@ -2026,7 +2026,7 @@ aside {
                 span {
                   display: inline-block;
                   &.local_game_1 {
-                    background: url(../images/local_games_1.png) no-repeat;
+                    background: url(../images/icon/local_games_1.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     width: 6vw;
@@ -2037,7 +2037,7 @@ aside {
                     left: 3vw;
                   }
                   &.local_game_2 {
-                    background: url(../images/local_games_2.png) no-repeat;
+                    background: url(../images/icon/local_games_2.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     width: 6vw;
@@ -2048,7 +2048,7 @@ aside {
                     left: 3vw;
                   }
                   &.local_game_3 {
-                    background: url(../images/local_games_3.png) no-repeat;
+                    background: url(../images/icon/local_games_3.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     width: 6vw;
