@@ -460,7 +460,7 @@ header ul li.wallet {
     padding: 10px;
     border-radius: 8px; }
     header ul li.wallet .balance:before {
-      content: '';
+      content: "";
       top: -6px;
       left: 50%;
       -webkit-transform: translateX(-50%);
@@ -1020,55 +1020,27 @@ main.market {
               right: 0;
               width: calc(50% - 25px); }
             main.market aside ul li.beginner section.content span.counter div.country span {
-              vertical-align: middle; }
+              vertical-align: middle;
+              width: 17px;
+              height: 17px;
+              background: url(../images/market/cs.png) no-repeat;
+              background-size: 800%; }
               main.market aside ul li.beginner section.content span.counter div.country span.icon1 {
-                background: url(../images/market/icon_country1.png) no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: 25px;
-                height: 17px; }
+                background-position: 0 0; }
               main.market aside ul li.beginner section.content span.counter div.country span.icon2 {
-                background: url(../images/market/icon_country2.png) no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: 13px;
-                height: 17px; }
+                background-position: -17px 0; }
               main.market aside ul li.beginner section.content span.counter div.country span.icon3 {
-                background: url(../images/market/icon_country3.png) no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: 14px;
-                height: 16px; }
+                background-position: -34px 0; }
               main.market aside ul li.beginner section.content span.counter div.country span.icon4 {
-                background: url(../images/market/icon_country4.png) no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: 18px;
-                height: 17px; }
+                background-position: -51px 0; }
               main.market aside ul li.beginner section.content span.counter div.country span.icon5 {
-                background: url(../images/market/icon_country5.png) no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: 13px;
-                height: 15px; }
+                background-position: -68px 0; }
               main.market aside ul li.beginner section.content span.counter div.country span.icon6 {
-                background: url(../images/market/icon_country6.png) no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: 13px;
-                height: 17px; }
+                background-position: -85px 0; }
               main.market aside ul li.beginner section.content span.counter div.country span.icon7 {
-                background: url(../images/market/icon_country7.png) no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: 17px;
-                height: 17px; }
+                background-position: -102px 0; }
               main.market aside ul li.beginner section.content span.counter div.country span.icon8 {
-                background: url(../images/market/icon_country8.png) no-repeat;
-                background-position: center center;
-                background-size: cover;
-                width: 16px;
-                height: 17px; }
+                background-position: -119px 0; }
           main.market aside ul li.beginner section.content span.num_group {
             width: 100%;
             text-align: center; }
@@ -3380,34 +3352,22 @@ aside.my_about {
         aside.my_about .donate_wrap ul:not(:last-child) li .icon_wrap {
           text-align: center;
           margin: 0 0 8px 0; }
-        aside.my_about .donate_wrap ul:not(:last-child) li .da1 {
-          background: url(./../images/my_about/da1.png) no-repeat;
-          width: 33px;
-          height: 33px;
-          background-size: 100%;
-          vertical-align: middle;
-          display: inline-block; }
-        aside.my_about .donate_wrap ul:not(:last-child) li .da2 {
-          background: url(./../images/my_about/da2.png) no-repeat;
-          width: 19px;
-          height: 33px;
-          background-size: 100%;
-          vertical-align: middle;
-          display: inline-block; }
-        aside.my_about .donate_wrap ul:not(:last-child) li .da3 {
-          background: url(./../images/my_about/da3.png) no-repeat;
-          width: 33px;
-          height: 33px;
-          background-size: 100%;
-          vertical-align: middle;
-          display: inline-block; }
-        aside.my_about .donate_wrap ul:not(:last-child) li .da4 {
-          background: url(./../images/my_about/da4.png) no-repeat;
-          width: 33px;
-          height: 33px;
-          background-size: 100%;
-          vertical-align: middle;
-          display: inline-block; }
+          aside.my_about .donate_wrap ul:not(:last-child) li .icon_wrap div {
+            background: url(./../images/my_about/ofs.png) no-repeat;
+            background-size: 700%;
+            width: 33px;
+            height: 33px;
+            background-position: 0 0;
+            display: inline-block;
+            vertical-align: middle; }
+          aside.my_about .donate_wrap ul:not(:last-child) li .icon_wrap .da1 {
+            background-position: 0 0; }
+          aside.my_about .donate_wrap ul:not(:last-child) li .icon_wrap .da2 {
+            background-position: -33px 0; }
+          aside.my_about .donate_wrap ul:not(:last-child) li .icon_wrap .da3 {
+            background-position: -66px 0; }
+          aside.my_about .donate_wrap ul:not(:last-child) li .icon_wrap .da4 {
+            background-position: -99px 0; }
     aside.my_about .donate_wrap ul:last-child {
       width: 100%;
       text-align: center;
@@ -3419,27 +3379,20 @@ aside.my_about {
         line-height: 1; }
         aside.my_about .donate_wrap ul:last-child li .icon_wrap {
           margin: 0 0 8px 0; }
-        aside.my_about .donate_wrap ul:last-child li .da5 {
-          background: url(./../images/my_about/da5.png) no-repeat;
-          width: 24px;
-          height: 33px;
-          background-size: 100%;
-          vertical-align: middle;
-          display: inline-block; }
-        aside.my_about .donate_wrap ul:last-child li .da6 {
-          background: url(./../images/my_about/da6.png) no-repeat;
-          width: 19px;
-          height: 33px;
-          background-size: 100%;
-          vertical-align: middle;
-          display: inline-block; }
-        aside.my_about .donate_wrap ul:last-child li .da7 {
-          background: url(./../images/my_about/da7.png) no-repeat;
-          width: 33px;
-          height: 33px;
-          background-size: 100%;
-          vertical-align: middle;
-          display: inline-block; }
+          aside.my_about .donate_wrap ul:last-child li .icon_wrap div {
+            background: url(./../images/my_about/ofs.png) no-repeat;
+            background-size: 700%;
+            width: 33px;
+            height: 33px;
+            background-position: 0 0;
+            display: inline-block;
+            vertical-align: middle; }
+          aside.my_about .donate_wrap ul:last-child li .icon_wrap .da5 {
+            background-position: -132px 0; }
+          aside.my_about .donate_wrap ul:last-child li .icon_wrap .da6 {
+            background-position: -165px 0; }
+          aside.my_about .donate_wrap ul:last-child li .icon_wrap .da7 {
+            background-position: -198px 0; }
 
 aside.my_windows {
   width: 100vw;
@@ -6552,30 +6505,19 @@ aside.help_contact_us {
       aside.help_contact_us ul.contact_us li .wrap {
         padding: 0px 7vw;
         border-right: 1px solid #e0e3f3; }
+        aside.help_contact_us ul.contact_us li .wrap div {
+          background: url(../images/help/contact_us_icons.png) no-repeat;
+          background-size: 400%;
+          width: 35px;
+          height: 38px; }
         aside.help_contact_us ul.contact_us li .wrap .icon_mail {
-          background: url(../images/help/mail_icon.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 35px;
-          height: 26px; }
+          background-position: -70px 0; }
         aside.help_contact_us ul.contact_us li .wrap .icon_qq {
-          background: url(../images/help/qq_icon.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 35px;
-          height: 38px; }
+          background-position: 0 0; }
         aside.help_contact_us ul.contact_us li .wrap .icon_skype {
-          background: url(../images/help/skype_icon.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 35px;
-          height: 38px; }
+          background-position: -105px 0; }
         aside.help_contact_us ul.contact_us li .wrap .icon_s {
-          background: url(../images/help/s_icon.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 35px;
-          height: 38px; }
+          background-position: -35px 0; }
       aside.help_contact_us ul.contact_us li .mid_wrap {
         padding: 0 0 0 7vw;
         color: #4d515d;
@@ -6891,18 +6833,17 @@ aside.teach {
             aside.teach .content .card .vs_area .wrap .name p:first-child {
               font-weight: bold;
               padding: 0 0 5px 0; }
+          aside.teach .content .card .vs_area .wrap span {
+            width: 42px;
+            height: 38px; }
           aside.teach .content .card .vs_area .wrap .icon {
-            background: url(../images/teach/blue_c.png) no-repeat;
-            width: 42px;
-            height: 38px;
-            background-size: 100%;
-            background-position: center; }
+            background: url(../images/teach/confrontation.png) no-repeat;
+            background-size: 200%;
+            background-position: 0 0; }
           aside.teach .content .card .vs_area .wrap .icon_o {
-            background: url(../images/teach/orange_c.png) no-repeat;
-            width: 42px;
-            height: 38px;
-            background-size: 100%;
-            background-position: center; }
+            background: url(../images/teach/confrontation.png) no-repeat;
+            background-size: 200%;
+            background-position: -42px 0; }
         aside.teach .content .card .vs_area .vs_mid_area {
           position: absolute;
           left: 50%;
@@ -6958,13 +6899,13 @@ aside.teach {
             width: 25px;
             height: 25px; }
             aside.teach .content .card .bingo_area .wrap .icon.active {
-              background: url(../images/teach/gold.png) no-repeat;
-              background-size: 100%;
-              background-position: center; }
+              background: url(../images/teach/golds.png) no-repeat;
+              background-size: 200%;
+              background-position: 0 0; }
             aside.teach .content .card .bingo_area .wrap .icon.half {
-              background: url(../images/teach/gold_half.png) no-repeat;
-              background-size: 100%;
-              background-position: center; }
+              background: url(../images/teach/golds.png) no-repeat;
+              background-size: 200%;
+              background-position: -25px 0; }
           aside.teach .content .card .bingo_area .wrap:first-child {
             float: left;
             padding: 0 0 0 10px; }
@@ -7025,37 +6966,27 @@ aside.teach .content.teach_bs {
       color: #4d515d; }
       aside.teach .content.teach_bs .card .question_wrap .question div {
         display: inline-block; }
-        aside.teach .content.teach_bs .card .question_wrap .question div.icon_1 {
-          background: url(../images/teach/c1.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 15px;
-          height: 20px;
-          margin: 0 5px 0 5px; }
-        aside.teach .content.teach_bs .card .question_wrap .question div.icon_2 {
-          background: url(../images/teach/c2.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 15px;
-          height: 15px;
-          margin: 0 5px 0 5px; }
-        aside.teach .content.teach_bs .card .question_wrap .question div.icon_3 {
-          background: url(../images/teach/c3.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 15px;
-          height: 15px;
-          margin: 0 5px 0 5px; }
-        aside.teach .content.teach_bs .card .question_wrap .question div.icon_4 {
-          background: url(../images/teach/c4.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 15px;
-          height: 15px;
-          margin: 0 5px 0 5px; }
         aside.teach .content.teach_bs .card .question_wrap .question div.blue {
           color: #4d61c6;
           font-size: 20px; }
+      aside.teach .content.teach_bs .card .question_wrap .question i {
+        background: url(../images/teach/cs.png) no-repeat;
+        display: inline-block;
+        background-size: 400%;
+        width: 15px;
+        height: 15px; }
+        aside.teach .content.teach_bs .card .question_wrap .question i.icon_1 {
+          background-position: 0 0;
+          margin: 0 5px 0 5px; }
+        aside.teach .content.teach_bs .card .question_wrap .question i.icon_2 {
+          background-position: -15px 0;
+          margin: 0 5px 0 5px; }
+        aside.teach .content.teach_bs .card .question_wrap .question i.icon_3 {
+          background-position: -30px 0;
+          margin: 0 5px 0 5px; }
+        aside.teach .content.teach_bs .card .question_wrap .question i.icon_4 {
+          background-position: -45x 0;
+          margin: 0 5px 0 5px; }
       aside.teach .content.teach_bs .card .question_wrap .question span.type {
         font-size: 12px;
         line-height: 1;
@@ -7195,9 +7126,9 @@ aside.teach .content.teach_bs {
         aside.teach .content.teach_bs .card .question_wrap .result_wrap .fail.active {
           display: block; }
         aside.teach .content.teach_bs .card .question_wrap .result_wrap .fail .icon {
-          background: url(../images/teach/fail.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
+          background: url(../images/teach/results.png) no-repeat;
+          background-size: 200%;
+          background-position: -20px 0;
           width: 20px;
           height: 20px;
           line-height: 1;
@@ -7209,9 +7140,9 @@ aside.teach .content.teach_bs {
         aside.teach .content.teach_bs .card .question_wrap .result_wrap .success.active {
           display: block; }
         aside.teach .content.teach_bs .card .question_wrap .result_wrap .success .icon {
-          background: url(../images/teach/success.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
+          background: url(../images/teach/results.png) no-repeat;
+          background-size: 200%;
+          background-position: 0 0;
           width: 20px;
           height: 20px;
           line-height: 1;
@@ -8017,36 +7948,21 @@ aside.hot_windows {
           top: 30%; }
           aside.hot_windows article.bg ul li div.lc span.icon, aside.hot_windows article.bg ul li div.rc span.icon {
             display: inline-block;
-            background: url(../images/hot_window/c1.png) no-repeat;
-            background-size: cover;
-            background-position: center center;
-            width: 39px;
+            background: url(../images/hot_window/cs.png) no-repeat;
+            background-size: 600%;
+            background-position: 0 0;
+            width: 28px;
             height: 31px; }
             aside.hot_windows article.bg ul li div.lc span.icon.c2, aside.hot_windows article.bg ul li div.rc span.icon.c2 {
-              background: url(../images/hot_window/c2.png) no-repeat;
-              background-size: cover;
-              background-position: center center;
-              width: 28px; }
+              background-position: -28px 0; }
             aside.hot_windows article.bg ul li div.lc span.icon.c3, aside.hot_windows article.bg ul li div.rc span.icon.c3 {
-              background: url(../images/hot_window/c3.png) no-repeat;
-              background-size: cover;
-              background-position: center center;
-              width: 30px; }
+              background-position: -56px 0; }
             aside.hot_windows article.bg ul li div.lc span.icon.c4, aside.hot_windows article.bg ul li div.rc span.icon.c4 {
-              background: url(../images/hot_window/c4.png) no-repeat;
-              background-size: cover;
-              background-position: center center;
-              width: 28px; }
+              background-position: -84px; }
             aside.hot_windows article.bg ul li div.lc span.icon.c5, aside.hot_windows article.bg ul li div.rc span.icon.c5 {
-              background: url(../images/hot_window/c5.png) no-repeat;
-              background-size: cover;
-              background-position: center center;
-              width: 28px; }
+              background-position: -112px 0; }
             aside.hot_windows article.bg ul li div.lc span.icon.c6, aside.hot_windows article.bg ul li div.rc span.icon.c6 {
-              background: url(../images/hot_window/c6.png) no-repeat;
-              background-size: cover;
-              background-position: center center;
-              width: 28px; }
+              background-position: -140px 0; }
           aside.hot_windows article.bg ul li div.lc p.name, aside.hot_windows article.bg ul li div.rc p.name {
             margin: 0.5vh 0 0 0;
             font-family: "微軟正黑體";

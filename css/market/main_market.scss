@@ -2,7 +2,7 @@ $d_gray: #4d515d;
 
 header {
   ul {
-    &.market{
+    &.market {
       padding: 0 33px 0 3vw;
     }
     li {
@@ -12,7 +12,7 @@ header {
         width: 3%;
         height: 50%;
         pointer-events: all;
-       
+
         &:before,
         &:after {
           content: "";
@@ -32,7 +32,7 @@ header {
           bottom: 10%;
         }
       }
-      
+
       &.wallet {
         float: right;
         // background: url(../images/wallet.png) no-repeat;
@@ -47,12 +47,12 @@ header {
         background-size: 582%;
         background-position: -85px 0;
         position: relative;
-        .balance{
+        .balance {
           display: inline-block;
           pointer-events: none;
           opacity: 0;
           position: absolute;
-          top:30px ;
+          top: 30px;
           transform: translateX(-50%);
           left: 50%;
           color: #fff;
@@ -61,8 +61,8 @@ header {
           white-space: nowrap;
           padding: 10px;
           border-radius: 8px;
-          &:before{
-            content: '';
+          &:before {
+            content: "";
             top: -6px;
             left: 50%;
             transform: translateX(-50%);
@@ -71,20 +71,18 @@ header {
             height: 0;
             border-style: solid;
             border-width: 0px 6px 6px 6px;
-            border-color: transparent transparent rgba(0,0,0,0.6) transparent;
+            border-color: transparent transparent rgba(0, 0, 0, 0.6) transparent;
             display: inline-block;
-
           }
         }
         &:hover,
         &:active,
-        &.active{
-          .balance{
+        &.active {
+          .balance {
             pointer-events: all;
-          opacity: 1;
+            opacity: 1;
           }
         }
-      
       }
       &.search {
         float: right;
@@ -95,14 +93,14 @@ header {
         background-position: -21px 0;
         position: relative;
       }
-      &.pure_text{
+      &.pure_text {
         float: right;
         font-size: 20px;
         color: #4d515d;
       }
-      &.edit_point{
+      &.edit_point {
         float: right;
-        background: url(../images/icon/edit_point.png)no-repeat;
+        background: url(../images/icon/edit_point.png) no-repeat;
         background-size: 100%;
         background-position: center center;
         width: 18px;
@@ -142,73 +140,65 @@ nav {
         &.active {
           color: #4d515d;
           span {
-            &.kind_icon{
+            &.kind_icon {
               display: inline-block;
               background: url(../images/market/kinds.png) no-repeat;
               background-size: 1950%;
               width: 22px;
               height: 20px;
             }
-            &.all{
+            &.all {
               background-position: -24px -1px;
             }
-            &.loves{
+            &.loves {
               background-position: -1px -1px;
             }
             &.soccer {
-     
               background-position: -48px 0;
             }
             &.basketball {
-        
               background-position: -96px 0px;
             }
             &.horse {
-           
               background-position: -120px 0px;
             }
             &.e_sport {
-
-             
               background-position: -144px 2px;
             }
             &.graph {
-
               background-position: -168px 2px;
             }
             &.color_ball {
-        
               background-position: -192px 0px;
             }
             &.ice_ball {
-          
               background-position: -216px 1px;
             }
-            &.basball{
+            &.basball {
               background-position: -72px -0px;
             }
-            &.tennis{
+            &.tennis {
               background-position: -239px 0px;
             }
-            &.snooker{
+            &.snooker {
               background-position: -263px 0px;
             }
-            &.volleyball{
+            &.volleyball {
               background-position: -287px 0px;
             }
-            &.motor_sport{
+            &.motor_sport {
               background-position: -310px 0px;
             }
-            &.badminton{
+            &.badminton {
               background-position: -334px 0px;
             }
-            &.football{
+            &.football {
               background-position: -358px 0px;
             }
-            &.table_tennis{
+            &.table_tennis {
               background-position: -407px 0px;
             }
-            &.beach_soccer{
+            &.beach_soccer {
               background-position: -382px 0px;
             }
           }
@@ -218,72 +208,65 @@ nav {
           float: left;
           line-height: 1.7vh;
           span {
-            &.kind_icon{
+            &.kind_icon {
               display: inline-block;
               background: url(../images/market/kinds.png) no-repeat;
               background-size: 1950%;
               width: 22px;
               height: 20px;
             }
-            &.all{
+            &.all {
               background-position: -24px -20px;
             }
-            &.loves{
+            &.loves {
               background-position: -1px -20px;
             }
             &.soccer {
-
               background-position: -48px -20px;
             }
             &.basketball {
-
               background-position: -96px -20px;
             }
             &.horse {
-    
               background-position: -120px -20px;
             }
             &.e_sport {
-    
               background-position: -144px -20px;
             }
             &.graph {
-
               background-position: -168px -20px;
             }
             &.color_ball {
-    
               background-position: -192px -19px;
             }
             &.ice_ball {
-   
               background-position: -216px -20px;
             }
-            &.basball{
+            &.basball {
               background-position: -72px -19px;
             }
-            &.tennis{
+            &.tennis {
               background-position: -239px -20px;
             }
-            &.snooker{
+            &.snooker {
               background-position: -263px -20px;
             }
-            &.volleyball{
+            &.volleyball {
               background-position: -287px -20px;
             }
-            &.motor_sport{
+            &.motor_sport {
               background-position: -310px -20px;
             }
-            &.badminton{
+            &.badminton {
               background-position: -334px -20px;
             }
-            &.football{
+            &.football {
               background-position: -358px -20px;
             }
-            &.table_tennis{
+            &.table_tennis {
               background-position: -407px -20px;
             }
-            &.beach_soccer{
+            &.beach_soccer {
               background-position: -382px -20px;
             }
           }
@@ -357,35 +340,35 @@ main {
     overflow-y: scroll;
     padding: 0 0 100px 0;
     aside {
-      &.loading{
+      &.loading {
         width: 100%;
         height: 100%;
         position: relative;
-        .loading_icon{
-          background:url(../../images/message_page/wait.gif)no-repeat;
+        .loading_icon {
+          background: url(../../images/message_page/wait.gif) no-repeat;
           background-size: 100%;
           background-position: center;
           width: 60px;
           height: 65px;
           position: absolute;
-          transform: translate(-50%,-50%);
+          transform: translate(-50%, -50%);
           left: 50%;
           top: 50%;
         }
       }
-      &.empty_game{
+      &.empty_game {
         text-align: center;
-        .wrap{
+        .wrap {
           display: inline-block;
           margin-top: 150px;
-          .empty_icon{
-            background:url(../../images/market/empty_game.png)no-repeat;
+          .empty_icon {
+            background: url(../../images/market/empty_game.png) no-repeat;
             background-size: 100%;
             background-position: center;
             width: 150px;
             height: 150px;
           }
-          p{
+          p {
             margin: 16px 0 0 0;
             color: #838ba0;
           }
@@ -394,8 +377,8 @@ main {
       section {
         &.status {
           background: #fff;
-          div{
-            span{
+          div {
+            span {
               width: 15px;
               height: 15px;
               vertical-align: middle;
@@ -408,10 +391,9 @@ main {
             border-top: 2px solid #ef6b5d;
             div {
               span {
-                background: url(../images/market/game_icons.png)no-repeat;
+                background: url(../images/market/game_icons.png) no-repeat;
                 background-size: 910%;
                 background-position: -1px 0;
-              
               }
             }
           }
@@ -419,7 +401,7 @@ main {
             border-top: 2px solid #5875e0;
             div {
               span {
-                background: url(../images/market/game_icons.png)no-repeat;
+                background: url(../images/market/game_icons.png) no-repeat;
                 background-size: 910%;
                 background-position: -18px 0;
               }
@@ -436,7 +418,7 @@ main {
                 // width: 15px;
                 // height: 15px;
                 // vertical-align: middle;
-                background: url(../images/market/game_icons.png)no-repeat;
+                background: url(../images/market/game_icons.png) no-repeat;
                 background-size: 910%;
                 background-position: -42px 0;
                 width: 18px;
@@ -530,7 +512,6 @@ main {
                   font-size: 3vw;
                   position: relative;
                   vertical-align: middle;
-                
                 }
                 &:first-child {
                   float: left;
@@ -555,56 +536,55 @@ main {
           width: auto;
           margin: 0 1.5vw 5px 1.5vw;
           height: auto;
-          span{
-             &.title {
-                width: 100%;
-                height: 3.5vh;
-                line-height: 3.5vh;
-                padding: 0 2.5vw 0 2.5vw;
-                position: relative;
+          span {
+            &.title {
+              width: 100%;
+              height: 3.5vh;
+              line-height: 3.5vh;
+              padding: 0 2.5vw 0 2.5vw;
+              position: relative;
+              display: inline-block;
+              p {
                 display: inline-block;
-                p {
-                  display: inline-block;
-                  color: #1b255c;
-                  font-weight: bold;
-                  font-size: 1.8vh;
-                }
-                span {
-                  display: inline-block;
-                  float: right;
-                  &.down_arrow {
-                    position: relative;
+                color: #1b255c;
+                font-weight: bold;
+                font-size: 1.8vh;
+              }
+              span {
+                display: inline-block;
+                float: right;
+                &.down_arrow {
+                  position: relative;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  height: 1.5vh;
+                  width: 16px;
+                  &:after,
+                  &:before {
+                    content: "";
+                    position: absolute;
+                    background-color: #838ba0;
+                    width: 50%;
+                    height: 1px;
+                  }
+                  &:before {
+                    transform: translate(0%, -50%) rotate(45deg);
+                    left: 10%;
                     top: 50%;
-                    transform: translateY(-50%);
-                    height: 1.5vh;
-                    width: 16px;
-                    &:after,
-                    &:before {
-                      content: "";
-                      position: absolute;
-                      background-color: #838ba0;
-                      width: 50%;
-                      height: 1px;
-                    }
-                    &:before {
-                      transform: translate(0%, -50%) rotate(45deg);
-                      left: 10%;
-                      top: 50%;
-                    }
-                    &:after {
-                      transform: translate(0%, -50%) rotate(-45deg);
-                      right: 9%;
-                      top: 50%;
-                    }
+                  }
+                  &:after {
+                    transform: translate(0%, -50%) rotate(-45deg);
+                    right: 9%;
+                    top: 50%;
                   }
                 }
               }
+            }
           }
-          section{
-            &.content{
-              span{
-                &.num_group{
-
+          section {
+            &.content {
+              span {
+                &.num_group {
                 }
               }
             }
@@ -612,8 +592,8 @@ main {
           &.beginner {
             section {
               &.content {
-                span{
-                  &.title{
+                span {
+                  &.title {
                     width: 100%;
                     height: 3.5vh;
                     line-height: 3.5vh;
@@ -623,21 +603,21 @@ main {
                 }
                 padding: 0 2.5vw 10px 2.5vw;
                 border-top: 1px solid #e0e3f3;
-                &:nth-child(odd){
+                &:nth-child(odd) {
                   background: #eef1ff;
-                  span{
-                    &.num_group{
-                      div{
+                  span {
+                    &.num_group {
+                      div {
                         background-color: #fff;
                       }
                     }
                   }
                 }
-                &.blue{
+                &.blue {
                   background: #eef1ff;
-                  span{
-                    &.num_group{
-                      div{
+                  span {
+                    &.num_group {
+                      div {
                         background-color: #fff;
                       }
                     }
@@ -687,11 +667,11 @@ main {
                       }
                     }
                     div {
-                     
                       &:not(.more),
-                      &:not(.timing){
+                      &:not(.timing) {
                         display: inline-block;
-                        background: url(../images/market/game_icons.png)no-repeat;
+                        background: url(../images/market/game_icons.png)
+                          no-repeat;
                         background-size: 810%;
                         width: 18px;
                         height: 15px;
@@ -818,7 +798,7 @@ main {
                         text-overflow: ellipsis;
                         width: 70%;
                       }
-                      &.right{
+                      &.right {
                         text-align: right;
                       }
                       &.mid {
@@ -857,69 +837,33 @@ main {
 
                         span {
                           vertical-align: middle;
+                          width: 17px;
+                          height: 17px;
+                          background: url(../images/market/cs.png) no-repeat;
+                          background-size: 800%;
                           &.icon1 {
-                            background: url(../images/market/icon_country1.png)
-                              no-repeat;
-                            background-position: center center;
-                            background-size: cover;
-                            width: 25px;
-                            height: 17px;
+                            background-position: 0 0;
                           }
                           &.icon2 {
-                            background: url(../images/market/icon_country2.png)
-                              no-repeat;
-                            background-position: center center;
-                            background-size: cover;
-                            width: 13px;
-                            height: 17px;
+                            background-position: -17px 0;
                           }
                           &.icon3 {
-                            background: url(../images/market/icon_country3.png)
-                              no-repeat;
-                            background-position: center center;
-                            background-size: cover;
-                            width: 14px;
-                            height: 16px;
+                            background-position: -34px 0;
                           }
                           &.icon4 {
-                            background: url(../images/market/icon_country4.png)
-                              no-repeat;
-                            background-position: center center;
-                            background-size: cover;
-                            width: 18px;
-                            height: 17px;
+                            background-position: -51px 0;
                           }
                           &.icon5 {
-                            background: url(../images/market/icon_country5.png)
-                              no-repeat;
-                            background-position: center center;
-                            background-size: cover;
-                            width: 13px;
-                            height: 15px;
+                            background-position: -68px 0;
                           }
                           &.icon6 {
-                            background: url(../images/market/icon_country6.png)
-                              no-repeat;
-                            background-position: center center;
-                            background-size: cover;
-                            width: 13px;
-                            height: 17px;
+                            background-position: -85px 0;
                           }
                           &.icon7 {
-                            background: url(../images/market/icon_country7.png)
-                              no-repeat;
-                            background-position: center center;
-                            background-size: cover;
-                            width: 17px;
-                            height: 17px;
+                            background-position: -102px 0;
                           }
                           &.icon8 {
-                            background: url(../images/market/icon_country8.png)
-                              no-repeat;
-                            background-position: center center;
-                            background-size: cover;
-                            width: 16px;
-                            height: 17px;
+                            background-position: -119px 0;
                           }
                         }
                       }
@@ -928,14 +872,14 @@ main {
                   &.num_group {
                     width: 100%;
                     text-align: center;
-                    &.two_mode{
-                      div{
+                    &.two_mode {
+                      div {
                         background-color: #f6f8ff;
                         display: inline-block;
                         text-align: center;
                         width: 40%;
                         line-height: 35px;
-                        &:first-child{
+                        &:first-child {
                           margin: 0 2px 0 0;
                         }
                       }
@@ -974,19 +918,19 @@ main {
             &.double {
               display: block;
             }
-         
+
             section {
               &.content {
                 padding: 0 0 10px 0;
                 border-top: 2px solid #e0e3f3;
                 position: relative;
-                &:nth-child(odd){
+                &:nth-child(odd) {
                   background: #eef1ff;
-                  span{
-                    &.point_box{
-                      span{
-                        &.num_group{
-                          div{
+                  span {
+                    &.point_box {
+                      span {
+                        &.num_group {
+                          div {
                             background: #fff;
                           }
                         }
@@ -994,13 +938,13 @@ main {
                     }
                   }
                 }
-                &.blue{
+                &.blue {
                   background: #eef1ff;
-                  span{
-                    &.point_box{
-                      span{
-                        &.num_group{
-                          div{
+                  span {
+                    &.point_box {
+                      span {
+                        &.num_group {
+                          div {
                             background: #fff;
                           }
                         }
@@ -1216,7 +1160,8 @@ main {
                             line-height: calc(15vh - ((13vh / 2 - 3px) * 2));
                             span {
                               display: inline-block;
-                              background: url(../images/market/game_icons.png)no-repeat;
+                              background: url(../images/market/game_icons.png)
+                                no-repeat;
                               background-size: 810%;
                               width: 18px;
                               height: 15px;
@@ -1224,22 +1169,16 @@ main {
                               position: relative;
                               vertical-align: bottom;
                               &.icon_game {
-    
                                 background-position: -55px 0;
                                 &.yet.yet.yet {
-
                                   background-position: -73px 0;
                                 }
-                               
                               }
                               &.icon_live {
-       
                                 background-position: -92px 0;
                                 &.yet.yet.yet {
-
                                   background-position: -109x 0;
                                 }
-        
                               }
                             }
                           }
@@ -1247,7 +1186,7 @@ main {
                       }
                       &.num_group {
                         width: 60%;
-                       justify-content: flex-end;
+                        justify-content: flex-end;
                         height: 15vh;
                         display: flex;
                         span {
@@ -1333,12 +1272,12 @@ main {
 
 footer {
   ul {
-    &.market{
+    &.market {
       li {
-        span{
-            background: url(../images/footer_icons_market.png) no-repeat;
-            background-size: cover;
-            background-position: center center;
+        span {
+          background: url(../images/footer_icons_market.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
         }
         &.teach {
           span {
@@ -1367,7 +1306,6 @@ footer {
         }
       }
     }
-   
   }
 }
 aside {
@@ -1807,7 +1745,7 @@ aside {
             //   top: calc(50% + 2px);
             //   transform: translateY(-50%);
             // }
-            p{
+            p {
               display: inline-block;
               line-height: 1;
               vertical-align: text-bottom;
@@ -2112,10 +2050,10 @@ aside {
       }
     }
   }
-  &.now_bet_empty{
+  &.now_bet_empty {
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     z-index: 500;
     display: inline-block;
     position: fixed;
@@ -2126,34 +2064,33 @@ aside {
       pointer-events: all;
       opacity: 1;
     }
-    .wrap{
+    .wrap {
       position: absolute;
       transform: translateY(-50%);
       top: 50%;
-      h1{
+      h1 {
         color: white;
         font-weight: normal;
         font-size: 18px;
         display: inline-block;
       }
-      .box{
+      .box {
         background: #f7f7f7;
         display: inline-block;
         padding: 40px 20px 40px 20px;
         border-radius: 8px;
-        .empty_icon{
-          background: url(../images/market/empty_bet.png)no-repeat;
+        .empty_icon {
+          background: url(../images/market/empty_bet.png) no-repeat;
           background-size: 100%;
           background-position: center;
           width: 260px;
           height: 230px;
         }
-        p{
+        p {
           color: #838ba0;
           margin: 40px 0 0 0;
         }
       }
     }
   }
-  
 }

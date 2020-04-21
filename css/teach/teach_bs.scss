@@ -18,41 +18,37 @@ aside {
               color: #4d515d;
               div {
                 display: inline-block;
-                &.icon_1 {
-                  background: url(../images/teach/c1.png) no-repeat;
-                  background-size: 100%;
-                  background-position: center;
-                  width: 15px;
-                  height: 20px;
-                  margin: 0 5px 0 5px;
-                }
-                &.icon_2 {
-                  background: url(../images/teach/c2.png) no-repeat;
-                  background-size: 100%;
-                  background-position: center;
-                  width: 15px;
-                  height: 15px;
-                  margin: 0 5px 0 5px;
-                }
-                &.icon_3 {
-                  background: url(../images/teach/c3.png) no-repeat;
-                  background-size: 100%;
-                  background-position: center;
-                  width: 15px;
-                  height: 15px;
-                  margin: 0 5px 0 5px;
-                }
-                &.icon_4 {
-                  background: url(../images/teach/c4.png) no-repeat;
-                  background-size: 100%;
-                  background-position: center;
-                  width: 15px;
-                  height: 15px;
-                  margin: 0 5px 0 5px;
-                }
+
                 &.blue {
                   color: #4d61c6;
                   font-size: 20px;
+                }
+              }
+              i{
+                background: url(../images/teach/cs.png) no-repeat;
+                display: inline-block;
+                background-size: 400%;
+                width: 15px;
+                height: 15px;
+                &.icon_1 {    
+                  background-position: 0 0;
+                  margin: 0 5px 0 5px;
+                 
+                }
+                &.icon_2 {
+                  background-position: -15px 0;
+                 
+                  margin: 0 5px 0 5px;
+                }
+                &.icon_3 {
+                  background-position: -30px 0;
+                
+                  margin: 0 5px 0 5px;
+                }
+                &.icon_4 {
+                  background-position: -45x 0;
+                 
+                  margin: 0 5px 0 5px;
                 }
               }
               span {
@@ -221,9 +217,9 @@ aside {
                   display: block;
                 }
                 .icon {
-                  background: url(../images/teach/fail.png) no-repeat;
-                  background-size: 100%;
-                  background-position: center;
+                  background: url(../images/teach/results.png) no-repeat;
+                  background-size: 200%;
+                  background-position: -20px 0;
                   width: 20px;
                   height: 20px;
                   line-height: 1;
@@ -238,9 +234,9 @@ aside {
                   display: block;
                 }
                 .icon {
-                  background: url(../images/teach/success.png) no-repeat;
-                  background-size: 100%;
-                  background-position: center;
+                  background: url(../images/teach/results.png) no-repeat;
+                  background-size: 200%;
+                  background-position: 0 0;
                   width: 20px;
                   height: 20px;
                   line-height: 1;

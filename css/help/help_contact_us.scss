@@ -1,20 +1,20 @@
 aside {
   &.help_contact_us {
     padding: calc(5vh + 10px) 0 100px 0;
-      width: 100vw;
-      height: calc(100vh - 5vh - 10px);
-      background: #f7f7f7;
-      z-index: 0;
-      display: inline-block;
-      position: fixed;
-      overflow-y:scroll;
+    width: 100vw;
+    height: calc(100vh - 5vh - 10px);
+    background: #f7f7f7;
+    z-index: 0;
+    display: inline-block;
+    position: fixed;
+    overflow-y: scroll;
     ul {
       &.contact_us {
         background: #fff;
         padding: 10px 4vw 0px 4vw;
         margin: 10px 0 0 0;
-        &:first-child{
-            margin: 0 0 0 0;
+        &:first-child {
+          margin: 0 0 0 0;
         }
         h1 {
           color: #4d515d;
@@ -40,39 +40,29 @@ aside {
           border-bottom: 1px solid #e0e3f3;
           padding: 20px 0 20px 0;
           position: relative;
-            &:last-child{
-                border-bottom: none;
-            }
+          &:last-child {
+            border-bottom: none;
+          }
           .wrap {
             padding: 0px 7vw;
             border-right: 1px solid #e0e3f3;
+            div {
+              background: url(../images/help/contact_us_icons.png) no-repeat;
+              background-size: 400%;
+              width: 35px;
+              height: 38px;
+            }
             .icon_mail {
-              background: url(../images/help/mail_icon.png) no-repeat;
-              background-size: 100%;
-              background-position: center;
-              width: 35px;
-              height: 26px;
+              background-position: -70px 0;
             }
-            .icon_qq{
-                background: url(../images/help/qq_icon.png) no-repeat;
-              background-size: 100%;
-              background-position: center;
-              width: 35px;
-              height: 38px;
+            .icon_qq {
+              background-position: 0 0;
             }
-            .icon_skype{
-                background: url(../images/help/skype_icon.png) no-repeat;
-              background-size: 100%;
-              background-position: center;
-              width: 35px;
-              height: 38px;
+            .icon_skype {
+              background-position: -105px 0;
             }
-            .icon_s{
-                background: url(../images/help/s_icon.png) no-repeat;
-              background-size: 100%;
-              background-position: center;
-              width: 35px;
-              height: 38px;
+            .icon_s {
+              background-position: -35px 0;
             }
           }
           .mid_wrap {

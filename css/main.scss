@@ -1014,40 +1014,30 @@ aside {
               span {
                 &.icon {
                   display: inline-block;
-                  background: url(../images/hot_window/c1.png) no-repeat;
-                  background-size: cover;
-                  background-position: center center;
-                  width: 39px;
+                  background: url(../images/hot_window/cs.png) no-repeat;
+                  background-size: 600%;
+                  background-position: 0 0;
+                  width: 28px;
                   height: 31px;
                   &.c2 {
-                    background: url(../images/hot_window/c2.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center;
-                    width: 28px;
+
+                    background-position: -28px 0;
                   }
                   &.c3 {
-                    background: url(../images/hot_window/c3.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center;
-                    width: 30px;
+            
+                    background-position: -56px 0;
                   }
                   &.c4 {
-                    background: url(../images/hot_window/c4.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center;
-                    width: 28px;
+               
+                    background-position: -84px;
                   }
                   &.c5 {
-                    background: url(../images/hot_window/c5.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center;
-                    width: 28px;
+                  
+                    background-position: -112px 0;
                   }
                   &.c6 {
-                    background: url(../images/hot_window/c6.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center;
-                    width: 28px;
+                    
+                    background-position: -140px 0;
                   }
                 }
               }

@@ -132,39 +132,29 @@ aside {
             .icon_wrap {
               text-align: center;
               margin: 0 0 8px 0;
+            
+            div{
+              background: url(./../images/my_about/ofs.png) no-repeat;
+              background-size: 700%;
+              width: 33px;
+              height: 33px;
+              background-position: 0 0;
+              display: inline-block;
+              vertical-align: middle;
             }
             .da1 {
-              background: url(./../images/my_about/da1.png) no-repeat;
-              width: 33px;
-              height: 33px;
-              background-size: 100%;
-              vertical-align: middle;
-              display: inline-block;
+              background-position: 0 0;
             }
             .da2 {
-              background: url(./../images/my_about/da2.png) no-repeat;
-              width: 19px;
-              height: 33px;
-              background-size: 100%;
-              vertical-align: middle;
-              display: inline-block;
+              background-position: -33px 0;
             }
             .da3 {
-              background: url(./../images/my_about/da3.png) no-repeat;
-              width: 33px;
-              height: 33px;
-              background-size: 100%;
-              vertical-align: middle;
-              display: inline-block;
+              background-position: -66px 0;
             }
             .da4 {
-              background: url(./../images/my_about/da4.png) no-repeat;
-              width: 33px;
-              height: 33px;
-              background-size: 100%;
-              vertical-align: middle;
-              display: inline-block;
+              background-position: -99px 0;
             }
+          }
           }
         }
         //最後一排
@@ -179,31 +169,25 @@ aside {
             line-height: 1;
             .icon_wrap{
                 margin: 0 0 8px 0;
-            }
+                div{
+                  background: url(./../images/my_about/ofs.png) no-repeat;
+                  background-size: 700%;
+                  width: 33px;
+                  height: 33px;
+                  background-position: 0 0;
+                  display: inline-block;
+                  vertical-align: middle;
+                }
             .da5 {
-              background: url(./../images/my_about/da5.png) no-repeat;
-              width: 24px;
-              height: 33px;
-              background-size: 100%;
-              vertical-align: middle;
-              display: inline-block;
+              background-position: -132px 0;
             }
             .da6 {
-              background: url(./../images/my_about/da6.png) no-repeat;
-              width: 19px;
-              height: 33px;
-              background-size: 100%;
-              vertical-align: middle;
-              display: inline-block;
+              background-position: -165px 0;
             }
             .da7 {
-                background: url(./../images/my_about/da7.png) no-repeat;
-                width: 33px;
-                height: 33px;
-                background-size: 100%;
-                vertical-align: middle;
-                display: inline-block;
+              background-position: -198px 0;
               }
+            }
           }
         }
       }
