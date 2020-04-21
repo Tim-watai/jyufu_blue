@@ -1765,6 +1765,7 @@ aside.set_window {
 aside.search_window {
   width: 100vw;
   height: 100vh;
+  top: 0;
   background: #fff;
   z-index: 500;
   display: inline-block;
@@ -1950,43 +1951,23 @@ aside.search_window {
       aside.search_window div.content div.group ul li:last-child {
         border-bottom: none; }
       aside.search_window div.content div.group ul li span {
-        display: inline-block; }
+        display: inline-block;
+        background: url(../images/market/search_game_icons.png) no-repeat;
+        background-size: 300%;
+        width: 6vw;
+        height: 6vw;
+        position: absolute;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        left: 3vw; }
         aside.search_window div.content div.group ul li span.local_game_1 {
-          background: url(../images/icon/local_games_1.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          width: 6vw;
-          height: 6vw;
-          position: absolute;
-          -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-          top: 50%;
-          left: 3vw; }
+          background-position: 0 0; }
         aside.search_window div.content div.group ul li span.local_game_2 {
-          background: url(../images/icon/local_games_2.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          width: 6vw;
-          height: 6vw;
-          position: absolute;
-          -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-          top: 50%;
-          left: 3vw; }
+          background-position: -6vw 0; }
         aside.search_window div.content div.group ul li span.local_game_3 {
-          background: url(../images/icon/local_games_3.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          width: 6vw;
-          height: 6vw;
-          position: absolute;
-          -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-          top: 50%;
-          left: 3vw; }
+          background-position: -12vw 0; }
       aside.search_window div.content div.group ul li div.point_area {
         display: inline-block;
         float: right; }
@@ -1998,7 +1979,8 @@ aside.search_window {
           height: 3.5vw;
           margin: 0 0 0 2vw;
           position: relative;
-          vertical-align: middle; }
+          vertical-align: middle;
+          background: none; }
           aside.search_window div.content div.group ul li div.point_area span.point:active:before, aside.search_window div.content div.group ul li div.point_area span.point.active:before, aside.search_window div.content div.group ul li div.point_area span.point:hover:before {
             content: "";
             position: absolute;

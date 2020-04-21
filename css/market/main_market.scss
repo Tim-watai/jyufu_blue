@@ -1758,6 +1758,7 @@ aside {
   &.search_window {
     width: 100vw;
     height: 100vh;
+    top: 0;
     background: #fff;
     z-index: 500;
     display: inline-block;
@@ -1962,39 +1963,23 @@ aside {
                   border-bottom: none;
                 }
                 span {
-                  display: inline-block;
-                  &.local_game_1 {
-                    background: url(../images/icon/local_games_1.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center;
+                    display: inline-block;
+                    background: url(../images/market/search_game_icons.png) no-repeat;
+                    background-size: 300%;
                     width: 6vw;
                     height: 6vw;
                     position: absolute;
                     transform: translateY(-50%);
                     top: 50%;
                     left: 3vw;
+                  &.local_game_1 {
+                    background-position: 0 0;
                   }
                   &.local_game_2 {
-                    background: url(../images/icon/local_games_2.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center;
-                    width: 6vw;
-                    height: 6vw;
-                    position: absolute;
-                    transform: translateY(-50%);
-                    top: 50%;
-                    left: 3vw;
+                    background-position: -6vw 0;
                   }
                   &.local_game_3 {
-                    background: url(../images/icon/local_games_3.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center;
-                    width: 6vw;
-                    height: 6vw;
-                    position: absolute;
-                    transform: translateY(-50%);
-                    top: 50%;
-                    left: 3vw;
+                    background-position: -12vw 0;
                   }
                 }
                 div {
@@ -2011,6 +1996,7 @@ aside {
                         margin: 0 0 0 2vw;
                         position: relative;
                         vertical-align: middle;
+                        background: none;
                         &:active,
                         &.active,
                         &:hover {
