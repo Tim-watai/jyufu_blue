@@ -3476,7 +3476,7 @@ aside.my_windows {
       position: relative;
       width: 20vw;
       height: 20vw;
-      background: url(../images/icon/avatar.png) no-repeat;
+      background: url(../images/my/avatar.png) no-repeat;
       background-position: center center;
       background-size: cover;
       vertical-align: top; }
@@ -3490,7 +3490,7 @@ aside.my_windows {
         font-size: 5.5vw;
         color: #4d515d; }
         aside.my_windows div.hellocard div.player_data p.name span.vip {
-          background: url(../images/icon/vip.png) no-repeat;
+          background: url(../images/my/vip.png) no-repeat;
           background-size: cover;
           background-position: center center;
           width: 13vw;
@@ -3522,7 +3522,7 @@ aside.my_windows {
     aside.my_windows div.banner div.p1 {
       width: 94vw;
       height: 18vw;
-      background: url(../images/icon/my_banner.png) no-repeat;
+      background: url(../images/my/my_banner.png) no-repeat;
       background-position: center center;
       background-size: cover;
       border-radius: 8px;
@@ -3760,7 +3760,7 @@ aside.my_data_edit {
           -ms-flex-pack: justify;
           justify-content: space-between; }
         aside.my_data_edit ul li.title .avatar {
-          background: url(../images/icon/avatar.png) no-repeat;
+          background: url(../images/my/avatar.png) no-repeat;
           background-size: 100%;
           background-position: center;
           position: relative;
@@ -3773,7 +3773,7 @@ aside.my_data_edit {
             bottom: 0;
             width: 20px;
             height: 20px;
-            background: url(../images/icon/avatar_edit.png) no-repeat;
+            background: url(../images/my/avatar_edit.png) no-repeat;
             background-size: 100%;
             background-position: center; }
         aside.my_data_edit ul li.title p:first-child {
@@ -4582,7 +4582,7 @@ aside.jump_window.my_windwos_transfer_fail .windows {
       -ms-flex-align: center;
       align-items: center; }
       aside.jump_window.my_windwos_transfer_fail .windows div.content .fail_title .fail_icon {
-        background: url(../../images/icon/transfer_fail.png) no-repeat;
+        background: url(./../images/icon/transfer_fail.png) no-repeat;
         background-size: 100%;
         background-position: center;
         width: 30px;
@@ -4937,7 +4937,7 @@ aside.my_windows_mb {
       aside.my_windows_mb div.mb_banner div.banner div.big_gift {
         width: 29vw;
         height: 18vw;
-        background: url(../images/icon/big_gift.png) no-repeat;
+        background: url(../images/my_mb/big_gift.png) no-repeat;
         background-size: 100%;
         background-position: center;
         margin: 0 0 0 2vw; }
@@ -5276,7 +5276,7 @@ aside.my_windows_mb_save {
           position: absolute;
           right: 2px;
           top: 2px;
-          background: url(../images/my_mb_save/pushs.png) no-repeat;
+          background: url(../images/my_mb/pushs.png) no-repeat;
           background-size: cover;
           background-position: 0 0;
           width: 14px;
@@ -5291,7 +5291,7 @@ aside.my_windows_mb_save {
             bottom: 3px;
             width: 15px;
             height: 15px;
-            background: url(../images/my_mb_save/pay_check.png) no-repeat;
+            background: url(../images/my_mb/pay_check.png) no-repeat;
             background-size: 100%; }
           aside.my_windows_mb_save div.content .pay_type .warp:hover span, aside.my_windows_mb_save div.content .pay_type .warp:active span, aside.my_windows_mb_save div.content .pay_type .warp.active span {
             background: url(../images/my_mb_pay_icon_h.png) no-repeat;
@@ -5299,7 +5299,7 @@ aside.my_windows_mb_save {
           aside.my_windows_mb_save div.content .pay_type .warp:hover p, aside.my_windows_mb_save div.content .pay_type .warp:active p, aside.my_windows_mb_save div.content .pay_type .warp.active p {
             color: #fff; }
           aside.my_windows_mb_save div.content .pay_type .warp:hover.push:before, aside.my_windows_mb_save div.content .pay_type .warp:active.push:before, aside.my_windows_mb_save div.content .pay_type .warp.active.push:before {
-            background: url(../images/my_mb_save/pushs.png) no-repeat;
+            background: url(../images/my_mb/pushs.png) no-repeat;
             background-size: cover;
             background-position: -14px 0; }
         aside.my_windows_mb_save div.content .pay_type .warp span {
@@ -5341,13 +5341,13 @@ aside.my_windows_mb_save {
       align-items: center;
       padding: 0 5vw 0 3vw; }
       aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp span {
-        background: url(../images/my_mb_save/wechats.png) no-repeat;
+        background: url(../images/my_mb/wechats.png) no-repeat;
         background-size: 200%;
         background-position: 0 0;
         width: 20px;
         height: 20px; }
       aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:hover span, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:active span, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp.active span {
-        background: url(../images/my_mb_save/wechats.png) no-repeat;
+        background: url(../images/my_mb/wechats.png) no-repeat;
         background-size: 200%;
         background-position: -20px 0; }
       aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:hover p, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp:active p, aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .warp.active p {
@@ -5460,7 +5460,7 @@ aside.my_windows_mb_save {
           bottom: 3px;
           width: 15px;
           height: 15px;
-          background: url(../images/my_mb_save/pay_check.png) no-repeat;
+          background: url(../images/my_mb/pay_check.png) no-repeat;
           background-size: 100%; }
         aside.my_windows_mb_save div .save_type .warp:hover span, aside.my_windows_mb_save div .save_type .warp:active span, aside.my_windows_mb_save div .save_type .warp.active span {
           color: #fff; }
@@ -5538,7 +5538,7 @@ aside.my_windows_mb_save {
             bottom: 3px;
             width: 15px;
             height: 15px;
-            background: url(../images/my_mb_save/pay_check.png) no-repeat;
+            background: url(../images/my_mb/pay_check.png) no-repeat;
             background-size: 100%; }
           aside.my_windows_mb_save div.save_page .save_type .warp:hover span, aside.my_windows_mb_save div.save_page .save_type .warp:active span, aside.my_windows_mb_save div.save_page .save_type .warp.active span {
             color: #fff; }
@@ -5615,7 +5615,7 @@ aside.my_windows_card {
   aside.my_windows_card div.empty {
     text-align: center; }
     aside.my_windows_card div.empty .empty_icon {
-      background: url(../images/icon/card_empty.png) no-repeat;
+      background: url(../images/my_mb/card_empty.png) no-repeat;
       background-size: 100%;
       background-position: center;
       width: 50vw;
@@ -5683,7 +5683,7 @@ aside.my_windows_card {
         text-align: center;
         font-size: 4.5vw; }
       aside.my_windows_card div.have div.card .ic_warp .ic {
-        background: url(../images/icon/ic.png) no-repeat;
+        background: url(../images/my_mb/ic.png) no-repeat;
         background-size: 100%;
         background-position: top;
         width: 30px;
@@ -5809,7 +5809,7 @@ aside.my_windows_bet_record {
       -ms-flex-align: center;
       align-items: center; }
       aside.my_windows_bet_record div.content .empty_page .empty_icon {
-        background: url(../images/icon/bet_record_empty.png) no-repeat;
+        background: url(../images/my_bet_record/bet_record_empty.png) no-repeat;
         background-size: 100%;
         background-position: center;
         width: 50vw;
@@ -6019,7 +6019,7 @@ aside.my_windwos_gift_record {
     -ms-flex-align: center;
     align-items: center; }
     aside.my_windwos_gift_record div .empty_page .empty_icon {
-      background: url(../images/icon/gift_record_empty.png) no-repeat;
+      background: url(../images/my_mb/gift_record_empty.png) no-repeat;
       background-size: 100%;
       background-position: center;
       width: 50vw;
@@ -6086,7 +6086,7 @@ aside.my_windows_t_record {
     -ms-flex-align: center;
     align-items: center; }
     aside.my_windows_t_record .empty_page .empty_icon {
-      background: url(../images/icon/empty_t_record.png) no-repeat;
+      background: url(../images/my_mb/empty_t_record.png) no-repeat;
       background-size: 100%;
       background-position: center;
       width: 50vw;
@@ -6196,7 +6196,7 @@ aside.help {
     position: absolute;
     top: 60px; }
     aside.help .hellocard .avater {
-      background: url(../images/icon/avatar.png) no-repeat;
+      background: url(../images/my/avatar.png) no-repeat;
       background-size: 100%;
       background-position: center;
       width: 50px;
@@ -7339,9 +7339,9 @@ main {
           display: inline-block;
           width: 19px;
           height: 2vh;
-          background: url(../images/icon/horn_icon.png) no-repeat;
-          background-size: cover;
-          background-position: center right;
+          background: url(../images/index/horn_icon.png) no-repeat;
+          background-size: 100%;
+          background-position: 0 0;
           margin-right: 9px; }
         main section ul.hot_area li:first-child.marquee div {
           width: calc(100% - 22px);
@@ -7381,7 +7381,7 @@ main {
           display: inline-block;
           width: 14px;
           height: 16px;
-          background: url(../images/icon/hot_icon.png) no-repeat;
+          background: url(../images/index/hot_icon.png) no-repeat;
           background-size: cover;
           background-position: center center; }
         main section ul.hot_area li:last-child.hot_btn p {
@@ -7408,7 +7408,7 @@ main {
       font-family: "my_font";
       font-size: 2.1vh; }
       main section ul.profile li.u_data p.u_name span.vip {
-        background: url(../images/icon/vip.png) no-repeat;
+        background: url(../images/my/vip.png) no-repeat;
         background-size: cover;
         background-position: center center;
         width: 13vw;
@@ -7471,7 +7471,7 @@ main {
     width: 100%;
     height: 100%;
     margin: 0 auto 10px auto;
-    background: url(../images/icon/banner.png) no-repeat;
+    background: url(../images/index/banner.png) no-repeat;
     background-size: cover;
     background-position: center center;
     border-radius: 8px; }
@@ -7505,9 +7505,9 @@ main {
           display: inline-block;
           width: 19px;
           height: 2vh;
-          background: url(../images/icon/horn_icon.png) no-repeat;
-          background-size: cover;
-          background-position: center right;
+          background: url(../images/index/horn_icon.png) no-repeat;
+          background-size: 100%;
+          background-position: 0 0;
           margin-right: 3px; }
         main article.hot_area ul li:first-child.marquee div {
           width: calc(100% - 22px);
@@ -7547,7 +7547,7 @@ main {
           display: inline-block;
           width: 14px;
           height: 16px;
-          background: url(../images/icon/hot_icon.png) no-repeat;
+          background: url(../images/index/hot_icon.png) no-repeat;
           background-size: cover;
           background-position: center center; }
         main article.hot_area ul li:last-child.hot_btn p {
