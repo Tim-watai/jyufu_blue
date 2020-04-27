@@ -38,7 +38,10 @@ header {
   }
 }
 main {
+   
   &.longin {
+    height: auto;
+    margin-bottom: 0;
     .logo_wrap {
       width: 100%;
       text-align: center;
@@ -205,6 +208,7 @@ main {
       }
       .other_wrap {
         text-align: center;
+        margin: 30px 0 0 0;
         li {
           display: inline-block;
           width: 90px;
@@ -212,13 +216,31 @@ main {
           line-height: 90px;
           border-radius: 100px;
           background: rgba(0, 0, 0, 0.6);
+          &:first-child{
+            margin: 0 30px 0 0;
+          }
+          .wrap{
+            display: inline-block;
+            line-height: 66px;
+            vertical-align: middle;
+          }
           span,p{
-              display: inline-block;
+              display: block;
           }
           p{
               color: #fff;
               font-size: 16px;
               line-height: 16px;
+          }
+          span{
+            background: url(./../images/longin/other_icon.png) no-repeat;
+            background-size: 200%;
+            width: 50px;
+            height: 50px;
+            margin: 0 auto;
+            &.i2{
+                background-position: -50px 0;
+            }
           }
         }
       }
@@ -232,6 +254,7 @@ main {
   top: 0;
   left: 0;
   background: url(./../images/longin/BG.jpg) no-repeat;
-  background-size: 100%;
+  background-size: cover;
   z-index: -1;
+  pointer-events: none;
 }

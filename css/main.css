@@ -237,168 +237,185 @@ header ul.login {
       top: 50%;
       left: 50%; }
 
-main.longin .logo_wrap {
-  width: 100%;
-  text-align: center;
-  padding: 6vh 0 0 0; }
-  main.longin .logo_wrap .logo {
-    width: 119px;
-    height: 45px;
-    background: url(./../images/longin/logo.png) no-repeat;
-    background-size: 100%;
-    display: inline-block; }
-
-main.longin .login_wrap {
-  padding: 0 30px 0;
-  margin: 30px 0 0 0; }
-  main.longin .login_wrap .clear_wrap {
-    overflow: auto;
-    margin: 0 0 10px 0; }
-    main.longin .login_wrap .clear_wrap button.clear {
-      color: #364aba;
-      border-radius: 4px;
-      border: 1px solid #b9bfdc;
-      background: #fff;
-      padding: 5px 10px 5px;
-      font-size: 16px;
-      line-height: 16px;
-      float: right; }
-  main.longin .login_wrap ul.input_wrap {
-    margin: 0 0 10px 0; }
-    main.longin .login_wrap ul.input_wrap li {
-      width: 100%;
-      position: relative; }
-      main.longin .login_wrap ul.input_wrap li:first-child {
-        margin: 0 0 10px 0; }
-      main.longin .login_wrap ul.input_wrap li input {
-        width: 100%;
-        line-height: 30px;
-        position: relative;
-        border: 1px solid #b9bfdc;
-        border-radius: 4px;
-        padding: 5px 0 5px 40px;
-        color: #4d515d;
-        font-size: 16px; }
-        main.longin .login_wrap ul.input_wrap li input::-webkit-input-placeholder {
-          color: #4d515d; }
-        main.longin .login_wrap ul.input_wrap li input:-ms-input-placeholder {
-          color: #4d515d; }
-        main.longin .login_wrap ul.input_wrap li input::-ms-input-placeholder {
-          color: #4d515d; }
-        main.longin .login_wrap ul.input_wrap li input::placeholder {
-          color: #4d515d; }
-      main.longin .login_wrap ul.input_wrap li p,
-      main.longin .login_wrap ul.input_wrap li span {
-        display: inline-block;
-        position: absolute; }
-      main.longin .login_wrap ul.input_wrap li span {
-        width: 13px;
-        height: 13px;
-        background: url(./../images/longin/input_icon.png) no-repeat;
-        background-size: 200%;
-        left: 14px;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%); }
-        main.longin .login_wrap ul.input_wrap li span.i2 {
-          background-position: -13px 0; }
-  main.longin .login_wrap .password_wrap {
-    overflow: auto;
-    line-height: 24px;
-    margin: 0 0 20px 0; }
-    main.longin .login_wrap .password_wrap p {
-      color: #fff;
-      display: inline-block;
-      line-height: 24px; }
-      main.longin .login_wrap .password_wrap p.re {
-        float: left; }
-        main.longin .login_wrap .password_wrap p.re input {
-          display: none; }
-          main.longin .login_wrap .password_wrap p.re input:checked + label:before {
-            content: "";
-            position: absolute;
-            width: 9px;
-            height: 13px;
-            border-style: solid;
-            border-width: 0px 3px 3px 0px;
-            border-color: transparent #000 #000 transparent;
-            top: 20%;
-            left: 55%;
-            -webkit-transform: translate(-50%, -50%) rotate(45deg);
-            -ms-transform: translate(-50%, -50%) rotate(45deg);
-            transform: translate(-50%, -50%) rotate(45deg); }
-        main.longin .login_wrap .password_wrap p.re label {
-          width: 16px;
-          height: 16px;
-          background: #fff;
-          border: 1px solid #b9bfdc;
-          border-radius: 4px;
-          display: inline-block;
-          line-height: 24px;
-          vertical-align: text-bottom;
-          position: relative; }
-      main.longin .login_wrap .password_wrap p.forget {
-        float: right; }
-  main.longin .login_wrap .btn_wrap button {
+main.longin {
+  height: auto;
+  margin-bottom: 0; }
+  main.longin .logo_wrap {
     width: 100%;
     text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    border-radius: 8px;
-    border: none;
-    line-height: 42px;
-    padding: 3px 0 0 0;
-    position: relative;
-    overflow: hidden; }
-    main.longin .login_wrap .btn_wrap button .bar {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 26%;
-      height: 100%;
-      background: -webkit-gradient(linear, left top, right top, from(#6d81ea), to(#4960d5));
-      background: -webkit-linear-gradient(left, #6d81ea 0%, #4960d5 100%);
-      background: -o-linear-gradient(left, #6d81ea 0%, #4960d5 100%);
-      background: linear-gradient(to right, #6d81ea 0%, #4960d5 100%);
-      border-radius: 0 12px 12px 0; }
-      main.longin .login_wrap .btn_wrap button .bar:before {
-        content: "";
-        position: absolute;
-        right: 12px;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%) rotate(90deg);
-        width: 20px;
-        height: 20px;
-        background: url(./../images/icon/arrows_blue.png) no-repeat;
-        background-size: 100%; }
-    main.longin .login_wrap .btn_wrap button:first-child {
-      margin: 0 0 10px; }
-    main.longin .login_wrap .btn_wrap button.blue {
-      background: #5e70cc; }
-    main.longin .login_wrap .btn_wrap button.gold {
-      background: -webkit-gradient(linear, left top, right top, from(#b4865d), to(#e9c4a2));
-      background: -webkit-linear-gradient(left, #b4865d 0%, #e9c4a2 100%);
-      background: -o-linear-gradient(left, #b4865d 0%, #e9c4a2 100%);
-      background: linear-gradient(to right, #b4865d 0%, #e9c4a2 100%); }
-  main.longin .login_wrap .other_wrap {
-    text-align: center; }
-    main.longin .login_wrap .other_wrap li {
-      display: inline-block;
-      width: 90px;
-      height: 90px;
-      line-height: 90px;
-      border-radius: 100px;
-      background: rgba(0, 0, 0, 0.6); }
-      main.longin .login_wrap .other_wrap li span, main.longin .login_wrap .other_wrap li p {
-        display: inline-block; }
-      main.longin .login_wrap .other_wrap li p {
-        color: #fff;
+    padding: 6vh 0 0 0; }
+    main.longin .logo_wrap .logo {
+      width: 119px;
+      height: 45px;
+      background: url(./../images/longin/logo.png) no-repeat;
+      background-size: 100%;
+      display: inline-block; }
+  main.longin .login_wrap {
+    padding: 0 30px 0;
+    margin: 30px 0 0 0; }
+    main.longin .login_wrap .clear_wrap {
+      overflow: auto;
+      margin: 0 0 10px 0; }
+      main.longin .login_wrap .clear_wrap button.clear {
+        color: #364aba;
+        border-radius: 4px;
+        border: 1px solid #b9bfdc;
+        background: #fff;
+        padding: 5px 10px 5px;
         font-size: 16px;
-        line-height: 16px; }
+        line-height: 16px;
+        float: right; }
+    main.longin .login_wrap ul.input_wrap {
+      margin: 0 0 10px 0; }
+      main.longin .login_wrap ul.input_wrap li {
+        width: 100%;
+        position: relative; }
+        main.longin .login_wrap ul.input_wrap li:first-child {
+          margin: 0 0 10px 0; }
+        main.longin .login_wrap ul.input_wrap li input {
+          width: 100%;
+          line-height: 30px;
+          position: relative;
+          border: 1px solid #b9bfdc;
+          border-radius: 4px;
+          padding: 5px 0 5px 40px;
+          color: #4d515d;
+          font-size: 16px; }
+          main.longin .login_wrap ul.input_wrap li input::-webkit-input-placeholder {
+            color: #4d515d; }
+          main.longin .login_wrap ul.input_wrap li input:-ms-input-placeholder {
+            color: #4d515d; }
+          main.longin .login_wrap ul.input_wrap li input::-ms-input-placeholder {
+            color: #4d515d; }
+          main.longin .login_wrap ul.input_wrap li input::placeholder {
+            color: #4d515d; }
+        main.longin .login_wrap ul.input_wrap li p,
+        main.longin .login_wrap ul.input_wrap li span {
+          display: inline-block;
+          position: absolute; }
+        main.longin .login_wrap ul.input_wrap li span {
+          width: 13px;
+          height: 13px;
+          background: url(./../images/longin/input_icon.png) no-repeat;
+          background-size: 200%;
+          left: 14px;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
+          main.longin .login_wrap ul.input_wrap li span.i2 {
+            background-position: -13px 0; }
+    main.longin .login_wrap .password_wrap {
+      overflow: auto;
+      line-height: 24px;
+      margin: 0 0 20px 0; }
+      main.longin .login_wrap .password_wrap p {
+        color: #fff;
+        display: inline-block;
+        line-height: 24px; }
+        main.longin .login_wrap .password_wrap p.re {
+          float: left; }
+          main.longin .login_wrap .password_wrap p.re input {
+            display: none; }
+            main.longin .login_wrap .password_wrap p.re input:checked + label:before {
+              content: "";
+              position: absolute;
+              width: 9px;
+              height: 13px;
+              border-style: solid;
+              border-width: 0px 3px 3px 0px;
+              border-color: transparent #000 #000 transparent;
+              top: 20%;
+              left: 55%;
+              -webkit-transform: translate(-50%, -50%) rotate(45deg);
+              -ms-transform: translate(-50%, -50%) rotate(45deg);
+              transform: translate(-50%, -50%) rotate(45deg); }
+          main.longin .login_wrap .password_wrap p.re label {
+            width: 16px;
+            height: 16px;
+            background: #fff;
+            border: 1px solid #b9bfdc;
+            border-radius: 4px;
+            display: inline-block;
+            line-height: 24px;
+            vertical-align: text-bottom;
+            position: relative; }
+        main.longin .login_wrap .password_wrap p.forget {
+          float: right; }
+    main.longin .login_wrap .btn_wrap button {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      border-radius: 8px;
+      border: none;
+      line-height: 42px;
+      padding: 3px 0 0 0;
+      position: relative;
+      overflow: hidden; }
+      main.longin .login_wrap .btn_wrap button .bar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 26%;
+        height: 100%;
+        background: -webkit-gradient(linear, left top, right top, from(#6d81ea), to(#4960d5));
+        background: -webkit-linear-gradient(left, #6d81ea 0%, #4960d5 100%);
+        background: -o-linear-gradient(left, #6d81ea 0%, #4960d5 100%);
+        background: linear-gradient(to right, #6d81ea 0%, #4960d5 100%);
+        border-radius: 0 12px 12px 0; }
+        main.longin .login_wrap .btn_wrap button .bar:before {
+          content: "";
+          position: absolute;
+          right: 12px;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%) rotate(90deg);
+          width: 20px;
+          height: 20px;
+          background: url(./../images/icon/arrows_blue.png) no-repeat;
+          background-size: 100%; }
+      main.longin .login_wrap .btn_wrap button:first-child {
+        margin: 0 0 10px; }
+      main.longin .login_wrap .btn_wrap button.blue {
+        background: #5e70cc; }
+      main.longin .login_wrap .btn_wrap button.gold {
+        background: -webkit-gradient(linear, left top, right top, from(#b4865d), to(#e9c4a2));
+        background: -webkit-linear-gradient(left, #b4865d 0%, #e9c4a2 100%);
+        background: -o-linear-gradient(left, #b4865d 0%, #e9c4a2 100%);
+        background: linear-gradient(to right, #b4865d 0%, #e9c4a2 100%); }
+    main.longin .login_wrap .other_wrap {
+      text-align: center;
+      margin: 30px 0 0 0; }
+      main.longin .login_wrap .other_wrap li {
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        border-radius: 100px;
+        background: rgba(0, 0, 0, 0.6); }
+        main.longin .login_wrap .other_wrap li:first-child {
+          margin: 0 30px 0 0; }
+        main.longin .login_wrap .other_wrap li .wrap {
+          display: inline-block;
+          line-height: 66px;
+          vertical-align: middle; }
+        main.longin .login_wrap .other_wrap li span, main.longin .login_wrap .other_wrap li p {
+          display: block; }
+        main.longin .login_wrap .other_wrap li p {
+          color: #fff;
+          font-size: 16px;
+          line-height: 16px; }
+        main.longin .login_wrap .other_wrap li span {
+          background: url(./../images/longin/other_icon.png) no-repeat;
+          background-size: 200%;
+          width: 50px;
+          height: 50px;
+          margin: 0 auto; }
+          main.longin .login_wrap .other_wrap li span.i2 {
+            background-position: -50px 0; }
 
 .BG {
   width: 100vw;
@@ -407,8 +424,9 @@ main.longin .login_wrap {
   top: 0;
   left: 0;
   background: url(./../images/longin/BG.jpg) no-repeat;
-  background-size: 100%;
-  z-index: -1; }
+  background-size: cover;
+  z-index: -1;
+  pointer-events: none; }
 
 section.message_type {
   padding: 6vh 0 0 0;
