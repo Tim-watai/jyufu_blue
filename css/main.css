@@ -203,6 +203,20 @@ button {
     transform: translateX(-100%);
     left: 0%; } }
 
+header ul.login {
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+  header ul.login li.title {
+    color: #fff; }
+
+.BG {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
 section.message_type {
   padding: 6vh 0 0 0;
   background: #fff;
@@ -7362,7 +7376,7 @@ main {
           width: 19px;
           height: 2vh;
           background: url(../images/index/horn_icon.png) no-repeat;
-          background-size: 100%;
+          background-size: contain;
           background-position: 0 0;
           margin-right: 9px; }
         main section ul.hot_area li:first-child.marquee div {
@@ -7424,35 +7438,66 @@ main {
     height: 7vh;
     margin: 0 auto;
     margin-bottom: 10px; }
-    main section ul.profile li.u_data p.u_name {
-      color: #838ba0;
-      font-weight: lighter;
-      font-family: "my_font";
-      font-size: 2.1vh; }
-      main section ul.profile li.u_data p.u_name span.vip {
-        background: url(../images/my/vip.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 13vw;
-        height: 4vw;
-        display: inline-block;
-        border-radius: 3px;
-        border-radius: 3px;
-        margin-left: 5px; }
-    main section ul.profile li.u_data p.u_money {
-      color: #1b255c;
-      font-family: "my_font";
-      font-size: 3vh;
-      font-weight: bold; }
-      main section ul.profile li.u_data p.u_money span.question {
-        background: url(../images/head_icons.png) no-repeat;
-        background-size: 582%;
-        background-position: -70px 0;
-        width: 18px;
-        height: 18px;
-        display: inline-block;
-        line-height: 17px;
-        margin-left: 5px; }
+    main section ul.profile li.u_data {
+      display: none; }
+      main section ul.profile li.u_data.yet_sign {
+        display: block; }
+        main section ul.profile li.u_data.yet_sign p.u_name {
+          font-size: 1vh;
+          line-height: 1vh;
+          margin: 0 0 1vh 0; }
+        main section ul.profile li.u_data.yet_sign .wrap {
+          height: 5vh; }
+          main section ul.profile li.u_data.yet_sign .wrap button {
+            height: 100%;
+            width: 15vw;
+            border: 1px solid #000;
+            border-radius: 4px;
+            font-size: 2.1vh;
+            font-weight: bold;
+            position: relative; }
+            main section ul.profile li.u_data.yet_sign .wrap button.sign_up {
+              background: -webkit-gradient(linear, left top, right top, from(#b5875e), to(#dfb995));
+              background: -webkit-linear-gradient(left, #b5875e 0%, #dfb995 100%);
+              background: -o-linear-gradient(left, #b5875e 0%, #dfb995 100%);
+              background: linear-gradient(to right, #b5875e 0%, #dfb995 100%);
+              color: #fff;
+              border: none;
+              font-weight: bold;
+              margin: 0 1.5vw 0 0; }
+            main section ul.profile li.u_data.yet_sign .wrap button.sign_in {
+              color: #2d43b6;
+              border: 1px solid #b9bfdc;
+              background: transparent; }
+      main section ul.profile li.u_data p.u_name {
+        color: #838ba0;
+        font-weight: lighter;
+        font-family: "my_font";
+        font-size: 2.1vh; }
+        main section ul.profile li.u_data p.u_name span.vip {
+          background: url(../images/my/vip.png) no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 13vw;
+          height: 4vw;
+          display: inline-block;
+          border-radius: 3px;
+          border-radius: 3px;
+          margin-left: 5px; }
+      main section ul.profile li.u_data p.u_money {
+        color: #1b255c;
+        font-family: "my_font";
+        font-size: 3vh;
+        font-weight: bold; }
+        main section ul.profile li.u_data p.u_money span.question {
+          background: url(../images/head_icons.png) no-repeat;
+          background-size: 582%;
+          background-position: -70px 0;
+          width: 18px;
+          height: 18px;
+          display: inline-block;
+          line-height: 17px;
+          margin-left: 5px; }
     main section ul.profile li.u_option {
       display: -webkit-box;
       display: -ms-flexbox;

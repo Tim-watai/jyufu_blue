@@ -2,6 +2,15 @@ $(document).ready(function() {
   console.log("index ready");
 
  
+//切換_註冊登入
+//登入
+// $('.sign_in').click(function(){
+//   console.log('sign_in click now')
+  
+//   $('ul.profile li.u_data').css('display','block');
+//   $('ul.profile li.u_data.yet_sign').css('display','none');
+// });
+
   //切換_熱門賽事
   $("li.hot_btn , article.bg span.close").click(function() {
     if ($("aside.hot_windows").hasClass("active") != true) {
