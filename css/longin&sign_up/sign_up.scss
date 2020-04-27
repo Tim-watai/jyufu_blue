@@ -1,0 +1,57 @@
+
+header{
+    ul{
+        &.login{
+            li{
+                &.sign_up_back{
+                    width: 17px;
+                    height: 17px;
+                    float: left;
+                    position: relative;
+                    background: url(./../images/icon/arrow_w.png) no-repeat;
+                    background-size: 100%;
+                    transform: translateY(-50%) rotate(90deg);
+                }
+            }
+        }
+    }
+}
+
+main{
+    &.sign_up{
+        .logo_wrap{
+            padding: 1vh 0 0 0;
+        }
+    }
+    ul{
+        &.sign_up_wrap{
+            background: #fff;
+            overflow: hidden;
+            border-radius: 24px;
+            margin: 20px 15px 0 15px;
+            border: 1px solid #fff;
+            li{
+                overflow: auto;
+            
+                &.title{
+                    text-align: center;
+                    background: linear-gradient(to right, #9ba7e3 0%,#485cc4 100%);
+                    color: #fff;
+                    padding: 4px 0 0 0;
+                    line-height: 36px;
+                }
+                .wrap{
+                    padding: 16px 16px;
+                    // margin: 0 16px;
+                    border-bottom: 1px solid #e0e3f3;
+                    p{
+                        display: inline-block;
+                    }
+                    input{
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+}

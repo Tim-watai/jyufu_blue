@@ -208,7 +208,8 @@ header ul.login {
   -webkit-box-shadow: none;
   box-shadow: none; }
   header ul.login li.title {
-    color: #fff; }
+    color: #fff;
+    font-size: 18px; }
   header ul.login li.close {
     width: 17px;
     height: 17px;
@@ -427,6 +428,45 @@ main.longin {
   background-size: cover;
   z-index: -1;
   pointer-events: none; }
+
+header ul.login li.sign_up_back {
+  width: 17px;
+  height: 17px;
+  float: left;
+  position: relative;
+  background: url(./../images/icon/arrow_w.png) no-repeat;
+  background-size: 100%;
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  -ms-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg); }
+
+main.sign_up .logo_wrap {
+  padding: 1vh 0 0 0; }
+
+main ul.sign_up_wrap {
+  background: #fff;
+  overflow: hidden;
+  border-radius: 24px;
+  margin: 20px 15px 0 15px;
+  border: 1px solid #fff; }
+  main ul.sign_up_wrap li {
+    overflow: auto; }
+    main ul.sign_up_wrap li.title {
+      text-align: center;
+      background: -webkit-gradient(linear, left top, right top, from(#9ba7e3), to(#485cc4));
+      background: -webkit-linear-gradient(left, #9ba7e3 0%, #485cc4 100%);
+      background: -o-linear-gradient(left, #9ba7e3 0%, #485cc4 100%);
+      background: linear-gradient(to right, #9ba7e3 0%, #485cc4 100%);
+      color: #fff;
+      padding: 4px 0 0 0;
+      line-height: 36px; }
+    main ul.sign_up_wrap li .wrap {
+      padding: 16px 16px;
+      border-bottom: 1px solid #e0e3f3; }
+      main ul.sign_up_wrap li .wrap p {
+        display: inline-block; }
+      main ul.sign_up_wrap li .wrap input {
+        float: right; }
 
 section.message_type {
   padding: 6vh 0 0 0;
