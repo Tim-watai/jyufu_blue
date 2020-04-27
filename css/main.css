@@ -248,6 +248,68 @@ main.longin .logo_wrap {
     background-size: 100%;
     display: inline-block; }
 
+main.longin .login_wrap {
+  padding: 0 30px 0; }
+  main.longin .login_wrap .clear_wrap {
+    overflow: auto;
+    margin: 0 0 10px 0; }
+    main.longin .login_wrap .clear_wrap button.clear {
+      color: #364aba;
+      border-radius: 4px;
+      border: 1px solid #b9bfdc;
+      background: #fff;
+      padding: 5px 10px 5px;
+      font-size: 16px;
+      line-height: 16px;
+      float: right; }
+  main.longin .login_wrap ul.input_wrap {
+    margin: 0 0 10px 0; }
+    main.longin .login_wrap ul.input_wrap li {
+      width: 100%;
+      position: relative; }
+      main.longin .login_wrap ul.input_wrap li:first-child {
+        margin: 0 0 10px 0; }
+      main.longin .login_wrap ul.input_wrap li input {
+        width: 100%;
+        line-height: 30px;
+        position: relative;
+        border: 1px solid #b9bfdc;
+        border-radius: 4px;
+        padding: 5px 0 5px 40px;
+        color: #4d515d;
+        font-size: 16px; }
+        main.longin .login_wrap ul.input_wrap li input::-webkit-input-placeholder {
+          color: #4d515d; }
+        main.longin .login_wrap ul.input_wrap li input:-ms-input-placeholder {
+          color: #4d515d; }
+        main.longin .login_wrap ul.input_wrap li input::-ms-input-placeholder {
+          color: #4d515d; }
+        main.longin .login_wrap ul.input_wrap li input::placeholder {
+          color: #4d515d; }
+      main.longin .login_wrap ul.input_wrap li p, main.longin .login_wrap ul.input_wrap li span {
+        display: inline-block;
+        position: absolute; }
+      main.longin .login_wrap ul.input_wrap li span {
+        width: 13px;
+        height: 13px;
+        background: url(./../images/longin/input_icon.png) no-repeat;
+        background-size: 200%;
+        left: 14px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        main.longin .login_wrap ul.input_wrap li span.i2 {
+          background-position: -13px 0; }
+  main.longin .login_wrap .password_wrap {
+    overflow: auto; }
+    main.longin .login_wrap .password_wrap p {
+      display: inline-block; }
+      main.longin .login_wrap .password_wrap p.re {
+        float: left; }
+      main.longin .login_wrap .password_wrap p.forget {
+        float: right; }
+
 .BG {
   width: 100vw;
   height: 100vh;

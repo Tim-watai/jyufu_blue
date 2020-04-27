@@ -51,6 +51,78 @@ main {
         display: inline-block;
       }
     }
+    .login_wrap{
+        padding: 0 30px 0;
+        .clear_wrap{
+            overflow: auto;
+            margin: 0 0 10px 0;
+            button{
+                &.clear{
+                    color: #364aba;
+                    border-radius: 4px;
+                    border: 1px solid #b9bfdc;
+                    background: #fff;
+                    padding: 5px 10px 5px;
+                    font-size: 16px;
+                    line-height: 16px;
+                    float: right;
+                }
+            }
+        }
+        ul{
+            &.input_wrap{
+                margin: 0 0 10px 0;
+                li{
+                    width: 100%;
+                    position: relative;
+                    &:first-child{
+                        margin: 0 0 10px 0;
+                    }
+                    input{
+                        width: 100%;
+                        line-height: 30px;
+                        position: relative;
+                        border: 1px solid #b9bfdc;
+                        border-radius: 4px;
+                        padding: 5px 0 5px 40px;
+                        color: #4d515d;
+                        font-size: 16px;
+                        &::placeholder{
+                            color: #4d515d;
+                        }
+                    }
+                    p,span{
+                        display: inline-block;
+                        position: absolute;
+                    }
+                    span{
+                        width: 13px;
+                        height: 13px;
+                        background: url(./../images/longin/input_icon.png) no-repeat;
+                        background-size: 200%;
+                        left: 14px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        &.i2{
+                            background-position: -13px 0;
+                        }
+                    }
+                }
+            }
+        }
+        .password_wrap{
+            overflow: auto;
+            p{
+                display: inline-block;
+                &.re{
+                    float: left;
+                }
+                &.forget{
+                    float: right;
+                }
+            }
+        }
+    }
   }
 }
 .BG {
