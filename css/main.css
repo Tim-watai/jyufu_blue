@@ -209,13 +209,54 @@ header ul.login {
   box-shadow: none; }
   header ul.login li.title {
     color: #fff; }
+  header ul.login li.close {
+    width: 17px;
+    height: 17px;
+    float: left;
+    position: relative; }
+    header ul.login li.close:before {
+      content: "";
+      position: absolute;
+      background: #fff;
+      width: 2px;
+      height: 100%;
+      -webkit-transform: translate(-50%, -50%) rotate(45deg);
+      -ms-transform: translate(-50%, -50%) rotate(45deg);
+      transform: translate(-50%, -50%) rotate(45deg);
+      top: 50%;
+      left: 50%; }
+    header ul.login li.close:after {
+      content: "";
+      position: absolute;
+      background: #fff;
+      width: 2px;
+      height: 100%;
+      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+      -ms-transform: translate(-50%, -50%) rotate(-45deg);
+      transform: translate(-50%, -50%) rotate(-45deg);
+      top: 50%;
+      left: 50%; }
+
+main.longin .logo_wrap {
+  width: 100%;
+  text-align: center;
+  padding: 6vh 0 0 0; }
+  main.longin .logo_wrap .logo {
+    width: 119px;
+    height: 45px;
+    background: url(./../images/longin/logo.png) no-repeat;
+    background-size: 100%;
+    display: inline-block; }
 
 .BG {
   width: 100vw;
   height: 100vh;
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  background: url(./../images/longin/BG.jpg) no-repeat;
+  background-size: 100%;
+  z-index: -1; }
 
 section.message_type {
   padding: 6vh 0 0 0;

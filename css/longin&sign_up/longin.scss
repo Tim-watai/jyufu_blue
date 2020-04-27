@@ -1,24 +1,65 @@
-header{
-    ul{
-        &.login{
-            background: transparent;
-            box-shadow: none;
-            li{
-                &.title{
-                    color: #fff;
-                }
-                &.back{
-
-                }
-            }
+header {
+  ul {
+    &.login {
+      background: transparent;
+      box-shadow: none;
+      li {
+        &.title {
+          color: #fff;
         }
+        &.close {
+          width: 17px;
+          height: 17px;
+          float: left;
+          position: relative;
+          &:before {
+            content: "";
+            position: absolute;
+            background: #fff;
+            width: 2px;
+            height: 100%;
+            transform: translate(-50%, -50%) rotate(45deg);
+            top: 50%;
+            left: 50%;
+          }
+          &:after {
+            content: "";
+            position: absolute;
+            background: #fff;
+            width: 2px;
+            height: 100%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            top: 50%;
+            left: 50%;
+          }
+        }
+      }
     }
+  }
 }
-.BG{
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    
+main {
+  &.longin {
+    .logo_wrap {
+        width: 100%;
+        text-align: center;
+        padding: 6vh 0 0 0;
+      .logo {
+        width: 119px;
+        height: 45px;
+        background: url(./../images/longin/logo.png) no-repeat;
+        background-size: 100%;
+        display: inline-block;
+      }
+    }
+  }
+}
+.BG {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./../images/longin/BG.jpg) no-repeat;
+  background-size: 100%;
+  z-index: -1;
 }
