@@ -32,104 +32,104 @@
         <div class="content">
             <h1 class="title">支付方式</h1>
             <div class="pay_type">
-                <div class="warp">
+                <div class="wrap">
                     <span class="i1"></span>
                     <p>網銀支付</p>
                 </div>
-                <div class="warp push">
+                <div class="wrap push">
                     <span class="i2"></span>
                     <p>銀行卡轉帳</p>
                 </div>
-                <div class="warp push">
+                <div class="wrap push">
                     <span class="i3"></span>
                     <p>支付寶轉卡</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span class="i4"></span>
                     <p>微信</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span class="i5"></span>
                     <p>支付寶</p>
                 </div>
-                <div class="warp push">
+                <div class="wrap push">
                     <span class="i6"></span>
                     <p>銀聯掃碼</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span class="i7"></span>
                     <p>代客充值</p>
                 </div>
-                <div class="disabled">
+                <div class="wrap">
+                    <span class="i8"></span>
+                    <p>網關卡</p>
+                </div>
+                <div class="wrap">
+                    <span class="i9"></span>
+                    <p>流水號</p>
                 </div>
             </div>
         </div>
-        <!--網銀支付_選擇銀行-->
-        <div class="choice_bank">
-            <p>選擇銀行</p>
-            <span></span>
-        </div>
-        <!--銀行卡&支付寶_存取人姓名-->
-        <div class="save_name">
-            <div class="box">
-                <p>存取人姓名</p>
-                <input type="text" placeholder="請輸入存款人姓名">
-            </div>
-            <p class="subtitle">為即時到帳，請務必輸入正確的存款人姓名</p>
-        </div>
-        <!--支付寶種類-->
-        <div class="alipay_type">
-            <div class="warp">
-                <p>普通支付寶</p>
-            </div>
-            <div class="warp">
-                <p>極速支付寶</p>
-            </div>
-        </div>
-        <!--微信支付通道-->
+      
+       
+       
+        <!--微信&網關卡支付通道-->
         <div class="save_choice_type" style="display: none;">
             <h1 class="title">選擇支付通道</h1>
             <div class="save_type choice_type">
-                <div class="warp">
+                <div class="wrap">
                     <span></span>
                     <p>0</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span></span>
                     <p>1</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span></span>
                     <p>2</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span></span>
                     <p>3</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span></span>
                     <p>4</p>
                 </div>
 
             </div>
         </div>
-        <!--網銀支付&微信_輸入金額-->
+         <!--銀行卡&支付寶_存取人姓名-->
+         <div class="save_name">
+            <div class="box">
+                <p>存取人姓名</p>
+                <input type="text" placeholder="請輸入存款人姓名">
+            </div>
+            <p class="subtitle">為即時到帳，請務必輸入正確的存款人姓名</p>
+        </div>
+          <!--網銀支付_選擇銀行-->
+          <div class="choice_bank">
+            <p>選擇銀行</p>
+            <span></span>
+        </div>
+        <!--網銀支付&微信&網關卡_輸入金額-->
         <div class="save_page" style="display: none;">
             <h1 class="title">存款金額</h1>
             <div class="save_type">
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>101</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>508</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp other">
+                <div class="wrap other">
                     <span>其他金額</span>
                     <p>(100-500000)</p>
                 </div>
@@ -140,19 +140,19 @@
         <div class="save_page" style='display:none;'>
             <h1 class="title">存款金額</h1>
             <div class="save_type">
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>101</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>508</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp other">
+                <div class="wrap other">
                     <span>其他金額</span>
                     <p>(100-500000)</p>
                 </div>
@@ -160,31 +160,40 @@
             </div>
             <p class="point">當前使用整百存款人數過多，建議調整金額尾數 (例 如：109﹅1005﹅4025不等)</p>
         </div>
+         <!--支付寶種類-->
+         <div class="alipay_type">
+            <div class="wrap">
+                <p>普通支付寶</p>
+            </div>
+            <div class="wrap">
+                <p>極速支付寶</p>
+            </div>
+        </div>
         <!--支付寶_輸入金額_普通-->
         <div class="save_page">
             <h1 class="title">存款金額</h1>
             <div class="save_type">
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>101</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>508</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp other">
+                <div class="wrap other">
                     <span>其他金額</span>
                     <p>(100-500000)</p>
                 </div>
@@ -199,51 +208,51 @@
         <div class="save_page" style = "display: none;">
             <h1 class="title">存款金額</h1>
             <div class="save_type">
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>101</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>508</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
-                <div class="warp">
+                <div class="wrap">
                     <span>NT$</span>
                     <p>1003</p>
                 </div>
