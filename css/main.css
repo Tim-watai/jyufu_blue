@@ -4451,7 +4451,7 @@ aside.my_windows_help_inner {
   padding: calc(5vh + 10px) 0 100px 0;
   width: 100vw;
   height: calc(100vh - 5vh - 10px);
-  background: #f7f7f7;
+  background: #fff;
   z-index: 0;
   display: inline-block;
   position: fixed;
@@ -4467,6 +4467,79 @@ aside.my_windows_help_inner {
     aside.my_windows_help_inner ul.content li.content p {
       color: #4d515d;
       padding: 15px 0 0 0; }
+  aside.my_windows_help_inner ul.question_wrap {
+    padding: 0 20px 0; }
+    aside.my_windows_help_inner ul.question_wrap li {
+      margin: 0 0 24px; }
+      aside.my_windows_help_inner ul.question_wrap li .wrap {
+        display: inline-block;
+        margin: 0 0 4px;
+        line-height: 20px; }
+        aside.my_windows_help_inner ul.question_wrap li .wrap p {
+          display: inline-block; }
+        aside.my_windows_help_inner ul.question_wrap li .wrap .red {
+          display: inline-block;
+          color: #d32542; }
+      aside.my_windows_help_inner ul.question_wrap li span {
+        display: block;
+        width: 300px;
+        margin: 0 auto; }
+        aside.my_windows_help_inner ul.question_wrap li span.q1_stage_1 {
+          background: url(./../images/question/q1_st1.png) no-repeat;
+          background-size: 100%;
+          height: 380px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q1_stage_2 {
+          background: url(./../images/question/q1_st2.png) no-repeat;
+          background-size: 100%;
+          height: 582px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q1_stage_3 {
+          background: url(./../images/question/q1_st3.png) no-repeat;
+          background-size: 100%;
+          height: 160px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q2_stage_1 {
+          background: url(./../images/question/q2_st1.png) no-repeat;
+          background-size: 100%;
+          height: 120px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q2_stage_2 {
+          background: url(./../images/question/q2_st2.png) no-repeat;
+          background-size: 100%;
+          height: 120px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q2_stage_3 {
+          background: url(./../images/question/q2_st3.png) no-repeat;
+          background-size: 100%;
+          height: 175px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q2_stage_4 {
+          background: url(./../images/question/q2_st4.png) no-repeat;
+          background-size: 100%;
+          height: 420px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q2_stage_5 {
+          background: url(./../images/question/q2_st5.png) no-repeat;
+          background-size: 100%;
+          height: 402px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q3_stage_1 {
+          background: url(./../images/question/q3_st1.png) no-repeat;
+          background-size: 100%;
+          height: 120px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q3_stage_2 {
+          background: url(./../images/question/q3_st2.png) no-repeat;
+          background-size: 100%;
+          height: 120px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q3_stage_3 {
+          background: url(./../images/question/q3_st3.png) no-repeat;
+          background-size: 100%;
+          height: 245px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q3_stage_4 {
+          background: url(./../images/question/q3_st4.png) no-repeat;
+          background-size: 100%;
+          height: 125px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q3_stage_5 {
+          background: url(./../images/question/q3_st5.png) no-repeat;
+          background-size: 100%;
+          height: 368px; }
+        aside.my_windows_help_inner ul.question_wrap li span.q3_stage_6 {
+          background: url(./../images/question/q3_st6.png) no-repeat;
+          background-size: 100%;
+          height: 362px; }
 
 aside.my_windows_mb_transfer {
   padding: calc(5vh + 10px) 0 100px 0;
@@ -5031,7 +5104,8 @@ aside.my_windows_mb_take_out {
     background: #fff; }
     aside.my_windows_mb_take_out div.content ul li {
       border-bottom: 1px solid #e0e3f3;
-      padding: 3vw 0 3vw 0; }
+      padding: 3vw 0 3vw 0;
+      overflow: auto; }
       aside.my_windows_mb_take_out div.content ul li:last-child {
         border-bottom: none; }
       aside.my_windows_mb_take_out div.content ul li input {
@@ -5052,6 +5126,18 @@ aside.my_windows_mb_take_out {
           margin: 0 4vw 0 0; }
         aside.my_windows_mb_take_out div.content ul li p.gray {
           color: #838ba0; }
+        aside.my_windows_mb_take_out div.content ul li p.copy {
+          float: right;
+          color: #959dc5;
+          border: 1px solid #959dc5;
+          border-radius: 4px;
+          padding: 2px 8px 2px 8px;
+          line-height: 16px;
+          margin: 0 8px 0 0;
+          letter-spacing: 1px; }
+          aside.my_windows_mb_take_out div.content ul li p.copy:hover, aside.my_windows_mb_take_out div.content ul li p.copy:active, aside.my_windows_mb_take_out div.content ul li p.copy.active {
+            color: #fff;
+            background: #959dc5; }
   aside.my_windows_mb_take_out div.btn_area {
     text-align: center;
     padding: 3vw 3vw 0 3vw; }
@@ -5081,11 +5167,12 @@ aside.my_windows_mb_take_out {
     padding: 3vw;
     border-radius: 8px; }
     aside.my_windows_mb_take_out div.note h1 {
-      font-size: 4vw;
+      font-size: 4.5vw;
       color: #4d515d; }
     aside.my_windows_mb_take_out div.note p {
       font-size: 4vw;
-      color: #838ba0; }
+      color: #838ba0;
+      line-height: 27px; }
 
 aside.my_windows_mb {
   margin: calc(5vh + 10px) 0 0 0;

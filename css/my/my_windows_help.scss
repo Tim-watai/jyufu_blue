@@ -1,13 +1,13 @@
 aside {
   &.my_windows_help {
-      padding: calc(5vh + 10px) 0 100px 0;
-      width: 100vw;
-      height: calc(100vh - 5vh - 10px);
-      background: #f7f7f7;
-      z-index: 0;
-      display: inline-block;
-      position: fixed;
-      overflow-y:scroll;
+    padding: calc(5vh + 10px) 0 100px 0;
+    width: 100vw;
+    height: calc(100vh - 5vh - 10px);
+    background: #f7f7f7;
+    z-index: 0;
+    display: inline-block;
+    position: fixed;
+    overflow-y: scroll;
 
     ul {
       &.content {
@@ -92,14 +92,14 @@ aside {
     }
   }
   &.my_windows_help_inner {
-      padding: calc(5vh + 10px) 0 100px 0;
-      width: 100vw;
-      height: calc(100vh - 5vh - 10px);
-      background: #f7f7f7;
-      z-index: 0;
-      display: inline-block;
-      position: fixed;
-      overflow-y:scroll;
+    padding: calc(5vh + 10px) 0 100px 0;
+    width: 100vw;
+    height: calc(100vh - 5vh - 10px);
+    background: #fff;
+    z-index: 0;
+    display: inline-block;
+    position: fixed;
+    overflow-y: scroll;
     ul {
       &.content {
         padding: 0 4vw;
@@ -111,10 +111,107 @@ aside {
             border-bottom: 1px solid #e0e3f3;
             color: #4d515d;
           }
-          &.content{
-            p{
+          &.content {
+            p {
               color: #4d515d;
               padding: 15px 0 0 0;
+            }
+          }
+        }
+      }
+    }
+
+    //以下為圖文說明
+    ul {
+      &.question_wrap {
+        padding: 0 20px 0;
+        li {
+          margin: 0 0 24px;
+          .wrap {
+            display: inline-block;
+            margin: 0 0 4px;
+            line-height: 20px;
+            p {
+              display: inline-block;
+            }
+            .red {
+              display: inline-block;
+              color: #d32542;
+            }
+          }
+          span {
+            display: block;
+            width:300px;
+            margin: 0 auto;
+            &.q1_stage_1 {
+              background: url(./../images/question/q1_st1.png) no-repeat;
+              background-size: 100%;
+              height: 380px;
+            }
+            &.q1_stage_2 {
+              background: url(./../images/question/q1_st2.png) no-repeat;
+              background-size: 100%;
+              height: 582px;
+            }
+            &.q1_stage_3 {
+              background: url(./../images/question/q1_st3.png) no-repeat;
+              background-size: 100%;
+              height: 160px;
+            }
+            &.q2_stage_1 {
+              background: url(./../images/question/q2_st1.png) no-repeat;
+              background-size: 100%;
+              height: 120px;
+            }
+            &.q2_stage_2 {
+              background: url(./../images/question/q2_st2.png) no-repeat;
+              background-size: 100%;
+              height: 120px;
+            }
+            &.q2_stage_3 {
+              background: url(./../images/question/q2_st3.png) no-repeat;
+              background-size: 100%;
+              height: 175px;
+            }
+            &.q2_stage_4 {
+              background: url(./../images/question/q2_st4.png) no-repeat;
+              background-size: 100%;
+              height: 420px;
+            }
+            &.q2_stage_5 {
+              background: url(./../images/question/q2_st5.png) no-repeat;
+              background-size: 100%;
+              height: 402px;
+            }
+            &.q3_stage_1 {
+              background: url(./../images/question/q3_st1.png) no-repeat;
+              background-size: 100%;
+              height: 120px;
+            }
+            &.q3_stage_2 {
+              background: url(./../images/question/q3_st2.png) no-repeat;
+              background-size: 100%;
+              height: 120px;
+            }
+            &.q3_stage_3 {
+              background: url(./../images/question/q3_st3.png) no-repeat;
+              background-size: 100%;
+              height: 245px;
+            }
+            &.q3_stage_4 {
+              background: url(./../images/question/q3_st4.png) no-repeat;
+              background-size: 100%;
+              height: 125px;
+            }
+            &.q3_stage_5 {
+              background: url(./../images/question/q3_st5.png) no-repeat;
+              background-size: 100%;
+              height: 368px;
+            }
+            &.q3_stage_6 {
+              background: url(./../images/question/q3_st6.png) no-repeat;
+              background-size: 100%;
+              height: 362px;
             }
           }
         }

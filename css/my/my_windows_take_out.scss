@@ -19,6 +19,7 @@ aside {
             // align-items: center;
             border-bottom: 1px solid #e0e3f3;
             padding: 3vw 0 3vw 0;
+            overflow: auto;
             &:last-child {
               border-bottom: none;
               
@@ -44,6 +45,20 @@ aside {
               }
               &.gray{
                 color: #838ba0;
+              }
+              &.copy{
+                float: right;
+                color: #959dc5;
+                border: 1px solid #959dc5;
+                border-radius: 4px;
+                padding: 2px 8px 2px 8px;
+                line-height: 16px;
+                margin: 0 8px 0 0;
+                letter-spacing: 1px;
+                &:hover,&:active,&.active{
+                  color: #fff;
+                  background: #959dc5;
+                }
               }
             }
           }
@@ -79,12 +94,13 @@ aside {
         padding: 3vw;
         border-radius: 8px;
         h1 {
-          font-size: 4vw;
+          font-size: 4.5vw;
           color: #4d515d;
         }
         p {
           font-size: 4vw;
           color: #838ba0;
+          line-height: 27px;
         }
       }
     }
