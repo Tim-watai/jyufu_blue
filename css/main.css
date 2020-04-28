@@ -209,7 +209,7 @@ header ul.login {
   box-shadow: none; }
   header ul.login li.title {
     color: #fff;
-    font-size: 18px; }
+    font-size: 20px; }
   header ul.login li.close {
     width: 17px;
     height: 17px;
@@ -240,7 +240,8 @@ header ul.login {
 
 main.longin {
   height: auto;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 0px 0px 100px 0; }
   main.longin .logo_wrap {
     width: 100%;
     text-align: center;
@@ -420,7 +421,7 @@ main.longin {
 
 .BG {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -448,9 +449,31 @@ main ul.sign_up_wrap {
   overflow: hidden;
   border-radius: 24px;
   margin: 20px 15px 0 15px;
-  border: 1px solid #fff; }
+  border: 1px solid #fff;
+  position: relative; }
+  main ul.sign_up_wrap ul.drow {
+    display: none;
+    position: absolute;
+    top: 82px;
+    right: 16px;
+    width: calc(70% - 23px);
+    z-index: 8;
+    border: 1px solid #b9bfdc;
+    border-top: none;
+    border-radius: 4px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ebeeff), to(#fefeff));
+    background: -webkit-linear-gradient(top, #ebeeff 0%, #fefeff 100%);
+    background: -o-linear-gradient(top, #ebeeff 0%, #fefeff 100%);
+    background: linear-gradient(to bottom, #ebeeff 0%, #fefeff 100%);
+    padding: 0 0 0 12px; }
+    main ul.sign_up_wrap ul.drow.active {
+      display: block; }
+    main ul.sign_up_wrap ul.drow li:hover {
+      background: #000;
+      color: #fff; }
   main ul.sign_up_wrap li {
-    overflow: auto; }
+    overflow: auto;
+    position: relative; }
     main ul.sign_up_wrap li.title {
       text-align: center;
       background: -webkit-gradient(linear, left top, right top, from(#9ba7e3), to(#485cc4));
@@ -461,12 +484,111 @@ main ul.sign_up_wrap {
       padding: 4px 0 0 0;
       line-height: 36px; }
     main ul.sign_up_wrap li .wrap {
-      padding: 16px 16px;
-      border-bottom: 1px solid #e0e3f3; }
+      padding: 10px 16px;
+      border-bottom: 1px solid #e0e3f3;
+      overflow: auto;
+      line-height: 35px;
+      position: relative; }
       main ul.sign_up_wrap li .wrap p {
-        display: inline-block; }
+        display: inline-block;
+        color: #4d515d;
+        font-size: 15px; }
       main ul.sign_up_wrap li .wrap input {
-        float: right; }
+        float: right;
+        width: 70%;
+        border-radius: 4px;
+        border: 1px solid #b9bfdc; }
+      main ul.sign_up_wrap li .wrap .box {
+        float: right;
+        width: 70%;
+        line-height: 33px;
+        display: inline-block;
+        border-radius: 4px;
+        border: 1px solid #b9bfdc;
+        padding: 0 0 0 12px;
+        color: #4d515d;
+        position: relative;
+        font-size: 15px;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ebeeff), to(#fefeff));
+        background: -webkit-linear-gradient(top, #ebeeff 0%, #fefeff 100%);
+        background: -o-linear-gradient(top, #ebeeff 0%, #fefeff 100%);
+        background: linear-gradient(to bottom, #ebeeff 0%, #fefeff 100%); }
+    main ul.sign_up_wrap li.btn_wrap {
+      overflow: hidden; }
+      main ul.sign_up_wrap li.btn_wrap button {
+        width: calc(50% - 1px);
+        border: none;
+        color: #fff;
+        line-height: 35px;
+        font-size: 15px;
+        letter-spacing: 5px; }
+        main ul.sign_up_wrap li.btn_wrap button:first-child {
+          float: left;
+          background: -webkit-gradient(linear, left top, right top, from(#b5865e), to(#e6c1a0));
+          background: -webkit-linear-gradient(left, #b5865e 0%, #e6c1a0 100%);
+          background: -o-linear-gradient(left, #b5865e 0%, #e6c1a0 100%);
+          background: linear-gradient(to right, #b5865e 0%, #e6c1a0 100%); }
+        main ul.sign_up_wrap li.btn_wrap button:last-child {
+          float: right;
+          background: -webkit-gradient(linear, left top, right top, from(#9da9e4), to(#495dc4));
+          background: -webkit-linear-gradient(left, #9da9e4 0%, #495dc4 100%);
+          background: -o-linear-gradient(left, #9da9e4 0%, #495dc4 100%);
+          background: linear-gradient(to right, #9da9e4 0%, #495dc4 100%); }
+
+aside.jump_window.adjust {
+  height: 100%; }
+  aside.jump_window.adjust .success {
+    background: #fff;
+    width: 80%;
+    margin: 30vh auto 0;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    overflow: hidden; }
+    aside.jump_window.adjust .success .wrap {
+      text-align: center;
+      padding: 30px 0 20px; }
+      aside.jump_window.adjust .success .wrap span {
+        display: inline-block;
+        background: #4f62c7;
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        position: relative;
+        margin: 0 0 5px; }
+        aside.jump_window.adjust .success .wrap span:before {
+          content: '';
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          -ms-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+          width: 40%;
+          height: 60%;
+          background: transparent;
+          border-right: 5px solid #fff;
+          border-bottom: 5px solid #fff; }
+      aside.jump_window.adjust .success .wrap p {
+        color: #4d515d;
+        font-size: 18px; }
+    aside.jump_window.adjust .success .btn_wrap button {
+      width: calc(50% - 1px);
+      border: none;
+      color: #fff;
+      line-height: 35px;
+      font-size: 18px; }
+      aside.jump_window.adjust .success .btn_wrap button:first-child {
+        float: left;
+        background: -webkit-gradient(linear, left top, right top, from(#b5865e), to(#e6c1a0));
+        background: -webkit-linear-gradient(left, #b5865e 0%, #e6c1a0 100%);
+        background: -o-linear-gradient(left, #b5865e 0%, #e6c1a0 100%);
+        background: linear-gradient(to right, #b5865e 0%, #e6c1a0 100%); }
+      aside.jump_window.adjust .success .btn_wrap button:last-child {
+        float: right;
+        background: -webkit-gradient(linear, left top, right top, from(#9da9e4), to(#495dc4));
+        background: -webkit-linear-gradient(left, #9da9e4 0%, #495dc4 100%);
+        background: -o-linear-gradient(left, #9da9e4 0%, #495dc4 100%);
+        background: linear-gradient(to right, #9da9e4 0%, #495dc4 100%); }
 
 section.message_type {
   padding: 6vh 0 0 0;
@@ -8454,6 +8576,7 @@ aside .hidden_title {
 aside.jump_window {
   width: 100vw;
   height: 100vh;
+  top: 0;
   background: rgba(0, 0, 0, 0.6);
   z-index: 600;
   position: fixed;

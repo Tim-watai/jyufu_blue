@@ -6,7 +6,7 @@ header {
       li {
         &.title {
           color: #fff;
-          font-size: 18px;
+          font-size: 20px;
         }
         &.close {
           width: 17px;
@@ -43,6 +43,7 @@ main {
   &.longin {
     height: auto;
     margin-bottom: 0;
+    padding: 0px 0px 100px 0;
     .logo_wrap {
       width: 100%;
       text-align: center;
@@ -250,7 +251,7 @@ main {
 }
 .BG {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
