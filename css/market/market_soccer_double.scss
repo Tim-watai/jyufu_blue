@@ -9,11 +9,11 @@ div {
     bottom: 0;
     &.active {
       height: 100vh;
-     
+
       left: 0;
       background-color: rgba(0, 0, 0, 0.4);
-      .all_box{
-        .hide_area{
+      .all_box {
+        .hide_area {
           display: block;
         }
       }
@@ -42,7 +42,7 @@ div {
               }
             }
           }
-          &.hide_area{
+          &.hide_area {
             display: none;
           }
           &.content {
@@ -200,7 +200,8 @@ div {
                           span {
                             width: 12px;
                             height: 12px;
-                            background: url(../images/icon/arrows_blue.png) no-repeat;
+                            background: url(../images/icon/arrows_blue.png)
+                              no-repeat;
                             background-size: cover;
                             background-position: center center;
                           }
@@ -304,7 +305,8 @@ div {
                                 top: 50%;
                                 width: 31px;
                                 height: 26px;
-                                background: url(../images/icon/delete.png) no-repeat;
+                                background: url(../images/icon/delete.png)
+                                  no-repeat;
                                 background-position: center center;
                                 background-size: cover;
                               }
@@ -334,9 +336,14 @@ div {
               width: 100%;
               height: 100%;
               padding: 2vh 5vw;
-              white-space: nowrap;
-              display: flex;
-              justify-content: space-between;
+              .wrap {
+                white-space: nowrap;
+                display: none;
+                justify-content: space-between;
+                &.active{
+                  display: flex;
+                }
+              }
               li {
                 text-align: center;
                 line-height: 10vh;
@@ -404,6 +411,26 @@ div {
                         font-size: 1.2vh;
                       }
                     }
+                  }
+                }
+              }
+              button{
+                &.check{
+                  display: none;
+                  /* vertical-align: bottom; */
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  font-size: 2.2vh;
+                  border: none;
+                  border-radius: 5px;
+                  color: #fff;
+                  width: 80%;
+                  height: 6vh;
+                  background: #3348b8;
+                  &.active{
+                    display: block;
                   }
                 }
               }

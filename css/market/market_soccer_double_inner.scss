@@ -76,17 +76,14 @@ header {
                   width: 26px;
                   height: 30px;
                   margin: 0 0 6px 0;
+                  background: url(../images/market/cs.png)no-repeat;
+                  background-size: 800%;
+
                   &.country1 {
-                    background: url(../images/market/icon_country3.png)
-                      no-repeat;
-                    background-size: cover;
-                    background-position: center center;
+                   background-position: -52px 0;
                   }
                   &.country2 {
-                    background: url(../images/market/icon_country4.png)
-                      no-repeat;
-                    background-size: cover;
-                    background-position: center center;
+                    background-position: -78px 0;
                   }
                 }
                 p {
