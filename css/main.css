@@ -5034,11 +5034,11 @@ aside.my_windows_mb_take_out {
       padding: 3vw 0 3vw 0; }
       aside.my_windows_mb_take_out div.content ul li:last-child {
         border-bottom: none; }
-        aside.my_windows_mb_take_out div.content ul li:last-child input {
-          border: 1px solid #e0e3f3;
-          color: #4d515d;
-          border-radius: 4px;
-          padding: 2vw 0 2vw 2vw; }
+      aside.my_windows_mb_take_out div.content ul li input {
+        border: 1px solid #e0e3f3;
+        color: #4d515d;
+        border-radius: 4px;
+        padding: 2vw 0 2vw 2vw; }
       aside.my_windows_mb_take_out div.content ul li p {
         display: inline-block;
         font-size: 4.3vw; }
@@ -5047,6 +5047,9 @@ aside.my_windows_mb_take_out {
           width: 22vw;
           padding: 0 0 0 2vw;
           font-weight: bold; }
+        aside.my_windows_mb_take_out div.content ul li p.w_auto {
+          width: auto;
+          margin: 0 4vw 0 0; }
         aside.my_windows_mb_take_out div.content ul li p.gray {
           color: #838ba0; }
   aside.my_windows_mb_take_out div.btn_area {

@@ -21,12 +21,13 @@ aside {
             padding: 3vw 0 3vw 0;
             &:last-child {
               border-bottom: none;
-              input {
-                border: 1px solid #e0e3f3;
-                color: #4d515d;
-                border-radius: 4px;
-                padding: 2vw 0 2vw 2vw;
-              }
+              
+            }
+            input {
+              border: 1px solid #e0e3f3;
+              color: #4d515d;
+              border-radius: 4px;
+              padding: 2vw 0 2vw 2vw;
             }
             p {
               display: inline-block;
@@ -36,6 +37,10 @@ aside {
                 width: 22vw;
                 padding: 0 0 0 2vw;
                 font-weight: bold;
+              }
+              &.w_auto{
+                width: auto;
+                margin: 0 4vw 0 0;
               }
               &.gray{
                 color: #838ba0;
