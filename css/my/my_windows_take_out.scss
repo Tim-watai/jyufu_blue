@@ -15,8 +15,8 @@ aside {
         background: #fff;
         ul {
           li {
-            display: flex;
-            align-items: center;
+            // display: flex;
+            // align-items: center;
             border-bottom: 1px solid #e0e3f3;
             padding: 3vw 0 3vw 0;
             &:last-child {
@@ -37,7 +37,7 @@ aside {
                 padding: 0 0 0 2vw;
                 font-weight: bold;
               }
-              &:last-child {
+              &.gray{
                 color: #838ba0;
               }
             }

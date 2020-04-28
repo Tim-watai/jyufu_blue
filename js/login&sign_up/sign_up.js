@@ -9,5 +9,11 @@ $(document).ready(function() {
         }
     });
     //送出註冊＿出現彈窗
-    
+    $('main ul.sign_up_wrap li.btn_wrap button.sign_up').click(function(){
+        if($('aside.jump_window.adjust').hasClass('active') != true){
+            return $('aside.jump_window.adjust').addClass('active');
+        }else{
+            return $('aside.jump_window.adjust').removeClass('active');
+        }
+    })
 }); //total

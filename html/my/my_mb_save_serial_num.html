@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="../../css/main.css">
 
     <!-- jquery -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   
@@ -23,35 +22,43 @@
     <header>
         <ul>
             <li class="back"><a href="javascript:history.back()"></a></li>
-            <li class="title">取款</li>
+            <li class="title">流水號匯款</li>
         </ul>
        </header>
-    <aside class="my_windows_mb_take_out active">
+    <aside class="my_windows_mb_take_out">
         
         <div class="content">
             <ul>
                 <li>
-                    <p>銀行卡</p>
-                    <p class="gray">工商銀行123456789</p>
+                    <p>收款銀行</p>
+                    <p class="gray">建設銀行</p>
                 </li>
                 <li>
-                    <p>存入銀行</p>
-                    <p class="gray">工商銀行</p>
+                    <p>支行</p>
+                    <p class="gray">廣州新世界支行</p>
+                </li> 
+                <li>
+                    <p>收款帳號</p>
+                    <p class="gray">6217003320083548027</p>
                 </li>
                 <li>
-                    <p>存入帳號</p>
-                    <p class="gray">1231456</p>
+                    <p>收款人</p>
+                    <p class="gray">劉洪南</p>
                 </li>
                 <li>
-                    <p>戶名</p>
-                    <p class="gray">林小明</p>
+                    <p>匯款方式</p>
+                    <p class="gray">網路轉帳</p>
                 </li>
                 <li>
-                    <p>提領金額</p><input type="text">
+                    <p>匯款金額</p><input type="text">
+                </li>
+                <li>
+                    <p>匯款帳號後4碼</p><input type="text">
                 </li>
             </ul>
         </div>
         <div class="btn_area">
+            <!--active狀態 刪除此class回復預設-->
             <button class="active">確定提領</button>
             <p>單筆提領金額最低1元</p>
         </div>

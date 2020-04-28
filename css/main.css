@@ -513,6 +513,16 @@ main ul.sign_up_wrap {
         background: -webkit-linear-gradient(top, #ebeeff 0%, #fefeff 100%);
         background: -o-linear-gradient(top, #ebeeff 0%, #fefeff 100%);
         background: linear-gradient(to bottom, #ebeeff 0%, #fefeff 100%); }
+        main ul.sign_up_wrap li .wrap .box.drow:before {
+          content: "";
+          position: absolute;
+          right: 12px;
+          top: 15px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 5px 5px 0 5px;
+          border-color: #4d515d transparent transparent transparent; }
     main ul.sign_up_wrap li.btn_wrap {
       overflow: hidden; }
       main ul.sign_up_wrap li.btn_wrap button {
@@ -521,7 +531,8 @@ main ul.sign_up_wrap {
         color: #fff;
         line-height: 35px;
         font-size: 15px;
-        letter-spacing: 5px; }
+        letter-spacing: 5px;
+        position: relative; }
         main ul.sign_up_wrap li.btn_wrap button:first-child {
           float: left;
           background: -webkit-gradient(linear, left top, right top, from(#b5865e), to(#e6c1a0));
@@ -556,7 +567,7 @@ aside.jump_window.adjust {
         position: relative;
         margin: 0 0 5px; }
         aside.jump_window.adjust .success .wrap span:before {
-          content: '';
+          content: "";
           position: absolute;
           top: 40%;
           left: 50%;
@@ -576,7 +587,8 @@ aside.jump_window.adjust {
       border: none;
       color: #fff;
       line-height: 35px;
-      font-size: 18px; }
+      font-size: 18px;
+      position: relative; }
       aside.jump_window.adjust .success .btn_wrap button:first-child {
         float: left;
         background: -webkit-gradient(linear, left top, right top, from(#b5865e), to(#e6c1a0));
@@ -5018,12 +5030,6 @@ aside.my_windows_mb_take_out {
     padding: 0 3vw 0 3vw;
     background: #fff; }
     aside.my_windows_mb_take_out div.content ul li {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
       border-bottom: 1px solid #e0e3f3;
       padding: 3vw 0 3vw 0; }
       aside.my_windows_mb_take_out div.content ul li:last-child {
@@ -5041,7 +5047,7 @@ aside.my_windows_mb_take_out {
           width: 22vw;
           padding: 0 0 0 2vw;
           font-weight: bold; }
-        aside.my_windows_mb_take_out div.content ul li p:last-child {
+        aside.my_windows_mb_take_out div.content ul li p.gray {
           color: #838ba0; }
   aside.my_windows_mb_take_out div.btn_area {
     text-align: center;
