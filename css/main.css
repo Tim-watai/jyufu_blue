@@ -8013,6 +8013,7 @@ main {
         cursor: pointer;
         width: 79px;
         height: 100%;
+        line-height: 3vh;
         padding: 0 5px;
         text-align: center;
         border-radius: 13px 4px 4px 13px;
@@ -8030,7 +8031,7 @@ main {
           display: inline-block;
           vertical-align: middle; }
         main section ul.hot_area li:last-child.hot_btn p {
-          font-size: 1vh;
+          font-size: 12px;
           line-height: 12px;
           color: #fff;
           display: inline-block;

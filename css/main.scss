@@ -287,6 +287,7 @@ main {
             cursor: pointer;
             width: 79px;
             height: 100%;
+            line-height: 3vh;
             padding: 0 5px;
             text-align: center;
             border-radius: 13px 4px 4px 13px;
@@ -308,7 +309,7 @@ main {
               vertical-align: middle;
             }
             p {
-              font-size: 1vh;
+              font-size: 12px;
               line-height: 12px;
               color: #fff;
               display: inline-block;
