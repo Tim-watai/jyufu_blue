@@ -8029,7 +8029,8 @@ main {
           background-size: cover;
           background-position: center center;
           display: inline-block;
-          vertical-align: middle; }
+          vertical-align: middle;
+          margin: 0 3px 0 0; }
         main section ul.hot_area li:last-child.hot_btn p {
           font-size: 12px;
           line-height: 12px;
