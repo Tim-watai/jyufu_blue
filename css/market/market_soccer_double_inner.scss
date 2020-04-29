@@ -328,7 +328,7 @@ main {
               display: inline-block;
               height: 100%;
               background: #f6f8ff;
-              line-height: 45px;
+              line-height: 40px;
               p {
                 font-size: 14px;
                 line-height: 1;
@@ -338,11 +338,11 @@ main {
                 
                 &.fr {
                   float: right;
-                  line-height: 45px;
+                  line-height: 40px;
                 }
                 &.fl{
                   float: left;
-                  line-height: 45px;
+                  line-height: 40px;
                 }
                 &.gray{
                   color: #838ba0;
@@ -353,12 +353,14 @@ main {
               }
               &.between {
                 padding: 0 8px 0 16px;
+                white-space: nowrap;
               }
               &.center {
                 text-align: center;
               }
               &.between_2 {
-               padding: 0 8px 0;
+               padding: 0 4px 0;
+               white-space: nowrap;
               }
               &.center_right{
                   text-align: center;

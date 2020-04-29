@@ -3199,7 +3199,7 @@ main.double_inner_page {
             display: inline-block;
             height: 100%;
             background: #f6f8ff;
-            line-height: 45px; }
+            line-height: 40px; }
             main.double_inner_page ul li div.content span p {
               font-size: 14px;
               line-height: 1;
@@ -3208,20 +3208,22 @@ main.double_inner_page {
               color: #4d515d; }
               main.double_inner_page ul li div.content span p.fr {
                 float: right;
-                line-height: 45px; }
+                line-height: 40px; }
               main.double_inner_page ul li div.content span p.fl {
                 float: left;
-                line-height: 45px; }
+                line-height: 40px; }
               main.double_inner_page ul li div.content span p.gray {
                 color: #838ba0; }
               main.double_inner_page ul li div.content span p.mr {
                 margin: 0 8px 0 0; }
             main.double_inner_page ul li div.content span.between {
-              padding: 0 8px 0 16px; }
+              padding: 0 8px 0 16px;
+              white-space: nowrap; }
             main.double_inner_page ul li div.content span.center {
               text-align: center; }
             main.double_inner_page ul li div.content span.between_2 {
-              padding: 0 8px 0; }
+              padding: 0 4px 0;
+              white-space: nowrap; }
             main.double_inner_page ul li div.content span.center_right {
               text-align: center; }
               main.double_inner_page ul li div.content span.center_right p:first-child {
@@ -8011,6 +8013,7 @@ main {
             animation: marquee 15s infinite linear; }
       main section ul.hot_area li:last-child.hot_btn {
         cursor: pointer;
+        white-space: nowrap;
         width: auto;
         height: 100%;
         line-height: 3vh;
