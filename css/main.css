@@ -648,17 +648,21 @@ section.message ul {
   padding: 0 3vw 0 3vw; }
   section.message ul li {
     padding: 10px 0 10px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     border-bottom: 1px solid #e0e3f3;
-    position: relative; }
+    position: relative;
+    height: 80px;
+    line-height: 59px;
+    text-align: right; }
     section.message ul li.inner_content {
       border-bottom: none;
-      color: #4d515d; }
+      color: #4d515d;
+      line-height: 20px;
+      height: auto;
+      text-align: left; }
+    section.message ul li.editing .edit_p {
+      display: block; }
+    section.message ul li.editing .box {
+      width: 75%; }
     section.message ul li.yet_ready:before {
       content: "";
       position: absolute;
@@ -668,19 +672,42 @@ section.message ul {
       right: 3vw;
       bottom: 15px;
       border-radius: 10px; }
+    section.message ul li div.edit_p {
+      display: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 100px;
+      border: 1px solid #c7cbe0;
+      background: none;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
     section.message ul li div.icon {
       background: url(../images/icon/message_horn.png) no-repeat;
       background-size: 100%;
       background-position: center center;
       width: 35px;
       height: 35px;
-      margin: 0 10px 0 0; }
+      margin: 0 10px 0 0;
+      display: inline-block;
+      vertical-align: middle; }
     section.message ul li div.box {
-      width: 80%; }
+      width: 80%;
+      display: inline-block;
+      text-align: left;
+      vertical-align: middle;
+      line-height: 1; }
+      section.message ul li div.box.inner {
+        width: 100%; }
       section.message ul li div.box h1 {
         color: #4d515d;
         position: relative;
-        display: inline-block; }
+        display: inline-block;
+        line-height: 1;
+        margin: 0 0 10px 0; }
         section.message ul li div.box h1.important:before {
           content: "重要";
           position: absolute;
@@ -701,12 +728,14 @@ section.message ul {
         overflow: hidden;
         white-space: nowrap;
         -o-text-overflow: ellipsis;
-        text-overflow: ellipsis; }
+        text-overflow: ellipsis;
+        line-height: 1;
+        display: block; }
     section.message ul li div.time {
       white-space: nowrap;
       position: absolute;
       right: 3vw;
-      top: 10px;
+      top: 0px;
       color: #838ba0;
       font-size: 12px; }
 
