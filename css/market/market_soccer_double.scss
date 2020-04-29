@@ -17,11 +17,21 @@ div {
           display: block;
         }
       }
+      .double_mode{
+        .balance{
+          .double_arrow.double_arrow.double_arrow{
+            transform: rotate(180deg);
+          }
+        }
+      }
     }
     div {
       &.all_box {
         width: 100%;
         padding: 0 0 6vh 0;
+        &.no_padding{
+          padding: 0;
+        }
         div {
           &.double_mode {
             width: 100vw;
@@ -34,7 +44,7 @@ div {
                   &.balance {
                     span {
                       &.double_arrow {
-                        transform: rotate(180deg);
+                        transform: rotate(0deg);
                       }
                     }
                   }

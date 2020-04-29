@@ -4,6 +4,10 @@ header {
     background: url(../images/double_inner/header_bg.png) no-repeat;
     background-size: cover;
     background-position: center center;
+    &.esp{
+      background: url(../images/double_inner/header_bg_esp.png)no-repeat;
+      background-size: 100%;
+    }
     ul {
       background: none;
       border: none;
@@ -71,20 +75,38 @@ header {
               display: inline-block;
               &.wrap {
                 text-align: center;
-
+          //串關換對抗double_vs
                 span {
-                  width: 26px;
-                  height: 30px;
-                  margin: 0 0 6px 0;
-                  background: url(../images/market/cs.png)no-repeat;
-                  background-size: 800%;
 
+                  //足球
+                  &.soccer{
+                    width: 26px;
+                    height: 30px;
+                    margin: 0 0 6px 0;
+                    background: url(../images/market/cs.png)no-repeat;
+                    background-size: 800%;
+                  }
                   &.country1 {
                    background-position: -52px 0;
                   }
                   &.country2 {
                     background-position: -78px 0;
                   }
+                  //電競
+                  &.esp{
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 0 6px 0;
+                    background: url(../images/double_inner/esp_t.png)no-repeat;
+                    background-size: 200%;
+                  }
+                  &.t1{
+                    background-position: 0px 0;
+                  }
+                  &.t2{
+                    background-position: -40px 0;
+                  }
+
                 }
                 p {
                   text-align: center;
@@ -298,9 +320,13 @@ main {
               &.between {
                 padding: 0 8px 0 16px;
                 p {
-                  &:last-child {
+                  &.fr {
                     float: right;
                     line-height: 45px;
+                  }
+                  &.gr{
+                    color: #838ba0;
+                    margin: 0 5px 0 0;
                   }
                 }
               }
