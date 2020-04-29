@@ -8011,7 +8011,7 @@ main {
             animation: marquee 15s infinite linear; }
       main section ul.hot_area li:last-child.hot_btn {
         cursor: pointer;
-        width: 79px;
+        width: auto;
         height: 100%;
         line-height: 3vh;
         padding: 0 5px;

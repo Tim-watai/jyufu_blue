@@ -285,7 +285,8 @@ main {
           }
           &:last-child.hot_btn {
             cursor: pointer;
-            width: 79px;
+            // width: 79px;
+            width: auto;
             height: 100%;
             line-height: 3vh;
             padding: 0 5px;
