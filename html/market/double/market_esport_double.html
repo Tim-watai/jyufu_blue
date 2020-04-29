@@ -519,19 +519,154 @@
             </li>
         </ul>
       </aside>
-    <div class="double_mode">
-        <span class="box">
-            <div class="langth">
-                <span class="num">4</span><p>串關投注</p>
+    <!--串關功能頁-->
+    <div class="window_double_mode ">
+        <div class="all_box">
+            <div class="double_mode">
+                <span class="box">
+                    <div class="langth">
+                        <span class="num"><span>4</span></span>
+                        <p>串關投注</p>
+                    </div>
+                    <div class="balance">
+                        <p>餘額</p>
+                        <p class="currency">NT$</p>
+                        <p class="cash">0.00</p>
+                        <span class="double_arrow"></span>
+                    </div>
+                </span>
             </div>
-            <div class="balance">
-                <p>餘額</p>
-                <p class="currency">NT$</p>
-                <p class="cash">0.00</p>
-                <span class="double_arrow"></span>
+            <div class="hide_area">
+                <div class="content">
+                    <ul>
+                      
+                       <li class="the_detail">
+                        <div class="left_padding close">
+                           
+                        </div>
+                        <div class="data">
+                            <span class="title">亞眠<span></span></span>
+                            <span class="mid">獨贏盤</span>
+                            <span class="bottom">里昂 <span>VS</span> 亞眠</span>
+                        </div>
+                        <div class="right_total">
+                         <span>@</span>1.95
+                        </div>
+                    </li>
+                    <li class="the_detail">
+                        <div class="left_padding close">
+                            <span class="close"></span>
+                        </div>
+                        <div class="data">
+                            <span class="title">波爾多<span>+1.5</span></span>
+                            <span class="mid">讓球</span>
+                            <span class="bottom">布雷斯特<span>VS</span>波爾多</span>
+                        </div>
+                        <div class="right_total">
+                         <span>@</span>1.85
+                        </div>
+                    </li>
+                    <li class="the_detail">
+                        <div class="left_padding close">
+                            <span class="close"></span>
+                        </div>
+                        <div class="data">
+                            <span class="title">維羅納<span>-1.5</span></span>
+                            <span class="mid">讓球</span>
+                            <span class="bottom">拉素<span>VS</span>維羅納</span>
+                        </div>
+                        <div class="right_total">
+                         <span>@</span>1.85
+                        </div>
+                    </li>
+                    <li class="the_detail">
+                        <div class="left_padding close">
+                            <span class="close"></span>
+                        </div>
+                        <div class="data">
+                            <span class="title">維羅納<span>-1.5</span></span>
+                            <span class="mid">讓球</span>
+                            <span class="bottom">拉素<span>VS</span>維羅納</span>
+                        </div>
+                        <div class="right_total">
+                         <span>@</span>1.85
+                        </div>
+                    </li>
+                    
+                    <li class="the_total">
+                        <div class="left_padding">
+                        </div>
+                        <div class="data">
+                            <span class="title">4串1<span></span></span>
+                            <span class="mid">預計可贏<span>:</span><p>NT$0.00</p></span>
+                            <span class="bottom">更多串關類型<span></span></span>
+                        </div>
+                        <div class="right_total">
+                            <input type="text" placeholder = '限額  NT$0.50-8300.00'>
+                            <span class="total">小計<span>:</span><p>NT$0.00</p></span>
+                        </div>
+                    </li>
+                    <li class="computer">
+                        <div class="inner">
+                            <span class="nums">
+                                <p>1</p>
+                                <p>2</p>
+                                <p>3</p>
+                                <p>4</p>
+                                <p>5</p>
+                                <p>6</p>
+                                <p>7</p>
+                                <p>8</p>
+                                <p>9</p>
+                                <p>.</p>
+                                <p>0</p>
+                                <p></p>
+                            </span>
+                            <span class="uses">
+                                <p class="delete"></p>
+                                <p class="back">收起</p>
+                            </span>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <ul>
+                        <!--wrap&check 各有active效果-->
+                        <div class="wrap active">
+                            <li><span class="cross"></span><p>添加比賽</p></li>
+                            <li>
+                                <span class="title">投注</span>
+                                <div>
+                                    <span>合計</span>
+                                    <span>NT$0.00</span>
+                                </div>
+                                
+                            </li>
+                        </div>
+                        <button class="check">注單已確認</button>
+                    </ul>
+                </div>
             </div>
-        </span>
+            </div>
+       
+        
     </div>
+     <!--功能頁開關-->
+     <!-- <script>
+        $('.double_mode').click(
+         function (){
+            
+             if($('.window_double_mode').hasClass('active') === true){
+                 return $('.window_double_mode').removeClass('active');
+                 //  return $('.window_double_mode .hide_area').slideToggle(300,'linear');
+                 
+             }else{
+                 return $('.window_double_mode').addClass('active');
+                 //  return $('.window_double_mode .hide_area').slideToggle(300,'linear');
+             }
+         });
+        </script> -->
     </main>
     <footer>
         <ul class="market">
