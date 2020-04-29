@@ -1323,7 +1323,7 @@ main.market {
               text-align: center;
               line-height: 1.7vh;
               vertical-align: bottom;
-              padding: 1px 0 1px 0;
+              padding: 1px 2px 1px 2px;
               background: none; }
             main.market aside ul li.beginner section.content span.time_more div.more {
               float: right;
@@ -8014,15 +8014,7 @@ main {
         width: 79px;
         height: 100%;
         padding: 0 5px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
+        text-align: center;
         border-radius: 13px 4px 4px 13px;
         background: -webkit-gradient(linear, left top, right top, from(#8f9cdc), color-stop(25%, #7786d2), color-stop(75%, #465abf), to(#3046b7));
         background: -webkit-linear-gradient(left, #8f9cdc 0%, #7786d2 25%, #465abf 75%, #3046b7 100%);
@@ -8034,11 +8026,15 @@ main {
           height: 16px;
           background: url(../images/index/hot_icon.png) no-repeat;
           background-size: cover;
-          background-position: center center; }
+          background-position: center center;
+          display: inline-block;
+          vertical-align: middle; }
         main section ul.hot_area li:last-child.hot_btn p {
           font-size: 1vh;
           line-height: 12px;
-          color: #fff; }
+          color: #fff;
+          display: inline-block;
+          vertical-align: middle; }
   main section ul.profile {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8206,36 +8202,6 @@ main {
             left: 100%;
             -webkit-animation: marquee 15s infinite linear;
             animation: marquee 15s infinite linear; }
-      main article.hot_area ul li:last-child.hot_btn {
-        cursor: pointer;
-        width: 79px;
-        height: 100%;
-        padding: 0 5px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        border-radius: 13px 4px 4px 13px;
-        background: -webkit-gradient(linear, left top, right top, from(#8f9cdc), color-stop(25%, #7786d2), color-stop(75%, #465abf), to(#3046b7));
-        background: -webkit-linear-gradient(left, #8f9cdc 0%, #7786d2 25%, #465abf 75%, #3046b7 100%);
-        background: -o-linear-gradient(left, #8f9cdc 0%, #7786d2 25%, #465abf 75%, #3046b7 100%);
-        background: linear-gradient(to right, #8f9cdc 0%, #7786d2 25%, #465abf 75%, #3046b7 100%); }
-        main article.hot_area ul li:last-child.hot_btn span.hot_icon {
-          display: inline-block;
-          width: 14px;
-          height: 16px;
-          background: url(../images/index/hot_icon.png) no-repeat;
-          background-size: cover;
-          background-position: center center; }
-        main article.hot_area ul li:last-child.hot_btn p {
-          font-size: 1vh;
-          line-height: 12px;
-          color: #fff; }
   main article.menu {
     width: 93vw;
     height: calc(60vh - 48px);
