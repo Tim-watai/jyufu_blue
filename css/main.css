@@ -8023,8 +8023,8 @@ main {
         background: linear-gradient(to right, #8f9cdc 0%, #7786d2 25%, #465abf 75%, #3046b7 100%); }
         main section ul.hot_area li:last-child.hot_btn span.hot_icon {
           display: inline-block;
-          width: 14px;
-          height: 16px;
+          width: 4vw;
+          height: 4vw;
           background: url(../images/index/hot_icon.png) no-repeat;
           background-size: cover;
           background-position: center center;
@@ -8032,8 +8032,8 @@ main {
           vertical-align: middle;
           margin: 0 3px 0 0; }
         main section ul.hot_area li:last-child.hot_btn p {
-          font-size: 12px;
-          line-height: 12px;
+          font-size: 3vw;
+          line-height: 3vw;
           color: #fff;
           display: inline-block;
           vertical-align: middle; }

@@ -300,8 +300,10 @@ main {
             );
             span.hot_icon {
               display: inline-block;
-              width: 14px;
-              height: 16px;
+              // width: 14px;
+              // height: 16px;
+              width: 4vw;
+              height: 4vw;
               background: url(../images/index/hot_icon.png) no-repeat;
               background-size: cover;
               background-position: center center;
@@ -310,8 +312,10 @@ main {
               margin: 0 3px 0 0;
             }
             p {
-              font-size: 12px;
-              line-height: 12px;
+              // font-size: 12px;
+              // line-height: 12px;
+              font-size: 3vw;
+              line-height: 3vw;
               color: #fff;
               display: inline-block;
               vertical-align: middle;
