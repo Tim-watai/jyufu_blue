@@ -1541,7 +1541,7 @@ main.market {
                   font-size: 1.7vh;
                   height: auto;
                   line-height: 1;
-                  vertical-align: middle;
+                  vertical-align: bottom;
                   font-weight: lighter; }
                   main.market aside ul li.senior section.content span.time_more span.time p {
                     display: inline-block; }
@@ -1581,8 +1581,8 @@ main.market {
                   width: auto;
                   text-align: center;
                   line-height: 1.7vh;
-                  vertical-align: text-top;
-                  padding: 2px 0 1px 0; }
+                  vertical-align: bottom;
+                  padding: 2px 2px 1px 2px; }
                 main.market aside ul li.senior section.content span.time_more div.more {
                   float: right;
                   height: 100%;
