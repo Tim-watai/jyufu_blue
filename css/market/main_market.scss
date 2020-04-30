@@ -1339,7 +1339,7 @@ aside {
     background: rgba(0, 0, 0, 0.5);
     z-index: 500;
     position: fixed;
-
+    top: 0;
     justify-content: center;
     align-items: center;
     &.active {
