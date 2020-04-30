@@ -8098,31 +8098,18 @@ main {
   margin-top: calc(5vh + 10px);
   margin-bottom: 7vh; }
   main section ul.hot_area {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     width: 93vw;
     height: 3vh;
-    margin: 0 auto 10px auto; }
+    margin: 0 auto 10px auto;
+    line-height: 3vh;
+    white-space: nowrap;
+    display: block; }
     main section ul.hot_area li {
       height: 100%; }
       main section ul.hot_area li:first-child.marquee {
         width: 73%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center; }
+        float: left;
+        line-height: 3vh; }
         main section ul.hot_area li:first-child.marquee span.horn_icon {
           display: inline-block;
           width: 19px;
@@ -8130,16 +8117,19 @@ main {
           background: url(../images/index/horn_icon.png) no-repeat;
           background-size: contain;
           background-position: 0 0;
-          margin-right: 9px; }
+          margin-right: 9px;
+          vertical-align: middle; }
         main section ul.hot_area li:first-child.marquee div {
-          width: calc(100% - 22px);
+          width: calc(100% - 34px);
           overflow: hidden;
-          height: 2vh;
+          height: 3vh;
+          line-height: 3vh;
           overflow: hidden;
-          position: relative; }
+          position: relative;
+          float: right; }
           main section ul.hot_area li:first-child.marquee div p {
             font-size: 2vh;
-            line-height: 2vh;
+            line-height: 3vh;
             color: #838ba0;
             white-space: nowrap;
             position: absolute;
@@ -8155,6 +8145,7 @@ main {
         padding: 0 5px;
         text-align: center;
         border-radius: 13px 4px 4px 13px;
+        float: right;
         background: -webkit-gradient(linear, left top, right top, from(#8f9cdc), color-stop(25%, #7786d2), color-stop(75%, #465abf), to(#3046b7));
         background: -webkit-linear-gradient(left, #8f9cdc 0%, #7786d2 25%, #465abf 75%, #3046b7 100%);
         background: -o-linear-gradient(left, #8f9cdc 0%, #7786d2 25%, #465abf 75%, #3046b7 100%);
@@ -8176,111 +8167,101 @@ main {
           display: inline-block;
           vertical-align: middle; }
   main section ul.profile {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    display: block;
     width: 93vw;
     height: 7vh;
     margin: 0 auto;
-    margin-bottom: 10px; }
-    main section ul.profile li.u_data {
-      display: none; }
-      main section ul.profile li.u_data.yet_sign {
-        display: block; }
-        main section ul.profile li.u_data.yet_sign p.u_name {
-          font-size: 1vh;
-          line-height: 1vh;
-          margin: 0 0 1vh 0; }
-        main section ul.profile li.u_data.yet_sign .wrap {
-          height: 5vh; }
-          main section ul.profile li.u_data.yet_sign .wrap button {
-            height: 100%;
-            width: 15vw;
-            border: 1px solid #000;
-            border-radius: 4px;
-            font-size: 2.1vh;
-            font-weight: bold;
-            position: relative; }
-            main section ul.profile li.u_data.yet_sign .wrap button.sign_up {
-              background: -webkit-gradient(linear, left top, right top, from(#b5875e), to(#dfb995));
-              background: -webkit-linear-gradient(left, #b5875e 0%, #dfb995 100%);
-              background: -o-linear-gradient(left, #b5875e 0%, #dfb995 100%);
-              background: linear-gradient(to right, #b5875e 0%, #dfb995 100%);
-              color: #fff;
-              border: none;
+    margin-bottom: 10px;
+    white-space: nowrap; }
+    main section ul.profile li {
+      display: inline-block; }
+      main section ul.profile li.u_data {
+        display: none; }
+        main section ul.profile li.u_data.yet_sign {
+          display: inline-block; }
+          main section ul.profile li.u_data.yet_sign p.u_name {
+            font-size: 1vh;
+            line-height: 1vh;
+            margin: 0 0 1vh 0; }
+          main section ul.profile li.u_data.yet_sign .wrap {
+            height: 5vh; }
+            main section ul.profile li.u_data.yet_sign .wrap button {
+              height: 100%;
+              width: 15vw;
+              border: 1px solid #000;
+              border-radius: 4px;
+              font-size: 2.1vh;
               font-weight: bold;
-              margin: 0 1.5vw 0 0; }
-            main section ul.profile li.u_data.yet_sign .wrap button.sign_in {
-              color: #2d43b6;
-              border: 1px solid #b9bfdc;
-              background: transparent; }
-      main section ul.profile li.u_data p.u_name {
-        color: #838ba0;
-        font-weight: lighter;
-        font-family: "my_font";
-        font-size: 2.1vh; }
-        main section ul.profile li.u_data p.u_name span.vip {
-          background: url(../images/my/vip.png) no-repeat;
-          background-size: cover;
-          background-position: center center;
-          width: 13vw;
-          height: 4vw;
+              position: relative; }
+              main section ul.profile li.u_data.yet_sign .wrap button.sign_up {
+                background: -webkit-gradient(linear, left top, right top, from(#b5875e), to(#dfb995));
+                background: -webkit-linear-gradient(left, #b5875e 0%, #dfb995 100%);
+                background: -o-linear-gradient(left, #b5875e 0%, #dfb995 100%);
+                background: linear-gradient(to right, #b5875e 0%, #dfb995 100%);
+                color: #fff;
+                border: none;
+                font-weight: bold;
+                margin: 0 1.5vw 0 0; }
+              main section ul.profile li.u_data.yet_sign .wrap button.sign_in {
+                color: #2d43b6;
+                border: 1px solid #b9bfdc;
+                background: transparent; }
+        main section ul.profile li.u_data p.u_name {
+          color: #838ba0;
+          font-weight: lighter;
+          font-family: "my_font";
+          font-size: 2.1vh; }
+          main section ul.profile li.u_data p.u_name span.vip {
+            background: url(../images/my/vip.png) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 13vw;
+            height: 4vw;
+            display: inline-block;
+            border-radius: 3px;
+            border-radius: 3px;
+            margin-left: 5px; }
+        main section ul.profile li.u_data p.u_money {
+          color: #1b255c;
+          font-family: "my_font";
+          font-size: 3vh;
+          font-weight: bold; }
+          main section ul.profile li.u_data p.u_money span.question {
+            background: url(../images/head_icons.png) no-repeat;
+            background-size: 582%;
+            background-position: -70px 0;
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            line-height: 17px;
+            margin-left: 5px; }
+      main section ul.profile li.u_option {
+        float: right;
+        display: block;
+        width: 50%;
+        text-align: right; }
+        main section ul.profile li.u_option div {
+          color: #2d43b6;
+          display: block;
           display: inline-block;
-          border-radius: 3px;
-          border-radius: 3px;
-          margin-left: 5px; }
-      main section ul.profile li.u_data p.u_money {
-        color: #1b255c;
-        font-family: "my_font";
-        font-size: 3vh;
-        font-weight: bold; }
-        main section ul.profile li.u_data p.u_money span.question {
-          background: url(../images/head_icons.png) no-repeat;
-          background-size: 582%;
-          background-position: -70px 0;
-          width: 18px;
-          height: 18px;
-          display: inline-block;
-          line-height: 17px;
-          margin-left: 5px; }
-    main section ul.profile li.u_option {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-      flex-direction: row;
-      -webkit-box-pack: end;
-      -ms-flex-pack: end;
-      justify-content: flex-end; }
-      main section ul.profile li.u_option div {
-        color: #2d43b6;
-        display: inline-block;
-        width: calc(100% / 3);
-        text-align: center;
-        margin-left: 28px;
-        line-height: 1.9vh;
-        position: relative; }
-        main section ul.profile li.u_option div p {
-          font-size: 1.9vh; }
-        main section ul.profile li.u_option div span {
-          margin-bottom: 3px;
-          display: inline-block;
-          background: url(../images/index_icon.png) no-repeat;
-          background-size: 305%;
-          width: 36px;
-          height: 40px; }
-        main section ul.profile li.u_option div.translate span {
-          background-position: -37px 0; }
-        main section ul.profile li.u_option div.get span {
-          background-position: -73px 0; }
+          width: calc(100% / 3);
+          text-align: center;
+          line-height: 1.9vh;
+          position: relative; }
+          main section ul.profile li.u_option div p {
+            font-size: 1.9vh; }
+          main section ul.profile li.u_option div span {
+            display: inline-block;
+            background: url(../images/index_icon.png) no-repeat;
+            background-size: 305%;
+            width: 36px;
+            height: 40px; }
+          main section ul.profile li.u_option div.save span {
+            background-position: 0px 0; }
+          main section ul.profile li.u_option div.translate span {
+            background-position: -37px 0; }
+          main section ul.profile li.u_option div.get span {
+            background-position: -73px 0; }
   main article.banner_wrap {
     width: 93vw;
     height: 19vh;

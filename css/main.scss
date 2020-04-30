@@ -241,20 +241,25 @@ main {
   section {
     ul {
       &.hot_area {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
         width: 93vw;
         height: 3vh;
         margin: 0 auto 10px auto;
         // background-color: rgba(100,0,0,0.5);
+        line-height: 3vh;
+        white-space: nowrap;
+        display: block;
         li {
           height: 100%;
           &:first-child.marquee {
             width: 73%;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
+            // display: flex;
+            // justify-content: flex-start;
+            // align-items: center;
+            float: left;
+            line-height: 3vh;
             span {
               &.horn_icon {
                 display: inline-block;
@@ -264,17 +269,20 @@ main {
                 background-size: contain;
                 background-position: 0 0;
                 margin-right: 9px;
+                vertical-align: middle;
               }
             }
             div {
-              width: calc(100% - 22px);
+              width: calc(100% - 34px);
               overflow: hidden;
-              height: 2vh;
+              height: 3vh;
+              line-height: 3vh;
               overflow: hidden;
               position: relative;
+              float: right;
               p {
                 font-size: 2vh;
-                line-height: 2vh;
+                line-height: 3vh;
                 color: $text-lgray;
                 white-space: nowrap;
                 position: absolute;
@@ -285,7 +293,6 @@ main {
           }
           &:last-child.hot_btn {
             cursor: pointer;
-            // width: 79px;
             white-space: nowrap;
             width: auto;
             height: 100%;
@@ -293,6 +300,7 @@ main {
             padding: 0 5px;
             text-align: center;
             border-radius: 13px 4px 4px 13px;
+            float: right;
             background: linear-gradient(
               to right,
               #8f9cdc 0%,
@@ -326,18 +334,21 @@ main {
         }
       }
       &.profile {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+        display: block;
         width: 93vw;
         height: 7vh;
         margin: 0 auto;
         margin-bottom: 10px;
+        white-space: nowrap;
         li {
+          display: inline-block;
           &.u_data {
             display: none;
             &.yet_sign {
-              display: block;
+              display: inline-block;
               p {
                 &.u_name {
                   font-size: 1vh;
@@ -411,22 +422,27 @@ main {
             }
           }
           &.u_option {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: flex-end;
+            float: right;
+            display: block;
+            width: 50%;
+            text-align: right;
             div {
               color: #2d43b6;
+              display: block;
               display: inline-block;
               width: calc(100% / 3);
               text-align: center;
-              margin-left: 28px;
+              // margin-left: 28px;
               line-height: 1.9vh;
               position: relative;
               p {
                 font-size: 1.9vh;
               }
               span {
-                margin-bottom: 3px;
+                // margin-bottom: 3px;
                 display: inline-block;
                 background: url(../images/index_icon.png) no-repeat;
                 background-size: 305%;
@@ -435,6 +451,7 @@ main {
               }
               &.save {
                 span {
+                  background-position: 0px 0;
                 }
               }
               &.translate {
