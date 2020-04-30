@@ -33,28 +33,28 @@ $(document).ready(function() {
 
         if($(this).hasClass('today') === true)
         {
-           $('main article.menu ul.today').css('display','block');
-           $('main article.menu ul.run_ball').css('display','none');
-           $('main article.menu ul.early').css('display','none');
-           $('main article.menu ul.double').css('display','none');
+           $('.game_wrap.t1').css('display','block');
+           $('.game_wrap.t2').css('display','none');
+           $('.game_wrap.t3').css('display','none');
+           $('.game_wrap.t4').css('display','none');
         }
         else if($(this).hasClass('run_ball') === true){
-            $('main article.menu ul.today').css('display','none');
-            $('main article.menu ul.run_ball').css('display','block');
-            $('main article.menu ul.early').css('display','none');
-            $('main article.menu ul.double').css('display','none');
+          $('.game_wrap.t1').css('display','none');
+          $('.game_wrap.t2').css('display','block');
+          $('.game_wrap.t3').css('display','none');
+          $('.game_wrap.t4').css('display','none');
         }
         else if($(this).hasClass('early') === true){
-            $('main article.menu ul.today').css('display','none');
-            $('main article.menu ul.run_ball').css('display','none');
-            $('main article.menu ul.early').css('display','block');
-            $('main article.menu ul.double').css('display','none');
+          $('.game_wrap.t1').css('display','none');
+          $('.game_wrap.t2').css('display','none');
+          $('.game_wrap.t3').css('display','block');
+          $('.game_wrap.t4').css('display','none');
         }
         else if($(this).hasClass('double') === true){
-            $('main article.menu ul.today').css('display','none');
-            $('main article.menu ul.run_ball').css('display','none');
-            $('main article.menu ul.early').css('display','none');
-            $('main article.menu ul.double').css('display','block');
+          $('.game_wrap.t1').css('display','none');
+          $('.game_wrap.t2').css('display','none');
+          $('.game_wrap.t3').css('display','none');
+          $('.game_wrap.t4').css('display','block');
         }
     });
   

@@ -15,11 +15,7 @@ aside {
         overflow-y: scroll;
         padding: 0 0 100px 0;
         .empty_page {
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: center;
-
+          text-align: center;
           .empty_icon {
             background: url(../images/my_bet_record/bet_record_empty.png) no-repeat;
             background-size: 100%;
@@ -27,6 +23,7 @@ aside {
             width: 50vw;
             height: 50vw;
             margin: 40vw 0 0 0;
+            display: inline-block;
           }
           p {
             color: #838ba0;
@@ -50,29 +47,29 @@ aside {
             border-radius: 8px;
             background: #fff;
             li {
-              display: flex;
               font-size: 13px;
               border-bottom: 1px solid #e0e3f3;
               &.title {
-                display: flex;
-                justify-content: space-between;
+    
                 border-bottom: 1px solid #e0e3f3;
                 padding: 5px 10px 5px 10px;
                 p {
+                  display: inline-block;
                   &:first-child {
                     color: #d46571;
                   }
                   &:last-child {
                     color: #838b9f;
+                    float: right;
                   }
                 }
               }
               .wrap {
+                display: inline-block;
                 width: 72px;
                 height: 30px;
                 border-right: 1px solid #e0e3f3;
-                display: flex;
-                align-items: center;
+                line-height: 30px;
                 background: #f7f8fc;
                 color: #4d515d;
                 &.no_limit {
@@ -85,12 +82,16 @@ aside {
                   border-right: none;
                   background: #fff;
                 }
-
+                div{
+                  display: inline-block;
+                }
                 p {
                   padding: 0 0 0 10px;
+                  display: inline-block;
                 }
               }
               .wrap_footer {
+                display: inline-block;
                 width: auto;
                 height: auto;
                 padding: 5px 10px 5px 10px;
@@ -129,9 +130,8 @@ aside {
           }
           &.btn_group {
             margin: 10px 4vw 0 4vw;
-            display: flex;
-            justify-content: space-between;
             width: 92vw;
+            white-space: nowrap;
             li {
               border: 1px solid #e0e3f3;
               display: inline-block;
@@ -141,6 +141,7 @@ aside {
               background: #fff;
               color: #838ba0;
               padding: 7px 0 7px 0;
+              margin: 0 calc(8% / 4) 0 0;
               line-height: 1;
               &:hover,
               &:active,

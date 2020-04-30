@@ -241,13 +241,10 @@ main {
   section {
     ul {
       &.hot_area {
-        // display: flex;
-        // justify-content: space-between;
-        // align-items: center;
         width: 93vw;
         height: 3vh;
         margin: 0 auto 10px auto;
-        // background-color: rgba(100,0,0,0.5);
+    
         line-height: 3vh;
         white-space: nowrap;
         display: block;
@@ -255,9 +252,6 @@ main {
           height: 100%;
           &:first-child.marquee {
             width: 73%;
-            // display: flex;
-            // justify-content: flex-start;
-            // align-items: center;
             float: left;
             line-height: 3vh;
             span {
@@ -334,9 +328,6 @@ main {
         }
       }
       &.profile {
-        // display: flex;
-        // justify-content: space-between;
-        // align-items: center;
         display: block;
         width: 93vw;
         height: 7vh;
@@ -422,9 +413,6 @@ main {
             }
           }
           &.u_option {
-            // display: flex;
-            // flex-direction: row;
-            // justify-content: flex-end;
             float: right;
             display: block;
             width: 50%;
@@ -485,88 +473,19 @@ main {
       background-position: center center;
       border-radius: 8px;
     }
-    &.hot_area {
-      ul {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 93vw;
-        height: 3vh;
-        margin: 0 auto 10px auto;
-        // background-color: rgba(100,0,0,0.5);
-        li {
-          height: 100%;
-          &:first-child.marquee {
-            width: 73%;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            span {
-              &.horn_icon {
-                display: inline-block;
-                width: 19px;
-                height: 2vh;
-                background: url(../images/index/horn_icon.png) no-repeat;
-                background-size: 100%;
-                background-position: 0 0;
-                margin-right: 3px;
-              }
-            }
-            div {
-              width: calc(100% - 22px);
-              overflow: hidden;
-              height: 2vh;
-              overflow: hidden;
-              position: relative;
-              p {
-                font-size: 2vh;
-                line-height: 2vh;
-                color: $text-lgray;
-                white-space: nowrap;
-                position: absolute;
-                left: 100%;
-                animation: marquee 15s infinite linear;
-              }
-            }
-          }
-          // &:last-child.hot_btn {
-          //   cursor: pointer;
-          //   width: 79px;
-          //   height: 100%;
-          //   padding: 0 5px;
-          //   display: flex;
-          //   justify-content: space-between;
-          //   align-items: center;
-          //   border-radius: 13px 4px 4px 13px;
-          //   @include hot_icon_blue_bg;
-          //   span.hot_icon {
-          //     display: inline-block;
-          //     width: 14px;
-          //     height: 16px;
-          //     background: url(../images/index/hot_icon.png) no-repeat;
-          //     background-size: cover;
-          //     background-position: center center;
-          //   }
-          //   p {
-          //     font-size: 1vh;
-          //     line-height: 12px;
-          //     color: #fff;
-          //   }
-          // }
-        }
-      }
-    }
+   
 
     &.menu {
       width: 93vw;
       height: calc(60vh - 48px);
       margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
+
+      overflow: hidden;
       aside {
         &.btn_group {
           width: 13.5%;
           height: 100%;
+          float: left;
           button {
             width: 100%;
             height: calc(100% / 4 - 10px);
@@ -610,24 +529,42 @@ main {
           }
         }
       }
-
-      ul {
-        &.today {
+      .game_wrap {
+        height: 100%;
+        width: auto;
+        overflow-y: scroll;
+        &.t1{
           display: block;
         }
-        &.run_ball {
+        &.t2{
           display: none;
         }
-        &.early {
+        &.t3{
           display: none;
         }
-        &.double {
+        &.t4{
           display: none;
         }
+
+      }
+      ul {
+        // &.today {
+        //   display: block;
+        // }
+        // &.run_ball {
+        //   display: none;
+        // }
+        // &.early {
+        //   display: none;
+        // }
+        // &.double {
+        //   display: none;
+        // }
         &.game_kinds {
-          width: calc(87% - 10px);
+          width: calc(100% - 10px);
           overflow-y: scroll;
           padding: 2px 0 0 0;
+          float: right;
           li {
             margin: 0 auto 10px auto;
             width: calc(100% - 4px);
@@ -1254,7 +1191,7 @@ aside {
   .hidden_title {
     background: #fff;
     padding: calc(5vh + 10px) 0 0 0;
-    display: flex;
+    
     position: fixed;
     width: 100%;
     box-shadow: 0 3px 5px 0 #e2e2e2;
@@ -1268,6 +1205,7 @@ aside {
       border-radius: 30px;
       position: relative;
       white-space: nowrap;
+      display: inline-block;
       p {
         font-size: 14px;
         line-height: 14px;

@@ -5994,39 +5994,26 @@ aside.my_windows_mb_save {
     padding: 0 3vw 0 3vw;
     background: #fff; }
     aside.my_windows_mb_save div.content .pay_type {
-      padding: 3vw 0 0vw 0;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      padding: 3vw 0 0vw 0; }
       aside.my_windows_mb_save div.content .pay_type .disabled {
         border: none;
         width: 21vw;
         height: 20vw; }
+      aside.my_windows_mb_save div.content .pay_type .row {
+        white-space: nowrap; }
       aside.my_windows_mb_save div.content .pay_type .wrap {
         border: 1px solid #e0e3f3;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
         width: 21vw;
         height: 20vw;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        line-height: 20vw;
         border-radius: 8px;
-        margin: 0 0 3vw 0;
-        position: relative; }
+        margin: 0 calc(10vw / 4) 3vw 0;
+        position: relative;
+        text-align: center;
+        display: inline-block; }
+        aside.my_windows_mb_save div.content .pay_type .wrap .wrap_inner {
+          display: inline-block;
+          vertical-align: middle; }
         aside.my_windows_mb_save div.content .pay_type .wrap.push:before {
           content: "";
           position: absolute;
@@ -6080,7 +6067,9 @@ aside.my_windows_mb_save {
           background: url(../images/my_mb_pay_icon.png) no-repeat;
           background-size: 900%;
           width: 25px;
-          height: 20px; }
+          height: 20px;
+          display: block;
+          margin: 0 auto 12px; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i1 {
             background-position: 0 0; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i2 {
@@ -6102,21 +6091,13 @@ aside.my_windows_mb_save {
         aside.my_windows_mb_save div.content .pay_type .wrap p {
           margin: 3px 0 0 0;
           font-size: 3.8vw;
-          color: #4d515d; }
+          color: #4d515d;
+          line-height: 3.8vw; }
   aside.my_windows_mb_save div.save_choice_type {
     margin: 10px 0 10px 0;
     padding: 0 3vw 0 3vw;
     background: #fff; }
     aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .wrap {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
       padding: 0 5vw 0 3vw; }
       aside.my_windows_mb_save div.save_choice_type div.save_type.choice_type .wrap span {
         background: url(../images/my_mb/wechats.png) no-repeat;
@@ -6137,9 +6118,6 @@ aside.my_windows_mb_save {
     padding: 0 3vw 0 3vw;
     background: #fff; }
     aside.my_windows_mb_save div.save_name .box {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
       padding: 3vw 0 3vw 0;
       border-bottom: 1px solid #e0e3f3; }
       aside.my_windows_mb_save div.save_name .box p, aside.my_windows_mb_save div.save_name .box input {
@@ -6147,7 +6125,8 @@ aside.my_windows_mb_save {
       aside.my_windows_mb_save div.save_name .box p {
         color: #4d515d;
         margin: 0 20px 0 0;
-        line-height: 1; }
+        line-height: 1;
+        display: inline-block; }
       aside.my_windows_mb_save div.save_name .box input {
         border: none; }
         aside.my_windows_mb_save div.save_name .box input::-webkit-input-placeholder {
@@ -6165,25 +6144,22 @@ aside.my_windows_mb_save {
   aside.my_windows_mb_save div.alipay_type {
     margin: 10px 0 10px 0;
     padding: 1vh 3vw 1vh 3vw;
-    background: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+    background: #fff; }
     aside.my_windows_mb_save div.alipay_type .wrap {
       width: 45.5vw;
       text-align: center;
       border: 1px solid #e0e3f3;
-      border-radius: 8px; }
+      border-radius: 8px;
+      display: inline-block; }
+      aside.my_windows_mb_save div.alipay_type .wrap.r {
+        float: right; }
       aside.my_windows_mb_save div.alipay_type .wrap p {
         font-size: 3.8vw;
         color: #4d515d;
         padding: 1.5vw 0 1.5vw 0; }
       aside.my_windows_mb_save div.alipay_type .wrap:hover, aside.my_windows_mb_save div.alipay_type .wrap:active, aside.my_windows_mb_save div.alipay_type .wrap.active {
         background: #556de7;
-        border: none; }
+        border: 1px solid transparent; }
         aside.my_windows_mb_save div.alipay_type .wrap:hover p, aside.my_windows_mb_save div.alipay_type .wrap:active p, aside.my_windows_mb_save div.alipay_type .wrap.active p {
           color: #fff; }
   aside.my_windows_mb_save div.choice_bank {
@@ -6204,15 +6180,11 @@ aside.my_windows_mb_save {
       height: 4vw;
       margin: 3vw 0 0 0; }
   aside.my_windows_mb_save div .save_type {
-    padding: 3vw 0 0vw 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
+    padding: 3vw 0 0vw 0; }
+    aside.my_windows_mb_save div .save_type.row {
+      white-space: nowrap; }
+    aside.my_windows_mb_save div .save_type .row {
+      white-space: nowrap; }
     aside.my_windows_mb_save div .save_type .disabled {
       border: none;
       width: 21vw;
@@ -6225,7 +6197,7 @@ aside.my_windows_mb_save {
       text-align: center;
       white-space: nowrap;
       border-radius: 8px;
-      margin: 0 0 3vw 0;
+      margin: 0 calc(10vw / 4) 3vw 0;
       position: relative;
       line-height: 12vw; }
       aside.my_windows_mb_save div .save_type .wrap:hover, aside.my_windows_mb_save div .save_type .wrap:active, aside.my_windows_mb_save div .save_type .wrap.active {
@@ -6282,15 +6254,7 @@ aside.my_windows_mb_save {
     padding: 0 3vw 0 3vw;
     background: #fff; }
     aside.my_windows_mb_save div.save_page .save_type {
-      padding: 3vw 0 0vw 0;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      padding: 3vw 0 0vw 0; }
       aside.my_windows_mb_save div.save_page .save_type .disabled {
         border: none;
         width: 21vw;
@@ -6303,7 +6267,7 @@ aside.my_windows_mb_save {
         text-align: center;
         white-space: nowrap;
         border-radius: 8px;
-        margin: 0 0 3vw 0;
+        margin: 0 calc(10vw / 4) 3vw 0;
         position: relative;
         line-height: 12vw; }
         aside.my_windows_mb_save div.save_page .save_type .wrap:hover, aside.my_windows_mb_save div.save_page .save_type .wrap:active, aside.my_windows_mb_save div.save_page .save_type .wrap.active {
@@ -6323,23 +6287,15 @@ aside.my_windows_mb_save {
           aside.my_windows_mb_save div.save_page .save_type .wrap:hover p, aside.my_windows_mb_save div.save_page .save_type .wrap:active p, aside.my_windows_mb_save div.save_page .save_type .wrap.active p {
             color: #fff; }
         aside.my_windows_mb_save div.save_page .save_type .wrap.other {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-          flex-direction: column;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center; }
+          text-align: center; }
+          aside.my_windows_mb_save div.save_page .save_type .wrap.other .other_wrap {
+            vertical-align: middle;
+            display: inline-block; }
           aside.my_windows_mb_save div.save_page .save_type .wrap.other span,
           aside.my_windows_mb_save div.save_page .save_type .wrap.other p {
             font-size: 3vw;
-            line-height: 1; }
+            line-height: 1;
+            display: block; }
           aside.my_windows_mb_save div.save_page .save_type .wrap.other p {
             color: #838ba0;
             margin: 3px 0 0 0; }
@@ -6573,26 +6529,15 @@ aside.my_windows_bet_record {
     overflow-y: scroll;
     padding: 0 0 100px 0; }
     aside.my_windows_bet_record div.content .empty_page {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-pack: start;
-      -ms-flex-pack: start;
-      justify-content: flex-start;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; }
+      text-align: center; }
       aside.my_windows_bet_record div.content .empty_page .empty_icon {
         background: url(../images/my_bet_record/bet_record_empty.png) no-repeat;
         background-size: 100%;
         background-position: center;
         width: 50vw;
         height: 50vw;
-        margin: 40vw 0 0 0; }
+        margin: 40vw 0 0 0;
+        display: inline-block; }
       aside.my_windows_bet_record div.content .empty_page p {
         color: #838ba0;
         font-size: 4vw;
@@ -6614,34 +6559,24 @@ aside.my_windows_bet_record {
       border-radius: 8px;
       background: #fff; }
       aside.my_windows_bet_record div.content ul.record li {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
         font-size: 13px;
         border-bottom: 1px solid #e0e3f3; }
         aside.my_windows_bet_record div.content ul.record li.title {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-          justify-content: space-between;
           border-bottom: 1px solid #e0e3f3;
           padding: 5px 10px 5px 10px; }
-          aside.my_windows_bet_record div.content ul.record li.title p:first-child {
-            color: #d46571; }
-          aside.my_windows_bet_record div.content ul.record li.title p:last-child {
-            color: #838b9f; }
+          aside.my_windows_bet_record div.content ul.record li.title p {
+            display: inline-block; }
+            aside.my_windows_bet_record div.content ul.record li.title p:first-child {
+              color: #d46571; }
+            aside.my_windows_bet_record div.content ul.record li.title p:last-child {
+              color: #838b9f;
+              float: right; }
         aside.my_windows_bet_record div.content ul.record li .wrap {
+          display: inline-block;
           width: 72px;
           height: 30px;
           border-right: 1px solid #e0e3f3;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
+          line-height: 30px;
           background: #f7f8fc;
           color: #4d515d; }
           aside.my_windows_bet_record div.content ul.record li .wrap.no_limit {
@@ -6652,9 +6587,13 @@ aside.my_windows_bet_record {
             width: 80px;
             border-right: none;
             background: #fff; }
+          aside.my_windows_bet_record div.content ul.record li .wrap div {
+            display: inline-block; }
           aside.my_windows_bet_record div.content ul.record li .wrap p {
-            padding: 0 0 0 10px; }
+            padding: 0 0 0 10px;
+            display: inline-block; }
         aside.my_windows_bet_record div.content ul.record li .wrap_footer {
+          display: inline-block;
           width: auto;
           height: auto;
           padding: 5px 10px 5px 10px;
@@ -6687,13 +6626,8 @@ aside.my_windows_bet_record {
           border-radius: 3px; }
     aside.my_windows_bet_record div.content ul.btn_group {
       margin: 10px 4vw 0 4vw;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      width: 92vw; }
+      width: 92vw;
+      white-space: nowrap; }
       aside.my_windows_bet_record div.content ul.btn_group li {
         border: 1px solid #e0e3f3;
         display: inline-block;
@@ -6703,6 +6637,7 @@ aside.my_windows_bet_record {
         background: #fff;
         color: #838ba0;
         padding: 7px 0 7px 0;
+        margin: 0 calc(8% / 4) 0 0;
         line-height: 1; }
         aside.my_windows_bet_record div.content ul.btn_group li:hover, aside.my_windows_bet_record div.content ul.btn_group li:active, aside.my_windows_bet_record div.content ul.btn_group li.active {
           color: #fff;
@@ -6840,7 +6775,8 @@ aside.my_windows_t_record {
     color: #838ba0; }
     aside.my_windows_t_record div.title .wrap {
       display: inline-block;
-      padding: 5px 8vw 10px 8vw; }
+      padding: 5px 8vw 10px 8vw;
+      border-bottom: 2px solid transparent; }
       aside.my_windows_t_record div.title .wrap:hover, aside.my_windows_t_record div.title .wrap:active, aside.my_windows_t_record div.title .wrap.active {
         border-bottom: 2px solid #7c87bc;
         color: #4d515d; }
@@ -6850,26 +6786,15 @@ aside.my_windows_t_record {
     overflow-y: scroll;
     padding: 0 0 100px 0; }
   aside.my_windows_t_record .empty_page {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
+    text-align: center; }
     aside.my_windows_t_record .empty_page .empty_icon {
       background: url(../images/my_mb/empty_t_record.png) no-repeat;
       background-size: 100%;
       background-position: center;
       width: 50vw;
       height: 50vw;
-      margin: 40vw 0 0 0; }
+      margin: 40vw 0 0 0;
+      display: inline-block; }
     aside.my_windows_t_record .empty_page p {
       color: #838ba0;
       font-size: 4vw;
@@ -6903,19 +6828,16 @@ aside.my_windows_t_record {
       border-right: 1px solid #e0e3f3;
       padding: 0 10px 0 10px; }
       aside.my_windows_t_record ul.t_record li.title {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
         border-left: 1px solid #9ba1c5;
         border-right: 1px solid #9ba1c5;
         padding: 5px 10px 5px 10px;
         background: #7b8bd7;
         border-radius: 8px 8px 0px 0px; }
         aside.my_windows_t_record ul.t_record li.title p {
-          color: #fff; }
+          color: #fff;
+          display: inline-block; }
+          aside.my_windows_t_record ul.t_record li.title p:last-child {
+            float: right; }
       aside.my_windows_t_record ul.t_record li .wrap {
         width: 72px;
         height: 30px;
@@ -7393,16 +7315,15 @@ aside.event {
           border-radius: 8px 0 8px 0;
           font-size: 12px;
           letter-spacing: 1px;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
+          line-height: 12px;
           padding: 5px 5px 5px 10px;
           width: 82px; }
           aside.event .event_content .card_wrap .card .detail_wrap p {
             line-height: 1;
             margin: 0 5px 0 0;
             width: 52px;
-            text-align: center; }
+            text-align: center;
+            display: inline-block; }
           aside.event .event_content .card_wrap .card .detail_wrap .icon {
             background: url(../images/icon/arrows_blue.png) no-repeat;
             background-size: 100%;
@@ -7411,7 +7332,10 @@ aside.event {
             height: 10px;
             -webkit-transition: all 0.2s ease-in-out;
             -o-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out; }
+            transition: all 0.2s ease-in-out;
+            display: inline-block;
+            float: right;
+            line-height: 12px; }
       aside.event .event_content .card_wrap .card_inner {
         display: none;
         padding: 0 0 10px 0; }
@@ -8274,68 +8198,15 @@ main {
     background-size: cover;
     background-position: center center;
     border-radius: 8px; }
-  main article.hot_area ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 93vw;
-    height: 3vh;
-    margin: 0 auto 10px auto; }
-    main article.hot_area ul li {
-      height: 100%; }
-      main article.hot_area ul li:first-child.marquee {
-        width: 73%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center; }
-        main article.hot_area ul li:first-child.marquee span.horn_icon {
-          display: inline-block;
-          width: 19px;
-          height: 2vh;
-          background: url(../images/index/horn_icon.png) no-repeat;
-          background-size: 100%;
-          background-position: 0 0;
-          margin-right: 3px; }
-        main article.hot_area ul li:first-child.marquee div {
-          width: calc(100% - 22px);
-          overflow: hidden;
-          height: 2vh;
-          overflow: hidden;
-          position: relative; }
-          main article.hot_area ul li:first-child.marquee div p {
-            font-size: 2vh;
-            line-height: 2vh;
-            color: #838ba0;
-            white-space: nowrap;
-            position: absolute;
-            left: 100%;
-            -webkit-animation: marquee 15s infinite linear;
-            animation: marquee 15s infinite linear; }
   main article.menu {
     width: 93vw;
     height: calc(60vh - 48px);
     margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+    overflow: hidden; }
     main article.menu aside.btn_group {
       width: 13.5%;
-      height: 100%; }
+      height: 100%;
+      float: left; }
       main article.menu aside.btn_group button {
         width: 100%;
         height: calc(100% / 4 - 10px);
@@ -8377,18 +8248,23 @@ main {
             border-radius: 8px;
             z-index: -1;
             border: none; }
-    main article.menu ul.today {
-      display: block; }
-    main article.menu ul.run_ball {
-      display: none; }
-    main article.menu ul.early {
-      display: none; }
-    main article.menu ul.double {
-      display: none; }
+    main article.menu .game_wrap {
+      height: 100%;
+      width: auto;
+      overflow-y: scroll; }
+      main article.menu .game_wrap.t1 {
+        display: block; }
+      main article.menu .game_wrap.t2 {
+        display: none; }
+      main article.menu .game_wrap.t3 {
+        display: none; }
+      main article.menu .game_wrap.t4 {
+        display: none; }
     main article.menu ul.game_kinds {
-      width: calc(87% - 10px);
+      width: calc(100% - 10px);
       overflow-y: scroll;
-      padding: 2px 0 0 0; }
+      padding: 2px 0 0 0;
+      float: right; }
       main article.menu ul.game_kinds li {
         margin: 0 auto 10px auto;
         width: calc(100% - 4px);
@@ -8835,9 +8711,6 @@ aside.hot_windows {
 aside .hidden_title {
   background: #fff;
   padding: calc(5vh + 10px) 0 0 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
@@ -8850,7 +8723,8 @@ aside .hidden_title {
     padding: 10px 10px 10px 10px;
     border-radius: 30px;
     position: relative;
-    white-space: nowrap; }
+    white-space: nowrap;
+    display: inline-block; }
     aside .hidden_title .tack p {
       font-size: 14px;
       line-height: 14px;

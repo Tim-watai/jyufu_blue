@@ -20,6 +20,7 @@ aside {
         .wrap {
           display: inline-block;
           padding: 5px 8vw 10px 8vw;
+          border-bottom: 2px solid transparent;
           &:hover,
           &:active,
           &.active {
@@ -37,10 +38,7 @@ aside {
     }
 
     .empty_page {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
+      text-align: center;
       .empty_icon {
         background: url(../images/my_mb/empty_t_record.png) no-repeat;
         background-size: 100%;
@@ -48,6 +46,7 @@ aside {
         width: 50vw;
         height: 50vw;
         margin: 40vw 0 0 0;
+        display: inline-block;
       }
 
       p {
@@ -86,13 +85,11 @@ aside {
         background: #fff;
         li {
           font-size: 13px;
-          // border-bottom: 1px solid #e0e3f3;
           border-left: 1px solid #e0e3f3;
           border-right: 1px solid #e0e3f3;
           padding: 0 10px 0 10px;
           &.title {
-            display: flex;
-            justify-content: space-between;
+ 
             border-left: 1px solid #9ba1c5;
             border-right: 1px solid #9ba1c5;
             padding: 5px 10px 5px 10px;
@@ -100,6 +97,10 @@ aside {
             border-radius: 8px 8px 0px 0px;
             p {
               color: #fff;
+              display: inline-block;
+              &:last-child{
+                float: right;
+              }
             }
           }
           .wrap {

@@ -86,7 +86,7 @@ aside {
                   border-radius: 8px 0 8px 0;
                   font-size: 12px;
                   letter-spacing: 1px;
-                  display: flex;
+                  line-height: 12px;
                   padding: 5px 5px 5px 10px;
                   width: 82px;
                   p {
@@ -94,6 +94,7 @@ aside {
                     margin: 0 5px 0 0;
                     width: 52px;
                     text-align: center;
+                    display: inline-block;
                   }
                   .icon {
                     background: url(../images/icon/arrows_blue.png) no-repeat;
@@ -102,6 +103,9 @@ aside {
                     width: 10px;
                     height: 10px;
                     transition: all 0.2s ease-in-out;
+                    display: inline-block;
+                    float: right;
+                    line-height: 12px;
                   }
                 }
               }
