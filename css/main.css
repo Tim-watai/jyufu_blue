@@ -4553,6 +4553,19 @@ aside.my_windows_help {
     padding: 0 3vw 0 3vw;
     background: #fff;
     margin: 1vh 0 0 0; }
+    aside.my_windows_help ul.content .li_wrap .rule_inner {
+      color: #4d515d;
+      font-size: 15px;
+      margin: 16px 0 0;
+      line-height: 25px;
+      letter-spacing: 0.3px;
+      display: none; }
+    aside.my_windows_help ul.content .li_wrap.active .rule_inner {
+      display: block; }
+    aside.my_windows_help ul.content .li_wrap.active li .arrow {
+      -webkit-transform: rotate(90deg) translateY(4px);
+      -ms-transform: rotate(90deg) translateY(4px);
+      transform: rotate(90deg) translateY(4px); }
     aside.my_windows_help ul.content:first-child {
       margin: 0 0 0 0; }
     aside.my_windows_help ul.content .bold {
@@ -4599,7 +4612,14 @@ aside.my_windows_help {
           height: 14px;
           vertical-align: middle;
           float: right;
-          margin: 18px 0 0 8px; }
+          margin: 18px 0 0 8px;
+          -webkit-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out; }
+          aside.my_windows_help ul.content li div.arrow.active {
+            -webkit-transform: rotate(90deg) translateY(4px);
+            -ms-transform: rotate(90deg) translateY(4px);
+            transform: rotate(90deg) translateY(4px); }
       aside.my_windows_help ul.content li p {
         display: inline-block;
         vertical-align: middle; }
