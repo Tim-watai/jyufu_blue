@@ -7,10 +7,22 @@ aside {
       background: #fff;
       margin: 0 0 0;
       .card_wrap{
-                
                 box-shadow: 0px 0px 5px 5px #ececec;
                 border-radius: 8px;
                 margin: 0 0 10px 0;
+                &.active{
+                  .card{
+                    .detail_wrap{
+                      .icon{
+                        transform: rotate(180deg);
+                      }
+                    }
+                    
+                  }
+                  .card_inner{
+                    display: block;
+                  }
+                }
               .card {
                 position: relative;
                 &:before {
@@ -57,6 +69,7 @@ aside {
                     line-height: 1;
                     vertical-align: middle;
                     margin: 0 3px 0 0;
+                   
                   }
                   p {
                     display: inline-block;
@@ -88,10 +101,12 @@ aside {
                     background-position: center;
                     width: 10px;
                     height: 10px;
+                    transition: all 0.2s ease-in-out;
                   }
                 }
               }
               .card_inner {
+                display: none;
                 padding: 0 0 10px 0;
                 h1 {
                     text-align: center;

@@ -151,6 +151,19 @@
         </li>
       </ul>
     </footer>
-   
+    <!--觸發活動詳細-->
+   <script>
+$(document).ready(function(){
+  console.log('event ready no.js');
+  $('.detail_wrap').click(function(){
+    
+    if( $(this).parent().parent().hasClass('active') != true){
+      return $(this).parent().parent().addClass('active');
+    }else{
+      return $(this).parent().parent().removeClass('active');
+    }
+  })
+})
+   </script>
   </body>
 </html>
