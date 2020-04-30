@@ -606,7 +606,10 @@ section.message_type {
   padding: 6vh 0 0 0;
   background: #fff;
   -webkit-box-shadow: 0 2px 4px 0 #e4e4e4;
-  box-shadow: 0 2px 4px 0 #e4e4e4; }
+  box-shadow: 0 2px 4px 0 #e4e4e4;
+  position: fixed;
+  width: 100%;
+  z-index: 2; }
   section.message_type ul {
     padding: 0 3vw 0 3vw;
     display: -webkit-box;
@@ -636,8 +639,6 @@ section.message_type {
       border-radius: 6px; }
 
 section.message.content {
-  background: #fff;
-  margin: 1vh 0 0 0;
   height: calc(100vh - (7vh + 42px)); }
 
 section.message.message_inner {
@@ -645,7 +646,9 @@ section.message.message_inner {
   background: #fff; }
 
 section.message ul {
-  padding: 0 3vw 0 3vw; }
+  padding: 0 3vw 60px 3vw;
+  overflow-y: scroll;
+  background: #fff; }
   section.message ul li {
     padding: 10px 0 10px 0;
     border-bottom: 1px solid #e0e3f3;
@@ -669,8 +672,8 @@ section.message ul {
       width: 9px;
       height: 9px;
       background: #f30d0d;
-      right: 3vw;
-      bottom: 15px;
+      right: 0vw;
+      bottom: 30px;
       border-radius: 10px; }
     section.message ul li div.edit_p {
       display: none;
@@ -685,6 +688,20 @@ section.message ul {
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
+      section.message ul li div.edit_p:hover, section.message ul li div.edit_p:active, section.message ul li div.edit_p.active {
+        background: #a0b0ff; }
+        section.message ul li div.edit_p:hover:before, section.message ul li div.edit_p:active:before, section.message ul li div.edit_p.active:before {
+          content: '';
+          position: absolute;
+          left: 5px;
+          top: 30%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%) rotate(45deg);
+          width: 8px;
+          height: 12px;
+          border-right: solid 1px #fff;
+          border-bottom: solid 1px #fff; }
     section.message ul li div.icon {
       background: url(../images/icon/message_horn.png) no-repeat;
       background-size: 100%;
@@ -699,7 +716,8 @@ section.message ul {
       display: inline-block;
       text-align: left;
       vertical-align: middle;
-      line-height: 1; }
+      line-height: 1;
+      position: relative; }
       section.message ul li div.box.inner {
         width: 100%; }
       section.message ul li div.box h1 {
@@ -740,7 +758,8 @@ section.message ul {
       font-size: 12px; }
 
 section.waitting {
-  text-align: center; }
+  text-align: center;
+  margin: calc(6vh + 42px) 0 0 0; }
   section.waitting .watting_icon {
     background: url(../images/message_page/wait.gif) no-repeat;
     background-size: 100%;
@@ -832,6 +851,44 @@ section.game_message_empty {
     border-radius: 8px;
     padding: 10px 40px 10px 40px; }
 
+aside.edit {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  background: #f7f7f7;
+  width: 100%;
+  line-height: 40px;
+  padding: 10px 12px 10px;
+  font-size: 17px; }
+  aside.edit.active {
+    display: block; }
+  aside.edit p {
+    display: inline-block;
+    line-height: 40px; }
+    aside.edit p.readed {
+      float: left;
+      color: #7685d5; }
+    aside.edit p.delete {
+      float: right;
+      color: #f30d0d; }
+
+aside.inner_edit .wrap {
+  position: absolute;
+  bottom: 0;
+  background: #f8f8f8;
+  width: 100%;
+  text-align: center; }
+  aside.inner_edit .wrap p {
+    display: block;
+    padding: 10px 0 10px;
+    background: #fff;
+    font-size: 20px; }
+    aside.inner_edit .wrap p.delete {
+      color: #f30d0d;
+      margin: 0 0 10px; }
+    aside.inner_edit .wrap p.cancel {
+      color: #4d515d; }
+
 header ul.market {
   padding: 0 33px 0 3vw; }
 
@@ -916,8 +973,26 @@ header ul li.search {
 
 header ul li.pure_text {
   float: right;
-  font-size: 20px;
-  color: #4d515d; }
+  font-size: 17px;
+  color: #4d515d;
+  position: relative; }
+  header ul li.pure_text.for_edit {
+    width: 40px;
+    height: 17px; }
+    header ul li.pure_text.for_edit:before {
+      content: '編輯';
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 17px;
+      color: #4d515d; }
+    header ul li.pure_text.for_edit.active:before {
+      content: '取消';
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 17px;
+      color: #4d515d; }
 
 header ul li.edit_point {
   float: right;

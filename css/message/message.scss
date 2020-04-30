@@ -1,12 +1,12 @@
-ul {
-  &.message {
-  }
-}
+
 section {
   &.message_type {
     padding: 6vh 0 0 0;
     background: #fff;
     box-shadow: 0 2px 4px 0 #e4e4e4;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
     ul {
       padding: 0 3vw 0 3vw;
       display: flex;
@@ -45,8 +45,9 @@ section {
   }
   &.message{
     &.content {
-        background: #fff;
-        margin: 1vh 0 0 0; 
+       
+        // margin: 1vh 0 0 0; 
+        // padding: calc(7vh + 42px) 0 0px 0;
         height: calc(100vh - (7vh + 42px)); 
       }
     &.message_inner{
@@ -54,12 +55,13 @@ section {
         background: #fff;
     }
       ul {
-        padding: 0 3vw 0 3vw;
+        padding: 0 3vw 60px 3vw;
+        overflow-y: scroll;
+        background: #fff;
+        // margin: 42px 0 0px 0;
         li {
+       
           padding: 10px 0 10px 0;
-          // display: flex;
-          // align-items: center;
-          // justify-content: flex-end;
           border-bottom: 1px solid #e0e3f3;
           position: relative;
           height: 80px;
@@ -87,8 +89,8 @@ section {
               width: 9px;
               height: 9px;
               background: #f30d0d;
-              right: 3vw;
-              bottom: 15px;
+              right: 0vw;
+              bottom: 30px;
               border-radius: 10px;
             }
           }
@@ -104,6 +106,24 @@ section {
               left: 0;
               top: 50%;
               transform: translateY(-50%);
+              &:hover,&:active,&.active{
+                background: #a0b0ff;
+                &:before{
+                  content: '';
+                  position: absolute;
+                  left: 5px;
+                  top: 30%;
+                  -webkit-transform: translateY(-50%);
+                  -ms-transform: translateY(-50%);
+                  transform: translateY(-50%) rotate(45deg);
+                  width: 8px;
+                  height: 12px;
+                  border-right: solid 1px #fff;
+                  border-bottom: solid 1px #fff;
+                }
+                
+
+              }
             }
             &.icon {
               background: url(../images/icon/message_horn.png) no-repeat;
@@ -121,6 +141,7 @@ section {
               text-align: left;
               vertical-align: middle;
               line-height: 1;
+              position: relative;
               &.inner{
                 width: 100%;
               }
@@ -172,6 +193,7 @@ section {
   }
   &.waitting{
     text-align: center;
+    margin: calc(6vh + 42px) 0 0 0;
       .watting_icon{
           background: url(../images/message_page/wait.gif)no-repeat;
           background-size: 100%;
@@ -269,6 +291,55 @@ section {
         background: linear-gradient(to right ,#9ba8e4 0%, #485cc4 100%);
         border-radius: 8px;
         padding: 10px 40px 10px 40px;
+    }
+  }
+}
+aside{
+  &.edit{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    background: #f7f7f7;
+    width: 100%;
+    line-height: 40px;
+    padding: 10px 12px 10px;
+    font-size: 17px;
+    &.active{
+      display: block;
+    }
+    p{
+      display: inline-block;
+      line-height: 40px;
+      &.readed{
+        float: left;
+        color: #7685d5;
+      }
+      &.delete{
+        float: right;
+        color: #f30d0d;
+      }
+    }
+  }
+  &.inner_edit{
+    .wrap{
+      position: absolute;
+      bottom: 0;
+      background: #f8f8f8;
+      width: 100%;
+      text-align: center;
+      p{
+        display: block;
+        padding: 10px 0 10px;
+        background: #fff;
+        font-size: 20px;
+        &.delete{
+          color: #f30d0d;
+          margin: 0 0 10px;
+        }
+        &.cancel{
+          color: #4d515d;
+        }
+      }
     }
   }
 }
