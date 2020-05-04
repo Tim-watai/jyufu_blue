@@ -66,10 +66,8 @@ header {
             width: 45%;
             display: inline-block;
             height: 100%;
-            line-height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            text-align: center;
+            line-height: 15vh;
             &:first-child {
               float: left;
             }
@@ -80,6 +78,8 @@ header {
               display: inline-block;
               &.wrap {
                 text-align: center;
+                vertical-align: middle;
+                line-height: 1;
           //串關換對抗double_vs
                 span {
 
@@ -201,16 +201,19 @@ header {
           line-height: 4.5vh;
           background: #fff;
           padding: 0 8vw 0 5vw;
-          display: flex;
-          justify-content: space-between;
+          // display: flex;
+          // justify-content: space-between;
           box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
           span {
             color: #838ba0;
-            display: inline-block;
+            display: block;
+            width: 25%;
             height: 100%;
             font-weight: bold;
             pointer-events: all;
             line-height: 4.5vh;
+            float: left;
+            text-align: center;
             &.active {
               border-bottom: 2px solid #1b255c;
               color: #1b255c;

@@ -17,10 +17,9 @@ main {
                 padding: 5px 0 10px 0;
                 .line_wrap{
                     width: 100%;
-                    display: flex;
                     padding: 0 8px 0 8px;
-                    justify-content: space-between;
                     margin: 0 0 10px 0;
+                    overflow: hidden;
                     &:first-child{
                         margin: 0 0 10px 0;
                     }
@@ -33,7 +32,12 @@ main {
                         background: #f6f8ff;
                         padding: 0 6px;
                         line-height: 36px;
-                        display: flex;
+                        &:first-child{
+                          float: left;
+                        }
+                        &:last-child{
+                          float: right;
+                        }
                         &:hover,
                         &:active,
                         &.active{
@@ -48,6 +52,7 @@ main {
                                 white-space: nowrap;
                                 overflow: hidden;
                                 width: 80%;
+                                float: left;
                             }
                             &:last-child{
                                 float: right;

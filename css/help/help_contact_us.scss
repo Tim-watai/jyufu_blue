@@ -35,8 +35,9 @@ aside {
           }
         }
         li {
-          display: flex;
-          align-items: center;
+
+          width: 100%;
+          line-height: 38px;
           border-bottom: 1px solid #e0e3f3;
           padding: 20px 0 20px 0;
           position: relative;
@@ -46,6 +47,7 @@ aside {
           .wrap {
             padding: 0px 7vw;
             border-right: 1px solid #e0e3f3;
+            float: left;
             div {
               background: url(../images/help/contact_us_icons.png) no-repeat;
               background-size: 400%;
@@ -69,6 +71,7 @@ aside {
             padding: 0 0 0 7vw;
             color: #4d515d;
             line-height: 1;
+            display: inline-block;
             p {
               &:first-child {
                 margin: 0 0 5px 0;
