@@ -9,15 +9,22 @@ section {
     z-index: 2;
     ul {
       padding: 0 3vw 0 3vw;
-      display: flex;
+      white-space: nowrap;
       
       li {
-        width: 25%;
+        width: 24%;
         text-align: center;
         font-size: 18px;
         color: #838ba0;
         padding: 5px 0 7px 0;
         position: relative;
+        display: inline-block;
+        &:first-child{
+          float: left;
+        }
+        &:last-child{
+          float: right;
+        }
         
         &:hover,
         &:active,
@@ -210,16 +217,22 @@ section {
     border-bottom: 1px solid #e0e3f3;
     .warp{
         padding: 1px;
-        display: flex;
         background: #cdd0dd;
         border-radius: 8px;
         font-size: 16px;
         font-weight: bold;
+        overflow: auto;
         div{
             width: 50%;
             text-align: center;
             color: #838ba0;
             border-radius: 8px;
+            &:first-child{
+              float: left;
+            }
+            &:last-child{
+              float: right;
+            }
             &.active,
             &:hover,
             &:active{
@@ -238,19 +251,18 @@ section {
             padding: 11px 25px 11px 25px;
             border-bottom: 1px solid #e0e3f3;
             .top_warp{
-                display: flex;
-                justify-content: space-between;
-                align-items: flex-end;
-                line-height: 1;
-                padding: 0 0 12px 0;
+                line-height: 18px;
+                margin: 0 0 12px 0;
                 h1{
                     color: #4d515d;
                     font-size: 18px;
+                    display: inline-block;
                 }
                 p{
                     color: #838ba0;
                     font-size: 12px;
                     vertical-align: bottom;
+                    float: right;
                 }
             }
             p{

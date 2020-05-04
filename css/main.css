@@ -612,16 +612,19 @@ section.message_type {
   z-index: 2; }
   section.message_type ul {
     padding: 0 3vw 0 3vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+    white-space: nowrap; }
     section.message_type ul li {
-      width: 25%;
+      width: 24%;
       text-align: center;
       font-size: 18px;
       color: #838ba0;
       padding: 5px 0 7px 0;
-      position: relative; }
+      position: relative;
+      display: inline-block; }
+      section.message_type ul li:first-child {
+        float: left; }
+      section.message_type ul li:last-child {
+        float: right; }
       section.message_type ul li:hover, section.message_type ul li:active, section.message_type ul li.active {
         border-bottom: 3px solid #7c87bc;
         font-weight: bold;
@@ -775,18 +778,20 @@ section.game_message_type {
   border-bottom: 1px solid #e0e3f3; }
   section.game_message_type .warp {
     padding: 1px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     background: #cdd0dd;
     border-radius: 8px;
     font-size: 16px;
-    font-weight: bold; }
+    font-weight: bold;
+    overflow: auto; }
     section.game_message_type .warp div {
       width: 50%;
       text-align: center;
       color: #838ba0;
       border-radius: 8px; }
+      section.game_message_type .warp div:first-child {
+        float: left; }
+      section.game_message_type .warp div:last-child {
+        float: right; }
       section.game_message_type .warp div.active, section.game_message_type .warp div:hover, section.game_message_type .warp div:active {
         background: #fff;
         color: #4d515d; }
@@ -799,24 +804,17 @@ section.game_message_content {
     padding: 11px 25px 11px 25px;
     border-bottom: 1px solid #e0e3f3; }
     section.game_message_content ul li .top_warp {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      -webkit-box-align: end;
-      -ms-flex-align: end;
-      align-items: flex-end;
-      line-height: 1;
-      padding: 0 0 12px 0; }
+      line-height: 18px;
+      margin: 0 0 12px 0; }
       section.game_message_content ul li .top_warp h1 {
         color: #4d515d;
-        font-size: 18px; }
+        font-size: 18px;
+        display: inline-block; }
       section.game_message_content ul li .top_warp p {
         color: #838ba0;
         font-size: 12px;
-        vertical-align: bottom; }
+        vertical-align: bottom;
+        float: right; }
     section.game_message_content ul li p.content {
       display: inline-block;
       color: #4d515d;
@@ -3092,17 +3090,20 @@ header.double_inner {
       padding: 0 8vw 0 5vw;
       -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
       box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
+      header.double_inner section article.game_type .wrap {
+        width: 25%;
+        text-align: center;
+        float: left;
+        display: block;
+        white-space: nowrap; }
       header.double_inner section article.game_type span {
         color: #838ba0;
-        display: block;
-        width: 25%;
+        display: inline-block;
         height: 100%;
         font-weight: bold;
         pointer-events: all;
-        line-height: 4.5vh;
-        float: left;
-        text-align: center; }
-        header.double_inner section article.game_type span.active {
+        line-height: 4.5vh; }
+        header.double_inner section article.game_type span.active, header.double_inner section article.game_type span:hover, header.double_inner section article.game_type span:active {
           border-bottom: 2px solid #1b255c;
           color: #1b255c; }
     header.double_inner section article.game_refresh {
@@ -3151,30 +3152,25 @@ main.double_inner_page {
         main.double_inner_page ul li div.title {
           position: relative;
           height: 38px;
+          line-height: 25px;
           border-bottom: 1px solid #e0e3f3;
           margin: 0 8px 5px 8px;
-          padding: 12px 0 0 0;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-          justify-content: space-between;
-          -webkit-box-align: start;
-          -ms-flex-align: start;
-          align-items: flex-start; }
+          padding: 12px 0 0 0; }
           main.double_inner_page ul li div.title p {
             margin: 0 0 0 10px;
             line-height: 1;
             font-weight: bold;
-            color: #1b255c; }
+            color: #1b255c;
+            display: inline-block;
+            vertical-align: top; }
           main.double_inner_page ul li div.title span {
             display: inline-block;
             width: 15px;
             height: 15px;
             background: url(../images/double_inner/pushpin.png) no-repeat;
             background-position: center center;
-            background-size: cover; }
+            background-size: cover;
+            float: right; }
           main.double_inner_page ul li div.title:before {
             content: "";
             position: absolute;
@@ -3190,18 +3186,21 @@ main.double_inner_page {
         main.double_inner_page ul li div.content {
           padding: 0 0 5px 0;
           height: 45px;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-          justify-content: space-between; }
+          text-align: left; }
+          main.double_inner_page ul li div.content .left {
+            float: left; }
+          main.double_inner_page ul li div.content .right.right {
+            float: right;
+            margin: 0; }
           main.double_inner_page ul li div.content.form_2 span {
-            width: calc(100% / 2 - 3px); }
+            width: calc(100% / 2 - 3px);
+            margin: 0 3px 0 0; }
           main.double_inner_page ul li div.content.form_3 span {
-            width: calc(100% / 3 - 3px); }
+            width: calc(100% / 3 - 3px);
+            margin: 0 4.5px 0 0; }
           main.double_inner_page ul li div.content.form_4 span {
-            width: calc(100% / 4 - 4px); }
+            width: calc(100% / 4 - 4px);
+            margin: 0 4px 0 0; }
           main.double_inner_page ul li div.content span {
             display: inline-block;
             height: 100%;
@@ -3718,24 +3717,23 @@ aside.my_about {
     aside.my_about .office_wrap ul {
       width: 100%;
       text-align: left;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      padding: 0 4vw 0 4vw; }
+      white-space: nowrap;
+      padding: 0 4vw 0 4vw;
+      overflow: hidden; }
       aside.my_about .office_wrap ul li {
         display: inline-block;
         text-align: center;
         font-size: 13px;
         width: calc(23vw - 5px);
-        line-height: 1; }
+        margin: 0 5px 0 0;
+        line-height: 1;
+        vertical-align: top; }
         aside.my_about .office_wrap ul li div {
           display: inline-block; }
         aside.my_about .office_wrap ul li p {
           color: #838ba0;
-          line-height: 15px; }
+          line-height: 15px;
+          white-space: normal; }
         aside.my_about .office_wrap ul li .icon_wrap {
           height: 33px;
           line-height: 33px;
@@ -3779,18 +3777,19 @@ aside.my_about {
     aside.my_about .donate_wrap ul:not(:last-child) {
       width: 100%;
       text-align: left;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
       padding: 0 4vw 0 4vw; }
       aside.my_about .donate_wrap ul:not(:last-child) li {
         display: inline-block;
         text-align: center;
+        vertical-align: top;
         width: calc(23vw - 5px);
-        line-height: 1; }
+        line-height: 1;
+        margin: 0 5px 0 0; }
+        aside.my_about .donate_wrap ul:not(:last-child) li:first-child {
+          float: left; }
+        aside.my_about .donate_wrap ul:not(:last-child) li:last-child {
+          float: right;
+          margin: 0; }
         aside.my_about .donate_wrap ul:not(:last-child) li .icon_wrap {
           text-align: center;
           margin: 0 0 8px 0; }
@@ -3813,12 +3812,19 @@ aside.my_about {
     aside.my_about .donate_wrap ul:last-child {
       width: 100%;
       text-align: center;
-      margin: 15px 0 0 0; }
+      margin: 15px 0 0 0;
+      padding: 0 4vw 0 4vw; }
       aside.my_about .donate_wrap ul:last-child li {
         display: inline-block;
         text-align: center;
         width: calc(28vw - 5px);
-        line-height: 1; }
+        line-height: 1;
+        margin: 0 5px 0 0; }
+        aside.my_about .donate_wrap ul:last-child li:first-child {
+          float: left; }
+        aside.my_about .donate_wrap ul:last-child li:last-child {
+          float: right;
+          margin: 0; }
         aside.my_about .donate_wrap ul:last-child li .icon_wrap {
           margin: 0 0 8px 0; }
           aside.my_about .donate_wrap ul:last-child li .icon_wrap div {
@@ -5683,22 +5689,19 @@ aside.my_windows_share_app {
           width: 80px;
           height: 25px; }
       aside.my_windows_share_app .box .box_wrap .donate_wrap {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
         width: 90%;
         background: #dbe3f8;
         margin: 0 auto;
         border-radius: 50px;
         padding: 6px 3% 7px 3%;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between; }
+        line-height: 27px; }
         aside.my_windows_share_app .box .box_wrap .donate_wrap div {
           background: url(../images/my/share_app/donates.png) no-repeat;
           background-size: 683%;
           width: 25px;
-          height: 27px; }
+          height: 27px;
+          display: inline-block;
+          line-height: 27px; }
         aside.my_windows_share_app .box .box_wrap .donate_wrap .i1 {
           background-position: -0px 0; }
         aside.my_windows_share_app .box .box_wrap .donate_wrap .i2 {
@@ -6113,31 +6116,17 @@ aside.my_windows_mb_save {
           color: #fff; }
         aside.my_windows_mb_save div .save_type .wrap:hover p, aside.my_windows_mb_save div .save_type .wrap:active p, aside.my_windows_mb_save div .save_type .wrap.active p {
           color: #fff; }
-      aside.my_windows_mb_save div .save_type .wrap.other {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center; }
-        aside.my_windows_mb_save div .save_type .wrap.other span,
-        aside.my_windows_mb_save div .save_type .wrap.other p {
-          font-size: 3vw;
-          line-height: 1; }
-        aside.my_windows_mb_save div .save_type .wrap.other p {
-          color: #838ba0; }
-        aside.my_windows_mb_save div .save_type .wrap.other:hover span,
-        aside.my_windows_mb_save div .save_type .wrap.other:hover p, aside.my_windows_mb_save div .save_type .wrap.other:active span,
-        aside.my_windows_mb_save div .save_type .wrap.other:active p, aside.my_windows_mb_save div .save_type .wrap.other.active span,
-        aside.my_windows_mb_save div .save_type .wrap.other.active p {
-          color: #fff; }
+      aside.my_windows_mb_save div .save_type .wrap.other span,
+      aside.my_windows_mb_save div .save_type .wrap.other p {
+        font-size: 3vw;
+        line-height: 1; }
+      aside.my_windows_mb_save div .save_type .wrap.other p {
+        color: #838ba0; }
+      aside.my_windows_mb_save div .save_type .wrap.other:hover span,
+      aside.my_windows_mb_save div .save_type .wrap.other:hover p, aside.my_windows_mb_save div .save_type .wrap.other:active span,
+      aside.my_windows_mb_save div .save_type .wrap.other:active p, aside.my_windows_mb_save div .save_type .wrap.other.active span,
+      aside.my_windows_mb_save div .save_type .wrap.other.active p {
+        color: #fff; }
       aside.my_windows_mb_save div .save_type .wrap span,
       aside.my_windows_mb_save div .save_type .wrap p {
         display: inline-block; }

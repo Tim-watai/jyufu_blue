@@ -34,18 +34,21 @@ aside {
         }
   
         .donate_wrap {
-          display: flex;
+          // display: flex;
           width: 90%;
           background: #dbe3f8;
           margin: 0 auto;
           border-radius: 50px;
           padding: 6px 3% 7px 3%;
-          justify-content: space-between;
+          line-height: 27px;
+          // justify-content: space-between;
           div {
             background: url(../images/my/share_app/donates.png) no-repeat;
             background-size: 683%;
             width: 25px;
             height: 27px;
+            display: inline-block;
+            line-height: 27px;
           }
           .i1 {
             background-position: -0px 0;

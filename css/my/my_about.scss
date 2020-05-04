@@ -48,15 +48,17 @@ aside {
       ul {
         width: 100%;
         text-align: left;
-        display: flex;
-        justify-content: space-between;
+        white-space: nowrap;
         padding: 0 4vw 0 4vw;
+        overflow: hidden;
         li {
           display: inline-block;
           text-align: center;
           font-size: 13px;
           width: calc(23vw - 5px);
+          margin: 0 5px 0 0;
           line-height: 1;
+          vertical-align: top;
           div {
             display: inline-block;
           }
@@ -64,6 +66,7 @@ aside {
             // line-height: 1;
             color: #838ba0;
             line-height: 15px;
+            white-space: normal;
           }
           .icon_wrap {
             height: 33px;
@@ -120,15 +123,21 @@ aside {
         &:not(:last-child) {
           width: 100%;
           text-align: left;
-          display: flex;
-          justify-content: space-between;
           padding: 0 4vw 0 4vw;
           li {
             display: inline-block;
             text-align: center;
-
+            vertical-align: top;
             width: calc(23vw - 5px);
             line-height: 1;
+            margin: 0 5px 0 0;
+            &:first-child{
+              float: left;
+            }
+            &:last-child{
+              float: right;
+              margin: 0;
+            }
             .icon_wrap {
               text-align: center;
               margin: 0 0 8px 0;
@@ -162,11 +171,20 @@ aside {
           width: 100%;
           text-align: center;
           margin: 15px 0 0 0;
+          padding: 0 4vw 0 4vw;
           li {
             display: inline-block;
             text-align: center;
             width: calc(28vw - 5px);
             line-height: 1;
+            margin: 0 5px 0 0;
+            &:first-child{
+              float: left;
+            }
+            &:last-child{
+              float: right;
+              margin: 0;
+            }
             .icon_wrap{
                 margin: 0 0 8px 0;
                 div{
