@@ -604,14 +604,14 @@ main {
               }
             }
           }
-          section {
-            &.content {
-              span {
-                &.num_group {
-                }
-              }
-            }
-          }
+          // section {
+          //   &.content {
+          //     span {
+          //       &.num_group {
+          //       }
+          //     }
+          //   }
+          // }
           &.beginner {
             section {
               &.content {
@@ -756,14 +756,13 @@ main {
                         height: 100%;
                         white-space: nowrap;
                         color: #838ba0;
-                        display: flex;
-                        align-items: flex-end;
+                        line-height: 3vh;
+                        display: inline-block;
                         background: none;
                         width: auto;
 
                         p {
                           display: inline-block;
-
                           font-size: 1.2vh;
                         }
                         span {
@@ -775,7 +774,7 @@ main {
                             transform: rotate(-90deg);
                             height: 1.2vh;
                             width: 16px;
-                            margin-bottom: 6%;
+                            // margin-bottom: 6%;
                             &:after,
                             &:before {
                               content: "";
@@ -1006,8 +1005,7 @@ main {
                       display: inline-block;
                       width: 60%;
                       height: 100%;
-                      display: flex;
-                      align-items: center;
+                      white-space: nowrap;
 
                       p {
                         display: inline-block;
@@ -1102,14 +1100,10 @@ main {
                       &.more {
                         float: right;
                         height: 100%;
+                        line-height: 3vh;
                         white-space: nowrap;
                         color: #838ba0;
-                        display: flex;
-                        align-items: center;
-
                         p {
-                          // line-height: 1;
-                          // vertical-align: bottom;
                           display: inline-block;
                           font-size: 1.2vh;
                         }
@@ -1123,7 +1117,6 @@ main {
                             height: 1.2vh;
                             width: 16px;
                             line-height: 1;
-                            margin: 0 0 4% -5%;
                             &:after,
                             &:before {
                               content: "";
@@ -1149,15 +1142,14 @@ main {
                   }
                   &.point_box {
                     width: 100%;
-                    display: flex;
-                    justify-content: space-between;
                     padding: 0 2.5vw;
+                    // overflow: auto;
                     span {
                       &.counter {
                         width: 40%;
-                        height: 15vh;
+                        // height: 15vh;
                         position: relative;
-
+                        float: left;
                         div,
                         span,
                         p {
@@ -1176,11 +1168,12 @@ main {
                           display: inline-block;
                           line-height: calc(15vh / 3);
                           &.country {
-                            line-height: calc(13vh / 2 - 3px);
+                            // line-height: calc(13vh / 2 - 3px);
+                            line-height: calc((21vh / 2) - 3px);
                             margin: 0 0 3px 0;
                           }
                           &.live {
-                            line-height: calc(15vh - ((13vh / 2 - 3px) * 2));
+                           line-height: 3vh;
                             span {
                               display: inline-block;
                               background: url(../images/market/game_icons.png)
@@ -1209,10 +1202,23 @@ main {
                       }
                       &.num_group {
                         width: 60%;
-                        justify-content: flex-end;
-                        height: 15vh;
-                        display: flex;
+                        //ajust for grid 校正 更換f l e x
+                        &.text_right{
+                          text-align: right;
+                        }
                         span {
+                          &.left{
+                            float: left;
+                          }
+                          &.right{
+                            float: right;
+                          }
+                          // &:first-child{
+                          //   float: left;
+                          // }
+                          // &:last-child{
+                          //   float: right;
+                          // }
                           div {
                             pointer-events: all;
                             &.active {
@@ -1232,50 +1238,48 @@ main {
                           &.three_side {
                             width: calc(100% / 3 - 3px);
                             text-align: center;
-                            height: 100%;
                             margin: 0 3px 0 0;
+                            line-height: calc((21vh / 3) / 2);
                             div {
                               width: 100%;
-                              height: calc(13vh / 3 - 3px);
+                              height: calc(21vh / 3 - 3px);
                               margin: 0 0 3px 0;
                               p {
-                                margin: 0 0 0.5vh 0;
+                                // margin: 0 0 0.5vh 0;
                               }
                             }
                           }
                           &.two_side {
                             width: calc(100% / 3 - 3px);
                             text-align: center;
-                            height: 100%;
                             margin: 0 3px 0 0;
                             div {
                               width: 100%;
                               height: 50%;
-                              height: calc(13vh / 2 - 3px);
+                              height: calc(21vh / 2 - 3px);
                               margin: 0 0 3px 0;
-                              p {
-                                margin: 0 0 1.5vh 0;
+                              line-height: calc((21vh / 2 - 3px) / 2);
+                              &.solo_line{
+                                line-height: calc((21vh / 1 - 3px) / 2);
                               }
                             }
                           }
                         }
                         div {
-                          display: inline-block;
+                          display: block;
                           background-color: #f6f8ff;
-                          display: flex;
-                          flex-direction: column;
-                          justify-content: center;
-                          align-items: center;
                           p {
                             color: #838ba0;
-                            line-height: 1;
+                            // line-height: 1;
                             font-size: 1.7vh;
                             display: inline-block;
                             font-weight: bold;
+                            width: 100%;
                           }
                           span {
+                            width: 100%;
                             color: #1b255c;
-                            line-height: 1;
+                            // line-height: 1;
                             font-size: 1.7vh;
                             font-weight: bold;
                           }
@@ -1340,10 +1344,9 @@ aside {
     z-index: 500;
     position: fixed;
     top: 0;
-    justify-content: center;
-    align-items: center;
+   text-align: center;
     &.active {
-      display: flex;
+      display: block;
     }
     div {
       &.bet_page {
@@ -1352,6 +1355,8 @@ aside {
         width: 80vw;
         border-radius: 13px;
         position: relative;
+        top: 50%;
+        transform: translateY(-50%);
         span.close {
           display: inline-block;
           position: absolute;
@@ -1641,17 +1646,15 @@ aside {
     background: rgba(0, 0, 0, 0.5);
     z-index: 500;
     position: fixed;
-    flex-direction: column;
-    justify-content: flex-end;
     top: 0;
     &.active {
-      display: flex;
+      display: block;
     }
     ul {
       &.side_bar {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
         background: #f7f7f7;
         li {
           height: 7vh;

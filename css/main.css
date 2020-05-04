@@ -1434,12 +1434,8 @@ main.market {
               height: 100%;
               white-space: nowrap;
               color: #838ba0;
-              display: -webkit-box;
-              display: -ms-flexbox;
-              display: flex;
-              -webkit-box-align: end;
-              -ms-flex-align: end;
-              align-items: flex-end;
+              line-height: 3vh;
+              display: inline-block;
               background: none;
               width: auto; }
               main.market aside ul li.beginner section.content span.time_more div.more p {
@@ -1453,8 +1449,7 @@ main.market {
                 -ms-transform: rotate(-90deg);
                 transform: rotate(-90deg);
                 height: 1.2vh;
-                width: 16px;
-                margin-bottom: 6%; }
+                width: 16px; }
                 main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
                   content: "";
                   position: absolute;
@@ -1607,12 +1602,7 @@ main.market {
               display: inline-block;
               width: 60%;
               height: 100%;
-              display: -webkit-box;
-              display: -ms-flexbox;
-              display: flex;
-              -webkit-box-align: center;
-              -ms-flex-align: center;
-              align-items: center; }
+              white-space: nowrap; }
               main.market aside ul li.senior section.content div.senior_mode span p {
                 display: inline-block;
                 font-size: 1.7vh;
@@ -1690,14 +1680,9 @@ main.market {
                 main.market aside ul li.senior section.content span.time_more div.more {
                   float: right;
                   height: 100%;
+                  line-height: 3vh;
                   white-space: nowrap;
-                  color: #838ba0;
-                  display: -webkit-box;
-                  display: -ms-flexbox;
-                  display: flex;
-                  -webkit-box-align: center;
-                  -ms-flex-align: center;
-                  align-items: center; }
+                  color: #838ba0; }
                   main.market aside ul li.senior section.content span.time_more div.more p {
                     display: inline-block;
                     font-size: 1.2vh; }
@@ -1710,8 +1695,7 @@ main.market {
                     transform: rotate(-90deg);
                     height: 1.2vh;
                     width: 16px;
-                    line-height: 1;
-                    margin: 0 0 4% -5%; }
+                    line-height: 1; }
                     main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:before {
                       content: "";
                       position: absolute;
@@ -1732,17 +1716,11 @@ main.market {
                       top: 50%; }
             main.market aside ul li.senior section.content span.point_box {
               width: 100%;
-              display: -webkit-box;
-              display: -ms-flexbox;
-              display: flex;
-              -webkit-box-pack: justify;
-              -ms-flex-pack: justify;
-              justify-content: space-between;
               padding: 0 2.5vw; }
               main.market aside ul li.senior section.content span.point_box span.counter {
                 width: 40%;
-                height: 15vh;
-                position: relative; }
+                position: relative;
+                float: left; }
                 main.market aside ul li.senior section.content span.point_box span.counter div,
                 main.market aside ul li.senior section.content span.point_box span.counter span,
                 main.market aside ul li.senior section.content span.point_box span.counter p {
@@ -1758,10 +1736,10 @@ main.market {
                   display: inline-block;
                   line-height: calc(15vh / 3); }
                   main.market aside ul li.senior section.content span.point_box span.counter div.country {
-                    line-height: calc(13vh / 2 - 3px);
+                    line-height: calc((21vh / 2) - 3px);
                     margin: 0 0 3px 0; }
                   main.market aside ul li.senior section.content span.point_box span.counter div.live {
-                    line-height: calc(15vh - ((13vh / 2 - 3px) * 2)); }
+                    line-height: 3vh; }
                     main.market aside ul li.senior section.content span.point_box span.counter div.live span {
                       display: inline-block;
                       background: url(../images/market/game_icons.png) no-repeat;
@@ -1780,14 +1758,13 @@ main.market {
                         main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.yet.yet.yet {
                           background-position: -109x 0; }
               main.market aside ul li.senior section.content span.point_box span.num_group {
-                width: 60%;
-                -webkit-box-pack: end;
-                -ms-flex-pack: end;
-                justify-content: flex-end;
-                height: 15vh;
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex; }
+                width: 60%; }
+                main.market aside ul li.senior section.content span.point_box span.num_group.text_right {
+                  text-align: right; }
+                main.market aside ul li.senior section.content span.point_box span.num_group span.left {
+                  float: left; }
+                main.market aside ul li.senior section.content span.point_box span.num_group span.right {
+                  float: right; }
                 main.market aside ul li.senior section.content span.point_box span.num_group span div {
                   pointer-events: all; }
                   main.market aside ul li.senior section.content span.point_box span.num_group span div.active {
@@ -1801,51 +1778,36 @@ main.market {
                 main.market aside ul li.senior section.content span.point_box span.num_group span.three_side {
                   width: calc(100% / 3 - 3px);
                   text-align: center;
-                  height: 100%;
-                  margin: 0 3px 0 0; }
+                  margin: 0 3px 0 0;
+                  line-height: calc((21vh / 3) / 2); }
                   main.market aside ul li.senior section.content span.point_box span.num_group span.three_side div {
                     width: 100%;
-                    height: calc(13vh / 3 - 3px);
+                    height: calc(21vh / 3 - 3px);
                     margin: 0 0 3px 0; }
-                    main.market aside ul li.senior section.content span.point_box span.num_group span.three_side div p {
-                      margin: 0 0 0.5vh 0; }
                 main.market aside ul li.senior section.content span.point_box span.num_group span.two_side {
                   width: calc(100% / 3 - 3px);
                   text-align: center;
-                  height: 100%;
                   margin: 0 3px 0 0; }
                   main.market aside ul li.senior section.content span.point_box span.num_group span.two_side div {
                     width: 100%;
                     height: 50%;
-                    height: calc(13vh / 2 - 3px);
-                    margin: 0 0 3px 0; }
-                    main.market aside ul li.senior section.content span.point_box span.num_group span.two_side div p {
-                      margin: 0 0 1.5vh 0; }
+                    height: calc(21vh / 2 - 3px);
+                    margin: 0 0 3px 0;
+                    line-height: calc((21vh / 2 - 3px) / 2); }
+                    main.market aside ul li.senior section.content span.point_box span.num_group span.two_side div.solo_line {
+                      line-height: calc((21vh / 1 - 3px) / 2); }
                 main.market aside ul li.senior section.content span.point_box span.num_group div {
-                  display: inline-block;
-                  background-color: #f6f8ff;
-                  display: -webkit-box;
-                  display: -ms-flexbox;
-                  display: flex;
-                  -webkit-box-orient: vertical;
-                  -webkit-box-direction: normal;
-                  -ms-flex-direction: column;
-                  flex-direction: column;
-                  -webkit-box-pack: center;
-                  -ms-flex-pack: center;
-                  justify-content: center;
-                  -webkit-box-align: center;
-                  -ms-flex-align: center;
-                  align-items: center; }
+                  display: block;
+                  background-color: #f6f8ff; }
                   main.market aside ul li.senior section.content span.point_box span.num_group div p {
                     color: #838ba0;
-                    line-height: 1;
                     font-size: 1.7vh;
                     display: inline-block;
-                    font-weight: bold; }
+                    font-weight: bold;
+                    width: 100%; }
                   main.market aside ul li.senior section.content span.point_box span.num_group div span {
+                    width: 100%;
                     color: #1b255c;
-                    line-height: 1;
                     font-size: 1.7vh;
                     font-weight: bold; }
 
@@ -1877,22 +1839,19 @@ aside.bet_window {
   z-index: 500;
   position: fixed;
   top: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+  text-align: center; }
   aside.bet_window.active {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+    display: block; }
   aside.bet_window div.bet_page {
     background: #fff;
     display: inline-block;
     width: 80vw;
     border-radius: 13px;
-    position: relative; }
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
     aside.bet_window div.bet_page span.close {
       display: inline-block;
       position: absolute;
@@ -2148,29 +2107,13 @@ aside.set_window {
   background: rgba(0, 0, 0, 0.5);
   z-index: 500;
   position: fixed;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
   top: 0; }
   aside.set_window.active {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+    display: block; }
   aside.set_window ul.side_bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background: #f7f7f7; }
     aside.set_window ul.side_bar li {
       height: 7vh;
@@ -6885,9 +6828,6 @@ aside.help {
           -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
   aside.help .hellocard {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     background: #fff;
     margin: 0 4vw 0 4vw;
     width: 92vw;
@@ -6900,9 +6840,13 @@ aside.help {
       background-size: 100%;
       background-position: center;
       width: 50px;
-      height: 50px; }
+      height: 50px;
+      display: inline-block;
+      vertical-align: bottom; }
     aside.help .hellocard .hello {
-      margin: 0 0 0 8px; }
+      margin: 0 0 0 8px;
+      width: auto;
+      display: inline-block; }
       aside.help .hellocard .hello p:first-child {
         font-size: 20px;
         color: #1b255c; }

@@ -26,7 +26,6 @@ aside{
             }
         }
         .hellocard{
-            display: flex;
             background: #fff;
             margin: 0 4vw 0 4vw;
             width: 92vw;
@@ -40,10 +39,15 @@ aside{
                 background-position: center;
                 width: 50px;
                 height: 50px;
+                display: inline-block;
+                vertical-align: bottom;
             }
             .hello{
                 margin: 0 0 0 8px;
+                width: auto;
+                display: inline-block;
                 p{
+                    
                     &:first-child{
                         font-size: 20px;
                         color: #1b255c;
