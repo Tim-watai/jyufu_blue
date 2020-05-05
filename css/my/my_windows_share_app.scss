@@ -34,14 +34,15 @@ aside {
         }
   
         .donate_wrap {
-          // display: flex;
+
           width: 90%;
           background: #dbe3f8;
           margin: 0 auto;
           border-radius: 50px;
           padding: 6px 3% 7px 3%;
           line-height: 27px;
-          // justify-content: space-between;
+          overflow: hidden;
+          white-space: nowrap;
           div {
             background: url(../images/my/share_app/donates.png) no-repeat;
             background-size: 683%;
@@ -49,6 +50,8 @@ aside {
             height: 27px;
             display: inline-block;
             line-height: 27px;
+            vertical-align: middle;
+            margin: 0 calc(((80vw * 0.84) - 175px) / 6) 0 0;
           }
           .i1 {
             background-position: -0px 0;
@@ -136,25 +139,22 @@ aside {
           }
         }
         .img_wrap {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
+          text-align: center;
           margin: 4px 0 0 0;
           padding: 0 0 8px 0;
-          div {
-            //   display: inline-block;
-          }
           .phone_img {
             background: url(../images/my/share_app/phone.png) no-repeat;
             background-size: 100%;
             width: 160px;
             height: 180px;
+            margin: 0 auto;
           }
           .code_img {
             background: url(../images/my/share_app/qrcode.png) no-repeat;
             background-size: 100%;
             width: 100px;
             height: 100px;
+            margin: 0 auto;
           }
         }
       }
@@ -187,13 +187,12 @@ aside {
       width: 100%;
       .btn_group {
         background: #f7f7f7;
-        display: flex;
+
         padding: 22px 0 22px 0;
         .wrap {
           text-align: center;
-          display: flex;
           margin: 0 0 0 16px;
-          flex-direction: column;
+          display: inline-block;
           .c_wrap {
             display: inline-block;
             text-align: center;

@@ -69,9 +69,10 @@ aside {
         &.title {
           position: relative;
           .avatar_wrap {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+            // display: flex;
+            // align-items: center;
+            // justify-content: space-between;
+            line-height: 75px;
           }
           .avatar {
             background: url(../images/my/avatar.png) no-repeat;
@@ -80,6 +81,8 @@ aside {
             position: relative;
             width: 20vw;
             height: 20vw;
+            display: inline-block;
+            vertical-align: bottom;
             &:before {
               content: "";
               position: absolute;
@@ -97,17 +100,22 @@ aside {
               margin: 0 0 8px 3px;
             }
           }
-          button {
-            border-radius: 3px;
-            border: none;
-            color: #fff;
-            background: #7b8bd8;
-            padding: 5px 10px;
-            position: relative;
-            &.active {
-              border: 1px solid #e0e3f3;
-              background: #fff;
-              color: #b7c0d9;
+          .btn_wrap{
+            float: right;
+            line-height: 75px;
+            button {
+              border-radius: 3px;
+              border: none;
+              color: #fff;
+              background: #7b8bd8;
+              padding: 5px 10px;
+              position: relative;
+              vertical-align: middle;
+              &.active {
+                border: 1px solid #e0e3f3;
+                background: #fff;
+                color: #b7c0d9;
+              }
             }
           }
         }

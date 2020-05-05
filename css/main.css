@@ -4216,22 +4216,16 @@ aside.my_data_edit {
       aside.my_data_edit ul li.title {
         position: relative; }
         aside.my_data_edit ul li.title .avatar_wrap {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-          -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-          justify-content: space-between; }
+          line-height: 75px; }
         aside.my_data_edit ul li.title .avatar {
           background: url(../images/my/avatar.png) no-repeat;
           background-size: 100%;
           background-position: center;
           position: relative;
           width: 20vw;
-          height: 20vw; }
+          height: 20vw;
+          display: inline-block;
+          vertical-align: bottom; }
           aside.my_data_edit ul li.title .avatar:before {
             content: "";
             position: absolute;
@@ -4244,17 +4238,21 @@ aside.my_data_edit {
             background-position: center; }
         aside.my_data_edit ul li.title p:first-child {
           margin: 0 0 8px 3px; }
-        aside.my_data_edit ul li.title button {
-          border-radius: 3px;
-          border: none;
-          color: #fff;
-          background: #7b8bd8;
-          padding: 5px 10px;
-          position: relative; }
-          aside.my_data_edit ul li.title button.active {
-            border: 1px solid #e0e3f3;
-            background: #fff;
-            color: #b7c0d9; }
+        aside.my_data_edit ul li.title .btn_wrap {
+          float: right;
+          line-height: 75px; }
+          aside.my_data_edit ul li.title .btn_wrap button {
+            border-radius: 3px;
+            border: none;
+            color: #fff;
+            background: #7b8bd8;
+            padding: 5px 10px;
+            position: relative;
+            vertical-align: middle; }
+            aside.my_data_edit ul li.title .btn_wrap button.active {
+              border: 1px solid #e0e3f3;
+              background: #fff;
+              color: #b7c0d9; }
       aside.my_data_edit ul li.name p:last-child {
         color: #4d515d; }
       aside.my_data_edit ul li.arrow:before {
@@ -5694,14 +5692,18 @@ aside.my_windows_share_app {
         margin: 0 auto;
         border-radius: 50px;
         padding: 6px 3% 7px 3%;
-        line-height: 27px; }
+        line-height: 27px;
+        overflow: hidden;
+        white-space: nowrap; }
         aside.my_windows_share_app .box .box_wrap .donate_wrap div {
           background: url(../images/my/share_app/donates.png) no-repeat;
           background-size: 683%;
           width: 25px;
           height: 27px;
           display: inline-block;
-          line-height: 27px; }
+          line-height: 27px;
+          vertical-align: middle;
+          margin: 0 calc(((80vw * 0.84) - 175px) / 6) 0 0; }
         aside.my_windows_share_app .box .box_wrap .donate_wrap .i1 {
           background-position: -0px 0; }
         aside.my_windows_share_app .box .box_wrap .donate_wrap .i2 {
@@ -5778,28 +5780,21 @@ aside.my_windows_share_app {
           vertical-align: bottom;
           line-height: 15px; }
       aside.my_windows_share_app .box .box_wrap .img_wrap {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
+        text-align: center;
         margin: 4px 0 0 0;
         padding: 0 0 8px 0; }
         aside.my_windows_share_app .box .box_wrap .img_wrap .phone_img {
           background: url(../images/my/share_app/phone.png) no-repeat;
           background-size: 100%;
           width: 160px;
-          height: 180px; }
+          height: 180px;
+          margin: 0 auto; }
         aside.my_windows_share_app .box .box_wrap .img_wrap .code_img {
           background: url(../images/my/share_app/qrcode.png) no-repeat;
           background-size: 100%;
           width: 100px;
-          height: 100px; }
+          height: 100px;
+          margin: 0 auto; }
     aside.my_windows_share_app .box .footer_wrap {
       background: #fff;
       text-align: center; }
@@ -5824,20 +5819,11 @@ aside.my_windows_share_app {
     width: 100%; }
     aside.my_windows_share_app .box_footer .btn_group {
       background: #f7f7f7;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
       padding: 22px 0 22px 0; }
       aside.my_windows_share_app .box_footer .btn_group .wrap {
         text-align: center;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
         margin: 0 0 0 16px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column; }
+        display: inline-block; }
         aside.my_windows_share_app .box_footer .btn_group .wrap .c_wrap {
           display: inline-block;
           text-align: center;
@@ -6604,30 +6590,19 @@ aside.my_windwos_gift_record {
     overflow-y: scroll;
     padding: 0 0 100px 0; }
   aside.my_windwos_gift_record div .empty_page {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
+    text-align: center; }
     aside.my_windwos_gift_record div .empty_page .empty_icon {
       background: url(../images/my_mb/gift_record_empty.png) no-repeat;
       background-size: 100%;
       background-position: center;
       width: 50vw;
       height: 50vw;
-      margin: 40vw 0 0 0; }
+      margin: 40vw auto 0 auto; }
     aside.my_windwos_gift_record div .empty_page p {
       color: #838ba0;
       font-size: 4vw;
-      margin: 4vw 0 8vw 0; }
+      margin: 4vw 0 8vw 0;
+      display: inline-block; }
     aside.my_windwos_gift_record div .empty_page button {
       color: #fff;
       background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
