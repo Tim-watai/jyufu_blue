@@ -121,10 +121,10 @@ aside {
             border-bottom: none;
             div {
               &.line {
-                display: flex;
                 &.last.last {
                   border-bottom: none;
                   span {
+                   
                     &:before {
                       content: "";
                       position: absolute;
@@ -149,17 +149,18 @@ aside {
                         width: 3.5vw;
                         height: 3.5vw;
                         margin: 2vw 0 0 0;
+                        margin: 0 auto;
                       }
                     }
                   }
                 }
                 span {
                   width: 25%;
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
+                  text-align: center;
+                  display: inline-block;
                   margin: 3vw 0 3vw 0;
                   position: relative;
+                  margin-right: -4px;
                   &.active {
                     p {
                       em {
@@ -226,12 +227,12 @@ aside {
                     background: #e0e3f3;
                   }
                   p {
-                    display: inline-block;
                     line-height: 1;
                     &:first-child {
                       color: #4d515d;
                       font-size: 3.5vw;
                       position: relative;
+                      display: inline-block;
                     }
                     &:last-child {
                       color: #838ba0;
@@ -307,8 +308,6 @@ aside {
             }
           }
           &.box {
-            display: flex;
-            justify-content: space-between;
             line-height: 1;
             padding: 8px 0;
             width: 94vw;
@@ -317,6 +316,7 @@ aside {
               font-size: 15px;
               font-weight: lighter;
               padding: 9px 0 9px 0;
+              display: inline-block;
             }
             .drow_box {
               width: 60vw;
@@ -328,6 +328,7 @@ aside {
               font-weight: lighter;
               padding: 8px 0 8px 0;
               position: relative;
+              float: right;
               &:before {
                 content: "";
                 background: url(../images/icon/arrow_lg.png) no-repeat;
@@ -343,8 +344,6 @@ aside {
             }
           }
           &.input_area {
-            display: flex;
-            justify-content: space-between;
             line-height: 1;
             padding: 8px 0;
             input {
@@ -354,9 +353,12 @@ aside {
               font-weight: lighter;
               width: 65vw;
               padding: 7px 0 7px 3vw;
+              display: inline-block;
             }
             p {
               padding: 9px 0 9px 0;
+              display: inline-block;
+              float: right;
             }
           }
         }
@@ -406,8 +408,6 @@ aside {
               &.content {
                 padding: 16px 6vw 16px 6vw;
                 .box {
-                  display: flex;
-                  justify-content: space-between;
                   line-height: 1;
                   margin: 0 0 20px 0;
                   p {
@@ -415,6 +415,7 @@ aside {
                     font-size: 17px;
                     font-weight: lighter;
                     padding: 9px 0 9px 0;
+                    display: inline-block;
                   }
                   .drow_box {
                     width: 60vw;
@@ -426,6 +427,7 @@ aside {
                     font-weight: lighter;
                     padding: 8px 0 8px 0;
                     position: relative;
+                    float: right;
                     &:before {
                       content: "";
                       background: url(../images/icon/arrow_lg.png) no-repeat;
@@ -441,8 +443,6 @@ aside {
                   }
                 }
                 .input_area {
-                  display: flex;
-                  justify-content: space-between;
                   line-height: 1;
                   margin: 0 0 20px 0;
                   input {
@@ -452,6 +452,7 @@ aside {
                     font-weight: lighter;
                     width: 65vw;
                     padding: 7px 0 7px 3vw;
+                    
                     &::placeholder {
                       line-height: 1;
                       font-size: 16px;
@@ -461,6 +462,8 @@ aside {
                   }
                   p {
                     padding: 9px 0 9px 0;
+                    float: right;
+                    display: inline-block;
                   }
                 }
                 button {
@@ -518,8 +521,7 @@ aside {
                 }
               }
               &.button_area{
-                display: flex;
-                justify-content: space-between;
+                white-space: nowrap;
                 button{
                     border-radius: 0 0 15px 15px;
                     width: 50%;
@@ -529,8 +531,10 @@ aside {
                     font-size: 16px;
                     color: #4d515d;
                     position: relative;
+                    display: inline-block;
                     &:first-child{
                         letter-spacing: 5px;
+                        margin: 0 -4px 0 0;
                         &:before{
                             content:'';
                             position: absolute;
@@ -539,6 +543,7 @@ aside {
                             width: 1px;
                             height: 100%;
                             background: #e0e3f3;
+                            z-index: 1;
                         }
                     }
                 }
@@ -571,11 +576,9 @@ aside {
                 padding: 20px 0 20px 0;
                 border-bottom: 1px solid #e0e3f3;
                 text-align: center;
+                line-height: 30px;
                 
                 .fail_title{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
                     .fail_icon{
                         background:url(./../images/icon/transfer_fail.png)no-repeat;
                         background-size: 100%;
@@ -583,15 +586,19 @@ aside {
                         width: 30px;
                         height: 30px;
                         margin: 0 10px 0 0;
+                        display: inline-block;
+                        vertical-align: middle;
                     }
                     p{
                         font-weight: 600;
+                        display: inline-block;
+                        vertical-align: middle;
                     }
                 }
               }
               &.button_area{
-                display: flex;
-                justify-content: space-between;
+                white-space: nowrap;
+                overflow: hidden;
                 button{
                     border-radius: 0 0 15px 15px;
                     width: 50%;
@@ -601,8 +608,10 @@ aside {
                     font-size: 16px;
                     color: #4d515d;
                     position: relative;
+                    display: inline-block;
                     &:first-child{
                         letter-spacing: 5px;
+                        margin: 0 -4px 0 0;
                         &:before{
                             content:'';
                             position: absolute;
@@ -611,6 +620,7 @@ aside {
                             width: 1px;
                             height: 100%;
                             background: #e0e3f3;
+                            z-index: 1;
                         }
                     }
                 }

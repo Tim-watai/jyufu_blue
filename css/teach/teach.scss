@@ -96,7 +96,8 @@ aside {
           overflow: hidden;
           height: 100px;
           .wrap {
-            display: flex;
+            // display: flex;
+            line-height: 37px;
             &:first-child {
               float: left;
               .name {

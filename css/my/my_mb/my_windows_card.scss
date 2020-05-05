@@ -149,9 +149,9 @@ aside{
 
                     
                     li{
-                        display: flex;
                         padding: 10px 3vw 10px 3vw;
                         border-bottom: 1px solid #e0e3f3;
+                        line-height: 29px;
                         &:last-child{
                           border-bottom: none;
                         }
@@ -178,8 +178,14 @@ aside{
                                 }
                             }
                         }
+                        .right{
+                          float: right;
+                        }
                         p{
                             color: #4d515d;
+                            display: inline-block;
+                            vertical-align: middle;
+                            line-height: 1;
                         }
                         input{
                             border: 1px solid #b9bfdc;
