@@ -2741,6 +2741,9 @@ div.window_double_mode {
                   font-weight: bold;
                   border-radius: 8px;
                   border: 1px solid #f7f8ff; }
+                  div.window_double_mode div.all_box div.content ul li.computer div.inner span.nums p.empty {
+                    margin: 0;
+                    border: 0px solid transparent; }
               div.window_double_mode div.all_box div.content ul li.computer div.inner span.uses {
                 width: 30%;
                 height: 100%;

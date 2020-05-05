@@ -296,6 +296,10 @@ div {
                             font-weight: bold;
                             border-radius: 8px;
                             border: 1px solid #f7f8ff;
+                            &.empty{
+                              margin: 0;
+                              border: 0px solid transparent;
+                            }
                           }
                         }
                         &.uses {
