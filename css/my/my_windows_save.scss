@@ -174,14 +174,21 @@ aside{
             div{
               &.save_type{
                 &.choice_type{
+                  
                   .wrap{
-                    padding: 0 5vw 0 3vw;
+                    padding: 0 3vw 0;
+                    text-align: left;
                     span{
                       background: url(../images/my_mb/wechats.png)no-repeat;
                       background-size: 200%;
                       background-position: 0 0;
                       width: 20px;
                       height: 20px;
+                      line-height: 20px;
+                      vertical-align: middle;
+                    }
+                    p{
+                      float: right;
                     }
                     &:hover,
                     &:active,
