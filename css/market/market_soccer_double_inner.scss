@@ -12,6 +12,10 @@ header {
       background: url(../images/double_inner/header_bg_basketball.png)no-repeat;
       background-size: 100%;
     }
+    &.tb{
+      background: url(../images/double_inner/header_bg_tb.png)no-repeat;
+      background-size: 100%;
+    }
     ul {
       background: none;
       border: none;
@@ -349,6 +353,9 @@ main {
                 display: inline-block;
                 vertical-align: middle;
                 color: #4d515d;
+                &.t_c{
+                  text-align: center;
+                }
                 
                 &.fr {
                   float: right;

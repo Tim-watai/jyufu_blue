@@ -2953,6 +2953,9 @@ header.double_inner {
   header.double_inner.nba {
     background: url(../images/double_inner/header_bg_basketball.png) no-repeat;
     background-size: 100%; }
+  header.double_inner.tb {
+    background: url(../images/double_inner/header_bg_tb.png) no-repeat;
+    background-size: 100%; }
   header.double_inner ul {
     background: none;
     border: none;
@@ -3215,6 +3218,8 @@ main.double_inner_page {
               display: inline-block;
               vertical-align: middle;
               color: #4d515d; }
+              main.double_inner_page ul li div.content span p.t_c {
+                text-align: center; }
               main.double_inner_page ul li div.content span p.fr {
                 float: right;
                 line-height: 40px; }
