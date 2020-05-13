@@ -2974,6 +2974,21 @@ header.double_inner {
   header.double_inner.lot {
     background: url(../images/double_inner/header_bg_lot.png) no-repeat;
     background-size: cover; }
+  header.double_inner.vol {
+    background: url(../images/double_inner/header_bg_vol.png) no-repeat;
+    background-size: cover; }
+  header.double_inner.sno {
+    background: url(../images/double_inner/header_bg_sno.png) no-repeat;
+    background-size: cover;
+    background-position: center; }
+  header.double_inner.bas {
+    background: url(../images/double_inner/header_bg_bas.png) no-repeat;
+    background-size: cover;
+    background-position: center; }
+  header.double_inner.ten {
+    background: url(../images/double_inner/header_bg_ten.png) no-repeat;
+    background-size: cover;
+    background-position: center; }
   header.double_inner ul {
     background: none;
     border: none;
@@ -3011,7 +3026,7 @@ header.double_inner {
     header.double_inner section article.game_data {
       width: 100%;
       height: 15vh;
-      padding: 0 5vw; }
+      padding: 0 3vw; }
       header.double_inner section article.game_data div {
         width: 45%;
         display: inline-block;
@@ -3077,6 +3092,26 @@ header.double_inner {
               height: 40px;
               margin: 0 0 6px 0;
               background: url(../images/double_inner/bea_t.png) no-repeat;
+              background-size: 200%; }
+            header.double_inner section article.game_data div span.wrap span.t1 {
+              background-position: 0px 0; }
+            header.double_inner section article.game_data div span.wrap span.t2 {
+              background-position: -40px 0; }
+            header.double_inner section article.game_data div span.wrap span.vol {
+              width: 40px;
+              height: 40px;
+              margin: 0 0 6px 0;
+              background: url(../images/double_inner/vol_t.png) no-repeat;
+              background-size: 200%; }
+            header.double_inner section article.game_data div span.wrap span.t1 {
+              background-position: 0px 0; }
+            header.double_inner section article.game_data div span.wrap span.t2 {
+              background-position: -40px 0; }
+            header.double_inner section article.game_data div span.wrap span.bas {
+              width: 40px;
+              height: 40px;
+              margin: 0 0 6px 0;
+              background: url(../images/double_inner/bas_t.png) no-repeat;
               background-size: 200%; }
             header.double_inner section article.game_data div span.wrap span.t1 {
               background-position: 0px 0; }
