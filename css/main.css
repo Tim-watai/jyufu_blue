@@ -2989,6 +2989,14 @@ header.double_inner {
     background: url(../images/double_inner/header_bg_ten.png) no-repeat;
     background-size: cover;
     background-position: center; }
+  header.double_inner.mot {
+    background: url(../images/double_inner/header_bg_mot.png) no-repeat;
+    background-size: cover;
+    background-position: center; }
+  header.double_inner.hor {
+    background: url(../images/double_inner/header_bg_hor.png) no-repeat;
+    background-size: cover;
+    background-position: center; }
   header.double_inner ul {
     background: none;
     border: none;

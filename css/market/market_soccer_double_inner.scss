@@ -59,6 +59,16 @@ header {
       background-size: cover;
       background-position: center;
     }
+    &.mot{
+      background: url(../images/double_inner/header_bg_mot.png)no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &.hor{
+      background: url(../images/double_inner/header_bg_hor.png)no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
     ul {
       background: none;
       border: none;
