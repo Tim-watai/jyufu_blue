@@ -2956,6 +2956,15 @@ header.double_inner {
   header.double_inner.tb {
     background: url(../images/double_inner/header_bg_tb.png) no-repeat;
     background-size: 100%; }
+  header.double_inner.ice {
+    background: url(../images/double_inner/header_bg_ice.png) no-repeat;
+    background-size: 100%; }
+  header.double_inner.bad {
+    background: url(../images/double_inner/header_bg_bad.png) no-repeat;
+    background-size: 100%; }
+  header.double_inner.bea {
+    background: url(../images/double_inner/header_bg_bea.png) no-repeat;
+    background-size: 100%; }
   header.double_inner ul {
     background: none;
     border: none;
@@ -2968,7 +2977,7 @@ header.double_inner {
         background-color: #fff; }
       header.double_inner ul.market li.title {
         color: #fff;
-        font-size: 2.5vh; }
+        font-size: 2.1vh; }
         header.double_inner ul.market li.title span {
           border-color: #fff transparent transparent transparent; }
   header.double_inner section {
@@ -3035,6 +3044,26 @@ header.double_inner {
               height: 40px;
               margin: 0 0 6px 0;
               background: url(../images/double_inner/nba_t.png) no-repeat;
+              background-size: 200%; }
+            header.double_inner section article.game_data div span.wrap span.t1 {
+              background-position: 0px 0; }
+            header.double_inner section article.game_data div span.wrap span.t2 {
+              background-position: -40px 0; }
+            header.double_inner section article.game_data div span.wrap span.bad {
+              width: 40px;
+              height: 40px;
+              margin: 0 0 6px 0;
+              background: url(../images/double_inner/bad_t.png) no-repeat;
+              background-size: 200%; }
+            header.double_inner section article.game_data div span.wrap span.t1 {
+              background-position: 0px 0; }
+            header.double_inner section article.game_data div span.wrap span.t2 {
+              background-position: -40px 0; }
+            header.double_inner section article.game_data div span.wrap span.bea {
+              width: 40px;
+              height: 40px;
+              margin: 0 0 6px 0;
+              background: url(../images/double_inner/bea_t.png) no-repeat;
               background-size: 200%; }
             header.double_inner section article.game_data div span.wrap span.t1 {
               background-position: 0px 0; }

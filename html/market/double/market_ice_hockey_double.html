@@ -14,7 +14,7 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-   
+
 
     <title>Ready</title>
 </head>
@@ -25,14 +25,21 @@
             <li class="back"> <a href="../../../index.html"></a></li>
             <li class="title">今日<span></span></li>
             <li class="search"> </li>
-            <li class="wallet"><div class="balance"><p>可投注餘額</p><p>NT$0.00</p></div></li>
+            <li class="wallet">
+                <div class="balance">
+                    <p>可投注餘額</p>
+                    <p>NT$0.00</p>
+                </div>
+            </li>
+
         </ul>
     </header>
-     <!--讓kinds的滑動停在桌球-->
+    <!--585-->
+     <!--讓kinds的滑動停在冰球-->
      <script>
         $(document).ready(function() {
           console.log("esport.js");
-          $("nav.kinds ul").scrollLeft(930);
+          $("nav.kinds ul").scrollLeft(585);
         }); //total
       </script>
      <nav class="kinds">
@@ -72,7 +79,7 @@
                 <span class="num">(96)</span>
                 <a href="./market_soccer.html"></a>
             </li>
-    
+
             <li>
                 <div>
                     <span class="kind_icon basketball">
@@ -82,7 +89,7 @@
                 <span class="num">(96)</span>
                 <a href="./market_basketball.html"></a>
             </li>
-    
+
             <li>
                 <div>
                     <span class="kind_icon horse">
@@ -119,7 +126,7 @@
                 <span class="num">(96)</span>
                 <a href="./market_lottery.html"></a>
             </li>
-            <li>
+            <li class="active">
                 <div>
                     <span class="kind_icon ice_ball">
                     </span>
@@ -191,7 +198,7 @@
                 <span class="num">(96)</span>
                 <a href="./market_football.html"></a>
             </li>
-            <li class="active">
+            <li>
                 <div>
                     <span class="kind_icon table_tennis">
                     </span>
@@ -209,8 +216,11 @@
                 <span class="num">(96)</span>
                 <a href="./market_beach_soccer.html"></a>
             </li>
+
+
         </ul>
-      </nav>
+    </nav>
+
     <main class="market early_page">
         <aside>
             <section class="status yet">
@@ -221,8 +231,10 @@
             </section>
             <article class="option">
                 <div class="game_type">
-                    <p>桌球</p> <span>(96)</span>
+                    <p>棒球</p> <span>(96)</span>
+
                 </div>
+
                 <div class="mode">
                     <span class="active beginner">
                         <p>新手版</p>
@@ -230,13 +242,13 @@
                     <span class="senior">
                         <p>專業版</p>
                     </span>
+
                 </div>
             </article>
             <ul>
-               
                 <li class="beginner">
                     <span class="title">
-                        <p>FNTR莫斯科公開賽</p>
+                        <p>MHL大陸冰球聯賽-不包括加時賽與點球賽</p>
                         <span class="down_arrow"></span>
                     </span>
                     <section class="content">
@@ -254,25 +266,31 @@
                         </span>
                         <span class="counter">
                             <div class="country">
-                             
-                                <p class="name">Dmitry Tikhnenko</p>
+                                <p class="name">烏法托爾帕爾</p>
                             </div>
                             <p class="mid">vs</p>
                             <div class="country">
-
-                                <p class="name">Artem Aronov</p>
+                                <p class="name">橫瑪格尼托哥爾斯</p>
+                               
                             </div>
                         </span>
                         <span class="num_group two_mode">
-                            <div class="m_win">
-                                <span>1.44</span>
+                      
+                            <div class="tie">
+                                <span>4.70</span>
                             </div>
                             <div class="a_win">
                                 <span>4.70</span>
                             </div>
                         </span>
                     </section>
-                     <section class="content">
+                </li>
+                <li class="beginner">
+                    <span class="title">
+                        <p>VHL大陸冰球聯賽-不包括加時賽與點球賽</p>
+                        <span class="down_arrow"></span>
+                    </span>
+                    <section class="content">
                         <span class="time_more">
                             <div class="icon_game"></div>
                             <div class="icon_live"></div>
@@ -287,25 +305,25 @@
                         </span>
                         <span class="counter">
                             <div class="country">
-                             
-                                <p class="name">Alexey Agapov</p>
+                                <p class="name">漢特曼西</p>
                             </div>
                             <p class="mid">vs</p>
                             <div class="country">
-
-                                <p class="name">Andrey Titov</p>
+                                <p class="name">魯賓</p>
+                               
                             </div>
                         </span>
                         <span class="num_group two_mode">
-                            <div class="m_win">
-                                <span>1.44</span>
+                      
+                            <div class="tie">
+                                <span>4.70</span>
                             </div>
                             <div class="a_win">
                                 <span>4.70</span>
                             </div>
                         </span>
                     </section>
-                     <section class="content">
+                    <section class="content">
                         <span class="time_more">
                             <div class="icon_game"></div>
                             <div class="icon_live"></div>
@@ -320,25 +338,25 @@
                         </span>
                         <span class="counter">
                             <div class="country">
-                             
-                                <p class="name">Rashid Minigulov</p>
+                                <p class="name">涅夫截尼克</p>
                             </div>
                             <p class="mid">vs</p>
                             <div class="country">
-
-                                <p class="name">Vladimir Selkin</p>
+                                <p class="name">聖彼得堡迪納摩</p>
+                               
                             </div>
                         </span>
                         <span class="num_group two_mode">
-                            <div class="m_win">
-                                <span>1.44</span>
+                      
+                            <div class="tie">
+                                <span>4.70</span>
                             </div>
                             <div class="a_win">
                                 <span>4.70</span>
                             </div>
                         </span>
                     </section>
-                     <section class="content">
+                    <section class="content">
                         <span class="time_more">
                             <div class="icon_game"></div>
                             <div class="icon_live"></div>
@@ -353,98 +371,104 @@
                         </span>
                         <span class="counter">
                             <div class="country">
-                             
-                                <p class="name">Aleksandr Alekseev</p>
+                                <p class="name">雪豹</p>
                             </div>
                             <p class="mid">vs</p>
                             <div class="country">
-
-                                <p class="name">Artem Aronov</p>
+                                <p class="name">涅瓦陸軍</p>
+                               
                             </div>
                         </span>
                         <span class="num_group two_mode">
-                            <div class="m_win">
-                                <span>1.44</span>
+                      
+                            <div class="tie">
+                                <span>4.70</span>
                             </div>
                             <div class="a_win">
                                 <span>4.70</span>
                             </div>
                         </span>
                     </section>
-                     <section class="content">
+                </li>
+              
+                <li class="senior">
+                    <span class="title">
+                        <p>MHL大陸冰球聯賽-不包括加時賽與點球賽</p>
+                        <span class="down_arrow"></span>
+                    </span>
+                    <section class="content">
+                        <div class="senior_mode">
+                            <span>
+                                <p>全場獨贏</p>
+                                <p>全場讓球</p>
+                                <p>全場大小</p>
+                            </span>
+                        </div>
                         <span class="time_more">
-                            <div class="icon_game"></div>
-                            <div class="icon_live"></div>
                             <span class="time">02<p>月</p>06<p>日</p> 03:45</span>
                             <div class="timing">00:00</div>
                             <div class="more">
-                                <p>更多</p>
-                                <span class="num">(99)</span>
+                                <p>17</p>
+                                <span class="num">+</span>
                                 <span class="right_arrow"></span>
                             </div>
-
                         </span>
-                        <span class="counter">
-                            <div class="country">
-                             
-                                <p class="name">Vladimir Nemashkalo</p>
-                            </div>
-                            <p class="mid">vs</p>
-                            <div class="country">
+                        <span class="point_box">
+                            <span class="counter">
 
-                                <p class="name">Alexey Agapov</p>
-                            </div>
-                        </span>
-                        <span class="num_group two_mode">
-                            <div class="m_win">
-                                <span>1.44</span>
-                            </div>
-                            <div class="a_win">
-                                <span>4.70</span>
-                            </div>
+                                <div class="country">
+                                    <p class="name">烏法托爾帕爾</p>
+                                </div>
+
+                                <div class="country">
+                                    <p class="name">橫瑪格尼托哥爾斯</p>
+                                </div>
+                                <div class="live">
+                                    <span class="icon_game"></span>
+                                    <span class="icon_live"></span>
+                                </div>
+                            </span>
+                            <span class="num_group">
+                                <span class="two_side left">
+                                   
+                                    <div class="solo_line">
+                                        <span>4.70</span>
+                                    </div>
+                                    <div class="solo_line">
+                                        <span>4.70</span>
+                                    </div>
+                                </span>
+                                <span class="two_side">
+                                    <div class="m_win">
+                                        <p>-1/1.5</p>
+                                        <span>2.05</span>
+                                    </div>
+                                    <div class="a_win">
+                                        <p>+1/1.5</p>
+                                        <span>1.88</span>
+                                    </div>
+                                </span>
+                                <span class="two_side right">
+                                    <div class="m_win">
+                                        <p>大3</p>
+                                        <span>1.99</span>
+                                    </div>
+                                    <div class="a_win">
+                                        <p>小3</p>
+                                        <span>1.91</span>
+                                    </div>
+                                </span>
+                            </span>
                         </span>
                     </section>
-                     <section class="content">
-                        <span class="time_more">
-                            <div class="icon_game"></div>
-                            <div class="icon_live"></div>
-                            <span class="time">02<p>月</p>06<p>日</p> 03:45</span>
-                            <div class="timing">00:00</div>
-                            <div class="more">
-                                <p>更多</p>
-                                <span class="num">(99)</span>
-                                <span class="right_arrow"></span>
-                            </div>
-
-                        </span>
-                        <span class="counter">
-                            <div class="country">
-                             
-                                <p class="name">Oleg Melkov</p>
-                            </div>
-                            <p class="mid">vs</p>
-                            <div class="country">
-
-                                <p class="name">Anton Mohnachev</p>
-                            </div>
-                        </span>
-                        <span class="num_group two_mode">
-                            <div class="m_win">
-                                <span>1.44</span>
-                            </div>
-                            <div class="a_win">
-                                <span>4.70</span>
-                            </div>
-                        </span>
                     </section>
                 </li>
                 <li class="senior">
                     <span class="title">
-                        <p>FNTR莫斯科公開賽</p>
+                        <p>VHL大陸冰球聯賽-不包括加時賽與點球賽</p>
                         <span class="down_arrow"></span>
                     </span>
                     <section class="content">
-                        <a href="../double/market_table_tennis_double_inner.html"></a>
                         <div class="senior_mode">
                             <span>
                                 <p>全場獨贏</p>
@@ -465,11 +489,11 @@
                             <span class="counter">
 
                                 <div class="country">
-                                    <p class="name">Dmitry Tikhnenko</p>
+                                    <p class="name">漢特曼西</p>
                                 </div>
 
                                 <div class="country">
-                                    <p class="name">Artem Aronov</p>
+                                    <p class="name">魯賓</p>
                                 </div>
                                 <div class="live">
                                     <span class="icon_game"></span>
@@ -478,8 +502,9 @@
                             </span>
                             <span class="num_group">
                                 <span class="two_side left">
+                                   
                                     <div class="solo_line">
-                                        <span>1.44</span>
+                                        <span>4.70</span>
                                     </div>
                                     <div class="solo_line">
                                         <span>4.70</span>
@@ -509,13 +534,6 @@
                         </span>
                     </section>
                     <section class="content">
-                        <div class="senior_mode">
-                            <span>
-                                <p>全場獨贏</p>
-                                <p>全場讓球</p>
-                                <p>全場大小</p>
-                            </span>
-                        </div>
                         <span class="time_more">
                             <span class="time">02<p>月</p>06<p>日</p> 03:45</span>
                             <div class="timing">00:00</div>
@@ -529,11 +547,11 @@
                             <span class="counter">
 
                                 <div class="country">
-                                    <p class="name">Alexey Agapov</p>
+                                    <p class="name">涅夫截尼克</p>
                                 </div>
 
                                 <div class="country">
-                                    <p class="name">Andrey Titov</p>
+                                    <p class="name">聖彼得堡迪納摩</p>
                                 </div>
                                 <div class="live">
                                     <span class="icon_game"></span>
@@ -542,11 +560,12 @@
                             </span>
                             <span class="num_group">
                                 <span class="two_side left">
+
                                     <div class="solo_line">
-                                        <span>1.44</span>
+                                        <span>4.80</span>
                                     </div>
                                     <div class="solo_line">
-                                        <span>4.70</span>
+                                        <span>8.00</span>
                                     </div>
                                 </span>
                                 <span class="two_side">
@@ -573,13 +592,7 @@
                         </span>
                     </section>
                     <section class="content">
-                        <div class="senior_mode">
-                            <span>
-                                <p>全場獨贏</p>
-                                <p>全場讓球</p>
-                                <p>全場大小</p>
-                            </span>
-                        </div>
+                        <a href="../../../html/market/double/market_ice_hockey_double_inner.html"></a>
                         <span class="time_more">
                             <span class="time">02<p>月</p>06<p>日</p> 03:45</span>
                             <div class="timing">00:00</div>
@@ -593,11 +606,11 @@
                             <span class="counter">
 
                                 <div class="country">
-                                    <p class="name">Rashid Minigulov</p>
+                                    <p class="name">雪豹</p>
                                 </div>
 
                                 <div class="country">
-                                    <p class="name">Vladimir Selkin</p>
+                                    <p class="name">涅瓦陸軍</p>
                                 </div>
                                 <div class="live">
                                     <span class="icon_game"></span>
@@ -606,11 +619,12 @@
                             </span>
                             <span class="num_group">
                                 <span class="two_side left">
+
                                     <div class="solo_line">
-                                        <span>1.44</span>
+                                        <span>4.80</span>
                                     </div>
                                     <div class="solo_line">
-                                        <span>4.70</span>
+                                        <span>8.00</span>
                                     </div>
                                 </span>
                                 <span class="two_side">
@@ -636,201 +650,22 @@
                             </span>
                         </span>
                     </section>
-                    <section class="content">
-                        <div class="senior_mode">
-                            <span>
-                                <p>全場獨贏</p>
-                                <p>全場讓球</p>
-                                <p>全場大小</p>
-                            </span>
-                        </div>
-                        <span class="time_more">
-                            <span class="time">02<p>月</p>06<p>日</p> 03:45</span>
-                            <div class="timing">00:00</div>
-                            <div class="more">
-                                <p>17</p>
-                                <span class="num">+</span>
-                                <span class="right_arrow"></span>
-                            </div>
-                        </span>
-                        <span class="point_box">
-                            <span class="counter">
-
-                                <div class="country">
-                                    <p class="name">Aleksandr Alekseev</p>
-                                </div>
-
-                                <div class="country">
-                                    <p class="name">Artem Aronov</p>
-                                </div>
-                                <div class="live">
-                                    <span class="icon_game"></span>
-                                    <span class="icon_live"></span>
-                                </div>
-                            </span>
-                            <span class="num_group">
-                                <span class="two_side left">
-                                    <div class="solo_line">
-                                        <span>1.44</span>
-                                    </div>
-                                    <div class="solo_line">
-                                        <span>4.70</span>
-                                    </div>
-                                </span>
-                                <span class="two_side">
-                                    <div class="m_win">
-                                        <p>-1/1.5</p>
-                                        <span>2.05</span>
-                                    </div>
-                                    <div class="a_win">
-                                        <p>+1/1.5</p>
-                                        <span>1.88</span>
-                                    </div>
-                                </span>
-                                <span class="two_side right">
-                                    <div class="m_win">
-                                        <p>大3</p>
-                                        <span>1.99</span>
-                                    </div>
-                                    <div class="a_win">
-                                        <p>小3</p>
-                                        <span>1.91</span>
-                                    </div>
-                                </span>
-                            </span>
-                        </span>
-                    </section>
-                    <section class="content">
-                        <div class="senior_mode">
-                            <span>
-                                <p>全場獨贏</p>
-                                <p>全場讓球</p>
-                                <p>全場大小</p>
-                            </span>
-                        </div>
-                        <span class="time_more">
-                            <span class="time">02<p>月</p>06<p>日</p> 03:45</span>
-                            <div class="timing">00:00</div>
-                            <div class="more">
-                                <p>17</p>
-                                <span class="num">+</span>
-                                <span class="right_arrow"></span>
-                            </div>
-                        </span>
-                        <span class="point_box">
-                            <span class="counter">
-
-                                <div class="country">
-                                    <p class="name">Vladimir Nemashkalo</p>
-                                </div>
-
-                                <div class="country">
-                                    <p class="name">Alexey Agapov</p>
-                                </div>
-                                <div class="live">
-                                    <span class="icon_game"></span>
-                                    <span class="icon_live"></span>
-                                </div>
-                            </span>
-                            <span class="num_group">
-                                <span class="two_side left">
-                                    <div class="solo_line">
-                                        <span>1.44</span>
-                                    </div>
-                                    <div class="solo_line">
-                                        <span>4.70</span>
-                                    </div>
-                                </span>
-                                <span class="two_side">
-                                    <div class="m_win">
-                                        <p>-1/1.5</p>
-                                        <span>2.05</span>
-                                    </div>
-                                    <div class="a_win">
-                                        <p>+1/1.5</p>
-                                        <span>1.88</span>
-                                    </div>
-                                </span>
-                                <span class="two_side right">
-                                    <div class="m_win">
-                                        <p>大3</p>
-                                        <span>1.99</span>
-                                    </div>
-                                    <div class="a_win">
-                                        <p>小3</p>
-                                        <span>1.91</span>
-                                    </div>
-                                </span>
-                            </span>
-                        </span>
-                    </section>
-                     <section class="content">
-                        <div class="senior_mode">
-                            <span>
-                                <p>全場獨贏</p>
-                                <p>全場讓球</p>
-                                <p>全場大小</p>
-                            </span>
-                        </div>
-                        <span class="time_more">
-                            <span class="time">02<p>月</p>06<p>日</p> 03:45</span>
-                            <div class="timing">00:00</div>
-                            <div class="more">
-                                <p>17</p>
-                                <span class="num">+</span>
-                                <span class="right_arrow"></span>
-                            </div>
-                        </span>
-                        <span class="point_box">
-                            <span class="counter">
-
-                                <div class="country">
-                                    <p class="name">Oleg Melkov</p>
-                                </div>
-
-                                <div class="country">
-                                    <p class="name">Anton Mohnachev</p>
-                                </div>
-                                <div class="live">
-                                    <span class="icon_game"></span>
-                                    <span class="icon_live"></span>
-                                </div>
-                            </span>
-                            <span class="num_group">
-                                <span class="two_side left">
-                                    <div class="solo_line">
-                                        <span>1.44</span>
-                                    </div>
-                                    <div class="solo_line">
-                                        <span>4.70</span>
-                                    </div>
-                                </span>
-                                <span class="two_side">
-                                    <div class="m_win">
-                                        <p>-1/1.5</p>
-                                        <span>2.05</span>
-                                    </div>
-                                    <div class="a_win">
-                                        <p>+1/1.5</p>
-                                        <span>1.88</span>
-                                    </div>
-                                </span>
-                                <span class="two_side right">
-                                    <div class="m_win">
-                                        <p>大3</p>
-                                        <span>1.99</span>
-                                    </div>
-                                    <div class="a_win">
-                                        <p>小3</p>
-                                        <span>1.91</span>
-                                    </div>
-                                </span>
-                            </span>
-                        </span>
                     </section>
                 </li>
+
             </ul>
         </aside>
+        <aside class="empty_game" style="display: none;">
+            <div class="wrap">
+                <div class="empty_icon"></div>
+                <p>尚無賽事</p>
+            </div>
+
+        </aside>
+        <aside class="loading" style="display: none;">
+            <div class="loading_icon"></div>
+        </aside>
+
 
 
     </main>
@@ -1249,8 +1084,8 @@
             </div>
         </div>
     </aside>
-    <!--串關功能頁-->
-    <div class="window_double_mode ">
+     <!--串關功能頁-->
+     <div class="window_double_mode ">
         <div class="all_box">
             <div class="double_mode">
                 <span class="box">
@@ -1412,8 +1247,6 @@
                 }
             });
     </script>
-
-  
     <script type="text/javascript" src="../../../js/market/market.js"></script>
 
 </body>

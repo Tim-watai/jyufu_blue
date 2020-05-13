@@ -27,10 +27,11 @@ $(document).ready(function() {
         .siblings()
         .removeClass("active");
     }
-
+    
     if ($(this).hasClass("beginner") === true) {
       $("main.market aside ul li.beginner").css("display", "block");
       $("main.market aside ul li.senior").css("display", "none");
+   
     } else if ($(this).hasClass("senior") === true) {
       $("main.market aside ul li.senior").css("display", "block");
       $("main.market aside ul li.beginner").css("display", "none");
