@@ -1,32 +1,44 @@
 header {
   &.double_inner {
-    height: 28vh;
+    height: 32.5vh;
     background: url(../images/double_inner/header_bg.png) no-repeat;
     background-size: cover;
     background-position: center center;
     &.esp{
       background: url(../images/double_inner/header_bg_esp.png)no-repeat;
-      background-size: 100%;
+      background-size: cover;
     }
     &.nba{
       background: url(../images/double_inner/header_bg_basketball.png)no-repeat;
-      background-size: 100%;
+      background-size: cover;
     }
     &.tb{
       background: url(../images/double_inner/header_bg_tb.png)no-repeat;
-      background-size: 100%;
+      background-size: cover;
     }
     &.ice{
       background: url(../images/double_inner/header_bg_ice.png)no-repeat;
-      background-size: 100%;
+      background-size: cover;
     }
     &.bad{
       background: url(../images/double_inner/header_bg_bad.png)no-repeat;
-      background-size: 100%;
+      background-size: cover;
     }
     &.bea{
       background: url(../images/double_inner/header_bg_bea.png)no-repeat;
-      background-size: 100%;
+      background-size: cover;
+    }
+    &.sto{
+      background: url(../images/double_inner/header_bg_sto.png)no-repeat;
+      background-size: cover;
+    }
+    &.foo{
+      background: url(../images/double_inner/header_bg_foo.png)no-repeat;
+      background-size: cover;
+    }
+    &.lot{
+      background: url(../images/double_inner/header_bg_lot.png)no-repeat;
+      background-size: cover;
     }
     ul {
       background: none;
@@ -98,7 +110,11 @@ header {
                 line-height: 1;
           //串關換對抗double_vs
                 span {
-
+                  &.empty{
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 0 6px 0;
+                  }
                   //足球
                   &.soccer{
                     width: 26px;
@@ -174,7 +190,7 @@ header {
                 p {
                   text-align: center;
                   color: #fff;
-                  font-size: 2.5vh;
+                  font-size: 2.1vh;
                 }
               }
             }
@@ -246,6 +262,13 @@ header {
           background: #fff;
           padding: 0 8vw 0 5vw;
           box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+          //關閉此群組add .no_use
+          &.no_use{
+            background: transparent;
+            .wrap{
+              display: none;
+            }
+          }
           .wrap{
             width: 25%;
             text-align: center;
