@@ -2447,12 +2447,13 @@ aside.now_bet_empty {
   z-index: 500;
   display: inline-block;
   position: fixed;
-  pointer-events: none;
-  opacity: 0;
-  text-align: center; }
+  pointer-events: a;
+  opacity: 1;
+  text-align: center;
+  top: 0;
+  display: none; }
   aside.now_bet_empty.active {
-    pointer-events: all;
-    opacity: 1; }
+    display: inline-block; }
   aside.now_bet_empty .wrap {
     position: absolute;
     -webkit-transform: translateY(-50%);

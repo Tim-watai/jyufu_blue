@@ -2070,12 +2070,13 @@ aside {
     z-index: 500;
     display: inline-block;
     position: fixed;
-    pointer-events: none;
-    opacity: 0;
+    pointer-events: all;
+    opacity: 1;
     text-align: center;
+    top: 0;
+    display: none;
     &.active {
-      pointer-events: all;
-      opacity: 1;
+      display: inline-block;
     }
     .wrap {
       position: absolute;
