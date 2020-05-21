@@ -1173,7 +1173,7 @@ main.market {
     height: 100%;
     position: relative; }
     main.market aside.loading .loading_icon {
-      background: url(../../images/message_page/wait.gif) no-repeat;
+      background: url(./../images/message_page/wait.gif) no-repeat;
       background-size: 100%;
       background-position: center;
       width: 60px;
@@ -1190,7 +1190,7 @@ main.market {
       display: inline-block;
       margin-top: 150px; }
       main.market aside.empty_game .wrap .empty_icon {
-        background: url(../../images/market/empty_game.png) no-repeat;
+        background: url(./../images/market/empty_game.png) no-repeat;
         background-size: 100%;
         background-position: center;
         width: 150px;
@@ -2447,7 +2447,7 @@ aside.now_bet_empty {
   z-index: 500;
   display: inline-block;
   position: fixed;
-  pointer-events: a;
+  pointer-events: all;
   opacity: 1;
   text-align: center;
   top: 0;

@@ -368,7 +368,7 @@ main {
         height: 100%;
         position: relative;
         .loading_icon {
-          background: url(../../images/message_page/wait.gif) no-repeat;
+          background: url(./../images/message_page/wait.gif) no-repeat;
           background-size: 100%;
           background-position: center;
           width: 60px;
@@ -385,7 +385,7 @@ main {
           display: inline-block;
           margin-top: 150px;
           .empty_icon {
-            background: url(../../images/market/empty_game.png) no-repeat;
+            background: url(./../images/market/empty_game.png) no-repeat;
             background-size: 100%;
             background-position: center;
             width: 150px;
