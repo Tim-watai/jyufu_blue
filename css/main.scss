@@ -162,12 +162,6 @@ header {
         background-size: 582%;
         background-position: -64px 0;
 
-        // top: 50%;
-        // transform: translateY(-50%);
-        // background: url(../images/message_icon.png) no-repeat;
-        // background-size: cover;
-        // background-position: center center;
-
         &.active {
           &:before {
             content: "";

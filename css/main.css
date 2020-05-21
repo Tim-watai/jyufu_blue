@@ -3983,42 +3983,6 @@ aside.my_windows {
         -webkit-transform: translate(-50%, -50%) rotate(-45deg);
         -ms-transform: translate(-50%, -50%) rotate(-45deg);
         transform: translate(-50%, -50%) rotate(-45deg); }
-    aside.my_windows div.header ul li.message_icon {
-      position: relative;
-      display: inline-block;
-      float: right;
-      width: 6vw;
-      height: 5vw;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      background: url(../images/message_icon.png) no-repeat;
-      background-size: cover;
-      background-position: center center; }
-      aside.my_windows div.header ul li.message_icon.active:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 23%;
-        height: 23%;
-        background-color: red;
-        border-radius: 100px; }
-    aside.my_windows div.header ul li.option {
-      position: relative;
-      display: inline-block;
-      float: right;
-      margin: 2px 5vw 0 0;
-      width: 4vw;
-      height: 4vw;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      background: url(../images/option.png) no-repeat;
-      background-size: cover;
-      background-position: center center; }
   aside.my_windows div.hellocard {
     width: 100%;
     height: calc(20vw + 7vh);
