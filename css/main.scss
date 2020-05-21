@@ -199,6 +199,12 @@ header {
           display: inline-block;
           vertical-align: middle;
           margin: 0 0 5px 4px;
+          transition: all 0.2s ease-in-out;
+        }
+        &.active{
+          span{
+            transform: rotate(180deg);
+          }
         }
       }
       &.option {

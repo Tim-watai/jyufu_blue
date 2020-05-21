@@ -1,5 +1,24 @@
 $(document).ready(function() {
   console.log('market.js');
+
+  //今日_滾球_早盤_串關
+  $("header ul li.title").click(function(){
+    console.log("title");
+   
+    if($(this).hasClass('active') != true){
+
+                $('aside.type_ch,aside.type_ch ul').addClass('active');
+                $(this).addClass('active');
+       return   $(this).parent().parent().css('z-index','502');
+    }else{
+                      $('aside.type_ch,aside.type_ch ul').removeClass('active');
+                      $(this).removeClass('active');
+          return      $(this).parent().parent().css('z-index','100');
+    }
+
+  });
+
+
   //抓取種類座標&定位
   // $("nav.kinds ul").scrollLeft(300);
   $("nav.kinds ul").scroll(

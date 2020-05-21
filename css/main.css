@@ -3643,6 +3643,53 @@ main.market aside ul li.motor_sport_li .wrap {
         main.market aside ul li.motor_sport_li .wrap .line_wrap span p:last-child {
           float: right; }
 
+aside.type_ch {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 500;
+  position: fixed;
+  top: 0;
+  font-size: 14px; }
+  aside.type_ch.active {
+    display: block; }
+  aside.type_ch ul {
+    background: #fff;
+    padding: 5vh 1.2em 0;
+    overflow: hidden;
+    height: 12.6vh;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+    aside.type_ch ul.active {
+      -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      transform: translateY(0%); }
+    aside.type_ch ul li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      line-height: 7.6vh; }
+      aside.type_ch ul li p {
+        line-height: 100%;
+        font-size: 1em;
+        vertical-align: middle;
+        display: inline-block;
+        color: #848ca4;
+        background: #fff;
+        border-radius: 4px;
+        padding: 0.5em 1.3em 0.5em;
+        border: 1px solid #ccd2dd;
+        position: relative; }
+        aside.type_ch ul li p:hover, aside.type_ch ul li p:active, aside.type_ch ul li p.active {
+          color: #fff;
+          background: #7b8bd7;
+          border: 1px solid transparent; }
+
 aside.set_pw {
   width: 100%;
   margin: calc(5vh + 10px) 0 0 0;
@@ -7845,7 +7892,14 @@ header {
           border-color: #4d515d transparent transparent transparent;
           display: inline-block;
           vertical-align: middle;
-          margin: 0 0 5px 4px; }
+          margin: 0 0 5px 4px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out; }
+        header ul li.title.active span {
+          -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
       header ul li.option {
         position: relative;
         display: inline-block;
