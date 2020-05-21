@@ -2024,24 +2024,57 @@ aside.bet_window {
           color: #4d515d; }
           aside.bet_window div.bet_page div.content div.be_win p span {
             color: #d46572; }
+      aside.bet_window div.bet_page div.content div.check {
+        font-size: 14px;
+        text-align: center;
+        padding: 1em 0 .5em; }
+        aside.bet_window div.bet_page div.content div.check .circle {
+          background: #344fcf;
+          position: relative;
+          width: 3em;
+          height: 3em;
+          border-radius: 100%;
+          display: inline-block; }
+          aside.bet_window div.bet_page div.content div.check .circle:before {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 0 .3em .3em 0;
+            border-color: transparent #fff #fff transparent;
+            top: 44%;
+            left: 57%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%) rotate(45deg);
+            width: 1em;
+            height: 1.5em; }
+        aside.bet_window div.bet_page div.content div.check p {
+          font-size: 1.2em;
+          color: #556de7;
+          font-weight: bold; }
+      aside.bet_window div.bet_page div.content div.check_detail {
+        font-size: 14px; }
+        aside.bet_window div.bet_page div.content div.check_detail .row {
+          overflow: hidden;
+          margin: 0 0 .5em; }
+        aside.bet_window div.bet_page div.content div.check_detail p {
+          font-size: 1.1em; }
+          aside.bet_window div.bet_page div.content div.check_detail p.left {
+            float: left;
+            color: #838da3; }
+          aside.bet_window div.bet_page div.content div.check_detail p.right {
+            float: right;
+            color: #4d515c; }
     aside.bet_window div.bet_page div.footer {
       position: relative;
       display: inline-block;
       width: 100%;
       height: 8vh;
+      line-height: 8vh;
       background: #556de7;
-      vertical-align: top;
-      border-radius: 0 0 13px 13px; }
-      aside.bet_window div.bet_page div.footer:before {
-        content: "投注";
-        position: absolute;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        left: 50%;
-        top: 50%;
-        color: #fff;
-        font-size: 7vw; }
+      border-radius: 0 0 13px 13px;
+      color: #fff;
+      font-size: 19px; }
 
 aside.set_window {
   display: none;
