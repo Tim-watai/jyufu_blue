@@ -1135,26 +1135,6 @@ nav section div {
   position: relative;
   white-space: nowrap;
   background: #fff; }
-  nav section div span.yet {
-    display: inline-block;
-    background: url(../images/market/yet.png);
-    background-size: cover;
-    background-position: center center;
-    width: 15px;
-    height: 15px;
-    vertical-align: middle;
-    line-height: 17px;
-    margin: 0 0 4px 0; }
-  nav section div span.doing {
-    display: inline-block;
-    background: url(../images/market/doing.png);
-    background-size: cover;
-    background-position: center center;
-    width: 15px;
-    height: 15px;
-    vertical-align: middle;
-    line-height: 17px;
-    margin: 0 0 4px 0; }
   nav section div p {
     display: inline-block;
     color: #4d515d;
@@ -1200,13 +1180,25 @@ main.market {
         color: #838ba0; }
   main.market aside section.status {
     background: #fff; }
-    main.market aside section.status div span {
-      width: 15px;
-      height: 15px;
-      vertical-align: middle;
-      line-height: 17px;
-      margin: 0 0 4px 0;
-      display: inline-block; }
+    main.market aside section.status div {
+      margin: 0 0 0 3vw;
+      line-height: 3vh;
+      width: 100%;
+      height: 3vh;
+      position: relative; }
+      main.market aside section.status div span {
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+        line-height: 17px;
+        margin: 0 0 4px 0;
+        display: inline-block; }
+      main.market aside section.status div p {
+        display: inline-block;
+        color: #4d515d;
+        font-family: "my_font";
+        font-size: 1.9vh;
+        line-height: 3vh; }
     main.market aside section.status.yet {
       border-top: 2px solid #ef6b5d; }
       main.market aside section.status.yet div span {
@@ -1228,28 +1220,6 @@ main.market {
         width: 18px;
         height: 15px;
         margin: 0 0 4px 0; }
-    main.market aside section.status div {
-      margin: 0 0 0 3vw;
-      line-height: 3vh;
-      width: 100%;
-      height: 3vh;
-      position: relative; }
-      main.market aside section.status div span.doing {
-        display: inline-block;
-        background: url(../images/market/doing.png);
-        background-size: cover;
-        background-position: center center;
-        width: 15px;
-        height: 15px;
-        vertical-align: middle;
-        line-height: 17px;
-        margin: 0 0 4px 0; }
-      main.market aside section.status div p {
-        display: inline-block;
-        color: #4d515d;
-        font-family: "my_font";
-        font-size: 1.9vh;
-        line-height: 3vh; }
   main.market aside article.option {
     height: 3.5vh;
     line-height: 3.5vh;
@@ -1640,32 +1610,6 @@ main.market {
                     display: inline-block; }
               main.market aside ul li.senior section.content span.time_more div {
                 display: inline-block; }
-                main.market aside ul li.senior section.content span.time_more div.icon_game {
-                  position: relative;
-                  width: 18px;
-                  height: 13px;
-                  line-height: 15px;
-                  vertical-align: bottom;
-                  background: url(../images/market/game_icon.png) no-repeat;
-                  background-size: cover;
-                  background-position: center center; }
-                  main.market aside ul li.senior section.content span.time_more div.icon_game.yet.yet.yet {
-                    background: url(../images/market/game_icon_y.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center; }
-                main.market aside ul li.senior section.content span.time_more div.icon_live {
-                  position: relative;
-                  width: 18px;
-                  height: 15px;
-                  line-height: 15px;
-                  vertical-align: middle;
-                  background: url(../images/market/tv_icon.png) no-repeat;
-                  background-size: cover;
-                  background-position: center center; }
-                  main.market aside ul li.senior section.content span.time_more div.icon_live.yet.yet.yet {
-                    background: url(../images/market/tv_icon_y.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center; }
                 main.market aside ul li.senior section.content span.time_more div.timing {
                   color: #5875e0;
                   border: 1px solid #5875e0;
@@ -1755,7 +1699,7 @@ main.market {
                       main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live {
                         background-position: -92px 0; }
                         main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.yet.yet.yet {
-                          background-position: -109x 0; }
+                          background-position: -109px 0; }
               main.market aside ul li.senior section.content span.point_box span.num_group {
                 width: 60%; }
                 main.market aside ul li.senior section.content span.point_box span.num_group.text_right {
@@ -2510,7 +2454,7 @@ div.window_double_mode {
   width: auto;
   height: auto;
   position: fixed;
-  z-index: 200;
+  z-index: 100;
   bottom: 0; }
   div.window_double_mode.active {
     height: 100vh;
@@ -7840,7 +7784,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 201; }
+  z-index: 100; }
   header ul {
     width: 100%;
     height: 5vh;

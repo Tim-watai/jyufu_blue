@@ -3,13 +3,12 @@ div {
     width: auto;
     height: auto;
     position: fixed;
-    z-index: 200;
+    z-index: 100;
     bottom: 0;
     &.active {
       height: 100vh;
       line-height: 100vh;
       left: 0;
-      // z-index: 202;
       background-color: rgba(0, 0, 0, 0.4);
       .all_box {
         vertical-align: bottom;

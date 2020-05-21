@@ -322,30 +322,7 @@ nav {
       position: relative;
       white-space: nowrap;
       background: #fff;
-      span {
-        &.yet {
-          display: inline-block;
-          background: url(../images/market/yet.png);
-          background-size: cover;
-          background-position: center center;
-          width: 15px;
-          height: 15px;
-          vertical-align: middle;
-          line-height: 17px;
-          margin: 0 0 4px 0;
-        }
-        &.doing {
-          display: inline-block;
-          background: url(../images/market/doing.png);
-          background-size: cover;
-          background-position: center center;
-          width: 15px;
-          height: 15px;
-          vertical-align: middle;
-          line-height: 17px;
-          margin: 0 0 4px 0;
-        }
-      }
+
       p {
         display: inline-block;
         color: #4d515d;
@@ -403,6 +380,11 @@ main {
         &.status {
           background: #fff;
           div {
+            margin: 0 0 0 3vw;
+            line-height: 3vh;
+            width: 100%;
+            height: 3vh;
+            position: relative;
             span {
               width: 15px;
               height: 15px;
@@ -410,6 +392,14 @@ main {
               line-height: 17px;
               margin: 0 0 4px 0;
               display: inline-block;
+            }
+            p {
+              display: inline-block;
+              color: #4d515d;
+              font-family: "my_font";
+              font-size: 1.9vh;
+              line-height: 3vh;
+              // margin: 0 0 0 5px;
             }
           }
           &.yet {
@@ -436,13 +426,6 @@ main {
             border-top: 2px solid #fab419;
             div {
               span {
-                // display: inline-block;
-                // background: url(../images/market/early_icon.png);
-                // background-size: cover;
-                // background-position: center center;
-                // width: 15px;
-                // height: 15px;
-                // vertical-align: middle;
                 background: url(../images/market/game_icons.png) no-repeat;
                 background-size: 910%;
                 background-position: -42px 0;
@@ -450,35 +433,6 @@ main {
                 height: 15px;
                 margin: 0 0 4px 0;
               }
-            }
-          }
-
-          div {
-            margin: 0 0 0 3vw;
-            line-height: 3vh;
-            width: 100%;
-            height: 3vh;
-            position: relative;
-            span {
-              &.doing {
-                display: inline-block;
-                background: url(../images/market/doing.png);
-                background-size: cover;
-                background-position: center center;
-                width: 15px;
-                height: 15px;
-                vertical-align: middle;
-                line-height: 17px;
-                margin: 0 0 4px 0;
-              }
-            }
-            p {
-              display: inline-block;
-              color: #4d515d;
-              font-family: "my_font";
-              font-size: 1.9vh;
-              line-height: 3vh;
-              // margin: 0 0 0 5px;
             }
           }
         }
@@ -705,39 +659,14 @@ main {
                         vertical-align: bottom;
                       }
                       &.icon_game {
-                        // position: relative;
-                        // width: 18px;
-                        // height: 13px;
-                        // line-height: 15px;
-                        // vertical-align: bottom;
-                        // background: url(../images/market/game_icon.png)
-                        //   no-repeat;
-                        // background-size: 100%;
-                        // background-position: center center;
                         background-position: -55px 0;
                         &.yet.yet.yet {
-                          // background: url(../images/market/game_icon_y.png)
-                          //   no-repeat;
-                          // background-size: 100%;
-                          // background-position: center center;
                           background-position: -73px 0;
                         }
                       }
                       &.icon_live {
-                        // position: relative;
-                        // width: 18px;
-                        // height: 15px;
-                        // line-height: 15px;
-                        // vertical-align: bottom;
-                        // background: url(../images/market/tv_icon.png) no-repeat;
-                        // background-size: cover;
-                        // background-position: center center;
                         background-position: -91px 0;
                         &.yet.yet.yet {
-                          // background: url(../images/market/tv_icon_y.png)
-                          //   no-repeat;
-                          // background-size: cover;
-                          // background-position: center center;
                           background-position: -110px 0;
                         }
                       }
@@ -1056,40 +985,7 @@ main {
                     }
                     div {
                       display: inline-block;
-                      &.icon_game {
-                        position: relative;
-                        width: 18px;
-                        height: 13px;
-                        line-height: 15px;
-                        vertical-align: bottom;
-                        background: url(../images/market/game_icon.png)
-                          no-repeat;
-                        background-size: cover;
-                        background-position: center center;
-                        &.yet.yet.yet {
-                          background: url(../images/market/game_icon_y.png)
-                            no-repeat;
-                          background-size: cover;
-                          background-position: center center;
-                        }
-                      }
-                      &.icon_live {
-                        position: relative;
-                        width: 18px;
-                        height: 15px;
-                        line-height: 15px;
-                        vertical-align: middle;
-                        background: url(../images/market/tv_icon.png) no-repeat;
-                        background-size: cover;
-                        background-position: center center;
-                        &.yet.yet.yet {
-                          background: url(../images/market/tv_icon_y.png)
-                            no-repeat;
-                          background-size: cover;
-                          background-position: center center;
-                        }
-                      }
-                      &.timing {
+                        &.timing {
                         color: #5875e0;
                         border: 1px solid #5875e0;
                         border-radius: 5px;
@@ -1196,7 +1092,7 @@ main {
                               &.icon_live {
                                 background-position: -92px 0;
                                 &.yet.yet.yet {
-                                  background-position: -109x 0;
+                                  background-position: -109px 0;
                                 }
                               }
                             }
