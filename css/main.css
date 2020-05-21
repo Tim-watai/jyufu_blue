@@ -1030,7 +1030,7 @@ nav.kinds {
         color: #4d515d; }
         nav.kinds ul li.active span.kind_icon {
           display: inline-block;
-          background: url(../images/market/kinds2.png) no-repeat;
+          background: url(../images/market/kinds.png) no-repeat;
           background-size: 1800%;
           width: 25px;
           height: 22px; }
@@ -1076,7 +1076,7 @@ nav.kinds {
         line-height: 1.7vh; }
         nav.kinds ul li div span.kind_icon {
           display: inline-block;
-          background: url(../images/market/kinds2.png) no-repeat;
+          background: url(../images/market/kinds.png) no-repeat;
           background-size: 1800%;
           width: 25px;
           height: 22px; }
