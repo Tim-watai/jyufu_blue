@@ -2325,6 +2325,7 @@ aside.search_window {
           background: #838ba0; }
   aside.search_window div.content {
     width: 100%;
+    height: calc(100vh - 12vh - 2px - 4.3vw);
     overflow-y: scroll;
     overflow-x: hidden; }
     aside.search_window div.content div.group p.title {
