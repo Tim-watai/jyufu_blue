@@ -7804,7 +7804,9 @@ body.dk {
   background: -o-linear-gradient(left, #191d1d 0%, #1d2849 100%);
   background: linear-gradient(to right, #191d1d 0%, #1d2849 100%); }
   body.dk header ul {
-    background: #000; }
+    background: #000;
+    -webkit-box-shadow: 0 3px 5px 0 transparent;
+    box-shadow: 0 3px 5px 0 transparent; }
     body.dk header ul li.title.title.title.title {
       color: #fff; }
   body.dk nav.kinds {
@@ -7867,9 +7869,9 @@ body.dk {
     color: #fff; }
   body.dk main article.menu ul.game_kinds li {
     background: #000;
-    background: -webkit-repeating-linear-gradient(135deg, #363636 0%, #363636 25%, #353535 25%, #252525 50%, #252525 75%);
-    background: -o-repeating-linear-gradient(135deg, #363636 0%, #363636 25%, #353535 25%, #252525 50%, #252525 75%);
-    background: repeating-linear-gradient(-45deg, #363636 0%, #363636 25%, #353535 25%, #252525 50%, #252525 75%);
+    background: -webkit-repeating-linear-gradient(135deg, #363636 0%, #363636 25%, #353535 25%, #252525 50%, transparent 50%, #252525 75%);
+    background: -o-repeating-linear-gradient(135deg, #363636 0%, #363636 25%, #353535 25%, #252525 50%, transparent 50%, #252525 75%);
+    background: repeating-linear-gradient(-45deg, #363636 0%, #363636 25%, #353535 25%, #252525 50%, transparent 50%, #252525 75%);
     -webkit-box-shadow: 0 0 4px 1px #636e9e;
     box-shadow: 0 0 4px 1px #636e9e; }
     body.dk main article.menu ul.game_kinds li div.left_triagle:before {
@@ -7879,7 +7881,9 @@ body.dk {
     body.dk main article.menu ul.game_kinds li div.title p {
       color: #fff; }
   body.dk footer {
-    background: #000; }
+    background: #000;
+    -webkit-box-shadow: 0 -3px 5px 0 transparent;
+    box-shadow: 0 -3px 5px 0 transparent; }
     body.dk footer ul li.active p {
       color: #fff; }
   body.dk aside.set_window ul.side_bar {
