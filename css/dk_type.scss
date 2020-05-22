@@ -168,7 +168,7 @@ body {
             &.game_kinds {
               li {
                 background: #000;
-                background: repeating-linear-gradient(-45deg, #363636 0%, #363636 25%, #353535 25%, #252525 50%,transparent 50%,#252525 75%);
+                background: repeating-linear-gradient(-45deg, #363636 0%, #363636 25%, #363636 50%,#252525 50%,#252525 75%, #363636 75%);
                 box-shadow: 0 0 4px 1px #636e9e;
                 div {
                   &.left_triagle {
