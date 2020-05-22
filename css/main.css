@@ -7799,7 +7799,10 @@ aside.teach .content.teach_bs {
           margin: 0 -8px 0 8px; }
 
 body.dk {
-  background: #000; }
+  background: -webkit-gradient(linear, left top, right top, from(#191d1d), to(#1d2849));
+  background: -webkit-linear-gradient(left, #191d1d 0%, #1d2849 100%);
+  background: -o-linear-gradient(left, #191d1d 0%, #1d2849 100%);
+  background: linear-gradient(to right, #191d1d 0%, #1d2849 100%); }
   body.dk header ul {
     background: #000; }
     body.dk header ul li.title.title.title.title {
@@ -7847,8 +7850,32 @@ body.dk {
         color: #fff; }
       body.dk main.market aside ul li.beginner section.content span.num_group div {
         background: #60646d; }
-        body.dk main.market aside ul li.beginner section.content span.num_group div p, body.dk main.market aside ul li.beginner section.content span.num_group div span {
+        body.dk main.market aside ul li.beginner section.content span.num_group div p,
+        body.dk main.market aside ul li.beginner section.content span.num_group div span {
           color: #fff; }
+  body.dk main section ul.hot_area li.marquee div p {
+    color: #fff; }
+  body.dk main section ul.profile li.u_data p.u_name, body.dk main section ul.profile li.u_data p.u_money {
+    color: #fff; }
+  body.dk main section ul.profile li.u_option div p {
+    color: #fff; }
+  body.dk main article.menu aside.btn_group button {
+    background: #292f46; }
+  body.dk main article.menu aside.btn_group p {
+    color: #fff; }
+  body.dk main article.menu ul.game_kinds li {
+    background: #000;
+    background: -webkit-repeating-linear-gradient(135deg, #363636 0%, #363636 25%, #353535 25%, #252525 50%, #252525 75%);
+    background: -o-repeating-linear-gradient(135deg, #363636 0%, #363636 25%, #353535 25%, #252525 50%, #252525 75%);
+    background: repeating-linear-gradient(-45deg, #363636 0%, #363636 25%, #353535 25%, #252525 50%, #252525 75%);
+    -webkit-box-shadow: 0 0 4px 1px #636e9e;
+    box-shadow: 0 0 4px 1px #636e9e; }
+    body.dk main article.menu ul.game_kinds li div.left_triagle:before {
+      background: #363636; }
+    body.dk main article.menu ul.game_kinds li div.right_triagle:before {
+      background: #252525; }
+    body.dk main article.menu ul.game_kinds li div.title p {
+      color: #fff; }
   body.dk footer {
     background: #000; }
   body.dk aside.set_window ul.side_bar {
@@ -8077,35 +8104,35 @@ main {
       display: inline-block; }
       main section ul.profile li.u_data {
         display: none; }
-        main section ul.profile li.u_data.yet_sign {
+        main section ul.profile li.u_data.active {
           display: inline-block; }
-          main section ul.profile li.u_data.yet_sign p.u_name {
-            font-size: 1vh;
-            line-height: 1vh;
-            margin: 0 0 1vh 0; }
-          main section ul.profile li.u_data.yet_sign .wrap {
-            height: 5vh; }
-            main section ul.profile li.u_data.yet_sign .wrap button {
-              height: 100%;
-              width: 15vw;
-              border: 1px solid #000;
-              border-radius: 4px;
-              font-size: 2.1vh;
+        main section ul.profile li.u_data.yet_sign p.u_name {
+          font-size: 1vh;
+          line-height: 1vh;
+          margin: 0 0 1vh 0; }
+        main section ul.profile li.u_data.yet_sign .wrap {
+          height: 5vh; }
+          main section ul.profile li.u_data.yet_sign .wrap button {
+            height: 100%;
+            width: 15vw;
+            border: 1px solid #000;
+            border-radius: 4px;
+            font-size: 2.1vh;
+            font-weight: bold;
+            position: relative; }
+            main section ul.profile li.u_data.yet_sign .wrap button.sign_up {
+              background: -webkit-gradient(linear, left top, right top, from(#b5875e), to(#dfb995));
+              background: -webkit-linear-gradient(left, #b5875e 0%, #dfb995 100%);
+              background: -o-linear-gradient(left, #b5875e 0%, #dfb995 100%);
+              background: linear-gradient(to right, #b5875e 0%, #dfb995 100%);
+              color: #fff;
+              border: none;
               font-weight: bold;
-              position: relative; }
-              main section ul.profile li.u_data.yet_sign .wrap button.sign_up {
-                background: -webkit-gradient(linear, left top, right top, from(#b5875e), to(#dfb995));
-                background: -webkit-linear-gradient(left, #b5875e 0%, #dfb995 100%);
-                background: -o-linear-gradient(left, #b5875e 0%, #dfb995 100%);
-                background: linear-gradient(to right, #b5875e 0%, #dfb995 100%);
-                color: #fff;
-                border: none;
-                font-weight: bold;
-                margin: 0 1.5vw 0 0; }
-              main section ul.profile li.u_data.yet_sign .wrap button.sign_in {
-                color: #2d43b6;
-                border: 1px solid #b9bfdc;
-                background: transparent; }
+              margin: 0 1.5vw 0 0; }
+            main section ul.profile li.u_data.yet_sign .wrap button.sign_in {
+              color: #2d43b6;
+              border: 1px solid #b9bfdc;
+              background: transparent; }
         main section ul.profile li.u_data p.u_name {
           color: #838ba0;
           font-weight: lighter;
@@ -8198,7 +8225,7 @@ main {
           font-size: 2.5vh;
           line-height: 2.5vh;
           font-family: "my_font"; }
-        main article.menu aside.btn_group button.hot {
+        main article.menu aside.btn_group button.hot.hot.hot {
           background: -webkit-gradient(linear, left top, left bottom, from(#8e9bdb), color-stop(25%, #7b89d4), color-stop(75%, #4a5dc1), to(#3449b9));
           background: -webkit-linear-gradient(top, #8e9bdb 0%, #7b89d4 25%, #4a5dc1 75%, #3449b9 100%);
           background: -o-linear-gradient(top, #8e9bdb 0%, #7b89d4 25%, #4a5dc1 75%, #3449b9 100%);
@@ -8206,11 +8233,11 @@ main {
           position: relative;
           border: none;
           top: 0px; }
-          main article.menu aside.btn_group button.hot span,
-          main article.menu aside.btn_group button.hot p {
+          main article.menu aside.btn_group button.hot.hot.hot span,
+          main article.menu aside.btn_group button.hot.hot.hot p {
             color: #fff;
             font-weight: bold; }
-          main article.menu aside.btn_group button.hot:before {
+          main article.menu aside.btn_group button.hot.hot.hot:before {
             content: "";
             position: absolute;
             width: 100%;
@@ -8289,7 +8316,7 @@ main {
         main article.menu ul.game_kinds li.basketball span.item {
           background-position: -180px 0; }
         main article.menu ul.game_kinds li.esport span.text {
-          background-position: -397px 0; }
+          background-position: -398px 0; }
         main article.menu ul.game_kinds li.esport span.item {
           background-position: -360px 0; }
         main article.menu ul.game_kinds li.tennis span.text {

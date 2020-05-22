@@ -341,8 +341,10 @@ main {
           display: inline-block;
           &.u_data {
             display: none;
-            &.yet_sign {
+            &.active{
               display: inline-block;
+            }
+            &.yet_sign {
               p {
                 &.u_name {
                   font-size: 1vh;
@@ -506,7 +508,7 @@ main {
               line-height: 2.5vh;
               font-family: "my_font";
             }
-            &.hot {
+            &.hot.hot.hot {
               @include hot_btn_lblue;
               position: relative;
               border: none;
@@ -639,7 +641,7 @@ main {
             &.esport {
               span {
                 &.text {
-                  background-position: -397px 0;
+                  background-position: -398px 0;
                 }
                 &.item {
                   background-position: -360px 0;

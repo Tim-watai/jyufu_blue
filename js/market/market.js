@@ -2,27 +2,59 @@ $(document).ready(function() {
   console.log('market.js');
 
 //換膚 0522
+
+
+
 function check_play_type (){
   let t_day = localStorage.getItem('type');
   if(t_day == 'night'){
-    console.log('nn');
     $('body').addClass('dk');
-   return 
+    $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_left').removeClass('active');
+    $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').addClass('active');
+
+    return  console.log('nn');
   }else{
     $('body').removeClass('dk');
-  return  console.log('ll');
+    $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').removeClass('active');
+    $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_left').addClass('active');
+    return  console.log('ll');
   }
 }
-
-
-localStorage.setItem('type','light');
-localStorage.setItem('type','night');
+// localStorage.setItem('type','light');
+// localStorage.setItem('type','night');
 check_play_type();
 
+
+  //***設置頁面_切換
+  $('aside.set_window ul.side_bar li div.box div.check span').click(
+    function(){
+      $(this).addClass('active');
+      $(this).siblings().removeClass('active')
+    }
+  );
+
+
 //***設置n&l_切換
-$('aside.set_window ul.side_bar li div.box div.check span').click(
+//light
+$('aside.set_window ul.side_bar li.g_style div.box div.check span.p_left').click(
   function(){
-  
+  if($(this).hasClass('active') == true)
+  {
+    localStorage.setItem('type','light');
+    check_play_type();
+    return
+  }
+  }
+);
+//night
+$('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').click(
+  function(){
+  if($(this).hasClass('active') == true)
+  {
+    localStorage.setItem('type','night');
+    check_play_type();
+    return
+  }
   }
 );
 
@@ -114,13 +146,7 @@ $('aside.set_window ul.side_bar li div.box div.check span').click(
       }
     }
   );
-  //***設置頁面_切換
-  $('aside.set_window ul.side_bar li div.box div.check span').click(
-    function(){
-      $(this).addClass('active');
-      $(this).siblings().removeClass('active')
-    }
-  );
+
   //開啟_賽事選擇頁面_search_window
   $('header ul.market li.search , aside.search_window div.header ul li.close').click(
     function(){
