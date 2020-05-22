@@ -7857,6 +7857,8 @@ body.dk {
     color: #fff; }
   body.dk main section ul.profile li.u_data p.u_name, body.dk main section ul.profile li.u_data p.u_money {
     color: #fff; }
+  body.dk main section ul.profile li.u_data.yet_sign .wrap button {
+    color: #fff; }
   body.dk main section ul.profile li.u_option div p {
     color: #fff; }
   body.dk main article.menu aside.btn_group button {
@@ -7878,6 +7880,8 @@ body.dk {
       color: #fff; }
   body.dk footer {
     background: #000; }
+    body.dk footer ul li.active p {
+      color: #fff; }
   body.dk aside.set_window ul.side_bar {
     background: #000; }
     body.dk aside.set_window ul.side_bar li {
@@ -7890,6 +7894,9 @@ body.dk {
           background: #757575; }
           body.dk aside.set_window ul.side_bar li .box .check span.active p {
             color: #fff; }
+      body.dk aside.set_window ul.side_bar li.close {
+        -webkit-box-shadow: 0px -3px 6px 0px transparent;
+        box-shadow: 0px -3px 6px 0px transparent; }
 
 .clearfix {
   display: block;
