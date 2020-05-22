@@ -1,6 +1,34 @@
 $(document).ready(function() {
   console.log('market.js');
 
+//換膚 0522
+function check_play_type (){
+  let t_day = localStorage.getItem('type');
+  if(t_day == 'night'){
+    console.log('nn');
+    $('body').addClass('dk');
+   return 
+  }else{
+    $('body').removeClass('dk');
+  return  console.log('ll');
+  }
+}
+
+
+localStorage.setItem('type','light');
+localStorage.setItem('type','night');
+check_play_type();
+
+//***設置n&l_切換
+$('aside.set_window ul.side_bar li div.box div.check span').click(
+  function(){
+  
+  }
+);
+
+
+
+
   //今日_滾球_早盤_串關
   $("header ul li.title").click(function(){
     console.log("title");

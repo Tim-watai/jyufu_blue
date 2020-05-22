@@ -2190,7 +2190,7 @@ aside.search_window {
   height: 100vh;
   top: 0;
   background: #fff;
-  z-index: 500;
+  z-index: 503;
   display: inline-block;
   position: fixed;
   -webkit-transform: translateX(100%);
@@ -7797,6 +7797,72 @@ aside.teach .content.teach_bs {
           background-size: 100%;
           background-position: center;
           margin: 0 -8px 0 8px; }
+
+body.dk {
+  background: #000; }
+  body.dk header ul {
+    background: #000; }
+    body.dk header ul li.title.title.title.title {
+      color: #fff; }
+  body.dk nav.kinds {
+    background: #000; }
+  body.dk main.market aside section.status {
+    background: -webkit-gradient(linear, left top, right top, from(#191d1d), to(#1d2849));
+    background: -webkit-linear-gradient(left, #191d1d 0%, #1d2849 100%);
+    background: -o-linear-gradient(left, #191d1d 0%, #1d2849 100%);
+    background: linear-gradient(to right, #191d1d 0%, #1d2849 100%); }
+    body.dk main.market aside section.status p {
+      color: #fff; }
+  body.dk main.market aside article.option {
+    background: #000;
+    -webkit-box-shadow: inset 0px 3px 3px 0 transparent;
+    box-shadow: inset 0px 3px 3px 0 transparent; }
+    body.dk main.market aside article.option div.mode {
+      background: #000; }
+      body.dk main.market aside article.option div.mode span p {
+        color: #949da6; }
+      body.dk main.market aside article.option div.mode span.active {
+        background: #535353; }
+        body.dk main.market aside article.option div.mode span.active p {
+          color: #fff; }
+  body.dk main.market aside ul {
+    background: #000; }
+    body.dk main.market aside ul li.beginner span.title {
+      background: -webkit-gradient(linear, left top, right top, from(#191d1d), to(#1d2849));
+      background: -webkit-linear-gradient(left, #191d1d 0%, #1d2849 100%);
+      background: -o-linear-gradient(left, #191d1d 0%, #1d2849 100%);
+      background: linear-gradient(to right, #191d1d 0%, #1d2849 100%); }
+      body.dk main.market aside ul li.beginner span.title p {
+        color: #fff; }
+    body.dk main.market aside ul li.beginner section.content {
+      background: -webkit-gradient(linear, left top, right top, from(#191d1d), to(#1d2849));
+      background: -webkit-linear-gradient(left, #191d1d 0%, #1d2849 100%);
+      background: -o-linear-gradient(left, #191d1d 0%, #1d2849 100%);
+      background: linear-gradient(to right, #191d1d 0%, #1d2849 100%); }
+      body.dk main.market aside ul li.beginner section.content:nth-child(odd) {
+        background: #000; }
+      body.dk main.market aside ul li.beginner section.content span.counter p.mid {
+        color: #fff; }
+      body.dk main.market aside ul li.beginner section.content span.counter div.country p.name {
+        color: #fff; }
+      body.dk main.market aside ul li.beginner section.content span.num_group div {
+        background: #60646d; }
+        body.dk main.market aside ul li.beginner section.content span.num_group div p, body.dk main.market aside ul li.beginner section.content span.num_group div span {
+          color: #fff; }
+  body.dk footer {
+    background: #000; }
+  body.dk aside.set_window ul.side_bar {
+    background: #000; }
+    body.dk aside.set_window ul.side_bar li {
+      background: #212727;
+      color: #fff;
+      border-bottom: 1px solid #4b5055; }
+      body.dk aside.set_window ul.side_bar li .box .check {
+        background: #191919; }
+        body.dk aside.set_window ul.side_bar li .box .check span.active {
+          background: #757575; }
+          body.dk aside.set_window ul.side_bar li .box .check span.active p {
+            color: #fff; }
 
 .clearfix {
   display: block;
