@@ -569,6 +569,10 @@ main {
           //   }
           // }
           &.beginner {
+            display: none;
+            &.active{
+              display: block;
+            }
             section {
               &.content {
                 span {
@@ -869,6 +873,9 @@ main {
           &.senior {
             display: none;
             &.double {
+              display: block;
+            }
+            &.active{
               display: block;
             }
 
