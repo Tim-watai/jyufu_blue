@@ -153,10 +153,10 @@ aside{
                 &:first-child{
                   float: left;
                 }
-                &:last-child {
-                  margin: 0;
-                  float: right;
-                }
+                // &:last-child {
+                //   margin: 0;
+                //   float: right;
+                // }
                 span,
                 p {
                   display: inline-block;

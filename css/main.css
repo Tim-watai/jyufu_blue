@@ -4106,9 +4106,6 @@ aside.my_windows {
         margin: 0 calc(((92vw * 0.2) / 3) - 1px) 0 0; }
         aside.my_windows div.group ul li:first-child {
           float: left; }
-        aside.my_windows div.group ul li:last-child {
-          margin: 0;
-          float: right; }
         aside.my_windows div.group ul li span,
         aside.my_windows div.group ul li p {
           display: inline-block; }
