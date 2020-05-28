@@ -433,6 +433,21 @@ main {
               background-color: #b5c1ff;
             }
           }
+          &.type_choice{
+            height: auto;
+            overflow: hidden;
+            border-bottom: 1px solid #e0e3f3;
+            padding: 2px 0 4px;
+            margin: 0 8px 5px;
+            .col_3{
+              margin: 0;
+              width: 33.33%;
+              float: left;
+              text-align: center;
+              height: auto;
+              color: #4c525d;
+            }
+          }
           &.content {
             padding: 0 0 5px 0;
             height: 45px;

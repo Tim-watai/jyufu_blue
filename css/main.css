@@ -3263,6 +3263,19 @@ main.double_inner_page {
             height: 16px;
             border-radius: 30px;
             background-color: #b5c1ff; }
+        main.double_inner_page ul li div.type_choice {
+          height: auto;
+          overflow: hidden;
+          border-bottom: 1px solid #e0e3f3;
+          padding: 2px 0 4px;
+          margin: 0 8px 5px; }
+          main.double_inner_page ul li div.type_choice .col_3 {
+            margin: 0;
+            width: 33.33%;
+            float: left;
+            text-align: center;
+            height: auto;
+            color: #4c525d; }
         main.double_inner_page ul li div.content {
           padding: 0 0 5px 0;
           height: 45px;
@@ -8744,6 +8757,8 @@ aside .hidden_title {
     position: relative;
     white-space: nowrap;
     display: inline-block; }
+    aside .hidden_title .tack.free {
+      width: auto; }
     aside .hidden_title .tack p {
       font-size: 14px;
       line-height: 14px;

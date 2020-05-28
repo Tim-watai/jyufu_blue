@@ -1192,7 +1192,7 @@ aside {
       }
     }
   }
-  //bet_record , gift_record use
+  //bet_record , gift_record use ,game_result
   .hidden_title {
     background: #fff;
     padding: calc(5vh + 10px) 0 0 0;
@@ -1211,6 +1211,9 @@ aside {
       position: relative;
       white-space: nowrap;
       display: inline-block;
+      &.free{
+        width: auto;
+      }
       p {
         font-size: 14px;
         line-height: 14px;
