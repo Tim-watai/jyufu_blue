@@ -4177,6 +4177,8 @@ aside.my_windows {
             background-position: -88px 0; }
           aside.my_windows div.row_btn p:first-child span.app {
             background-position: -110px 0; }
+          aside.my_windows div.row_btn p:first-child span.result {
+            background-position: -132px 0; }
       aside.my_windows div.row_btn p:last-child {
         color: #838ba0;
         line-height: 15vw;
