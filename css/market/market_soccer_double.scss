@@ -73,19 +73,31 @@ div {
                 div {
                   display: inline-block;
                 }
-                &.the_detail,
-                &.the_total {
-                  // padding: 1.5vh 5vw 1.5vh 0vw;
-                  padding: 1.5vh 5vw 1.5vh 5vw;
+       
+                &.the_detail {
+                  width: 100%;
+                  height: auto;
+                  line-height: 10vh;
+                  border-bottom: 2px solid #e0e3f3;
+                  padding: 1.5vh 2.5vw 1.5vh 5vw;
                   line-height: 10vh;
                   div {
+                    &.right_total {
+                      white-space: nowrap;
+                      float: right;
+
+                      span {
+                        font-size: 2vh;
+                        display: inline-block;
+                        color: #4d515d;
+                      }
+
+                      text-align: center;
+                      line-height: 10vh;
+                      font-size: 2.5vh;
+                      color: red;
+                    }
                     &.left_padding {
-                      // position: absolute;
-                      // transform: translateY(-50%);
-                      // height: 100%;
-                      // width: 10vw;
-                      // top: 50%;
-                      // left: 0;
                       position: relative;
                       line-height: 10vh;
                       width: 5vw;
@@ -113,10 +125,10 @@ div {
                     }
                     &.data {
                       line-height: 1;
-                      // padding: 0 0 0 3px;
                       padding: 0 0 0 12px;
                       vertical-align: middle;
-
+                      width: 65vw;
+                      line-height: 1;
                       span {
                         display: inline-block;
                         line-height: 1;
@@ -179,189 +191,227 @@ div {
                     }
                   }
                 }
-                &.the_detail {
-                  width: 100%;
-                  height: auto;
-                  line-height: 10vh;
-                  border-bottom: 2px solid #e0e3f3;
-                  // &.active{
-                  //   padding: 1.5vh 5vw 1.5vh 5vw;
-                  // }
-                  div {
-                    &.right_total {
-                      white-space: nowrap;
-                      float: right;
-
-                      span {
-                        font-size: 2vh;
-                        display: inline-block;
-                        color: #4d515d;
-                      }
-
-                      text-align: center;
-                      line-height: 10vh;
-                      font-size: 2.5vh;
-                      color: red;
-                    }
-                    &.data {
-                      width: 65vw;
-                    }
-                  }
-                }
                 &.the_total {
+                padding: 1.5vh 2.5vw 1.5vh 2.5vw;
                   background-color: #f6f8ff;
                   overflow: auto;
-                  div {
-                    &.data {
-                      width: 40vw;
+                  line-height: 100%;
+                  .top_wrap,.kb_wrap{
+                    margin: 0 0 1.5vh;
+                  }
+                  .top_wrap{
+                    line-height: 5vh;
+                    width: 100%;
+                    .t_left,.t_right{
+                      width: 50%;
                       float: left;
-                      span {
-                        &.title {
-                          width: 100%;
-                        }
-                        &.mid {
-                          width: 100%;
-                          span {
-                            margin: 0 3px 0 3px;
-                          }
-                          p {
-                            display: inline-block;
-                            color: #d46572;
-                          }
-                        }
-                        &.bottom {
-                          span {
-                            width: 12px;
-                            height: 12px;
-                            background: url(../images/icon/arrows_blue.png)
-                              no-repeat;
-                            background-size: cover;
-                            background-position: center center;
-                          }
-                        }
+                    }
+                    .game_name{
+                      font-size: 2.3vh;
+                      font-weight: bold;
+                      color: #4d515d;
+                      position: relative;
+                      padding: 0 0 0 8px;
+                      &:before{
+                        content: "";
+                        position: absolute;
+                        transform: translate(0, -50%);
+                        top: 45%;
+                        left: 0%;
+                        width: 2px;
+                        height: 45%;
+                        background: #3348b8;
                       }
                     }
-                    &.right_total {
-                      float: right;
-                      width: 40vw;
-                      text-align: right;
-                      input {
-                        text-align: center;
-                        width: 40vw;
-                        border: 2px solid #e0e3f3;
-                        border-radius: 4px;
-                        color: #000;
-                        line-height: 2.3vh;
-                        vertical-align: top;
-                        padding: 5px;
-                        float: right;
-                        &::placeholder {
-                          color: #ced1e0;
-                          font-size: 1.2vh;
-                        }
-                      }
-                      span {
-                        color: #838ba0;
-                        &.total {
-                          display: inline-block;
-                          // width: 100%;
-                          line-height: 1;
-                          font-size: 1.7vh;
-                          margin: 5px 0 0 0;
-                          span {
-                            margin: 0 5px;
-                          }
-                          p {
-                            display: inline-block;
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-                &.computer {
-                  width: 100%;
-                  height: 35vh;
-                  line-height: 35vh;
-                  background: #fbfcff;
-                  padding: 1.5vh 8vw 1.5vh 5vw;
-                  div {
-                    &.inner {
-                      width: calc(100vw - 13vw);
-                      height: calc(35vh - 3vh);
-                      white-space: nowrap;
-                      span,
-                      p {
+                    .game_type{
+                      padding: 0 0 0 8px;
+                      p,i{
                         display: inline-block;
+                        vertical-align: text-top;
+                        line-height: 100%;
+                        padding: 2px 0 0;
                       }
-                      span {
-                        &.nums {
-                          width: 70%;
-                          height: 100%;
-                          .wrap{
-                            width: 100%;
-                            display: block;
-                            height: auto;
-                            line-height: calc((35vh - 3vh) / 4 - 2px);
-                          }
-                          p {
-                            width: calc(100% / 3 - 2px);
-                            background: #fff;
-                            color: #4d515d;
-                            text-align: center;
-                            line-height: calc((35vh - 3vh) / 4 - 2px);
-                            vertical-align: middle;
-                            margin: 0 2px 2px 0;
-                            font-size: 3.5vh;
-                            font-weight: bold;
-                            border-radius: 8px;
-                            border: 1px solid #f7f8ff;
-                            &.empty{
-                              margin: 0;
-                              border: 0px solid transparent;
-                            }
-                          }
-                        }
-                        &.uses {
-                          width: 30%;
-                          height: 100%;
-                          float: right;
-                          p {
-                            background: #f6f8ff;
-                            width: 100%;
-                            height: 49%;
-                            border-radius: 8px;
-                            border: 1px solid #f7f8ff;
-                            position: relative;
-                            display: block;
-                            &.delete {
-                              &:before {
-                                content: "";
-                                position: absolute;
-                                transform: translate(-50%, -50%);
-                                left: 50%;
-                                top: 50%;
-                                width: 31px;
-                                height: 26px;
-                                background: url(../images/icon/delete.png)
-                                  no-repeat;
-                                background-position: center center;
-                                background-size: cover;
-                              }
-                            }
-                            &.back {
-                              font-weight: bold;
-                              color: #4d515d;
-                              line-height: calc(32vh * 0.49);
-                              text-align: center;
-                              font-size: 6vw;
-                            }
-                          }
-                        }
+                      p{
+                        color: #838ba0;
+                        font-size: 1.7vh;
+                        margin: 0 4px 0 0;
+                      }
+                      i{
+                        width: 12px;
+                        height: 12px;
+                        background: url(../images/icon/arrows_blue.png)
+                          no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                      }
+                    }
+                    .t_right{
+                      margin: -2px 0 0px;
+                      input{
+                        line-height: 3vh;
+                        width: 100%;
+                        border-radius: 8px;
+                        border: 1px solid #e0e3f3;
+                        padding: 7px 7px 7px;
                       }
                     }
                   }
+                  .kb_wrap{
+                    width: 100%;
+                    line-height: 100%;
+                    .kb_top,.kb_bot{
+                      width: 100%;
+                      text-align: center;
+                      line-height: 5vh;
+                    }
+                    .kb_top{
+                      .box_s{
+                        &:last-child{
+                          margin: 0;
+                        }
+                      }
+                    }
+                    .box_s,.box_b{
+                      border-radius: 8px;
+                      border: 1px solid #e0e3f3;
+                      background: #fff;
+                      color: #4d515d;
+                      font-size: 2vh;
+                    }
+                    .box_s{
+                      width: 24%;
+                      margin: 0 1.3% 0 0;
+                      float: left;
+                    }
+                    .box_b{
+                      width: 49%;
+                    }
+                  }
+                  .result_wrap{
+                    width: 100%;
+                    line-height: 100%;
+                    padding: 5px 0 5px;
+                    .box{
+                      float: left;
+                      width: 32%;
+                      text-align: center;
+                      line-height: 5vh;
+                      margin: 0 1.3% 0 0;
+                      line-height: 100%;
+                      font-size: 2vh;
+                      position: relative;
+                      &:before{
+                        position: absolute;
+                        content: '';
+                        width: 1px;
+                        height: 4vh;
+                        right: -1.3%;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        background: #838ba0;
+                      }
+                      &:last-child{
+                        margin: 0;
+                        &:before{
+                          display: none;
+                        }
+                      }
+                      p{
+                        &:first-child{
+                          color: #838ba0;
+                          margin: 0 0 8px;
+                        }
+                        &:last-child{
+                          color: #556de7;
+                        }
+                      }
+                    }
+                    
+                  }
                 }
+                // &.computer {
+                //   width: 100%;
+                //   height: 35vh;
+                //   line-height: 35vh;
+                //   background: #fbfcff;
+                //   padding: 1.5vh 8vw 1.5vh 5vw;
+                //   div {
+                //     &.inner {
+                //       width: calc(100vw - 13vw);
+                //       height: calc(35vh - 3vh);
+                //       white-space: nowrap;
+                //       span,
+                //       p {
+                //         display: inline-block;
+                //       }
+                //       span {
+                //         &.nums {
+                //           width: 70%;
+                //           height: 100%;
+                //           .wrap{
+                //             width: 100%;
+                //             display: block;
+                //             height: auto;
+                //             line-height: calc((35vh - 3vh) / 4 - 2px);
+                //           }
+                //           p {
+                //             width: calc(100% / 3 - 2px);
+                //             background: #fff;
+                //             color: #4d515d;
+                //             text-align: center;
+                //             line-height: calc((35vh - 3vh) / 4 - 2px);
+                //             vertical-align: middle;
+                //             margin: 0 2px 2px 0;
+                //             font-size: 3.5vh;
+                //             font-weight: bold;
+                //             border-radius: 8px;
+                //             border: 1px solid #f7f8ff;
+                //             &.empty{
+                //               margin: 0;
+                //               border: 0px solid transparent;
+                //             }
+                //           }
+                //         }
+                //         &.uses {
+                //           width: 30%;
+                //           height: 100%;
+                //           float: right;
+                //           p {
+                //             background: #f6f8ff;
+                //             width: 100%;
+                //             height: 49%;
+                //             border-radius: 8px;
+                //             border: 1px solid #f7f8ff;
+                //             position: relative;
+                //             display: block;
+                //             &.delete {
+                //               &:before {
+                //                 content: "";
+                //                 position: absolute;
+                //                 transform: translate(-50%, -50%);
+                //                 left: 50%;
+                //                 top: 50%;
+                //                 width: 31px;
+                //                 height: 26px;
+                //                 background: url(../images/icon/delete.png)
+                //                   no-repeat;
+                //                 background-position: center center;
+                //                 background-size: cover;
+                //               }
+                //             }
+                //             &.back {
+                //               font-weight: bold;
+                //               color: #4d515d;
+                //               line-height: calc(32vh * 0.49);
+                //               text-align: center;
+                //               font-size: 6vw;
+                //             }
+                //           }
+                //         }
+                //       }
+                //     }
+                //   }
+                // }
               }
             }
           }
