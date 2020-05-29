@@ -446,6 +446,8 @@ main {
               text-align: center;
               height: auto;
               color: #4c525d;
+              font-size: 15px;
+              font-weight: bold;
             }
           }
           &.content {
@@ -463,18 +465,39 @@ main {
                 span{
                     width: calc(100% / 2 - 3px);
                     margin: 0 3px 0 0;
+                    &:first-child{
+                      float: left;
+                    }
+                    &:last-child{
+                      margin: 0;
+                      float: right;
+                    }
                 }
             }
             &.form_3 {
               span {
                 width: calc(100% / 3 - 3px);
                 margin: 0 4.5px 0 0;
+                &:first-child{
+                  float: left;
+                }
+                &:last-child{
+                  margin: 0;
+                  float: right;
+                }
               }
             }
             &.form_4 {
               span {
                 width: calc(100% / 4 - 4px);
                 margin: 0 4px 0 0;
+                &:first-child{
+                  float: left;
+                }
+                &:last-child{
+                  margin: 0;
+                  float: right;
+                }
               }
             }
             span {
@@ -482,54 +505,117 @@ main {
               height: 100%;
               background: #f6f8ff;
               line-height: 40px;
+              position: relative;
+              //20200529_add
+              &.box_1{
+                p{
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%,-50%);
+                  text-align: center;
+                  width: 100%;
+                  overflow:hidden;
+                    white-space: normal;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+              }
+              &.box_2_more{
+                white-space: normal;
+                p{
+                  position: absolute;
+                  top: 50%;
+                  &:first-child{
+                    left: 32%;
+                    transform: translate(-50%,-50%);
+                    width: 60%;
+                    text-align: center;
+                    overflow:hidden;
+                    white-space: normal;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                  }
+                  &:last-child{
+                    right: 20%;
+                    transform: translate(50%,-50%);
+                  }
+                }
+              }
+              &.box_2_normal{
+                p{
+                  position: absolute;
+                  top: 50%;
+                  width: 50%;
+                  text-align: center;
+                  &:first-child{
+                    left: 32%;
+                    transform: translate(-50%,-50%);
+                    width: 50%;
+                    text-align: center;
+                  }
+                  &:last-child{
+                    right: 22%;
+                    transform: translate(50%,-50%);
+                  }
+                }
+              }
+              // &.between {
+              //   padding: 0 8px 0 16px;
+              //   white-space: nowrap;
+              // }
+              // &.center {
+              //   text-align: center;
+              // }
+              // &.between_2 {
+              //  padding: 0 4px 0;
+              //  white-space: nowrap;
+              // }
+              // &.center_right{
+              //     text-align: center;
+              //     p {
+              //       &:first-child {
+              //         margin: 0 0 0 5px;
+              //       }
+              //       &:last-child{
+              //           margin: 0 5px 0 0;
+              //           float: right;
+              //           line-height: 45px;
+              //       }
+              //     }
+              // }
               p {
                 font-size: 14px;
-                line-height: 1;
+                line-height: 16px;
                 display: inline-block;
                 vertical-align: middle;
                 color: #4d515d;
-                &.t_c{
-                  text-align: center;
-                }
+                // &.t_c{
+                //   text-align: center;
+                // }
                 
-                &.fr {
-                  float: right;
-                  line-height: 40px;
-                }
-                &.fl{
-                  float: left;
-                  line-height: 40px;
-                }
+                // &.fr {
+                //   float: right;
+                //   line-height: 40px;
+                // }
+                // &.fl{
+                //   float: left;
+                //   line-height: 40px;
+                // }
                 &.gray{
                   color: #838ba0;
                 }
-                &.mr{
-                  margin: 0 8px 0 0;
-                }
-              }
-              &.between {
-                padding: 0 8px 0 16px;
-                white-space: nowrap;
-              }
-              &.center {
-                text-align: center;
-              }
-              &.between_2 {
-               padding: 0 4px 0;
-               white-space: nowrap;
-              }
-              &.center_right{
-                  text-align: center;
-                  p {
-                    &:first-child {
-                      margin: 0 0 0 5px;
-                    }
-                    &:last-child{
-                        margin: 0 5px 0 0;
-                        float: right;
-                        line-height: 45px;
-                    }
-                  }
+                // &.mr{
+                //   margin: 0 8px 0 0;
+                // }
+                // &.more_small_size{
+                //   max-width: 60%;
+                //   font-size: 12px;
+                // }
               }
             }
           }

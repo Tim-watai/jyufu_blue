@@ -3275,7 +3275,9 @@ main.double_inner_page {
             float: left;
             text-align: center;
             height: auto;
-            color: #4c525d; }
+            color: #4c525d;
+            font-size: 15px;
+            font-weight: bold; }
         main.double_inner_page ul li div.content {
           padding: 0 0 5px 0;
           height: 45px;
@@ -3288,51 +3290,98 @@ main.double_inner_page {
           main.double_inner_page ul li div.content.form_2 span {
             width: calc(100% / 2 - 3px);
             margin: 0 3px 0 0; }
+            main.double_inner_page ul li div.content.form_2 span:first-child {
+              float: left; }
+            main.double_inner_page ul li div.content.form_2 span:last-child {
+              margin: 0;
+              float: right; }
           main.double_inner_page ul li div.content.form_3 span {
             width: calc(100% / 3 - 3px);
             margin: 0 4.5px 0 0; }
+            main.double_inner_page ul li div.content.form_3 span:first-child {
+              float: left; }
+            main.double_inner_page ul li div.content.form_3 span:last-child {
+              margin: 0;
+              float: right; }
           main.double_inner_page ul li div.content.form_4 span {
             width: calc(100% / 4 - 4px);
             margin: 0 4px 0 0; }
+            main.double_inner_page ul li div.content.form_4 span:first-child {
+              float: left; }
+            main.double_inner_page ul li div.content.form_4 span:last-child {
+              margin: 0;
+              float: right; }
           main.double_inner_page ul li div.content span {
             display: inline-block;
             height: 100%;
             background: #f6f8ff;
-            line-height: 40px; }
+            line-height: 40px;
+            position: relative; }
+            main.double_inner_page ul li div.content span.box_1 p {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              text-align: center;
+              width: 100%;
+              overflow: hidden;
+              white-space: normal;
+              -o-text-overflow: ellipsis;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical; }
+            main.double_inner_page ul li div.content span.box_2_more {
+              white-space: normal; }
+              main.double_inner_page ul li div.content span.box_2_more p {
+                position: absolute;
+                top: 50%; }
+                main.double_inner_page ul li div.content span.box_2_more p:first-child {
+                  left: 32%;
+                  -webkit-transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+                  width: 60%;
+                  text-align: center;
+                  overflow: hidden;
+                  white-space: normal;
+                  -o-text-overflow: ellipsis;
+                  text-overflow: ellipsis;
+                  display: -webkit-box;
+                  -webkit-line-clamp: 2;
+                  -webkit-box-orient: vertical; }
+                main.double_inner_page ul li div.content span.box_2_more p:last-child {
+                  right: 20%;
+                  -webkit-transform: translate(50%, -50%);
+                  -ms-transform: translate(50%, -50%);
+                  transform: translate(50%, -50%); }
+            main.double_inner_page ul li div.content span.box_2_normal p {
+              position: absolute;
+              top: 50%;
+              width: 50%;
+              text-align: center; }
+              main.double_inner_page ul li div.content span.box_2_normal p:first-child {
+                left: 32%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                width: 50%;
+                text-align: center; }
+              main.double_inner_page ul li div.content span.box_2_normal p:last-child {
+                right: 22%;
+                -webkit-transform: translate(50%, -50%);
+                -ms-transform: translate(50%, -50%);
+                transform: translate(50%, -50%); }
             main.double_inner_page ul li div.content span p {
               font-size: 14px;
-              line-height: 1;
+              line-height: 16px;
               display: inline-block;
               vertical-align: middle;
               color: #4d515d; }
-              main.double_inner_page ul li div.content span p.t_c {
-                text-align: center; }
-              main.double_inner_page ul li div.content span p.fr {
-                float: right;
-                line-height: 40px; }
-              main.double_inner_page ul li div.content span p.fl {
-                float: left;
-                line-height: 40px; }
               main.double_inner_page ul li div.content span p.gray {
                 color: #838ba0; }
-              main.double_inner_page ul li div.content span p.mr {
-                margin: 0 8px 0 0; }
-            main.double_inner_page ul li div.content span.between {
-              padding: 0 8px 0 16px;
-              white-space: nowrap; }
-            main.double_inner_page ul li div.content span.center {
-              text-align: center; }
-            main.double_inner_page ul li div.content span.between_2 {
-              padding: 0 4px 0;
-              white-space: nowrap; }
-            main.double_inner_page ul li div.content span.center_right {
-              text-align: center; }
-              main.double_inner_page ul li div.content span.center_right p:first-child {
-                margin: 0 0 0 5px; }
-              main.double_inner_page ul li div.content span.center_right p:last-child {
-                margin: 0 5px 0 0;
-                float: right;
-                line-height: 45px; }
 
 nav.kinds ul.early {
   font-family: 'my_font';
