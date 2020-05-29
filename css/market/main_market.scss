@@ -1964,6 +1964,8 @@ aside {
                   &.point_area {
                     display: inline-block;
                     float: right;
+                    line-height: 22px;
+                    position: relative;
                     span {
                       &.point {
                         display: inline-block;
@@ -1973,7 +1975,7 @@ aside {
                         height: 3.5vw;
                         margin: 0 0 0 2vw;
                         position: relative;
-                        vertical-align: middle;
+                        vertical-align: bottom;
                         background: none;
                         &:active,
                         &.active,
@@ -1981,9 +1983,7 @@ aside {
                           &:before {
                             content: "";
                             position: absolute;
-                            -webkit-transform: translate(-50%, -50%);
-                            -ms-transform: translate(-50%, -50%);
-                            transform: translate(-50%, -50%);
+                            transform: translate(-55%, -55%);
                             top: 50%;
                             left: 50%;
                             width: 2.5vw;

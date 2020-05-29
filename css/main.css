@@ -2400,7 +2400,9 @@ aside.search_window {
           background-position: -12vw 0; }
       aside.search_window div.content div.group ul li div.point_area {
         display: inline-block;
-        float: right; }
+        float: right;
+        line-height: 22px;
+        position: relative; }
         aside.search_window div.content div.group ul li div.point_area span.point {
           display: inline-block;
           border-radius: 100px;
@@ -2409,14 +2411,14 @@ aside.search_window {
           height: 3.5vw;
           margin: 0 0 0 2vw;
           position: relative;
-          vertical-align: middle;
+          vertical-align: bottom;
           background: none; }
           aside.search_window div.content div.group ul li div.point_area span.point:active:before, aside.search_window div.content div.group ul li div.point_area span.point.active:before, aside.search_window div.content div.group ul li div.point_area span.point:hover:before {
             content: "";
             position: absolute;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-55%, -55%);
+            -ms-transform: translate(-55%, -55%);
+            transform: translate(-55%, -55%);
             top: 50%;
             left: 50%;
             width: 2.5vw;
@@ -2500,10 +2502,12 @@ div.window_double_mode {
     height: 100vh;
     line-height: 100vh;
     left: 0;
+    z-index: 500;
     background-color: rgba(0, 0, 0, 0.4); }
     div.window_double_mode.active .all_box {
       vertical-align: bottom;
-      display: inline-block; }
+      display: inline-block;
+      padding: 0; }
       div.window_double_mode.active .all_box .hide_area {
         display: block; }
     div.window_double_mode.active .double_mode .balance .double_arrow.double_arrow.double_arrow {
@@ -2543,22 +2547,18 @@ div.window_double_mode {
           div.window_double_mode div.all_box div.content ul li div {
             display: inline-block; }
           div.window_double_mode div.all_box div.content ul li.the_detail, div.window_double_mode div.all_box div.content ul li.the_total {
-            padding: 1.5vh 5vw 1.5vh 10vw;
+            padding: 1.5vh 5vw 1.5vh 5vw;
             line-height: 10vh; }
             div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding, div.window_double_mode div.all_box div.content ul li.the_total div.left_padding {
-              position: absolute;
-              -webkit-transform: translateY(-50%);
-              -ms-transform: translateY(-50%);
-              transform: translateY(-50%);
-              height: 100%;
-              width: 10vw;
-              top: 50%;
-              left: 0; }
+              position: relative;
+              line-height: 10vh;
+              width: 5vw;
+              height: 2vw; }
               div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:before, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:after, div.window_double_mode div.all_box div.content ul li.the_total div.left_padding.close:before, div.window_double_mode div.all_box div.content ul li.the_total div.left_padding.close:after {
                 content: "";
                 position: absolute;
                 top: 50%;
-                left: 50%;
+                left: 0%;
                 -webkit-transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
@@ -2576,7 +2576,7 @@ div.window_double_mode {
                 transform: translate(-50%, -50%) rotate(-45deg); }
             div.window_double_mode div.all_box div.content ul li.the_detail div.data, div.window_double_mode div.all_box div.content ul li.the_total div.data {
               line-height: 1;
-              padding: 0 0 0 3px;
+              padding: 0 0 0 12px;
               vertical-align: middle; }
               div.window_double_mode div.all_box div.content ul li.the_detail div.data span, div.window_double_mode div.all_box div.content ul li.the_total div.data span {
                 display: inline-block;
@@ -2602,7 +2602,16 @@ div.window_double_mode {
                   div.window_double_mode div.all_box div.content ul li.the_detail div.data span.title span, div.window_double_mode div.all_box div.content ul li.the_total div.data span.title span {
                     display: inline-block;
                     margin: 0 0 0 13px;
-                    font-weight: normal; }
+                    font-weight: normal;
+                    color: red; }
+                  div.window_double_mode div.all_box div.content ul li.the_detail div.data span.title .b_num, div.window_double_mode div.all_box div.content ul li.the_total div.data span.title .b_num {
+                    position: absolute;
+                    -webkit-transform: translate(0, -50%);
+                    -ms-transform: translate(0, -50%);
+                    transform: translate(0, -50%);
+                    top: 50%;
+                    left: -5%;
+                    font-size: 1.8vh; }
                 div.window_double_mode div.all_box div.content ul li.the_detail div.data span.mid, div.window_double_mode div.all_box div.content ul li.the_total div.data span.mid {
                   width: 100%;
                   font-size: 1.7vh;
@@ -2629,10 +2638,11 @@ div.window_double_mode {
               text-align: center;
               line-height: 10vh;
               font-size: 2.5vh;
-              color: #4d515d; }
+              color: red; }
               div.window_double_mode div.all_box div.content ul li.the_detail div.right_total span {
                 font-size: 2vh;
-                display: inline-block; }
+                display: inline-block;
+                color: #4d515d; }
             div.window_double_mode div.all_box div.content ul li.the_detail div.data {
               width: 65vw; }
           div.window_double_mode div.all_box div.content ul li.the_total {
@@ -2869,7 +2879,8 @@ div.double_mode {
       margin: 0 auto;
       color: #fff; }
       div.double_mode span.box div.langth, div.double_mode span.box div.balance {
-        width: 50%; }
+        width: 50%;
+        white-space: nowrap; }
       div.double_mode span.box div.langth {
         text-align: left;
         float: left;
