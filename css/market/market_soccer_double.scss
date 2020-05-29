@@ -247,12 +247,27 @@ div {
                     }
                     .t_right{
                       margin: -2px 0 0px;
+                      position: relative;
                       input{
                         line-height: 3vh;
                         width: 100%;
                         border-radius: 8px;
                         border: 1px solid #e0e3f3;
                         padding: 7px 7px 7px;
+                        position: relative;
+                        font-size: 1.7vh;
+                      
+                        &::placeholder{
+                          font-size: 1.7vh;
+                          color: #ced1e0;
+                        }
+                      }
+                      p{
+                        font-size: 1.7vh;
+                        position: absolute;
+                        right: 8px;
+                        top: 50%;
+                        transform: translateY(-50%);
                       }
                     }
                   }

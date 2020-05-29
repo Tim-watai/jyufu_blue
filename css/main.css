@@ -2692,13 +2692,36 @@ div.window_double_mode {
                   background-size: cover;
                   background-position: center center; }
               div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right {
-                margin: -2px 0 0px; }
+                margin: -2px 0 0px;
+                position: relative; }
                 div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input {
                   line-height: 3vh;
                   width: 100%;
                   border-radius: 8px;
                   border: 1px solid #e0e3f3;
-                  padding: 7px 7px 7px; }
+                  padding: 7px 7px 7px;
+                  position: relative;
+                  font-size: 1.7vh; }
+                  div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input::-webkit-input-placeholder {
+                    font-size: 1.7vh;
+                    color: #ced1e0; }
+                  div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input:-ms-input-placeholder {
+                    font-size: 1.7vh;
+                    color: #ced1e0; }
+                  div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input::-ms-input-placeholder {
+                    font-size: 1.7vh;
+                    color: #ced1e0; }
+                  div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input::placeholder {
+                    font-size: 1.7vh;
+                    color: #ced1e0; }
+                div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right p {
+                  font-size: 1.7vh;
+                  position: absolute;
+                  right: 8px;
+                  top: 50%;
+                  -webkit-transform: translateY(-50%);
+                  -ms-transform: translateY(-50%);
+                  transform: translateY(-50%); }
             div.window_double_mode div.all_box div.content ul li.the_total .kb_wrap {
               width: 100%;
               line-height: 100%; }
