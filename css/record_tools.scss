@@ -1,0 +1,147 @@
+aside{
+    .content{
+        // .empty_page {
+        //     text-align: center;
+        //     width: 100%;
+        //     .empty_icon {
+        //       background: url(../images/my_bet_record/bet_record_empty.png) no-repeat;
+        //       background-size: 100%;
+        //       background-position: center;
+        //       width: 50vw;
+        //       height: 50vw;
+        //       margin: 40vw 0 0 0;
+        //       display: inline-block;
+        //     }
+        //     p {
+        //       color: #838ba0;
+        //       font-size: 4vw;
+        //       margin: 4vw 0 8vw 0;
+        //       width: 100%;
+        //     }
+        //     button {
+        //       color: #fff;
+        //       background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
+        //       border: none;
+        //       border-radius: 3px;
+        //       font-size: 4vw;
+        //       padding: 2vw 10vw;
+        //     }
+        //   }
+        ul {
+            &.record {
+              margin: 10px 4vw 0 4vw;
+              width: 92vw;
+              border: 1px solid #9ba1c5;
+              border-radius: 8px;
+              background: #fff;
+              li {
+                font-size: 13px;
+                border-bottom: 1px solid #e0e3f3;
+                &.title {
+      
+                  border-bottom: 1px solid #e0e3f3;
+                  padding: 5px 10px 5px 10px;
+                  p {
+                    display: inline-block;
+                    &:first-child {
+                      color: #d46571;
+                    }
+                    &:last-child {
+                      color: #838b9f;
+                      float: right;
+                    }
+                  }
+                }
+                .wrap {
+                  display: inline-block;
+                  width: 72px;
+                  height: 30px;
+                  border-right: 1px solid #e0e3f3;
+                  line-height: 30px;
+                  background: #f7f8fc;
+                  color: #4d515d;
+                  &.no_limit {
+                    width: auto;
+                    border-right: none;
+                    background: #fff;
+                  }
+                  &.wrap_2 {
+                    width: 80px;
+                    border-right: none;
+                    background: #fff;
+                  }
+                  div{
+                    display: inline-block;
+                  }
+                  p {
+                    padding: 0 0 0 10px;
+                    display: inline-block;
+                  }
+                }
+                .wrap_footer {
+                  display: inline-block;
+                  width: auto;
+                  height: auto;
+                  padding: 5px 10px 5px 10px;
+                  border-radius: 8px 8px 8px 8px;
+                  border-right: none;
+                  color: #4d515d;
+                  p {
+                    position: relative;
+                    &:before {
+                      content: "";
+                      position: absolute;
+                      right: -10px;
+                      top: 50%;
+                      transform: translateY(-50%);
+                      width: 1px;
+                      height: 18px;
+                      background: #e0e3f3;
+                    }
+                  }
+                }
+                .blue {
+                  color: #556de7;
+                }
+                .green {
+                  color: #36a500;
+                }
+                .white_red.white_red {
+                  color: #fff;
+                  background: #d46572;
+                  line-height: 1;
+                  padding: 3px;
+                  margin: 0 0 0 10px;
+                  border-radius: 3px;
+                }
+              }
+            }
+            &.btn_group {
+              margin: 10px 4vw 0 4vw;
+              width: 92vw;
+              white-space: nowrap;
+              li {
+                border: 1px solid #e0e3f3;
+                display: inline-block;
+                width: 23%;
+                text-align: center;
+                border-radius: 4px;
+                background: #fff;
+                color: #838ba0;
+                padding: 7px 0 7px 0;
+                margin: 0 calc(8% / 4) 0 0;
+                line-height: 1;
+                &:hover,
+                &:active,
+                &.active {
+                  color: #fff;
+                  background: #7b8bd8;
+                }
+                p {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+    }
+}

@@ -203,6 +203,100 @@ button {
     transform: translateX(-100%);
     left: 0%; } }
 
+aside .content ul.record {
+  margin: 10px 4vw 0 4vw;
+  width: 92vw;
+  border: 1px solid #9ba1c5;
+  border-radius: 8px;
+  background: #fff; }
+  aside .content ul.record li {
+    font-size: 13px;
+    border-bottom: 1px solid #e0e3f3; }
+    aside .content ul.record li.title {
+      border-bottom: 1px solid #e0e3f3;
+      padding: 5px 10px 5px 10px; }
+      aside .content ul.record li.title p {
+        display: inline-block; }
+        aside .content ul.record li.title p:first-child {
+          color: #d46571; }
+        aside .content ul.record li.title p:last-child {
+          color: #838b9f;
+          float: right; }
+    aside .content ul.record li .wrap {
+      display: inline-block;
+      width: 72px;
+      height: 30px;
+      border-right: 1px solid #e0e3f3;
+      line-height: 30px;
+      background: #f7f8fc;
+      color: #4d515d; }
+      aside .content ul.record li .wrap.no_limit {
+        width: auto;
+        border-right: none;
+        background: #fff; }
+      aside .content ul.record li .wrap.wrap_2 {
+        width: 80px;
+        border-right: none;
+        background: #fff; }
+      aside .content ul.record li .wrap div {
+        display: inline-block; }
+      aside .content ul.record li .wrap p {
+        padding: 0 0 0 10px;
+        display: inline-block; }
+    aside .content ul.record li .wrap_footer {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      padding: 5px 10px 5px 10px;
+      border-radius: 8px 8px 8px 8px;
+      border-right: none;
+      color: #4d515d; }
+      aside .content ul.record li .wrap_footer p {
+        position: relative; }
+        aside .content ul.record li .wrap_footer p:before {
+          content: "";
+          position: absolute;
+          right: -10px;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          width: 1px;
+          height: 18px;
+          background: #e0e3f3; }
+    aside .content ul.record li .blue {
+      color: #556de7; }
+    aside .content ul.record li .green {
+      color: #36a500; }
+    aside .content ul.record li .white_red.white_red {
+      color: #fff;
+      background: #d46572;
+      line-height: 1;
+      padding: 3px;
+      margin: 0 0 0 10px;
+      border-radius: 3px; }
+
+aside .content ul.btn_group {
+  margin: 10px 4vw 0 4vw;
+  width: 92vw;
+  white-space: nowrap; }
+  aside .content ul.btn_group li {
+    border: 1px solid #e0e3f3;
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    border-radius: 4px;
+    background: #fff;
+    color: #838ba0;
+    padding: 7px 0 7px 0;
+    margin: 0 calc(8% / 4) 0 0;
+    line-height: 1; }
+    aside .content ul.btn_group li:hover, aside .content ul.btn_group li:active, aside .content ul.btn_group li.active {
+      color: #fff;
+      background: #7b8bd8; }
+    aside .content ul.btn_group li p {
+      font-size: 14px; }
+
 header ul.login {
   background: transparent;
   -webkit-box-shadow: none;
@@ -6699,122 +6793,6 @@ aside.my_windows_bet_record {
     margin: calc(5vh + 64px) 0 0 0;
     overflow-y: scroll;
     padding: 0 0 100px 0; }
-    aside.my_windows_bet_record div.content .empty_page {
-      text-align: center; }
-      aside.my_windows_bet_record div.content .empty_page .empty_icon {
-        background: url(../images/my_bet_record/bet_record_empty.png) no-repeat;
-        background-size: 100%;
-        background-position: center;
-        width: 50vw;
-        height: 50vw;
-        margin: 40vw 0 0 0;
-        display: inline-block; }
-      aside.my_windows_bet_record div.content .empty_page p {
-        color: #838ba0;
-        font-size: 4vw;
-        margin: 4vw 0 8vw 0; }
-      aside.my_windows_bet_record div.content .empty_page button {
-        color: #fff;
-        background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
-        background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-        background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-        background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
-        border: none;
-        border-radius: 3px;
-        font-size: 4vw;
-        padding: 2vw 10vw; }
-    aside.my_windows_bet_record div.content ul.record {
-      margin: 10px 4vw 0 4vw;
-      width: 92vw;
-      border: 1px solid #9ba1c5;
-      border-radius: 8px;
-      background: #fff; }
-      aside.my_windows_bet_record div.content ul.record li {
-        font-size: 13px;
-        border-bottom: 1px solid #e0e3f3; }
-        aside.my_windows_bet_record div.content ul.record li.title {
-          border-bottom: 1px solid #e0e3f3;
-          padding: 5px 10px 5px 10px; }
-          aside.my_windows_bet_record div.content ul.record li.title p {
-            display: inline-block; }
-            aside.my_windows_bet_record div.content ul.record li.title p:first-child {
-              color: #d46571; }
-            aside.my_windows_bet_record div.content ul.record li.title p:last-child {
-              color: #838b9f;
-              float: right; }
-        aside.my_windows_bet_record div.content ul.record li .wrap {
-          display: inline-block;
-          width: 72px;
-          height: 30px;
-          border-right: 1px solid #e0e3f3;
-          line-height: 30px;
-          background: #f7f8fc;
-          color: #4d515d; }
-          aside.my_windows_bet_record div.content ul.record li .wrap.no_limit {
-            width: auto;
-            border-right: none;
-            background: #fff; }
-          aside.my_windows_bet_record div.content ul.record li .wrap.wrap_2 {
-            width: 80px;
-            border-right: none;
-            background: #fff; }
-          aside.my_windows_bet_record div.content ul.record li .wrap div {
-            display: inline-block; }
-          aside.my_windows_bet_record div.content ul.record li .wrap p {
-            padding: 0 0 0 10px;
-            display: inline-block; }
-        aside.my_windows_bet_record div.content ul.record li .wrap_footer {
-          display: inline-block;
-          width: auto;
-          height: auto;
-          padding: 5px 10px 5px 10px;
-          border-radius: 8px 8px 8px 8px;
-          border-right: none;
-          color: #4d515d; }
-          aside.my_windows_bet_record div.content ul.record li .wrap_footer p {
-            position: relative; }
-            aside.my_windows_bet_record div.content ul.record li .wrap_footer p:before {
-              content: "";
-              position: absolute;
-              right: -10px;
-              top: 50%;
-              -webkit-transform: translateY(-50%);
-              -ms-transform: translateY(-50%);
-              transform: translateY(-50%);
-              width: 1px;
-              height: 18px;
-              background: #e0e3f3; }
-        aside.my_windows_bet_record div.content ul.record li .blue {
-          color: #556de7; }
-        aside.my_windows_bet_record div.content ul.record li .green {
-          color: #36a500; }
-        aside.my_windows_bet_record div.content ul.record li .white_red.white_red {
-          color: #fff;
-          background: #d46572;
-          line-height: 1;
-          padding: 3px;
-          margin: 0 0 0 10px;
-          border-radius: 3px; }
-    aside.my_windows_bet_record div.content ul.btn_group {
-      margin: 10px 4vw 0 4vw;
-      width: 92vw;
-      white-space: nowrap; }
-      aside.my_windows_bet_record div.content ul.btn_group li {
-        border: 1px solid #e0e3f3;
-        display: inline-block;
-        width: 23%;
-        text-align: center;
-        border-radius: 4px;
-        background: #fff;
-        color: #838ba0;
-        padding: 7px 0 7px 0;
-        margin: 0 calc(8% / 4) 0 0;
-        line-height: 1; }
-        aside.my_windows_bet_record div.content ul.btn_group li:hover, aside.my_windows_bet_record div.content ul.btn_group li:active, aside.my_windows_bet_record div.content ul.btn_group li.active {
-          color: #fff;
-          background: #7b8bd8; }
-        aside.my_windows_bet_record div.content ul.btn_group li p {
-          font-size: 14px; }
 
 aside.delete_windows ul {
   background: #fff;
@@ -7017,6 +6995,44 @@ aside.my_windows_t_record {
         border-bottom: 1px solid #e0e3f3; }
       aside.my_windows_t_record ul.t_record li.footer {
         border-radius: 0 0 8px 8px; }
+
+aside.my_window_game_record {
+  padding: 0 0 100px 0;
+  width: 100vw;
+  height: calc(100vh - 5vh - 10px);
+  background: #f7f7f7;
+  z-index: 0;
+  display: inline-block;
+  position: fixed; }
+  aside.my_window_game_record .content {
+    height: calc(100vh - (5vh + 64px));
+    margin: calc(5vh + 64px) 0 0 0;
+    overflow-y: scroll;
+    padding: 0 0 100px 0; }
+  aside.my_window_game_record .empty_page {
+    text-align: center; }
+    aside.my_window_game_record .empty_page .empty_icon {
+      background: url(../images/my_mb/gift_record_empty.png) no-repeat;
+      background-size: 100%;
+      background-position: center;
+      width: 50vw;
+      height: 50vw;
+      margin: 40vw auto 0 auto; }
+    aside.my_window_game_record .empty_page p {
+      color: #838ba0;
+      font-size: 4vw;
+      margin: 4vw 0 8vw 0;
+      display: inline-block; }
+    aside.my_window_game_record .empty_page button {
+      color: #fff;
+      background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
+      background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
+      background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
+      background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
+      border: none;
+      border-radius: 3px;
+      font-size: 4vw;
+      padding: 2vw 10vw; }
 
 aside.help {
   height: calc(100vh - 7vh);

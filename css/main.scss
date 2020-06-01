@@ -1,6 +1,7 @@
 /*first-variable*/
 @import "css_reset.scss";
 @import "../css/animation.scss";
+@import "../css/record_tools.scss";
 @import "../css/longin&sign_up/longin.scss";
 @import "../css/longin&sign_up/sign_up.scss";
 @import "../css/message/message.scss";
@@ -30,6 +31,7 @@
 @import "../css//my/bet_record/bet_record.scss";
 @import "../css/my/gift_record/gift_record.scss";
 @import "../css/my/t_record/t_record.scss";
+@import "../css/my/game_record_/my_game_result_record.scss";
 @import "../css/help/help.scss";
 @import "../css/help/help_board.scss";
 @import "../css/help/help_board_my.scss";
@@ -1196,7 +1198,6 @@ aside {
   .hidden_title {
     background: #fff;
     padding: calc(5vh + 10px) 0 0 0;
-    
     position: fixed;
     width: 100%;
     box-shadow: 0 3px 5px 0 #e2e2e2;
