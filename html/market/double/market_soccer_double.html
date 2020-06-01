@@ -866,8 +866,9 @@
                          <span>@</span>1.85
                         </div>
                     </li>
-                      <!--the_total&the_finish 各有active效果-->
-                    <li class="the_total">
+                      <!--"the_finish"add active注單完成-->
+                      <!--"the_total" active 預設填單-->
+                    <li class="the_total active">
                         <div class="top_wrap">
                             <div class="t_left">
                                 <div class="game_name">4串1</div>
@@ -906,7 +907,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="the_finish active">
+                    <li class="the_finish">
                         <div class="f_title">
                             <i></i><p>下注成功!</p>
                         </div>
@@ -1055,6 +1056,7 @@
                 <span class="game_name">
                     <p><em></em>法國甲組聯賽<em></em></p>
                 </span>
+            <!--注單完成"game_tag"add active-->
                 <span class="game_tag active">FT1550701</span>
                 <span class="bet_type">足球-大小</span>
                 <span class="counter">
@@ -1065,12 +1067,30 @@
             <div class="content">
                 <div class="info">
                     <span class="tie">大2.5&nbsp;@&nbsp;0.95</span>
-                    <span class="cir_wrap">
+                    <!--"cir_wrap"注單完成後消失-->
+                    <span class="cir_wrap active">
                         <div class="circle">8</div>
                     </span>
-                   
                 </div>
-              
+                <!--注單完成"finish_group"add active-->
+                <!--預設填單"input_group"add active-->
+                <div class="finish_group">
+                    <div class="f_title">
+                        <i></i><p>下注成功!</p>
+                    </div>
+                    <div class="bill_data">
+                        <ul class="wrap">
+                            <li>
+                                <p>時間</p>
+                                <p>05-27 13:04</p>
+                            </li>
+                            <li>
+                                <p>單號</p>
+                                <p>28658382561764</p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
                 <div class="input_group active">
                     <div class="detail">
                         <p class="balance">餘額&nbsp;:&nbsp;<span class="num">0.00元</span></p>

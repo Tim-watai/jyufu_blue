@@ -1940,7 +1940,7 @@ aside.bet_window {
         border-radius: 8px;
         position: relative;
         text-align: center;
-        padding: 1.2vh 1vw .5vh; }
+        padding: 1.2vh 1vw 1.2vh; }
         aside.bet_window div.bet_page div.content div.info span.tie {
           font-size: 2.2vh;
           display: inline-block;
@@ -1951,7 +1951,9 @@ aside.bet_window {
           width: 100%;
           line-height: 100%;
           text-align: right;
-          display: inline-block; }
+          display: none; }
+          aside.bet_window div.bet_page div.content div.info span.cir_wrap.active {
+            display: inline-block; }
           aside.bet_window div.bet_page div.content div.info span.cir_wrap .circle {
             display: inline-block;
             position: relative;
@@ -2051,6 +2053,69 @@ aside.bet_window {
           aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_b {
             width: 49%;
             float: left; }
+      aside.bet_window div.bet_page div.content div.finish_group {
+        display: none;
+        padding: 0 3vw 0; }
+        aside.bet_window div.bet_page div.content div.finish_group.active {
+          display: block; }
+        aside.bet_window div.bet_page div.content div.finish_group .f_title {
+          line-height: 4vh;
+          width: 100%;
+          margin: 1vh 0; }
+          aside.bet_window div.bet_page div.content div.finish_group .f_title i {
+            display: inline-block;
+            line-height: 4vh;
+            height: 4vh;
+            width: 4vh;
+            background: #354ecf;
+            border-radius: 100px;
+            position: relative;
+            vertical-align: top;
+            margin: 0 0 8px; }
+            aside.bet_window div.bet_page div.content div.finish_group .f_title i:before {
+              content: '';
+              position: absolute;
+              top: 42%;
+              left: 51%;
+              width: 1.3vh;
+              height: 2.3vh;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%) rotate(45deg);
+              border-style: solid;
+              border-width: 0 .5vh .5vh 0;
+              border-color: transparent #fff #fff transparent; }
+          aside.bet_window div.bet_page div.content div.finish_group .f_title p {
+            vertical-align: middle;
+            color: #556de7;
+            line-height: 100%;
+            font-size: 1.8vh;
+            font-weight: bold;
+            margin: 0 0 0 8px; }
+        aside.bet_window div.bet_page div.content div.finish_group .bill_data {
+          line-height: 100%;
+          width: 100%;
+          clear: both;
+          overflow: hidden;
+          margin: 0px 0 2vh; }
+          aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap {
+            width: 100%;
+            clear: both;
+            overflow: hidden; }
+            aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap li {
+              overflow: hidden;
+              margin: 0 0 1vh; }
+              aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap li:last-child {
+                margin: 0; }
+              aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap li p {
+                display: inline-block; }
+                aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap li p:first-child {
+                  float: left;
+                  color: #838ba0;
+                  font-size: 1.8vh; }
+                aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap li p:last-child {
+                  float: right;
+                  color: #4d515d; }
       aside.bet_window div.bet_page div.content div.result_wrap {
         width: 100%;
         line-height: 100%;
@@ -2085,47 +2150,6 @@ aside.bet_window {
             margin: 0 0 4px; }
           aside.bet_window div.bet_page div.content div.result_wrap .box p:last-child {
             color: #556de7; }
-      aside.bet_window div.bet_page div.content div.check {
-        font-size: 14px;
-        text-align: center;
-        padding: 1em 0 .5em; }
-        aside.bet_window div.bet_page div.content div.check .circle {
-          background: #344fcf;
-          position: relative;
-          width: 3em;
-          height: 3em;
-          border-radius: 100%;
-          display: inline-block; }
-          aside.bet_window div.bet_page div.content div.check .circle:before {
-            content: '';
-            position: absolute;
-            border-style: solid;
-            border-width: 0 .3em .3em 0;
-            border-color: transparent #fff #fff transparent;
-            top: 44%;
-            left: 57%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%) rotate(45deg);
-            width: 1em;
-            height: 1.5em; }
-        aside.bet_window div.bet_page div.content div.check p {
-          font-size: 1.2em;
-          color: #556de7;
-          font-weight: bold; }
-      aside.bet_window div.bet_page div.content div.check_detail {
-        font-size: 14px; }
-        aside.bet_window div.bet_page div.content div.check_detail .row {
-          overflow: hidden;
-          margin: 0 0 .5em; }
-        aside.bet_window div.bet_page div.content div.check_detail p {
-          font-size: 1.1em; }
-          aside.bet_window div.bet_page div.content div.check_detail p.left {
-            float: left;
-            color: #838da3; }
-          aside.bet_window div.bet_page div.content div.check_detail p.right {
-            float: right;
-            color: #4d515c; }
     aside.bet_window div.bet_page div.footer {
       position: relative;
       display: inline-block;
