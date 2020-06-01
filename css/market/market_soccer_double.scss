@@ -338,6 +338,7 @@ div {
                       width: 100%;
                       text-align: center;
                       line-height: 5vh;
+                      overflow: hidden;
                     }
                     .kb_top{
                       .box_s{
@@ -360,6 +361,7 @@ div {
                     }
                     .box_b{
                       width: 49%;
+                      float: left;
                     }
                   }
                   
