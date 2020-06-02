@@ -11,7 +11,7 @@ aside {
       height: calc(100vh - (5vh + 64px));
       margin: calc(5vh + 64px) 0 0 0;
       overflow-y: scroll;
-      padding: 0 0 100px 0;
+      padding: 0 2vw 100px 2vw;
     }
     .empty_page {
       text-align: center;
@@ -43,8 +43,10 @@ aside {
 .content {
   ul {
     &.g_over {
-      border: 1px solid #9ba1c5;
+      border: 2px solid #9ba1c5;
       width: 100%;
+      margin: 8px 0 0;
+      border-radius: 2px;
       .title {
         border-bottom: 1px solid #9ba1c5;
         color: #1b255c;
@@ -68,6 +70,11 @@ aside {
         .t1,
         .t2,
         .t3 {
+          &:last-child{
+            &:before{
+              background: transparent;
+            }
+          }
           &:before {
             content: "";
             position: absolute;
@@ -82,11 +89,15 @@ aside {
       }
       li {
         // line-height: 5vh;
+        border-bottom: 2px solid #9ba1c5;
+        &:last-child{
+          border-bottom: none;
+        }
         .t1,.t2,.t3{
           color: #838ba0;
           text-align: center;
-          line-height: 10vh;
-          height: 10vh;
+          line-height: 8vh;
+          height: 8vh;
         }
         .t1 {
           background: #ebecf2;
@@ -99,9 +110,39 @@ aside {
           }
         }
         .t2{
+          background: #fff;
+          border-right: 1px solid #e0e3f3;
           p{
-            line-height: 5vh;
+            line-height: 4vh;
             text-align: left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 1.8vh;
+            padding: 0 0 0 4px;
+            color: #1b255c;
+            &:first-child{
+              border-bottom: 1px solid #e0e3f3;
+            }
+          }
+        }
+        .t3{
+          border-right: 1px solid #e0e3f3;
+          &:last-child{
+            border-right: 1px solid transparent;
+          }
+          p{
+            line-height: 4vh;
+            text-align: left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 1.8vh;
+            color: #f30d0d;
+            text-align: center;
+            &:first-child{
+              border-bottom: 1px solid #e0e3f3;
+            }
           }
         }
       }
