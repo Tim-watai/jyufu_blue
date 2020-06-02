@@ -7021,6 +7021,139 @@ aside.my_windows_t_record {
       aside.my_windows_t_record ul.t_record li.footer {
         border-radius: 0 0 8px 8px; }
 
+aside .g_over_g_type, aside .g_over_g_date {
+  display: none;
+  position: absolute;
+  top: calc(5vh + 69px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 0;
+  width: 90vw;
+  z-index: 500; }
+  aside .g_over_g_type.active, aside .g_over_g_date.active {
+    display: block; }
+  aside .g_over_g_type .title, aside .g_over_g_date .title {
+    background: #fff;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #b6bbdc;
+    line-height: 4vh;
+    font-size: 2vh;
+    position: relative; }
+  aside .g_over_g_type .close, aside .g_over_g_date .close {
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 2vw; }
+    aside .g_over_g_type .close:before, aside .g_over_g_date .close:before {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 100%;
+      background: #4d515d;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%) rotate(45deg);
+      -ms-transform: translate(-50%, -50%) rotate(45deg);
+      transform: translate(-50%, -50%) rotate(45deg); }
+    aside .g_over_g_type .close:after, aside .g_over_g_date .close:after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 100%;
+      background: #4d515d;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+      -ms-transform: translate(-50%, -50%) rotate(-45deg);
+      transform: translate(-50%, -50%) rotate(-45deg); }
+  aside .g_over_g_type ul, aside .g_over_g_date ul {
+    border: 1px solid #b6bbdc;
+    border-top: 1px solid transparent;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+    background: #eff2fe;
+    padding: 0 0 2vw; }
+    aside .g_over_g_type ul li.box_4, aside .g_over_g_type ul li.box_5, aside .g_over_g_date ul li.box_4, aside .g_over_g_date ul li.box_5 {
+      margin: 2vw 0 0;
+      overflow: hidden;
+      padding: 0 3vw 0; }
+      aside .g_over_g_type ul li.box_4 span, aside .g_over_g_type ul li.box_5 span, aside .g_over_g_date ul li.box_4 span, aside .g_over_g_date ul li.box_5 span {
+        display: block;
+        float: left;
+        background: #fff;
+        text-align: center;
+        border: 1px solid #e0e3f3;
+        border-radius: 4px;
+        padding: 5px 0 5px;
+        font-size: 1.8vh;
+        color: #4d515d; }
+        aside .g_over_g_type ul li.box_4 span:hover, aside .g_over_g_type ul li.box_4 span:active, aside .g_over_g_type ul li.box_4 span.active, aside .g_over_g_type ul li.box_5 span:hover, aside .g_over_g_type ul li.box_5 span:active, aside .g_over_g_type ul li.box_5 span.active, aside .g_over_g_date ul li.box_4 span:hover, aside .g_over_g_date ul li.box_4 span:active, aside .g_over_g_date ul li.box_4 span.active, aside .g_over_g_date ul li.box_5 span:hover, aside .g_over_g_date ul li.box_5 span:active, aside .g_over_g_date ul li.box_5 span.active {
+          color: #fff;
+          background: #7b8bd8;
+          border: none; }
+        aside .g_over_g_type ul li.box_4 span:last-child, aside .g_over_g_type ul li.box_5 span:last-child, aside .g_over_g_date ul li.box_4 span:last-child, aside .g_over_g_date ul li.box_5 span:last-child {
+          margin: 0; }
+    aside .g_over_g_type ul li.box_4 span, aside .g_over_g_date ul li.box_4 span {
+      width: 24%;
+      margin: 0 1.3% 0 0; }
+    aside .g_over_g_type ul li.box_5 span, aside .g_over_g_date ul li.box_5 span {
+      width: 19%;
+      margin: 0 1.25% 0 0; }
+
+aside .g_over_g_type .tri {
+  position: absolute;
+  top: -15px;
+  left: 30px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 15px 8px;
+  border-color: transparent transparent #b6bbdc transparent; }
+  aside .g_over_g_type .tri:before {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 14px 7px;
+    border-color: transparent transparent #fff transparent; }
+
+aside .g_over_g_date .tri {
+  position: absolute;
+  top: -15px;
+  left: 156px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 15px 8px;
+  border-color: transparent transparent #b6bbdc transparent; }
+  aside .g_over_g_date .tri:before {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 14px 7px;
+    border-color: transparent transparent #fff transparent; }
+
 aside.my_window_game_record {
   padding: 0 0 100px 0;
   width: 100vw;
@@ -7061,7 +7194,7 @@ aside.my_window_game_record {
       padding: 2vw 10vw; }
 
 .content ul.g_over {
-  border: 2px solid #9ba1c5;
+  border: 1px solid #9ba1c5;
   width: 100%;
   margin: 8px 0 0;
   border-radius: 2px; }
@@ -7101,7 +7234,7 @@ aside.my_window_game_record {
       transform: translateY(-50%);
       background: #e0e3f3; }
   .content ul.g_over li {
-    border-bottom: 2px solid #9ba1c5; }
+    border-bottom: 1px solid #9ba1c5; }
     .content ul.g_over li:last-child {
       border-bottom: none; }
     .content ul.g_over li .t1, .content ul.g_over li .t2, .content ul.g_over li .t3 {
@@ -9137,18 +9270,6 @@ aside .hidden_title {
   width: 100%;
   -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
   box-shadow: 0 3px 5px 0 #e2e2e2; }
-  aside .hidden_title ul.g_over_g_type {
-    position: absolute;
-    top: calc(5vh + 69px);
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    z-index: 0;
-    width: 90vw; }
-    aside .hidden_title ul.g_over_g_type .title {
-      background: #fff;
-      text-align: center; }
   aside .hidden_title .tack {
     width: 110px;
     text-align: left;
@@ -9162,8 +9283,8 @@ aside .hidden_title {
     text-align: center;
     position: relative; }
     aside .hidden_title .tack p {
-      font-size: 14px;
-      line-height: 14px;
+      font-size: 16px;
+      line-height: 16px;
       position: relative;
       color: #4d515d; }
       aside .hidden_title .tack p span {

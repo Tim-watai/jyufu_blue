@@ -1201,20 +1201,9 @@ aside {
     position: fixed;
     width: 100%;
     box-shadow: 0 3px 5px 0 #e2e2e2;
-    ul{
-      &.g_over_g_type{
-        position: absolute;
-        top: calc(5vh + 69px);
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 0;
-        width: 90vw;
-        .title{
-          background: #fff;
-          text-align: center;
-        }
-      }
-    }
+    
+      
+   
     .tack {
       width: 110px;
       text-align: left;
@@ -1231,8 +1220,8 @@ aside {
       //   width: auto;
       // }
       p {
-        font-size: 14px;
-        line-height: 14px;
+        font-size: 16px;
+        line-height: 16px;
         position: relative;
         color: #4d515d;
         span {
