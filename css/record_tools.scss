@@ -248,10 +248,29 @@ aside{
                   }
                 }
                 &.box_1_num{
-                  padding: 8px 2vw 8px 2vw;
+                  
                   background: #fff;
                   overflow: hidden;
                   color: #4d515d;
+                  .n1,.n2{
+                    float: left;
+                  }
+                  .n1{
+                    width: 10%;
+                    line-height: 9vh;
+                    text-align: center;
+                    background: #f7f8fc;
+                    color: #4d515d;
+                    border-right: 1px solid #e0e3f3;
+                  }
+                  .n2{
+                    width: 90%;
+                    padding: 0 2vw 0 2vw;
+                    p{
+                      line-height: 3vh;
+                      font-size: 1.7vh;
+                    }
+                  }
                 }
                 &.box_2_normal{
                   background: #fff;

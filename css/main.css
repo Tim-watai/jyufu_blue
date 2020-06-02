@@ -404,10 +404,24 @@ aside .content .fast_record {
       aside .content .fast_record .detail li.box_1_normal span.red {
         color: #d46571; }
     aside .content .fast_record .detail li.box_1_num {
-      padding: 8px 2vw 8px 2vw;
       background: #fff;
       overflow: hidden;
       color: #4d515d; }
+      aside .content .fast_record .detail li.box_1_num .n1, aside .content .fast_record .detail li.box_1_num .n2 {
+        float: left; }
+      aside .content .fast_record .detail li.box_1_num .n1 {
+        width: 10%;
+        line-height: 9vh;
+        text-align: center;
+        background: #f7f8fc;
+        color: #4d515d;
+        border-right: 1px solid #e0e3f3; }
+      aside .content .fast_record .detail li.box_1_num .n2 {
+        width: 90%;
+        padding: 0 2vw 0 2vw; }
+        aside .content .fast_record .detail li.box_1_num .n2 p {
+          line-height: 3vh;
+          font-size: 1.7vh; }
     aside .content .fast_record .detail li.box_2_normal {
       background: #fff;
       overflow: hidden; }
