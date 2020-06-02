@@ -1246,7 +1246,7 @@ aside {
       ul {
         &.bet_record{
           display: none;
-          bottom: -45px;
+          bottom: -70px;
           left: 0;
           position: absolute;
           background: #f7f8fc;
@@ -1258,10 +1258,10 @@ aside {
           padding: 0 0 10px 0;
           li {
             padding: 0px 20px 0 10px;
-            margin: 0 0 0 0;
+            margin: 0 0 10px 0;
             position: relative;
-            &:first-child {
-              margin: 0 0 10px 0;
+            &:last-child {
+              margin: 0;
             }
             &:hover {
               color: #fff;
