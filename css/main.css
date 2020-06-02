@@ -7034,6 +7034,68 @@ aside.my_window_game_record {
       font-size: 4vw;
       padding: 2vw 10vw; }
 
+.content ul.g_over {
+  border: 1px solid #9ba1c5;
+  width: 100%; }
+  .content ul.g_over .title {
+    border-bottom: 1px solid #9ba1c5;
+    color: #1b255c;
+    font-size: 2vh;
+    background: #fff;
+    line-height: 3vh;
+    padding: 2px 0 0 8px;
+    font-weight: bold; }
+  .content ul.g_over li,
+  .content ul.g_over .format {
+    overflow: hidden; }
+  .content ul.g_over .format {
+    text-align: center;
+    background: #f6f8ff;
+    color: #4d515d;
+    font-size: 1.7vh;
+    line-height: 3vh;
+    border-bottom: 1px solid #e0e3f3; }
+    .content ul.g_over .format .t1:before,
+    .content ul.g_over .format .t2:before,
+    .content ul.g_over .format .t3:before {
+      content: "";
+      position: absolute;
+      right: 0;
+      width: 1px;
+      height: 80%;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      background: #e0e3f3; }
+  .content ul.g_over li .t1, .content ul.g_over li .t2, .content ul.g_over li .t3 {
+    color: #838ba0;
+    text-align: center;
+    line-height: 10vh;
+    height: 10vh; }
+  .content ul.g_over li .t1 {
+    background: #ebecf2;
+    border-right: 1px solid #e0e3f3; }
+    .content ul.g_over li .t1 .t_wrap {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 2vh;
+      line-height: 3vh; }
+  .content ul.g_over li .t2 p {
+    line-height: 5vh;
+    text-align: left; }
+  .content ul.g_over .t1,
+  .content ul.g_over .t2,
+  .content ul.g_over .t3 {
+    float: left;
+    position: relative; }
+  .content ul.g_over .t1 {
+    width: 20%; }
+  .content ul.g_over .t2 {
+    width: 58%; }
+  .content ul.g_over .t3 {
+    width: 11%; }
+
 aside.help {
   height: calc(100vh - 7vh);
   position: relative; }
@@ -9020,7 +9082,9 @@ aside .hidden_title {
     border-radius: 30px;
     position: relative;
     white-space: nowrap;
-    display: inline-block; }
+    display: inline-block;
+    text-align: center;
+    position: relative; }
     aside .hidden_title .tack.free {
       width: auto; }
     aside .hidden_title .tack p {

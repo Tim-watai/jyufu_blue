@@ -1212,6 +1212,8 @@ aside {
       position: relative;
       white-space: nowrap;
       display: inline-block;
+      text-align: center;
+      position: relative;
       &.free{
         width: auto;
       }
