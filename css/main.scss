@@ -874,7 +874,7 @@ footer {
   z-index: 200;
   bottom: 0;
   left: 0;
-  box-shadow: 0 -3px 5px 0 #e2e2e2;
+  box-shadow: 0 -3px 5px 0 #9c9c9c;
   border-top-left-radius: 20px 20px;
   border-top-right-radius: 20px 20px;
   background: #fff;
@@ -1246,7 +1246,7 @@ aside {
       ul {
         &.bet_record{
           display: none;
-          bottom: -70px;
+          top: 90%;
           left: 0;
           position: absolute;
           background: #f7f8fc;
@@ -1256,6 +1256,7 @@ aside {
           color: #4d515d;
           width: 110px;
           padding: 0 0 10px 0;
+          z-index: 500;
           li {
             padding: 0px 20px 0 10px;
             margin: 0 0 10px 0;

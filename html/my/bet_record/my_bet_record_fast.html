@@ -42,18 +42,19 @@
                     <li>未結算 <a href="./my_bet_record.html"></a></li>
                     <li>歷史帳務 <a href="./my_bet_record_history.html"></a></li>
                     <li>即時注單 <a href="./my_bet_record_fast.html"></a></li>
+                    <li>歷史注單 <a href="./my_bet_record_fast_history.html"></a></li>
                 </ul>
             </div>
         </div>
         <div class="content">
-            <!--"title" 有"active" 展開 收合-->
-           <!--"sample" 是預設大概資訊-->
-           <!--"detail" 是使用後詳細資料-->
-           <!--"active" 控制開關-->
+            <!--"fast_record" 有"active" 展開 收合-->
+            <!--預設"sample"-->
+            <!--展開"detail"-->
+            <!--"detail" li有Class排版-->
             <div class="fast_record">
-                <div class="title active">
+                <div class="title">
                     <p class="g_name">
-                        足球-全場-獨贏
+                        足球-全場-大小
                     </p>
                     <p class="g_type">
                         未開獎
@@ -64,7 +65,7 @@
                     </div>
                 </div>
                 <div class="sample">
-                    <p class="blue">波西米亞1905 @0.87</p>
+                    <p class="blue">大</p>
                     <p class="red">0.96</p>
                     <div class="r_wrap">
                         <p>投注金額</p>
@@ -76,14 +77,6 @@
                         <li class="box_1_normal">
                             <p>波蘭盃 全場</p>
                             <p>史塔麥列克[主]<span class="red">2.5</span>   VS 波茲南萊希</p>
-                        </li>
-                        <li class="box_1_num">
-                            <div class="n1">1</div>
-                            <div class="n2">
-                                <p>大小 [捷克甲組聯賽 全場]</p>
-                                <p>歐帕華[主]<span class="red">2平</span>  VS  卡爾維納</p>
-                                <p> <span class="blue">大</span> @ <span class="red">0.94</span></p>
-                            </div>
                         </li>
                         <li class="box_4_normal">
                             <p>投注時間</p>
@@ -116,6 +109,80 @@
                     </ul>
                 </div>
             </div>
+            <div class="fast_record">
+                <div class="title">
+                    <p class="g_name">
+                        足球-綜合過關
+                    </p>
+                    <p class="g_type">
+                        未開獎
+                    </p>
+                    <div class="r_wrap">
+                        <p>02/19 18:15</p>
+                        <i></i>
+                    </div>
+                </div>
+                <div class="sample">
+                    <p class="blue">3串1</p>
+                    <p class="red">0.96</p>
+                    <div class="r_wrap">
+                        <p>投注金額</p>
+                        <p>10000</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <ul>
+                        <li class="box_1_num">
+                            <div class="n1">1</div>
+                            <div class="n2">
+                                <p>大小 [捷克甲組聯賽 全場]</p>
+                                <p>歐帕華[主]<span class="red">2平</span>  VS  卡爾維納</p>
+                                <p> <span class="blue">大</span> @ <span class="red">0.94</span></p>
+                            </div>
+                        </li>
+                        <li class="box_1_num">
+                            <div class="n1">2</div>
+                            <div class="n2">
+                                <p>讓分 [捷克甲組聯賽 全場]</p>
+                                <p>波西米亞1905[主]<span class="red">0.5</span>  VS  特普利採</p>
+                                <p> <span class="blue">波西米亞1905</span> @ <span class="red">0.87</span></p>
+                            </div>
+                        </li>
+                        <li class="box_1_num">
+                            <div class="n1">3</div>
+                            <div class="n2">
+                                <p>大小 [捷克甲組聯賽 全場]</p>
+                                <p>歐帕華[主]<span class="red">2平</span>  VS  卡爾維納</p>
+                                <p> <span class="blue">大</span> @ <span class="red">0.94</span></p>
+                            </div>
+                        </li>
+                        <li class="box_4_normal">
+                            <p>投注時間</p>
+                            <p>02/19 18:15</p>
+                            <p>單號</p>
+                            <p>OU109948034</p>
+                        </li>
+                        <li class="box_4_normal">
+                            <p>投注選項</p>
+                            <p class="blue">3串1</p>
+                            <p>有效下注</p>
+                            <p>0</p>
+                        </li>
+                        <li class="box_4_normal">
+                            <p>狀態</p>
+                            <p>未開獎</p>
+                            <p>賠率</p>
+                            <p>0.96</p>
+                        </li>
+                        <li class="box_4_footer">
+                            <p>投注金額</p>
+                            <p>10000</p>
+                            <p>可贏(參考)</p>
+                            <p class="red">585.65</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="empty_page" >
                 <div class="empty_icon"></div>
                 <p>還沒有任何投注紀錄</p>
@@ -123,16 +190,16 @@
             </div>
         </div>
     </aside>
-    <aside class="delete_windows jump_window">
-        <ul>
-            <h1><p>撤單</p></h1>
-            <li><div class="wrap"><p>單號</p></div><div class="wrap2"><p>259139</p></div></li>
-            <li><div class="wrap"><p>注單內容</p></div><div class="wrap2"><p>波膽 0-0</p></div></li>
-            <li><div class="wrap"><p>投資金額</p></div><div class="wrap2"><p>1,000</p></div></li>
-            <li><div class="wrap"><p>賽事</p></div><div class="wrap2"><div class="blue">土耳其超級聯賽</div>[主]v里澤</div></li>
-            <div class="btn_group"><button class="close">關閉</button><button class="check">確定</button></div>
-        </ul>
-    </aside>
+    <div class="footer_blue_box_2">
+        <div class="box">
+            <p>金額總計</p>
+            <p>NT$379,994</p>
+        </div>
+        <div class="box">
+            <p>預估獲利總計</p>
+            <p>NT$379,994</p>
+        </div>
+    </div>
     <footer>
         <ul>
             <li class="index"><span></span>
@@ -151,12 +218,32 @@
                 <p>贊助</p>
                 <a href="../../donate/donate.html"></a>
             </li>
-            <li class="my have"><span></span>
+            <li class="my have active"><span></span>
                 <p>我的</p>
                 <a href="../../my/my.html"></a>
             </li>
         </ul>
     </footer>
+    <script>
+    $(document).ready(function(){
+        console.log('ready')
+        $('.fast_record').click(
+            function(){
+                if($(this).hasClass('active') != true){
+                   return  $(this).addClass('active');
+                }else{
+                    return $(this).removeClass('active');
+                }
+            }
+        )
+    });
+
+   
+    
+    
+    </script>
+
+
 
   
     <script type="text/javascript" src="../../../js/my/my_bet_record.js"></script>
