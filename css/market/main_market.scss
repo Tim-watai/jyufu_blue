@@ -1666,59 +1666,25 @@ aside {
                 }
                 
               }
-            //投注成功
-         
-              // &.check{
-              //   font-size: 14px;
-              //   text-align: center;
-              //   padding: 1em 0 .5em;
-              //   .circle{
-              //     background: #344fcf;
-              //     position: relative;
-              //     width: 3em;
-              //     height: 3em;
-              //     border-radius: 100%;
-              //     display: inline-block;
-              //     &:before{
-              //       content: '';
-              //       position: absolute;
-              //       border-style: solid;
-              //       border-width: 0 .3em .3em 0;
-              //       border-color: transparent #fff #fff transparent;
-              //       top: 44%;
-              //       left: 57%;
-              //       -webkit-transform: translate(-50%, -50%);
-              //       -ms-transform: translate(-50%, -50%);
-              //       transform: translate(-50%, -50%) rotate(45deg);
-              //       width: 1em;
-              //       height: 1.5em;
-              //     }
-              //   }
-              //   p{
-              //     font-size: 1.2em;
-              //     color: #556de7;
-              //     font-weight: bold;
-              //   }
-              // }
-              // &.check_detail{
-              //   font-size: 14px;
-              //   .row{
-              //     overflow: hidden;
-              //     margin: 0 0 .5em;
-              //   }
-              //   p{
-              //     font-size: 1.1em;
-              //     &.left{
-              //       float: left;
-              //       color: #838da3;
-              //     }
-              //     &.right{
-              //       float: right;
-              //       color: #4d515c;
-              //     }
-              //   }
-              
-              // }
+              &.auto_wrap{
+                line-height: 3vh;
+                font-size: 1.7vh;
+                margin: 5px 0 0;
+                input,label{
+                  display: inline-block;
+                  line-height: 1.7vh;
+                }
+                input{
+                  vertical-align: middle;
+                  margin: 0;
+                }
+                label{
+                  color: #d46571;
+                  margin: 0 0 0 4px;
+                  vertical-align: text-bottom;
+                }
+              }
+          
             }
           }
           &.footer {

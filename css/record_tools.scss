@@ -152,7 +152,7 @@ aside{
                 &.title{
                   color: #4d515d;
                   background: #f6f8ff;
-                  border-width: 1px 0 0 0;
+                  border-width: 1px 0 1px 0;
                   border-color: #e0e3f3;
                   border-style: solid;
                   font-size: 1.7vh;
@@ -177,10 +177,18 @@ aside{
                 }
                 &.list{
                   color: #4d515d;
-                  border-width: 1px 0 ;
-                  border-color: #e0e3f3;
-                  border-style: solid;
+                  // border-width: 1px 0 ;
+                  // border-color: #e0e3f3;
+                  // border-style: solid;
                   font-size: 1.7vh;
+                  &.active{
+                    .page{
+                      display: block;
+                      .fast_record{
+                        // pointer-events: all;
+                      }
+                    }
+                  }
                   .box{
                     line-height: 6vh;
                     height: 6vh;
@@ -208,6 +216,7 @@ aside{
                   .page{
                     width: 100%;
                     overflow: hidden;
+                    display: none;
                   }
                 }
                 &.box_4{

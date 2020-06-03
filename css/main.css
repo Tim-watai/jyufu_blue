@@ -326,7 +326,7 @@ aside .content ul.history_record {
   aside .content ul.history_record li.title {
     color: #4d515d;
     background: #f6f8ff;
-    border-width: 1px 0 0 0;
+    border-width: 1px 0 1px 0;
     border-color: #e0e3f3;
     border-style: solid;
     font-size: 1.7vh; }
@@ -347,10 +347,9 @@ aside .content ul.history_record {
         background: #e0e3f3; }
   aside .content ul.history_record li.list {
     color: #4d515d;
-    border-width: 1px 0;
-    border-color: #e0e3f3;
-    border-style: solid;
     font-size: 1.7vh; }
+    aside .content ul.history_record li.list.active .page {
+      display: block; }
     aside .content ul.history_record li.list .box {
       line-height: 6vh;
       height: 6vh;
@@ -372,7 +371,8 @@ aside .content ul.history_record {
           text-align: center; }
     aside .content ul.history_record li.list .page {
       width: 100%;
-      overflow: hidden; }
+      overflow: hidden;
+      display: none; }
   aside .content ul.history_record li.box_4 {
     width: 100%;
     overflow: hidden; }
@@ -2598,6 +2598,20 @@ aside.bet_window {
             margin: 0 0 4px; }
           aside.bet_window div.bet_page div.content div.result_wrap .box p:last-child {
             color: #556de7; }
+      aside.bet_window div.bet_page div.content div.auto_wrap {
+        line-height: 3vh;
+        font-size: 1.7vh;
+        margin: 5px 0 0; }
+        aside.bet_window div.bet_page div.content div.auto_wrap input, aside.bet_window div.bet_page div.content div.auto_wrap label {
+          display: inline-block;
+          line-height: 1.7vh; }
+        aside.bet_window div.bet_page div.content div.auto_wrap input {
+          vertical-align: middle;
+          margin: 0; }
+        aside.bet_window div.bet_page div.content div.auto_wrap label {
+          color: #d46571;
+          margin: 0 0 0 4px;
+          vertical-align: text-bottom; }
     aside.bet_window div.bet_page div.footer {
       position: relative;
       display: inline-block;
