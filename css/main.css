@@ -7175,31 +7175,6 @@ aside.my_windows_bet_record {
     margin: calc(5vh + 64px) 0 0 0;
     overflow-y: scroll;
     padding: 0 0 300px 0; }
-    aside.my_windows_bet_record div.content .empty_page {
-      text-align: center; }
-      aside.my_windows_bet_record div.content .empty_page .empty_icon {
-        background: url(../images/market/empty_bet.png) no-repeat;
-        background-size: 100%;
-        background-position: center;
-        width: 50vw;
-        height: 50vw;
-        margin: 40vw auto 0 auto; }
-      aside.my_windows_bet_record div.content .empty_page p {
-        color: #838ba0;
-        font-size: 4vw;
-        margin: 4vw 0 8vw 0;
-        display: inline-block;
-        width: 100%; }
-      aside.my_windows_bet_record div.content .empty_page button {
-        color: #fff;
-        background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
-        background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-        background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-        background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
-        border: none;
-        border-radius: 3px;
-        font-size: 4vw;
-        padding: 2vw 10vw; }
 
 aside.delete_windows ul {
   background: #fff;
@@ -7273,30 +7248,6 @@ aside.my_windwos_gift_record {
     margin: calc(5vh + 64px) 0 0 0;
     overflow-y: scroll;
     padding: 0 0 100px 0; }
-  aside.my_windwos_gift_record div .empty_page {
-    text-align: center; }
-    aside.my_windwos_gift_record div .empty_page .empty_icon {
-      background: url(../images/my_mb/gift_record_empty.png) no-repeat;
-      background-size: 100%;
-      background-position: center;
-      width: 50vw;
-      height: 50vw;
-      margin: 40vw auto 0 auto; }
-    aside.my_windwos_gift_record div .empty_page p {
-      color: #838ba0;
-      font-size: 4vw;
-      margin: 4vw 0 8vw 0;
-      display: inline-block; }
-    aside.my_windwos_gift_record div .empty_page button {
-      color: #fff;
-      background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
-      background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-      background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-      background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
-      border: none;
-      border-radius: 3px;
-      font-size: 4vw;
-      padding: 2vw 10vw; }
 
 aside.my_windows_t_record {
   margin: calc(5vh + 10px) 0 0 0;
@@ -7330,30 +7281,6 @@ aside.my_windows_t_record {
     display: inline-block;
     overflow-y: scroll;
     padding: 0 0 100px 0; }
-  aside.my_windows_t_record .empty_page {
-    text-align: center; }
-    aside.my_windows_t_record .empty_page .empty_icon {
-      background: url(../images/my_mb/empty_t_record.png) no-repeat;
-      background-size: 100%;
-      background-position: center;
-      width: 50vw;
-      height: 50vw;
-      margin: 40vw 0 0 0;
-      display: inline-block; }
-    aside.my_windows_t_record .empty_page p {
-      color: #838ba0;
-      font-size: 4vw;
-      margin: 4vw 0 8vw 0; }
-    aside.my_windows_t_record .empty_page button {
-      color: #fff;
-      background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
-      background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-      background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-      background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
-      border: none;
-      border-radius: 3px;
-      font-size: 4vw;
-      padding: 2vw 10vw; }
   aside.my_windows_t_record ul.yet.yet {
     background: #f5f5f5; }
     aside.my_windows_t_record ul.yet.yet li.title {
@@ -7549,31 +7476,6 @@ aside.my_window_game_record {
     margin: calc(5vh + 64px) 0 0 0;
     overflow-y: scroll;
     padding: 0 2vw 100px 2vw; }
-  aside.my_window_game_record .empty_page {
-    text-align: center; }
-    aside.my_window_game_record .empty_page .empty_icon {
-      background: url(../images/my_mb/gift_record_empty.png) no-repeat;
-      background-size: 100%;
-      background-position: center;
-      width: 50vw;
-      height: 50vw;
-      margin: 40vw auto 0 auto; }
-    aside.my_window_game_record .empty_page p {
-      color: #838ba0;
-      font-size: 4vw;
-      margin: 4vw 0 8vw 0;
-      display: inline-block;
-      width: 100%; }
-    aside.my_window_game_record .empty_page button {
-      color: #fff;
-      background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
-      background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-      background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
-      background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
-      border: none;
-      border-radius: 3px;
-      font-size: 4vw;
-      padding: 2vw 10vw; }
 
 .content ul.g_over {
   border: 1px solid #9ba1c5;
@@ -9457,6 +9359,35 @@ footer {
             position: absolute;
             right: -2px;
             top: -2px; }
+
+.empty_page {
+  text-align: center; }
+  .empty_page .empty_icon {
+    background: url(../images/my_mb/empty_t_record.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 50vw;
+    height: 50vw;
+    margin: 40vw 0 0 0;
+    display: inline-block; }
+    .empty_page .empty_icon.gift.gift.gift.gift {
+      background: url(../images/my_mb/gift_record_empty.png) no-repeat;
+      background-size: 100%;
+      background-position: center; }
+  .empty_page p {
+    color: #838ba0;
+    font-size: 4vw;
+    margin: 4vw 0 8vw 0; }
+  .empty_page button {
+    color: #fff;
+    background: -webkit-gradient(linear, left top, right top, from(#9aa6e3), to(#485cc4));
+    background: -webkit-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
+    background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
+    background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
+    border: none;
+    border-radius: 3px;
+    font-size: 4vw;
+    padding: 2vw 10vw; }
 
 aside.hot_windows {
   display: none;

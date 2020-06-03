@@ -37,32 +37,7 @@ aside {
       }
     }
 
-    .empty_page {
-      text-align: center;
-      .empty_icon {
-        background: url(../images/my_mb/empty_t_record.png) no-repeat;
-        background-size: 100%;
-        background-position: center;
-        width: 50vw;
-        height: 50vw;
-        margin: 40vw 0 0 0;
-        display: inline-block;
-      }
 
-      p {
-        color: #838ba0;
-        font-size: 4vw;
-        margin: 4vw 0 8vw 0;
-      }
-      button {
-        color: #fff;
-        background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
-        border: none;
-        border-radius: 3px;
-        font-size: 4vw;
-        padding: 2vw 10vw;
-      }
-    }
     ul {
       &.yet.yet{
         background: #f5f5f5;

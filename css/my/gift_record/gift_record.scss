@@ -14,31 +14,7 @@ aside {
         overflow-y: scroll;
         padding: 0 0 100px 0;
       }
-      .empty_page {
-        text-align: center;
-        .empty_icon {
-          background: url(../images/my_mb/gift_record_empty.png) no-repeat;
-          background-size: 100%;
-          background-position: center;
-          width: 50vw;
-          height: 50vw;
-          margin: 40vw auto 0 auto;
-        }
-        p {
-          color: #838ba0;
-          font-size: 4vw;
-          margin: 4vw 0 8vw 0;
-          display: inline-block;
-        }
-        button {
-          color: #fff;
-          background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
-          border: none;
-          border-radius: 3px;
-          font-size: 4vw;
-          padding: 2vw 10vw;
-        }
-      }
+   
     }
   }
 }
