@@ -2113,7 +2113,8 @@ main.market {
                       top: 50%; }
             main.market aside ul li.senior section.content span.point_box {
               width: 100%;
-              padding: 0 2.5vw; }
+              padding: 0 2.5vw;
+              overflow: hidden; }
               main.market aside ul li.senior section.content span.point_box span.counter {
                 width: 40%;
                 position: relative;
@@ -2135,25 +2136,6 @@ main.market {
                   main.market aside ul li.senior section.content span.point_box span.counter div.country {
                     line-height: calc((21vh / 2) - 3px);
                     margin: 0 0 3px 0; }
-                  main.market aside ul li.senior section.content span.point_box span.counter div.live {
-                    line-height: 3vh; }
-                    main.market aside ul li.senior section.content span.point_box span.counter div.live span {
-                      display: inline-block;
-                      background: url(../images/market/game_icons.png) no-repeat;
-                      background-size: 810%;
-                      width: 18px;
-                      height: 15px;
-                      line-height: 15px;
-                      position: relative;
-                      vertical-align: bottom; }
-                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game {
-                        background-position: -55px 0; }
-                        main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_game.yet.yet.yet {
-                          background-position: -73px 0; }
-                      main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live {
-                        background-position: -92px 0; }
-                        main.market aside ul li.senior section.content span.point_box span.counter div.live span.icon_live.yet.yet.yet {
-                          background-position: -109px 0; }
               main.market aside ul li.senior section.content span.point_box span.num_group {
                 width: 60%; }
                 main.market aside ul li.senior section.content span.point_box span.num_group.text_right {
@@ -2207,6 +2189,38 @@ main.market {
                     color: #1b255c;
                     font-size: 1.7vh;
                     font-weight: bold; }
+              main.market aside ul li.senior section.content span.point_box .live {
+                line-height: 3vh;
+                position: relative; }
+                main.market aside ul li.senior section.content span.point_box .live p {
+                  position: absolute;
+                  left: 50%;
+                  -webkit-transform: translate(-50%, 0%);
+                  -ms-transform: translate(-50%, 0%);
+                  transform: translate(-50%, 0%);
+                  bottom: 0;
+                  width: 100%;
+                  text-align: center;
+                  line-height: 100%;
+                  color: #1b255c;
+                  font-size: 1.7vh; }
+                main.market aside ul li.senior section.content span.point_box .live span {
+                  display: inline-block;
+                  background: url(../images/market/game_icons.png) no-repeat;
+                  background-size: 810%;
+                  width: 18px;
+                  height: 15px;
+                  line-height: 15px;
+                  position: relative;
+                  vertical-align: bottom; }
+                  main.market aside ul li.senior section.content span.point_box .live span.icon_game {
+                    background-position: -55px 0; }
+                    main.market aside ul li.senior section.content span.point_box .live span.icon_game.yet.yet.yet {
+                      background-position: -73px 0; }
+                  main.market aside ul li.senior section.content span.point_box .live span.icon_live {
+                    background-position: -92px 0; }
+                    main.market aside ul li.senior section.content span.point_box .live span.icon_live.yet.yet.yet {
+                      background-position: -109px 0; }
 
 footer ul.market li span {
   background: url(../images/footer_icons_market.png) no-repeat;

@@ -1049,6 +1049,7 @@ main {
                   &.point_box {
                     width: 100%;
                     padding: 0 2.5vw;
+                    overflow: hidden;
                     // overflow: auto;
                     span {
                       &.counter {
@@ -1078,32 +1079,7 @@ main {
                             line-height: calc((21vh / 2) - 3px);
                             margin: 0 0 3px 0;
                           }
-                          &.live {
-                           line-height: 3vh;
-                            span {
-                              display: inline-block;
-                              background: url(../images/market/game_icons.png)
-                                no-repeat;
-                              background-size: 810%;
-                              width: 18px;
-                              height: 15px;
-                              line-height: 15px;
-                              position: relative;
-                              vertical-align: bottom;
-                              &.icon_game {
-                                background-position: -55px 0;
-                                &.yet.yet.yet {
-                                  background-position: -73px 0;
-                                }
-                              }
-                              &.icon_live {
-                                background-position: -92px 0;
-                                &.yet.yet.yet {
-                                  background-position: -109px 0;
-                                }
-                              }
-                            }
-                          }
+                         
                         }
                       }
                       &.num_group {
@@ -1185,6 +1161,44 @@ main {
                         }
                       }
                     }
+                    .live {
+                      line-height: 3vh;
+                      position: relative;
+                      p{
+                        position: absolute;
+                        left: 50%;
+                        transform: translate(-50%,0%);
+                        bottom: 0;
+                        width: 100%;
+                        text-align: center;
+                        line-height: 100%;
+                        color: #1b255c;
+                        font-size: 1.7vh;
+                      }
+                       span {
+                         display: inline-block;
+                         background: url(../images/market/game_icons.png)
+                           no-repeat;
+                         background-size: 810%;
+                         width: 18px;
+                         height: 15px;
+                         line-height: 15px;
+                         position: relative;
+                         vertical-align: bottom;
+                         &.icon_game {
+                           background-position: -55px 0;
+                           &.yet.yet.yet {
+                             background-position: -73px 0;
+                           }
+                         }
+                         &.icon_live {
+                           background-position: -92px 0;
+                           &.yet.yet.yet {
+                             background-position: -109px 0;
+                           }
+                         }
+                       }
+                     }
                   }
                 }
               }
@@ -1751,7 +1765,7 @@ aside {
                     height: calc(4vh - 4px);
                     width: 15vw;
                     text-align: center;
-                    &.active {
+                    &.active{
                       background: #fff;
                       p {
                         color: #4d515d;
