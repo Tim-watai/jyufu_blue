@@ -192,10 +192,10 @@ aside{
                       text-align: right;
                       span{
                         &.ball{
+                          display: none;
                           width: 3vh;
                           height: 3vh;
                           line-height: 3vh;
-                          display: inline-block;
                           background: #f30d0d;
                           color: #fff;
                           vertical-align: middle;
@@ -235,7 +235,16 @@ aside{
                     }
                   }
                 }
-                
+                &.had.had.had{
+                  .box{
+                    background: #e9eeff;
+                    span{
+                      &.ball{
+                        display: inline-block;
+                      }
+                    }
+                  }
+                }
 
 
               }
