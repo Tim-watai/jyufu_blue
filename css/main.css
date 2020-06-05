@@ -2697,7 +2697,7 @@ aside.bet_window {
       position: absolute;
       background: #f6f8ff;
       width: 70vw;
-      line-height: 8em;
+      line-height: 9.5em;
       border-radius: 8px;
       font-size: 16px;
       text-align: center; }
@@ -2711,7 +2711,7 @@ aside.bet_window {
           display: inline-block;
           font-weight: bold;
           width: 100%;
-          margin: 0 0 1.5em; }
+          margin: 1em 0 1.8em; }
         aside.bet_window div.alret_bg .alret .a_wrap button {
           background: -webkit-gradient(linear, left top, right top, from(#99a6e3), to(#485cc4));
           background: -webkit-linear-gradient(left, #99a6e3 0%, #485cc4 100%);
@@ -2724,7 +2724,7 @@ aside.bet_window {
           display: inline-block;
           line-height: 100%;
           vertical-align: bottom;
-          padding: 0.5em 0;
+          padding: 0.7em 0;
           font-size: 1em; }
 
 aside.set_window {
