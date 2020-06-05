@@ -847,6 +847,9 @@ main {
                       width: 25%;
                       line-height: 20px;
                       background-color: #f6f8ff;
+                      &.active{
+                        background: #d3dbff;
+                      }
                       p {
                         color: #838ba0;
                         line-height: 16px;

@@ -225,22 +225,18 @@
         </ul>
     </footer>
     <script>
-    $(document).ready(function(){
-        console.log('ready')
-        $('.fast_record').click(
-            function(){
-                if($(this).hasClass('active') != true){
-                   return  $(this).addClass('active');
-                }else{
-                    return $(this).removeClass('active');
+        $(document).ready(function(){
+            console.log('ready')
+            $('.fast_record').click(
+                function(){
+                    if($(this).hasClass('active') != true){
+                    return  $(this).addClass('active');
+                    }else{
+                        return $(this).removeClass('active');
+                    }
                 }
-            }
-        )
-    });
-
-   
-    
-    
+            )
+        });
     </script>
 
 
