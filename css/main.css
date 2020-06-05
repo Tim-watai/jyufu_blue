@@ -2152,6 +2152,10 @@ main.market {
                   float: right; }
                 main.market aside ul li.senior section.content span.point_box span.num_group span div {
                   pointer-events: all; }
+                  main.market aside ul li.senior section.content span.point_box span.num_group span div.active {
+                    background: #556de7; }
+                    main.market aside ul li.senior section.content span.point_box span.num_group span div.active p, main.market aside ul li.senior section.content span.point_box span.num_group span div.active span {
+                      color: #fff; }
                   main.market aside ul li.senior section.content span.point_box span.num_group span div.lock span {
                     background: url(../images/market/lock.png) no-repeat;
                     background-size: cover;

@@ -1098,6 +1098,7 @@ main {
                           text-align: right;
                         }
                         span {
+                        
                           &.left {
                             float: left;
                           }
@@ -1106,7 +1107,12 @@ main {
                           }
                           div {
                             pointer-events: all;
-                           
+                            &.active{
+                              background: #556de7;
+                              p,span{
+                                color: #fff;
+                              }
+                            }
                             &.lock {
                               span {
                                 background: url(../images/market/lock.png)
