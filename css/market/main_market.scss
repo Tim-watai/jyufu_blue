@@ -594,6 +594,11 @@ main {
                         background-color: #fff;
                       }
                     }
+                    &.horse_race_choice_box{
+                      div{
+                        background: #fff;
+                      }
+                    }
                   }
                 }
                 &.blue {
@@ -847,8 +852,11 @@ main {
                       width: 25%;
                       line-height: 20px;
                       background-color: #f6f8ff;
-                      &.active{
-                        background: #d3dbff;
+                      &.active {
+                        background: #556de7;
+                        p,span{
+                          color: #fff;
+                        }
                       }
                       p {
                         color: #838ba0;
@@ -1098,9 +1106,7 @@ main {
                           }
                           div {
                             pointer-events: all;
-                            &.active {
-                              background: #d3dbff;
-                            }
+                           
                             &.lock {
                               span {
                                 background: url(../images/market/lock.png)

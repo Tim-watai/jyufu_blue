@@ -33,6 +33,15 @@ main{
                                         width: calc(50% - 2px);
                                         background: #f6f8ff;
                                         position: relative;
+                                        &.active{
+                                            background: #556de7;
+                                            p{
+                                                &.type,&.point{
+                                                    color: #fff;
+                                                }
+                                                
+                                            }
+                                        }
                                         &.left{
                                             float: left;
                                         }

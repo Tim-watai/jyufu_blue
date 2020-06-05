@@ -1794,6 +1794,8 @@ main.market {
             background: #eef1ff; }
             main.market aside ul li.beginner section.content:nth-child(odd) span.num_group div {
               background-color: #fff; }
+            main.market aside ul li.beginner section.content:nth-child(odd) span.horse_race_choice_box div {
+              background: #fff; }
           main.market aside ul li.beginner section.content.blue {
             background: #eef1ff; }
             main.market aside ul li.beginner section.content.blue span.num_group div {
@@ -1977,7 +1979,9 @@ main.market {
                 line-height: 20px;
                 background-color: #f6f8ff; }
                 main.market aside ul li.beginner section.content span.num_group div.active {
-                  background: #d3dbff; }
+                  background: #556de7; }
+                  main.market aside ul li.beginner section.content span.num_group div.active p, main.market aside ul li.beginner section.content span.num_group div.active span {
+                    color: #fff; }
                 main.market aside ul li.beginner section.content span.num_group div p {
                   color: #838ba0;
                   line-height: 16px;
@@ -2148,8 +2152,6 @@ main.market {
                   float: right; }
                 main.market aside ul li.senior section.content span.point_box span.num_group span div {
                   pointer-events: all; }
-                  main.market aside ul li.senior section.content span.point_box span.num_group span div.active {
-                    background: #d3dbff; }
                   main.market aside ul li.senior section.content span.point_box span.num_group span div.lock span {
                     background: url(../images/market/lock.png) no-repeat;
                     background-size: cover;
@@ -4536,6 +4538,10 @@ main.market aside ul li section.content span.horse_race_choice_box {
     width: calc(50% - 2px);
     background: #f6f8ff;
     position: relative; }
+    main.market aside ul li section.content span.horse_race_choice_box div.active {
+      background: #556de7; }
+      main.market aside ul li section.content span.horse_race_choice_box div.active p.type, main.market aside ul li section.content span.horse_race_choice_box div.active p.point {
+        color: #fff; }
     main.market aside ul li section.content span.horse_race_choice_box div.left {
       float: left; }
     main.market aside ul li section.content span.horse_race_choice_box div.right {
