@@ -98,20 +98,20 @@ header {
         font-size: 17px;
         color: #4d515d;
         position: relative;
-        &.for_edit{
+        &.for_edit {
           width: 40px;
           height: 17px;
-          &:before{
-            content: '編輯';
+          &:before {
+            content: "編輯";
             position: absolute;
             left: 0;
             top: 0;
             font-size: 17px;
             color: #4d515d;
           }
-          &.active{
-            &:before{
-              content: '取消';
+          &.active {
+            &:before {
+              content: "取消";
               position: absolute;
               left: 0;
               top: 0;
@@ -570,7 +570,7 @@ main {
           // }
           &.beginner {
             display: none;
-            &.active{
+            &.active {
               display: block;
             }
             section {
@@ -875,7 +875,7 @@ main {
             &.double {
               display: block;
             }
-            &.active{
+            &.active {
               display: block;
             }
 
@@ -992,7 +992,7 @@ main {
                     }
                     div {
                       display: inline-block;
-                        &.timing {
+                      &.timing {
                         color: #5875e0;
                         border: 1px solid #5875e0;
                         border-radius: 5px;
@@ -1001,7 +1001,7 @@ main {
                         text-align: center;
                         line-height: 1.7vh;
                         vertical-align: bottom;
-                        padding: 2px 2px 1px 2px;;
+                        padding: 2px 2px 1px 2px;
                       }
                       &.more {
                         float: right;
@@ -1079,19 +1079,18 @@ main {
                             line-height: calc((21vh / 2) - 3px);
                             margin: 0 0 3px 0;
                           }
-                         
                         }
                       }
                       &.num_group {
                         width: 60%;
-                        &.text_right{
+                        &.text_right {
                           text-align: right;
                         }
                         span {
-                          &.left{
+                          &.left {
                             float: left;
                           }
-                          &.right{
+                          &.right {
                             float: right;
                           }
                           div {
@@ -1134,7 +1133,7 @@ main {
                               height: calc(21vh / 2 - 3px);
                               margin: 0 0 3px 0;
                               line-height: calc((21vh / 2 - 3px) / 2);
-                              &.solo_line{
+                              &.solo_line {
                                 line-height: calc((21vh / 1 - 3px) / 2);
                               }
                             }
@@ -1164,10 +1163,10 @@ main {
                     .live {
                       line-height: 3vh;
                       position: relative;
-                      p{
+                      p {
                         position: absolute;
                         left: 50%;
-                        transform: translate(-50%,0%);
+                        transform: translate(-50%, 0%);
                         bottom: 0;
                         width: 100%;
                         text-align: center;
@@ -1175,30 +1174,30 @@ main {
                         color: #1b255c;
                         font-size: 1.7vh;
                       }
-                       span {
-                         display: inline-block;
-                         background: url(../images/market/game_icons.png)
-                           no-repeat;
-                         background-size: 810%;
-                         width: 18px;
-                         height: 15px;
-                         line-height: 15px;
-                         position: relative;
-                         vertical-align: bottom;
-                         &.icon_game {
-                           background-position: -55px 0;
-                           &.yet.yet.yet {
-                             background-position: -73px 0;
-                           }
-                         }
-                         &.icon_live {
-                           background-position: -92px 0;
-                           &.yet.yet.yet {
-                             background-position: -109px 0;
-                           }
-                         }
-                       }
-                     }
+                      span {
+                        display: inline-block;
+                        background: url(../images/market/game_icons.png)
+                          no-repeat;
+                        background-size: 810%;
+                        width: 18px;
+                        height: 15px;
+                        line-height: 15px;
+                        position: relative;
+                        vertical-align: bottom;
+                        &.icon_game {
+                          background-position: -55px 0;
+                          &.yet.yet.yet {
+                            background-position: -73px 0;
+                          }
+                        }
+                        &.icon_live {
+                          background-position: -92px 0;
+                          &.yet.yet.yet {
+                            background-position: -109px 0;
+                          }
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -1257,7 +1256,7 @@ aside {
     z-index: 500;
     position: fixed;
     top: 0;
-   text-align: center;
+    text-align: center;
     &.active {
       display: block;
     }
@@ -1366,16 +1365,16 @@ aside {
                   }
                 }
               }
-              &.game_tag{
+              &.game_tag {
                 width: 100%;
                 font-size: 1.7vh;
                 color: #b2b6c2;
                 display: none;
-                &.active{
+                &.active {
                   display: inline-block;
                 }
               }
-              &.bet_type{
+              &.bet_type {
                 width: 100%;
                 font-size: 1.7vh;
                 color: #838ba0;
@@ -1406,7 +1405,7 @@ aside {
                 span {
                   &.vs {
                     position: absolute;
-                    transform: translate(-50%,-50%);
+                    transform: translate(-50%, -50%);
                     left: 50%;
                     top: 50%;
                     font-size: 2.5vh;
@@ -1429,7 +1428,7 @@ aside {
                 position: relative;
                 text-align: center;
                 padding: 1.2vh 1vw 1.2vh;
-                span { 
+                span {
                   &.tie {
                     font-size: 2.2vh;
                     display: inline-block;
@@ -1437,14 +1436,14 @@ aside {
                     line-height: 100%;
                     color: #fff;
                   }
-                  &.cir_wrap{
+                  &.cir_wrap {
                     width: 100%;
                     line-height: 8vw;
                     text-align: center;
                     display: none;
                     color: #fff;
                     font-size: 2.1vh;
-                    &.active{
+                    &.active {
                       display: inline-block;
                     }
                     .circle {
@@ -1462,15 +1461,14 @@ aside {
                     }
                   }
                 }
-         
               }
-            
+
               &.input_group {
                 width: 100%;
                 overflow: auto;
                 display: none;
                 margin: 0 0 1.5vh;
-                &.active{
+                &.active {
                   display: block;
                 }
                 div {
@@ -1528,53 +1526,55 @@ aside {
                       }
                     }
                   }
-                  &.kb_wrap{
+                  &.kb_wrap {
                     width: 100%;
                     line-height: 100%;
-                    .kb_top,.kb_bot{
+                    .kb_top,
+                    .kb_bot {
                       width: 100%;
                       text-align: center;
                       line-height: 5vh;
                       overflow: hidden;
                     }
-                    .kb_top{
+                    .kb_top {
                       margin: 0 0 4px;
-                      .box_s{
-                        &:last-child{
+                      .box_s {
+                        &:last-child {
                           margin: 0;
                         }
                       }
                     }
-                    .box_s,.box_b{
+                    .box_s,
+                    .box_b {
                       border-radius: 8px;
                       border: 1px solid #e0e3f3;
                       background: #fff;
                       color: #4d515d;
                       font-size: 2.2vh;
                     }
-                    .box_s{
+                    .box_s {
                       width: 24%;
                       margin: 0 1.3% 0 0;
                       float: left;
                     }
-                    .box_b{
+                    .box_b {
                       width: 49%;
                       float: left;
                     }
                   }
                 }
               }
-              &.finish_group{
+              &.finish_group {
                 display: none;
                 padding: 0 3vw 0;
-                &.active{
+                &.active {
                   display: block;
                 }
-                .f_title{
+                .f_title {
                   line-height: 4vh;
                   width: 100%;
                   margin: 1vh 0;
-                  i{
+                  i {
                     display: inline-block;
                     line-height: 4vh;
                     height: 4vh;
@@ -1584,8 +1584,8 @@ aside {
                     position: relative;
                     vertical-align: top;
                     margin: 0 0 8px;
-                    &:before{
-                      content: '';
+                    &:before {
+                      content: "";
                       position: absolute;
                       top: 42%;
                       left: 51%;
@@ -1595,11 +1595,11 @@ aside {
                       -ms-transform: translate(-50%, -50%);
                       transform: translate(-50%, -50%) rotate(45deg);
                       border-style: solid;
-                      border-width: 0 .5vh .5vh 0;
+                      border-width: 0 0.5vh 0.5vh 0;
                       border-color: transparent #fff #fff transparent;
                     }
                   }
-                  p{
+                  p {
                     vertical-align: middle;
                     color: #556de7;
                     line-height: 100%;
@@ -1608,46 +1608,45 @@ aside {
                     margin: 0 0 0 8px;
                   }
                 }
-                .bill_data{
+                .bill_data {
                   line-height: 100%;
                   width: 100%;
                   clear: both;
                   overflow: hidden;
                   margin: 0px 0 2vh;
-                 .wrap{
-                   width: 100%;
-                   clear: both;
-                   overflow: hidden;
-                   li{
-                     overflow: hidden;
-                     margin: 0 0 1vh;
-                     &:last-child{
-                       margin: 0;
-                     }
-                     p{
-                      display: inline-block;
-                      &:first-child{
-                        float: left;
-                        color: #838ba0;
-                        font-size: 1.8vh;
+                  .wrap {
+                    width: 100%;
+                    clear: both;
+                    overflow: hidden;
+                    li {
+                      overflow: hidden;
+                      margin: 0 0 1vh;
+                      &:last-child {
+                        margin: 0;
                       }
-                      &:last-child{
-                        float: right;
-                        color: #4d515d;
+                      p {
+                        display: inline-block;
+                        &:first-child {
+                          float: left;
+                          color: #838ba0;
+                          font-size: 1.8vh;
+                        }
+                        &:last-child {
+                          float: right;
+                          color: #4d515d;
+                        }
                       }
                     }
-                   }
-                    
                   }
                 }
               }
-              &.result_wrap{
+              &.result_wrap {
                 width: 100%;
                 line-height: 100%;
                 padding: 5px 0 5px;
                 overflow: hidden;
-             
-                .box{
+
+                .box {
                   float: left;
                   width: 32%;
                   text-align: center;
@@ -1656,9 +1655,9 @@ aside {
                   line-height: 100%;
                   font-size: 1.8vh;
                   position: relative;
-                  &:before{
+                  &:before {
                     position: absolute;
-                    content: '';
+                    content: "";
                     width: 1px;
                     height: 3.5vh;
                     right: -1.3%;
@@ -1666,44 +1665,44 @@ aside {
                     transform: translateY(-50%);
                     background: #a8aecf;
                   }
-                  &:last-child{
+                  &:last-child {
                     margin: 0;
-                    &:before{
+                    &:before {
                       display: none;
                     }
                   }
-                  p{
-                    &:first-child{
+                  p {
+                    &:first-child {
                       color: #838ba0;
                       margin: 0 0 4px;
                     }
-                    &:last-child{
+                    &:last-child {
                       color: #556de7;
                     }
                   }
                 }
-                
               }
-              &.auto_wrap{
+              &.auto_wrap {
                 line-height: 30px;
                 font-size: 16px;
                 margin: 5px 0 0;
-                input,label{
+                input,
+                label {
                   display: inline-block;
                   line-height: 1.7vh;
                 }
-                input{
+                input {
                   vertical-align: middle;
                   margin: 0;
                   display: none;
-                  &:checked + label{
+                  &:checked + label {
                     background: #556de7;
-                    &:before{
+                    &:before {
                       display: block;
                     }
                   }
                 }
-                label{
+                label {
                   margin: 0 0 0 4px;
                   position: relative;
                   width: 20px;
@@ -1715,12 +1714,12 @@ aside {
                   background: #fff;
                   border-radius: 4px;
                   position: relative;
-                  &:before{
-                    content: '';
+                  &:before {
+                    content: "";
                     position: absolute;
                     top: 44%;
                     left: 57%;
-                    transform: translate(-50%,-50%) rotate(45deg);
+                    transform: translate(-50%, -50%) rotate(45deg);
                     width: 8px;
                     height: 13px;
                     background: transparent;
@@ -1730,13 +1729,12 @@ aside {
                     display: none;
                   }
                 }
-                p{
+                p {
                   color: #d46571;
                   display: inline-block;
                   font-size: 1em;
                 }
               }
-          
             }
           }
           &.footer {
@@ -1753,47 +1751,55 @@ aside {
           }
         }
       }
-      &.alret_wrap{
+      &.alret_bg {
         width: 100vw;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.3);
         z-index: 500;
         position: fixed;
         top: 0;
-        .alret{
-          top: 50%;
+        display: none;
+        &.active{
+          display: block;
+        }
+        .alret {
+          top: 40%;
           left: 50%;
           transform: translate(-50%, -50%);
           position: absolute;
           background: #f6f8ff;
           width: 70vw;
           // height: 10em;
-          line-height: 4em;
+          line-height: 8em;
           border-radius: 8px;
           font-size: 16px;
           text-align: center;
-
-          p{
-            color: #4d515d;
+          .a_wrap {
             line-height: 100%;
             display: inline-block;
-            font-weight: bold;
-            width: 100%;
+            vertical-align: middle;
+            p {
+              color: #4d515d;
+              line-height: 100%;
+              display: inline-block;
+              font-weight: bold;
+              width: 100%;
+              margin: 0 0 1.5em;
+            }
+            button {
+              background: linear-gradient(to right, #99a6e3 0%, #485cc4 100%);
+              width: 40vw;
+              border-radius: 8px;
+              border: none;
+              color: #fff;
+              display: inline-block;
+              line-height: 100%;
+              vertical-align: bottom;
+              padding: 0.5em 0;
+              font-size: 1em;
+            }
           }
-          button{
-            background: linear-gradient(to right, #99a6e3 0%, #485cc4 100%);
-            width: 30vw;
-            border-radius: 8px;
-            border: none;
-            color: #fff;
-            display: inline-block;
-            line-height: 100%;
-            vertical-align: bottom;
-            padding: .5em 0;
-            margin: 0 0 1em;
-            font-size: 1em;
-          }
-          }
+        }
       }
     }
   }
@@ -1845,7 +1851,7 @@ aside {
                     height: calc(4vh - 4px);
                     width: 15vw;
                     text-align: center;
-                    &.active{
+                    &.active {
                       background: #fff;
                       p {
                         color: #4d515d;
@@ -2148,15 +2154,16 @@ aside {
                   border-bottom: none;
                 }
                 span {
-                    display: inline-block;
-                    background: url(../images/market/search_game_icons.png) no-repeat;
-                    background-size: 300%;
-                    width: 6vw;
-                    height: 6vw;
-                    position: absolute;
-                    transform: translateY(-50%);
-                    top: 50%;
-                    left: 3vw;
+                  display: inline-block;
+                  background: url(../images/market/search_game_icons.png)
+                    no-repeat;
+                  background-size: 300%;
+                  width: 6vw;
+                  height: 6vw;
+                  position: absolute;
+                  transform: translateY(-50%);
+                  top: 50%;
+                  left: 3vw;
                   &.local_game_1 {
                     background-position: 0 0;
                   }

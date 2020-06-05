@@ -1426,14 +1426,14 @@ header ul li.pure_text {
     width: 40px;
     height: 17px; }
     header ul li.pure_text.for_edit:before {
-      content: '編輯';
+      content: "編輯";
       position: absolute;
       left: 0;
       top: 0;
       font-size: 17px;
       color: #4d515d; }
     header ul li.pure_text.for_edit.active:before {
-      content: '取消';
+      content: "取消";
       position: absolute;
       left: 0;
       top: 0;
@@ -2497,7 +2497,8 @@ aside.bet_window {
         aside.bet_window div.bet_page div.content div.input_group div.kb_wrap {
           width: 100%;
           line-height: 100%; }
-          aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .kb_top, aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .kb_bot {
+          aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .kb_top,
+          aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .kb_bot {
             width: 100%;
             text-align: center;
             line-height: 5vh;
@@ -2506,7 +2507,8 @@ aside.bet_window {
             margin: 0 0 4px; }
             aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .kb_top .box_s:last-child {
               margin: 0; }
-          aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_s, aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_b {
+          aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_s,
+          aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_b {
             border-radius: 8px;
             border: 1px solid #e0e3f3;
             background: #fff;
@@ -2539,7 +2541,7 @@ aside.bet_window {
             vertical-align: top;
             margin: 0 0 8px; }
             aside.bet_window div.bet_page div.content div.finish_group .f_title i:before {
-              content: '';
+              content: "";
               position: absolute;
               top: 42%;
               left: 51%;
@@ -2549,7 +2551,7 @@ aside.bet_window {
               -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%) rotate(45deg);
               border-style: solid;
-              border-width: 0 .5vh .5vh 0;
+              border-width: 0 0.5vh 0.5vh 0;
               border-color: transparent #fff #fff transparent; }
           aside.bet_window div.bet_page div.content div.finish_group .f_title p {
             vertical-align: middle;
@@ -2598,7 +2600,7 @@ aside.bet_window {
           position: relative; }
           aside.bet_window div.bet_page div.content div.result_wrap .box:before {
             position: absolute;
-            content: '';
+            content: "";
             width: 1px;
             height: 3.5vh;
             right: -1.3%;
@@ -2620,7 +2622,8 @@ aside.bet_window {
         line-height: 30px;
         font-size: 16px;
         margin: 5px 0 0; }
-        aside.bet_window div.bet_page div.content div.auto_wrap input, aside.bet_window div.bet_page div.content div.auto_wrap label {
+        aside.bet_window div.bet_page div.content div.auto_wrap input,
+        aside.bet_window div.bet_page div.content div.auto_wrap label {
           display: inline-block;
           line-height: 1.7vh; }
         aside.bet_window div.bet_page div.content div.auto_wrap input {
@@ -2644,7 +2647,7 @@ aside.bet_window {
           border-radius: 4px;
           position: relative; }
           aside.bet_window div.bet_page div.content div.auto_wrap label:before {
-            content: '';
+            content: "";
             position: absolute;
             top: 44%;
             left: 57%;
@@ -2673,15 +2676,18 @@ aside.bet_window {
       color: #fff;
       font-size: 19px;
       vertical-align: bottom; }
-  aside.bet_window div.alret_wrap {
+  aside.bet_window div.alret_bg {
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     z-index: 500;
     position: fixed;
-    top: 0; }
-    aside.bet_window div.alret_wrap .alret {
-      top: 50%;
+    top: 0;
+    display: none; }
+    aside.bet_window div.alret_bg.active {
+      display: block; }
+    aside.bet_window div.alret_bg .alret {
+      top: 40%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -2689,31 +2695,35 @@ aside.bet_window {
       position: absolute;
       background: #f6f8ff;
       width: 70vw;
-      line-height: 4em;
+      line-height: 8em;
       border-radius: 8px;
       font-size: 16px;
       text-align: center; }
-      aside.bet_window div.alret_wrap .alret p {
-        color: #4d515d;
+      aside.bet_window div.alret_bg .alret .a_wrap {
         line-height: 100%;
         display: inline-block;
-        font-weight: bold;
-        width: 100%; }
-      aside.bet_window div.alret_wrap .alret button {
-        background: -webkit-gradient(linear, left top, right top, from(#99a6e3), to(#485cc4));
-        background: -webkit-linear-gradient(left, #99a6e3 0%, #485cc4 100%);
-        background: -o-linear-gradient(left, #99a6e3 0%, #485cc4 100%);
-        background: linear-gradient(to right, #99a6e3 0%, #485cc4 100%);
-        width: 30vw;
-        border-radius: 8px;
-        border: none;
-        color: #fff;
-        display: inline-block;
-        line-height: 100%;
-        vertical-align: bottom;
-        padding: .5em 0;
-        margin: 0 0 1em;
-        font-size: 1em; }
+        vertical-align: middle; }
+        aside.bet_window div.alret_bg .alret .a_wrap p {
+          color: #4d515d;
+          line-height: 100%;
+          display: inline-block;
+          font-weight: bold;
+          width: 100%;
+          margin: 0 0 1.5em; }
+        aside.bet_window div.alret_bg .alret .a_wrap button {
+          background: -webkit-gradient(linear, left top, right top, from(#99a6e3), to(#485cc4));
+          background: -webkit-linear-gradient(left, #99a6e3 0%, #485cc4 100%);
+          background: -o-linear-gradient(left, #99a6e3 0%, #485cc4 100%);
+          background: linear-gradient(to right, #99a6e3 0%, #485cc4 100%);
+          width: 40vw;
+          border-radius: 8px;
+          border: none;
+          color: #fff;
+          display: inline-block;
+          line-height: 100%;
+          vertical-align: bottom;
+          padding: 0.5em 0;
+          font-size: 1em; }
 
 aside.set_window {
   display: none;
@@ -4233,7 +4243,8 @@ aside.yet_bill {
       overflow-y: scroll;
       border-radius: 0 0 12px 12px;
       text-align: center;
-      padding: 0 0 100px 0; }
+      padding: 0 0 100px 0;
+      position: relative; }
       aside.yet_bill .windows .content ul {
         background: #fff;
         width: 88vw;
@@ -4275,6 +4286,35 @@ aside.yet_bill {
           aside.yet_bill .windows .content ul li.title {
             color: #d46571;
             padding: 8px 0 8px 10px; }
+    aside.yet_bill .windows .bill_blue_box_2 {
+      position: absolute;
+      bottom: 0;
+      overflow: hidden;
+      background: #556de7;
+      width: 100%;
+      border-radius: 0 0 12px 12px; }
+      aside.yet_bill .windows .bill_blue_box_2 .box {
+        float: left;
+        width: 50%;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        padding: .5rem 0 .5rem; }
+        aside.yet_bill .windows .bill_blue_box_2 .box:first-child:before {
+          content: '';
+          position: absolute;
+          height: 75%;
+          width: 1px;
+          background: #fff;
+          right: 0;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
+        aside.yet_bill .windows .bill_blue_box_2 .box p {
+          line-height: 3vh; }
+          aside.yet_bill .windows .bill_blue_box_2 .box p:first-child {
+            font-size: 1.8vh; }
 
 aside.finish_bill {
   width: 100vw;
@@ -4395,6 +4435,35 @@ aside.finish_bill {
           aside.finish_bill .windows .content ul li.title {
             color: #d46571;
             padding: 8px 0 8px 10px; }
+    aside.finish_bill .windows .bill_blue_box_2 {
+      position: absolute;
+      bottom: 0;
+      overflow: hidden;
+      background: #556de7;
+      width: 100%;
+      border-radius: 0 0 12px 12px; }
+      aside.finish_bill .windows .bill_blue_box_2 .box {
+        float: left;
+        width: 50%;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        padding: .5rem 0 .5rem; }
+        aside.finish_bill .windows .bill_blue_box_2 .box:first-child:before {
+          content: '';
+          position: absolute;
+          height: 75%;
+          width: 1px;
+          background: #fff;
+          right: 0;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
+        aside.finish_bill .windows .bill_blue_box_2 .box p {
+          line-height: 3vh; }
+          aside.finish_bill .windows .bill_blue_box_2 .box p:first-child {
+            font-size: 1.8vh; }
 
 main.market aside ul li section.content span.horse_race_wrap {
   width: 80%;

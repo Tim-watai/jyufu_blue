@@ -79,6 +79,7 @@ aside {
             border-radius: 0 0 12px 12px;
             text-align: center;
             padding: 0 0 100px 0;
+            position: relative;
             ul{
                 background: #fff;
                 width: 88vw;
@@ -134,6 +135,42 @@ aside {
                         color: #d46571;
                         padding: 8px 0 8px 10px;
                         
+                    }
+                }
+            }
+        }
+        .bill_blue_box_2{
+            position: absolute;
+            bottom: 0;
+            overflow: hidden;
+            background: #556de7;
+            width: 100%;
+            border-radius: 0 0 12px 12px;
+            .box{
+                float: left;
+                width: 50%;
+                color: #fff;
+                text-align: center;
+                position: relative;
+                padding: .5rem 0 .5rem;
+                &:first-child{
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        height: 75%;
+                        width: 1px;
+                        background: #fff;
+                        right: 0;
+                        top: 50%;
+                        -webkit-transform: translateY(-50%);
+                        -ms-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                    }
+                }
+                p{
+                    line-height: 3vh;
+                    &:first-child{
+                        font-size: 1.8vh;
                     }
                 }
             }
@@ -279,6 +316,42 @@ aside {
                         color: #d46571;
                         padding: 8px 0 8px 10px;
                         
+                    }
+                }
+            }
+        }
+        .bill_blue_box_2{
+            position: absolute;
+            bottom: 0;
+            overflow: hidden;
+            background: #556de7;
+            width: 100%;
+            border-radius: 0 0 12px 12px;
+            .box{
+                float: left;
+                width: 50%;
+                color: #fff;
+                text-align: center;
+                position: relative;
+                padding: .5rem 0 .5rem;
+                &:first-child{
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        height: 75%;
+                        width: 1px;
+                        background: #fff;
+                        right: 0;
+                        top: 50%;
+                        -webkit-transform: translateY(-50%);
+                        -ms-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                    }
+                }
+                p{
+                    line-height: 3vh;
+                    &:first-child{
+                        font-size: 1.8vh;
                     }
                 }
             }
