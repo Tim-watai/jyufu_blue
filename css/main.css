@@ -1452,7 +1452,7 @@ nav.kinds {
   position: fixed;
   width: 100%;
   height: auto;
-  padding: 6vh 0 0 0;
+  padding: 3rem 0 0 0;
   background: #fff; }
   nav.kinds ul {
     height: 7.6vh;
@@ -1464,13 +1464,13 @@ nav.kinds {
     nav.kinds ul li {
       display: inline-block;
       width: auto;
-      height: 5vh;
-      line-height: 5vh;
+      height: 2.5rem;
+      line-height: 2.5rem;
       color: #838ba0;
       white-space: nowrap;
       text-align: center;
       pointer-events: all;
-      margin: 0 20px 0 0;
+      margin: 0 1.25rem 0 0;
       position: relative; }
       nav.kinds ul li:last-child {
         margin: 0 0 0 0; }
@@ -4155,9 +4155,9 @@ main.double_inner_page {
 
 nav.kinds ul.early {
   font-family: 'my_font';
-  height: 5vh;
-  line-height: 5vh;
-  padding: 0 16px;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 0 1rem;
   border-bottom: 1px solid #e0e3f3; }
   nav.kinds ul.early li {
     position: relative; }
