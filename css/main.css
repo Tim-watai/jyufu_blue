@@ -1336,7 +1336,7 @@ aside.inner_edit .wrap {
       color: #4d515d; }
 
 header ul.market {
-  padding: 0 33px 0 3vw; }
+  padding: 0 33px 0 .75rem; }
 
 header ul li.back {
   float: left;
@@ -1367,28 +1367,28 @@ header ul li.back {
 
 header ul li.wallet {
   float: right;
-  margin: 0 20px 0 0;
-  width: 22px;
-  height: 20px;
+  margin: 0 1.25rem 0 0;
+  width: 1.375rem;
+  height: 1.25rem;
   background: url(../images/head_icons.png) no-repeat;
-  background-size: 582%;
-  background-position: -85px 0;
+  background-size: 600%;
+  background-position: -5.5rem 0;
   position: relative; }
   header ul li.wallet .balance {
     display: inline-block;
     pointer-events: none;
     opacity: 0;
     position: absolute;
-    top: 30px;
+    top: 1.875rem;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     left: 50%;
     color: #fff;
     background: rgba(0, 0, 0, 0.6);
-    font-size: 16px;
+    font-size: 1rem;
     white-space: nowrap;
-    padding: 10px;
+    padding: .625rem;
     border-radius: 8px; }
     header ul li.wallet .balance:before {
       content: "";
@@ -1410,34 +1410,34 @@ header ul li.wallet {
 
 header ul li.search {
   float: right;
-  width: 22px;
-  height: 20px;
+  width: 1.375rem;
+  height: 1.25rem;
   background: url(../images/head_icons.png) no-repeat;
-  background-size: 591%;
-  background-position: -21px 0;
+  background-size: 600%;
+  background-position: -1.375rem 0;
   position: relative; }
 
 header ul li.pure_text {
   float: right;
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: #4d515d;
   position: relative; }
   header ul li.pure_text.for_edit {
-    width: 40px;
-    height: 17px; }
+    width: 2.5rem;
+    height: 1.0625rem; }
     header ul li.pure_text.for_edit:before {
       content: "編輯";
       position: absolute;
       left: 0;
       top: 0;
-      font-size: 17px;
+      font-size: 1.0625rem;
       color: #4d515d; }
     header ul li.pure_text.for_edit.active:before {
       content: "取消";
       position: absolute;
       left: 0;
       top: 0;
-      font-size: 17px;
+      font-size: 1.0625rem;
       color: #4d515d; }
 
 header ul li.edit_point {
@@ -1446,7 +1446,7 @@ header ul li.edit_point {
   background-size: 100%;
   background-position: center center;
   width: 18px;
-  height: 20px; }
+  height: 1.25rem; }
 
 nav.kinds {
   position: fixed;
@@ -1455,12 +1455,12 @@ nav.kinds {
   padding: 3rem 0 0 0;
   background: #fff; }
   nav.kinds ul {
-    height: 7.6vh;
-    line-height: 7.6vh;
+    height: 3.75rem;
+    line-height: 3.75rem;
     overflow: hidden;
     overflow-x: scroll;
     white-space: nowrap;
-    padding: 0 30px; }
+    padding: 0 1.875rem; }
     nav.kinds ul li {
       display: inline-block;
       width: auto;
@@ -1480,106 +1480,106 @@ nav.kinds {
           display: inline-block;
           background: url(../images/market/kinds.png) no-repeat;
           background-size: 1800%;
-          width: 25px;
-          height: 22px; }
+          width: 1.5625rem;
+          height: 1.375rem; }
         nav.kinds ul li.active span.all {
-          background-position: -25px 0; }
+          background-position: -1.5625rem 0; }
         nav.kinds ul li.active span.loves {
           background-position: -0px 0; }
         nav.kinds ul li.active span.soccer {
-          background-position: -50px 1px; }
+          background-position: -3.125rem 1px; }
         nav.kinds ul li.active span.basketball {
-          background-position: -100px 1px; }
+          background-position: -6.25rem 1px; }
         nav.kinds ul li.active span.horse {
-          background-position: -125px 0; }
+          background-position: -7.8125rem 0; }
         nav.kinds ul li.active span.e_sport {
-          background-position: -150px 2px; }
+          background-position: -9.375rem 2px; }
         nav.kinds ul li.active span.graph {
-          background-position: -175px 0; }
+          background-position: -10.9375rem 0; }
         nav.kinds ul li.active span.color_ball {
-          background-position: -200px 1px; }
+          background-position: -12.5rem 1px; }
         nav.kinds ul li.active span.ice_ball {
-          background-position: -225px 1px; }
+          background-position: -14.0625rem 1px; }
         nav.kinds ul li.active span.basball {
-          background-position: -75px 1px; }
+          background-position: -4.6875rem 1px; }
         nav.kinds ul li.active span.tennis {
-          background-position: -250px 1px; }
+          background-position: -15.625rem 1px; }
         nav.kinds ul li.active span.snooker {
-          background-position: -275px 1px; }
+          background-position: -17.1875rem 1px; }
         nav.kinds ul li.active span.volleyball {
-          background-position: -300px 1px; }
+          background-position: -18.75rem 1px; }
         nav.kinds ul li.active span.motor_sport {
-          background-position: -325px 1px; }
+          background-position: -20.3125rem 1px; }
         nav.kinds ul li.active span.badminton {
-          background-position: -350px 1px; }
+          background-position: -21.875rem 1px; }
         nav.kinds ul li.active span.football {
-          background-position: -375px 1px; }
+          background-position: -23.4375rem 1px; }
         nav.kinds ul li.active span.table_tennis {
-          background-position: -425px 1px; }
+          background-position: -26.5625rem 1px; }
         nav.kinds ul li.active span.beach_soccer {
-          background-position: -400px 1px; }
+          background-position: -25rem 1px; }
       nav.kinds ul li div {
         text-align: center;
         float: left;
-        line-height: 1.7vh; }
+        line-height: 1.125rem; }
         nav.kinds ul li div span.kind_icon {
           display: inline-block;
           background: url(../images/market/kinds.png) no-repeat;
           background-size: 1800%;
-          width: 25px;
-          height: 22px; }
+          width: 1.5625rem;
+          height: 1.375rem; }
         nav.kinds ul li div span.all {
-          background-position: -25px -20px; }
+          background-position: -1.5625rem -1.25rem; }
         nav.kinds ul li div span.loves {
-          background-position: -0px -20px; }
+          background-position: -0px -1.25rem; }
         nav.kinds ul li div span.soccer {
-          background-position: -50px -20px; }
+          background-position: -3.125rem -1.25rem; }
         nav.kinds ul li div span.basketball {
-          background-position: -100px -20px; }
+          background-position: -6.25rem -1.25rem; }
         nav.kinds ul li div span.horse {
-          background-position: -125px -20px; }
+          background-position: -7.8125rem -1.25rem; }
         nav.kinds ul li div span.e_sport {
-          background-position: -150px -20px; }
+          background-position: -9.375rem -1.25rem; }
         nav.kinds ul li div span.graph {
-          background-position: -175px -20px; }
+          background-position: -10.9375rem -1.25rem; }
         nav.kinds ul li div span.color_ball {
-          background-position: -200px -20px; }
+          background-position: -12.5rem -1.25rem; }
         nav.kinds ul li div span.ice_ball {
-          background-position: -225px -22px; }
+          background-position: -14.0625rem -1.375rem; }
         nav.kinds ul li div span.basball {
-          background-position: -75px -20px; }
+          background-position: -4.6875rem -1.25rem; }
         nav.kinds ul li div span.tennis {
-          background-position: -250px -20px; }
+          background-position: -15.625rem -1.25rem; }
         nav.kinds ul li div span.snooker {
-          background-position: -275px -20px; }
+          background-position: -17.1875rem -1.25rem; }
         nav.kinds ul li div span.volleyball {
-          background-position: -300px -20px; }
+          background-position: -18.75rem -1.25rem; }
         nav.kinds ul li div span.motor_sport {
-          background-position: -325px -20px; }
+          background-position: -20.3125rem -1.25rem; }
         nav.kinds ul li div span.badminton {
-          background-position: -350px -20px; }
+          background-position: -21.875rem -1.25rem; }
         nav.kinds ul li div span.football {
-          background-position: -375px -20px; }
+          background-position: -23.4375rem -1.25rem; }
         nav.kinds ul li div span.table_tennis {
-          background-position: -425px -20px; }
+          background-position: -26.5625rem -1.25rem; }
         nav.kinds ul li div span.beach_soccer {
-          background-position: -400px -20px; }
+          background-position: -25rem -1.25rem; }
         nav.kinds ul li div p {
-          font-size: 3vw;
-          line-height: 1.2vh;
+          font-size: .7rem;
+          line-height: 1;
           margin: 1px 0 0 0;
           font-family: "微軟正黑體"; }
       nav.kinds ul li span.num {
         position: relative;
         top: -34%;
-        font-size: 3.5vw;
+        font-size: .8rem;
         font-family: "my_font"; }
 
 nav section div {
-  margin: 0 0 0 3vw;
-  line-height: 3vh;
+  margin: 0 0 0 .7rem;
+  line-height: 1.5rem;
   width: 65px;
-  height: 3vh;
+  height: 1.5rem;
   position: relative;
   white-space: nowrap;
   background: #fff; }
@@ -1587,13 +1587,13 @@ nav section div {
     display: inline-block;
     color: #4d515d;
     font-family: "微軟正黑體";
-    font-size: 1.9vh;
-    line-height: 3vh; }
+    font-size: 1rem;
+    line-height: 1.5rem; }
 
 main.market {
-  margin-top: calc(12.6vh);
-  margin-bottom: 7vh;
-  height: calc(100vh - 12.6vh - 7vh);
+  margin-top: 6.25rem;
+  margin-bottom: 3.5rem;
+  height: calc(100vh - 6.25rem - 3.5rem);
   overflow-y: scroll;
   padding: 0 0 100px 0; }
   main.market aside.loading {
@@ -1624,29 +1624,28 @@ main.market {
         width: 150px;
         height: 150px; }
       main.market aside.empty_game .wrap p {
-        margin: 16px 0 0 0;
+        margin: 1rem 0 0 0;
         color: #838ba0; }
   main.market aside section.status {
     background: #fff; }
     main.market aside section.status div {
-      margin: 0 0 0 3vw;
-      line-height: 3vh;
+      margin: 0 0 0 .7rem;
+      line-height: 1.5rem;
       width: 100%;
-      height: 3vh;
+      height: 1.5rem;
       position: relative; }
       main.market aside section.status div span {
-        width: 15px;
-        height: 15px;
+        width: 0.9375rem;
+        height: 0.9375rem;
         vertical-align: middle;
-        line-height: 17px;
-        margin: 0 0 4px 0;
+        line-height: 1.0625rem;
         display: inline-block; }
       main.market aside section.status div p {
         display: inline-block;
         color: #4d515d;
         font-family: "my_font";
-        font-size: 1.9vh;
-        line-height: 3vh; }
+        font-size: 1rem;
+        line-height: 1.5rem; }
     main.market aside section.status.yet {
       border-top: 2px solid #ef6b5d; }
       main.market aside section.status.yet div span {
@@ -1669,8 +1668,8 @@ main.market {
         height: 15px;
         margin: 0 0 4px 0; }
   main.market aside article.option {
-    height: 3.5vh;
-    line-height: 3.5vh;
+    height: 1.75rem;
+    line-height: 1.75rem;
     background-color: #f7f7f7;
     -webkit-box-shadow: inset 0px 3px 3px 0 #e0e0e0;
     box-shadow: inset 0px 3px 3px 0 #e0e0e0; }
@@ -1678,8 +1677,8 @@ main.market {
       display: inline-block; }
       main.market aside article.option div.game_type {
         color: #838ba0;
-        font-size: 1.9vh;
-        margin: 0 0 0 4vw; }
+        font-size: 1rem;
+        margin: 0 0 0 .9375rem; }
         main.market aside article.option div.game_type p {
           display: inline-block;
           font-family: "微軟正黑體"; }
@@ -1689,9 +1688,9 @@ main.market {
         float: right;
         background-color: #d8d9de;
         border-radius: 12px;
-        width: 30vw;
+        width: 6.75rem;
         height: 85%;
-        line-height: calc(3.5vh * 0.85);
+        line-height: calc(1.75rem * 0.85);
         padding: 0 0.5%;
         position: relative;
         -webkit-transform: translateY(-50%);
@@ -1709,7 +1708,7 @@ main.market {
           top: 50%;
           width: 50%;
           height: 80%;
-          line-height: calc(3.5vh * 0.85 * 0.8);
+          line-height: calc(1.75rem * 0.85 * 0.8);
           border-radius: 12px; }
           main.market aside article.option div.mode span.active {
             background: #fff; }
@@ -1718,7 +1717,7 @@ main.market {
           main.market aside article.option div.mode span p {
             display: inline-block;
             color: #fff;
-            font-size: 3vw;
+            font-size: .7rem;
             position: relative;
             vertical-align: middle; }
           main.market aside article.option div.mode span:first-child {
@@ -1734,20 +1733,20 @@ main.market {
     main.market aside ul li {
       background-color: #fff;
       width: auto;
-      margin: 0 1.5vw 5px 1.5vw;
+      margin: 0 .3125rem 5px .3125rem;
       height: auto; }
       main.market aside ul li span.title {
         width: 100%;
-        height: 3.5vh;
-        line-height: 3.5vh;
-        padding: 0 2.5vw 0 2.5vw;
+        height: 1.75rem;
+        line-height: 1.75rem;
+        padding: 0 .5625rem 0 .5625rem;
         position: relative;
         display: inline-block; }
         main.market aside ul li span.title p {
           display: inline-block;
           color: #1b255c;
           font-weight: bold;
-          font-size: 1.8vh; }
+          font-size: .9rem; }
         main.market aside ul li span.title span {
           display: inline-block;
           float: right; }
@@ -1757,8 +1756,8 @@ main.market {
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-            height: 1.5vh;
-            width: 16px; }
+            height: .75rem;
+            width: 1rem; }
             main.market aside ul li span.title span.down_arrow:after, main.market aside ul li span.title span.down_arrow:before {
               content: "";
               position: absolute;
@@ -1782,13 +1781,13 @@ main.market {
         main.market aside ul li.beginner.active {
           display: block; }
         main.market aside ul li.beginner section.content {
-          padding: 0 2.5vw 10px 2.5vw;
+          padding: 0 .5625rem .625rem .5625rem;
           border-top: 1px solid #e0e3f3; }
           main.market aside ul li.beginner section.content span.title {
             width: 100%;
-            height: 3.5vh;
-            line-height: 3.5vh;
-            padding: 0 2.5vw 0 2.5vw;
+            height: 1.75rem;
+            line-height: 1.75rem;
+            padding: 0 .5625rem 0 .5625rem;
             position: relative; }
           main.market aside ul li.beginner section.content:nth-child(odd) {
             background: #eef1ff; }
@@ -1809,16 +1808,16 @@ main.market {
           main.market aside ul li.beginner section.content span {
             display: inline-block; }
             main.market aside ul li.beginner section.content span.time_more {
-              height: 3vh;
+              height: 1.5rem;
               width: 100%; }
               main.market aside ul li.beginner section.content span.time_more span {
                 display: inline-block; }
                 main.market aside ul li.beginner section.content span.time_more span.time {
                   color: #838ba0;
                   margin: 0 0 0 3px;
-                  font-size: 1.7vh;
+                  font-size: .8rem;
                   height: auto;
-                  line-height: 1.7vh;
+                  line-height: .8rem;
                   vertical-align: bottom;
                   font-weight: lighter; }
                   main.market aside ul li.beginner section.content span.time_more span.time p {
@@ -1844,10 +1843,11 @@ main.market {
                 color: #5875e0;
                 border: 1px solid #5875e0;
                 border-radius: 5px;
-                font-size: 1.7vh;
+                font-size: .9rem;
                 width: auto;
+                height: auto;
                 text-align: center;
-                line-height: 1.7vh;
+                line-height: 1;
                 vertical-align: bottom;
                 padding: 1px 2px 1px 2px;
                 background: none; }
@@ -1856,22 +1856,23 @@ main.market {
                 height: 100%;
                 white-space: nowrap;
                 color: #838ba0;
-                line-height: 3vh;
+                line-height: 1.5rem;
                 display: inline-block;
                 background: none;
                 width: auto; }
                 main.market aside ul li.beginner section.content span.time_more div.more p {
                   display: inline-block;
-                  font-size: 1.2vh; }
+                  font-size: .8rem; }
                 main.market aside ul li.beginner section.content span.time_more div.more span.num {
-                  font-size: 1.2vh; }
+                  font-size: .8rem; }
                 main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow {
                   position: relative;
                   -webkit-transform: rotate(-90deg);
                   -ms-transform: rotate(-90deg);
                   transform: rotate(-90deg);
-                  height: 1.2vh;
-                  width: 16px; }
+                  height: .8rem;
+                  width: 1rem;
+                  vertical-align: middle; }
                   main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.beginner section.content span.time_more div.more span.right_arrow:before {
                     content: "";
                     position: absolute;
@@ -1892,7 +1893,7 @@ main.market {
                     top: 50%; }
             main.market aside ul li.beginner section.content span.counter {
               width: 100%;
-              height: 4vh;
+              height: 2rem;
               white-space: nowrap;
               position: relative; }
               main.market aside ul li.beginner section.content span.counter div,
@@ -1903,7 +1904,7 @@ main.market {
                 vertical-align: middle;
                 color: #1b255c; }
                 main.market aside ul li.beginner section.content span.counter p.name {
-                  font-size: 1.7vh;
+                  font-size: 1rem;
                   vertical-align: middle;
                   white-space: nowrap;
                   overflow: hidden;
@@ -1927,7 +1928,7 @@ main.market {
                 transform: translate(0%, -50%);
                 top: 50%;
                 left: 0;
-                width: calc(50% - 20px);
+                width: calc(50% - 1.25rem);
                 text-align: right; }
                 main.market aside ul li.beginner section.content span.counter div.country:first-child span {
                   margin: 0 0 0 5px; }
@@ -1941,14 +1942,14 @@ main.market {
                 width: calc(50% - 25px); }
               main.market aside ul li.beginner section.content span.counter div.country span {
                 vertical-align: middle;
-                width: 17px;
-                height: 17px;
+                width: 1.0625rem;
+                height: 1.0625rem;
                 background: url(../images/market/cs.png) no-repeat;
                 background-size: 800%; }
                 main.market aside ul li.beginner section.content span.counter div.country span.icon1 {
                   background-position: 0 0; }
                 main.market aside ul li.beginner section.content span.counter div.country span.icon2 {
-                  background-position: -17px 0; }
+                  background-position: -1.0625rem 0; }
                 main.market aside ul li.beginner section.content span.counter div.country span.icon3 {
                   background-position: -34px 0; }
                 main.market aside ul li.beginner section.content span.counter div.country span.icon4 {
@@ -1969,14 +1970,14 @@ main.market {
                 display: inline-block;
                 text-align: center;
                 width: 40%;
-                line-height: 35px; }
+                line-height: 2.1875rem; }
                 main.market aside ul li.beginner section.content span.num_group.two_mode div:first-child {
                   margin: 0 2px 0 0; }
               main.market aside ul li.beginner section.content span.num_group div {
                 display: inline-block;
                 text-align: center;
                 width: 25%;
-                line-height: 20px;
+                line-height: 1.25rem;
                 background-color: #f6f8ff; }
                 main.market aside ul li.beginner section.content span.num_group div.active {
                   background: #556de7; }
@@ -1984,15 +1985,15 @@ main.market {
                     color: #fff; }
                 main.market aside ul li.beginner section.content span.num_group div p {
                   color: #838ba0;
-                  line-height: 16px;
-                  font-size: 1.7vh;
+                  line-height: 1rem;
+                  font-size: 1.125rem;
                   vertical-align: bottom;
                   display: inline-block;
                   width: 100%; }
                 main.market aside ul li.beginner section.content span.num_group div span {
                   color: #1b255c;
-                  line-height: 20px;
-                  font-size: 1.7vh;
+                  line-height: 1.25rem;
+                  font-size: 1.125rem;
                   font-weight: bold; }
                 main.market aside ul li.beginner section.content span.num_group div.tie {
                   margin: 0 5px 0 5px; }
@@ -2003,7 +2004,7 @@ main.market {
         main.market aside ul li.senior.active {
           display: block; }
         main.market aside ul li.senior section.content {
-          padding: 0 0 10px 0;
+          padding: 0 0 .625rem 0;
           border-top: 2px solid #e0e3f3;
           position: relative; }
           main.market aside ul li.senior section.content:nth-child(odd) {
@@ -2019,11 +2020,11 @@ main.market {
           main.market aside ul li.senior section.content.empty span.counter div.country p {
             color: #838ba0; }
           main.market aside ul li.senior section.content div.senior_mode {
-            height: 3vh;
-            line-height: 3vh;
+            height: 1.5rem;
+            line-height: 1.5rem;
             width: 100%;
             background: #f6f8ff;
-            padding: 0 2.5vw;
+            padding: 0 .5625rem;
             position: relative;
             text-align: right; }
             main.market aside ul li.senior section.content div.senior_mode span {
@@ -2034,7 +2035,7 @@ main.market {
               white-space: nowrap; }
               main.market aside ul li.senior section.content div.senior_mode span p {
                 display: inline-block;
-                font-size: 1.7vh;
+                font-size: 2.125rem;
                 color: #4d515d;
                 width: calc(100% / 3 - 3px);
                 text-align: center;
@@ -2053,15 +2054,15 @@ main.market {
           main.market aside ul li.senior section.content span {
             display: inline-block; }
             main.market aside ul li.senior section.content span.time_more {
-              line-height: 3vh;
-              height: 3vh;
+              line-height: 1.5rem;
+              height: 1.5rem;
               width: 100%;
-              padding: 0 2.5vw; }
+              padding: 0 .5625rem; }
               main.market aside ul li.senior section.content span.time_more span {
                 display: inline-block; }
                 main.market aside ul li.senior section.content span.time_more span.time {
                   color: #838ba0;
-                  font-size: 1.7vh;
+                  font-size: .8rem;
                   height: auto;
                   line-height: 1;
                   vertical-align: bottom;
@@ -2074,30 +2075,30 @@ main.market {
                   color: #5875e0;
                   border: 1px solid #5875e0;
                   border-radius: 5px;
-                  font-size: 1.7vh;
+                  font-size: 2.125rem;
                   width: auto;
                   text-align: center;
-                  line-height: 1.7vh;
+                  line-height: 2.125rem;
                   vertical-align: bottom;
                   padding: 2px 2px 1px 2px; }
                 main.market aside ul li.senior section.content span.time_more div.more {
                   float: right;
                   height: 100%;
-                  line-height: 3vh;
+                  line-height: 1.5rem;
                   white-space: nowrap;
                   color: #838ba0; }
                   main.market aside ul li.senior section.content span.time_more div.more p {
                     display: inline-block;
-                    font-size: 1.2vh; }
+                    font-size: .8rem; }
                   main.market aside ul li.senior section.content span.time_more div.more span.num {
-                    font-size: 1.2vh; }
+                    font-size: .8rem; }
                   main.market aside ul li.senior section.content span.time_more div.more span.right_arrow {
                     position: relative;
                     -webkit-transform: rotate(-90deg);
                     -ms-transform: rotate(-90deg);
                     transform: rotate(-90deg);
-                    height: 1.2vh;
-                    width: 16px;
+                    height: .8rem;
+                    width: 1rem;
                     line-height: 1; }
                     main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:after, main.market aside ul li.senior section.content span.time_more div.more span.right_arrow:before {
                       content: "";
@@ -2119,7 +2120,7 @@ main.market {
                       top: 50%; }
             main.market aside ul li.senior section.content span.point_box {
               width: 100%;
-              padding: 0 2.5vw;
+              padding: 0 .5625rem;
               overflow: hidden; }
               main.market aside ul li.senior section.content span.point_box span.counter {
                 width: 40%;
@@ -2132,7 +2133,7 @@ main.market {
                 main.market aside ul li.senior section.content span.point_box span.counter p {
                   color: #1b255c; }
                   main.market aside ul li.senior section.content span.point_box span.counter p.name {
-                    font-size: 1.7vh;
+                    font-size: 2.125rem;
                     vertical-align: middle;
                     line-height: 1; }
                 main.market aside ul li.senior section.content span.point_box span.counter div {
@@ -2161,7 +2162,7 @@ main.market {
                     background-size: cover;
                     background-position: center center;
                     width: 13px;
-                    height: 16px; }
+                    height: 1rem; }
                 main.market aside ul li.senior section.content span.point_box span.num_group span.three_side {
                   width: calc(100% / 3 - 3px);
                   text-align: center;
@@ -2188,17 +2189,17 @@ main.market {
                   background-color: #f6f8ff; }
                   main.market aside ul li.senior section.content span.point_box span.num_group div p {
                     color: #838ba0;
-                    font-size: 1.7vh;
+                    font-size: 2.125rem;
                     display: inline-block;
                     font-weight: bold;
                     width: 100%; }
                   main.market aside ul li.senior section.content span.point_box span.num_group div span {
                     width: 100%;
                     color: #1b255c;
-                    font-size: 1.7vh;
+                    font-size: 2.125rem;
                     font-weight: bold; }
               main.market aside ul li.senior section.content span.point_box .live {
-                line-height: 3vh;
+                line-height: 1.5rem;
                 position: relative; }
                 main.market aside ul li.senior section.content span.point_box .live p {
                   position: absolute;
@@ -2211,7 +2212,7 @@ main.market {
                   text-align: center;
                   line-height: 100%;
                   color: #1b255c;
-                  font-size: 1.7vh; }
+                  font-size: 2.125rem; }
                 main.market aside ul li.senior section.content span.point_box .live span {
                   display: inline-block;
                   background: url(../images/market/game_icons.png) no-repeat;
@@ -2363,21 +2364,21 @@ aside.bet_window {
                 border-radius: 100px; }
         aside.bet_window div.bet_page div.title span.game_tag {
           width: 100%;
-          font-size: 1.7vh;
+          font-size: 2.125rem;
           color: #b2b6c2;
           display: none; }
           aside.bet_window div.bet_page div.title span.game_tag.active {
             display: inline-block; }
         aside.bet_window div.bet_page div.title span.bet_type {
           width: 100%;
-          font-size: 1.7vh;
+          font-size: 2.125rem;
           color: #838ba0;
           margin: 1vh 0 1vh; }
         aside.bet_window div.bet_page div.title span.counter {
           width: 90%;
           position: relative;
-          margin: 0 0 1.5vh;
-          line-height: 3vh; }
+          margin: 0 0 .75rem;
+          line-height: 1.5rem; }
           aside.bet_window div.bet_page div.title span.counter p {
             color: #4d515d;
             display: inline-block;
@@ -2402,8 +2403,8 @@ aside.bet_window {
             font-size: 2.5vh; }
     aside.bet_window div.bet_page div.content {
       width: 100%;
-      padding: 0 2.5vw;
-      margin: 0 0 1.5vh; }
+      padding: 0 .5625rem;
+      margin: 0 0 .75rem; }
       aside.bet_window div.bet_page div.content div.info {
         width: 100%;
         height: auto;
@@ -2411,7 +2412,7 @@ aside.bet_window {
         border-radius: 8px;
         position: relative;
         text-align: center;
-        padding: 1.2vh 1vw 1.2vh; }
+        padding: .8rem 1vw .8rem; }
         aside.bet_window div.bet_page div.content div.info span.tie {
           font-size: 2.2vh;
           display: inline-block;
@@ -2443,13 +2444,13 @@ aside.bet_window {
         width: 100%;
         overflow: auto;
         display: none;
-        margin: 0 0 1.5vh; }
+        margin: 0 0 .75rem; }
         aside.bet_window div.bet_page div.content div.input_group.active {
           display: block; }
         aside.bet_window div.bet_page div.content div.input_group div.detail {
           width: 100%;
           overflow: auto;
-          padding: 1.5vh 0; }
+          padding: .75rem 0; }
           aside.bet_window div.bet_page div.content div.input_group div.detail p {
             color: #838ba0;
             font-size: 4.3vw; }
@@ -2464,7 +2465,7 @@ aside.bet_window {
               float: right; }
         aside.bet_window div.bet_page div.content div.input_group div.input_box {
           position: relative;
-          margin: 0 0 1.5vh 0;
+          margin: 0 0 .75rem 0;
           width: 100%; }
           aside.bet_window div.bet_page div.content div.input_group div.input_box:before {
             content: "元";
@@ -2531,18 +2532,18 @@ aside.bet_window {
             float: left; }
       aside.bet_window div.bet_page div.content div.finish_group {
         display: none;
-        padding: 0 3vw 0; }
+        padding: 0 .7rem 0; }
         aside.bet_window div.bet_page div.content div.finish_group.active {
           display: block; }
         aside.bet_window div.bet_page div.content div.finish_group .f_title {
-          line-height: 4vh;
+          line-height: 2rem;
           width: 100%;
           margin: 1vh 0; }
           aside.bet_window div.bet_page div.content div.finish_group .f_title i {
             display: inline-block;
-            line-height: 4vh;
-            height: 4vh;
-            width: 4vh;
+            line-height: 2rem;
+            height: 2rem;
+            width: 2rem;
             background: #354ecf;
             border-radius: 100px;
             position: relative;
@@ -2565,7 +2566,7 @@ aside.bet_window {
             vertical-align: middle;
             color: #556de7;
             line-height: 100%;
-            font-size: 1.8vh;
+            font-size: .9rem;
             font-weight: bold;
             margin: 0 0 0 8px; }
         aside.bet_window div.bet_page div.content div.finish_group .bill_data {
@@ -2588,7 +2589,7 @@ aside.bet_window {
                 aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap li p:first-child {
                   float: left;
                   color: #838ba0;
-                  font-size: 1.8vh; }
+                  font-size: .9rem; }
                 aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap li p:last-child {
                   float: right;
                   color: #4d515d; }
@@ -2604,13 +2605,13 @@ aside.bet_window {
           line-height: 5vh;
           margin: 0 1.3% 0 0;
           line-height: 100%;
-          font-size: 1.8vh;
+          font-size: .9rem;
           position: relative; }
           aside.bet_window div.bet_page div.content div.result_wrap .box:before {
             position: absolute;
             content: "";
             width: 1px;
-            height: 3.5vh;
+            height: 1.75rem;
             right: -1.3%;
             top: 50%;
             -webkit-transform: translateY(-50%);
@@ -2627,13 +2628,13 @@ aside.bet_window {
           aside.bet_window div.bet_page div.content div.result_wrap .box p:last-child {
             color: #556de7; }
       aside.bet_window div.bet_page div.content div.auto_wrap {
-        line-height: 30px;
-        font-size: 16px;
+        line-height: 1.875rem;
+        font-size: 1rem;
         margin: 5px 0 0; }
         aside.bet_window div.bet_page div.content div.auto_wrap input,
         aside.bet_window div.bet_page div.content div.auto_wrap label {
           display: inline-block;
-          line-height: 1.7vh; }
+          line-height: 2.125rem; }
         aside.bet_window div.bet_page div.content div.auto_wrap input {
           vertical-align: middle;
           margin: 0;
@@ -2645,9 +2646,9 @@ aside.bet_window {
         aside.bet_window div.bet_page div.content div.auto_wrap label {
           margin: 0 0 0 4px;
           position: relative;
-          width: 20px;
-          height: 20px;
-          line-height: 20px;
+          width: 1.25rem;
+          height: 1.25rem;
+          line-height: 1.25rem;
           border: 1px solid #a8aecf;
           vertical-align: text-bottom;
           display: inline-block;
@@ -2705,7 +2706,7 @@ aside.bet_window {
       width: 70vw;
       line-height: 9.5em;
       border-radius: 8px;
-      font-size: 16px;
+      font-size: 1rem;
       text-align: center; }
       aside.bet_window div.alret_bg .alret .a_wrap {
         line-height: 100%;
@@ -2763,19 +2764,19 @@ aside.set_window {
         aside.set_window ul.side_bar li div.box {
           float: right; }
           aside.set_window ul.side_bar li div.box div.check {
-            height: 4vh;
-            line-height: 4vh;
+            height: 2rem;
+            line-height: 2rem;
             width: 32vw;
             background: #737997;
             vertical-align: middle;
-            border-radius: 20px;
+            border-radius: 1.25rem;
             padding: 0 2px; }
             aside.set_window ul.side_bar li div.box div.check span {
               display: inline-block;
               font-size: 2vw;
-              border-radius: 20px;
-              line-height: calc(4vh - 4px);
-              height: calc(4vh - 4px);
+              border-radius: 1.25rem;
+              line-height: calc(2rem - 4px);
+              height: calc(2rem - 4px);
               width: 15vw;
               text-align: center; }
               aside.set_window ul.side_bar li div.box div.check span.active {
@@ -2795,15 +2796,15 @@ aside.set_window {
                 vertical-align: middle;
                 line-height: 1;
                 color: #ced1e0;
-                font-size: 3vw; }
+                font-size: .7rem; }
       aside.set_window ul.side_bar li.title {
         margin: 0 0 12px 0; }
         aside.set_window ul.side_bar li.title span {
           display: inline-block; }
           aside.set_window ul.side_bar li.title span.all {
             position: absolute;
-            margin: 0 0 0 3vw;
-            font-size: 3vw;
+            margin: 0 0 0 .7rem;
+            font-size: .7rem;
             color: #838ba0; }
           aside.set_window ul.side_bar li.title span.soccers {
             float: right;
@@ -2818,13 +2819,13 @@ aside.set_window {
               vertical-align: middle; }
           aside.set_window ul.side_bar li.title span.more {
             float: right;
-            margin: 0 0 0 3vw;
-            font-size: 3vw;
+            margin: 0 0 0 .7rem;
+            font-size: .7rem;
             color: #838ba0; }
             aside.set_window ul.side_bar li.title span.more p.arrow {
               display: inline-block;
-              width: 3vw;
-              height: 3vw;
+              width: .7rem;
+              height: .7rem;
               background: url(../images/icon/arrow_gray.png) no-repeat;
               background-position: center center;
               background-size: contain;
@@ -2866,12 +2867,12 @@ aside.search_window {
     height: 5vh;
     line-height: 5vh;
     background-color: #fff;
-    border-bottom-left-radius: 20px 20px;
-    border-bottom-right-radius: 20px 20px;
+    border-bottom-left-radius: 1.25rem 1.25rem;
+    border-bottom-right-radius: 1.25rem 1.25rem;
     margin: 0 auto;
     -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
     box-shadow: 0 3px 5px 0 #e2e2e2;
-    padding: 0 3vw 0 3vw; }
+    padding: 0 .7rem 0 .7rem; }
     aside.search_window div.header ul li.title {
       position: absolute;
       left: 50%;
@@ -2932,7 +2933,7 @@ aside.search_window {
         width: 100%;
         height: 5vh;
         font-size: 4vw;
-        border-radius: 30px;
+        border-radius: 1.875rem;
         padding: 2px 0 0 14vw; }
         aside.search_window div.input_area div.input_box input::-webkit-input-placeholder {
           color: #ced1e0; }
@@ -2950,8 +2951,8 @@ aside.search_window {
         transform: translateY(-50%);
         top: 50%;
         left: 10vw;
-        width: 22px;
-        height: 20px;
+        width: 1.375rem;
+        height: 1.25rem;
         background: url(../images/head_icons.png) no-repeat;
         background-size: 591%;
         background-position: -21px 0; }
@@ -2964,8 +2965,8 @@ aside.search_window {
         display: inline-block;
         border-radius: 100px;
         border: 1px solid #838ba0;
-        width: 3.5vw;
-        height: 3.5vw;
+        width: .8rem;
+        height: .8rem;
         margin: 0 0 0 2vw;
         position: relative; }
         aside.search_window div.input_area div.all span.active:before, aside.search_window div.input_area div.all span:active:before, aside.search_window div.input_area div.all span:hover:before {
@@ -2976,8 +2977,8 @@ aside.search_window {
           transform: translate(-50%, -50%);
           top: 50%;
           left: 50%;
-          width: 2.5vw;
-          height: 2.5vw;
+          width: .5625rem;
+          height: .5625rem;
           border-radius: 100px;
           background: #838ba0; }
   aside.search_window div.content {
@@ -3042,7 +3043,7 @@ aside.search_window {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         top: 50%;
-        left: 3vw; }
+        left: .7rem; }
         aside.search_window div.content div.group ul li span.local_game_1 {
           background-position: 0 0; }
         aside.search_window div.content div.group ul li span.local_game_2 {
@@ -3052,14 +3053,14 @@ aside.search_window {
       aside.search_window div.content div.group ul li div.point_area {
         display: inline-block;
         float: right;
-        line-height: 22px;
+        line-height: 1.375rem;
         position: relative; }
         aside.search_window div.content div.group ul li div.point_area span.point {
           display: inline-block;
           border-radius: 100px;
           border: 1px solid #838ba0;
-          width: 3.5vw;
-          height: 3.5vw;
+          width: .8rem;
+          height: .8rem;
           margin: 0 0 0 2vw;
           position: relative;
           vertical-align: bottom;
@@ -3072,8 +3073,8 @@ aside.search_window {
             transform: translate(-55%, -55%);
             top: 50%;
             left: 50%;
-            width: 2.5vw;
-            height: 2.5vw;
+            width: .5625rem;
+            height: .5625rem;
             border-radius: 100px;
             background: #838ba0; }
 
@@ -3105,7 +3106,7 @@ aside.now_bet_empty {
     aside.now_bet_empty .wrap .box {
       background: #f7f7f7;
       display: inline-block;
-      padding: 40px 20px 40px 20px;
+      padding: 2.5rem 1.25rem 2.5rem 1.25rem;
       border-radius: 8px; }
       aside.now_bet_empty .wrap .box .empty_icon {
         background: url(../images/market/empty_bet.png) no-repeat;
@@ -3115,7 +3116,7 @@ aside.now_bet_empty {
         height: 230px; }
       aside.now_bet_empty .wrap .box p {
         color: #838ba0;
-        margin: 40px 0 0 0; }
+        margin: 2.5rem 0 0 0; }
 
 .en_name {
   font-family: "my_font"; }
@@ -4952,7 +4953,7 @@ aside.my_windows {
           height: 0.9375rem;
           display: inline-block;
           border-radius: 3px;
-          margin: 0 0 0 2vw; }
+          margin: 0 0 0 .5rem; }
       aside.my_windows div.hellocard div.player_data p.days {
         font-size: 1.125rem;
         color: #838ba0;
@@ -4972,7 +4973,7 @@ aside.my_windows {
       background-position: center center; }
   aside.my_windows div.banner {
     width: 100%;
-    padding: 1rem 0 .75rem 0;
+    padding: 1rem .75rem .75rem .75rem;
     background: #fff; }
     aside.my_windows div.banner div.p1 {
       width: 21.75rem;
@@ -5026,7 +5027,7 @@ aside.my_windows {
           width: 100%; }
   aside.my_windows div.row_scroll {
     height: calc(100vh - 2.5rem - 4.6875rem - 1.75rem - 1.5rem - 3.1875rem - 0.1875rem - 10px);
-    padding: 0 0 200px 0;
+    padding: 0.875rem 0 200px 0;
     overflow: scroll; }
   aside.my_windows div.row_btn {
     background: #fff;
@@ -5037,16 +5038,16 @@ aside.my_windows {
     aside.my_windows div.row_btn:first-child {
       margin: 0.875rem 0 0 0; }
     aside.my_windows div.row_btn.line {
-      margin: 0 0 1px 0; }
+      margin: 0; }
       aside.my_windows div.row_btn.line:before {
         content: "";
         position: absolute;
-        bottom: -1px;
+        bottom: 0px;
         left: 50%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
-        width: 94vw;
+        width: 94%;
         height: 1px;
         background: #e0e3f3; }
     aside.my_windows div.row_btn span {
@@ -5107,18 +5108,18 @@ aside.title_windows {
   aside.title_windows ul.bg {
     position: relative;
     top: 30%;
-    width: 88vw;
-    height: 33vh;
+    width: 20.625rem;
+    height: 16.75rem;
     background-color: #fff;
     margin: 0 auto;
-    border-radius: 15px; }
+    border-radius: 0.9375rem; }
     aside.title_windows ul.bg li {
       font-family: "微軟正黑體";
       font-weight: normal;
       text-align: center; }
       aside.title_windows ul.bg li.title {
         text-align: center;
-        font-size: 2.6vh;
+        font-size: 1.8rem;
         color: #313030;
         padding: 6% 0 0 0;
         height: 20%;
@@ -5126,13 +5127,13 @@ aside.title_windows {
       aside.title_windows ul.bg li.content {
         color: #838ba0;
         padding: 3% 10% 0 10%;
-        font-size: 2.1vh;
-        line-height: 26px;
+        font-size: 1.1rem;
+        line-height: 1.625rem;
         height: 60%; }
       aside.title_windows ul.bg li.footer {
         height: 20%;
         border-top: 1px solid #e1e1e1;
-        font-size: 2.6vh;
+        font-size: 1.3rem;
         color: #313030;
         white-space: nowrap; }
         aside.title_windows ul.bg li.footer div {
@@ -5308,23 +5309,23 @@ aside.my_windows_set {
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
   aside.my_windows_set div.header {
-    margin: 0 0 1vh 0;
+    margin: 0 0 .5rem 0;
     background: #fff;
     text-align: center;
-    font-size: 18px;
-    padding: 10px 0 5px 0;
-    border-bottom-left-radius: 20px 20px;
-    border-bottom-right-radius: 20px 20px;
+    font-size: 1.125rem;
+    padding: 0.625rem 0 0.375rem 0;
+    border-bottom-left-radius: 1.25rem 1.25rem;
+    border-bottom-right-radius: 1.25rem 1.25rem;
     -webkit-box-shadow: 0 2px 3px 0 #e2e2e2;
     box-shadow: 0 2px 3px 0 #e2e2e2; }
   aside.my_windows_set div.row_btn {
     background: #fff;
-    line-height: 15vw;
-    padding: 0 3vw 0 3vw;
-    margin: 0 0 13px 0;
+    line-height: 3.5rem;
+    padding: 0 .75rem 0 .75rem;
+    margin: 0 0 0.875rem 0;
     position: relative; }
     aside.my_windows_set div.row_btn:first-child {
-      margin: 14px 0 0 0; }
+      margin: 0.875rem 0 0 0; }
     aside.my_windows_set div.row_btn.line {
       margin: 0 0 1px 0; }
       aside.my_windows_set div.row_btn.line:before {
@@ -5345,20 +5346,20 @@ aside.my_windows_set {
       float: right; }
       aside.my_windows_set div.row_btn div.box div.check {
         display: inline-block;
-        height: 4vh;
-        line-height: 4vh;
-        width: 32vw;
+        height: 2rem;
+        line-height: 2rem;
+        width: 7.25rem;
         background: #737997;
         vertical-align: middle;
-        border-radius: 20px;
+        border-radius: 1.25rem;
         padding: 0 2px; }
         aside.my_windows_set div.row_btn div.box div.check span {
           display: inline-block;
-          font-size: 2vw;
-          border-radius: 20px;
-          line-height: calc(4vh - 4px);
-          height: calc(4vh - 4px);
-          width: 15vw;
+          font-size: .75rem;
+          border-radius: 1.25rem;
+          line-height: calc(2rem - 0.25rem);
+          height: calc(2rem - 0.25rem);
+          width: 3.5rem;
           text-align: center; }
           aside.my_windows_set div.row_btn div.box div.check span.active {
             background: #fff; }
@@ -5378,63 +5379,63 @@ aside.my_windows_set {
             line-height: 1;
             color: #ced1e0;
             float: none;
-            font-size: 3vw; }
+            font-size: .75rem; }
     aside.my_windows_set div.row_btn div.box_empty {
       display: inline-block;
       float: right; }
       aside.my_windows_set div.row_btn div.box_empty div.check {
         display: inline-block;
-        height: 7vw;
-        line-height: 7vw;
+        height: 1.625rem;
+        line-height: 1.625rem;
         background: #737997;
         vertical-align: middle;
-        border-radius: 20px;
+        border-radius: 1.25rem;
         padding: 0 2px;
-        width: 13vw; }
+        width: 2.8125rem; }
         aside.my_windows_set div.row_btn div.box_empty div.check span.switch {
           position: relative;
           top: 2px;
-          width: calc(7vw - 4px);
-          height: calc(7vw - 4px);
+          width: calc(1.625rem - 0.25rem);
+          height: calc(1.625rem - 0.25rem);
           background: #fff;
-          border-radius: 20px;
+          border-radius: 1.25rem;
           -webkit-transition: all 0.3s ease-in-out;
           -o-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out; }
           aside.my_windows_set div.row_btn div.box_empty div.check span.switch.active {
-            -webkit-transform: translateX(calc(13vw - 7vw));
-            -ms-transform: translateX(calc(13vw - 7vw));
-            transform: translateX(calc(13vw - 7vw)); }
+            -webkit-transform: translateX(calc(2.8125rem - 1.625rem));
+            -ms-transform: translateX(calc(2.8125rem - 1.625rem));
+            transform: translateX(calc(2.8125rem - 1.625rem)); }
     aside.my_windows_set div.row_btn p {
       display: inline-block;
-      font-size: 4.3vw; }
+      font-size: 1rem; }
       aside.my_windows_set div.row_btn p.dark_blue.dark_blue {
         color: #4d515d; }
       aside.my_windows_set div.row_btn p:first-child {
         color: #4d515d; }
       aside.my_windows_set div.row_btn p:last-child {
         color: #838ba0;
-        line-height: 15vw;
+        line-height: 3.5rem;
         float: right; }
         aside.my_windows_set div.row_btn p:last-child span.arrow {
           display: inline-block;
-          width: 3vw;
-          height: 5vw;
+          width: .75rem;
+          height: 1.125rem;
           position: relative;
           background: url(../images/icon/arrow_lg.png) no-repeat;
           background-size: cover;
           background-position: center center;
-          margin: 0 0 0 3vw;
+          margin: 0 0 0 .75rem;
           line-height: 1;
           vertical-align: sub; }
   aside.my_windows_set div.get_out {
     width: 100%;
     text-align: center;
     background: #fff;
-    line-height: 15vw;
+    line-height: 3.5rem;
     position: relative;
     color: #4d515d;
-    font-size: 4.3vw; }
+    font-size: 1rem; }
 
 aside.my_windows_help {
   padding: calc(5vh + 10px) 0 100px 0;
@@ -9118,7 +9119,7 @@ main {
             font-weight: bold;
             position: relative; }
             main section ul.profile li.u_data.yet_sign .wrap button.sign_up {
-              width: 50%;
+              width: 45%;
               font-size: 1rem;
               background: -webkit-gradient(linear, left top, right top, from(#b5875e), to(#dfb995));
               background: -webkit-linear-gradient(left, #b5875e 0%, #dfb995 100%);
@@ -9129,7 +9130,7 @@ main {
               font-weight: bold;
               margin: 0 0.3125rem 0 0; }
             main section ul.profile li.u_data.yet_sign .wrap button.sign_in {
-              width: 50%;
+              width: 45%;
               font-size: 1rem;
               color: #2d43b6;
               border: 1px solid #b9bfdc;

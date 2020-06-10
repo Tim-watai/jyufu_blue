@@ -13,23 +13,23 @@ aside{
         }
         div {
           &.header {
-            margin: 0 0 1vh 0;
+            margin: 0 0 .5rem 0;
             background: #fff;
             text-align: center;
-            font-size: 18px;
-            padding: 10px 0 5px 0;
-            border-bottom-left-radius: 20px 20px;
-            border-bottom-right-radius: 20px 20px;
+            font-size: 1.125rem;
+            padding: 0.625rem 0 0.375rem 0;
+            border-bottom-left-radius: 1.25rem 1.25rem;
+            border-bottom-right-radius: 1.25rem 1.25rem;
             box-shadow: 0 2px 3px 0 #e2e2e2;
           }
           &.row_btn {
             background: #fff;
-            line-height: 15vw;
-            padding: 0 3vw 0 3vw;
-            margin: 0 0 13px 0;
+            line-height: 3.5rem;
+            padding: 0 .75rem 0 .75rem;
+            margin: 0 0 0.875rem 0;
             position: relative;
             &:first-child {
-              margin: 14px 0 0 0;
+              margin: 0.875rem 0 0 0;
             }
             &.line {
               margin: 0 0 1px 0;
@@ -54,20 +54,20 @@ aside{
                 div {
                   &.check {
                     display: inline-block;
-                    height: 4vh;
-                    line-height: 4vh;
-                    width: 32vw;
+                    height: 2rem;
+                    line-height: 2rem;
+                    width: 7.25rem;
                     background: #737997;
                     vertical-align: middle;
-                    border-radius: 20px;
+                    border-radius: 1.25rem;
                     padding: 0 2px;
                     span {
                       display: inline-block;
-                      font-size: 2vw;
-                      border-radius: 20px;
-                      line-height: calc(4vh - 4px);
-                      height: calc(4vh - 4px);
-                      width: 15vw;
+                      font-size: .75rem;
+                      border-radius: 1.25rem;
+                      line-height: calc(2rem - 0.25rem);
+                      height: calc(2rem - 0.25rem);
+                      width: 3.5rem;
                       text-align: center;
                       &.active {
                         background: #fff;
@@ -91,7 +91,7 @@ aside{
                         line-height: 1;
                         color: #ced1e0;
                         float: none;
-                        font-size: 3vw;
+                        font-size: .75rem;
                       }
                     }
                   }
@@ -103,24 +103,24 @@ aside{
                 div {
                   &.check {
                     display: inline-block;
-                    height: 7vw;
-                    line-height: 7vw;
+                    height: 1.625rem;
+                    line-height: 1.625rem;
                     background: #737997;
                     vertical-align: middle;
-                    border-radius: 20px;
+                    border-radius: 1.25rem;
                     padding: 0 2px;
-                    width: 13vw;
+                    width: 2.8125rem;
                     span {
                       &.switch {
                         position: relative;
                         top: 2px;
-                        width: calc(7vw - 4px);
-                        height: calc(7vw - 4px);
+                        width: calc(1.625rem - 0.25rem);
+                        height: calc(1.625rem - 0.25rem);
                         background: #fff;
-                        border-radius: 20px;
+                        border-radius: 1.25rem;
                         transition: all 0.3s ease-in-out;
                         &.active {
-                          transform: translateX(calc(13vw - 7vw));
+                          transform: translateX(calc(2.8125rem - 1.625rem));
                         }
                       }
                     }
@@ -130,7 +130,7 @@ aside{
             }
             p {
               display: inline-block;
-              font-size: 4.3vw;
+              font-size: 1rem;
               &.dark_blue.dark_blue {
                 color: #4d515d;
               }
@@ -142,18 +142,18 @@ aside{
               }
               &:last-child {
                 color: #838ba0;
-                line-height: 15vw;
+                line-height: 3.5rem;
                 float: right;
                 span {
                   &.arrow {
                     display: inline-block;
-                    width: 3vw;
-                    height: 5vw;
+                    width: .75rem;
+                    height: 1.125rem;
                     position: relative;
                     background: url(../images/icon/arrow_lg.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
-                    margin: 0 0 0 3vw;
+                    margin: 0 0 0 .75rem;
                     line-height: 1;
                     vertical-align: sub;
                   }
@@ -165,10 +165,10 @@ aside{
             width: 100%;
             text-align: center;
             background: #fff;
-            line-height: 15vw;
+            line-height: 3.5rem;
             position: relative;
             color: #4d515d;
-            font-size: 4.3vw;
+            font-size: 1rem;
           }
         }
       }

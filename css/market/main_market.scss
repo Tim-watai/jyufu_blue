@@ -3,7 +3,7 @@ $d_gray: #4d515d;
 header {
   ul {
     &.market {
-      padding: 0 33px 0 3vw;
+      padding: 0 33px 0 .75rem;
     }
     li {
       &.back {
@@ -38,28 +38,28 @@ header {
         // background: url(../images/wallet.png) no-repeat;
         // background-size: cover;
         // background-position: center center;
-        // width: 20px;
-        // height: 20px;
-        margin: 0 20px 0 0;
-        width: 22px;
-        height: 20px;
+        // width: 1.25rem;
+        // height: 1.25rem;
+        margin: 0 1.25rem 0 0;
+        width: 1.375rem;
+        height: 1.25rem;
         background: url(../images/head_icons.png) no-repeat;
-        background-size: 582%;
-        background-position: -85px 0;
+        background-size: 600%;
+        background-position: -5.5rem 0;
         position: relative;
         .balance {
           display: inline-block;
           pointer-events: none;
           opacity: 0;
           position: absolute;
-          top: 30px;
+          top: 1.875rem;
           transform: translateX(-50%);
           left: 50%;
           color: #fff;
           background: rgba(0, 0, 0, 0.6);
-          font-size: 16px;
+          font-size: 1rem;
           white-space: nowrap;
-          padding: 10px;
+          padding: .625rem;
           border-radius: 8px;
           &:before {
             content: "";
@@ -86,27 +86,27 @@ header {
       }
       &.search {
         float: right;
-        width: 22px;
-        height: 20px;
+        width: 1.375rem;
+        height: 1.25rem;
         background: url(../images/head_icons.png) no-repeat;
-        background-size: 591%;
-        background-position: -21px 0;
+        background-size: 600%;
+        background-position: -1.375rem 0;
         position: relative;
       }
       &.pure_text {
         float: right;
-        font-size: 17px;
+        font-size: 1.0625rem;
         color: #4d515d;
         position: relative;
         &.for_edit {
-          width: 40px;
-          height: 17px;
+          width: 2.5rem;
+          height: 1.0625rem;
           &:before {
             content: "編輯";
             position: absolute;
             left: 0;
             top: 0;
-            font-size: 17px;
+            font-size: 1.0625rem;
             color: #4d515d;
           }
           &.active {
@@ -115,7 +115,7 @@ header {
               position: absolute;
               left: 0;
               top: 0;
-              font-size: 17px;
+              font-size: 1.0625rem;
               color: #4d515d;
             }
           }
@@ -127,7 +127,7 @@ header {
         background-size: 100%;
         background-position: center center;
         width: 18px;
-        height: 20px;
+        height: 1.25rem;
       }
     }
   }
@@ -140,12 +140,12 @@ nav {
     padding: 3rem 0 0 0;
     background: #fff;
     ul {
-      height: 7.6vh;
-      line-height: 7.6vh;
+      height: 3.75rem;
+      line-height: 3.75rem;
       overflow: hidden;
       overflow-x: scroll;
       white-space: nowrap;
-      padding: 0 30px;
+      padding: 0 1.875rem;
       li {
         display: inline-block;
         width: auto;
@@ -167,137 +167,137 @@ nav {
               display: inline-block;
               background: url(../images/market/kinds.png) no-repeat;
               background-size: 1800%;
-              width: 25px;
-              height: 22px;
+              width: 1.5625rem;
+              height: 1.375rem;
             }
             &.all {
-              background-position: -25px 0;
+              background-position: -1.5625rem 0;
             }
             &.loves {
               background-position: -0px 0;
             }
             &.soccer {
-              background-position: -50px 1px;
+              background-position: -3.125rem 1px;
             }
             &.basketball {
-              background-position: -100px 1px;
+              background-position: -6.25rem 1px;
             }
             &.horse {
-              background-position: -125px 0;
+              background-position: -7.8125rem 0;
             }
             &.e_sport {
-              background-position: -150px 2px;
+              background-position: -9.375rem 2px;
             }
             &.graph {
-              background-position: -175px 0;
+              background-position: -10.9375rem 0;
             }
             &.color_ball {
-              background-position: -200px 1px;
+              background-position: -12.5rem 1px;
             }
             &.ice_ball {
-              background-position: -225px 1px;
+              background-position: -14.0625rem 1px;
             }
             &.basball {
-              background-position: -75px 1px;
+              background-position: -4.6875rem 1px;
             }
             &.tennis {
-              background-position: -250px 1px;
+              background-position: -15.625rem 1px;
             }
             &.snooker {
-              background-position: -275px 1px;
+              background-position: -17.1875rem 1px;
             }
             &.volleyball {
-              background-position: -300px 1px;
+              background-position: -18.75rem 1px;
             }
             &.motor_sport {
-              background-position: -325px 1px;
+              background-position: -20.3125rem 1px;
             }
             &.badminton {
-              background-position: -350px 1px;
+              background-position: -21.875rem 1px;
             }
             &.football {
-              background-position: -375px 1px;
+              background-position: -23.4375rem 1px;
             }
             &.table_tennis {
-              background-position: -425px 1px;
+              background-position: -26.5625rem 1px;
             }
             &.beach_soccer {
-              background-position: -400px 1px;
+              background-position: -25rem 1px;
             }
           }
         }
         div {
           text-align: center;
           float: left;
-          line-height: 1.7vh;
+          line-height: 1.125rem;
           span {
             &.kind_icon {
               display: inline-block;
               background: url(../images/market/kinds.png) no-repeat;
               background-size: 1800%;
               //1950
-              // width: 22px;
-              width: 25px;
-              height: 22px;
+              // width: 1.375rem;
+              width: 1.5625rem;
+              height: 1.375rem;
             }
             &.all {
-              background-position: -25px -20px;
+              background-position: -1.5625rem -1.25rem;
             }
             &.loves {
-              background-position: -0px -20px;
+              background-position: -0px -1.25rem;
             }
             &.soccer {
-              background-position: -50px -20px;
+              background-position: -3.125rem -1.25rem;
             }
             &.basketball {
-              background-position: -100px -20px;
+              background-position: -6.25rem -1.25rem;
             }
             &.horse {
-              background-position: -125px -20px;
+              background-position: -7.8125rem -1.25rem;
             }
             &.e_sport {
-              background-position: -150px -20px;
+              background-position: -9.375rem -1.25rem;
             }
             &.graph {
-              background-position: -175px -20px;
+              background-position: -10.9375rem -1.25rem;
             }
             &.color_ball {
-              background-position: -200px -20px;
+              background-position: -12.5rem -1.25rem;
             }
             &.ice_ball {
-              background-position: -225px -22px;
+              background-position: -14.0625rem -1.375rem;
             }
             &.basball {
-              background-position: -75px -20px;
+              background-position: -4.6875rem -1.25rem;
             }
             &.tennis {
-              background-position: -250px -20px;
+              background-position: -15.625rem -1.25rem;
             }
             &.snooker {
-              background-position: -275px -20px;
+              background-position: -17.1875rem -1.25rem;
             }
             &.volleyball {
-              background-position: -300px -20px;
+              background-position: -18.75rem -1.25rem;
             }
             &.motor_sport {
-              background-position: -325px -20px;
+              background-position: -20.3125rem -1.25rem;
             }
             &.badminton {
-              background-position: -350px -20px;
+              background-position: -21.875rem -1.25rem;
             }
             &.football {
-              background-position: -375px -20px;
+              background-position: -23.4375rem -1.25rem;
             }
             &.table_tennis {
-              background-position: -425px -20px;
+              background-position: -26.5625rem -1.25rem;
             }
             &.beach_soccer {
-              background-position: -400px -20px;
+              background-position: -25rem -1.25rem;
             }
           }
           p {
-            font-size: 3vw;
-            line-height: 1.2vh;
+            font-size: .7rem;
+            line-height: 1;
             margin: 1px 0 0 0;
             font-family: "微軟正黑體";
           }
@@ -306,7 +306,7 @@ nav {
           &.num {
             position: relative;
             top: -34%;
-            font-size: 3.5vw;
+            font-size: .8rem;
             font-family: "my_font";
           }
         }
@@ -315,10 +315,10 @@ nav {
   }
   section {
     div {
-      margin: 0 0 0 3vw;
-      line-height: 3vh;
+      margin: 0 0 0 .7rem;
+      line-height: 1.5rem;
       width: 65px;
-      height: 3vh;
+      height: 1.5rem;
       position: relative;
       white-space: nowrap;
       background: #fff;
@@ -327,8 +327,8 @@ nav {
         display: inline-block;
         color: #4d515d;
         font-family: "微軟正黑體";
-        font-size: 1.9vh;
-        line-height: 3vh;
+        font-size: 1rem;
+        line-height: 1.5rem;
         // margin: 0 0 0 5px;
       }
     }
@@ -336,9 +336,9 @@ nav {
 }
 main {
   &.market {
-    margin-top: calc(12.6vh);
-    margin-bottom: 7vh;
-    height: calc(100vh - 12.6vh - 7vh);
+    margin-top: 6.25rem;
+    margin-bottom: 3.5rem;
+    height: calc(100vh - 6.25rem - 3.5rem);
     overflow-y: scroll;
     padding: 0 0 100px 0;
     aside {
@@ -371,7 +371,7 @@ main {
             height: 150px;
           }
           p {
-            margin: 16px 0 0 0;
+            margin: 1rem 0 0 0;
             color: #838ba0;
           }
         }
@@ -380,25 +380,24 @@ main {
         &.status {
           background: #fff;
           div {
-            margin: 0 0 0 3vw;
-            line-height: 3vh;
+            margin: 0 0 0 .7rem;
+            line-height: 1.5rem;
             width: 100%;
-            height: 3vh;
+            height: 1.5rem;
             position: relative;
             span {
-              width: 15px;
-              height: 15px;
+              width: 0.9375rem;
+              height: 0.9375rem;
               vertical-align: middle;
-              line-height: 17px;
-              margin: 0 0 4px 0;
+              line-height: 1.0625rem;
               display: inline-block;
             }
             p {
               display: inline-block;
               color: #4d515d;
               font-family: "my_font";
-              font-size: 1.9vh;
-              line-height: 3vh;
+              font-size: 1rem;
+              line-height: 1.5rem;
               // margin: 0 0 0 5px;
             }
           }
@@ -439,16 +438,16 @@ main {
       }
       article {
         &.option {
-          height: 3.5vh;
-          line-height: 3.5vh;
+          height: 1.75rem;
+          line-height: 1.75rem;
           background-color: #f7f7f7;
           box-shadow: inset 0px 3px 3px 0 #e0e0e0;
           div {
             display: inline-block;
             &.game_type {
               color: #838ba0;
-              font-size: 1.9vh;
-              margin: 0 0 0 4vw;
+              font-size: 1rem;
+              margin: 0 0 0 .9375rem;
               p {
                 display: inline-block;
                 font-family: "微軟正黑體";
@@ -461,9 +460,9 @@ main {
               float: right;
               background-color: #d8d9de;
               border-radius: 12px;
-              width: 30vw;
+              width: 6.75rem;
               height: 85%;
-              line-height: calc(3.5vh * 0.85);
+              line-height: calc(1.75rem * 0.85);
               padding: 0 0.5%;
               position: relative;
               transform: translateY(-50%);
@@ -477,7 +476,7 @@ main {
                 top: 50%;
                 width: 50%;
                 height: 80%;
-                line-height: calc(3.5vh * 0.85 * 0.8);
+                line-height: calc(1.75rem * 0.85 * 0.8);
                 border-radius: 12px;
                 &.active {
                   background: #fff;
@@ -488,7 +487,7 @@ main {
                 p {
                   display: inline-block;
                   color: #fff;
-                  font-size: 3vw;
+                  font-size: .7rem;
                   position: relative;
                   vertical-align: middle;
                 }
@@ -513,21 +512,21 @@ main {
         li {
           background-color: #fff;
           width: auto;
-          margin: 0 1.5vw 5px 1.5vw;
+          margin: 0 .3125rem 5px .3125rem;
           height: auto;
           span {
             &.title {
               width: 100%;
-              height: 3.5vh;
-              line-height: 3.5vh;
-              padding: 0 2.5vw 0 2.5vw;
+              height: 1.75rem;
+              line-height: 1.75rem;
+              padding: 0 .5625rem 0 .5625rem;
               position: relative;
               display: inline-block;
               p {
                 display: inline-block;
                 color: #1b255c;
                 font-weight: bold;
-                font-size: 1.8vh;
+                font-size: .9rem;
               }
               span {
                 display: inline-block;
@@ -536,8 +535,8 @@ main {
                   position: relative;
                   top: 50%;
                   transform: translateY(-50%);
-                  height: 1.5vh;
-                  width: 16px;
+                  height: .75rem;
+                  width: 1rem;
                   &:after,
                   &:before {
                     content: "";
@@ -578,13 +577,13 @@ main {
                 span {
                   &.title {
                     width: 100%;
-                    height: 3.5vh;
-                    line-height: 3.5vh;
-                    padding: 0 2.5vw 0 2.5vw;
+                    height: 1.75rem;
+                    line-height: 1.75rem;
+                    padding: 0 .5625rem 0 .5625rem;
                     position: relative;
                   }
                 }
-                padding: 0 2.5vw 10px 2.5vw;
+                padding: 0 .5625rem .625rem .5625rem;
                 border-top: 1px solid #e0e3f3;
                 &:nth-child(odd) {
                   background: #eef1ff;
@@ -637,16 +636,16 @@ main {
                 span {
                   display: inline-block;
                   &.time_more {
-                    height: 3vh;
+                    height: 1.5rem;
                     width: 100%;
                     span {
                       display: inline-block;
                       &.time {
                         color: #838ba0;
                         margin: 0 0 0 3px;
-                        font-size: 1.7vh;
+                        font-size: .8rem;
                         height: auto;
-                        line-height: 1.7vh;
+                        line-height: .8rem;
                         vertical-align: bottom;
                         font-weight: lighter;
                         p {
@@ -683,10 +682,11 @@ main {
                         color: #5875e0;
                         border: 1px solid #5875e0;
                         border-radius: 5px;
-                        font-size: 1.7vh;
+                        font-size: .9rem;
                         width: auto;
+                        height: auto;
                         text-align: center;
-                        line-height: 1.7vh;
+                        line-height: 1;
                         vertical-align: bottom;
                         padding: 1px 2px 1px 2px;
                         background: none;
@@ -696,24 +696,25 @@ main {
                         height: 100%;
                         white-space: nowrap;
                         color: #838ba0;
-                        line-height: 3vh;
+                        line-height: 1.5rem;
                         display: inline-block;
                         background: none;
                         width: auto;
 
                         p {
                           display: inline-block;
-                          font-size: 1.2vh;
+                          font-size: .8rem;
                         }
                         span {
                           &.num {
-                            font-size: 1.2vh;
+                            font-size: .8rem;
                           }
                           &.right_arrow {
                             position: relative;
                             transform: rotate(-90deg);
-                            height: 1.2vh;
-                            width: 16px;
+                            height: .8rem;
+                            width: 1rem;
+                            vertical-align: middle;
                             // margin-bottom: 6%;
                             &:after,
                             &:before {
@@ -740,7 +741,7 @@ main {
                   }
                   &.counter {
                     width: 100%;
-                    height: 4vh;
+                    height: 2rem;
                     white-space: nowrap;
                     position: relative;
                     div,
@@ -752,7 +753,7 @@ main {
                       vertical-align: middle;
                       color: #1b255c;
                       &.name {
-                        font-size: 1.7vh;
+                        font-size: 1rem;
                         vertical-align: middle;
                         white-space: nowrap;
                         overflow: hidden;
@@ -764,7 +765,7 @@ main {
                         text-align: right;
                       }
                       &.mid {
-                        // margin: 0 20px 0 20px;
+                        // margin: 0 1.25rem 0 1.25rem;
 
                         position: absolute;
                         transform: translate(-50%, -50%);
@@ -779,7 +780,7 @@ main {
                           transform: translate(0%, -50%);
                           top: 50%;
                           left: 0;
-                          width: calc(50% - 20px);
+                          width: calc(50% - 1.25rem);
                           text-align: right;
                           // p,
                           // span {
@@ -799,15 +800,15 @@ main {
 
                         span {
                           vertical-align: middle;
-                          width: 17px;
-                          height: 17px;
+                          width: 1.0625rem;
+                          height: 1.0625rem;
                           background: url(../images/market/cs.png) no-repeat;
                           background-size: 800%;
                           &.icon1 {
                             background-position: 0 0;
                           }
                           &.icon2 {
-                            background-position: -17px 0;
+                            background-position: -1.0625rem 0;
                           }
                           &.icon3 {
                             background-position: -34px 0;
@@ -840,7 +841,7 @@ main {
                         display: inline-block;
                         text-align: center;
                         width: 40%;
-                        line-height: 35px;
+                        line-height: 2.1875rem;
                         &:first-child {
                           margin: 0 2px 0 0;
                         }
@@ -850,7 +851,7 @@ main {
                       display: inline-block;
                       text-align: center;
                       width: 25%;
-                      line-height: 20px;
+                      line-height: 1.25rem;
                       background-color: #f6f8ff;
                       &.active {
                         background: #556de7;
@@ -860,16 +861,16 @@ main {
                       }
                       p {
                         color: #838ba0;
-                        line-height: 16px;
-                        font-size: 1.7vh;
+                        line-height: 1rem;
+                        font-size: 1.125rem;
                         vertical-align: bottom;
                         display: inline-block;
                         width: 100%;
                       }
                       span {
                         color: #1b255c;
-                        line-height: 20px;
-                        font-size: 1.7vh;
+                        line-height: 1.25rem;
+                        font-size: 1.125rem;
                         font-weight: bold;
                       }
                       &.tie {
@@ -892,7 +893,7 @@ main {
 
             section {
               &.content {
-                padding: 0 0 10px 0;
+                padding: 0 0 .625rem 0;
                 border-top: 2px solid #e0e3f3;
                 position: relative;
                 &:nth-child(odd) {
@@ -943,11 +944,11 @@ main {
                 }
                 div {
                   &.senior_mode {
-                    height: 3vh;
-                    line-height: 3vh;
+                    height: 1.5rem;
+                    line-height: 1.5rem;
                     width: 100%;
                     background: #f6f8ff;
-                    padding: 0 2.5vw;
+                    padding: 0 .5625rem;
                     position: relative;
                     text-align: right;
                     span {
@@ -959,7 +960,7 @@ main {
 
                       p {
                         display: inline-block;
-                        font-size: 1.7vh;
+                        font-size: 2.125rem;
                         color: #4d515d;
                         width: calc(100% / 3 - 3px);
                         text-align: center;
@@ -982,16 +983,16 @@ main {
                   display: inline-block;
 
                   &.time_more {
-                    line-height: 3vh;
-                    height: 3vh;
+                    line-height: 1.5rem;
+                    height: 1.5rem;
                     width: 100%;
-                    padding: 0 2.5vw;
+                    padding: 0 .5625rem;
                     span {
                       display: inline-block;
                       &.time {
                         color: #838ba0;
                         // margin: 0 0 0 3px;
-                        font-size: 1.7vh;
+                        font-size: .8rem;
                         height: auto;
                         line-height: 1;
                         vertical-align: bottom;
@@ -1007,32 +1008,32 @@ main {
                         color: #5875e0;
                         border: 1px solid #5875e0;
                         border-radius: 5px;
-                        font-size: 1.7vh;
+                        font-size: 2.125rem;
                         width: auto;
                         text-align: center;
-                        line-height: 1.7vh;
+                        line-height: 2.125rem;
                         vertical-align: bottom;
                         padding: 2px 2px 1px 2px;
                       }
                       &.more {
                         float: right;
                         height: 100%;
-                        line-height: 3vh;
+                        line-height: 1.5rem;
                         white-space: nowrap;
                         color: #838ba0;
                         p {
                           display: inline-block;
-                          font-size: 1.2vh;
+                          font-size: .8rem;
                         }
                         span {
                           &.num {
-                            font-size: 1.2vh;
+                            font-size: .8rem;
                           }
                           &.right_arrow {
                             position: relative;
                             transform: rotate(-90deg);
-                            height: 1.2vh;
-                            width: 16px;
+                            height: .8rem;
+                            width: 1rem;
                             line-height: 1;
                             &:after,
                             &:before {
@@ -1059,7 +1060,7 @@ main {
                   }
                   &.point_box {
                     width: 100%;
-                    padding: 0 2.5vw;
+                    padding: 0 .5625rem;
                     overflow: hidden;
                     // overflow: auto;
                     span {
@@ -1076,7 +1077,7 @@ main {
                         p {
                           color: #1b255c;
                           &.name {
-                            font-size: 1.7vh;
+                            font-size: 2.125rem;
                             vertical-align: middle;
                             line-height: 1;
                           }
@@ -1086,7 +1087,7 @@ main {
                           display: inline-block;
                           line-height: calc(15vh / 3);
                           &.country {
-                            // line-height: calc(13vh / 2 - 3px);
+                            // line-height: calc(11.5rem / 2 - 3px);
                             line-height: calc((21vh / 2) - 3px);
                             margin: 0 0 3px 0;
                           }
@@ -1120,7 +1121,7 @@ main {
                                 background-size: cover;
                                 background-position: center center;
                                 width: 13px;
-                                height: 16px;
+                                height: 1rem;
                               }
                             }
                           }
@@ -1160,7 +1161,7 @@ main {
                           p {
                             color: #838ba0;
                             // line-height: 1;
-                            font-size: 1.7vh;
+                            font-size: 2.125rem;
                             display: inline-block;
                             font-weight: bold;
                             width: 100%;
@@ -1169,14 +1170,14 @@ main {
                             width: 100%;
                             color: #1b255c;
                             // line-height: 1;
-                            font-size: 1.7vh;
+                            font-size: 2.125rem;
                             font-weight: bold;
                           }
                         }
                       }
                     }
                     .live {
-                      line-height: 3vh;
+                      line-height: 1.5rem;
                       position: relative;
                       p {
                         position: absolute;
@@ -1187,7 +1188,7 @@ main {
                         text-align: center;
                         line-height: 100%;
                         color: #1b255c;
-                        font-size: 1.7vh;
+                        font-size: 2.125rem;
                       }
                       span {
                         display: inline-block;
@@ -1382,7 +1383,7 @@ aside {
               }
               &.game_tag {
                 width: 100%;
-                font-size: 1.7vh;
+                font-size: 2.125rem;
                 color: #b2b6c2;
                 display: none;
                 &.active {
@@ -1391,16 +1392,16 @@ aside {
               }
               &.bet_type {
                 width: 100%;
-                font-size: 1.7vh;
+                font-size: 2.125rem;
                 color: #838ba0;
                 margin: 1vh 0 1vh;
               }
               &.counter {
                 width: 90%;
-                // padding: calc(1.5vh + 5px) 0 0 0;
+                // padding: calc(.75rem + 5px) 0 0 0;
                 position: relative;
-                margin: 0 0 1.5vh;
-                line-height: 3vh;
+                margin: 0 0 .75rem;
+                line-height: 1.5rem;
                 p {
                   color: #4d515d;
                   display: inline-block;
@@ -1424,7 +1425,7 @@ aside {
                     left: 50%;
                     top: 50%;
                     font-size: 2.5vh;
-                    // top: calc(1.5vh + 5px);
+                    // top: calc(.75rem + 5px);
                   }
                 }
               }
@@ -1432,8 +1433,8 @@ aside {
           }
           &.content {
             width: 100%;
-            padding: 0 2.5vw;
-            margin: 0 0 1.5vh;
+            padding: 0 .5625rem;
+            margin: 0 0 .75rem;
             div {
               &.info {
                 width: 100%;
@@ -1442,7 +1443,7 @@ aside {
                 border-radius: 8px;
                 position: relative;
                 text-align: center;
-                padding: 1.2vh 1vw 1.2vh;
+                padding: .8rem 1vw .8rem;
                 span {
                   &.tie {
                     font-size: 2.2vh;
@@ -1482,7 +1483,7 @@ aside {
                 width: 100%;
                 overflow: auto;
                 display: none;
-                margin: 0 0 1.5vh;
+                margin: 0 0 .75rem;
                 &.active {
                   display: block;
                 }
@@ -1490,7 +1491,7 @@ aside {
                   &.detail {
                     width: 100%;
                     overflow: auto;
-                    padding: 1.5vh 0;
+                    padding: .75rem 0;
                     p {
                       color: #838ba0;
                       font-size: 4.3vw;
@@ -1512,7 +1513,7 @@ aside {
                   }
                   &.input_box {
                     position: relative;
-                    margin: 0 0 1.5vh 0;
+                    margin: 0 0 .75rem 0;
                     width: 100%;
                     &:before {
                       content: "元";
@@ -1581,19 +1582,19 @@ aside {
               }
               &.finish_group {
                 display: none;
-                padding: 0 3vw 0;
+                padding: 0 .7rem 0;
                 &.active {
                   display: block;
                 }
                 .f_title {
-                  line-height: 4vh;
+                  line-height: 2rem;
                   width: 100%;
                   margin: 1vh 0;
                   i {
                     display: inline-block;
-                    line-height: 4vh;
-                    height: 4vh;
-                    width: 4vh;
+                    line-height: 2rem;
+                    height: 2rem;
+                    width: 2rem;
                     background: #354ecf;
                     border-radius: 100px;
                     position: relative;
@@ -1618,7 +1619,7 @@ aside {
                     vertical-align: middle;
                     color: #556de7;
                     line-height: 100%;
-                    font-size: 1.8vh;
+                    font-size: .9rem;
                     font-weight: bold;
                     margin: 0 0 0 8px;
                   }
@@ -1644,7 +1645,7 @@ aside {
                         &:first-child {
                           float: left;
                           color: #838ba0;
-                          font-size: 1.8vh;
+                          font-size: .9rem;
                         }
                         &:last-child {
                           float: right;
@@ -1668,13 +1669,13 @@ aside {
                   line-height: 5vh;
                   margin: 0 1.3% 0 0;
                   line-height: 100%;
-                  font-size: 1.8vh;
+                  font-size: .9rem;
                   position: relative;
                   &:before {
                     position: absolute;
                     content: "";
                     width: 1px;
-                    height: 3.5vh;
+                    height: 1.75rem;
                     right: -1.3%;
                     top: 50%;
                     transform: translateY(-50%);
@@ -1698,13 +1699,13 @@ aside {
                 }
               }
               &.auto_wrap {
-                line-height: 30px;
-                font-size: 16px;
+                line-height: 1.875rem;
+                font-size: 1rem;
                 margin: 5px 0 0;
                 input,
                 label {
                   display: inline-block;
-                  line-height: 1.7vh;
+                  line-height: 2.125rem;
                 }
                 input {
                   vertical-align: middle;
@@ -1720,9 +1721,9 @@ aside {
                 label {
                   margin: 0 0 0 4px;
                   position: relative;
-                  width: 20px;
-                  height: 20px;
-                  line-height: 20px;
+                  width: 1.25rem;
+                  height: 1.25rem;
+                  line-height: 1.25rem;
                   border: 1px solid #a8aecf;
                   vertical-align: text-bottom;
                   display: inline-block;
@@ -1787,7 +1788,7 @@ aside {
           // height: 10em;
           line-height: 9.5em;
           border-radius: 8px;
-          font-size: 16px;
+          font-size: 1rem;
           text-align: center;
           .a_wrap {
             line-height: 100%;
@@ -1851,19 +1852,19 @@ aside {
               float: right;
               div {
                 &.check {
-                  height: 4vh;
-                  line-height: 4vh;
+                  height: 2rem;
+                  line-height: 2rem;
                   width: 32vw;
                   background: #737997;
                   vertical-align: middle;
-                  border-radius: 20px;
+                  border-radius: 1.25rem;
                   padding: 0 2px;
                   span {
                     display: inline-block;
                     font-size: 2vw;
-                    border-radius: 20px;
-                    line-height: calc(4vh - 4px);
-                    height: calc(4vh - 4px);
+                    border-radius: 1.25rem;
+                    line-height: calc(2rem - 4px);
+                    height: calc(2rem - 4px);
                     width: 15vw;
                     text-align: center;
                     &.active {
@@ -1887,7 +1888,7 @@ aside {
                       vertical-align: middle;
                       line-height: 1;
                       color: #ced1e0;
-                      font-size: 3vw;
+                      font-size: .7rem;
                     }
                   }
                 }
@@ -1900,8 +1901,8 @@ aside {
               display: inline-block;
               &.all {
                 position: absolute;
-                margin: 0 0 0 3vw;
-                font-size: 3vw;
+                margin: 0 0 0 .7rem;
+                font-size: .7rem;
                 color: #838ba0;
               }
               &.soccers {
@@ -1920,14 +1921,14 @@ aside {
               }
               &.more {
                 float: right;
-                margin: 0 0 0 3vw;
-                font-size: 3vw;
+                margin: 0 0 0 .7rem;
+                font-size: .7rem;
                 color: #838ba0;
                 p {
                   &.arrow {
                     display: inline-block;
-                    width: 3vw;
-                    height: 3vw;
+                    width: .7rem;
+                    height: .7rem;
                     background: url(../images/icon/arrow_gray.png) no-repeat;
                     background-position: center center;
                     background-size: contain;
@@ -1981,12 +1982,12 @@ aside {
           height: 5vh;
           line-height: 5vh;
           background-color: #fff;
-          border-bottom-left-radius: 20px 20px;
-          border-bottom-right-radius: 20px 20px;
+          border-bottom-left-radius: 1.25rem 1.25rem;
+          border-bottom-right-radius: 1.25rem 1.25rem;
           margin: 0 auto;
           -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
           box-shadow: 0 3px 5px 0 #e2e2e2;
-          padding: 0 3vw 0 3vw;
+          padding: 0 .7rem 0 .7rem;
           li {
             &.title {
               position: absolute;
@@ -2053,7 +2054,7 @@ aside {
               width: 100%;
               height: 5vh;
               font-size: 4vw;
-              border-radius: 30px;
+              border-radius: 1.875rem;
               padding: 2px 0 0 14vw;
               &::placeholder {
                 color: #ced1e0;
@@ -2065,8 +2066,8 @@ aside {
               transform: translateY(-50%);
               top: 50%;
               left: 10vw;
-              width: 22px;
-              height: 20px;
+              width: 1.375rem;
+              height: 1.25rem;
               background: url(../images/head_icons.png) no-repeat;
               background-size: 591%;
               background-position: -21px 0;
@@ -2081,8 +2082,8 @@ aside {
               display: inline-block;
               border-radius: 100px;
               border: 1px solid #838ba0;
-              width: 3.5vw;
-              height: 3.5vw;
+              width: .8rem;
+              height: .8rem;
               margin: 0 0 0 2vw;
               position: relative;
               &.active,
@@ -2094,8 +2095,8 @@ aside {
                   transform: translate(-50%, -50%);
                   top: 50%;
                   left: 50%;
-                  width: 2.5vw;
-                  height: 2.5vw;
+                  width: .5625rem;
+                  height: .5625rem;
                   border-radius: 100px;
                   background: #838ba0;
                 }
@@ -2178,7 +2179,7 @@ aside {
                   position: absolute;
                   transform: translateY(-50%);
                   top: 50%;
-                  left: 3vw;
+                  left: .7rem;
                   &.local_game_1 {
                     background-position: 0 0;
                   }
@@ -2193,15 +2194,15 @@ aside {
                   &.point_area {
                     display: inline-block;
                     float: right;
-                    line-height: 22px;
+                    line-height: 1.375rem;
                     position: relative;
                     span {
                       &.point {
                         display: inline-block;
                         border-radius: 100px;
                         border: 1px solid #838ba0;
-                        width: 3.5vw;
-                        height: 3.5vw;
+                        width: .8rem;
+                        height: .8rem;
                         margin: 0 0 0 2vw;
                         position: relative;
                         vertical-align: bottom;
@@ -2215,8 +2216,8 @@ aside {
                             transform: translate(-55%, -55%);
                             top: 50%;
                             left: 50%;
-                            width: 2.5vw;
-                            height: 2.5vw;
+                            width: .5625rem;
+                            height: .5625rem;
                             border-radius: 100px;
                             background: #838ba0;
                           }
@@ -2271,7 +2272,7 @@ aside {
       .box {
         background: #f7f7f7;
         display: inline-block;
-        padding: 40px 20px 40px 20px;
+        padding: 2.5rem 1.25rem 2.5rem 1.25rem;
         border-radius: 8px;
         .empty_icon {
           background: url(../images/market/empty_bet.png) no-repeat;
@@ -2282,7 +2283,7 @@ aside {
         }
         p {
           color: #838ba0;
-          margin: 40px 0 0 0;
+          margin: 2.5rem 0 0 0;
         }
       }
     }

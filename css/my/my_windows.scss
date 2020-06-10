@@ -92,7 +92,7 @@ aside{
                         height:0.9375rem;
                         display: inline-block;
                         border-radius: 3px;
-                        margin: 0 0 0 2vw;
+                        margin: 0 0 0 .5rem;
                       }
                     }
                   }
@@ -119,7 +119,7 @@ aside{
           }
           &.banner {
             width: 100%;
-            padding: 1rem 0 .75rem 0;
+            padding: 1rem .75rem .75rem .75rem;
             background: #fff;
             div {
               &.p1 {
@@ -195,7 +195,7 @@ aside{
           }
           &.row_scroll {
             height: calc(100vh - 2.5rem - 4.6875rem - 1.75rem - 1.5rem - 3.1875rem - 0.1875rem - 10px);
-            padding: 0 0 200px 0;
+            padding: 0.875rem 0 200px 0;
             overflow: scroll;
           }
           &.row_btn {
@@ -208,14 +208,14 @@ aside{
               margin: 0.875rem 0 0 0;
             }
             &.line {
-              margin: 0 0 1px 0;
+              margin: 0;
               &:before {
                 content: "";
                 position: absolute;
-                bottom: -1px;
+                bottom: 0px;
                 left: 50%;
                 transform: translateX(-50%);
-                width: 94vw;
+                width: 94%;
                 height: 1px;
                 background: #e0e3f3;
               }
@@ -297,18 +297,18 @@ aside{
           &.bg {
             position: relative;
             top: 30%;
-            width: 88vw;
-            height: 33vh;
+            width: 20.625rem;
+            height: 16.75rem;
             background-color: #fff;
             margin: 0 auto;
-            border-radius: 15px;
+            border-radius: 0.9375rem;
             li {
               font-family: "微軟正黑體";
               font-weight: normal;
               text-align: center;
               &.title {
                 text-align: center;
-                font-size: 2.6vh;
+                font-size: 1.8rem;
                 color: #313030;
                 padding: 6% 0 0 0;
                 height: 20%;
@@ -317,14 +317,14 @@ aside{
               &.content {
                 color: #838ba0;
                 padding: 3% 10% 0 10%;
-                font-size: 2.1vh;
-                line-height: 26px;
+                font-size: 1.1rem;
+                line-height: 1.625rem;
                 height: 60%;
               }
               &.footer {
                 height: 20%;
                 border-top: 1px solid #e1e1e1;
-                font-size: 2.6vh;
+                font-size: 1.3rem;
                 color: #313030;
                 white-space: nowrap;
                 div {
