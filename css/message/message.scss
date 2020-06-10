@@ -273,8 +273,6 @@ section {
     }
   }
   &.game_message_empty{
-    height: calc(100vh - (3rem + 2.625rem + 2.9375rem));
-    overflow-y: scroll;
     text-align: center;
     .empty_icon{
         background: url(../images/message_page/game_message_empty.png)no-repeat;
