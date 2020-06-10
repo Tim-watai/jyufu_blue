@@ -30,7 +30,7 @@ div {
     div {
       &.all_box {
         width: 100%;
-        padding: 0 0 6vh 0;
+        padding: 0 0 3rem 0;
         &.no_padding{
           padding: 0;
         }
@@ -38,8 +38,8 @@ div {
           &.double_mode {
             width: 100vw;
             position: relative;
-            height: 8vh;
-            line-height: 8vh;
+            height: 4rem;
+            line-height: 4rem;
             transition: all 0.3s linear;
             span {
               &.box {
@@ -77,31 +77,31 @@ div {
                 &.the_detail {
                   width: 100%;
                   height: auto;
-                  line-height: 10vh;
+                  line-height: 5rem;
                   border-bottom: 2px solid #e0e3f3;
-                  padding: 1.5vh 2.5vw 1.5vh 5vw;
-                  line-height: 10vh;
+                  padding: .75rem .5rem .75rem 1.125rem;
+                  line-height: 5rem;
                   div {
                     &.right_total {
                       white-space: nowrap;
                       float: right;
 
                       span {
-                        font-size: 2vh;
+                        font-size: 1rem;
                         display: inline-block;
                         color: #4d515d;
                       }
 
                       text-align: center;
-                      line-height: 10vh;
-                      font-size: 2.5vh;
+                      line-height: 5rem;
+                      font-size: 1.3rem;
                       color: red;
                     }
                     &.left_padding {
                       position: relative;
-                      line-height: 10vh;
-                      width: 5vw;
-                      height: 2vw;
+                      line-height: 5rem;
+                      width: 1.125rem;
+                      height: .5rem;
                       &.close {
                         &:before,
                         &:after {
@@ -111,8 +111,8 @@ div {
                           left: 0%;
                           transform: translate(-50%, -50%);
                           background-color: #838ba0;
-                          width: 2px;
-                          height: 18px;
+                          width: .125rem;
+                          height: 1.125rem;
                           border-radius: 100px;
                         }
                         &:before {
@@ -125,9 +125,9 @@ div {
                     }
                     &.data {
                       line-height: 1;
-                      padding: 0 0 0 12px;
+                      padding: 0 0 0 .75rem;
                       vertical-align: middle;
-                      width: 65vw;
+                      width: 14.4375rem;
                       line-height: 1;
                       span {
                         display: inline-block;
@@ -138,7 +138,7 @@ div {
                           width: 100%;
                           padding: 0 0 0 3px;
                           font-weight: bold;
-                          font-size: 2.3vh;
+                          font-size: 1.125rem;
                           margin: 0 0 3px 0;
                           &:before {
                             content: "";
@@ -146,13 +146,13 @@ div {
                             transform: translate(0, -50%);
                             top: 35%;
                             left: 0%;
-                            width: 2px;
+                            width: .125rem;
                             height: 100%;
                             background: #3348b8;
                           }
                           span {
                             display: inline-block;
-                            margin: 0 0 0 13px;
+                            margin: 0 0 0 .8125rem;
                             font-weight: normal;
                             color: red;
                           }
@@ -161,18 +161,18 @@ div {
                             transform: translate(0, -50%);
                             top: 50%;
                             left: -5%;
-                            font-size: 1.8vh;
+                            font-size: .8rem;
                           }
                         }
                         &.mid {
                           width: 100%;
-                          font-size: 1.7vh;
+                          font-size: .8rem;
                           font-weight: normal;
                           margin: 0 0 3px 0;
                         }
                         &.bottom {
                           color: #838ba0;
-                          font-size: 1.7vh;
+                          font-size: .8rem;
                           margin: 0 0 3px 0;
                           span {
                             display: inline-block;
@@ -181,7 +181,7 @@ div {
                         }
                         &.tag{
                           color: #b2b6c2;
-                          font-size: 1.7vh;
+                          font-size: .8rem;
                           display: none;
                           &.active{
                             display: inline-block;
@@ -196,7 +196,7 @@ div {
                         &.mid,
                         &.bottom,
                         &.tag {
-                          padding: 0 0 0 8px;
+                          padding: 0 0 0 .5rem;
                         }
                       }
                     }
@@ -204,7 +204,7 @@ div {
                 }
                 &.the_total,
                 &.the_finish{
-                  padding: 1.5vh 2.5vw 1.5vh 5vw;
+                  padding: .75rem .5rem .75rem 1.125rem;
                   background-color: #f6f8ff;
                   overflow: auto;
                   line-height: 100%;
@@ -216,21 +216,21 @@ div {
                   .result_wrap{
                     width: 100%;
                     line-height: 100%;
-                    padding: 5px 0 5px;
+                    padding: .3125rem 0 .3125rem;
                     .box{
                       float: left;
                       width: 32%;
                       text-align: center;
-                      line-height: 5vh;
+                      line-height: 2.5rem;
                       margin: 0 1.3% 0 0;
                       line-height: 100%;
-                      font-size: 1.8vh;
+                      font-size: .8rem;
                       position: relative;
                       &:before{
                         position: absolute;
                         content: '';
                         width: 1px;
-                        height: 3.5vh;
+                        height: 1.75rem;
                         right: -1.3%;
                         top: 50%;
                         transform: translateY(-50%);
@@ -245,7 +245,7 @@ div {
                       p{
                         &:first-child{
                           color: #838ba0;
-                          margin: 0 0 4px;
+                          margin: 0 0 .25rem;
                         }
                         &:last-child{
                           color: #556de7;
@@ -257,48 +257,48 @@ div {
                 }
                 &.the_total {
                   .top_wrap,.kb_wrap{
-                    margin: 0 0 1.5vh;
+                    margin: 0 0 .75rem;
                   }
                   .top_wrap{
-                    line-height: 5vh;
+                    line-height: 2.5rem;
                     width: 100%;
                     .t_left,.t_right{
                       width: 50%;
                       float: left;
                     }
                     .game_name{
-                      font-size: 2.3vh;
+                      font-size: 1.125rem;
                       font-weight: bold;
                       color: #4d515d;
                       position: relative;
-                      padding: 0 0 0 8px;
+                      padding: 0 0 0 .5rem;
                       &:before{
                         content: "";
                         position: absolute;
                         transform: translate(0, -50%);
                         top: 45%;
                         left: 0%;
-                        width: 2px;
+                        width: .125rem;
                         height: 45%;
                         background: #3348b8;
                       }
                     }
                     .game_type{
-                      padding: 0 0 0 8px;
+                      padding: 0 0 0 .5rem;
                       p,i{
                         display: inline-block;
                         vertical-align: text-top;
                         line-height: 100%;
-                        padding: 2px 0 0;
+                        padding: .125rem 0 0;
                       }
                       p{
                         color: #838ba0;
-                        font-size: 1.7vh;
-                        margin: 0 4px 0 0;
+                        font-size: .8rem;
+                        margin: 0 .25rem 0 0;
                       }
                       i{
-                        width: 12px;
-                        height: 12px;
+                        width: .75rem;
+                        height: .75rem;
                         background: url(../images/icon/arrows_blue.png)
                           no-repeat;
                         background-size: cover;
@@ -306,26 +306,26 @@ div {
                       }
                     }
                     .t_right{
-                      margin: -2px 0 0px;
+                      margin: -.125rem 0 0px;
                       position: relative;
                       input{
-                        line-height: 3vh;
+                        line-height: 1.5rem;
                         width: 100%;
-                        border-radius: 8px;
+                        border-radius: .5rem;
                         border: 1px solid #e0e3f3;
-                        padding: 7px 7px 7px;
+                        padding: .5rem .5rem .5rem;
                         position: relative;
-                        font-size: 1.7vh;
+                        font-size: .8rem;
                       
                         &::placeholder{
-                          font-size: 1.7vh;
+                          font-size: .8rem;
                           color: #ced1e0;
                         }
                       }
                       p{
-                        font-size: 1.7vh;
+                        font-size: .8rem;
                         position: absolute;
-                        right: 8px;
+                        right: .5rem;
                         top: 50%;
                         transform: translateY(-50%);
                       }
@@ -337,7 +337,7 @@ div {
                     .kb_top,.kb_bot{
                       width: 100%;
                       text-align: center;
-                      line-height: 5vh;
+                      line-height: 2.5rem;
                       overflow: hidden;
                     }
                     .kb_top{
@@ -348,11 +348,11 @@ div {
                       }
                     }
                     .box_s,.box_b{
-                      border-radius: 8px;
+                      border-radius: .5rem;
                       border: 1px solid #e0e3f3;
                       background: #fff;
                       color: #4d515d;
-                      font-size: 2.2vh;
+                      font-size: 1.1rem;
                     }
                     .box_s{
                       width: 24%;
@@ -368,16 +368,16 @@ div {
                 }
                 &.the_finish{
                   .f_title{
-                    line-height: 4vh;
+                    line-height: 2rem;
                     width: 100%;
-                    margin: 0 0 2vh;
+                    margin: 0 0 1rem;
                     i,p{
                       display: inline-block;
                     }
                     i{
-                      line-height: 4vh;
-                      height: 4vh;
-                      width: 4vh;
+                      line-height: 2rem;
+                      height: 2rem;
+                      width: 2rem;
                       background: #354ecf;
                       border-radius: 100px;
                       position: relative;
@@ -387,13 +387,13 @@ div {
                         position: absolute;
                         top: 42%;
                         left: 51%;
-                        width: 1.3vh;
-                        height: 2.3vh;
+                        width: .75rem;
+                        height: 1.125rem;
                         -webkit-transform: translate(-50%, -50%);
                         -ms-transform: translate(-50%, -50%);
                         transform: translate(-50%, -50%) rotate(45deg);
                         border-style: solid;
-                        border-width: 0 .5vh .5vh 0;
+                        border-width: 0 .25rem .25rem 0;
                         border-color: transparent #fff #fff transparent;
                       }
                     }
@@ -401,9 +401,9 @@ div {
                       vertical-align: middle;
                       color: #556de7;
                       line-height: 100%;
-                      font-size: 1.8vh;
+                      font-size: .8rem;
                       font-weight: bold;
-                      margin: 0 0 0 8px;
+                      margin: 0 0 0 .5rem;
                     }
                   }
                   .bill_data{
@@ -411,15 +411,15 @@ div {
                     width: 100%;
                    .wrap{
                      width: 100%;
-                     margin: 0 0 1vh;
-                     padding: 0 0 0 6vw;
+                     margin: 0 0 .5rem;
+                     padding: 0 0 0 1.375rem;
                       .lef_wrap,
                       .rig_wrap
                       {
                         width: 50%;
                         float: left;
                         p{
-                          font-size: 1.8vh;
+                          font-size: .8rem;
                           &:first-child{
                             margin: 0 10px 0 0 ;
                             color: #838ba0;
@@ -436,101 +436,18 @@ div {
                     }
                   }
                 }
-                // &.computer {
-                //   width: 100%;
-                //   height: 35vh;
-                //   line-height: 35vh;
-                //   background: #fbfcff;
-                //   padding: 1.5vh 8vw 1.5vh 5vw;
-                //   div {
-                //     &.inner {
-                //       width: calc(100vw - 13vw);
-                //       height: calc(35vh - 3vh);
-                //       white-space: nowrap;
-                //       span,
-                //       p {
-                //         display: inline-block;
-                //       }
-                //       span {
-                //         &.nums {
-                //           width: 70%;
-                //           height: 100%;
-                //           .wrap{
-                //             width: 100%;
-                //             display: block;
-                //             height: auto;
-                //             line-height: calc((35vh - 3vh) / 4 - 2px);
-                //           }
-                //           p {
-                //             width: calc(100% / 3 - 2px);
-                //             background: #fff;
-                //             color: #4d515d;
-                //             text-align: center;
-                //             line-height: calc((35vh - 3vh) / 4 - 2px);
-                //             vertical-align: middle;
-                //             margin: 0 2px 2px 0;
-                //             font-size: 3.5vh;
-                //             font-weight: bold;
-                //             border-radius: 8px;
-                //             border: 1px solid #f7f8ff;
-                //             &.empty{
-                //               margin: 0;
-                //               border: 0px solid transparent;
-                //             }
-                //           }
-                //         }
-                //         &.uses {
-                //           width: 30%;
-                //           height: 100%;
-                //           float: right;
-                //           p {
-                //             background: #f6f8ff;
-                //             width: 100%;
-                //             height: 49%;
-                //             border-radius: 8px;
-                //             border: 1px solid #f7f8ff;
-                //             position: relative;
-                //             display: block;
-                //             &.delete {
-                //               &:before {
-                //                 content: "";
-                //                 position: absolute;
-                //                 transform: translate(-50%, -50%);
-                //                 left: 50%;
-                //                 top: 50%;
-                //                 width: 31px;
-                //                 height: 26px;
-                //                 background: url(../images/icon/delete.png)
-                //                   no-repeat;
-                //                 background-position: center center;
-                //                 background-size: cover;
-                //               }
-                //             }
-                //             &.back {
-                //               font-weight: bold;
-                //               color: #4d515d;
-                //               line-height: calc(32vh * 0.49);
-                //               text-align: center;
-                //               font-size: 6vw;
-                //             }
-                //           }
-                //         }
-                //       }
-                //     }
-                //   }
-                // }
               }
             }
           }
           &.footer {
             width: 100%;
             position: relative;
-            height: 11vh;
+            height: 5.5rem;
             background-color: #fff;
             ul {
               width: 100%;
               height: 100%;
-              padding: 2vh 5vw;
+              padding: 1rem 1.125rem;
               .wrap {
                 white-space: nowrap;
                 display: none;
@@ -541,14 +458,14 @@ div {
               }
               li {
                 text-align: center;
-                line-height: 7vh;
+                line-height: 3.5rem;
                 &:first-child {
                   width: 30%;
                   float: left;
                   span {
                     position: relative;
-                    width: 13px;
-                    height: 13px;
+                    width: .8125rem;
+                    height: .8125rem;
                     display: inline-block;
                     &.cross {
                       &:before,
@@ -558,7 +475,7 @@ div {
                         top: 50%;
                         left: 50%;
                         background-color: #838ba0;
-                        width: 2px;
+                        width: .125rem;
                         height: 100%;
                         border-radius: 100px;
                       }
@@ -573,14 +490,14 @@ div {
                   p {
                     display: inline-block;
                     color: #838ba0;
-                    font-size: 16px;
+                    font-size: 1rem;
                   }
                 }
                 &:last-child {
                   float: right;
                   width: 60%;
                   background-color: #3348b8;
-                  border-radius: 7px;
+                  border-radius: .5rem;
                   position: relative;
                   div,
                   span {
@@ -590,9 +507,9 @@ div {
                   span {
                     color: #fff;
                     &.title {
-                      font-size: 2.5vh;
+                      font-size: 1.3rem;
                       font-weight: bold;
-                      margin: 0 0 5px 0;
+                      margin: 0 0 .3125rem 0;
                       vertical-align: text-bottom;
                     }
                   }
@@ -603,10 +520,10 @@ div {
                     transform: translateX(-50%);
                     span {
                       &:first-child {
-                        font-size: 1.8vh;
+                        font-size: .8rem;
                       }
                       &:last-child {
-                        font-size: 1.2vh;
+                        font-size: .8rem;
                       }
                     }
                   }
@@ -620,12 +537,12 @@ div {
                   top: 50%;
                   left: 50%;
                   transform: translate(-50%, -50%);
-                  font-size: 2.2vh;
+                  font-size: 1.1rem;
                   border: none;
-                  border-radius: 5px;
+                  border-radius: .3125rem;
                   color: #fff;
                   width: 90%;
-                  height: 6vh;
+                  height: 3rem;
                   background: #3348b8;
                   &.active{
                     display: block;
@@ -642,7 +559,6 @@ div {
     width: 100%;
     position: fixed;
     bottom: 0px;
-    height: 15vh;
     z-index: 1;
     background: #959dc5;
     border-top-left-radius: 20px 20px;
@@ -651,13 +567,13 @@ div {
     pointer-events: all;
     transition: all 0.3s linear;
     &.half {
-      height: 8vh;
+      height: 4rem;
     }
     span {
       display: inline-block;
       &.box {
-        width: 86vw;
-        height: 8vh;
+        width: 86%;
+        height: 4rem;
         margin: 0 auto;
         color: #fff;
         div {
@@ -669,22 +585,22 @@ div {
           &.langth {
             text-align: left;
             float: left;
-            line-height: 8vh;
+            line-height: 4rem;
             p {
               display: inline-block;
             }
             span {
               &.num {
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: bold;
                 color: #959dc5;
                 background: #fff;
-                height: 23px;
-                width: 23px;
+                height: 1.4375rem;
+                width: 1.4375rem;
                 text-align: center;
-                line-height: 23px;
+                line-height: 1.4375rem;
                 border-radius: 100%;
-                margin: 0 3px 0 0;
+                margin: 0 .25rem 0 0;
                 position: relative;
                 vertical-align: middle;
                 span {
@@ -698,32 +614,31 @@ div {
             p {
               line-height: 1;
               vertical-align: middle;
-              font-size: 2vh;
+              font-size: 1rem;
             }
           }
           &.balance {
             text-align: right;
             float: right;
-            // padding: 2vh 0 0 0;
             p {
-              font-size: 2vh;
+              font-size: 1rem;
               &.currency {
-                font-size: 1.2vh;
+                font-size: .8rem;
               }
               &.cash {
-                font-size: 3vh;
+                font-size: 1.5rem;
                 font-weight: bold;
               }
             }
             span {
               &.double_arrow {
-                height: 13px;
-                width: 13px;
+                height: .8125rem;
+                width: .8125rem;
                 background: url(../images/icon/double_arrow.png) no-repeat;
                 background-position: center center;
                 background-size: cover;
                 vertical-align: text-top;
-                margin: 0 0 0 5px;
+                margin: 0 0 0 .3125rem;
                 transition: all 0.3s linear;
               }
             }
