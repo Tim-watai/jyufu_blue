@@ -1697,7 +1697,7 @@ main.market {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         top: 50%;
-        margin: 0 1vw 0 0; }
+        margin: 0 .25rem 0 0; }
         main.market aside article.option div.mode span {
           display: inline-block;
           text-align: center;
@@ -1985,8 +1985,7 @@ main.market {
                     color: #fff; }
                 main.market aside ul li.beginner section.content span.num_group div p {
                   color: #838ba0;
-                  line-height: 1rem;
-                  font-size: 1.125rem;
+                  font-size: 1rem;
                   vertical-align: bottom;
                   display: inline-block;
                   width: 100%; }
@@ -2035,11 +2034,11 @@ main.market {
               white-space: nowrap; }
               main.market aside ul li.senior section.content div.senior_mode span p {
                 display: inline-block;
-                font-size: 2.125rem;
+                font-size: 1rem;
                 color: #4d515d;
                 width: calc(100% / 3 - 3px);
                 text-align: center;
-                margin: 0 0 0 3px; }
+                margin: 0 0 0 .1875rem; }
             main.market aside ul li.senior section.content div.senior_mode:before {
               position: absolute;
               content: "";
@@ -2075,10 +2074,10 @@ main.market {
                   color: #5875e0;
                   border: 1px solid #5875e0;
                   border-radius: 5px;
-                  font-size: 2.125rem;
+                  font-size: .9rem;
                   width: auto;
                   text-align: center;
-                  line-height: 2.125rem;
+                  line-height: 1;
                   vertical-align: bottom;
                   padding: 2px 2px 1px 2px; }
                 main.market aside ul li.senior section.content span.time_more div.more {
@@ -2091,7 +2090,7 @@ main.market {
                     display: inline-block;
                     font-size: .8rem; }
                   main.market aside ul li.senior section.content span.time_more div.more span.num {
-                    font-size: .8rem; }
+                    font-size: .9rem; }
                   main.market aside ul li.senior section.content span.time_more div.more span.right_arrow {
                     position: relative;
                     -webkit-transform: rotate(-90deg);
@@ -2133,7 +2132,7 @@ main.market {
                 main.market aside ul li.senior section.content span.point_box span.counter p {
                   color: #1b255c; }
                   main.market aside ul li.senior section.content span.point_box span.counter p.name {
-                    font-size: 2.125rem;
+                    font-size: 1.125rem;
                     vertical-align: middle;
                     line-height: 1; }
                 main.market aside ul li.senior section.content span.point_box span.counter div {
@@ -2141,7 +2140,7 @@ main.market {
                   display: inline-block;
                   line-height: calc(15vh / 3); }
                   main.market aside ul li.senior section.content span.point_box span.counter div.country {
-                    line-height: calc((21vh / 2) - 3px);
+                    line-height: calc((10.625rem / 2) - 3px);
                     margin: 0 0 3px 0; }
               main.market aside ul li.senior section.content span.point_box span.num_group {
                 width: 60%; }
@@ -2167,10 +2166,10 @@ main.market {
                   width: calc(100% / 3 - 3px);
                   text-align: center;
                   margin: 0 3px 0 0;
-                  line-height: calc((21vh / 3) / 2); }
+                  line-height: calc((10.625rem / 3) / 2); }
                   main.market aside ul li.senior section.content span.point_box span.num_group span.three_side div {
                     width: 100%;
-                    height: calc(21vh / 3 - 3px);
+                    height: calc(10.625rem / 3 - 3px);
                     margin: 0 0 3px 0; }
                 main.market aside ul li.senior section.content span.point_box span.num_group span.two_side {
                   width: calc(100% / 3 - 3px);
@@ -2179,11 +2178,11 @@ main.market {
                   main.market aside ul li.senior section.content span.point_box span.num_group span.two_side div {
                     width: 100%;
                     height: 50%;
-                    height: calc(21vh / 2 - 3px);
+                    height: calc(10.625rem / 2 - 3px);
                     margin: 0 0 3px 0;
-                    line-height: calc((21vh / 2 - 3px) / 2); }
+                    line-height: calc((10.625rem / 2 - 3px) / 2); }
                     main.market aside ul li.senior section.content span.point_box span.num_group span.two_side div.solo_line {
-                      line-height: calc((21vh / 1 - 3px) / 2); }
+                      line-height: calc((10.625rem / 1 - 3px) / 2); }
                 main.market aside ul li.senior section.content span.point_box span.num_group div {
                   display: block;
                   background-color: #f6f8ff; }
@@ -2240,16 +2239,16 @@ footer ul.market li.teach span {
   background-position: 0 0; }
 
 footer ul.market li.set_table span {
-  background-position: -24px 0; }
+  background-position: -1.5625rem 0; }
 
 footer ul.market li.not_yet span {
-  background-position: -51px 0; }
+  background-position: -3.125rem 0; }
 
 footer ul.market li.yes_do span {
-  background-position: -76px 0; }
+  background-position: -4.6875rem 0; }
 
 footer ul.market li.refresh span {
-  background-position: -100px 0; }
+  background-position: -6.25rem 0; }
 
 aside.bet_window {
   display: none;
@@ -4174,8 +4173,8 @@ nav.kinds ul.early {
         left: 0; }
 
 main.early_page {
-  margin-top: calc(17.6vh + 10px);
-  height: calc(100vh - 17.6vh - 7vh - 10px); }
+  margin-top: calc(8.75rem + 10px);
+  height: calc(100vh - 8.75rem - 3.5rem - 10px); }
 
 aside.yet_bill, aside.finish_bill {
   width: 100vw;

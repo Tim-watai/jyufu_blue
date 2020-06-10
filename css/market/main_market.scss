@@ -467,7 +467,7 @@ main {
               position: relative;
               transform: translateY(-50%);
               top: 50%;
-              margin: 0 1vw 0 0;
+              margin: 0 .25rem 0 0;
               span {
                 display: inline-block;
                 text-align: center;
@@ -861,8 +861,7 @@ main {
                       }
                       p {
                         color: #838ba0;
-                        line-height: 1rem;
-                        font-size: 1.125rem;
+                        font-size: 1rem;
                         vertical-align: bottom;
                         display: inline-block;
                         width: 100%;
@@ -960,11 +959,11 @@ main {
 
                       p {
                         display: inline-block;
-                        font-size: 2.125rem;
+                        font-size: 1rem;
                         color: #4d515d;
                         width: calc(100% / 3 - 3px);
                         text-align: center;
-                        margin: 0 0 0 3px;
+                        margin: 0 0 0 .1875rem;
                       }
                     }
                     &:before {
@@ -1008,10 +1007,10 @@ main {
                         color: #5875e0;
                         border: 1px solid #5875e0;
                         border-radius: 5px;
-                        font-size: 2.125rem;
+                        font-size: .9rem;
                         width: auto;
                         text-align: center;
-                        line-height: 2.125rem;
+                        line-height: 1;
                         vertical-align: bottom;
                         padding: 2px 2px 1px 2px;
                       }
@@ -1027,7 +1026,7 @@ main {
                         }
                         span {
                           &.num {
-                            font-size: .8rem;
+                            font-size: .9rem;
                           }
                           &.right_arrow {
                             position: relative;
@@ -1077,7 +1076,7 @@ main {
                         p {
                           color: #1b255c;
                           &.name {
-                            font-size: 2.125rem;
+                            font-size: 1.125rem;
                             vertical-align: middle;
                             line-height: 1;
                           }
@@ -1088,7 +1087,7 @@ main {
                           line-height: calc(15vh / 3);
                           &.country {
                             // line-height: calc(11.5rem / 2 - 3px);
-                            line-height: calc((21vh / 2) - 3px);
+                            line-height: calc((10.625rem / 2) - 3px);
                             margin: 0 0 3px 0;
                           }
                         }
@@ -1129,10 +1128,10 @@ main {
                             width: calc(100% / 3 - 3px);
                             text-align: center;
                             margin: 0 3px 0 0;
-                            line-height: calc((21vh / 3) / 2);
+                            line-height: calc((10.625rem / 3) / 2);
                             div {
                               width: 100%;
-                              height: calc(21vh / 3 - 3px);
+                              height: calc(10.625rem / 3 - 3px);
                               margin: 0 0 3px 0;
                               p {
                                 // margin: 0 0 0.5vh 0;
@@ -1146,11 +1145,11 @@ main {
                             div {
                               width: 100%;
                               height: 50%;
-                              height: calc(21vh / 2 - 3px);
+                              height: calc(10.625rem / 2 - 3px);
                               margin: 0 0 3px 0;
-                              line-height: calc((21vh / 2 - 3px) / 2);
+                              line-height: calc((10.625rem / 2 - 3px) / 2);
                               &.solo_line {
-                                line-height: calc((21vh / 1 - 3px) / 2);
+                                line-height: calc((10.625rem / 1 - 3px) / 2);
                               }
                             }
                           }
@@ -1241,22 +1240,22 @@ footer {
         }
         &.set_table {
           span {
-            background-position: -24px 0;
+            background-position: -1.5625rem 0;
           }
         }
         &.not_yet {
           span {
-            background-position: -51px 0;
+            background-position: -3.125rem 0;
           }
         }
         &.yes_do {
           span {
-            background-position: -76px 0;
+            background-position: -4.6875rem 0;
           }
         }
         &.refresh {
           span {
-            background-position: -100px 0;
+            background-position: -6.25rem 0;
           }
         }
       }
