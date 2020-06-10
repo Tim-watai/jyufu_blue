@@ -19,7 +19,7 @@ header {
           position: absolute;
           left: 50%;
           transform: translateX(-50%);
-          width: 2px;
+          width: .125rem;
           height: 50%;
           background-color: $d_gray;
         }
@@ -429,7 +429,7 @@ main {
                 background-size: 910%;
                 background-position: -42px 0;
                 width: 18px;
-                height: 15px;
+                height: .9375rem;
                 margin: 0 0 4px 0;
               }
             }
@@ -459,7 +459,7 @@ main {
             &.mode {
               float: right;
               background-color: #d8d9de;
-              border-radius: 12px;
+              border-radius: .75rem;
               width: 6.75rem;
               height: 85%;
               line-height: calc(1.75rem * 0.85);
@@ -477,7 +477,7 @@ main {
                 width: 50%;
                 height: 80%;
                 line-height: calc(1.75rem * 0.85 * 0.8);
-                border-radius: 12px;
+                border-radius: .75rem;
                 &.active {
                   background: #fff;
                   p {
@@ -506,13 +506,13 @@ main {
         width: 100%;
         height: auto;
         background-color: #f7f7f7;
-        padding: 0 0 5px 0;
+        padding: 0 0 .3125rem 0;
         position: relative;
 
         li {
           background-color: #fff;
           width: auto;
-          margin: 0 .3125rem 5px .3125rem;
+          margin: 0 .3125rem .3125rem .3125rem;
           height: auto;
           span {
             &.title {
@@ -661,8 +661,8 @@ main {
                           no-repeat;
                         background-size: 810%;
                         width: 18px;
-                        height: 15px;
-                        line-height: 15px;
+                        height: .9375rem;
+                        line-height: .9375rem;
                         position: relative;
                         vertical-align: bottom;
                       }
@@ -787,7 +787,7 @@ main {
                           //   float: right;
                           // }
                           span {
-                            margin: 0 0 0 5px;
+                            margin: 0 0 0 .3125rem;
                           }
                         }
                         &:last-child {
@@ -811,22 +811,22 @@ main {
                             background-position: -1.0625rem 0;
                           }
                           &.icon3 {
-                            background-position: -34px 0;
+                            background-position: -2.125rem 0;
                           }
                           &.icon4 {
-                            background-position: -51px 0;
+                            background-position: -3.1875rem 0;
                           }
                           &.icon5 {
-                            background-position: -68px 0;
+                            background-position: -4.25rem 0;
                           }
                           &.icon6 {
-                            background-position: -85px 0;
+                            background-position: -5.3125rem 0;
                           }
                           &.icon7 {
-                            background-position: -102px 0;
+                            background-position: -6.375rem 0;
                           }
                           &.icon8 {
-                            background-position: -119px 0;
+                            background-position: -7.4375rem 0;
                           }
                         }
                       }
@@ -868,12 +868,12 @@ main {
                       }
                       span {
                         color: #1b255c;
-                        line-height: 1.25rem;
-                        font-size: 1.125rem;
+                        line-height: 1rem;
+                        font-size: 1rem;
                         font-weight: bold;
                       }
                       &.tie {
-                        margin: 0 5px 0 5px;
+                        margin: 0 .3125rem 0 .3125rem;
                       }
                     }
                   }
@@ -973,7 +973,7 @@ main {
                       left: 50%;
                       transform: translateX(-50%);
                       background: #e0e3f3;
-                      width: 97vw;
+                      width: 97%;
                       height: 1px;
                     }
                   }
@@ -1006,7 +1006,7 @@ main {
                       &.timing {
                         color: #5875e0;
                         border: 1px solid #5875e0;
-                        border-radius: 5px;
+                        border-radius: .3125rem;
                         font-size: .9rem;
                         width: auto;
                         text-align: center;
@@ -1065,7 +1065,6 @@ main {
                     span {
                       &.counter {
                         width: 40%;
-                        // height: 15vh;
                         position: relative;
                         float: left;
                         div,
@@ -1076,7 +1075,7 @@ main {
                         p {
                           color: #1b255c;
                           &.name {
-                            font-size: 1.125rem;
+                            font-size: 1rem;
                             vertical-align: middle;
                             line-height: 1;
                           }
@@ -1084,9 +1083,7 @@ main {
                         div {
                           width: 100%;
                           display: inline-block;
-                          line-height: calc(15vh / 3);
                           &.country {
-                            // line-height: calc(11.5rem / 2 - 3px);
                             line-height: calc((10.625rem / 2) - 3px);
                             margin: 0 0 3px 0;
                           }
@@ -1119,7 +1116,7 @@ main {
                                   no-repeat;
                                 background-size: cover;
                                 background-position: center center;
-                                width: 13px;
+                                width: .8125rem;
                                 height: 1rem;
                               }
                             }
@@ -1133,9 +1130,7 @@ main {
                               width: 100%;
                               height: calc(10.625rem / 3 - 3px);
                               margin: 0 0 3px 0;
-                              p {
-                                // margin: 0 0 0.5vh 0;
-                              }
+                          
                             }
                           }
                           &.two_side {
@@ -1160,7 +1155,7 @@ main {
                           p {
                             color: #838ba0;
                             // line-height: 1;
-                            font-size: 2.125rem;
+                            font-size: 1rem;
                             display: inline-block;
                             font-weight: bold;
                             width: 100%;
@@ -1169,7 +1164,7 @@ main {
                             width: 100%;
                             color: #1b255c;
                             // line-height: 1;
-                            font-size: 2.125rem;
+                            font-size: 1rem;
                             font-weight: bold;
                           }
                         }
@@ -1187,7 +1182,7 @@ main {
                         text-align: center;
                         line-height: 100%;
                         color: #1b255c;
-                        font-size: 2.125rem;
+                        font-size: 1rem;
                       }
                       span {
                         display: inline-block;
@@ -1195,8 +1190,8 @@ main {
                           no-repeat;
                         background-size: 810%;
                         width: 18px;
-                        height: 15px;
-                        line-height: 15px;
+                        height: .9375rem;
+                        line-height: .9375rem;
                         position: relative;
                         vertical-align: bottom;
                         &.icon_game {
@@ -1279,7 +1274,7 @@ aside {
       &.bet_page {
         background: #f6f8ff;
         display: inline-block;
-        width: 80vw;
+        width: 80%;
         border-radius: 13px;
         position: relative;
         top: 50%;
@@ -1287,18 +1282,18 @@ aside {
         span.close {
           display: inline-block;
           position: absolute;
-          top: -38px;
+          top: -2.375rem;
           right: 0;
-          width: 28px;
-          height: 28px;
+          width: 1.75rem;
+          height: 1.75rem;
           border-radius: 100%;
           border: 2px solid white;
           cursor: pointer;
           pointer-events: all;
           &:before {
             content: "";
-            width: 15px;
-            height: 2px;
+            width: .9375rem;
+            height: .125rem;
             background-color: #fff;
             position: absolute;
             left: 50%;
@@ -1307,8 +1302,8 @@ aside {
           }
           &:after {
             content: "";
-            width: 15px;
-            height: 2px;
+            width: .9375rem;
+            height: .125rem;
             background-color: #fff;
             position: absolute;
             left: 50%;
@@ -1321,21 +1316,20 @@ aside {
             display: inline-block;
             position: relative;
             width: 100%;
-            // height: calc(12vh - 7px);
             line-height: 1;
             overflow: hidden;
             background: #fff;
             /* vertical-align: top; */
             border-radius: 13px 13px 0 0;
             text-align: center;
-            margin: 0 0 -8px;
+            margin: 0 0 -.25rem;
             span {
               display: inline-block;
               &.game_name {
                 line-height: 1;
-                padding: 2.5vh 0 0 0;
+                padding: 1.25rem 0 0 0;
                 width: 100%;
-                font-size: 4vw;
+                font-size: 1rem;
                 font-weight: bold;
                 color: #4d515d;
                 vertical-align: top;
@@ -1348,18 +1342,18 @@ aside {
                   transform: translate(-50%, 0) rotate(0deg) skew(-20deg);
                   top: 0;
                   background: #556de7;
-                  width: 2px;
-                  height: 3.3vw;
+                  width: .125rem;
+                  height: .75rem;
                   display: inline-block;
                   border-radius: 100px;
                   &:first-child {
-                    margin: 0 5px 0 0;
+                    margin: 0 .3125rem 0 0;
                     &:before {
                       content: "";
                       position: absolute;
                       top: 0%;
-                      left: -5px;
-                      width: 2px;
+                      left: -.3125rem;
+                      width: .125rem;
                       height: 100%;
                       background: #556de7;
                       border-radius: 100px;
@@ -1371,8 +1365,8 @@ aside {
                       content: "";
                       position: absolute;
                       top: 0%;
-                      left: 5px;
-                      width: 2px;
+                      left: .3125rem;
+                      width: .125rem;
                       height: 100%;
                       background: #556de7;
                       border-radius: 100px;
@@ -1382,7 +1376,7 @@ aside {
               }
               &.game_tag {
                 width: 100%;
-                font-size: 2.125rem;
+                font-size: .9rem;
                 color: #b2b6c2;
                 display: none;
                 &.active {
@@ -1391,9 +1385,9 @@ aside {
               }
               &.bet_type {
                 width: 100%;
-                font-size: 2.125rem;
+                font-size: 1rem;
                 color: #838ba0;
-                margin: 1vh 0 1vh;
+                margin: .5rem 0 .5rem;
               }
               &.counter {
                 width: 90%;
@@ -1404,7 +1398,7 @@ aside {
                 p {
                   color: #4d515d;
                   display: inline-block;
-                  font-size: 2.2vh;
+                  font-size: 1.1rem;
                   white-space: nowrap;
                   overflow: hidden;
                   text-overflow: ellipsis;
@@ -1423,7 +1417,7 @@ aside {
                     transform: translate(-50%, -50%);
                     left: 50%;
                     top: 50%;
-                    font-size: 2.5vh;
+                    font-size: 1.4rem;
                     // top: calc(.75rem + 5px);
                   }
                 }
@@ -1442,10 +1436,10 @@ aside {
                 border-radius: 8px;
                 position: relative;
                 text-align: center;
-                padding: .8rem 1vw .8rem;
+                padding: .8rem .25rem .8rem;
                 span {
                   &.tie {
-                    font-size: 2.2vh;
+                    font-size: 1.1rem;
                     display: inline-block;
                     width: 100%;
                     line-height: 100%;
@@ -1453,25 +1447,25 @@ aside {
                   }
                   &.cir_wrap {
                     width: 100%;
-                    line-height: 8vw;
+                    line-height: 1.875rem;
                     text-align: center;
                     display: none;
                     color: #fff;
-                    font-size: 2.1vh;
+                    font-size: 1.1rem;
                     &.active {
                       display: inline-block;
                     }
                     .circle {
                       display: inline-block;
                       position: relative;
-                      width: 7vw;
-                      height: 7vw;
-                      line-height: 7vw;
+                      width: 1.625rem;
+                      height: 1.625rem;
+                      line-height: 1.625rem;
                       text-align: center;
                       background: #fff;
                       color: #556de7;
                       border-radius: 100px;
-                      font-size: 2.5vh;
+                      font-size: 1.4rem;
                       float: right;
                     }
                   }
@@ -1493,11 +1487,11 @@ aside {
                     padding: .75rem 0;
                     p {
                       color: #838ba0;
-                      font-size: 4.3vw;
+                      font-size: 1rem;
                       span {
                         &.num {
                           color: #556de7;
-                          font-size: 4.3vw;
+                          font-size: 1rem;
                         }
                       }
                       &.balance {
@@ -1518,26 +1512,26 @@ aside {
                       content: "元";
                       position: absolute;
                       top: 50%;
-                      right: 4vw;
+                      right: 1rem;
                       transform: translateY(-50%);
-                      font-size: 4.3vw;
+                      font-size: 1rem;
                       color: #242424;
                       z-index: 1;
                       font-weight: bold;
                     }
                     input {
                       width: 100%;
-                      height: 5vh;
+                      height: 2.5rem;
                       border-radius: 4px;
                       outline: none;
-                      padding: 0 10vw 0 4vw;
+                      padding: 0 2.1875rem 0 1rem;
                       border: 1px solid #e0e3f3;
-                      font-size: 4.3vw;
+                      font-size: 1rem;
 
                       &::placeholder {
                         color: #ced1e0;
                         font-weight: bold;
-                        font-size: 4.3vw;
+                        font-size: 1rem;
                       }
                     }
                   }
@@ -1548,11 +1542,11 @@ aside {
                     .kb_bot {
                       width: 100%;
                       text-align: center;
-                      line-height: 5vh;
+                      line-height: 2.5rem;
                       overflow: hidden;
                     }
                     .kb_top {
-                      margin: 0 0 4px;
+                      margin: 0 0 .25rem;
                       .box_s {
                         &:last-child {
                           margin: 0;
@@ -1565,7 +1559,7 @@ aside {
                       border: 1px solid #e0e3f3;
                       background: #fff;
                       color: #4d515d;
-                      font-size: 2.2vh;
+                      font-size: 1.1rem;
                     }
                     .box_s {
                       width: 24%;
@@ -1588,7 +1582,7 @@ aside {
                 .f_title {
                   line-height: 2rem;
                   width: 100%;
-                  margin: 1vh 0;
+                  margin: .5rem 0;
                   i {
                     display: inline-block;
                     line-height: 2rem;
@@ -1604,13 +1598,13 @@ aside {
                       position: absolute;
                       top: 42%;
                       left: 51%;
-                      width: 1.3vh;
-                      height: 2.3vh;
+                      width: 0.75rem;
+                      height: 1.25rem;
                       -webkit-transform: translate(-50%, -50%);
                       -ms-transform: translate(-50%, -50%);
                       transform: translate(-50%, -50%) rotate(45deg);
                       border-style: solid;
-                      border-width: 0 0.5vh 0.5vh 0;
+                      border-width: 0 .25rem .25rem 0;
                       border-color: transparent #fff #fff transparent;
                     }
                   }
@@ -1628,14 +1622,14 @@ aside {
                   width: 100%;
                   clear: both;
                   overflow: hidden;
-                  margin: 0px 0 2vh;
+                  margin: 0px 0 1rem;
                   .wrap {
                     width: 100%;
                     clear: both;
                     overflow: hidden;
                     li {
                       overflow: hidden;
-                      margin: 0 0 1vh;
+                      margin: 0 0 .5rem;
                       &:last-child {
                         margin: 0;
                       }
@@ -1658,14 +1652,14 @@ aside {
               &.result_wrap {
                 width: 100%;
                 line-height: 100%;
-                padding: 5px 0 5px;
+                padding: .3125rem 0 .3125rem;
                 overflow: hidden;
 
                 .box {
                   float: left;
                   width: 32%;
                   text-align: center;
-                  line-height: 5vh;
+                  line-height: 2.5rem;
                   margin: 0 1.3% 0 0;
                   line-height: 100%;
                   font-size: .9rem;
@@ -1700,7 +1694,7 @@ aside {
               &.auto_wrap {
                 line-height: 1.875rem;
                 font-size: 1rem;
-                margin: 5px 0 0;
+                margin: .3125rem 0 0;
                 input,
                 label {
                   display: inline-block;
@@ -1756,12 +1750,12 @@ aside {
             position: relative;
             display: inline-block;
             width: 100%;
-            height: 6vh;
-            line-height: 6vh;
+            height: 3rem;
+            line-height: 3rem;
             background: #556de7;
             border-radius: 0 0 13px 13px;
             color: #fff;
-            font-size: 19px;
+            font-size: 1.3rem;
             vertical-align: bottom;
           }
         }
@@ -1783,7 +1777,7 @@ aside {
           transform: translate(-50%, -50%);
           position: absolute;
           background: #f6f8ff;
-          width: 70vw;
+          width: 70%;
           // height: 10em;
           line-height: 9.5em;
           border-radius: 8px;
@@ -1803,7 +1797,7 @@ aside {
             }
             button {
               background: linear-gradient(to right, #99a6e3 0%, #485cc4 100%);
-              width: 40vw;
+              width: 10rem;
               border-radius: 8px;
               border: none;
               color: #fff;
@@ -1836,13 +1830,13 @@ aside {
         width: 100%;
         background: #f7f7f7;
         li {
-          height: 7vh;
-          line-height: 7vh;
+          height: 3.4375rem;
+          line-height: 3.4375rem;
           background: #fff;
-          padding: 0 4vw;
+          padding: 0 1rem;
           position: relative;
           color: #4d515d;
-          font-size: 4.3vw;
+          font-size: 1rem;
           font-weight: bold;
           border-bottom: 1px solid #f7f8ff;
           div {
@@ -1853,18 +1847,17 @@ aside {
                 &.check {
                   height: 2rem;
                   line-height: 2rem;
-                  width: 32vw;
+                  width: 13.25rem;
                   background: #737997;
                   vertical-align: middle;
                   border-radius: 1.25rem;
-                  padding: 0 2px;
+                  padding: 0 .125rem;
                   span {
                     display: inline-block;
-                    font-size: 2vw;
                     border-radius: 1.25rem;
                     line-height: calc(2rem - 4px);
                     height: calc(2rem - 4px);
-                    width: 15vw;
+                    width: 6.26rem;
                     text-align: center;
                     &.active {
                       background: #fff;
@@ -1895,7 +1888,7 @@ aside {
             }
           }
           &.title {
-            margin: 0 0 12px 0;
+            margin: 0 0 .75rem 0;
             span {
               display: inline-block;
               &.all {
@@ -1906,12 +1899,12 @@ aside {
               }
               &.soccers {
                 float: right;
-                line-height: 7vh;
+                line-height: 3.4375rem;
 
                 p {
                   display: inline-block;
-                  width: 28vw;
-                  height: 7vw;
+                  width: 7.1875rem;
+                  height: 1.625rem;
                   background: url(../images/soccers.png) no-repeat;
                   background-position: center center;
                   background-size: cover;
@@ -1940,16 +1933,10 @@ aside {
           &.close {
             text-align: center;
             padding: 0;
-            font-size: 5vw;
-            margin: 12px 0 0 0;
+            font-size: 1.2rem;
+            margin: .75rem 0 0 0;
             border: none;
             box-shadow: 0px -3px 6px 0px #e5e5e5;
-            // &:before{
-            //   content: '關閉';
-            //   position: absolute;
-            //   top: calc(50% + 2px);
-            //   transform: translateY(-50%);
-            // }
             p {
               display: inline-block;
               line-height: 1;
@@ -1978,14 +1965,14 @@ aside {
         ul {
           position: relative;
           width: 100%;
-          height: 5vh;
-          line-height: 5vh;
+          height: 2.5rem;
+          line-height: 2.5rem;
           background-color: #fff;
           border-bottom-left-radius: 1.25rem 1.25rem;
           border-bottom-right-radius: 1.25rem 1.25rem;
           margin: 0 auto;
-          -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
-          box-shadow: 0 3px 5px 0 #e2e2e2;
+          -webkit-box-shadow: 0 3px .3125rem 0 #e2e2e2;
+          box-shadow: 0 3px .3125rem 0 #e2e2e2;
           padding: 0 .7rem 0 .7rem;
           li {
             &.title {
@@ -1998,13 +1985,13 @@ aside {
               color: #4d515d;
               font-family: "my_font";
               display: inline-block;
-              font-size: 5vw;
+              font-size: 1.2rem;
               margin: 3px 0 0 0;
             }
             &.close {
               position: relative;
-              width: 5vw;
-              height: 5vw;
+              width: 1.2rem;
+              height: 1.2rem;
               vertical-align: middle;
               display: inline-block;
               pointer-events: all;
@@ -2015,7 +2002,7 @@ aside {
                 border-radius: 100px;
                 background: #4d515d;
                 width: 100%;
-                height: 2px;
+                height: .125rem;
                 transform: translate(-50%, -50%);
                 top: 50%;
                 left: 50%;
@@ -2031,7 +2018,7 @@ aside {
               position: relative;
               display: inline-block;
               float: right;
-              font-size: 5vw;
+              font-size: 1.2rem;
               color: #8e9bdc;
               margin: 3px 0 0 0;
             }
@@ -2039,22 +2026,22 @@ aside {
         }
       }
       &.input_area {
-        margin: 1vh 0 0 0;
+        margin: .5rem 0 0 0;
         width: 100%;
         overflow: auto;
         div {
           &.input_box {
             position: relative;
-            padding: 0 4vw;
+            padding: 0 1rem;
             input {
               background: #f5f5fa;
               color: #4d515d;
               border: none;
               width: 100%;
-              height: 5vh;
-              font-size: 4vw;
+              height: 2.5rem;
+              font-size: 1rem;
               border-radius: 1.875rem;
-              padding: 2px 0 0 14vw;
+              padding: .125rem 0 0 3.25rem;
               &::placeholder {
                 color: #ced1e0;
               }
@@ -2064,26 +2051,26 @@ aside {
               position: absolute;
               transform: translateY(-50%);
               top: 50%;
-              left: 10vw;
+              left: 2.1875rem;
               width: 1.375rem;
               height: 1.25rem;
               background: url(../images/head_icons.png) no-repeat;
-              background-size: 591%;
-              background-position: -21px 0;
+              background-size: 600%;
+              background-position: -1.375rem 0;
             }
           }
           &.all {
             float: right;
-            font-size: 4.3vw;
+            font-size: 1rem;
             color: #4d515d;
-            padding: 1vh 10vw 0 0;
+            padding: .5rem 2.1875rem 0 0;
             span {
               display: inline-block;
               border-radius: 100px;
               border: 1px solid #838ba0;
-              width: .8rem;
-              height: .8rem;
-              margin: 0 0 0 2vw;
+              width: 1rem;
+              height: 1rem;
+              margin: 0 0 0 .5rem;
               position: relative;
               &.active,
               &:active,
@@ -2106,7 +2093,7 @@ aside {
       }
       &.content {
         width: 100%;
-        height: calc(100vh - 12vh - 2px - 4.3vw);
+        height: calc(100vh - 7.5rem);
         overflow-y: scroll;
         overflow-x: hidden;
         div {
@@ -2115,32 +2102,32 @@ aside {
               &.title {
                 display: inline-block;
                 width: 100%;
-                font-size: 4.3vw;
-                padding: 1vh 0 1vh 6vw;
+                font-size: 1rem;
+                padding: .5rem 0 .5rem 1.375rem;
                 color: #4d515d;
                 background: #f6f8ff;
                 span {
-                  width: 4vw;
-                  height: 2.9vw;
+                  width: 1rem;
+                  height: .625rem;
                   &.arrow_w {
                     display: inline-block;
-                    width: 4vw;
-                    height: 2.9vw;
+                    width: 1rem;
+                    height: .625rem;
                     background: url(../images/icon/arrow_w.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     position: relative;
-                    margin: 0 1vw 0 0;
+                    margin: 0 .25rem 0 0;
                   }
                   &.arrow_d {
                     display: inline-block;
-                    width: 4vw;
-                    height: 2.9vw;
+                    width: 1rem;
+                    height: .625rem;
                     background: url(../images/icon/arrow_d.png) no-repeat;
                     background-size: cover;
                     background-position: center center;
                     position: relative;
-                    margin: 0 1vw 0 0;
+                    margin: 0 .25rem 0 0;
                   }
                 }
                 &.hot {
@@ -2152,18 +2139,18 @@ aside {
             ul {
               &.scroll {
                 overflow-y: scroll;
-                max-height: 22vh;
+                max-height: 11.125rem;
               }
               li {
-                width: 88vw;
-                margin: 0 6vw 0 6vw;
-                padding: 4vw 5vw 4vw 10vw;
-                font-size: 4vw;
+                width: 88%;
+                margin: 0 6% 0 6%;
+                padding: 1rem 1.2rem 1rem 2.1875rem;
+                font-size: 1rem;
                 color: #838ba0;
                 border-bottom: 0.5px solid #e0e3f3;
                 position: relative;
                 &.default {
-                  padding: 4vw 5vw 4vw 5vw;
+                  padding: 1rem 1.2rem 1rem 1.2rem;
                 }
                 &:last-child {
                   border-bottom: none;
@@ -2173,8 +2160,8 @@ aside {
                   background: url(../images/market/search_game_icons.png)
                     no-repeat;
                   background-size: 300%;
-                  width: 6vw;
-                  height: 6vw;
+                  width: 1.375rem;
+                  height: 1.375rem;
                   position: absolute;
                   transform: translateY(-50%);
                   top: 50%;
@@ -2183,10 +2170,10 @@ aside {
                     background-position: 0 0;
                   }
                   &.local_game_2 {
-                    background-position: -6vw 0;
+                    background-position: -1.375rem 0;
                   }
                   &.local_game_3 {
-                    background-position: -12vw 0;
+                    background-position: -2.75rem 0;
                   }
                 }
                 div {
@@ -2200,19 +2187,20 @@ aside {
                         display: inline-block;
                         border-radius: 100px;
                         border: 1px solid #838ba0;
-                        width: .8rem;
-                        height: .8rem;
-                        margin: 0 0 0 2vw;
+                        width: 1rem;
+                        height: 1rem;
+                        margin: 0 0 0 .5rem;
                         position: relative;
                         vertical-align: bottom;
                         background: none;
+                        top: .2rem;
                         &:active,
                         &.active,
                         &:hover {
                           &:before {
                             content: "";
                             position: absolute;
-                            transform: translate(-55%, -55%);
+                            transform: translate(-50%, -50%);
                             top: 50%;
                             left: 50%;
                             width: .5625rem;
