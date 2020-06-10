@@ -1,8 +1,8 @@
 aside{
     &.my_windows_mb_save {
-      padding: calc(5vh + 10px) 0 100px 0;
+      padding: calc(2.5rem + .625rem) 0 100px 0;
       width: 100vw;
-      height: calc(100vh - 5vh - 10px);
+      height: calc(100vh - 2.5rem - .625rem);
       background: #f7f7f7;
       z-index: 0;
       display: inline-block;
@@ -13,8 +13,8 @@ aside{
           &.title {
             text-align: left;
             border-bottom: 1px solid #e0e3f3;
-            padding: 3vw 0 3vw 0;
-            font-size: 4.5vw;
+            padding: .75rem 0 .75rem 0;
+            font-size: 1.2rem;
             line-height: 1;
             vertical-align: bottom;
             color: #4d515d;
@@ -23,14 +23,14 @@ aside{
         div {
           //支付方式
           &.content {
-            padding: 0 3vw 0 3vw;
+            padding: 0 .75rem 0 .75rem;
             background: #fff;
             .pay_type {
-              padding: 3vw 0 0vw 0;
+              padding: .75rem 0 0 0;
               .disabled {
                 border: none;
-                width: 21vw;
-                height: 20vw;
+                width: 4.875rem;
+                height: 4.6875rem;
               }
               .row{
                 white-space: nowrap;
@@ -38,11 +38,13 @@ aside{
               .wrap {
                 border: 1px solid #e0e3f3;
 
-                width: 21vw;
-                height: 20vw;
-                line-height: 20vw;
+                // width: 4.875rem;
+                width: 24%;
+                height: 4.6875rem;
+                line-height: 4.6875rem;
                 border-radius: 8px;
-                margin: 0 calc(10vw / 4) 3vw 0;
+                margin: 0 calc(2.375rem / 4) .75rem 0;
+                margin: 0 1% .75rem 0;
                 position: relative;
                 text-align: center;
                 display: inline-block;
@@ -55,13 +57,13 @@ aside{
                   &:before {
                     content: "";
                     position: absolute;
-                    right: 2px;
-                    top: 2px;
+                    right: .125rem;
+                    top: .125rem;
                     background: url(../images/my_mb/pushs.png) no-repeat;
                     background-size: cover;
                     background-position: 0 0;
-                    width: 14px;
-                    height: 14px;
+                    width: .875rem;
+                    height: .875rem;
                   }
                 }
                 &:hover,
@@ -72,10 +74,10 @@ aside{
                   &:after {
                     content: "";
                     position: absolute;
-                    right: 3px;
-                    bottom: 3px;
-                    width: 15px;
-                    height: 15px;
+                    right: .1875rem;
+                    bottom: .1875rem;
+                    width: .9375rem;
+                    height: .9375rem;
                     background: url(../images/my_mb/pay_check.png) no-repeat;
                     background-size: 100%;
                   }
@@ -84,31 +86,31 @@ aside{
                     background-size: 900%;
                     
                     &.i1 {
-                      background-position: 0 -20px;
+                      background-position: 0 -1.25rem;
                     }
                     &.i2 {
-                      background-position: -25px -20px;
+                      background-position: -1.5625rem -1.25rem;
                     }
                     &.i3 {
-                      background-position: -50px -20px;
+                      background-position: -3.125rem -1.25rem;
                     }
                     &.i4 {
-                      background-position: -75px -20px;
+                      background-position: -4.6875rem -1.25rem;
                     }
                     &.i5 {
-                      background-position: -100px -20px;
+                      background-position: -6.25rem -1.25rem;
                     }
                     &.i6 {
-                      background-position: -125px -20px;
+                      background-position: -7.8125rem -1.25rem;
                     }
                     &.i7 {
-                      background-position: -150px -20px;
+                      background-position: -9.375rem -1.25rem;
                     }
                     &.i8 {
-                      background-position: -175px -20px;
+                      background-position: -10.9375rem -1.25rem;
                     }
                     &.i9 {
-                      background-position: -200px -20px;
+                      background-position: -12.5rem -1.25rem;
                     }
                   }
                   p {
@@ -118,73 +120,76 @@ aside{
                     &:before {
                       background: url(../images/my_mb/pushs.png) no-repeat;
                       background-size: cover;
-                      background-position: -14px 0;
+                      background-position: -.875rem 0;
                     }
                   }
                 }
                 span {
                   background: url(../images/my_mb_pay_icon.png) no-repeat;
                   background-size: 900%;
-                  width: 25px;
-                  height: 20px;
+                  width: 1.5625rem;
+                  height: 1.25rem;
                   display: block;
-                  margin: 0 auto 12px;
+                  margin: 0 auto .75rem;
                   &.i1 {
                     background-position: 0 0;
                   }
                   &.i2 {
-                    background-position: -25px 0;
+                    background-position: -1.5625rem 0;
                   }
                   &.i3 {
-                    background-position: -50px 0;
+                    background-position: -3.125rem 0;
                   }
                   &.i4 {
-                    background-position: -75px 0;
+                    background-position: -4.6875rem 0;
                   }
                   &.i5 {
-                    background-position: -100px 0;
+                    background-position: -6.25rem 0;
                   }
                   &.i6 {
-                    background-position: -125px 0;
+                    background-position: -7.8125rem 0;
                   }
                   &.i7 {
-                    background-position: -150px 0;
+                    background-position: -9.375rem 0;
                   }
                   &.i8 {
-                    background-position: -175px 0;
+                    background-position: -10.9375rem 0;
                   }
                   &.i9 {
-                    background-position: -200px 0;
+                    background-position: -12.5rem 0;
                   }
                 }
                 p {
-                  margin: 3px 0 0 0;
-                  font-size: 3.8vw;
+                  margin: .1875rem 0 0 0;
+                  font-size: .875rem;
                   color: #4d515d;
-                  line-height: 3.8vw;
+                  line-height: .875rem;
+                }
+                &:last-child{
+                  margin: 0 0 .75rem 0;
                 }
               }
             }
           }
           //微信_支付通道
           &.save_choice_type{
-            margin: 10px 0 10px 0;
-            padding: 0 3vw 0 3vw;
+            margin: .625rem 0 .625rem 0;
+            padding: 0 .75rem 0 .75rem;
             background: #fff;
             div{
               &.save_type{
                 &.choice_type{
                   
                   .wrap{
-                    padding: 0 3vw 0;
+                    padding: 0 .75rem 0;
                     text-align: left;
                     span{
                       background: url(../images/my_mb/wechats.png)no-repeat;
                       background-size: 200%;
                       background-position: 0 0;
-                      width: 20px;
-                      height: 20px;
-                      line-height: 20px;
+                      width: 1.25rem;
+                      height: 1.25rem;
+                      line-height: 1.25rem;
                       vertical-align: middle;
                     }
                     p{
@@ -196,7 +201,7 @@ aside{
                       span{
                         background: url(../images/my_mb/wechats.png)no-repeat;
                       background-size: 200%;
-                      background-position: -20px 0;
+                      background-position: -1.25rem 0;
                       }
                       p{
                         color: #fff;
@@ -212,18 +217,18 @@ aside{
           }
           //網銀&銀行卡:使用者姓名
           &.save_name{
-            margin: 10px 0 10px 0;
-            padding: 0 3vw 0 3vw;
+            margin: .625rem 0 .625rem 0;
+            padding: 0 .75rem 0 .75rem;
             background: #fff;
             .box{
-              padding: 3vw 0 3vw 0;
+              padding: .75rem 0 .75rem 0;
               border-bottom: 1px solid #e0e3f3;
               p,input{
-                font-size: 4.5vw;
+                font-size: 1.2rem;
               }
               p{
                 color: #4d515d;
-                margin: 0 20px 0 0;
+                margin: 0 1.25rem 0 0;
                 line-height: 1;
                 display: inline-block;
               }
@@ -237,18 +242,19 @@ aside{
             p{
               &.subtitle{
                 color: #838ba0;
-                font-size: 4vw;
-              padding: 5px 0 5px 0;
+                font-size: .9375rem;
+              padding: .3125rem 0 .3125rem 0;
               }
             }
           }
           //支付寶種類
           &.alipay_type{
-            margin: 10px 0 10px 0;
-            padding: 1vh 3vw 1vh 3vw;
+            width: 100%;
+            margin: .625rem 0 .625rem 0;
+            padding: .5rem .75rem .5rem .75rem;
             background: #fff;
             .wrap{
-              width: 45.5vw;
+             width: 48%;
               text-align: center;
               border: 1px solid #e0e3f3;
               border-radius: 8px;
@@ -257,9 +263,9 @@ aside{
                 float: right;
               }
               p{
-                font-size: 3.8vw;
+                font-size: .875rem;
                 color: #4d515d;
-                padding: 1.5vw 0 1.5vw 0;
+                padding: .375rem 0 .375rem 0;
               }
               &:hover,
               &:active,
@@ -274,12 +280,12 @@ aside{
           }
           //網銀_選擇銀行
           &.choice_bank{
-            margin: 10px 0 10px 0;
-            padding: 0 3vw 0 3vw;
+            margin: .625rem 0 .625rem 0;
+            padding: 0 .75rem 0 .75rem;
             background: #fff;
-            line-height: 10vw;
+            line-height: 2.375rem;
             p{
-              font-size: 4.5vw;
+              font-size: 1.2rem;
               display: inline-block;
             }
             span{
@@ -288,14 +294,14 @@ aside{
               background: url(../images/icon/arrow_gray.png) no-repeat;
                 background-position: center center;
                 background-size: 100%;
-                width: 4vw;
-                height: 4vw;
-                margin: 3vw 0 0 0;
+                width: .9375rem;
+                height: .9375rem;
+                margin: .75rem 0 0 0;
             }
           }
   
           .save_type {
-            padding: 3vw 0 0vw 0;
+            padding: .75rem 0 0 0;
             &.row{
               white-space: nowrap;
             }
@@ -304,20 +310,21 @@ aside{
             }
             .disabled {
               border: none;
-              width: 21vw;
-              height: 12vw;
+              width: 4.875rem;
+              height: 2.8125rem;
             }
             .wrap {
               border: 1px solid #e0e3f3;
               display: inline-block;
-              width: 21vw;
-              height: 12vw;
+              // width: 4.875rem;
+              width: 24%;
+              height: 2.8125rem;
               text-align: center;
               white-space: nowrap;
               border-radius: 8px;
-              margin: 0 calc(10vw / 4) 3vw 0;
+              margin: 0 1% .75rem 0;
               position: relative;
-              line-height: 12vw;
+              line-height: 2.8125rem;
               &:hover,
               &:active,
               &.active {
@@ -326,10 +333,10 @@ aside{
                 &:after {
                   content: "";
                   position: absolute;
-                  right: 3px;
-                  bottom: 3px;
-                  width: 15px;
-                  height: 15px;
+                  right: .1875rem;
+                  bottom: .1875rem;
+                  width: .9375rem;
+                  height: .9375rem;
                   background: url(../images/my_mb/pay_check.png) no-repeat;
                   background-size: 100%;
                 }
@@ -343,7 +350,7 @@ aside{
               &.other {
                 span,
                 p {
-                  font-size: 3vw;
+                  font-size: .75rem;
                   line-height: 1;
                 }
                 p {
@@ -363,37 +370,37 @@ aside{
                 display: inline-block;
               }
               span {
-                font-size: 3vw;
+                font-size: .75rem;
               }
               p {
-                font-size: 5vw;
+                font-size: 1.125rem;
                 color: #4d515d;
               }
             }
           }
           //網銀&銀行卡_存款金額
           &.save_page {
-            margin: 10px 0 10px 0;
-            padding: 0 3vw 0 3vw;
+            margin: .625rem 0 .625rem 0;
+            padding: 0 .75rem 0 .75rem;
             background: #fff;
             .save_type {
-              padding: 3vw 0 0vw 0;
+              padding: .75rem 0 0 0;
               .disabled {
                 border: none;
-                width: 21vw;
-                height: 10vw;
+                width: 4.875rem;
+                height: 2.375rem;
               }
               .wrap {
                 border: 1px solid #e0e3f3;
                 display: inline-block;
-                width: 21vw;
-                height: 12vw;
+                width: 24%;
+                height: 2.8125rem;
                 text-align: center;
                 white-space: nowrap;
                 border-radius: 8px;
-                margin: 0 calc(10vw / 4) 3vw 0;
+                margin: 0 1% .75rem 0;
                 position: relative;
-                line-height: 12vw;
+                line-height: 2.8125rem;
                 &:hover,
                 &:active,
                 &.active {
@@ -402,10 +409,10 @@ aside{
                   &:after {
                     content: "";
                     position: absolute;
-                    right: 3px;
-                    bottom: 3px;
-                    width: 15px;
-                    height: 15px;
+                    right: .1875rem;
+                    bottom: .1875rem;
+                    width: .9375rem;
+                    height: .9375rem;
                     background: url(../images/my_mb/pay_check.png) no-repeat;
                     background-size: 100%;
                   }
@@ -424,13 +431,13 @@ aside{
                   }
                   span,
                   p {
-                    font-size: 3vw;
+                    font-size: .75rem;
                     line-height: 1;
                     display: block;
                   }
                   p {
                     color: #838ba0;
-                    margin: 3px 0 0 0;
+                    margin: .1875rem 0 0 0;
                   }
                   &:hover,
                   &:active,
@@ -446,25 +453,25 @@ aside{
                   display: inline-block;
                 }
                 span {
-                  font-size: 3vw;
+                  font-size: .75rem;
                 }
                 p {
-                  font-size: 5vw;
+                  font-size: 1.125rem;
                   color: #4d515d;
                 }
               }
             }
             p{
               &.point{
-                font-size: 3.8vw;
+                font-size: .875rem;
                 color: #838ba0;
               }
             }
           }
           //代客儲值
           &.service_push{
-            margin: 10px 0 10px 0;
-            padding: 0 3vw 3vw 3vw;
+            margin: .625rem 0 .625rem 0;
+            padding: 0 .75rem .75rem .75rem;
             background: #fff;
             h1{
               &.title{
@@ -473,19 +480,19 @@ aside{
             }
             p{
               color: #838ba0;
-              font-size: 3.8vw;
+              font-size: .875rem;
             }
           }
         }
         button{
           &.save_now{
             width: 94vw;
-            line-height: 12vw;
-            margin: 10px 3vw 0 3vw;
+            line-height: 2.8125rem;
+            margin: .625rem .75rem 0 .75rem;
             border-radius: 8px;
             border: none;
             color: #fff;
-            font-size: 4.5vw;
+            font-size: 1.2rem;
             background:linear-gradient(to right, #9ba8e4 0% ,#485cc4 100% );
           }
         }
