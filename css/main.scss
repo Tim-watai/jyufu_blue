@@ -1161,8 +1161,8 @@ aside {
         background: url(../images/hot_window/refresh.png) no-repeat;
         background-size: cover;
         background-position: center center;
-        width: 25px;
-        height: 25px;
+        width: 1.5625rem;
+        height: 1.5625rem;
         &:before {
           content: "換一批";
           position: absolute;
@@ -1179,7 +1179,7 @@ aside {
       }
       span.get_one {
         font-family: "微軟正黑體";
-        font-size: 1.0625‬rem;
+        font-size: 1.0625rem;
         text-align: center;
         position: absolute;
         width: 100%;
