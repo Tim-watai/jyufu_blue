@@ -1,8 +1,8 @@
 aside {
   &.help_contact_us {
-    padding: calc(5vh + 10px) 0 100px 0;
+    padding: calc(2.5rem + .625rem) 0 100px 0;
     width: 100vw;
-    height: calc(100vh - 5vh - 10px);
+    height: calc(100vh - 2.5rem - .625rem);
     background: #f7f7f7;
     z-index: 0;
     display: inline-block;
@@ -11,25 +11,25 @@ aside {
     ul {
       &.contact_us {
         background: #fff;
-        padding: 10px 4vw 0px 4vw;
-        margin: 10px 0 0 0;
+        padding: .625rem .9375rem 0 .9375rem;
+        margin: .625rem 0 0 0;
         &:first-child {
           margin: 0 0 0 0;
         }
         h1 {
           color: #4d515d;
           font-weight: normal;
-          padding: 0 0 0 10px;
+          padding: 0 0 0 .625rem;
           position: relative;
-          font-size: 18px;
+          font-size: 1.125rem;
           &::before {
             content: "";
             position: absolute;
-            top: 2px;
+            top: .125rem;
             /* transform: translateY(-50%); */
             left: 0;
-            height: 16px;
-            width: 3px;
+            height: 1rem;
+            width: .1875rem;
             background: #3348b8;
             border-radius: 100px;
           }
@@ -37,72 +37,73 @@ aside {
         li {
 
           width: 100%;
-          line-height: 38px;
+          line-height: 2.375rem;
           border-bottom: 1px solid #e0e3f3;
-          padding: 20px 0 20px 0;
+          padding: 1.25rem 0 1.25rem 0;
           position: relative;
           &:last-child {
             border-bottom: none;
           }
           .wrap {
-            padding: 0px 7vw;
+            padding: 0 1.625rem;
             border-right: 1px solid #e0e3f3;
             float: left;
             div {
               background: url(../images/help/contact_us_icons.png) no-repeat;
               background-size: 400%;
-              width: 35px;
-              height: 38px;
+              width: 2.1875rem;
+              height: 2.375rem;
             }
             .icon_mail {
-              background-position: -70px 0;
+              background-position: -4.375rem 0;
             }
             .icon_qq {
               background-position: 0 0;
             }
             .icon_skype {
-              background-position: -105px 0;
+              background-position: -6.5625rem 0;
             }
             .icon_s {
-              background-position: -35px 0;
+              background-position: -2.1875rem 0;
             }
           }
           .mid_wrap {
-            padding: 0 0 0 7vw;
+            padding: 0 0 0 1.625rem;
             color: #4d515d;
             line-height: 1;
             display: inline-block;
             p {
               &:first-child {
-                margin: 0 0 5px 0;
+                margin: 0 0 .3125rem 0;
               }
             }
           }
           .copy {
             line-height: 1;
             position: absolute;
-            font-size: 16px;
+            font-size: 1rem;
             top: 50%;
             transform: translateY(-50%);
             right: 0;
             color: #959dc5;
             border: 1px solid #959dc5;
-            padding: 8px 6vw 8px 6vw;
-            border-radius: 3px;
+            padding: .5rem 1.375rem .5rem 1.375rem;
+            border-radius: .1875rem;
           }
         }
       }
     }
 
     button {
+      display: block;
       border: none;
-      border-radius: 8px;
-      margin: 20px 4vw 0 4vw;
-      width: 92vw;
+      border-radius: .5rem;
+      margin: 1.25rem auto 0 auto;
+      width: 92%;
       color: #fff;
-      font-size: 18px;
+      font-size: 1.125rem;
       font-weight: lighter;
-      padding: 12px 0 12px 0;
+      padding: .75rem 0 .75rem 0;
       background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
     }
   }

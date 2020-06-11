@@ -18,7 +18,7 @@ aside {
           width: 5.625rem;
           height: 5.625rem;
           line-height: 5.625rem;
-          margin: 0px 0 .75rem 0;
+          margin: 0 0 .75rem 0;
           border-radius: .75rem;
           background: linear-gradient(to bottom, #9aa7e2 0%, #495dc4 100%);
           p {
@@ -123,18 +123,18 @@ aside {
           width: 100%;
           text-align: left;
           padding: 0 .9375rem 0 .9375rem;
+          white-space: nowrap;
           li {
             display: inline-block;
             text-align: center;
             vertical-align: top;
-            width: calc(5.375rem - .3125rem);
+            width: 23.5%;
             line-height: 1;
-            margin: 0 .3125rem 0 0;
+            margin: 0 2% 0 0;
             &:first-child{
               float: left;
             }
             &:last-child{
-              float: right;
               margin: 0;
             }
             .icon_wrap {
@@ -171,12 +171,14 @@ aside {
           text-align: center;
           margin: .9375rem 0 0 0;
           padding: 0 .9375rem 0 .9375rem;
+          white-space: nowrap;
           li {
             display: inline-block;
             text-align: center;
-            width: calc(6.5625rem - .3125rem);
+            // width: calc(6.5625rem - .3125rem);
+            width: 30%;
             line-height: 1;
-            margin: 0 .3125rem 0 0;
+            margin: 0 5% 0 0;
             &:first-child{
               float: left;
             }

@@ -1,8 +1,8 @@
 aside {
   &.my_data_edit {
-    padding: calc(5vh + 10px) 0 100px 0;
+    padding: calc(2.5rem + .625rem) 0 100px 0;
     width: 100vw;
-    height: calc(100vh - 5vh - 10px);
+    height: calc(100vh - 2.5rem - .625rem);
     background: #f7f7f7;
     z-index: 0;
     display: inline-block;
@@ -12,29 +12,29 @@ aside {
       position: relative;
       background: #fff;
       li {
-        padding: 10px 0 10px 0;
-        margin: 0 4vw;
+        padding: .625rem 0 .625rem 0;
+        margin: 0 .9375rem;
         border-bottom: 1px solid #e0e3f3;
         position: relative;
         .year_wrap{
-            margin: 5px 0 5px 0;
+            margin: .3125rem 0 .3125rem 0;
             form{
                 display: inline-block;
             }
             p{
                 display: inline-block;
-                font-size: 14px;
+                font-size: .875rem;
                 color: #4d515d;
                 &.black{
                     color: #4d515d;
-                    margin: 0 3px 0 3px;
+                    margin: 0 .1875rem 0 .1875rem;
                 }
             }
         }
         form{
             select{
                 border: 1px solid #b9bfdc;
-                border-radius: 3px;
+                border-radius: .1875rem;
                 appearance: none;
                 text-align-last:center;
                 color: #838ba0;
@@ -54,9 +54,9 @@ aside {
         }
         input {
           border: 1px solid #b9bfdc;
-          border-radius: 3px;
-          margin: 5px 0 5px 0;
-          padding: 3px;
+          border-radius: .1875rem;
+          margin: .3125rem 0 .3125rem 0;
+          padding: .1875rem;
         }
         p {
           &:first-child {
@@ -69,15 +69,15 @@ aside {
         &.title {
           position: relative;
           .avatar_wrap {
-            line-height: 75px;
+            line-height: 4.6875rem;
           }
           .avatar {
             background: url(../images/my/avatar.png) no-repeat;
             background-size: 100%;
             background-position: center;
             position: relative;
-            width: 20vw;
-            height: 20vw;
+            width: 4.6875rem;
+            height: 4.6875rem;
             display: inline-block;
             vertical-align: bottom;
             &:before {
@@ -85,8 +85,8 @@ aside {
               position: absolute;
               right: 0;
               bottom: 0;
-              width: 20px;
-              height: 20px;
+              width: 1.25rem;
+              height: 1.25rem;
               background: url(../images/my/avatar_edit.png) no-repeat;
               background-size: 100%;
               background-position: center;
@@ -94,18 +94,18 @@ aside {
           }
           p {
             &:first-child {
-              margin: 0 0 8px 3px;
+              margin: 0 0 .5rem .1875rem;
             }
           }
           .btn_wrap{
             float: right;
-            line-height: 75px;
+            line-height: 4.6875rem;
             button {
-              border-radius: 3px;
+              border-radius: .1875rem;
               border: none;
               color: #fff;
               background: #7b8bd8;
-              padding: 5px 10px;
+              padding: .3125rem .625rem;
               position: relative;
               vertical-align: middle;
               &.active {
@@ -128,19 +128,19 @@ aside {
             content: "";
             position: absolute;
             right: 0;
-            top: 10px;
+            top: .625rem;
             background: url(../images/icon/arrow_lg.png) no-repeat;
             background-size: 100%;
             background-position: center;
-            width: 8px;
-            height: 16px;
+            width: .5rem;
+            height: 1rem;
           }
         }
         &.line_close {
           border-bottom: none;
         }
         &.footer {
-          padding: 10px 4vw 10px 4vw;
+          padding: .625rem .9375rem .625rem .9375rem;
           margin: 0;
           background: #f7f7f7;
           text-align: center;
@@ -157,7 +157,7 @@ aside {
           }
         }
         &.button_area{
-            padding: 20px 4vw 20px 4vw;
+            padding: 1.25rem .9375rem 1.25rem .9375rem;
             margin: 0;
             background: #f7f7f7;
             text-align: center;
@@ -165,9 +165,9 @@ aside {
                 border: none;
                 color: #fff;
                 background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
-                border-radius: 8px;
-                padding: 10px 80px 10px 80px;
-                font-size: 16px;
+                border-radius: .5rem;
+                padding: .625rem 5rem .625rem 5rem;
+                font-size: 1rem;
             }
         }
       }

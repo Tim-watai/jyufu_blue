@@ -1,6 +1,6 @@
 header {
   &.double_inner {
-    height: 32.5vh;
+    height: 16.5rem;
     background: url(../images/double_inner/header_bg.png) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -85,7 +85,7 @@ header {
           }
           &.title {
             color: #fff;
-            font-size: 2.1vh;
+            font-size: 1.0625rem;
             span {
               border-color: #fff transparent transparent transparent;
             }
@@ -94,7 +94,7 @@ header {
       }
     }
     section {
-      height: 27.5vh;
+      height: 13.9375rem;
       position: relative;
       article {
         &.game_time {
@@ -108,23 +108,23 @@ header {
             color: #fff;
           }
           span {
-            font-size: 1.2vh;
+            font-size: .625rem;
           }
           p {
-            font-size: 3.3vh;
+            font-size: 1.625rem;
             font-weight: bold;
           }
         }
         &.game_data {
           width: 100%;
-          height: 15vh;
-          padding: 0 3vw;
+          height: 7.625rem;
+          padding: 0 .6875rem;
           div {
             width: 45%;
             display: inline-block;
             height: 100%;
             text-align: center;
-            line-height: 15vh;
+            line-height: 7.625rem;
             &:first-child {
               float: left;
             }
@@ -140,134 +140,134 @@ header {
           //串關換對抗double_vs
                 span {
                   &.empty{
-                    width: 40px;
-                    height: 40px;
-                    margin: 0 0 6px 0;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    margin: 0 0 .375rem 0;
                   }
                   //足球
                   &.soccer{
-                    width: 26px;
-                    height: 30px;
-                    margin: 0 0 6px 0;
+                    width: 1.625rem;
+                    height: 1.875rem;
+                    margin: 0 0 .375rem 0;
                     background: url(../images/market/cs.png)no-repeat;
                     background-size: 800%;
                   }
                   &.country1 {
-                   background-position: -52px 0;
+                   background-position: -3.25rem 0;
                   }
                   &.country2 {
-                    background-position: -78px 0;
+                    background-position: -4.875rem 0;
                   }
                   //電競
                   &.esp{
-                    width: 40px;
-                    height: 40px;
-                    margin: 0 0 6px 0;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    margin: 0 0 .375rem 0;
                     background: url(../images/double_inner/esp_t.png)no-repeat;
                     background-size: 200%;
                   }
                   &.t1{
-                    background-position: 0px 0;
+                    background-position: 0 0;
                   }
                   &.t2{
-                    background-position: -40px 0;
+                    background-position: -2.5rem 0;
                   }
                   //籃球
                   &.nba{
-                    width: 40px;
-                    height: 40px;
-                    margin: 0 0 6px 0;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    margin: 0 0 .375rem 0;
                     background: url(../images/double_inner/nba_t.png)no-repeat;
                     background-size: 200%;
                   }
                   &.t1{
-                    background-position: 0px 0;
+                    background-position: 0 0;
                   }
                   &.t2{
-                    background-position: -40px 0;
+                    background-position: -2.5rem 0;
                   }
                   //羽球
                   &.bad{
-                    width: 40px;
-                    height: 40px;
-                    margin: 0 0 6px 0;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    margin: 0 0 .375rem 0;
                     background: url(../images/double_inner/bad_t.png)no-repeat;
                     background-size: 200%;
                   }
                   &.t1{
-                    background-position: 0px 0;
+                    background-position: 0 0;
                   }
                   &.t2{
-                    background-position: -40px 0;
+                    background-position: -2.5rem 0;
                   }
                   //沙灘足球
                   &.bea{
-                    width: 40px;
-                    height: 40px;
-                    margin: 0 0 6px 0;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    margin: 0 0 .375rem 0;
                     background: url(../images/double_inner/bea_t.png)no-repeat;
                     background-size: 200%;
                   }
                   &.t1{
-                    background-position: 0px 0;
+                    background-position: 0 0;
                   }
                   &.t2{
-                    background-position: -40px 0;
+                    background-position: -2.5rem 0;
                   }
                   //排球
                   &.vol{
-                    width: 40px;
-                    height: 40px;
-                    margin: 0 0 6px 0;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    margin: 0 0 .375rem 0;
                     background: url(../images/double_inner/vol_t.png)no-repeat;
                     background-size: 200%;
                   }
                   &.t1{
-                    background-position: 0px 0;
+                    background-position: 0 0;
                   }
                   &.t2{
-                    background-position: -40px 0;
+                    background-position: -2.5rem 0;
                   }
                   //棒球
                   &.bas{
-                    width: 40px;
-                    height: 40px;
-                    margin: 0 0 6px 0;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    margin: 0 0 .375rem 0;
                     background: url(../images/double_inner/bas_t.png)no-repeat;
                     background-size: 200%;
                   }
                   &.t1{
-                    background-position: 0px 0;
+                    background-position: 0 0;
                   }
                   &.t2{
-                    background-position: -40px 0;
+                    background-position: -2.5rem 0;
                   }
 
                 }
                 p {
                   text-align: center;
                   color: #fff;
-                  font-size: 2.1vh;
+                  font-size: 1.0625rem;
                 }
               }
             }
           }
         }
         &.game_live {
-          height: 8vh;
-          line-height: 8vh;
+          height: 4.0625rem;
+          line-height: 4.0625rem;
           text-align: center;
           div {
             &.wrap {
-              line-height: 4vh;
+              line-height: 2rem;
               vertical-align: middle;
               width: 70%;
-              height: 4vh;
+              height: 2rem;
               display: inline-block;
               background: rgba(0, 0, 0, 0.4);
-              border-radius: 30px;
+              border-radius: 1.875rem;
               white-space: nowrap;
-              padding: 0 5vw;
+              padding: 0 1.125rem;
 
               div {
                 display: inline-block;
@@ -280,14 +280,14 @@ header {
                 }
                 p {
                   color: #fff;
-                  font-size: 2vh;
+                  font-size: 1rem;
                   line-height: 1;
                   vertical-align: middle;
                 }
                 span {
-                  width: 15px;
-                  height: 13px;
-                  margin: 0 5px 0 0;
+                  width: .9375rem;
+                  height: .8125rem;
+                  margin: 0 .3125rem 0 0;
                   &.live_tv {
                     background: url(../images/double_inner/live_tv.png)
                       no-repeat;
@@ -295,7 +295,7 @@ header {
                     background-size: cover;
                   }
                   &.live_game {
-                    width: 18px;
+                    width: 1.125rem;
                     background: url(../images/double_inner/live_game.png)
                       no-repeat;
                     background-position: center center;
@@ -303,7 +303,7 @@ header {
                   }
                 }
                 &:first-child {
-                  border-right: 2px solid #303030;
+                  border-right: .125rem solid #303030;
                   text-align: left;
                 }
                 &:last-child {
@@ -314,11 +314,11 @@ header {
           }
         }
         &.game_type {
-          height: 4.5vh;
-          line-height: 4.5vh;
+          height: 2.25rem;
+          line-height: 2.25rem;
           background: #fff;
-          padding: 0 8vw 0 5vw;
-          box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+          padding: 0 1.875rem 0 1.125rem;
+          box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, 0.1);
           .all_wrap{
             position: relative;
             overflow: hidden;
@@ -348,10 +348,10 @@ header {
             height: 100%;
             font-weight: bold;
             pointer-events: all;
-            line-height: 4.5vh;
+            line-height: 2.25rem;
            
             &.active,&:hover,&:active {
-              border-bottom: 2px solid #1b255c;
+              border-bottom: .125rem solid #1b255c;
               color: #1b255c;
             }
           }
@@ -361,7 +361,7 @@ header {
           transform: translate(-50%, -50%);
           top: 77%;
           left: 92%;
-          line-height: 1.7vh;
+          line-height: 0.875rem;
           pointer-events: all;
           white-space: nowrap;
           p,
@@ -372,17 +372,17 @@ header {
             background: url(../images/icon/refresh_w.png) no-repeat;
             background-position: center center;
             background-size: cover;
-            width: 18px;
-            height: 18px;
+            width: 1.125rem;
+            height: 1.125rem;
             line-height: 1;
             vertical-align: middle;
-            margin: 0 3px 0 0;
+            margin: 0 .1875rem 0 0;
           }
           p {
-            font-size: 1.7vh;
+            font-size: 0.875rem;
             font-weight: normal;
             color: #fff;
-            line-height: 18px;
+            line-height: 1.125rem;
             vertical-align: middle;
           }
         }
@@ -392,29 +392,28 @@ header {
 }
 main {
   &.double_inner_page {
-    margin-top: calc(32.5vh + 10px);
-    height: calc(100vh - 32.5vh - 8vh - 10px);
-    margin-bottom: 8vh;
+    margin-top: calc(16.5rem + .625rem);
+    height: calc(100vh - 16.5rem - 4.0625rem - .625rem);
+    margin-bottom: 4.0625rem;
     overflow-y: scroll;
     ul {
-      padding: 0 2vw;
+      padding: 0 .5rem;
       li {
         background: #fff;
         width: 100%;
-        margin: 0 0 10px 0;
-        // height: 5vh;
+        margin: 0 0 .625rem 0;
         div {
-          height: 38px;
-          margin: 0 8px 0 8px;
+          height: 2.375rem;
+          margin: 0 .5rem 0 .5rem;
           &.title {
             position: relative;
-            height: 38px;
-            line-height: 25px;
+            height: 2.375rem;
+            line-height: 1.5625rem;
             border-bottom: 1px solid #e0e3f3;
-            margin: 0 8px 5px 8px;
-            padding: 12px 0 0 0;
+            margin: 0 .5rem .3125rem .5rem;
+            padding: .75rem 0 0 0;
             p {
-              margin: 0 0 0 10px;
+              margin: 0 0 0 .625rem;
               line-height: 1;
               font-weight: bold;
               color: #1b255c;
@@ -423,8 +422,8 @@ main {
             }
             span {
               display: inline-block;
-              width: 15px;
-              height: 15px;
+              width: .9375rem;
+              height: .9375rem;
               background: url(../images/double_inner/pushpin.png) no-repeat;
               background-position: center center;
               background-size: cover;
@@ -436,9 +435,9 @@ main {
               transform: translateY(-50%);
               top: 50%;
               left: 0;
-              width: 4px;
-              height: 16px;
-              border-radius: 30px;
+              width: .25rem;
+              height: 1rem;
+              border-radius: 1.875rem;
               background-color: #b5c1ff;
             }
           }
@@ -446,8 +445,8 @@ main {
             height: auto;
             overflow: hidden;
             border-bottom: 1px solid #e0e3f3;
-            padding: 2px 0 4px;
-            margin: 0 8px 5px;
+            padding: .125rem 0 .25rem;
+            margin: 0 .5rem .3125rem;
             .col_3{
               margin: 0;
               width: 33.33%;
@@ -455,9 +454,9 @@ main {
               text-align: center;
               height: auto;
               color: #4c525d;
-              font-size: 15px;
+              font-size: .9375rem;
               font-weight: bold;
-              height: 30px;
+              height: 1.875rem;
               position: relative;
               p{
                 width: 100%;
@@ -465,7 +464,7 @@ main {
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);
-                line-height: 17px;
+                line-height: 1.0625rem;
                 text-align: center;
                     overflow:hidden;
                     white-space: normal;
@@ -477,8 +476,8 @@ main {
             }
           }
           &.content {
-            padding: 0 0 5px 0;
-            height: 45px;
+            padding: 0 0 .3125rem 0;
+            height: 2.8125rem;
             text-align: left;
             .left{
               float: left;
@@ -489,8 +488,8 @@ main {
             }
             &.form_2{
                 span{
-                    width: calc(100% / 2 - 3px);
-                    margin: 0 3px 0 0;
+                    width: calc(100% / 2 - .1875rem);
+                    margin: 0 .1875rem 0 0;
                     &:first-child{
                       float: left;
                     }
@@ -502,8 +501,8 @@ main {
             }
             &.form_3 {
               span {
-                width: calc(100% / 3 - 3px);
-                margin: 0 4.5px 0 0;
+                width: calc(100% / 3 - .1875rem);
+                margin: 0 .28125rem 0 0;
                 &:first-child{
                   float: left;
                 }
@@ -515,8 +514,8 @@ main {
             }
             &.form_4 {
               span {
-                width: calc(100% / 4 - 4px);
-                margin: 0 4px 0 0;
+                width: calc(100% / 4 - .25rem);
+                margin: 0 .25rem 0 0;
                 &:first-child{
                   float: left;
                 }
@@ -530,7 +529,7 @@ main {
               display: inline-block;
               height: 100%;
               background: #f6f8ff;
-              line-height: 40px;
+              line-height: 2.5rem;
               position: relative;
               //20200529_add
               &.box_1{
@@ -590,58 +589,18 @@ main {
                   }
                 }
               }
-              // &.between {
-              //   padding: 0 8px 0 16px;
-              //   white-space: nowrap;
-              // }
-              // &.center {
-              //   text-align: center;
-              // }
-              // &.between_2 {
-              //  padding: 0 4px 0;
-              //  white-space: nowrap;
-              // }
-              // &.center_right{
-              //     text-align: center;
-              //     p {
-              //       &:first-child {
-              //         margin: 0 0 0 5px;
-              //       }
-              //       &:last-child{
-              //           margin: 0 5px 0 0;
-              //           float: right;
-              //           line-height: 45px;
-              //       }
-              //     }
-              // }
+            
               p {
-                font-size: 14px;
-                line-height: 16px;
+                font-size: .875rem;
+                line-height: 1rem;
                 display: inline-block;
                 vertical-align: middle;
                 color: #4d515d;
-                // &.t_c{
-                //   text-align: center;
-                // }
-                
-                // &.fr {
-                //   float: right;
-                //   line-height: 40px;
-                // }
-                // &.fl{
-                //   float: left;
-                //   line-height: 40px;
-                // }
+   
                 &.gray{
                   color: #838ba0;
                 }
-                // &.mr{
-                //   margin: 0 8px 0 0;
-                // }
-                // &.more_small_size{
-                //   max-width: 60%;
-                //   font-size: 12px;
-                // }
+
               }
             }
           }

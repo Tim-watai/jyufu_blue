@@ -12,24 +12,24 @@ aside {
       display: block;
     }
     .box {
-      width: 80vw;
-      margin: 6vh 10vw 180px 10vw;
-      border-radius: 8px;
+      width: 18.75rem;
+      margin: 3rem auto 11.25rem auto;
+      border-radius: .25rem;
       overflow: hidden;
       .box_wrap {
         background: url(./../images/my/share_app/bg.jpg) no-repeat;
         background-size: cover;
         .title_wrap {
           text-align: center;
-          padding: 15px 0 0 0;
-          margin: 0 0 5px 0;
+          padding: .9375rem 0 0 0;
+          margin: 0 0 .3125rem 0;
           line-height: 1;
           h1 {
             display: inline-block;
             background: url(../images/logo.png) no-repeat;
             background-size: 100%;
-            width: 80px;
-            height: 25px;
+            width: 5rem;
+            height: 1.5625rem;
           }
         }
   
@@ -39,57 +39,57 @@ aside {
           background: #dbe3f8;
           margin: 0 auto;
           border-radius: 50px;
-          padding: 6px 3% 7px 3%;
-          line-height: 27px;
+          padding: .375rem 3% .4375rem 3%;
+          line-height: 1.6875rem;
           overflow: hidden;
           white-space: nowrap;
           div {
             background: url(../images/my/share_app/donates.png) no-repeat;
-            background-size: 683%;
-            width: 25px;
-            height: 27px;
+            background-size: 700%;
+            width: 1.5625rem;
+            height: 1.6875rem;
             display: inline-block;
-            line-height: 27px;
+            line-height: 1.6875rem;
             vertical-align: middle;
-            margin: 0 calc(((80vw * 0.84) - 175px) / 6) 0 0;
+            margin: 0 calc(((18.75rem * 0.84) - 10.9375rem) / 6) 0 0;
           }
           .i1 {
-            background-position: -0px 0;
+            background-position: 0 0;
           }
           .i2 {
-            background-position: -25px 0;
+            background-position: -1.5625rem 0;
           }
           .i3 {
-            background-position: -49px 0;
+            background-position: -3.125rem 0;
           }
           .i4 {
-            background-position: -74px 0;
+            background-position: -4.6875rem 0;
           }
           .i5 {
-            background-position: -98px 0;
+            background-position: -6.25rem 0;
           }
           .i6 {
-            background-position: -122px 0;
+            background-position: -7.8125rem 0;
           }
           .i7 {
-            background-position: -147px 0;
+            background-position: -9.375rem 0;
           }
         }
         .donate_text_wrap {
           line-height: 1;
           text-align: center;
-          padding: 5px 0 5px 0;
+          padding: .3125rem 0 .3125rem 0;
           p {
             color: #838ba0;
             display: inline-block;
             position: relative;
-            font-size: 15px;
+            font-size: .9375rem;
             &:before {
               content: "";
               position: absolute;
               width: 110%;
-              height: 1.5px;
-              left: calc(100% + 8px);
+              height: 0.09375rem;
+              left: calc(100% + .25rem);
               top: 50%;
               background: linear-gradient(
                 to right,
@@ -104,8 +104,8 @@ aside {
               content: "";
               position: absolute;
               width: 110%;
-              height: 1.5px;
-              right: calc(100% + 8px);
+              height: 0.09375rem;
+              right: calc(100% + .25rem);
               top: 50%;
               background: linear-gradient(to right, transparent 0%, #838ba0 100%);
               display: inline-block;
@@ -120,40 +120,40 @@ aside {
           width: 80%;
           margin: 0 auto;
           line-height: 1;
-          padding: 5px 0 5px 6vw;
-          line-height: 15px;
+          padding: .3125rem 0 .3125rem 1.375rem;
+          line-height: .9375rem;
           .search_icon {
             background: url(../images/my/share_app/share_app_search.png) no-repeat;
             background-size: 100%;
-            width: 15px;
-            height: 15px;
+            width: .9375rem;
+            height: .9375rem;
             display: inline-block;
             line-height: 1;
             vertical-align: bottom;
-            margin: 0 3vw 0 0px;
+            margin: 0 .75rem 0 0;
           }
           p {
             display: inline-block;
             vertical-align: bottom;
-            line-height: 15px;
+            line-height: .9375rem;
           }
         }
         .img_wrap {
           text-align: center;
-          margin: 4px 0 0 0;
-          padding: 0 0 8px 0;
+          margin: .25rem 0 0 0;
+          padding: 0 0 .25rem 0;
           .phone_img {
             background: url(../images/my/share_app/phone.png) no-repeat;
             background-size: 100%;
-            width: 160px;
-            height: 180px;
+            width: 10rem;
+            height: 11.25rem;
             margin: 0 auto;
           }
           .code_img {
             background: url(../images/my/share_app/qrcode.png) no-repeat;
             background-size: 100%;
-            width: 100px;
-            height: 100px;
+            width: 6.25rem;
+            height: 6.25rem;
             margin: 0 auto;
           }
         }
@@ -162,14 +162,14 @@ aside {
         background: #fff;
         text-align: center;
         .footer_pack {
-          line-height: 16px;
-          padding: 8px 0 8px 0;
+          line-height: 1rem;
+          padding: .25rem 0 .25rem 0;
         }
         .check_icon {
           background: url(../images/my/share_app/check.png) no-repeat;
           background-size: 100%;
-          width: 16px;
-          height: 16px;
+          width: 1rem;
+          height: 1rem;
           display: inline-block;
           vertical-align: bottom;
         }
@@ -177,7 +177,7 @@ aside {
           color: #7685d5;
           display: inline-block;
           vertical-align: middle;
-          font-size: 12px;
+          font-size: .75rem;
         }
       }
     }
@@ -188,38 +188,38 @@ aside {
       .btn_group {
         background: #f7f7f7;
 
-        padding: 22px 0 22px 0;
+        padding: 1.375rem 0 1.375rem 0;
         .wrap {
           text-align: center;
-          margin: 0 0 0 16px;
+          margin: 0 0 0 1rem;
           display: inline-block;
           .c_wrap {
             display: inline-block;
             text-align: center;
             background: #fff;
-            border-radius: 8px;
-            padding: 10px;
+            border-radius: .25rem;
+            padding: .625rem;
             div {
               background: url(../images/my/share_app/f_btns.png) no-repeat;
-              background-size: 283%;
-              width: 35px;
-              height: 35px;
+              background-size: 300%;
+              width: 2.1875rem;
+              height: 2.1875rem;
               &.c1 {
                 background-position: 0 0;
               }
               &.c2 {
-                background-position: -31px 0;
+                background-position: -2.1875rem 0;
               }
               &.c3 {
-                  background-position: -64px 0;
+                  background-position: -4.375rem 0;
                 }
             }
           }
           p {
             line-height: 1;
-            font-size: 13px;
+            font-size: .8125rem;
             color: #838ba0;
-            padding: 8px 0 0 0;
+            padding: .25rem 0 0 0;
           }
         }
       }
@@ -229,13 +229,13 @@ aside {
               background: #fff;
               border: none;
               padding: 0;
-              padding: 10px 0 10px 0;
+              padding: .625rem 0 .625rem 0;
               text-align: center;
               p{
                   display: inline-block;
                   line-height: 1;
                   color: #4d515d;
-                  font-size: 20px;
+                  font-size: 1.25rem;
               }
           }
    

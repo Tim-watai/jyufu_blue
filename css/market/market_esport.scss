@@ -13,7 +13,7 @@ main{
                                 &.num_group{
                                     div{
                                         &.esport_w.esport_w.esport_w{
-                                            width: calc(50% - 10vw);
+                                            width: calc(50% - 2.375rem);
                                             margin: 0;
                                             span{
                                                 margin: 5px 0 5px 0;
@@ -37,9 +37,9 @@ main{
                                         &.point_box{
                                             span{
                                                 &.counter{
-                                                    height: 14vh;
+                                                    height: 7.625rem;
                                                     div{ 
-                                                        line-height: calc(14vh / 3);
+                                                        line-height: calc(7.625rem / 3);
                                                         p,span{
                                                             line-height: 1;
                                                             vertical-align: middle;
@@ -47,14 +47,14 @@ main{
                                                     }
                                                 }
                                                 &.num_group{
-                                                    height: 14vh;
+                                                    height: 7.625rem;
                                                     span{
                                                         &.two_side{
                                                             div{
-                                                                height: calc(14vh / 3 - 3px);
+                                                                height: calc(7.625rem / 3 - 3px);
                                                                 p{
-                                                                    font-size: 1.2vh;
-                                                                    margin: 0 0 0.5vh 0;
+                                                                    font-size: .625rem;
+                                                                    margin: 0 0 .25rem 0;
                                                                 }
                                                             }
                                                         }
