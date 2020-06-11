@@ -2,9 +2,9 @@ aside {
   &.teach {
     .content {
       &.teach_bs {
-        height: calc(100vh - (13.1vh + 42px));
+        height: calc(100vh - (6.625rem + 2.625rem));
         overflow-y: scroll;
-        padding: 0 0 100px 0;
+        padding: 0 0 6.25rem 0;
         .card {
           .vs_area {
             .wrap {
@@ -12,8 +12,8 @@ aside {
             }
           }
           .question_wrap {
-            padding: 0 15px 0 15px;
-            margin: 20px 0 0 0;
+            padding: 0 .9375rem 0 .9375rem;
+            margin: 1.25rem 0 0 0;
             .question {
               color: #4d515d;
               div {
@@ -21,65 +21,65 @@ aside {
 
                 &.blue {
                   color: #4d61c6;
-                  font-size: 20px;
+                  font-size: 1.25rem;
                 }
               }
               i{
                 background: url(../images/teach/cs.png) no-repeat;
                 display: inline-block;
                 background-size: 400%;
-                width: 15px;
-                height: 15px;
+                width: .9375rem;
+                height: .9375rem;
                 &.icon_1 {    
                   background-position: 0 0;
-                  margin: 0 5px 0 5px;
+                  margin: 0 .3125rem 0 .3125rem;
                  
                 }
                 &.icon_2 {
-                  background-position: -15px 0;
+                  background-position: -.9375rem 0;
                  
-                  margin: 0 5px 0 5px;
+                  margin: 0 .3125rem 0 .3125rem;
                 }
                 &.icon_3 {
-                  background-position: -30px 0;
+                  background-position: -1.875rem 0;
                 
-                  margin: 0 5px 0 5px;
+                  margin: 0 .3125rem 0 .3125rem;
                 }
                 &.icon_4 {
                   background-position: -45x 0;
                  
-                  margin: 0 5px 0 5px;
+                  margin: 0 .3125rem 0 .3125rem;
                 }
               }
               span {
                 &.type {
-                  font-size: 12px;
+                  font-size: .75rem;
                   line-height: 1;
                   display: inline-block;
                   vertical-align: text-bottom;
                   background: #7b8bd7;
                   color: #fff;
-                  padding: 2px 3px 2px 3px;
-                  border-radius: 3px;
+                  padding: .125rem .1875rem .125rem .1875rem;
+                  border-radius: .1875rem;
                 }
               }
             }
             .choice_wrap {
-              margin: 20px 0 0 0;
+              margin: 1.25rem 0 0 0;
               .choice {
-                line-height: 55px;
+                line-height: 3.4375rem;
                 &:first-child {
-                  margin: 0 0 10px 0;
+                  margin: 0 0 .625rem 0;
                 }
                 div {
                   line-height: 1;
                   display: inline-block;
                   &.option {
                     vertical-align: middle;
-                    margin: 0 10px 0 0;
+                    margin: 0 .625rem 0 0;
                     color: #838ba0;
-                    width: 16px;
-                    height: 16px;
+                    width: 1rem;
+                    height: 1rem;
                     position: relative;
                     &.a {
                       &:before {
@@ -95,17 +95,17 @@ aside {
                     }
                     &.fail {
                       background: #f30d0d;
-                      width: 20px;
-                      height: 20px;
-                      border-radius: 100px;
+                      width: 1.25rem;
+                      height: 1.25rem;
+                      border-radius: 6.25rem;
                       &:before {
                         content: "";
                         position: absolute;
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%) rotate(45deg);
-                        height: 15px;
-                        width: 2px;
+                        height: .9375rem;
+                        width: .125rem;
                         background: #fff;
                       }
                       &:after {
@@ -114,26 +114,26 @@ aside {
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%) rotate(-45deg);
-                        height: 15px;
-                        width: 2px;
+                        height: .9375rem;
+                        width: .125rem;
                         background: #fff;
                       }
                     }
                     &.success {
                       background: #429cff;
-                      width: 20px;
-                      height: 20px;
-                      border-radius: 100px;
+                      width: 1.25rem;
+                      height: 1.25rem;
+                      border-radius: 6.25rem;
                       &:before {
                         content: "";
                         position: absolute;
                         top: 45%;
                         left: 50%;
                         transform: translate(-50%, -50%) rotate(45deg);
-                        border-right: 2px solid #fff;
-                        border-bottom: 2px solid #fff;
-                        height: 12px;
-                        width: 6px;
+                        border-right: .125rem solid #fff;
+                        border-bottom: .125rem solid #fff;
+                        height: .75rem;
+                        width: .375rem;
                         background: transparent;
                       }
                     }
@@ -141,8 +141,8 @@ aside {
                   &.c_content {
                     vertical-align: middle;
                     background: #ebf4fe;
-                    padding: 10px 40px 10px 40px;
-                    border-radius: 5px;
+                    padding: .625rem 2.5rem .625rem 2.5rem;
+                    border-radius: .3125rem;
                     text-align: center;
                     &:hover,
                     &:active,
@@ -153,7 +153,7 @@ aside {
                       position: relative;
                       &:first-child {
                         color: #838ba0;
-                        margin: 0 0 3px 0;
+                        margin: 0 0 .1875rem 0;
                       }
                       &.red_up {
                         color: #f30d0d;
@@ -163,12 +163,12 @@ aside {
                           width: 0;
                           height: 0;
                           border-style: solid;
-                          border-width: 0 5px 5px 5px;
+                          border-width: 0 .3125rem .3125rem .3125rem;
                           border-color: transparent transparent #f30d0d
                             transparent;
                           display: inline-block;
                           vertical-align: middle;
-                          margin: 0 5px 0 -5px;
+                          margin: 0 .3125rem 0 -.3125rem;
                         }
                       }
                       &.green_down {
@@ -179,12 +179,12 @@ aside {
                           width: 0;
                           height: 0;
                           border-style: solid;
-                          border-width: 5px 5px 0px 5px;
+                          border-width: .3125rem .3125rem 0 .3125rem;
                           border-color: #04d052 transparent transparent
                             transparent;
                           display: inline-block;
                           vertical-align: middle;
-                          margin: 0 5px 0 -5px;
+                          margin: 0 .3125rem 0 -.3125rem;
                         }
                       }
                     }
@@ -193,8 +193,8 @@ aside {
               }
             }
             .result_wrap {
-              margin: 30px 0 0 0;
-              padding: 15px 0 0 0;
+              margin: 1.875rem 0 0 0;
+              padding: .9375rem 0 0 0;
               position: relative;
               &:before{
                 content: '';
@@ -211,7 +211,7 @@ aside {
               }
               .fail {
                 color: #f30d0d;
-                line-height: 20px;
+                line-height: 1.25rem;
                 display: none;
                 &.active{
                   display: block;
@@ -219,12 +219,12 @@ aside {
                 .icon {
                   background: url(../images/teach/results.png) no-repeat;
                   background-size: 200%;
-                  background-position: -20px 0;
-                  width: 20px;
-                  height: 20px;
+                  background-position: -1.25rem 0;
+                  width: 1.25rem;
+                  height: 1.25rem;
                   line-height: 1;
                   vertical-align: middle;
-                  margin: 0 5px 0 0;
+                  margin: 0 .3125rem 0 0;
                 }
               }
               .success {
@@ -237,16 +237,16 @@ aside {
                   background: url(../images/teach/results.png) no-repeat;
                   background-size: 200%;
                   background-position: 0 0;
-                  width: 20px;
-                  height: 20px;
+                  width: 1.25rem;
+                  height: 1.25rem;
                   line-height: 1;
                   vertical-align: middle;
-                  margin: 0 5px 0 0;
+                  margin: 0 .3125rem 0 0;
                 }
               }
               .answer{
                 color: #4d515d;
-                margin: 20px 0 0 0;
+                margin: 1.25rem 0 0 0;
                 display: none;
                 &.active{
                   display: block;
@@ -263,20 +263,20 @@ aside {
           }
 
           .button_wrap {
-            margin: 30px 0 0 0;
+            margin: 1.875rem 0 0 0;
             display: none;
             &.active{
               display: block;
             }
             button {
               width: 100%;
-              border-radius: 8px;
+              border-radius: .5rem;
               line-height: 1;
-              padding: 15px 0 15px 0;
-              font-size: 20px;
+              padding: .9375rem 0 .9375rem 0;
+              font-size: 1.25rem;
               font-weight: bold;
               position: relative;
-              margin: 0 0 20px 0;
+              margin: 0 0 1.25rem 0;
               &:first-child {
               }
               &.deep_blue {
@@ -297,15 +297,15 @@ aside {
                 &:after {
                   position: relative;
                   content: "";
-                  width: 15px;
-                  height: 15px;
+                  width: .9375rem;
+                  height: .9375rem;
                   display: inline-block;
-                  line-height: 15px;
+                  line-height: .9375rem;
                   vertical-align: baseline;
                   background: url(../images/icon/arrow_double_blue.png) no-repeat;
                   background-size: 100%;
                   background-position: center;
-                  margin: 0 -8px 0 8px;
+                  margin: 0 -.5rem 0 .5rem;
                 }
               }
             }
