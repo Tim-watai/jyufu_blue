@@ -1,24 +1,24 @@
 aside {
   &.teach {
-    padding: 0 0 100px 0;
+    padding: 0 0 6.25rem 0;
     width: 100vw;
-    height: calc(100vh - 5vh - 10px);
+    height: calc(100vh - 2.5rem - .625rem);
     background: #f7f7f7;
     z-index: 0;
     display: inline-block;
     position: fixed;
     .title {
-      padding: calc(5vh + 10px) 50px 0 50px;
+      padding: calc(2.5rem + .625rem) 3.125rem 0 3.125rem;
       background: #fff;
-      font-size: 18px;
-      box-shadow: 0px 1px 3px 1px #e7e7e7;
+      font-size: 1.125rem;
+      box-shadow: 0px 1px .1875rem 1px #e7e7e7;
       div {
         color: #838ba0;
         display: inline-block;
         line-height: 40px;
-        width: 80px;
+        width: 5rem;
         text-align: center;
-        border-bottom: 2px solid transparent;
+        border-bottom: .125rem solid transparent;
         position: relative;
         &:last-child {
           float: right;
@@ -27,7 +27,7 @@ aside {
         &:hover,
         &.hover {
           color: #4d515d;
-          border-bottom: 2px solid #7c87bc;
+          border-bottom: .125rem solid #7c87bc;
         }
       }
     }
@@ -35,15 +35,15 @@ aside {
       overflow-x: scroll;
       background: #fff;
       white-space: nowrap;
-      padding: 10px calc(3vw + 10px) 10px calc(3vw + 10px);
+      padding: .625rem calc(.6875rem + .625rem) .625rem calc(.6875rem + .625rem);
       border-bottom: 1px solid #e0e3f3;
       div {
         display: inline-block;
         color: #838ba0;
         text-align: center;
-        width: 80px;
-        line-height: 35px;
-        border-radius: 18px;
+        width: 5rem;
+        line-height: 2.1875rem;
+        border-radius: 1.125rem;
         &.active,
         &:hover,
         &:active {
@@ -53,30 +53,30 @@ aside {
       }
     }
     .content {
-      height: calc(100vh - (13.1vh + 56px + 42px));
+      height: calc(100vh - (6.625rem + 3.5rem + 2.625rem));
       overflow-y: scroll;
-      padding: 0 0 100px 0;
+      padding: 0 0 6.25rem 0;
       .card {
         background: #fff;
-        padding: 0 3vw 50px 3vw;
+        padding: 0 .6875rem 3.125rem .6875rem;
         &:first-child {
-          margin: 10px 0 0 0;
+          margin: .625rem 0 0 0;
         }
         h1 {
           color: #4d515d;
-          padding: 15px 0 15px 12px;
+          padding: .9375rem 0 .9375rem .75rem;
           border-bottom: 1px solid #e0e3f3;
           position: relative;
-          line-height: 24px;
+          line-height: 1.5rem;
           white-space: nowrap;
           p{
             display: inline-block;
             color: #838ba0;
-            font-size: 13px;
+            font-size: .8125rem;
             font-weight: lighter;
             line-height: 1;
             vertical-align: middle;
-            margin: 0 0 0 5px;
+            margin: 0 0 0 .3125rem;
           }
           &:before {
             position: absolute;
@@ -84,23 +84,23 @@ aside {
             top: 50%;
             transform: translateY(-50%);
             content: "";
-            width: 4px;
-            height: 17px;
+            width: .25rem;
+            height: 1.0625rem;
             background: #b5c1ff;
             border-radius: 8px;
           }
         }
         .vs_area {
           position: relative;
-          padding: 30px 35px 0 35px;
+          padding: 1.875rem 2.1875rem 0 2.1875rem;
           overflow: hidden;
-          height: 100px;
+          height: 6.25rem;
           .wrap {
-            line-height: 70px;
+            line-height: 4.375rem;
             &:first-child {
               float: left;
               .name {
-                margin: 0 10px 0 0;
+                margin: 0 .625rem 0 0;
                 display: inline-block;
                 vertical-align: top;
               }
@@ -108,7 +108,7 @@ aside {
             &:last-child {
               float: right;
               .name {
-                margin: 0 0 0 10px;
+                margin: 0 0 0 .625rem;
                 display: inline-block;
                 vertical-align: top;
               }
@@ -120,13 +120,13 @@ aside {
               p {
                 &:first-child {
                   font-weight: bold;
-                  padding: 0 0 5px 0;
+                  padding: 0 0 .3125rem 0;
                 }
               }
             }
             span{
-              width: 42px;
-              height: 38px;
+              width: 2.625rem;
+              height: 2.375rem;
             }
             .icon {
               background: url(../images/teach/confrontation.png) no-repeat;
@@ -138,7 +138,7 @@ aside {
             .icon_o {
               background: url(../images/teach/confrontation.png) no-repeat;
               background-size: 200%;
-              background-position: -42px 0;
+              background-position: -2.625rem 0;
               vertical-align: top;
               display: inline-block;
             }
@@ -146,18 +146,18 @@ aside {
           .vs_mid_area {
             position: absolute;
             left: 50%;
-            top: 30px;
+            top: 1.875rem;
             transform: translate(-50%, 0);
             text-align: center;
             p {
               &:first-child {
                 color: #838ba0;
                 font-family: "微軟正黑體";
-                font-size: 20px;
+                font-size: 1.25rem;
               }
               &:last-child {
                 color: #556de7;
-                font-size: 14px;
+                font-size: .875rem;
               }
             }
           }
@@ -167,25 +167,25 @@ aside {
             text-align: center;
             font-weight: bold;
             color: #4a5ec5;
-            padding: 30px 0 0 0;
+            padding: 1.875rem 0 0 0;
           }
         }
         .bingo_area {
           position: relative;
           overflow: hidden;
-          height: 80px;
-          line-height: 80px;
-          margin: 20px 0 0 0;
+          height: 5rem;
+          line-height: 5rem;
+          margin: 1.25rem 0 0 0;
           .bingo_bot {
-            border-radius: 50px;
-            padding: 6px 0 6px 0;
+            border-radius: 3.125rem;
+            padding: .375rem 0 .375rem 0;
             overflow: hidden;
-            line-height: 70px;
-            height: 70px;
+            line-height: 4.375rem;
+            height: 4.375rem;
             vertical-align: middle;
             display: inline-block;
             width: 100%;
-            font-size: 14px;
+            font-size: .875rem;
             background: linear-gradient(
               to right,
               #e7eefd 0%,
@@ -195,10 +195,10 @@ aside {
             );
           }
           .wrap {
-            line-height: 58px;
+            line-height: 3.625rem;
             .name {
               display: inline-block;
-              line-height: 16px;
+              line-height: 1rem;
               text-align: center;
               vertical-align: middle;
               p {
@@ -207,7 +207,7 @@ aside {
                 }
                 &:first-child {
                   color: #838ba0;
-                  margin: 0 0 3px 0;
+                  margin: 0 0 .1875rem 0;
                 }
                 &:last-child {
                   font-weight: bold;
@@ -216,8 +216,8 @@ aside {
               }
             }
             .icon {
-              width: 25px;
-              height: 25px;
+              width: 1.5625rem;
+              height: 1.5625rem;
               display: inline-block;
               vertical-align: middle;
               &.active {
@@ -228,21 +228,21 @@ aside {
               &.half {
                 background: url(../images/teach/golds.png) no-repeat;
                 background-size: 200%;
-                background-position: -25px 0;
+                background-position: -1.5625rem 0;
               }
             }
             &:first-child {
               float: left;
-              padding: 0 0 0 10px;
+              padding: 0 0 0 .625rem;
               .name {
-                margin: 0 0 0 5px;
+                margin: 0 0 0 .3125rem;
               }
             }
             &:last-child {
               float: right;
-              padding: 0 10px 0 0;
+              padding: 0 .625rem 0 0;
               .name {
-                margin: 0 5px 0 0;
+                margin: 0 .3125rem 0 0;
               }
             }
           }
@@ -254,14 +254,13 @@ aside {
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             display: inline-block;
-            border-radius: 100px;
+            border-radius: 6.25rem;
             text-align: center;
             background: #e9f5ff;
             text-align: center;
-            width: 80px;
-            height: 80px;
-            line-height: 80px;
-            // padding: 15px 0 0;
+            width: 5rem;
+            height: 5rem;
+            line-height: 5rem;
             .wrap_p{
               line-height: 1;
               display: inline-block;
@@ -269,20 +268,20 @@ aside {
             }
             p {
               &.point {
-                font-size: 24px;
+                font-size: 1.5rem;
                 color: #4a5ec5;
-                padding: 5px 0 2px 0;
-                line-height: 24px;
+                padding: .3125rem 0 .125rem 0;
+                line-height: 1.5rem;
               }
               &:first-child {
                 color: #4d515d;
-                font-size: 15px;
-                line-height: 15px;
+                font-size: .9375rem;
+                line-height: .9375rem;
               }
               &:last-child {
-                font-size: 12px;
+                font-size: .75rem;
                 color: #838ba0;
-                line-height: 12px;
+                line-height: .75rem;
               }
             }
           }

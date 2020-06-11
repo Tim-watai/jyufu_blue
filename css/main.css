@@ -5711,9 +5711,9 @@ aside.my_windows_help_inner {
           height: 6.125rem; }
 
 aside.my_windows_mb_transfer {
-  padding: calc(2.5rem + 10px) 0 100px 0;
+  padding: calc(2.5rem + .625rem) 0 100px 0;
   width: 100vw;
-  height: calc(100vh - 2.5rem - 10px);
+  height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
@@ -5722,30 +5722,30 @@ aside.my_windows_mb_transfer {
   aside.my_windows_mb_transfer div.content {
     background: #fff;
     width: 100vw;
-    padding: 0 3vw 0 3vw; }
+    padding: 0 .6875rem 0 .6875rem; }
     aside.my_windows_mb_transfer div.content div {
-      border-bottom: 1px solid #e0e3f3; }
+      border-bottom: 0.0625rem solid #e0e3f3; }
       aside.my_windows_mb_transfer div.content div.title {
-        height: 44px;
-        line-height: 43px; }
+        height: 4.25rem;
+        line-height: 2.6875rem; }
         aside.my_windows_mb_transfer div.content div.title p {
           display: inline-block; }
           aside.my_windows_mb_transfer div.content div.title p.money_total {
             font-weight: bold;
             color: #4d515d;
-            font-size: 16px; }
+            font-size: 1rem; }
             aside.my_windows_mb_transfer div.content div.title p.money_total span {
               display: inline-block;
-              width: 4vw;
-              height: 4vw;
+              width: .9375rem;
+              height: .9375rem;
               background: url(../images/icon/refresh_b.png) no-repeat;
               background-size: 100%;
               background-position: center;
-              margin: 0 0 0 1vw; }
+              margin: 0 0 0 .25rem; }
           aside.my_windows_mb_transfer div.content div.title p.recycle {
             float: right;
             color: #556de7;
-            font-size: 16px; }
+            font-size: 1rem; }
       aside.my_windows_mb_transfer div.content div.money_type {
         white-space: nowrap;
         position: relative; }
@@ -5757,48 +5757,48 @@ aside.my_windows_mb_transfer {
           -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-          width: 1px;
-          height: 7vw;
+          width: 0.0625rem;
+          height: 1.625rem;
           background: #e0e3f3; }
         aside.my_windows_mb_transfer div.content div.money_type span {
           display: inline-block; }
           aside.my_windows_mb_transfer div.content div.money_type span.center, aside.my_windows_mb_transfer div.content div.money_type span.lock {
             width: 50%;
             text-align: center;
-            margin: 10px 0 10px 0; }
+            margin: .625rem 0 .625rem 0; }
           aside.my_windows_mb_transfer div.content div.money_type span.center p.title {
             display: inline-block;
-            font-size: 14px;
+            font-size: 1.25rem;
             color: #4d515d; }
             aside.my_windows_mb_transfer div.content div.money_type span.center p.title span {
               display: inline-block;
-              width: 4vw;
-              height: 4vw;
+              width: .9375rem;
+              height: .9375rem;
               background: url(../images/icon/mb_w.png) no-repeat;
               background-size: 100%;
               background-position: center;
-              margin: 0 1vw 0 0; }
+              margin: 0 .25rem 0 0; }
           aside.my_windows_mb_transfer div.content div.money_type span.center p.balance {
-            font-size: 6vw;
+            font-size: 1.375rem;
             line-height: 1;
-            margin: 7px 0 0 0;
+            margin: .4375rem 0 0 0;
             color: #556de7; }
           aside.my_windows_mb_transfer div.content div.money_type span.lock p.title {
             display: inline-block;
-            font-size: 14px;
+            font-size: 1.25rem;
             color: #4d515d; }
             aside.my_windows_mb_transfer div.content div.money_type span.lock p.title span {
               display: inline-block;
-              width: 4vw;
-              height: 4vw;
+              width: .9375rem;
+              height: .9375rem;
               background: url(../images/icon/mb_w.png) no-repeat;
               background-size: 100%;
               background-position: center;
-              margin: 0 1vw 0 0; }
+              margin: 0 .25rem 0 0; }
           aside.my_windows_mb_transfer div.content div.money_type span.lock p.balance {
-            font-size: 6vw;
+            font-size: 1.375rem;
             line-height: 1;
-            margin: 2vw 0 0 0;
+            margin: .46875rem 0 0 0;
             color: #556de7; }
       aside.my_windows_mb_transfer div.content div.groups {
         white-space: nowrap;
@@ -5814,8 +5814,8 @@ aside.my_windows_mb_transfer {
             -webkit-transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
             transform: translate(0%, -50%);
-            width: 1px;
-            height: 7vw;
+            width: 0.0625rem;
+            height: 1.625rem;
             background: #e0e3f3; }
           aside.my_windows_mb_transfer div.content div.groups div.line.last.last span p:first-child {
             color: #838ba0; }
@@ -5823,17 +5823,17 @@ aside.my_windows_mb_transfer {
             background: url(../images/icon/double_arrow_gray.png) no-repeat;
             background-size: 100%;
             background-position: center;
-            width: 3.5vw;
-            height: 3.5vw;
-            margin: 2vw 0 0 0;
+            width: .8125rem;
+            height: .8125rem;
+            margin: .46875rem 0 0 0;
             margin: 0 auto; }
         aside.my_windows_mb_transfer div.content div.groups div.line span {
           width: 25%;
           text-align: center;
           display: inline-block;
-          margin: 3vw 0 3vw 0;
+          margin: .6875rem 0 .6875rem 0;
           position: relative;
-          margin-right: -4px; }
+          margin-right: -.25rem; }
           aside.my_windows_mb_transfer div.content div.groups div.line span.active p em {
             position: absolute;
             top: 30%;
@@ -5841,8 +5841,8 @@ aside.my_windows_mb_transfer {
             -ms-transform: translateY(-50%);
             transform: translate(100%, -50%);
             right: 0;
-            width: 3.5vw;
-            height: 3.5vw;
+            width: .8125rem;
+            height: .8125rem;
             background: url(../images/icon/information.png) no-repeat;
             background-size: 100%;
             background-position: center;
@@ -5850,7 +5850,7 @@ aside.my_windows_mb_transfer {
             aside.my_windows_mb_transfer div.content div.groups div.line span.active p em:hover:before {
               content: "";
               position: absolute;
-              top: -2.5vw;
+              top: -.5625rem;
               left: 50%;
               -webkit-transform: translateX(-50%);
               -ms-transform: translateX(-50%);
@@ -5858,23 +5858,23 @@ aside.my_windows_mb_transfer {
               width: 0;
               height: 0;
               border-style: solid;
-              border-width: 2vw 2vw 0 2vw;
+              border-width: .46875rem .46875rem 0 .46875rem;
               border-color: #95969a transparent transparent transparent; }
             aside.my_windows_mb_transfer div.content div.groups div.line span.active p em:hover:after {
               content: "LB彩票和PG電子的遊戲錢包";
               position: absolute;
-              top: -7vw;
+              top: -1.625rem;
               left: 50%;
               -webkit-transform: translateX(-50%);
               -ms-transform: translateX(-50%);
               transform: translateX(-50%);
-              line-height: 3vw;
-              height: 5vw;
-              padding: 1vw;
-              border-radius: 8px;
+              line-height: .6875rem;
+              height: 1.125rem;
+              padding: .25rem;
+              border-radius: .5rem;
               background: #95969a;
               color: #fff;
-              font-size: 3vw;
+              font-size: .6875rem;
               display: inline-block; }
           aside.my_windows_mb_transfer div.content div.groups div.line span:last-child:before {
             width: 0;
@@ -5888,85 +5888,86 @@ aside.my_windows_mb_transfer {
             -webkit-transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
             transform: translate(0%, -50%);
-            width: 1px;
-            height: 7vw;
+            width: 0.0625rem;
+            height: 1.625rem;
             background: #e0e3f3; }
           aside.my_windows_mb_transfer div.content div.groups div.line span p {
             line-height: 1; }
             aside.my_windows_mb_transfer div.content div.groups div.line span p:first-child {
               color: #4d515d;
-              font-size: 3.5vw;
+              font-size: .8125rem;
               position: relative;
               display: inline-block; }
             aside.my_windows_mb_transfer div.content div.groups div.line span p:last-child {
               color: #838ba0;
-              font-size: 4vw;
-              margin: 3vw 0 0 0; }
+              font-size: .9375rem;
+              margin: .6875rem 0 0 0; }
   aside.my_windows_mb_transfer div.transfer_area {
     margin: .75rem 0 0 0;
-    padding: 0 3vw;
+    padding: 0 .6875rem;
     background: #fff;
     position: relative; }
     aside.my_windows_mb_transfer div.transfer_area div.auto {
-      border-bottom: 1px solid #e0e3f3; }
+      border-bottom: 0.0625rem solid #e0e3f3; }
       aside.my_windows_mb_transfer div.transfer_area div.auto p.title_auto {
         font-weight: bold;
         color: #4d515d;
-        font-size: 16px;
-        line-height: 50px;
-        height: 50px;
-        letter-spacing: 0.5px;
+        font-size: 1rem;
+        line-height: 3.125rem;
+        height: 3.125rem;
+        letter-spacing: 0.3125rem;
         display: inline-block; }
       aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty {
         display: inline-block;
         float: right;
-        line-height: 50px; }
+        line-height: 3.125rem; }
         aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty div.check {
           display: inline-block;
-          height: 7vw;
-          line-height: 7vw;
+          height: 1.625rem;
+          line-height: 1.625rem;
           background: #737997;
           background: #adafbb;
           vertical-align: middle;
-          border-radius: 20px;
-          padding: 0 2px;
-          width: 13vw; }
+          border-radius: 1.25rem;
+          padding: 0 .125rem;
+          width: 3rem; }
           aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty div.check.active {
             background: #737997; }
             aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty div.check.active span.switch {
-              -webkit-transform: translateX(calc(13vw - 7vw));
-              -ms-transform: translateX(calc(13vw - 7vw));
-              transform: translateX(calc(13vw - 7vw)); }
+              -webkit-transform: translateX(calc(3rem - 1.625rem));
+              -ms-transform: translateX(calc(3rem - 1.625rem));
+              transform: translateX(calc(3rem - 1.625rem)); }
           aside.my_windows_mb_transfer div.transfer_area div.auto div.box_empty div.check span.switch {
             display: inline-block;
             position: relative;
-            top: 2px;
-            width: calc(7vw - 4px);
-            height: calc(7vw - 4px);
+            top: .125rem;
+            width: calc(1.625rem - .25rem);
+            height: calc(1.625rem - .25rem);
             background: #fff;
-            border-radius: 20px;
+            border-radius: 1.25rem;
             -webkit-transition: all 0.3s ease-in-out;
             -o-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out; }
     aside.my_windows_mb_transfer div.transfer_area div.box {
       line-height: 1;
-      padding: 8px 0;
-      width: 94vw; }
+      padding: .5rem 0;
+      width: 94vw;
+      margin: 0 auto; }
       aside.my_windows_mb_transfer div.transfer_area div.box p {
         color: #4d515d;
-        font-size: 15px;
+        font-size: .9375rem;
         font-weight: lighter;
-        padding: 9px 0 9px 0;
+        padding: .5625rem 0 .5625rem 0;
         display: inline-block; }
       aside.my_windows_mb_transfer div.transfer_area div.box .drow_box {
-        width: 60vw;
+        width: 14.0625rem;
         text-align: center;
-        border: 1px solid #b9bfdc;
-        border-radius: 5px;
+        border: 0.0625rem solid #b9bfdc;
+        border-radius: .3125rem;
         color: #4d515d;
-        font-size: 15px;
+        font-size: .9375rem;
         font-weight: lighter;
-        padding: 8px 0 8px 0;
+        padding: .5rem 0 .5rem 0;
         position: relative;
         float: right; }
         aside.my_windows_mb_transfer div.transfer_area div.box .drow_box:before {
@@ -5975,81 +5976,81 @@ aside.my_windows_mb_transfer {
           background-size: 100%;
           background-position: center;
           position: absolute;
-          top: 8px;
-          right: 3vw;
-          width: 6px;
-          height: 17px;
+          top: .5rem;
+          right: .6875rem;
+          width: .375rem;
+          height: 1.0625rem;
           -webkit-transform: rotate(90deg);
           -ms-transform: rotate(90deg);
           transform: rotate(90deg); }
     aside.my_windows_mb_transfer div.transfer_area div.input_area {
       line-height: 1;
-      padding: 8px 0; }
+      padding: .5rem 0; }
       aside.my_windows_mb_transfer div.transfer_area div.input_area input {
-        border: 1px solid #b9bfdc;
-        border-radius: 5px;
-        font-size: 16px;
+        border: 0.0625rem solid #b9bfdc;
+        border-radius: .3125rem;
+        font-size: 1rem;
         font-weight: lighter;
-        width: 65vw;
-        padding: 7px 0 7px 3vw;
+        width: 15.1875rem;
+        padding: .4375rem 0 .4375rem .6875rem;
         display: inline-block; }
       aside.my_windows_mb_transfer div.transfer_area div.input_area p {
-        padding: 9px 0 9px 0;
+        padding: .5625rem 0 .5625rem 0;
         display: inline-block;
         float: right; }
   aside.my_windows_mb_transfer button {
-    width: 70vw;
-    margin: 20px 15vw 0 15vw;
-    display: inline-block;
-    font-size: 16px;
+    width: 70%;
+    margin: 1.25rem auto 0 auto;
+    display: block;
+    font-size: 1rem;
     color: #fff;
     border: none;
     background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
     background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
     background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
-    border-radius: 8px;
-    padding: 10px 40px 10px 40px;
-    font-size: 18px;
+    border-radius: .5rem;
+    padding: .625rem 2.5rem .625rem 2.5rem;
+    font-size: 1.125rem;
     font-weight: bold;
     position: relative; }
 
 aside.jump_window.my_windows_mb_transfer_doing .windows {
-  width: 86vw;
-  margin: 150px auto 0 auto;
+  width: 86%;
+  margin: 9.375rem auto 0 auto;
   background: #fff;
-  border-radius: 8px; }
+  border-radius: .5rem; }
   aside.jump_window.my_windows_mb_transfer_doing .windows div.top_warp {
     background: #959dc5;
     color: #fff;
     text-align: center;
-    padding: 12px 0 7px 0;
-    border-radius: 8px 8px 0 0; }
+    padding: .75rem 0 .4375rem 0;
+    border-radius: .5rem .5rem 0 0; }
     aside.jump_window.my_windows_mb_transfer_doing .windows div.top_warp h1.title {
       font-weight: lighter;
-      font-size: 16px; }
+      font-size: 1rem; }
     aside.jump_window.my_windows_mb_transfer_doing .windows div.top_warp p {
-      font-size: 12px; }
+      font-size: .75rem; }
   aside.jump_window.my_windows_mb_transfer_doing .windows div.content {
-    padding: 16px 6vw 16px 6vw; }
+    padding: 1rem 1.375rem 1rem 1.375rem; }
     aside.jump_window.my_windows_mb_transfer_doing .windows div.content .box {
       line-height: 1;
-      margin: 0 0 20px 0; }
+      margin: 0 0 1.25rem 0; }
       aside.jump_window.my_windows_mb_transfer_doing .windows div.content .box p {
         color: #4d515d;
-        font-size: 17px;
+        font-size: 1.0625rem;
         font-weight: lighter;
-        padding: 9px 0 9px 0;
+        padding: .5625rem 0 .5625rem 0;
         display: inline-block; }
       aside.jump_window.my_windows_mb_transfer_doing .windows div.content .box .drow_box {
-        width: 60vw;
+        width: 14.0625rem;
         text-align: center;
-        border: 1px solid #b9bfdc;
-        border-radius: 5px;
+        border: 0.0625rem solid #b9bfdc;
+        border-radius: .3125rem;
         color: #4d515d;
-        font-size: 17px;
+        font-size: 1.0625rem;
         font-weight: lighter;
-        padding: 8px 0 8px 0;
+        padding: .5rem 0 .5rem 0;
         position: relative;
         float: right; }
         aside.jump_window.my_windows_mb_transfer_doing .windows div.content .box .drow_box:before {
@@ -6058,141 +6059,141 @@ aside.jump_window.my_windows_mb_transfer_doing .windows {
           background-size: 100%;
           background-position: center;
           position: absolute;
-          top: 8px;
-          right: 3vw;
-          width: 8px;
-          height: 17px;
+          top: .5rem;
+          right: .6875rem;
+          width: .5rem;
+          height: 1.0625rem;
           -webkit-transform: rotate(90deg);
           -ms-transform: rotate(90deg);
           transform: rotate(90deg); }
     aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area {
       line-height: 1;
-      margin: 0 0 20px 0; }
+      margin: 0 0 1.25rem 0; }
       aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area input {
-        border: 1px solid #b9bfdc;
-        border-radius: 5px;
-        font-size: 16px;
+        border: 0.0625rem solid #b9bfdc;
+        border-radius: .3125rem;
+        font-size: 1rem;
         font-weight: lighter;
-        width: 65vw;
-        padding: 7px 0 7px 3vw; }
+        width: 15.1875rem;
+        padding: .4375rem 0 .4375rem .6875rem; }
         aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area input::-webkit-input-placeholder {
           line-height: 1;
-          font-size: 16px;
+          font-size: 1rem;
           color: #838ba0;
-          padding: 9px 0 9px 0; }
+          padding: .5625rem 0 .5625rem 0; }
         aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area input:-ms-input-placeholder {
           line-height: 1;
-          font-size: 16px;
+          font-size: 1rem;
           color: #838ba0;
-          padding: 9px 0 9px 0; }
+          padding: .5625rem 0 .5625rem 0; }
         aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area input::-ms-input-placeholder {
           line-height: 1;
-          font-size: 16px;
+          font-size: 1rem;
           color: #838ba0;
-          padding: 9px 0 9px 0; }
+          padding: .5625rem 0 .5625rem 0; }
         aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area input::placeholder {
           line-height: 1;
-          font-size: 16px;
+          font-size: 1rem;
           color: #838ba0;
-          padding: 9px 0 9px 0; }
+          padding: .5625rem 0 .5625rem 0; }
       aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area p {
-        padding: 9px 0 9px 0;
+        padding: .5625rem 0 .5625rem 0;
         float: right;
         display: inline-block; }
     aside.jump_window.my_windows_mb_transfer_doing .windows div.content button {
       width: 100%;
       display: inline-block;
-      font-size: 16px;
+      font-size: 1rem;
       color: #fff;
       border: none;
       background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
       background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
       background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
       background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
-      border-radius: 8px;
-      padding: 10px 40px 10px 40px;
-      font-size: 18px;
+      border-radius: .5rem;
+      padding: .625rem 2.5rem .625rem 2.5rem;
+      font-size: 1.125rem;
       font-weight: bold;
       position: relative; }
 
 aside.jump_window.my_windwos_transfer_success .windows {
-  width: 88vw;
-  margin: 150px auto 0 auto;
+  width: 88%;
+  margin: 9.375rem auto 0 auto;
   background: #fff;
-  border-radius: 15px; }
+  border-radius: .9375rem; }
   aside.jump_window.my_windwos_transfer_success .windows div.top_warp {
     background: #959dc5;
     color: #fff;
     text-align: center;
-    padding: 12px 0 7px 0;
-    border-radius: 15px 15px 0 0; }
+    padding: .75rem 0 .4375rem 0;
+    border-radius: .9375rem .9375rem 0 0; }
     aside.jump_window.my_windwos_transfer_success .windows div.top_warp h1.title {
       font-weight: lighter;
-      font-size: 16px; }
+      font-size: 1rem; }
   aside.jump_window.my_windwos_transfer_success .windows div.content {
     color: #838ba0;
-    padding: 20px 30px 20px 30px;
-    border-bottom: 1px solid #e0e3f3;
+    padding: 1.25rem 1.875rem 1.25rem 1.875rem;
+    border-bottom: 0.0625rem solid #e0e3f3;
     text-align: left; }
     aside.jump_window.my_windwos_transfer_success .windows div.content p {
       display: inline-block; }
       aside.jump_window.my_windwos_transfer_success .windows div.content p.blue {
         color: #556de7;
-        margin: 0 2px 0 2px; }
+        margin: 0 .125rem 0 .125rem; }
       aside.jump_window.my_windwos_transfer_success .windows div.content p.red {
         color: #d56471; }
   aside.jump_window.my_windwos_transfer_success .windows div.button_area {
     white-space: nowrap; }
     aside.jump_window.my_windwos_transfer_success .windows div.button_area button {
-      border-radius: 0 0 15px 15px;
+      border-radius: 0 0 .9375rem .9375rem;
       width: 50%;
       background: #fff;
       border: none;
-      padding: 10px 0 10px 0px;
-      font-size: 16px;
+      padding: .625rem 0 .625rem 0;
+      font-size: 1rem;
       color: #4d515d;
       position: relative;
       display: inline-block; }
       aside.jump_window.my_windwos_transfer_success .windows div.button_area button:first-child {
-        letter-spacing: 5px;
-        margin: 0 -4px 0 0; }
+        letter-spacing: .3125rem;
+        margin: 0 -.25rem 0 0; }
         aside.jump_window.my_windwos_transfer_success .windows div.button_area button:first-child:before {
           content: '';
           position: absolute;
           top: 0;
           right: 0;
-          width: 1px;
+          width: 0.0625rem;
           height: 100%;
           background: #e0e3f3;
           z-index: 1; }
 
 aside.jump_window.my_windwos_transfer_fail .windows {
-  width: 88vw;
-  margin: 150px auto 0 auto;
+  width: 88%;
+  margin: 9.375rem auto 0 auto;
   background: #fff;
-  border-radius: 15px; }
+  border-radius: .9375rem; }
   aside.jump_window.my_windwos_transfer_fail .windows div.top_warp {
     background: #959dc5;
     color: #fff;
     text-align: center;
-    padding: 12px 0 7px 0;
-    border-radius: 15px 15px 0 0; }
+    padding: .75rem 0 .4375rem 0;
+    border-radius: .9375rem .9375rem 0 0; }
     aside.jump_window.my_windwos_transfer_fail .windows div.top_warp h1.title {
       font-weight: lighter;
-      font-size: 16px; }
+      font-size: 1rem; }
   aside.jump_window.my_windwos_transfer_fail .windows div.content {
     color: #838ba0;
-    padding: 20px 0 20px 0;
-    border-bottom: 1px solid #e0e3f3;
+    padding: 1.25rem 0 1.25rem 0;
+    border-bottom: 0.0625rem solid #e0e3f3;
     text-align: center;
-    line-height: 30px; }
+    line-height: 1.875rem; }
     aside.jump_window.my_windwos_transfer_fail .windows div.content .fail_title .fail_icon {
       background: url(./../images/icon/transfer_fail.png) no-repeat;
       background-size: 100%;
       background-position: center;
-      width: 30px;
-      height: 30px;
-      margin: 0 10px 0 0;
+      width: 1.875rem;
+      height: 1.875rem;
+      margin: 0 .625rem 0 0;
       display: inline-block;
       vertical-align: middle; }
     aside.jump_window.my_windwos_transfer_fail .windows div.content .fail_title p {
@@ -6203,24 +6204,24 @@ aside.jump_window.my_windwos_transfer_fail .windows {
     white-space: nowrap;
     overflow: hidden; }
     aside.jump_window.my_windwos_transfer_fail .windows div.button_area button {
-      border-radius: 0 0 15px 15px;
+      border-radius: 0 0 .9375rem .9375rem;
       width: 50%;
       background: #fff;
       border: none;
-      padding: 10px 0 10px 0px;
-      font-size: 16px;
+      padding: .625rem 0 .625rem 0;
+      font-size: 1rem;
       color: #4d515d;
       position: relative;
       display: inline-block; }
       aside.jump_window.my_windwos_transfer_fail .windows div.button_area button:first-child {
-        letter-spacing: 5px;
-        margin: 0 -4px 0 0; }
+        letter-spacing: .3125rem;
+        margin: 0 -.25rem 0 0; }
         aside.jump_window.my_windwos_transfer_fail .windows div.button_area button:first-child:before {
           content: '';
           position: absolute;
           top: 0;
           right: 0;
-          width: 1px;
+          width: 0.0625rem;
           height: 100%;
           background: #e0e3f3;
           z-index: 1; }
@@ -8314,45 +8315,45 @@ aside.donate {
           padding: .1875rem .9375rem .1875rem .9375rem; }
 
 aside.teach {
-  padding: 0 0 100px 0;
+  padding: 0 0 6.25rem 0;
   width: 100vw;
-  height: calc(100vh - 5vh - 10px);
+  height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
   position: fixed; }
   aside.teach .title {
-    padding: calc(5vh + 10px) 50px 0 50px;
+    padding: calc(2.5rem + .625rem) 3.125rem 0 3.125rem;
     background: #fff;
-    font-size: 18px;
-    -webkit-box-shadow: 0px 1px 3px 1px #e7e7e7;
-    box-shadow: 0px 1px 3px 1px #e7e7e7; }
+    font-size: 1.125rem;
+    -webkit-box-shadow: 0px 1px .1875rem 1px #e7e7e7;
+    box-shadow: 0px 1px .1875rem 1px #e7e7e7; }
     aside.teach .title div {
       color: #838ba0;
       display: inline-block;
       line-height: 40px;
-      width: 80px;
+      width: 5rem;
       text-align: center;
-      border-bottom: 2px solid transparent;
+      border-bottom: .125rem solid transparent;
       position: relative; }
       aside.teach .title div:last-child {
         float: right; }
       aside.teach .title div.active, aside.teach .title div:hover, aside.teach .title div.hover {
         color: #4d515d;
-        border-bottom: 2px solid #7c87bc; }
+        border-bottom: .125rem solid #7c87bc; }
   aside.teach .nav {
     overflow-x: scroll;
     background: #fff;
     white-space: nowrap;
-    padding: 10px calc(3vw + 10px) 10px calc(3vw + 10px);
+    padding: 0.625rem calc(.6875rem + .625rem) 0.625rem calc(.6875rem + .625rem);
     border-bottom: 1px solid #e0e3f3; }
     aside.teach .nav div {
       display: inline-block;
       color: #838ba0;
       text-align: center;
-      width: 80px;
-      line-height: 35px;
-      border-radius: 18px; }
+      width: 5rem;
+      line-height: 2.1875rem;
+      border-radius: 1.125rem; }
       aside.teach .nav div.active, aside.teach .nav div:hover, aside.teach .nav div:active {
         background: -webkit-gradient(linear, left top, right top, from(#93a0e0), to(#4a5ec5));
         background: -webkit-linear-gradient(left, #93a0e0 0%, #4a5ec5 100%);
@@ -8360,29 +8361,29 @@ aside.teach {
         background: linear-gradient(to right, #93a0e0 0%, #4a5ec5 100%);
         color: #fff; }
   aside.teach .content {
-    height: calc(100vh - (13.1vh + 56px + 42px));
+    height: calc(100vh - (6.625rem + 3.5rem + 2.625rem));
     overflow-y: scroll;
-    padding: 0 0 100px 0; }
+    padding: 0 0 6.25rem 0; }
     aside.teach .content .card {
       background: #fff;
-      padding: 0 3vw 50px 3vw; }
+      padding: 0 .6875rem 3.125rem .6875rem; }
       aside.teach .content .card:first-child {
-        margin: 10px 0 0 0; }
+        margin: .625rem 0 0 0; }
       aside.teach .content .card h1 {
         color: #4d515d;
-        padding: 15px 0 15px 12px;
+        padding: .9375rem 0 .9375rem .75rem;
         border-bottom: 1px solid #e0e3f3;
         position: relative;
-        line-height: 24px;
+        line-height: 1.5rem;
         white-space: nowrap; }
         aside.teach .content .card h1 p {
           display: inline-block;
           color: #838ba0;
-          font-size: 13px;
+          font-size: .8125rem;
           font-weight: lighter;
           line-height: 1;
           vertical-align: middle;
-          margin: 0 0 0 5px; }
+          margin: 0 0 0 .3125rem; }
         aside.teach .content .card h1:before {
           position: absolute;
           left: 0;
@@ -8391,27 +8392,27 @@ aside.teach {
           -ms-transform: translateY(-50%);
           transform: translateY(-50%);
           content: "";
-          width: 4px;
-          height: 17px;
+          width: .25rem;
+          height: 1.0625rem;
           background: #b5c1ff;
           border-radius: 8px; }
       aside.teach .content .card .vs_area {
         position: relative;
-        padding: 30px 35px 0 35px;
+        padding: 1.875rem 2.1875rem 0 2.1875rem;
         overflow: hidden;
-        height: 100px; }
+        height: 6.25rem; }
         aside.teach .content .card .vs_area .wrap {
-          line-height: 70px; }
+          line-height: 4.375rem; }
           aside.teach .content .card .vs_area .wrap:first-child {
             float: left; }
             aside.teach .content .card .vs_area .wrap:first-child .name {
-              margin: 0 10px 0 0;
+              margin: 0 .625rem 0 0;
               display: inline-block;
               vertical-align: top; }
           aside.teach .content .card .vs_area .wrap:last-child {
             float: right; }
             aside.teach .content .card .vs_area .wrap:last-child .name {
-              margin: 0 0 0 10px;
+              margin: 0 0 0 .625rem;
               display: inline-block;
               vertical-align: top; }
           aside.teach .content .card .vs_area .wrap .name {
@@ -8420,10 +8421,10 @@ aside.teach {
             color: #4d515d; }
             aside.teach .content .card .vs_area .wrap .name p:first-child {
               font-weight: bold;
-              padding: 0 0 5px 0; }
+              padding: 0 0 .3125rem 0; }
           aside.teach .content .card .vs_area .wrap span {
-            width: 42px;
-            height: 38px; }
+            width: 2.625rem;
+            height: 2.375rem; }
           aside.teach .content .card .vs_area .wrap .icon {
             background: url(../images/teach/confrontation.png) no-repeat;
             background-size: 200%;
@@ -8433,13 +8434,13 @@ aside.teach {
           aside.teach .content .card .vs_area .wrap .icon_o {
             background: url(../images/teach/confrontation.png) no-repeat;
             background-size: 200%;
-            background-position: -42px 0;
+            background-position: -2.625rem 0;
             vertical-align: top;
             display: inline-block; }
         aside.teach .content .card .vs_area .vs_mid_area {
           position: absolute;
           left: 50%;
-          top: 30px;
+          top: 1.875rem;
           -webkit-transform: translate(-50%, 0);
           -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
@@ -8447,53 +8448,53 @@ aside.teach {
           aside.teach .content .card .vs_area .vs_mid_area p:first-child {
             color: #838ba0;
             font-family: "微軟正黑體";
-            font-size: 20px; }
+            font-size: 1.25rem; }
           aside.teach .content .card .vs_area .vs_mid_area p:last-child {
             color: #556de7;
-            font-size: 14px; }
+            font-size: .875rem; }
       aside.teach .content .card p.ex_1 {
         text-align: center;
         font-weight: bold;
         color: #4a5ec5;
-        padding: 30px 0 0 0; }
+        padding: 1.875rem 0 0 0; }
       aside.teach .content .card .bingo_area {
         position: relative;
         overflow: hidden;
-        height: 80px;
-        line-height: 80px;
-        margin: 20px 0 0 0; }
+        height: 5rem;
+        line-height: 5rem;
+        margin: 1.25rem 0 0 0; }
         aside.teach .content .card .bingo_area .bingo_bot {
-          border-radius: 50px;
-          padding: 6px 0 6px 0;
+          border-radius: 3.125rem;
+          padding: .375rem 0 .375rem 0;
           overflow: hidden;
-          line-height: 70px;
-          height: 70px;
+          line-height: 4.375rem;
+          height: 4.375rem;
           vertical-align: middle;
           display: inline-block;
           width: 100%;
-          font-size: 14px;
+          font-size: .875rem;
           background: -webkit-gradient(linear, left top, right top, from(#e7eefd), color-stop(40%, #effbff), color-stop(60%, #effbff), to(#e7eefd));
           background: -webkit-linear-gradient(left, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%);
           background: -o-linear-gradient(left, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%);
           background: linear-gradient(to right, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%); }
         aside.teach .content .card .bingo_area .wrap {
-          line-height: 58px; }
+          line-height: 3.625rem; }
           aside.teach .content .card .bingo_area .wrap .name {
             display: inline-block;
-            line-height: 16px;
+            line-height: 1rem;
             text-align: center;
             vertical-align: middle; }
             aside.teach .content .card .bingo_area .wrap .name p.red.red {
               color: #f30d0d; }
             aside.teach .content .card .bingo_area .wrap .name p:first-child {
               color: #838ba0;
-              margin: 0 0 3px 0; }
+              margin: 0 0 .1875rem 0; }
             aside.teach .content .card .bingo_area .wrap .name p:last-child {
               font-weight: bold;
               color: #4d515d; }
           aside.teach .content .card .bingo_area .wrap .icon {
-            width: 25px;
-            height: 25px;
+            width: 1.5625rem;
+            height: 1.5625rem;
             display: inline-block;
             vertical-align: middle; }
             aside.teach .content .card .bingo_area .wrap .icon.active {
@@ -8503,17 +8504,17 @@ aside.teach {
             aside.teach .content .card .bingo_area .wrap .icon.half {
               background: url(../images/teach/golds.png) no-repeat;
               background-size: 200%;
-              background-position: -25px 0; }
+              background-position: -1.5625rem 0; }
           aside.teach .content .card .bingo_area .wrap:first-child {
             float: left;
-            padding: 0 0 0 10px; }
+            padding: 0 0 0 .625rem; }
             aside.teach .content .card .bingo_area .wrap:first-child .name {
-              margin: 0 0 0 5px; }
+              margin: 0 0 0 .3125rem; }
           aside.teach .content .card .bingo_area .wrap:last-child {
             float: right;
-            padding: 0 10px 0 0; }
+            padding: 0 .625rem 0 0; }
             aside.teach .content .card .bingo_area .wrap:last-child .name {
-              margin: 0 5px 0 0; }
+              margin: 0 .3125rem 0 0; }
         aside.teach .content .card .bingo_area .mid_bingo {
           position: absolute;
           left: 50%;
@@ -8522,30 +8523,30 @@ aside.teach {
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
           display: inline-block;
-          border-radius: 100px;
+          border-radius: 6.25rem;
           text-align: center;
           background: #e9f5ff;
           text-align: center;
-          width: 80px;
-          height: 80px;
-          line-height: 80px; }
+          width: 5rem;
+          height: 5rem;
+          line-height: 5rem; }
           aside.teach .content .card .bingo_area .mid_bingo .wrap_p {
             line-height: 1;
             display: inline-block;
             vertical-align: middle; }
           aside.teach .content .card .bingo_area .mid_bingo p.point {
-            font-size: 24px;
+            font-size: 1.5rem;
             color: #4a5ec5;
-            padding: 5px 0 2px 0;
-            line-height: 24px; }
+            padding: .3125rem 0 .125rem 0;
+            line-height: 1.5rem; }
           aside.teach .content .card .bingo_area .mid_bingo p:first-child {
             color: #4d515d;
-            font-size: 15px;
-            line-height: 15px; }
+            font-size: .9375rem;
+            line-height: .9375rem; }
           aside.teach .content .card .bingo_area .mid_bingo p:last-child {
-            font-size: 12px;
+            font-size: .75rem;
             color: #838ba0;
-            line-height: 12px; }
+            line-height: .75rem; }
 
 aside.teach .content.teach_bs {
   height: calc(100vh - (13.1vh + 42px));
