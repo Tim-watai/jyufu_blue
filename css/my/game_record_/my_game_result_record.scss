@@ -2,11 +2,11 @@ aside {
   .g_over_g_type,.g_over_g_date{
     display: none;
     position: absolute;
-    top: calc(5vh + 69px);
+    top: calc(2.5rem + 4.3125rem);
     left: 50%;
     transform: translateX(-50%);
     z-index: 0;
-    width: 90vw;
+    width: 90%;
     z-index: 500;
     &.active{
       display: block;
@@ -14,24 +14,24 @@ aside {
     .title{
       background: #fff;
       text-align: center;
-      border-radius: 4px 4px 0 0;
+      border-radius: .25rem .25rem 0 0;
       border: 1px solid #b6bbdc;
-      line-height: 4vh;
-      font-size: 2vh;
+      line-height: 2rem;
+      font-size: 1rem;
       position: relative;
     }
     .close{
       display: block;
-      width: 16px;
-      height: 16px;
+      width: 1rem;
+      height: 1rem;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      right: 2vw;
+      right: .5rem;
       &:before{
         content: '';
         position: absolute;
-        width: 2px;
+        width: .125rem;
         height: 100%;
         background: #4d515d;
         top: 50%;
@@ -41,7 +41,7 @@ aside {
       &:after{
         content: '';
         position: absolute;
-        width: 2px;
+        width: .125rem;
         height: 100%;
         background: #4d515d;
         top: 50%;
@@ -52,24 +52,24 @@ aside {
    ul{
      border: 1px solid #b6bbdc;
      border-top: 1px solid transparent;
-     border-radius: 0 0 4px 4px ;
+     border-radius: 0 0 .25rem .25rem ;
      overflow: hidden;
      background: #eff2fe;
-     padding: 0 0 2vw;
+     padding: 0 0 .5rem;
      li{
       &.box_4,&.box_5{
-       margin: 2vw 0 0;
+       margin: .5rem 0 0;
         overflow: hidden;
-        padding: 0 3vw 0;
+        padding: 0 .75rem 0;
         span{
           display: block;
           float: left;
           background: #fff;
           text-align: center;
           border: 1px solid #e0e3f3;
-          border-radius: 4px;
-          padding: 5px 0 5px;
-          font-size: 1.8vh;
+          border-radius: .25rem;
+          padding: .3125rem 0 .3125rem;
+          font-size: .875rem;
           color: #4d515d;
           &:hover,&:active,&.active{
             color: #fff;
@@ -99,23 +99,23 @@ aside {
   .g_over_g_type{
     .tri{
       position: absolute;
-      top: -15px;
-      left: 30px;
+      top: -.9375rem;
+      left: 20%;
       width: 0;
       height: 0;
       border-style: solid;
-      border-width: 0 8px 15px 8px;
+      border-width: 0 .5rem .9375rem .5rem;
       border-color: transparent transparent #b6bbdc transparent;
       &:before{
         content: '';
         position: absolute;
-        bottom: -16px;
+        bottom: -1rem;
         left: 50%;
         transform: translateX(-50%);
         width: 0;
         height: 0;
         border-style: solid;
-        border-width: 0 7px 14px 7px;
+        border-width: 0 .4375rem .875rem .4375rem;
         border-color: transparent transparent #fff transparent;
       }
     }
@@ -123,23 +123,23 @@ aside {
   .g_over_g_date{
     .tri{
       position: absolute;
-      top: -15px;
-      left: 156px;
+      top: -.9375rem;
+      left: 73%;
       width: 0;
       height: 0;
       border-style: solid;
-      border-width: 0 8px 15px 8px;
+      border-width: 0 .5rem .9375rem .5rem;
       border-color: transparent transparent #b6bbdc transparent;
       &:before{
         content: '';
         position: absolute;
-        bottom: -16px;
+        bottom: -1rem;
         left: 50%;
         transform: translateX(-50%);
         width: 0;
         height: 0;
         border-style: solid;
-        border-width: 0 7px 14px 7px;
+        border-width: 0 .4375rem .875rem .4375rem;
         border-color: transparent transparent #fff transparent;
       }
     }
@@ -147,16 +147,16 @@ aside {
   &.my_window_game_record {
     padding: 0 0 100px 0;
     width: 100vw;
-    height: calc(100vh - 5vh - 10px);
+    height: calc(100vh - 2.5rem - .625rem);
     background: #f7f7f7;
     z-index: 0;
     display: inline-block;
     position: fixed;
     .content {
-      height: calc(100vh - (5vh + 64px));
-      margin: calc(5vh + 64px) 0 0 0;
+      height: calc(100vh - (2.5rem + 4rem));
+      margin: calc(2.5rem + 4rem) 0 0 0;
       overflow-y: scroll;
-      padding: 0 2vw 100px 2vw;
+      padding: 0 .5rem 100px .5rem;
     }
     
   }
@@ -166,15 +166,15 @@ aside {
     &.g_over {
       border: 1px solid #9ba1c5;
       width: 100%;
-      margin: 8px 0 0;
-      border-radius: 2px;
+      margin: .5rem 0 0;
+      border-radius: .125rem;
       .title {
         border-bottom: 1px solid #9ba1c5;
         color: #1b255c;
-        font-size: 2vh;
+        font-size: 1rem;
         background: #fff;
-        line-height: 3vh;
-        padding: 2px 0 0 8px;
+        line-height: 1.5rem;
+        padding: .125rem 0 0 .5rem;
         font-weight: bold;
       }
       li,
@@ -185,8 +185,8 @@ aside {
         text-align: center;
         background: #f6f8ff;
         color: #4d515d;
-        font-size: 1.7vh;
-        line-height: 3vh;
+        font-size: .875rem;
+        line-height: 1.5rem;
         border-bottom: 1px solid #e0e3f3;
         .t1,
         .t2,
@@ -209,7 +209,6 @@ aside {
         }
       }
       li {
-        // line-height: 5vh;
         border-bottom: 1px solid #9ba1c5;
         &:last-child{
           border-bottom: none;
@@ -217,8 +216,8 @@ aside {
         .t1,.t2,.t3{
           color: #838ba0;
           text-align: center;
-          line-height: 8vh;
-          height: 8vh;
+          line-height: 4rem;
+          height: 4rem;
         }
         .t1 {
           background: #ebecf2;
@@ -226,21 +225,21 @@ aside {
           .t_wrap {
             display: inline-block;
             vertical-align: middle;
-            font-size: 2vh;
-            line-height: 3vh;
+            font-size: 1rem;
+            line-height: 1.5rem;
           }
         }
         .t2{
           background: #fff;
           border-right: 1px solid #e0e3f3;
           p{
-            line-height: 4vh;
+            line-height: 2rem;
             text-align: left;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-            font-size: 1.8vh;
-            padding: 0 0 0 4px;
+            font-size: .875rem;
+            padding: 0 0 0 .25rem;
             color: #1b255c;
             &:first-child{
               border-bottom: 1px solid #e0e3f3;
@@ -253,12 +252,12 @@ aside {
             border-right: 1px solid transparent;
           }
           p{
-            line-height: 4vh;
+            line-height: 2rem;
             text-align: left;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-            font-size: 1.8vh;
+            font-size: .875rem;
             color: #f30d0d;
             text-align: center;
             &:first-child{

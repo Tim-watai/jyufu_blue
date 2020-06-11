@@ -2,7 +2,7 @@ aside {
   &.my_windows_bet_record {
     padding: 0 0 100px 0;
     width: 100vw;
-    height: calc(100vh - 5vh - 10px);
+    height: calc(100vh - 2.5rem - .625rem);
     background: #f7f7f7;
     z-index: 0;
     display: inline-block;
@@ -10,8 +10,8 @@ aside {
 
     div {
       &.content {
-        height: calc(100vh - (5vh + 64px));
-        margin: calc(5vh + 64px) 0 0 0;
+        height: calc(100vh - (2.5rem + 4rem));
+        margin: calc(2.5rem + 4rem) 0 0 0;
         overflow-y: scroll;
         padding: 0 0 300px 0;
   
@@ -23,13 +23,13 @@ aside {
       background: #fff;
       overflow: hidden;
       width: 88%;
-      margin: 20vh auto 0 auto;
-      border-radius: 12px;
+      margin: 10.125rem auto 0 auto;
+      border-radius: .75rem;
       h1 {
         text-align: center;
         line-height: 1;
         background: #959dc5;
-        padding: 12px 0 10px 0;
+        padding: .75rem 0 .625rem 0;
         p {
           color: #fefeff;
           font-weight: normal;
@@ -37,7 +37,7 @@ aside {
       }
       li {
         color: #4d515d;
-        font-size: 14px;
+        font-size: .875rem;
         &:nth-child(2) {
           background: #f6f8ff;
         }
@@ -47,13 +47,13 @@ aside {
         .wrap {
           display: inline-block;
           line-height: 1;
-          padding: 12px 0px 12px 12px;
+          padding: .75rem 0 .75rem .75rem;
           width: 28%;
         }
         .wrap2 {
           display: inline-block;
           line-height: 1;
-          padding: 12px 0px 12px 12px;
+          padding: .75rem 0 .75rem .75rem;
           width: auto;
           color: #838ba0;
           white-space: nowrap;
@@ -64,7 +64,7 @@ aside {
         }
       }
       .btn_group {
-        line-height: 38px;
+        line-height: 2.375rem;
         border-top: 1px solid #e0e3f3;
         white-space: nowrap;
         position: relative;
@@ -82,8 +82,8 @@ aside {
           border: none;
           background: none;
           color: #4d515d;
-          font-size: 14px;
-          letter-spacing: 8px;
+          font-size: .875rem;
+          letter-spacing: .5rem;
         }
       }
     }

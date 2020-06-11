@@ -1,8 +1,8 @@
 aside{
     &.my_windows_mb {
-      margin: calc(5vh + 10px) 0 0 0;
+      margin: calc(2.5rem + .625rem) 0 0 0;
         width: 100vw;
-        height: calc(100vh - 5vh - 10px);
+        height: calc(100vh - 2.5rem - .625rem);
         background: #f7f7f7;
         z-index: 0;
         display: inline-block;
@@ -10,50 +10,50 @@ aside{
         div {
           &.mb_content {
             background: #fff;
-            margin: 1vh 3vw 0 3vw;
-            width: 94vw;
+            margin: .5rem auto 0 auto;
+            width: 94%;
             border-radius: 8px;
-            box-shadow: 0 0 5px 1px #ececec;
+            box-shadow: 0 0 .3125rem 1px #ececec;
             div {
               &.title {
                 width: 100%;
-                line-height: 25vw;
-                padding: 5vw 0 5px 5vw;
+                line-height: 5.75rem;
+                padding: 1.125rem 0 .3125rem 1.125rem;
 
                 position: relative;
                 p {
                   line-height: 1;
                   &.total {
                     color: #4d515d;
-                    font-size: 4vw;
-                    margin: 0 0 3vw 0;
+                    font-size: .9375rem;
+                    margin: 0 0 .75rem 0;
                   }
                   &.num {
                     color: #4d515d;
-                    font-size: 6.5vw;
+                    font-size: 1.125rem;
                     font-weight: bold;
     
                     span {
-                      font-size: 3vw;
+                      font-size: .75rem;
                     }
                   }
                 }
                 div {
                   &.save_money {
                     position: absolute;
-                    right: 5vw;
-                    bottom: 5px;
-                    line-height: 7.5vw;
+                    right: 1.125rem;
+                    bottom: .3125rem;
+                    line-height: 1.75rem;
                     display: inline-block;
-                    width: 20vw;
-                    height: 7.5vw;
+                    width: 4.6875rem;
+                    height: 1.75rem;
                     text-align: center;
                     background: linear-gradient(to right, #9aa6e3 0%, #495dc5 100%);
-                    border-radius: 30px;
-                    box-shadow: 0 0 12px 0px #a7a5a5;
+                    border-radius: 1.875rem;
+                    box-shadow: 0 0 .75rem 0 #a7a5a5;
                     p {
                       color: #fff;
-                      font-size: 4vw;
+                      font-size: .9375rem;
                       vertical-align: middle;
                       display: inline-block;
                     }
@@ -62,22 +62,22 @@ aside{
               }
               &.btns {
                 text-align: center;
-                padding: 12vw 10vw 4vw 8vw;
+                padding: 2.8125rem 2.375rem .9375rem 1.875rem;
                 div {
-                  width: 60px;
+                  width: 3.75rem;
                   display: inline-block;
                   text-align: center;
                   line-height: 1;
                   p {
                     color: #4d515d;
-                    font-size: 4vw;
+                    font-size: .9375rem;
                   }
                   span {
                     display: inline-block;
                     background: url(../images/my_mb_icons.png) no-repeat;
-                    background-size: 318%;
-                    width: 38px;
-                    height: 35px;
+                    background-size: 300%;
+                    width: 2.375rem;
+                    height: 2.1875rem;
                   }
                   &.transfer {
                     float: left;
@@ -92,10 +92,10 @@ aside{
                   }
                   &.take_out {
                     position: relative;
-                    margin: 0 -8vw 0 -30px;
+                    margin: 0 -1.875rem 0 -1.875rem;
                     span {
                       &.take_out_icon {
-                        background-position: -40px 0;
+                        background-position: -2.375rem 0;
                       }
                     }
                   }
@@ -104,7 +104,7 @@ aside{
                     position: relative;
                     span {
                       &.card_icon {
-                        background-position: -82px 0;
+                        background-position: -4.75rem 0;
                       }
                     }
                   }
@@ -113,13 +113,13 @@ aside{
               &.footer {
                 overflow: auto;
                 border-top: 1px solid #e0e3f3;
-                padding: 4vw 11vw 5vw 5vw;
-                line-height: 4vw;
+                padding: .9375rem 2.5rem 1.125rem 1.125rem;
+                line-height: .9375rem;
                 position: relative;
                 p {
                   display: inline-block;
                   cursor: pointer;
-                  font-size: 4vw;
+                  font-size: .9375rem;
                   &.money_detail {
                     color: #4d515d;
                     float: left;
@@ -130,16 +130,16 @@ aside{
                     span {
                       &.cross_icon {
                         display: inline-block;
-                        width: 4vw;
-                        height: 4vw;
+                        width: .9375rem;
+                        height: .9375rem;
                         background: url(../images/icon/cross.png) no-repeat;
                         background-size: 100%;
                         background-position: center center;
                         vertical-align: baseline;
                         border-radius: 2px;
                         position: absolute;
-                        right: 5vw;
-                        bottom: 5.5vw;
+                        right: 1.125rem;
+                        bottom: 1.25rem;
                       }
                     }
                   }
@@ -148,17 +148,17 @@ aside{
             }
           }
           &.mb_event {
-            margin: 5vw 3vw 0 3vw;
+            margin: 1.125rem auto 0 auto;
             width: 94vw;
             div {
               &.title {
-                line-height: 28px;
+                line-height: 1.75rem;
                 position: relative;
-                padding: 0 4vw 0 2vw;
+                padding: 0 .9375rem 0 .25rem;
                 &:before {
                   content: "";
-                  width: 4px;
-                  height: 4vw;
+                  width: .25rem;
+                  height: .9375rem;
                   position: absolute;
                   border-radius: 8px;
                   top: 40%;
@@ -173,24 +173,24 @@ aside{
                 h1 {
                   font-weight: bold;
                   color: #525661;
-                  font-size: 5vw;
+                  font-size: 1.125rem;
                   position: relative;
                 }
                 p {
-                  font-size: 4vw;
+                  font-size: .9375rem;
                   color: #7181d4;
                   position: relative;
                   float: right;
-                  line-height: 28px;
+                  line-height: 1.75rem;
                   span {
                     display: inline-block;
                     &.arrow {
-                      width: 2vw;
-                      height: 2vw;
+                      width: .25rem;
+                      height: .25rem;
                       background: url(../images/icon/arrow_lg.png) no-repeat;
                       background-size: 100%;
                       background-position: center center;
-                      margin: 0 0 0 1vw;
+                      margin: 0 0 0 .25rem;
                       position: absolute;
                       top: 50%;
                       transform: translateY(-50%);
@@ -200,51 +200,55 @@ aside{
               }
               &.events {
                 line-height: 1;
-                padding: 5vw 3vw 0 3vw;
+                padding: 1.125rem .75rem 0 .75rem;
                 white-space: nowrap;
+                width: 100%;
                 div {
                   display: inline-block;
                   text-align: center;
-                  margin: 0 calc((88vw - 228px) / 3) 0 0;
+                  width: 23.5%;
+                  margin: 0 2% 0 0;
+                  &:last-child{
+                    margin: 0;
+                  }
                   span {
                     display: inline-block;
-                    margin: 0 0 2vw 0;
+                    margin: 0 0 .25rem 0;
                     background: url(../images/my_mb_evetnts.png)no-repeat;
-                    background-size: 385%;
-                    width: 30px;
-                    height: 30px;
+                    background-size: 400%;
+                    width: 1.875rem;
+                    height: 1.875rem;
                     margin: 0 auto;
                   }
                   p {
                     
                     color: #838ba0;
-                    font-size: 14px;
+                    font-size: .875rem;
                   }
     
                   &.level_up {
                     float: left;
                     span {
-                     background-position: 3px 0;
+                     background-position: 0 0;
                     
                     }
                   }
                   &.sign_in {
                     span {
-                      background-position: -28px 0;
+                      background-position: -1.875rem 0;
                      
                     }
                   }
                   &.beginner_mission {
                     span {
-                      background-position: -58px 0;
+                      background-position: -3.75rem 0;
                      
                     }
                   }
                   &.gifts {
-                    float: right;
                     margin: 0;
                     span {
-                      background-position: -88px 0;
+                      background-position: -5.625rem 0;
                     }
                   }
                 }
@@ -252,41 +256,41 @@ aside{
             }
           }
           &.mb_banner {
-            padding: 0 3vw;
-            margin: 10vw 0 0 0;
+            padding: 0 .75rem;
+            margin: 2.375rem 0 0 0;
             div {
               &.banner {
                 background: #ccd5ff;
-                height: 18vw;
-                line-height: 18vw;
+                height: 4.25rem;
+                line-height: 4.25rem;
                 border-radius: 40px;
-                padding: 0 5vw 0 34px;
+                padding: 0 1.125rem 0 2.125rem;
                 div {
                   &.text_area {
                     display: inline-block;
                     vertical-align: middle;
                     h1 {
                       color: #5566c4;
-                      font-size: 4.5vw;
-                      margin: 2vw 0 0 0;
-                      letter-spacing: 0.5px;
-                      line-height: 4.5vw;
-                      margin: 0 0 12px;
+                      font-size: 1.0625rem;
+                      margin: .25rem 0 0 0;
+                      letter-spacing: .5px;
+                      line-height: 1.0625rem;
+                      margin: 0 0 .75rem;
                     }
                     p {
                       color: #5566c4;
-                      font-size: 3vw;
-                      margin: -1vw 0 0 0;
-                      line-height: 3vw;
+                      font-size: .75rem;
+                      margin: -.25rem 0 0 0;
+                      line-height: .75rem;
                     }
                   }
                   &.big_gift {
-                    width: 29vw;
-                    height: 18vw;
+                    width: 6.75rem;
+                    height: 4.25rem;
                     background: url(../images/my_mb/big_gift.png) no-repeat;
                     background-size: 100%;
                     background-position: center;
-                    margin: 0 0 0 2vw;
+                    margin: 0 0 0 .5rem;
                     float: right;
                   }
                 }
@@ -294,17 +298,17 @@ aside{
             }
           }
           &.mb_record {
-            margin: 5vw 3vw 0 3vw;
+            margin: 1.125rem .75rem 0 .75rem;
             width: 94vw;
             div {
               &.title {
                 position: relative;
-                padding: 0 4vw 0 2vw;
-                line-height: 5vw;
+                padding: 0 .9375rem 0 .5rem;
+                line-height: 1.125rem;
                 &:before {
                   content: "";
-                  width: 4px;
-                  height: 4vw;
+                  width: .25rem;
+                  height: .9375rem;
                   position: absolute;
                   border-radius: 8px;
                   top: 40%;
@@ -319,24 +323,24 @@ aside{
                 h1 {
                   font-weight: bold;
                   color: #525661;
-                  font-size: 5vw;
+                  font-size: 1.125rem;
                   position: relative;
                 }
                 p {
-                  font-size: 4vw;
+                  font-size: .9375rem;
                   color: #838ba0;
-                  line-height: 5vw;
+                  line-height: 1.125rem;
                   position: relative;
                   float: right;
                   span {
                     display: inline-block;
                     &.arrow {
-                      width: 2vw;
-                      height: 2vw;
+                      width: .5rem;
+                      height: .5rem;
                       background: url(../images/icon/arrow_lg.png) no-repeat;
                       background-size: 100%;
                       background-position: center center;
-                      margin: 0 0 0 1vw;
+                      margin: 0 0 0 .25rem;
                       position: absolute;
                       top:50%;
                       transform: translateY(-50%);
@@ -346,10 +350,10 @@ aside{
               }
               &.content {
                 text-align: center;
-                margin: 5vw 0 0 0;
+                margin: 1.125rem 0 0 0;
                 p {
                   color: #838ba0;
-                  font-size: 3vw;
+                  font-size: .75rem;
                 }
               }
             }

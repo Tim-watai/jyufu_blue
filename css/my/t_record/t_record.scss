@@ -1,6 +1,6 @@
 aside {
   &.my_windows_t_record {
-    margin: calc(5vh + 10px) 0 0 0;
+    margin: calc(2.5rem + .625rem) 0 0 0;
     width: 100vw;
     background: #f7f7f7;
     z-index: 0;
@@ -13,13 +13,13 @@ aside {
     div {
       &.title {
         background: #fff;
-        padding: calc(5vh + 10px) 0 0 0;
-        margin: calc(-5vh - 10px) 0 0 0;
+        padding: calc(2.5rem + .625rem) 0 0 0;
+        margin: calc(-2.5rem - .625rem) 0 0 0;
         text-align: center;
         color: #838ba0;
         .wrap {
           display: inline-block;
-          padding: 5px 8vw 10px 8vw;
+          padding: .3125rem 1.875rem .5rem 1.875rem;
           border-bottom: 2px solid transparent;
           &:hover,
           &:active,
@@ -30,10 +30,11 @@ aside {
         }
       }
       &.content {
-        height: calc(100vh - (5vh + 41px + 10px));
+        height: calc(100vh - (2.5rem + 2.5rem + .625rem));
         display: inline-block;
         overflow-y: scroll;
         padding: 0 0 100px 0;
+        width: 100%;
       }
     }
 
@@ -53,23 +54,23 @@ aside {
         }
       }
       &.t_record {
-        margin: 10px 4vw 0 4vw;
+        margin: .625rem auto 0 auto;
         width: 92vw;
 
         border-radius: 8px;
         background: #fff;
         li {
-          font-size: 13px;
+          font-size: .8125rem;
           border-left: 1px solid #e0e3f3;
           border-right: 1px solid #e0e3f3;
-          padding: 0 10px 0 10px;
+          padding: 0 .625rem 0 .625rem;
           &.title {
  
             border-left: 1px solid #9ba1c5;
             border-right: 1px solid #9ba1c5;
-            padding: 5px 10px 5px 10px;
+            padding: .3125rem .625rem .3125rem .625rem;
             background: #7b8bd7;
-            border-radius: 8px 8px 0px 0px;
+            border-radius: 8px 8px 0 0;
             p {
               color: #fff;
               display: inline-block;
@@ -79,9 +80,9 @@ aside {
             }
           }
           .wrap {
-            width: 72px;
-            height: 30px;
-            line-height: 31px;
+            width: 4.5rem;
+            height: 1.875rem;
+            line-height: 2rem;
             color: #4d515d;
             display: inline-block;
             p{

@@ -1,8 +1,8 @@
 aside{
     &.my_windows_card{
-      padding: calc(5vh + 10px) 0 100px 0;
+      padding: calc(2.5rem + .625rem) 0 100px 0;
       width: 100vw;
-      height: calc(100vh - 5vh - 10px);
+      height: calc(100vh - 2.5rem - .625rem);
       background: #f7f7f7;
       z-index: 0;
       display: inline-block;
@@ -15,25 +15,25 @@ aside{
                 background: url(../images/my_mb/card_empty.png) no-repeat;
                 background-size: 100%;
                 background-position: center;
-                width: 50vw;
-                height: 50vw;
+                width: 11.75rem;
+                height: 11.75rem;
                 display: inline-block;
-                margin: 20vw 0 0 0;
+                margin: 4.6875rem 0 0 0;
               }
               button{
                 width: 94vw;
-                line-height: 20vw;
+                line-height: 4.6875rem;
                 background: #fff;
                 border: none;
-                border-radius: 8px;
-                font-size: 5vw;
+                border-radius: .5rem;
+                font-size: 1.125rem;
                 font-weight: bold;
                 span{
                   display: inline-block;
-                  width: 5vw;
-                  height: 5vw;
+                  width: 1.125rem;
+                  height: 1.125rem;
                   position: relative;
-                  margin: 0vw 4px 0 0;
+                  margin: 0 .25rem 0 0;
                   &:before,&:after{
                     content: '';
                     position: absolute;
@@ -50,22 +50,22 @@ aside{
                 }
               }
               p{
-                font-size: 4.5vw;
+                font-size: 1rem;
                 color: #838ba0;
-                margin: 3vw 0 0 0;
+                margin: .75rem 0 0 0;
               }
             }
             &.have{
-             margin: 4vh 0 0 0;
+             margin: 2rem 0 0 0;
               div{
                 &.card{
                   background: linear-gradient(to right, #cfb05e 0%, #d8be76 100%);
                   position: relative;
                   margin: 0px auto;
-                  width: 94vw;
-                  height: 153px;
-                  padding: 14px 18px;
-                  margin-top: 1vh;
+                  width: 94%;
+                  height: 9.5625rem;
+                  padding: .875rem 1.125rem;
+                  margin-top: .25rem;
                   border-radius: 5px;
                   color: #fff;
                   span{
@@ -73,61 +73,61 @@ aside{
                       position: absolute;
                       top: 0;
                       right: 0;
-                      width: calc(93vw * 3 / 4);
-                      height: 153px;
+                      width: calc(93% * 3 / 4);
+                      height: 9.5625rem;
                       border-color: rgba(255, 255, 255, 0.3) transparent transparent transparent;
                       border-style: solid solid solid solid;
-                      border-width: 153px 0px 0px 180px;
+                      border-width: 9.5625rem 0 0 11.25rem;
                     }
                   }
                   .title{
                     text-align: center;
-                    font-size: 4.5vw;
+                    font-size: 1rem;
                   }
                   .ic_warp{
                     .ic{
                       background: url(../images/my_mb/ic.png)no-repeat;
                       background-size: 100%;
                       background-position: top;
-                      width: 30px;
-                      height: 20px;
+                      width: 1.875rem;
+                      height: 1.25rem;
                       border-radius: 5px;
-                      box-shadow: 0 1px 0px 0 #b76a06;
+                      box-shadow: 0 1px 0 0 #b76a06;
                     }
                   }
                   .account_warp{
-                    padding: 10px 0 10px 0;
+                    padding: .625rem 0 .625rem 0;
                     border-bottom: 1px solid #fff;
                     p{
                       display: inline-block;
                       &:first-child{
-                        margin: 0 20px 0 0;
+                        margin: 0 1.25rem 0 0;
                       }
                     }
                     &:last-child{
-                      padding: 10px 0 0 0;
+                      padding: .625rem 0 0 0;
                       border: none;
                     }
                   }
                   
                 }
                 &.alert_box{
-                  margin: 4vh 3vw 0 3vw;
-                  padding: 4vw 4vw 0 4vw;
+                  margin: 2rem .75rem 0 .75rem;
+                  padding: .9375rem .9375rem 0 .9375rem;
                   background: #fff;
-                  border-radius: 8px;
+                  border-radius: .5rem;
                   h1{
                     &.title{
                       color: #4d515d;
-                      font-size: 4.5vw;
-                      margin: 0 0 2vw 0;
+                      font-size: 1rem;
+                      margin: 0 0 .25rem 0;
                     }
                   }
                   p{
                     color: #838ba0;
-                    margin: 0 0 4vw 0;
+                    margin: 0 0 .9375rem 0;
                     display: inline-block;
-                    font-size: 4.3vw;
+                    font-size: 1rem;
                   }
                 }
               }
@@ -140,41 +140,41 @@ aside{
                     text-align: center;
 
                     color: #4d515d;
-                    padding: 10px 0 10px 0;
+                    padding: .625rem 0 .625rem 0;
                     border-bottom: 1px solid #e0e3f3;
-                    margin:0 3vw 0 3vw ;
+                    margin:0 .75rem 0 .75rem ;
                 }
                 ul{
-                    padding: 0 3vw 0 3vw;
+                    padding: 0 .75rem 0 .75rem;
 
                     
                     li{
-                        padding: 10px 3vw 10px 3vw;
+                        padding: .625rem .75rem .625rem .75rem;
                         border-bottom: 1px solid #e0e3f3;
-                        line-height: 29px;
+                        line-height: 1.875rem;
                         &:last-child{
                           border-bottom: none;
                         }
                         &:not(.city):not(.bank){
                             justify-content: space-between;
                             input{
-                                width: 64vw;
+                                width: 15rem;
                             }
                         }
                         &.bank{
                             input{
-                                margin: 0 0 0 7vw;
+                                margin: 0 0 0 1.625rem;
                             }
                         }
                         &.city{
                             white-space: nowrap;
                             p{
-                                margin: 0 7vw 0 0;
+                                margin: 0 1.625rem 0 0;
                             }
                             input{
-                                width: 29vw;
+                                width: 6.75rem;
                                 &:last-child{
-                                    margin: 0 0 0 6vw;
+                                    margin: 0 0 0 1.375rem;
                                 }
                             }
                         }
@@ -189,23 +189,24 @@ aside{
                         }
                         input{
                             border: 1px solid #b9bfdc;
-                            border-radius: 4px;
-                            padding: 5px;
+                            border-radius: .25rem;
+                            padding: .3125rem;
                             &::placeholder{
-                                font-size: 16px;
+                                font-size: 1rem;
                                 color: #838ba0;
                             }
                         }
                     }
                 }
                 button{
-                    width: 70vw;
-                    margin: 15px 15vw 0 15vw;
-                    padding:12px 0;
-                    border-radius: 8px;
+                    width: 16.375rem;
+                    margin: .9375rem auto 0 auto;
+                    display: block;
+                    padding:.75rem 0;
+                    border-radius: .5rem;
                     border: none;
                     color: #fff;
-                    font-size: 16px;
+                    font-size: 1rem;
                     font-weight: bold;
                     background:linear-gradient(to right, #9ba8e4 0% ,#485cc4 100% );
                 }
