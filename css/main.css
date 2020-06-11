@@ -185,7 +185,9 @@ button {
 
 @media screen and (min-width: 200px) and (max-width: 320px) {
   html {
-    font-size: 14px; } }
+    font-size: 14px; }
+  main article.menu.menu.menu.menu.menu {
+    height: 43vh; } }
 
 @-webkit-keyframes marquee {
   0% {
@@ -8941,8 +8943,8 @@ header {
     border-bottom-left-radius: 1.25rem 1.25rem;
     border-bottom-right-radius: 1.25rem 1.25rem;
     margin: 0 auto;
-    -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
-    box-shadow: 0 3px 5px 0 #e2e2e2;
+    -webkit-box-shadow: 0 .1875rem 5px 0 #e2e2e2;
+    box-shadow: 0 .1875rem 5px 0 #e2e2e2;
     padding: 0 .75rem; }
     header ul li {
       -webkit-transform: translateY(-50%);
@@ -8966,7 +8968,7 @@ header {
         height: 1.25rem;
         background: url(../images/head_icons.png) no-repeat;
         background-size: 582%;
-        background-position: -64px 0; }
+        background-position: -4rem 0; }
         header ul li.message_icon.active:before {
           content: "";
           position: absolute;
@@ -9011,7 +9013,7 @@ header {
         height: 1.25rem;
         background: url(../images/head_icons.png) no-repeat;
         background-size: 582%;
-        background-position: -107px 0; }
+        background-position: -6.6875rem 0; }
       header ul li.right_text {
         display: inline-block;
         position: relative;
@@ -9026,7 +9028,7 @@ header {
         height: 1.25rem;
         background: url(../images/head_icons.png) no-repeat;
         background-size: 582%;
-        background-position: -85px 0; }
+        background-position: -5.3125rem 0; }
 
 main {
   width: 100%;
@@ -9096,7 +9098,7 @@ main {
           background-size: cover;
           background-position: center center;
           vertical-align: middle;
-          margin: 0 3px 0 0; }
+          margin: 0 .1875rem 0 0; }
         main section ul.hot_area li:last-child.hot_btn p {
           font-size: .9rem;
           line-height: 100%;
@@ -9159,8 +9161,8 @@ main {
             width: 3rem;
             height: 0.9375rem;
             display: inline-block;
-            border-radius: 3px;
-            border-radius: 3px;
+            border-radius: .1875rem;
+            border-radius: .1875rem;
             margin-left: 5px; }
         main section ul.profile li.u_data p.u_money {
           color: #1b255c;
@@ -9169,8 +9171,8 @@ main {
           font-weight: bold; }
           main section ul.profile li.u_data p.u_money span.question {
             background: url(../images/head_icons.png) no-repeat;
-            background-size: 582%;
-            background-position: -70px 0;
+            background-size: 600%;
+            background-position: -6rem 0;
             width: 1.5rem;
             height: 1.5rem;
             display: inline-block;
@@ -9200,16 +9202,16 @@ main {
           main section ul.profile li.u_option div.save span {
             background-position: 0px 0; }
           main section ul.profile li.u_option div.translate span {
-            background-position: -37px 0; }
+            background-position: -2.3125rem 0; }
           main section ul.profile li.u_option div.get span {
-            background-position: -73px 0; }
+            background-position: -4.5625rem 0; }
   main article.banner_wrap {
     width: 21.75rem;
     height: 9.625rem;
     margin: 0 auto 0.625rem auto; }
   main article .banner {
-    width: 100%;
-    height: 100%;
+    width: 21.75rem;
+    height: 9.625rem;
     margin: 0 auto 0.625rem auto;
     background: url(../images/index/banner.png) no-repeat;
     background-size: cover;
@@ -9280,7 +9282,7 @@ main {
     main article.menu ul.game_kinds {
       width: calc(100% - 0.625rem);
       overflow-y: scroll;
-      padding: 2px 0 0 0;
+      padding: .125rem 0 0 0;
       float: right; }
       main article.menu ul.game_kinds li {
         margin: 0 auto 0.625rem auto;
@@ -9332,59 +9334,59 @@ main {
         main article.menu ul.game_kinds li.esport span.text {
           background-position: -24.5rem 0; }
         main article.menu ul.game_kinds li.esport span.item {
-          background-position: -360px 0; }
+          background-position: -22.5rem 0; }
         main article.menu ul.game_kinds li.tennis span.text {
           background-position: -36.5rem 0; }
         main article.menu ul.game_kinds li.tennis span.item {
-          background-position: -540px 0; }
+          background-position: -33.75rem 0; }
         main article.menu ul.game_kinds li.baseball span.text {
           background-position: -48.5rem 0; }
         main article.menu ul.game_kinds li.baseball span.item {
-          background-position: -714px 0; }
+          background-position: -44.625rem 0; }
         main article.menu ul.game_kinds li.horse_race span.text {
           background-position: -60.5rem 0; }
         main article.menu ul.game_kinds li.horse_race span.item {
-          background-position: -900px 0; }
+          background-position: -56.25rem 0; }
         main article.menu ul.game_kinds li.football span.text {
           background-position: -72.5rem 0; }
         main article.menu ul.game_kinds li.football span.item {
-          background-position: -1080px 0; }
+          background-position: -67.5rem 0; }
         main article.menu ul.game_kinds li.beach_soccer span.text {
           background-position: -84.5rem 0; }
         main article.menu ul.game_kinds li.beach_soccer span.item {
-          background-position: -1272px 0; }
+          background-position: -79.5rem 0; }
         main article.menu ul.game_kinds li.ice_hockey span.text {
           background-position: -97rem 0; }
         main article.menu ul.game_kinds li.ice_hockey span.item {
-          background-position: -1452px 0; }
+          background-position: -90.75rem 0; }
         main article.menu ul.game_kinds li.snooker span.text {
           background-position: -109rem 0; }
         main article.menu ul.game_kinds li.snooker span.item {
-          background-position: -1634px 0; }
+          background-position: -102.125rem 0; }
         main article.menu ul.game_kinds li.badminton span.text {
           background-position: -121.2rem 0; }
         main article.menu ul.game_kinds li.badminton span.item {
-          background-position: -1816px 0; }
+          background-position: -113.5rem 0; }
         main article.menu ul.game_kinds li.motor_sport span.text {
           background-position: -133.5rem 0; }
         main article.menu ul.game_kinds li.motor_sport span.item {
-          background-position: -1996px 0; }
+          background-position: -124.75rem 0; }
         main article.menu ul.game_kinds li.volleyball span.text {
           background-position: -145.5rem 0; }
         main article.menu ul.game_kinds li.volleyball span.item {
-          background-position: -2176px 0; }
+          background-position: -136rem 0; }
         main article.menu ul.game_kinds li.lottery span.text {
           background-position: -157.5rem 0; }
         main article.menu ul.game_kinds li.lottery span.item {
-          background-position: -2356px 0; }
+          background-position: -147.25rem 0; }
         main article.menu ul.game_kinds li.stock_index span.text {
           background-position: -169.5rem 0; }
         main article.menu ul.game_kinds li.stock_index span.item {
-          background-position: -2547px 0; }
+          background-position: -159.1875rem 0; }
         main article.menu ul.game_kinds li.table_tennis span.text {
           background-position: -182rem 0; }
         main article.menu ul.game_kinds li.table_tennis span.item {
-          background-position: -2723px 0; }
+          background-position: -170.1875rem 0; }
         main article.menu ul.game_kinds li div.title {
           position: absolute;
           z-index: 1;
@@ -9472,8 +9474,8 @@ footer {
   z-index: 200;
   bottom: 0;
   left: 0;
-  -webkit-box-shadow: 0 -3px 5px 0 #9c9c9c;
-  box-shadow: 0 -3px 5px 0 #9c9c9c;
+  -webkit-box-shadow: 0 -.1875rem 5px 0 #9c9c9c;
+  box-shadow: 0 -.1875rem 5px 0 #9c9c9c;
   border-top-left-radius: 1.25rem 1.25rem;
   border-top-right-radius: 1.25rem 1.25rem;
   background: #fff; }
@@ -9503,7 +9505,7 @@ footer {
         width: 1.5625rem;
         height: 1.375rem;
         display: inline-block;
-        margin: 0 0 2px 0; }
+        margin: 0 0 .125rem 0; }
       footer ul li.index span {
         background-position: 0px -0px; }
       footer ul li.index.active span {
@@ -9535,8 +9537,8 @@ footer {
             background-color: red;
             border-radius: 100%;
             position: absolute;
-            right: -2px;
-            top: -2px; }
+            right: -.125rem;
+            top: -.125rem; }
 
 .empty_page {
   text-align: center; }
@@ -9563,7 +9565,7 @@ footer {
     background: -o-linear-gradient(left, #9aa6e3 0%, #485cc4 100%);
     background: linear-gradient(to right, #9aa6e3 0%, #485cc4 100%);
     border: none;
-    border-radius: 3px;
+    border-radius: .1875rem;
     font-size: 0.9375rem;
     padding: .5rem 2.375rem; }
 
@@ -9601,7 +9603,7 @@ aside.hot_windows {
         width: 100%;
         height: 32%;
         background-color: #fff;
-        border-radius: 12px;
+        border-radius: 1.125rem;
         margin: 0 0 0.25rem 0;
         padding: 0 5%; }
         aside.hot_windows article.bg ul li div.lc {
@@ -9668,13 +9670,13 @@ aside.hot_windows {
       width: 2.5rem;
       height: 2.5rem;
       border-radius: 100%;
-      border: 2px solid white;
+      border: .125rem solid white;
       cursor: pointer;
       pointer-events: all; }
       aside.hot_windows article.bg span.close:before {
         content: "";
-        width: 15px;
-        height: 2px;
+        width: .9375rem;
+        height: .125rem;
         background-color: #fff;
         position: absolute;
         left: 50%;
@@ -9684,8 +9686,8 @@ aside.hot_windows {
         top: 50%; }
       aside.hot_windows article.bg span.close:after {
         content: "";
-        width: 15px;
-        height: 2px;
+        width: .9375rem;
+        height: .125rem;
         background-color: #fff;
         position: absolute;
         left: 50%;
@@ -9706,7 +9708,7 @@ aside.hot_windows {
       aside.hot_windows article.bg span.refresh:before {
         content: "換一批";
         position: absolute;
-        left: -52px;
+        left: -3.25rem;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -9715,7 +9717,7 @@ aside.hot_windows {
         font-weight: lighter;
         display: inline-block;
         line-height: 1.25rem;
-        width: 55px;
+        width: 3.4375rem;
         font-family: "微軟正黑體"; }
     aside.hot_windows article.bg span.get_one {
       font-family: "微軟正黑體";
@@ -9746,8 +9748,8 @@ aside.hot_windows {
     aside.hot_windows article.bg:after {
       content: "";
       position: absolute;
-      width: 126px;
-      height: 50px;
+      width: 7.875rem;
+      height: 3.125rem;
       background: url(../images/hot_window/text.png) no-repeat;
       background-size: cover;
       background-position: center center;
@@ -9759,8 +9761,8 @@ aside .hidden_title {
   padding: calc(2.5rem + 0.625rem) 0 0 0;
   position: fixed;
   width: 100%;
-  -webkit-box-shadow: 0 3px 5px 0 #e2e2e2;
-  box-shadow: 0 3px 5px 0 #e2e2e2; }
+  -webkit-box-shadow: 0 .1875rem 5px 0 #e2e2e2;
+  box-shadow: 0 .1875rem 5px 0 #e2e2e2; }
   aside .hidden_title .tack {
     width: 7.625rem;
     text-align: left;
