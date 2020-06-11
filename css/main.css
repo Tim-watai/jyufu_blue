@@ -908,7 +908,7 @@ main ul.sign_up_wrap {
     position: absolute;
     top: 5.125rem;
     right: 1rem;
-    width: calc(70% - 23px);
+    width: calc(70% - 1.4375rem);
     z-index: 8;
     border: 1px solid #b9bfdc;
     border-top: none;
@@ -973,7 +973,7 @@ main ul.sign_up_wrap {
           width: 0;
           height: 0;
           border-style: solid;
-          border-width: 5px 5px 0 5px;
+          border-width: .3125rem .3125rem 0 .3125rem;
           border-color: #4d515d transparent transparent transparent; }
     main ul.sign_up_wrap li.btn_wrap {
       overflow: hidden; }
@@ -983,7 +983,7 @@ main ul.sign_up_wrap {
         color: #fff;
         line-height: 2.1875rem;
         font-size: .9375rem;
-        letter-spacing: 5px;
+        letter-spacing: .3125rem;
         position: relative; }
         main ul.sign_up_wrap li.btn_wrap button:first-child {
           float: left;
@@ -1017,7 +1017,7 @@ aside.jump_window.adjust {
         height: 2.8125rem;
         border-radius: 100%;
         position: relative;
-        margin: 0 0 5px; }
+        margin: 0 0 .3125rem; }
         aside.jump_window.adjust .success .wrap span:before {
           content: "";
           position: absolute;
@@ -1029,8 +1029,8 @@ aside.jump_window.adjust {
           width: 40%;
           height: 60%;
           background: transparent;
-          border-right: 5px solid #fff;
-          border-bottom: 5px solid #fff; }
+          border-right: .3125rem solid #fff;
+          border-bottom: .3125rem solid #fff; }
       aside.jump_window.adjust .success .wrap p {
         color: #4d515d;
         font-size: 1.125rem; }
@@ -3253,10 +3253,10 @@ div.window_double_mode {
                 div.window_double_mode div.all_box div.content ul li.the_detail div.data span.title {
                   position: relative;
                   width: 100%;
-                  padding: 0 0 0 3px;
+                  padding: 0 0 0 .1875rem;
                   font-weight: bold;
                   font-size: 1.125rem;
-                  margin: 0 0 3px 0; }
+                  margin: 0 0 .1875rem 0; }
                   div.window_double_mode div.all_box div.content ul li.the_detail div.data span.title:before {
                     content: "";
                     position: absolute;
@@ -3285,14 +3285,14 @@ div.window_double_mode {
                   width: 100%;
                   font-size: .8rem;
                   font-weight: normal;
-                  margin: 0 0 3px 0; }
+                  margin: 0 0 .1875rem 0; }
                 div.window_double_mode div.all_box div.content ul li.the_detail div.data span.bottom {
                   color: #838ba0;
                   font-size: .8rem;
-                  margin: 0 0 3px 0; }
+                  margin: 0 0 .1875rem 0; }
                   div.window_double_mode div.all_box div.content ul li.the_detail div.data span.bottom span {
                     display: inline-block;
-                    margin: 0 6px 0 6px; }
+                    margin: 0 .375rem 0 .375rem; }
                 div.window_double_mode div.all_box div.content ul li.the_detail div.data span.tag {
                   color: #b2b6c2;
                   font-size: .8rem;
@@ -3388,7 +3388,7 @@ div.window_double_mode {
                 background-size: cover;
                 background-position: center center; }
             div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right {
-              margin: -.125rem 0 0px;
+              margin: -.125rem 0 0;
               position: relative; }
               div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input {
                 line-height: 1.5rem;
@@ -4522,14 +4522,14 @@ main.market aside ul li section.content span.horse_race_wrap {
 
 main.market aside ul li section.content span.horse_race_type {
   width: 100%;
-  height: 4vh;
+  height: 2rem;
   white-space: nowrap;
   position: relative;
   text-align: center;
-  line-height: 4vh; }
+  line-height: 2rem; }
   main.market aside ul li section.content span.horse_race_type p {
     color: #1b255c;
-    font-size: 1.7vh;
+    font-size: .875rem;
     line-height: 1;
     vertical-align: middle;
     display: inline-block; }
@@ -4538,8 +4538,8 @@ main.market aside ul li section.content span.horse_race_choice_box {
   width: 100%;
   text-align: right; }
   main.market aside ul li section.content span.horse_race_choice_box div {
-    line-height: 35px;
-    width: calc(50% - 2px);
+    line-height: 2.1875rem;
+    width: calc(50% - .125rem);
     background: #f6f8ff;
     position: relative; }
     main.market aside ul li section.content span.horse_race_choice_box div.active {
@@ -4552,7 +4552,7 @@ main.market aside ul li section.content span.horse_race_choice_box {
       float: right; }
     main.market aside ul li section.content span.horse_race_choice_box div p {
       display: inline-block;
-      font-size: 15px; }
+      font-size: .9375rem; }
       main.market aside ul li section.content span.horse_race_choice_box div p.point {
         color: #1b255c;
         font-weight: bold;
@@ -4568,9 +4568,9 @@ main.market aside ul li section.content span.horse_race_choice_box {
 
 main.market aside ul li section.content span.horse_race_line {
   background: #e0e3f3;
-  height: 2px;
+  height: .125rem;
   width: 100%;
-  margin: 2.5vw 0 2.5vw 0; }
+  margin: .5625rem 0 .5625rem 0; }
 
 main.market aside ul li section.content span.point_box p.no_wrap {
   white-space: nowrap; }
@@ -4579,28 +4579,28 @@ main.market aside ul li.motor_sport_li h1 {
   display: inline-block;
   color: #1b255c;
   font-weight: bold;
-  font-size: 1.8vh;
-  border-bottom: 2px solid #e0e3f3;
+  font-size: .875rem;
+  border-bottom: .125rem solid #e0e3f3;
   width: 100%;
-  padding: 3px 2.5vw 3px 2.5vw; }
+  padding: .1875rem .5625rem .1875rem .5625rem; }
 
 main.market aside ul li.motor_sport_li .wrap {
-  padding: 5px 0 10px 0; }
+  padding: .3125rem 0 .625rem 0; }
   main.market aside ul li.motor_sport_li .wrap .line_wrap {
     width: 100%;
-    padding: 0 8px 0 8px;
-    margin: 0 0 10px 0;
+    padding: 0 .5rem 0 .5rem;
+    margin: 0 0 .625rem 0;
     overflow: hidden; }
     main.market aside ul li.motor_sport_li .wrap .line_wrap:first-child {
-      margin: 0 0 10px 0; }
+      margin: 0 0 .625rem 0; }
     main.market aside ul li.motor_sport_li .wrap .line_wrap:last-child {
       margin: 0; }
     main.market aside ul li.motor_sport_li .wrap .line_wrap span {
       display: inline-block;
-      width: calc(50% - 4px);
+      width: calc(50% - .25rem);
       background: #f6f8ff;
-      padding: 0 6px;
-      line-height: 36px; }
+      padding: 0 .375rem;
+      line-height: 2.25rem; }
       main.market aside ul li.motor_sport_li .wrap .line_wrap span:first-child {
         float: left; }
       main.market aside ul li.motor_sport_li .wrap .line_wrap span:last-child {
@@ -4610,7 +4610,7 @@ main.market aside ul li.motor_sport_li .wrap {
       main.market aside ul li.motor_sport_li .wrap .line_wrap span p {
         display: inline-block;
         color: #1b255c;
-        font-size: 15px; }
+        font-size: .9375rem; }
         main.market aside ul li.motor_sport_li .wrap .line_wrap span p:first-child {
           -o-text-overflow: ellipsis;
           text-overflow: ellipsis;
@@ -4629,14 +4629,14 @@ aside.type_ch {
   z-index: 500;
   position: fixed;
   top: 0;
-  font-size: 14px; }
+  font-size: .875rem; }
   aside.type_ch.active {
     display: block; }
   aside.type_ch ul {
     background: #fff;
-    padding: 5vh 1.2em 0;
+    padding: 2.5rem 1.2em 0;
     overflow: hidden;
-    height: 12.6vh;
+    height: 6.375rem;
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
@@ -4651,7 +4651,7 @@ aside.type_ch {
       float: left;
       width: 25%;
       text-align: center;
-      line-height: 7.6vh; }
+      line-height: 3.8125rem; }
       aside.type_ch ul li p {
         line-height: 100%;
         font-size: 1em;
@@ -5711,9 +5711,9 @@ aside.my_windows_help_inner {
           height: 6.125rem; }
 
 aside.my_windows_mb_transfer {
-  padding: calc(5vh + 10px) 0 100px 0;
+  padding: calc(2.5rem + 10px) 0 100px 0;
   width: 100vw;
-  height: calc(100vh - 5vh - 10px);
+  height: calc(100vh - 2.5rem - 10px);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
@@ -5903,7 +5903,7 @@ aside.my_windows_mb_transfer {
               font-size: 4vw;
               margin: 3vw 0 0 0; }
   aside.my_windows_mb_transfer div.transfer_area {
-    margin: 1.5vh 0 0 0;
+    margin: .75rem 0 0 0;
     padding: 0 3vw;
     background: #fff;
     position: relative; }
@@ -6226,9 +6226,9 @@ aside.jump_window.my_windwos_transfer_fail .windows {
           z-index: 1; }
 
 aside.my_windows_mb_take_out {
-  padding: calc(5vh + 10px) 0 100px 0;
+  padding: calc(2.5rem + .625rem) 0 100px 0;
   width: 100vw;
-  height: calc(100vh - 5vh - 10px);
+  height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
   z-index: 0;
   display: inline-block;
@@ -6236,11 +6236,11 @@ aside.my_windows_mb_take_out {
   overflow-y: scroll; }
   aside.my_windows_mb_take_out div.content {
     width: 100vw;
-    padding: 0 3vw 0 3vw;
+    padding: 0 .6875rem 0 .6875rem;
     background: #fff; }
     aside.my_windows_mb_take_out div.content ul li {
       border-bottom: 1px solid #e0e3f3;
-      padding: 3vw 0 3vw 0;
+      padding: .6875rem 0 .6875rem 0;
       overflow: auto; }
       aside.my_windows_mb_take_out div.content ul li:last-child {
         border-bottom: none; }
@@ -6248,14 +6248,14 @@ aside.my_windows_mb_take_out {
         border: 1px solid #e0e3f3;
         color: #4d515d;
         border-radius: 4px;
-        padding: 2vw 0 2vw 2vw; }
+        padding: .5rem 0 .5rem .5rem; }
       aside.my_windows_mb_take_out div.content ul li p {
         display: inline-block;
-        font-size: 4.3vw; }
+        font-size: 1rem; }
         aside.my_windows_mb_take_out div.content ul li p:first-child {
           color: #4d515d;
-          width: 22vw;
-          padding: 0 0 0 2vw;
+          width: 5.125rem;
+          padding: 0 0 0 .5rem;
           font-weight: bold; }
         aside.my_windows_mb_take_out div.content ul li p.w_auto {
           width: auto;
@@ -6267,24 +6267,24 @@ aside.my_windows_mb_take_out {
           color: #959dc5;
           border: 1px solid #959dc5;
           border-radius: 4px;
-          padding: 2px 8px 2px 8px;
-          line-height: 16px;
-          margin: 0 8px 0 0;
+          padding: .125rem 8px .125rem 8px;
+          line-height: 1rem;
+          margin: 0 .5rem 0 0;
           letter-spacing: 1px; }
           aside.my_windows_mb_take_out div.content ul li p.copy:hover, aside.my_windows_mb_take_out div.content ul li p.copy:active, aside.my_windows_mb_take_out div.content ul li p.copy.active {
             color: #fff;
             background: #959dc5; }
   aside.my_windows_mb_take_out div.btn_area {
     text-align: center;
-    padding: 3vw 3vw 0 3vw; }
+    padding: .6875rem .6875rem 0 .6875rem; }
     aside.my_windows_mb_take_out div.btn_area button {
       width: 100%;
-      margin: 0 0 2vw 0;
-      padding: 3vw 0 3vw 0;
+      margin: 0 0 .5rem 0;
+      padding: .6875rem 0 .6875rem 0;
       background: #fff;
       border: none;
       color: #bec2cc;
-      font-size: 5vw;
+      font-size: 1.125rem;
       border-radius: 8px;
       font-weight: bold; }
       aside.my_windows_mb_take_out div.btn_area button.active {
@@ -6299,16 +6299,16 @@ aside.my_windows_mb_take_out {
       font-size: 4vw; }
   aside.my_windows_mb_take_out div.note {
     background: #fff;
-    margin: 22px 3vw 0 3vw;
-    padding: 3vw;
+    margin: 1.375rem .6875rem 0 .6875rem;
+    padding: .6875rem;
     border-radius: 8px; }
     aside.my_windows_mb_take_out div.note h1 {
-      font-size: 4.5vw;
+      font-size: 1.0625rem;
       color: #4d515d; }
     aside.my_windows_mb_take_out div.note p {
       font-size: 4vw;
       color: #838ba0;
-      line-height: 27px; }
+      line-height: 1.6875rem; }
 
 aside.my_windows_mb {
   margin: calc(2.5rem + .625rem) 0 0 0;

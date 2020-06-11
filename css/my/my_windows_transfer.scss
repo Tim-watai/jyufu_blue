@@ -1,8 +1,8 @@
 aside {
   &.my_windows_mb_transfer {
-    padding: calc(5vh + 10px) 0 100px 0;
+    padding: calc(2.5rem + 10px) 0 100px 0;
     width: 100vw;
-    height: calc(100vh - 5vh - 10px);
+    height: calc(100vh - 2.5rem - 10px);
     background: #f7f7f7;
     z-index: 0;
     display: inline-block;
@@ -247,7 +247,7 @@ aside {
         }
       }
       &.transfer_area {
-        margin: 1.5vh 0 0 0;
+        margin: .75rem 0 0 0;
         padding: 0 3vw;
         background: #fff;
         position: relative;

@@ -7,16 +7,16 @@ aside {
     z-index: 500;
     position: fixed;
     top: 0;
-    font-size: 14px;
+    font-size: .875rem;
     &.active {
       display: block;
       
     }
     ul {
       background: #fff;
-      padding: 5vh 1.2em 0;
+      padding: 2.5rem 1.2em 0;
       overflow: hidden;
-      height: 12.6vh;
+      height: 6.375rem;
       transform: translateY(-100%);
       transition: all 0.2s ease-in-out;
       &.active{
@@ -26,7 +26,7 @@ aside {
         float: left;
         width: 25%;
         text-align: center;
-        line-height: 7.6vh;
+        line-height: 3.8125rem;
         p {
           line-height: 100%;
           font-size: 1em;
