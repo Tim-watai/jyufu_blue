@@ -4089,6 +4089,22 @@ main.double_inner_page {
             background: #f6f8ff;
             line-height: 2.5rem;
             position: relative; }
+            main.double_inner_page ul li div.content span:hover:hover:hover, main.double_inner_page ul li div.content span:active:active:active, main.double_inner_page ul li div.content span.active.active.active {
+              background: #556de7; }
+              main.double_inner_page ul li div.content span:hover:hover:hover p, main.double_inner_page ul li div.content span:active:active:active p, main.double_inner_page ul li div.content span.active.active.active p {
+                color: #fff;
+                overflow: visible;
+                -o-text-overflow: none;
+                text-overflow: none; }
+                main.double_inner_page ul li div.content span:hover:hover:hover p:after, main.double_inner_page ul li div.content span:active:active:active p:after, main.double_inner_page ul li div.content span.active.active.active p:after {
+                  content: attr(showhints);
+                  color: #fff;
+                  position: absolute;
+                  background: #0000007a;
+                  border-radius: 0;
+                  left: 0%;
+                  top: 0%;
+                  width: 100%; }
             main.double_inner_page ul li div.content span.box_1 p {
               position: absolute;
               top: 50%;

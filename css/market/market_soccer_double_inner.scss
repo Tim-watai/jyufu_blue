@@ -532,6 +532,26 @@ main {
               line-height: 2.5rem;
               position: relative;
               //20200529_add
+              &:hover:hover:hover,&:active:active:active,&.active.active.active{
+                background: #556de7;
+                p{
+                  color: #fff;
+                  overflow: visible;
+                  text-overflow: none;
+                  &:after{
+                    content:attr(showhints);
+                    color: #fff;
+                    position: absolute;
+                    background: #0000007a;
+                    border-radius: 0;
+                    left: 0%;
+                    top: 0%;
+                    width: 100%;
+                  }
+                 
+
+                }
+              }
               &.box_1{
                 p{
                   position: absolute;
@@ -564,6 +584,7 @@ main {
                     display: -webkit-box;
                     -webkit-line-clamp: 2;
                     -webkit-box-orient: vertical;
+                    
                   }
                   &:last-child{
                     right: 20%;
