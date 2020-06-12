@@ -1829,20 +1829,20 @@ main.market {
               main.market aside ul li.beginner section.content span.time_more div:not(.more), main.market aside ul li.beginner section.content span.time_more div:not(.timing) {
                 display: inline-block;
                 background: url(../images/market/game_icons.png) no-repeat;
-                background-size: 810%;
-                width: 18px;
+                background-size: 800%;
+                width: 1.125rem;
                 height: .9375rem;
                 line-height: .9375rem;
                 position: relative;
                 vertical-align: bottom; }
               main.market aside ul li.beginner section.content span.time_more div.icon_game {
-                background-position: -55px 0; }
+                background-position: -3.375em 0; }
                 main.market aside ul li.beginner section.content span.time_more div.icon_game.yet.yet.yet {
-                  background-position: -73px 0; }
+                  background-position: -4.5rem 0; }
               main.market aside ul li.beginner section.content span.time_more div.icon_live {
-                background-position: -91px 0; }
+                background-position: -5.625rem 0; }
                 main.market aside ul li.beginner section.content span.time_more div.icon_live.yet.yet.yet {
-                  background-position: -110px 0; }
+                  background-position: -6.75rem 0; }
               main.market aside ul li.beginner section.content span.time_more div.timing {
                 color: #5875e0;
                 border: 1px solid #5875e0;
@@ -2218,20 +2218,20 @@ main.market {
                 main.market aside ul li.senior section.content span.point_box .live span {
                   display: inline-block;
                   background: url(../images/market/game_icons.png) no-repeat;
-                  background-size: 810%;
-                  width: 18px;
+                  background-size: 800%;
+                  width: 1.125rem;
                   height: .9375rem;
                   line-height: .9375rem;
                   position: relative;
                   vertical-align: bottom; }
                   main.market aside ul li.senior section.content span.point_box .live span.icon_game {
-                    background-position: -55px 0; }
+                    background-position: -3.375em 0; }
                     main.market aside ul li.senior section.content span.point_box .live span.icon_game.yet.yet.yet {
-                      background-position: -73px 0; }
+                      background-position: -4.5rem 0; }
                   main.market aside ul li.senior section.content span.point_box .live span.icon_live {
-                    background-position: -92px 0; }
+                    background-position: -5.625rem 0; }
                     main.market aside ul li.senior section.content span.point_box .live span.icon_live.yet.yet.yet {
-                      background-position: -109px 0; }
+                      background-position: -6.75rem 0; }
 
 footer ul.market li span {
   background: url(../images/footer_icons_market.png) no-repeat;
@@ -2270,7 +2270,7 @@ aside.bet_window {
     width: 80%;
     border-radius: 13px;
     position: relative;
-    top: 50%;
+    top: 48%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
@@ -5012,16 +5012,16 @@ aside.my_windows {
           display: inline-block; }
         aside.my_windows div.group ul li span {
           background: url(../images/my/main_icon.png) no-repeat;
-          background-size: 395%;
+          background-size: 400%;
           height: 2.1875rem;
           width: 2.375rem;
           margin: 0 0 .1875rem 0; }
           aside.my_windows div.group ul li span.record_icon {
-            background-position: -37px 0px; }
+            background-position: -2.375rem 0px; }
           aside.my_windows div.group ul li span.transaction_icon {
-            background-position: -75px 0px; }
+            background-position: -4.75rem 0px; }
           aside.my_windows div.group ul li span.card_icon {
-            background-position: -113px 0; }
+            background-position: -7.125rem 0; }
         aside.my_windows div.group ul li p {
           font-size: 1rem;
           font-weight: bold;
@@ -5066,7 +5066,7 @@ aside.my_windows {
           background: url(../images/my/my_windows_icons.png) no-repeat;
           width: 1.375rem;
           height: 1.375rem;
-          background-size: cover; }
+          background-size: 700%; }
           aside.my_windows div.row_btn p:first-child span.cr {
             background-position: -0px 0; }
           aside.my_windows div.row_btn p:first-child span.hp {
@@ -5480,7 +5480,7 @@ aside.my_windows_help {
         display: inline-block; }
         aside.my_windows_help ul.content li div.icon {
           background: url(../images/help_icon.png) no-repeat;
-          background-size: cover;
+          background-size: 800%;
           background-position: 0 0;
           width: 1.4375rem;
           height: 1.4375rem;
@@ -7785,7 +7785,11 @@ aside.help {
     padding: 1.25rem 0 1.25rem 1.25rem;
     border-radius: .5rem;
     position: absolute;
-    top: 3.75rem; }
+    top: 3.75rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
     aside.help .hellocard .avater {
       background: url(../images/my/avatar.png) no-repeat;
       background-size: 100%;
@@ -8212,13 +8216,14 @@ aside.event {
           letter-spacing: 1px;
           line-height: .75rem;
           padding: .3125rem .3125rem .3125rem .625rem;
-          width: 5.125rem; }
+          width: 5.625rem; }
           aside.event .event_content .card_wrap .card .detail_wrap p {
             line-height: 1;
             margin: 0 .3125rem 0 0;
             width: 3.25rem;
             text-align: center;
-            display: inline-block; }
+            display: inline-block;
+            white-space: nowrap; }
           aside.event .event_content .card_wrap .card .detail_wrap .icon {
             background: url(../images/icon/arrows_blue.png) no-repeat;
             background-size: 100%;
@@ -9040,6 +9045,8 @@ main {
   main section ul.hot_area {
     width: 21.75rem;
     height: 1.5625rem;
+    height: 4vh;
+    /*0612*/
     margin: 0 auto 0.625rem auto;
     line-height: 1.5625rem;
     white-space: nowrap;
@@ -9080,7 +9087,7 @@ main {
         cursor: pointer;
         white-space: nowrap;
         width: auto;
-        height: 100%;
+        height: 1.5625rem;
         line-height: 1.5625rem;
         padding: 0 .3125rem;
         text-align: center;
@@ -9109,6 +9116,8 @@ main {
     display: block;
     width: 21.75rem;
     height: 3.5rem;
+    height: 10vh;
+    /*0612*/
     margin: 0 auto;
     margin-bottom: 0.625rem;
     white-space: nowrap; }
@@ -9208,6 +9217,8 @@ main {
   main article.banner_wrap {
     width: 21.75rem;
     height: 9.625rem;
+    height: 23vh;
+    /*0612*/
     margin: 0 auto 0.625rem auto; }
   main article .banner {
     width: 21.75rem;
@@ -9220,6 +9231,8 @@ main {
   main article.menu {
     width: 21.75rem;
     height: 27.5rem;
+    height: 43vh;
+    /*0612*/
     margin: 0 auto;
     overflow: hidden; }
     main article.menu aside.btn_group {

@@ -88,13 +88,14 @@ aside {
                   letter-spacing: 1px;
                   line-height: .75rem;
                   padding: .3125rem .3125rem .3125rem .625rem;
-                  width: 5.125rem;
+                  width: 5.625rem;
                   p {
                     line-height: 1;
                     margin: 0 .3125rem 0 0;
                     width: 3.25rem;
                     text-align: center;
                     display: inline-block;
+                    white-space: nowrap;
                   }
                   .icon {
                     background: url(../images/icon/arrows_blue.png) no-repeat;
