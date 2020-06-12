@@ -4123,28 +4123,10 @@ main.double_inner_page {
               top: 115%;
               left: 5%;
               opacity: 0; }
-            main.double_inner_page ul li div.content span.active.active.active {
+            main.double_inner_page ul li div.content span:hover:hover:hover, main.double_inner_page ul li div.content span.active.active.active {
               background: #556de7; }
-              main.double_inner_page ul li div.content span.active.active.active:after {
-                left: 0; }
-              main.double_inner_page ul li div.content span.active.active.active:before {
-                left: 5%; }
-              main.double_inner_page ul li div.content span.active.active.active p {
+              main.double_inner_page ul li div.content span:hover:hover:hover p, main.double_inner_page ul li div.content span.active.active.active p {
                 color: #fff; }
-              main.double_inner_page ul li div.content span.active.active.active:after {
-                margin-top: 0;
-                opacity: 1;
-                -webkit-transition: opacity 0.2s ease-in-out ,margin 0.3 ease-in-out;
-                -o-transition: opacity 0.2s ease-in-out ,margin 0.3 ease-in-out;
-                transition: opacity 0.2s ease-in-out ,margin 0.3 ease-in-out;
-                z-index: 1; }
-              main.double_inner_page ul li div.content span.active.active.active:before {
-                margin-top: 0;
-                opacity: 1;
-                -webkit-transition: opacity 0.2s ease-in-out ,margin 0.3 ease-in-out;
-                -o-transition: opacity 0.2s ease-in-out ,margin 0.3 ease-in-out;
-                transition: opacity 0.2s ease-in-out ,margin 0.3 ease-in-out;
-                z-index: 1; }
             main.double_inner_page ul li div.content span.box_1 p {
               position: absolute;
               top: 50%;

@@ -567,30 +567,30 @@ main {
               }
               //2020_0612
               
-              &.active.active.active{
+              &:hover:hover:hover,&.active.active.active{
                 background: #556de7;
-               
-                  &:after{
-                    left: 0;
-                  }
-                  &:before{
-                    left: 5%;
-                  }
                 p{
                   color: #fff;
                 }
-                &:after{
-                  margin-top: 0;
-                  opacity: 1;
-                  transition: opacity 0.2s ease-in-out ,margin 0.3 ease-in-out;
-                  z-index: 1;
-                }
-                &:before{
-                  margin-top: 0;
-                  opacity: 1;
-                  transition: opacity 0.2s ease-in-out ,margin 0.3 ease-in-out;
-                  z-index: 1;
-                }
+                //   &:after{
+                //     left: 0;
+                //   }
+                //   &:before{
+                //     left: 5%;
+                //   }
+              
+                // &:after{
+                //   margin-top: 0;
+                //   opacity: 1;
+                //   transition: opacity 0.2s ease-in-out ,margin 0.3 ease-in-out;
+                //   z-index: 1;
+                // }
+                // &:before{
+                //   margin-top: 0;
+                //   opacity: 1;
+                //   transition: opacity 0.2s ease-in-out ,margin 0.3 ease-in-out;
+                //   z-index: 1;
+                // }
               }
               // &:hover:hover:hover,&:active:active:active,&.active.active.active{
               //   background: #556de7;
