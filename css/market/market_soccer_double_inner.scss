@@ -486,6 +486,19 @@ main {
               float: right;
               margin: 0;
             }
+            //0616
+            &.free_h{
+              height: auto;
+            }
+            &.form_1{
+              margin: 0 .5rem 0;
+              padding: 0;
+              span{
+                  width: 100%;
+                  height: 2.8125rem;
+                  margin: 0;
+              }
+          }
             &.form_2{
                 span{
                     width: calc(100% / 2 - .1875rem);
@@ -533,38 +546,38 @@ main {
               position: relative;
               //20200529_add
 
-              &:after{
-                content:attr(showhints);
-                position: absolute;
-                transition: all 0.2s linear;
-                margin-top: .625rem;
-                top: 135%;
-                left: 5%;
-                font-size: .8rem;
-                line-height: 1;
-                opacity: 0;
-                color: #fff;
-                position: absolute;
-                background: #0000007a;
-                line-height: 1.3;
-                padding: .5rem;
-                border-radius: .25rem;
-                width: 100%;
-              }
-              &:before{
-                position: absolute;
-                content:'';
-                width: 0;
-                height: 0;
-                border-style: solid;
-                border-width: 0 .25rem .5rem .25rem;
-                border-color: transparent transparent #0000007a transparent;
-                transition: all 0.2s linear;
-                margin-top: .625rem;
-                top: 115%;
-                left: 5%;
-                opacity: 0;
-              }
+              // &:after{
+              //   content:attr(showhints);
+              //   position: absolute;
+              //   transition: all 0.2s linear;
+              //   margin-top: .625rem;
+              //   top: 135%;
+              //   left: 5%;
+              //   font-size: .8rem;
+              //   line-height: 1;
+              //   opacity: 0;
+              //   color: #fff;
+              //   position: absolute;
+              //   background: #0000007a;
+              //   line-height: 1.3;
+              //   padding: .5rem;
+              //   border-radius: .25rem;
+              //   width: 100%;
+              // }
+              // &:before{
+              //   position: absolute;
+              //   content:'';
+              //   width: 0;
+              //   height: 0;
+              //   border-style: solid;
+              //   border-width: 0 .25rem .5rem .25rem;
+              //   border-color: transparent transparent #0000007a transparent;
+              //   transition: all 0.2s linear;
+              //   margin-top: .625rem;
+              //   top: 115%;
+              //   left: 5%;
+              //   opacity: 0;
+              // }
               //2020_0612
               
               &:hover:hover:hover,&.active.active.active{
