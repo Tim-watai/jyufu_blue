@@ -3978,10 +3978,10 @@ main.double_inner_page {
     main.double_inner_page ul li {
       background: #fff;
       width: 100%;
-      margin: 0 0 .625rem 0; }
+      margin: 0 0 .625rem 0;
+      overflow: hidden; }
       main.double_inner_page ul li div {
-        height: 2.375rem;
-        margin: 0 .5rem 0 .5rem; }
+        margin: 0 .5rem .438rem .5rem; }
         main.double_inner_page ul li div.title {
           position: relative;
           height: 2.375rem;
@@ -4069,6 +4069,7 @@ main.double_inner_page {
               margin: 0; }
           main.double_inner_page ul li div.content.form_2 span {
             width: calc(100% / 2 - .1875rem);
+            height: 2.8125rem;
             margin: 0 .1875rem 0 0; }
             main.double_inner_page ul li div.content.form_2 span:first-child {
               float: left; }
@@ -4077,6 +4078,7 @@ main.double_inner_page {
               float: right; }
           main.double_inner_page ul li div.content.form_3 span {
             width: calc(100% / 3 - .1875rem);
+            height: 2.8125rem;
             margin: 0 .28125rem 0 0; }
             main.double_inner_page ul li div.content.form_3 span:first-child {
               float: left; }

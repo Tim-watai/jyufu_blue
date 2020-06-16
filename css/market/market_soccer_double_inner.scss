@@ -402,9 +402,10 @@ main {
         background: #fff;
         width: 100%;
         margin: 0 0 .625rem 0;
+        overflow: hidden;
         div {
-          height: 2.375rem;
-          margin: 0 .5rem 0 .5rem;
+          // height: 2.375rem;
+          margin: 0 .5rem .438rem .5rem;
           &.title {
             position: relative;
             height: 2.375rem;
@@ -498,8 +499,12 @@ main {
               }
           }
             &.form_2{
+              // margin: 0 .5rem 0;
+              // padding: 0;
+              // height: auto;
                 span{
                     width: calc(100% / 2 - .1875rem);
+                    height: 2.8125rem;
                     margin: 0 .1875rem 0 0;
                     &:first-child{
                       float: left;
@@ -511,8 +516,12 @@ main {
                 }
             }
             &.form_3 {
+              // margin: 0 .5rem 0;
+              // padding: 0;
+              // height: auto;
               span {
                 width: calc(100% / 3 - .1875rem);
+                height: 2.8125rem;
                 margin: 0 .28125rem 0 0;
                 &:first-child{
                   float: left;
