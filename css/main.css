@@ -4059,11 +4059,10 @@ main.double_inner_page {
           main.double_inner_page ul li div.content .right.right {
             float: right;
             margin: 0; }
-          main.double_inner_page ul li div.content.free_h {
-            height: auto; }
           main.double_inner_page ul li div.content.form_1 {
             margin: 0 .5rem 0;
-            padding: 0; }
+            padding: 0;
+            height: auto; }
             main.double_inner_page ul li div.content.form_1 span {
               width: 100%;
               height: 2.8125rem;
