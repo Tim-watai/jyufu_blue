@@ -1476,16 +1476,36 @@ nav.kinds {
       pointer-events: all;
       margin: 0 1.25rem 0 0;
       position: relative; }
+      nav.kinds ul li p {
+        position: relative; }
       nav.kinds ul li:last-child {
         margin: 0 0 0 0; }
       nav.kinds ul li.active {
-        color: #4d515d; }
+        color: #172dff; }
+        nav.kinds ul li.active p:before {
+          position: absolute;
+          content: '';
+          bottom: -80%;
+          height: .25rem;
+          left: 50%;
+          -webkit-transform: translate(-50%, 0);
+          -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+          width: 4em;
+          background: #3259ff;
+          border-radius: 100px; }
         nav.kinds ul li.active span.kind_icon {
           display: inline-block;
           background: url(../images/market/kinds.png) no-repeat;
           background-size: 1800%;
           width: 1.5625rem;
-          height: 1.375rem; }
+          height: 1.375rem;
+          -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+          transform: scale(1.2);
+          -webkit-transition: all .2s ease-in-out;
+          -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out; }
         nav.kinds ul li.active span.all {
           background-position: -1.5625rem 0; }
         nav.kinds ul li.active span.loves {
@@ -1531,43 +1551,49 @@ nav.kinds {
           background: url(../images/market/kinds.png) no-repeat;
           background-size: 1800%;
           width: 1.5625rem;
-          height: 1.375rem; }
+          height: 1.375rem;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+          -webkit-transition: all .2s ease-in-out;
+          -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out; }
         nav.kinds ul li div span.all {
-          background-position: -1.5625rem -1.25rem; }
+          background-position: -1.5625rem 0; }
         nav.kinds ul li div span.loves {
-          background-position: -0px -1.25rem; }
+          background-position: -0px 0; }
         nav.kinds ul li div span.soccer {
-          background-position: -3.125rem -1.25rem; }
+          background-position: -3.125rem 1px; }
         nav.kinds ul li div span.basketball {
-          background-position: -6.25rem -1.25rem; }
+          background-position: -6.25rem 1px; }
         nav.kinds ul li div span.horse {
-          background-position: -7.8125rem -1.25rem; }
+          background-position: -7.8125rem 0; }
         nav.kinds ul li div span.e_sport {
-          background-position: -9.375rem -1.25rem; }
+          background-position: -9.375rem 2px; }
         nav.kinds ul li div span.graph {
-          background-position: -10.9375rem -1.25rem; }
+          background-position: -10.9375rem 0; }
         nav.kinds ul li div span.color_ball {
-          background-position: -12.5rem -1.25rem; }
+          background-position: -12.5rem 1px; }
         nav.kinds ul li div span.ice_ball {
-          background-position: -14.0625rem -1.375rem; }
+          background-position: -14.0625rem 1px; }
         nav.kinds ul li div span.basball {
-          background-position: -4.6875rem -1.25rem; }
+          background-position: -4.6875rem 1px; }
         nav.kinds ul li div span.tennis {
-          background-position: -15.625rem -1.25rem; }
+          background-position: -15.625rem 1px; }
         nav.kinds ul li div span.snooker {
-          background-position: -17.1875rem -1.25rem; }
+          background-position: -17.1875rem 1px; }
         nav.kinds ul li div span.volleyball {
-          background-position: -18.75rem -1.25rem; }
+          background-position: -18.75rem 1px; }
         nav.kinds ul li div span.motor_sport {
-          background-position: -20.3125rem -1.25rem; }
+          background-position: -20.3125rem 1px; }
         nav.kinds ul li div span.badminton {
-          background-position: -21.875rem -1.25rem; }
+          background-position: -21.875rem 1px; }
         nav.kinds ul li div span.football {
-          background-position: -23.4375rem -1.25rem; }
+          background-position: -23.4375rem 1px; }
         nav.kinds ul li div span.table_tennis {
-          background-position: -26.5625rem -1.25rem; }
+          background-position: -26.5625rem 1px; }
         nav.kinds ul li div span.beach_soccer {
-          background-position: -25rem -1.25rem; }
+          background-position: -25rem 1px; }
         nav.kinds ul li div p {
           font-size: .7rem;
           line-height: 1;
@@ -1817,7 +1843,7 @@ main.market {
               main.market aside ul li.beginner section.content span.time_more span {
                 display: inline-block; }
                 main.market aside ul li.beginner section.content span.time_more span.time {
-                  color: #838ba0;
+                  color: #56585d;
                   margin: 0 0 0 3px;
                   font-size: .8rem;
                   height: auto;
@@ -1980,7 +2006,7 @@ main.market {
               main.market aside ul li.beginner section.content span.num_group div {
                 display: inline-block;
                 text-align: center;
-                width: 25%;
+                width: 30%;
                 line-height: 1.25rem;
                 background-color: #f6f8ff; }
                 main.market aside ul li.beginner section.content span.num_group div.active {
@@ -3978,10 +4004,10 @@ main.double_inner_page {
     main.double_inner_page ul li {
       background: #fff;
       width: 100%;
-      margin: 0 0 .625rem 0;
-      overflow: hidden; }
+      margin: 0 0 .625rem 0; }
       main.double_inner_page ul li div {
-        margin: 0 .5rem .438rem .5rem; }
+        height: 2.375rem;
+        margin: 0 .5rem 0 .5rem; }
         main.double_inner_page ul li div.title {
           position: relative;
           height: 2.375rem;
@@ -4069,7 +4095,6 @@ main.double_inner_page {
               margin: 0; }
           main.double_inner_page ul li div.content.form_2 span {
             width: calc(100% / 2 - .1875rem);
-            height: 2.8125rem;
             margin: 0 .1875rem 0 0; }
             main.double_inner_page ul li div.content.form_2 span:first-child {
               float: left; }
@@ -4078,7 +4103,6 @@ main.double_inner_page {
               float: right; }
           main.double_inner_page ul li div.content.form_3 span {
             width: calc(100% / 3 - .1875rem);
-            height: 2.8125rem;
             margin: 0 .28125rem 0 0; }
             main.double_inner_page ul li div.content.form_3 span:first-child {
               float: left; }
@@ -4683,6 +4707,31 @@ aside.type_ch {
           color: #fff;
           background: #7b8bd7;
           border: 1px solid transparent; }
+
+.no_game {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .no_game .no_game_wrap {
+    line-height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .no_game .no_game_wrap .no_game_i {
+      background: url(../images/market/no_game.png) no-repeat;
+      background-size: cover;
+      width: 13rem;
+      height: 13rem;
+      display: inline-block; }
+    .no_game .no_game_wrap p {
+      color: #838ba2;
+      font-size: 1.1rem;
+      margin: 1.5rem 0 0; }
 
 aside.set_pw {
   width: 100%;
@@ -5875,7 +5924,7 @@ aside.my_windows_mb_transfer {
               height: 0;
               border-style: solid;
               border-width: .46875rem .46875rem 0 .46875rem;
-              border-color: #95969a transparent transparent transparent; }
+              border-color: #95969a transparent transparent transparent; }
             aside.my_windows_mb_transfer div.content div.groups div.line span.active p em:hover:after {
               content: "LB彩票和PG電子的遊戲錢包";
               position: absolute;
@@ -8703,7 +8752,7 @@ aside.teach .content.teach_bs {
                   height: 0;
                   border-style: solid;
                   border-width: 0 .3125rem .3125rem .3125rem;
-                  border-color: transparent transparent #f30d0d transparent;
+                  border-color: transparent transparent #f30d0d transparent;
                   display: inline-block;
                   vertical-align: middle;
                   margin: 0 .3125rem 0 -.3125rem; }
@@ -8716,7 +8765,7 @@ aside.teach .content.teach_bs {
                   height: 0;
                   border-style: solid;
                   border-width: .3125rem .3125rem 0 .3125rem;
-                  border-color: #04d052 transparent transparent transparent;
+                  border-color: #04d052 transparent transparent transparent;
                   display: inline-block;
                   vertical-align: middle;
                   margin: 0 .3125rem 0 -.3125rem; }

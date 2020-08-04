@@ -157,11 +157,27 @@ nav {
         pointer-events: all;
         margin: 0 1.25rem 0 0;
         position: relative;
+        p{
+          position: relative;
+        }
         &:last-child {
           margin: 0 0 0 0;
         }
         &.active {
-          color: #4d515d;
+          color: #172dff;
+          p{
+            &:before{
+              position: absolute;
+              content: '';
+              bottom: -80%;
+              height: .25rem;
+              left: 50%;
+              transform: translate(-50%, 0);
+              width: 4em;
+              background: #3259ff;
+              border-radius: 100px;
+            }
+          }
           span {
             &.kind_icon {
               display: inline-block;
@@ -169,6 +185,8 @@ nav {
               background-size: 1800%;
               width: 1.5625rem;
               height: 1.375rem;
+              transform: scale(1.2);
+              transition: all .2s ease-in-out;
             }
             &.all {
               background-position: -1.5625rem 0;
@@ -225,76 +243,140 @@ nav {
               background-position: -25rem 1px;
             }
           }
-        }
+        }//active
         div {
           text-align: center;
           float: left;
           line-height: 1.125rem;
           span {
-            &.kind_icon {
-              display: inline-block;
-              background: url(../images/market/kinds.png) no-repeat;
-              background-size: 1800%;
-              //1950
-              // width: 1.375rem;
-              width: 1.5625rem;
-              height: 1.375rem;
-            }
-            &.all {
-              background-position: -1.5625rem -1.25rem;
-            }
-            &.loves {
-              background-position: -0px -1.25rem;
-            }
-            &.soccer {
-              background-position: -3.125rem -1.25rem;
-            }
-            &.basketball {
-              background-position: -6.25rem -1.25rem;
-            }
-            &.horse {
-              background-position: -7.8125rem -1.25rem;
-            }
-            &.e_sport {
-              background-position: -9.375rem -1.25rem;
-            }
-            &.graph {
-              background-position: -10.9375rem -1.25rem;
-            }
-            &.color_ball {
-              background-position: -12.5rem -1.25rem;
-            }
-            &.ice_ball {
-              background-position: -14.0625rem -1.375rem;
-            }
-            &.basball {
-              background-position: -4.6875rem -1.25rem;
-            }
-            &.tennis {
-              background-position: -15.625rem -1.25rem;
-            }
-            &.snooker {
-              background-position: -17.1875rem -1.25rem;
-            }
-            &.volleyball {
-              background-position: -18.75rem -1.25rem;
-            }
-            &.motor_sport {
-              background-position: -20.3125rem -1.25rem;
-            }
-            &.badminton {
-              background-position: -21.875rem -1.25rem;
-            }
-            &.football {
-              background-position: -23.4375rem -1.25rem;
-            }
-            &.table_tennis {
-              background-position: -26.5625rem -1.25rem;
-            }
-            &.beach_soccer {
-              background-position: -25rem -1.25rem;
-            }
+          &.kind_icon {
+            display: inline-block;
+            background: url(../images/market/kinds.png) no-repeat;
+            background-size: 1800%;
+            width: 1.5625rem;
+            height: 1.375rem;
+            transform: scale(1);
+            transition: all .2s ease-in-out;
           }
+        
+          &.all {
+            background-position: -1.5625rem 0;
+          }
+          &.loves {
+            background-position: -0px 0;
+          }
+          &.soccer {
+            background-position: -3.125rem 1px;
+          }
+          &.basketball {
+            background-position: -6.25rem 1px;
+          }
+          &.horse {
+            background-position: -7.8125rem 0;
+          }
+          &.e_sport {
+            background-position: -9.375rem 2px;
+          }
+          &.graph {
+            background-position: -10.9375rem 0;
+          }
+          &.color_ball {
+            background-position: -12.5rem 1px;
+          }
+          &.ice_ball {
+            background-position: -14.0625rem 1px;
+          }
+          &.basball {
+            background-position: -4.6875rem 1px;
+          }
+          &.tennis {
+            background-position: -15.625rem 1px;
+          }
+          &.snooker {
+            background-position: -17.1875rem 1px;
+          }
+          &.volleyball {
+            background-position: -18.75rem 1px;
+          }
+          &.motor_sport {
+            background-position: -20.3125rem 1px;
+          }
+          &.badminton {
+            background-position: -21.875rem 1px;
+          }
+          &.football {
+            background-position: -23.4375rem 1px;
+          }
+          &.table_tennis {
+            background-position: -26.5625rem 1px;
+          }
+          &.beach_soccer {
+            background-position: -25rem 1px;
+          }
+        }
+          // span {
+          //   &.kind_icon {
+          //     display: inline-block;
+          //     background: url(../images/market/kinds.png) no-repeat;
+          //     background-size: 1800%;
+          //     width: 1.5625rem;
+          //     height: 1.375rem;
+          //   }
+          //   &.all {
+          //     background-position: -1.5625rem -1.25rem;
+          //   }
+          //   &.loves {
+          //     background-position: -0px -1.25rem;
+          //   }
+          //   &.soccer {
+          //     background-position: -3.125rem -1.25rem;
+          //   }
+          //   &.basketball {
+          //     background-position: -6.25rem -1.25rem;
+          //   }
+          //   &.horse {
+          //     background-position: -7.8125rem -1.25rem;
+          //   }
+          //   &.e_sport {
+          //     background-position: -9.375rem -1.25rem;
+          //   }
+          //   &.graph {
+          //     background-position: -10.9375rem -1.25rem;
+          //   }
+          //   &.color_ball {
+          //     background-position: -12.5rem -1.25rem;
+          //   }
+          //   &.ice_ball {
+          //     background-position: -14.0625rem -1.375rem;
+          //   }
+          //   &.basball {
+          //     background-position: -4.6875rem -1.25rem;
+          //   }
+          //   &.tennis {
+          //     background-position: -15.625rem -1.25rem;
+          //   }
+          //   &.snooker {
+          //     background-position: -17.1875rem -1.25rem;
+          //   }
+          //   &.volleyball {
+          //     background-position: -18.75rem -1.25rem;
+          //   }
+          //   &.motor_sport {
+          //     background-position: -20.3125rem -1.25rem;
+          //   }
+          //   &.badminton {
+          //     background-position: -21.875rem -1.25rem;
+          //   }
+          //   &.football {
+          //     background-position: -23.4375rem -1.25rem;
+          //   }
+          //   &.table_tennis {
+          //     background-position: -26.5625rem -1.25rem;
+          //   }
+          //   &.beach_soccer {
+          //     background-position: -25rem -1.25rem;
+          //   }
+          // }
           p {
             font-size: .7rem;
             line-height: 1;
@@ -641,7 +723,8 @@ main {
                     span {
                       display: inline-block;
                       &.time {
-                        color: #838ba0;
+                        // color: #838ba0;
+                        color: #56585d;
                         margin: 0 0 0 3px;
                         font-size: .8rem;
                         height: auto;
@@ -850,7 +933,9 @@ main {
                     div {
                       display: inline-block;
                       text-align: center;
-                      width: 25%;
+                      //2020_0804
+                      // width: 25%;
+                      width: 30%;
                       line-height: 1.25rem;
                       background-color: #f6f8ff;
                       &.active {
