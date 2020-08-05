@@ -145,7 +145,7 @@ nav {
       overflow: hidden;
       overflow-x: scroll;
       white-space: nowrap;
-      padding: 0 1.875rem;
+      // padding: 0 1.875rem;
       li {
         display: inline-block;
         width: auto;
@@ -155,8 +155,17 @@ nav {
         white-space: nowrap;
         text-align: center;
         pointer-events: all;
-        margin: 0 1.25rem 0 0;
+        // margin: 0 1.25rem 0;
+        padding: 0 .625rem 0;
         position: relative;
+        // opacity: .5;
+        &:first-child{
+          padding: 0 .625rem 0 1.25rem;
+        }
+        &:last-child{
+          padding: 0 1.25rem 0 .625rem;
+        }
+      
         p{
           position: relative;
         }
@@ -165,6 +174,12 @@ nav {
         }
         &.active {
           color: #172dff;
+          position: sticky;
+          left: 0px;
+          right: 0px;
+          z-index: 5;
+          opacity: 1;
+          background: #fff;
           p{
             &:before{
               position: absolute;
@@ -670,9 +685,13 @@ main {
                 &:nth-child(odd) {
                   background: #eef1ff;
                   span {
-                    &.num_group {
-                      div {
-                        background-color: #fff;
+                    &.n_bet_box_2,.n_bet_box_3{
+                      .wrap{
+                        .box{
+                          .in{
+                            background: #fff;
+                          }
+                        }
                       }
                     }
                     &.horse_race_choice_box{
@@ -918,6 +937,7 @@ main {
                   &.num_group {
                     width: 100%;
                     text-align: center;
+                    
                     &.two_mode {
                       div {
                         background-color: #f6f8ff;
@@ -1308,6 +1328,9 @@ footer {
   ul {
     &.market {
       li {
+        p{
+          font-size: 0.813rem;
+        }
         span {
           background: url(../images/footer_icons_market.png) no-repeat;
           background-size: cover;

@@ -11,6 +11,7 @@ nav{
                     position: relative;
                     &.active{
                         color:#4d515d;
+                        position: relative;
                         &:before{
                             content:'';
                             position: absolute;

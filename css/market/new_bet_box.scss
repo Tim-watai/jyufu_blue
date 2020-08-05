@@ -1,0 +1,95 @@
+.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3,
+.n_bet_box_2,.n_bet_box_2,.n_bet_box_2,.n_bet_box_2,.n_bet_box_2,.n_bet_box_2,.n_bet_box_2,{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    height: 3rem;
+    .wrap{
+        position: relative;
+        margin-right: -0.313rem;
+        height: 100%;
+        padding: 0 1rem;
+    }
+  
+}
+.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3
+{
+    .box{
+        width: 33.33%;
+        float: left;
+        height: 100%;
+        .in{
+            margin-right: 0.313rem;
+            background-color: #f6f8ff;
+            height: 100%;
+            line-height: 3rem;
+            &:hover,&.active{
+                background: #556de7;
+                .t_wrap{
+                    p,span{
+                        color: #fff;
+                    }
+                }
+            }
+            .t_wrap{
+                line-height: 1;
+                vertical-align: middle;
+                display: inline-block;
+                p{
+                    color: #838ba0;
+                
+                }
+                span{
+                    margin-top: .375rem;
+                    color: #1b255c;
+                    font-weight: bold;
+                }
+                p,span{
+                    line-height: 1;
+                    font-size: 0.938em;
+                }
+            }
+        }
+    }
+}
+.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2{
+    .box{
+        width: 50%;
+        float: left;
+        height: 100%;
+        .in{
+            margin-right: 0.313rem;
+            background-color: #f6f8ff;
+            height: 100%;
+            line-height: 3rem;
+            &:hover,&.active{
+                background: #556de7;
+                .t_wrap{
+                    p,span{
+                        color: #fff;
+                    }
+                }
+            }
+            .t_wrap{
+                line-height: 1;
+                vertical-align: middle;
+                display: inline-block;
+                p{
+                    color: #838ba0;
+                
+                }
+                span{
+                    margin-top: .375rem;
+                    color: #1b255c;
+                    font-weight: bold;
+                }
+                p,span{
+                    line-height: 1;
+                    font-size: 0.938em;
+                }
+            }
+        }
+    }
+}

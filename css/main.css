@@ -1463,8 +1463,7 @@ nav.kinds {
     line-height: 3.75rem;
     overflow: hidden;
     overflow-x: scroll;
-    white-space: nowrap;
-    padding: 0 1.875rem; }
+    white-space: nowrap; }
     nav.kinds ul li {
       display: inline-block;
       width: auto;
@@ -1474,14 +1473,25 @@ nav.kinds {
       white-space: nowrap;
       text-align: center;
       pointer-events: all;
-      margin: 0 1.25rem 0 0;
+      padding: 0 .625rem 0;
       position: relative; }
+      nav.kinds ul li:first-child {
+        padding: 0 .625rem 0 1.25rem; }
+      nav.kinds ul li:last-child {
+        padding: 0 1.25rem 0 .625rem; }
       nav.kinds ul li p {
         position: relative; }
       nav.kinds ul li:last-child {
         margin: 0 0 0 0; }
       nav.kinds ul li.active {
-        color: #172dff; }
+        color: #172dff;
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0px;
+        right: 0px;
+        z-index: 5;
+        opacity: 1;
+        background: #fff; }
         nav.kinds ul li.active p:before {
           position: absolute;
           content: '';
@@ -1821,8 +1831,8 @@ main.market {
             position: relative; }
           main.market aside ul li.beginner section.content:nth-child(odd) {
             background: #eef1ff; }
-            main.market aside ul li.beginner section.content:nth-child(odd) span.num_group div {
-              background-color: #fff; }
+            main.market aside ul li.beginner section.content:nth-child(odd) span.n_bet_box_2 .wrap .box .in, main.market aside ul li.beginner section.content:nth-child(odd) span .n_bet_box_3 .wrap .box .in {
+              background: #fff; }
             main.market aside ul li.beginner section.content:nth-child(odd) span.horse_race_choice_box div {
               background: #fff; }
           main.market aside ul li.beginner section.content.blue {
@@ -2258,6 +2268,9 @@ main.market {
                     background-position: -5.625rem 0; }
                     main.market aside ul li.senior section.content span.point_box .live span.icon_live.yet.yet.yet {
                       background-position: -6.75rem 0; }
+
+footer ul.market li p {
+  font-size: 0.813rem; }
 
 footer ul.market li span {
   background: url(../images/footer_icons_market.png) no-repeat;
@@ -4202,7 +4215,8 @@ nav.kinds ul.early {
   nav.kinds ul.early li {
     position: relative; }
     nav.kinds ul.early li.active {
-      color: #4d515d; }
+      color: #4d515d;
+      position: relative; }
       nav.kinds ul.early li.active:before {
         content: '';
         position: absolute;
@@ -4707,6 +4721,75 @@ aside.type_ch {
           color: #fff;
           background: #7b8bd7;
           border: 1px solid transparent; }
+
+.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3,
+.n_bet_box_2, .n_bet_box_2, .n_bet_box_2, .n_bet_box_2, .n_bet_box_2, .n_bet_box_2, .n_bet_box_2 {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+  height: 3rem; }
+  .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .wrap,
+  .n_bet_box_2 .wrap, .n_bet_box_2 .wrap, .n_bet_box_2 .wrap, .n_bet_box_2 .wrap, .n_bet_box_2 .wrap, .n_bet_box_2 .wrap, .n_bet_box_2 .wrap {
+    position: relative;
+    margin-right: -0.313rem;
+    height: 100%;
+    padding: 0 1rem; }
+
+.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box {
+  width: 33.33%;
+  float: left;
+  height: 100%; }
+  .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in {
+    margin-right: 0.313rem;
+    background-color: #f6f8ff;
+    height: 100%;
+    line-height: 3rem; }
+    .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in:hover, .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in.active {
+      background: #556de7; }
+      .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in:hover .t_wrap p, .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in:hover .t_wrap span, .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in.active .t_wrap p, .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in.active .t_wrap span {
+        color: #fff; }
+    .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in .t_wrap {
+      line-height: 1;
+      vertical-align: middle;
+      display: inline-block; }
+      .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in .t_wrap p {
+        color: #838ba0; }
+      .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in .t_wrap span {
+        margin-top: .375rem;
+        color: #1b255c;
+        font-weight: bold; }
+      .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in .t_wrap p, .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3 .box .in .t_wrap span {
+        line-height: 1;
+        font-size: 0.938em; }
+
+.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box {
+  width: 50%;
+  float: left;
+  height: 100%; }
+  .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in {
+    margin-right: 0.313rem;
+    background-color: #f6f8ff;
+    height: 100%;
+    line-height: 3rem; }
+    .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in:hover, .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in.active {
+      background: #556de7; }
+      .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in:hover .t_wrap p, .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in:hover .t_wrap span, .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in.active .t_wrap p, .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in.active .t_wrap span {
+        color: #fff; }
+    .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in .t_wrap {
+      line-height: 1;
+      vertical-align: middle;
+      display: inline-block; }
+      .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in .t_wrap p {
+        color: #838ba0; }
+      .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in .t_wrap span {
+        margin-top: .375rem;
+        color: #1b255c;
+        font-weight: bold; }
+      .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in .t_wrap p, .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2 .box .in .t_wrap span {
+        line-height: 1;
+        font-size: 0.938em; }
 
 .no_game {
   width: 100%;
