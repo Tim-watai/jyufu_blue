@@ -433,9 +433,11 @@ nav {
 }
 main {
   &.market {
-    margin-top: 6.25rem;
+    // margin-top: 6.25rem;
+    margin-top: calc(6.25rem + .625rem);
     margin-bottom: 3.5rem;
-    height: calc(100vh - 6.25rem - 3.5rem);
+    // height: calc(100vh - 6.25rem - 3.5rem);
+    height: calc(100vh - 6.25rem - 3.5rem - .625rem);
     overflow-y: scroll;
     padding: 0 0 100px 0;
     aside {
@@ -499,7 +501,7 @@ main {
             }
           }
           &.yet {
-            border-top: 2px solid #ef6b5d;
+            border-top: 2px solid #5875E0;
             div {
               span {
                 background: url(../images/market/game_icons.png) no-repeat;
@@ -509,7 +511,7 @@ main {
             }
           }
           &.doing {
-            border-top: 2px solid #5875e0;
+            border-top: 2px solid #EF6B5D;
             div {
               span {
                 background: url(../images/market/game_icons.png) no-repeat;
@@ -669,8 +671,10 @@ main {
             &.active {
               display: block;
             }
-            section {
-              &.content {
+              .content {
+                background: #fff;
+                padding: 0 .5625rem .625rem .5625rem;
+                border-top: 1px solid #e0e3f3;
                 span {
                   &.title {
                     width: 100%;
@@ -680,12 +684,10 @@ main {
                     position: relative;
                   }
                 }
-                padding: 0 .5625rem .625rem .5625rem;
-                border-top: 1px solid #e0e3f3;
                 &:nth-child(odd) {
                   background: #eef1ff;
                   span {
-                    &.n_bet_box_2,.n_bet_box_3{
+                    &.n_bet_box_2.n_bet_box_2,&.n_bet_box_3.n_bet_box_3{
                       .wrap{
                         .box{
                           .in{
@@ -877,7 +879,13 @@ main {
                     }
                     div {
                       &.country {
+                        .point{
+                          color: #EF6B5D;
+                        }
                         &:first-child {
+                          .point{
+                            margin-left: .5em;
+                          }
                           position: absolute;
                           transform: translate(0%, -50%);
                           top: 50%;
@@ -893,10 +901,13 @@ main {
                           }
                         }
                         &:last-child {
+                          .point{
+                            margin-right: .5em;
+                          }
                           position: absolute;
                           transform: translate(0%, -50%);
                           top: 50%;
-                          right: 0;
+                          right: 5px;
                           width: calc(50% - 25px);
                         }
 
@@ -984,7 +995,9 @@ main {
                   }
                 }
               }
-            }
+            
+          
+            //section delete 0806
           }
           &.senior {
             display: none;
@@ -995,8 +1008,7 @@ main {
               display: block;
             }
 
-            section {
-              &.content {
+              .content {
                 padding: 0 0 .625rem 0;
                 border-top: 2px solid #e0e3f3;
                 position: relative;
@@ -1316,7 +1328,8 @@ main {
                   }
                 }
               }
-            }
+            
+            //section delete 0806
           }
         }
       }
