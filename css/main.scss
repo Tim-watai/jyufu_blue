@@ -256,7 +256,8 @@ main {
   section {
     ul {
       &.hot_area {
-        width: 21.75rem;
+        // width: 21.75rem;
+        width: 95vw;
         height: 1.5625rem;
         height: 4vh;
         /*0612*/
@@ -341,9 +342,15 @@ main {
       }
       &.profile {
         display: block;
-        width: 21.75rem;
+        //0807
+        // width: 21.75rem;
+        width: 95vw;
         height: 3.5rem;
-        height: 10vh;
+        //0807
+        // height: 10vh;
+        height: 8vh;
+
+
         /*0612*/
         margin: 0 auto;
         margin-bottom: 0.625rem;
@@ -478,11 +485,13 @@ main {
   }
   article {
     &.banner_wrap {
-      width: 21.75rem;
-      height: 9.625rem;
-      height: 23vh;
+      width: 95vw;
+      // width: 21.75rem;
+      // height: 9.625rem;
+      // height: 23vh;
       /*0612*/
-      margin: 0 auto 0.625rem auto;
+      // margin: 0 auto 0.625rem auto;
+      margin: 0 auto;
     }
     .banner {
       width: 21.75rem;
@@ -496,9 +505,13 @@ main {
    
 
     &.menu {
-      width: 21.75rem;
-      height: 27.5rem;
-      height: 43vh;
+      // width: 21.75rem;
+      width: 95vw;
+      //0807
+      // height: 27.5rem;
+      // height: 43vh;
+      // height: 50vh;
+      height: 52vh;
       /*0612*/
       margin: 0 auto;
 

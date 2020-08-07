@@ -4846,7 +4846,7 @@ aside.type_ch {
 
 header.live_page.live_page {
   display: none;
-  height: 15.688em;
+  height: 15.688rem;
   width: 100%;
   background: url(../images/market/live_page.png) no-repeat;
   background-size: 100%; }
@@ -9474,7 +9474,7 @@ main {
   margin-top: calc(2.5rem + 0.625rem);
   margin-bottom: 3.5rem; }
   main section ul.hot_area {
-    width: 21.75rem;
+    width: 95vw;
     height: 1.5625rem;
     height: 4vh;
     /*0612*/
@@ -9545,9 +9545,9 @@ main {
           vertical-align: middle; }
   main section ul.profile {
     display: block;
-    width: 21.75rem;
+    width: 95vw;
     height: 3.5rem;
-    height: 10vh;
+    height: 8vh;
     /*0612*/
     margin: 0 auto;
     margin-bottom: 0.625rem;
@@ -9646,11 +9646,9 @@ main {
           main section ul.profile li.u_option div.get span {
             background-position: -4.5625rem 0; }
   main article.banner_wrap {
-    width: 21.75rem;
-    height: 9.625rem;
-    height: 23vh;
+    width: 95vw;
     /*0612*/
-    margin: 0 auto 0.625rem auto; }
+    margin: 0 auto; }
   main article .banner {
     width: 21.75rem;
     height: 9.625rem;
@@ -9660,9 +9658,8 @@ main {
     background-position: center center;
     border-radius: .5rem; }
   main article.menu {
-    width: 21.75rem;
-    height: 27.5rem;
-    height: 43vh;
+    width: 95vw;
+    height: 52vh;
     /*0612*/
     margin: 0 auto;
     overflow: hidden; }
