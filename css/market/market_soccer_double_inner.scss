@@ -1,6 +1,10 @@
 header {
   &.double_inner {
-    height: 16.5rem;
+    // height: 16.5rem;
+    display: none;
+    &.active{
+      display: block;
+    }
     background: url(../images/double_inner/header_bg.png) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -94,7 +98,7 @@ header {
       }
     }
     section {
-      height: 13.9375rem;
+      // height: 13.9375rem;
       position: relative;
       article {
         &.game_time {
@@ -314,8 +318,10 @@ header {
           }
         }
         &.game_type {
-          height: 2.25rem;
-          line-height: 2.25rem;
+          // height: 2.25rem;
+          // line-height: 2.25rem;
+          height: 2.5rem;
+          line-height: 2.5rem;
           background: #fff;
           padding: 0 1.875rem 0 1.125rem;
           box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, 0.1);

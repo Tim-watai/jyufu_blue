@@ -1452,6 +1452,26 @@ header ul li.edit_point {
   width: 18px;
   height: 1.25rem; }
 
+header ul li.live_back {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 0.750em;
+  display: none; }
+  header ul li.live_back.active {
+    display: block; }
+  header ul li.live_back p {
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 2px 8px 2px; }
+    header ul li.live_back p:hover, header ul li.live_back p:active {
+      background: #fff;
+      color: #000; }
+
 nav.kinds {
   position: fixed;
   width: 100%;
@@ -3724,10 +3744,12 @@ div.double_mode {
           vertical-align: sub; }
 
 header.double_inner {
-  height: 16.5rem;
+  display: none;
   background: url(../images/double_inner/header_bg.png) no-repeat;
   background-size: cover;
   background-position: center center; }
+  header.double_inner.active {
+    display: block; }
   header.double_inner.esp {
     background: url(../images/double_inner/header_bg_esp.png) no-repeat;
     background-size: cover; }
@@ -3794,7 +3816,6 @@ header.double_inner {
         header.double_inner ul.market li.title span {
           border-color: #fff transparent transparent transparent; }
   header.double_inner section {
-    height: 13.9375rem;
     position: relative; }
     header.double_inner section article.game_time {
       position: absolute;
@@ -3956,8 +3977,8 @@ header.double_inner {
           header.double_inner section article.game_live div.wrap div:last-child {
             text-align: right; }
     header.double_inner section article.game_type {
-      height: 2.25rem;
-      line-height: 2.25rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
       background: #fff;
       padding: 0 1.875rem 0 1.125rem;
       -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
@@ -4822,6 +4843,263 @@ aside.type_ch {
       color: #838ba2;
       font-size: 1.1rem;
       margin: 1.5rem 0 0; }
+
+header.live_page.live_page {
+  display: none;
+  height: 16.688rem;
+  width: 100%;
+  background: url(../images/market/live_page.png) no-repeat;
+  background-size: 100%; }
+  header.live_page.live_page.active {
+    display: block; }
+    header.live_page.live_page.active ul.market {
+      padding: 0 33px 0 .75rem;
+      position: relative;
+      background-color: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      color: #fff; }
+    header.live_page.live_page.active ul li.back {
+      float: left;
+      position: relative;
+      width: 3%;
+      height: 50%;
+      pointer-events: all; }
+      header.live_page.live_page.active ul li.back:before, header.live_page.live_page.active ul li.back:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: .125rem;
+        height: 50%;
+        background-color: #fff; }
+      header.live_page.live_page.active ul li.back:before {
+        -webkit-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+        transform: translateX(-50%) rotate(45deg);
+        top: 10%; }
+      header.live_page.live_page.active ul li.back:after {
+        -webkit-transform: translateX(-50%) rotate(-45deg);
+        -ms-transform: translateX(-50%) rotate(-45deg);
+        transform: translateX(-50%) rotate(-45deg);
+        bottom: 10%; }
+    header.live_page.live_page.active ul li.title {
+      color: #fff;
+      font-size: 1.0625rem; }
+      header.live_page.live_page.active ul li.title span {
+        border-color: #fff transparent transparent transparent; }
+    header.live_page.live_page.active ul li.wallet {
+      float: right;
+      margin: 0 1.25rem 0 0;
+      width: 1.375rem;
+      height: 1.25rem;
+      background: url(../images/head_icons.png) no-repeat;
+      background-size: 600%;
+      background-position: -5.5rem 0;
+      position: relative; }
+      header.live_page.live_page.active ul li.wallet .balance {
+        display: inline-block;
+        pointer-events: none;
+        opacity: 0;
+        position: absolute;
+        top: 1.875rem;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        left: 50%;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.6);
+        font-size: 1rem;
+        white-space: nowrap;
+        padding: .625rem;
+        border-radius: 8px; }
+        header.live_page.live_page.active ul li.wallet .balance:before {
+          content: "";
+          top: -6px;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0px 6px 6px 6px;
+          border-color: transparent transparent rgba(0, 0, 0, 0.6) transparent;
+          display: inline-block; }
+      header.live_page.live_page.active ul li.wallet:hover .balance, header.live_page.live_page.active ul li.wallet:active .balance, header.live_page.live_page.active ul li.wallet.active .balance {
+        pointer-events: all;
+        opacity: 1; }
+    header.live_page.live_page.active ul li.search {
+      float: right;
+      width: 1.375rem;
+      height: 1.25rem;
+      background: url(../images/head_icons.png) no-repeat;
+      background-size: 600%;
+      background-position: -1.375rem 0;
+      position: relative; }
+    header.live_page.live_page.active ul li.pure_text {
+      float: right;
+      font-size: 1.0625rem;
+      color: #4d515d;
+      position: relative; }
+      header.live_page.live_page.active ul li.pure_text.for_edit {
+        width: 2.5rem;
+        height: 1.0625rem; }
+        header.live_page.live_page.active ul li.pure_text.for_edit:before {
+          content: "編輯";
+          position: absolute;
+          left: 0;
+          top: 0;
+          font-size: 1.0625rem;
+          color: #4d515d; }
+        header.live_page.live_page.active ul li.pure_text.for_edit.active:before {
+          content: "取消";
+          position: absolute;
+          left: 0;
+          top: 0;
+          font-size: 1.0625rem;
+          color: #4d515d; }
+    header.live_page.live_page.active ul li.edit_point {
+      float: right;
+      background: url(../images/icon/edit_point.png) no-repeat;
+      background-size: 100%;
+      background-position: center center;
+      width: 18px;
+      height: 1.25rem; }
+    header.live_page.live_page.active ul li.live_back {
+      position: absolute;
+      right: 1rem;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      color: #fff;
+      font-size: 0.750em; }
+      header.live_page.live_page.active ul li.live_back p {
+        border-radius: 5px;
+        border: 1px solid #fff;
+        padding: 2px 8px 2px; }
+        header.live_page.live_page.active ul li.live_back p:hover, header.live_page.live_page.active ul li.live_back p:active {
+          background: #fff;
+          color: #000; }
+  header.live_page.live_page .live_data_box {
+    background: url(../images/market/live_page_da_bg.png) no-repeat;
+    background-size: 100%;
+    height: 2rem;
+    width: 100%;
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    overflow: hidden; }
+    header.live_page.live_page .live_data_box .b37, header.live_page.live_page .live_data_box .b63 {
+      float: left;
+      position: relative;
+      height: 100%; }
+    header.live_page.live_page .live_data_box .b37 {
+      width: 37%; }
+    header.live_page.live_page .live_data_box .b63 {
+      width: 63%; }
+      header.live_page.live_page .live_data_box .b63 .left_wrap {
+        float: left;
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+        padding-right: 1rem; }
+      header.live_page.live_page .live_data_box .b63 .right_wrap {
+        float: left;
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        padding-left: 1rem; }
+      header.live_page.live_page .live_data_box .b63 .tn {
+        color: #fff;
+        display: inline-block;
+        padding-top: 0px;
+        vertical-align: middle;
+        line-height: normal;
+        width: 64%;
+        height: auto;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+      header.live_page.live_page .live_data_box .b63 .point {
+        background: #fff;
+        color: #1b255c;
+        border-radius: 3px;
+        display: inline-block;
+        padding: 1px 6px;
+        line-height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        max-width: 33%;
+        font-size: 0.938rem; }
+      header.live_page.live_page .live_data_box .b63 .vs_mid {
+        display: inline-block;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-weight: lighter; }
+    header.live_page.live_page .live_data_box .mid_wrap {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center; }
+    header.live_page.live_page .live_data_box .live_date, header.live_page.live_page .live_data_box .live_time {
+      font-size: 1.063rem;
+      display: inline-block;
+      line-height: 100%;
+      white-space: nowrap;
+      padding-top: 7px; }
+    header.live_page.live_page .live_data_box .live_date {
+      margin-right: .25rem; }
+  header.live_page.live_page .game_type {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: #fff;
+    padding: 0 1.875rem 0 1.125rem;
+    -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1); }
+    header.live_page.live_page .game_type .all_wrap {
+      position: relative;
+      overflow: hidden;
+      overflow-x: scroll;
+      white-space: nowrap; }
+    header.live_page.live_page .game_type.no_use {
+      background: transparent; }
+      header.live_page.live_page .game_type.no_use .wrap {
+        display: none; }
+    header.live_page.live_page .game_type .wrap {
+      width: 25%;
+      text-align: center;
+      display: inline-block; }
+    header.live_page.live_page .game_type span {
+      color: #838ba0;
+      display: inline-block;
+      height: 100%;
+      font-weight: bold;
+      pointer-events: all;
+      line-height: 2.25rem; }
+      header.live_page.live_page .game_type span.active, header.live_page.live_page .game_type span:hover, header.live_page.live_page .game_type span:active {
+        border-bottom: .125rem solid #1b255c;
+        color: #1b255c; }
 
 aside.set_pw {
   width: 100%;

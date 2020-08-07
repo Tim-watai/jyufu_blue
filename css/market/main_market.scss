@@ -129,6 +129,27 @@ header {
         width: 18px;
         height: 1.25rem;
       }
+      &.live_back{
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fff;
+        font-size: 0.750em;
+        display: none;
+        &.active{
+          display: block;
+        }
+        p{
+          border-radius: 5px;
+          border: 1px solid #fff;
+          padding: 2px 8px 2px;
+          &:hover,&:active{
+            background: #fff;
+            color: #000;
+          }
+        }
+      }
     }
   }
 }

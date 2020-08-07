@@ -179,4 +179,22 @@ $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').clic
   //       return $("aside.now_bet_empty").removeClass("active");
   //   }
   // });
+
+let double_header = $('header.double_inner');
+let live_page = $('header.live_page.live_page');
+let live_re = $('article.game_live div.wrap div:last-child');
+let live_back = $('.live_back');
+live_re.addClass('g_live');
+double_header.addClass('active');
+live_page.removeClass('active');
+
+live_re.click(function(){
+  double_header.removeClass('active');
+  live_page.addClass('active');
+})
+live_back.click(function(){
+  double_header.addClass('active');
+  live_page.removeClass('active');
+})
+
 }); //total
