@@ -121,14 +121,15 @@ header {
         }
         &.game_data {
           width: 100%;
-          height: 7.625rem;
+          // height: 7.625rem;
+          height: 6.625rem;
           padding: 0 .6875rem;
           div {
             width: 45%;
             display: inline-block;
             height: 100%;
             text-align: center;
-            line-height: 7.625rem;
+            height: 6.625rem;
             &:first-child {
               float: left;
             }
