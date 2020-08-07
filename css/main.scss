@@ -509,9 +509,7 @@ main {
       width: 95vw;
       //0807
       // height: 27.5rem;
-      // height: 43vh;
-      // height: 50vh;
-      height: 52vh;
+      height: calc((100vh - 12vh) - 18.75rem);
       /*0612*/
       margin: 0 auto;
 

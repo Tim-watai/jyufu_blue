@@ -9659,7 +9659,7 @@ main {
     border-radius: .5rem; }
   main article.menu {
     width: 95vw;
-    height: 52vh;
+    height: calc((100vh - 12vh) - 18.75rem);
     /*0612*/
     margin: 0 auto;
     overflow: hidden; }
