@@ -84,7 +84,7 @@ div {
                   height: auto;
                   line-height: 5rem;
                   border-bottom: 2px solid #e0e3f3;
-                  padding: .75rem .5rem .75rem 1.125rem;
+                  padding: .75rem 1rem .5rem 1.125rem;
                   line-height: 5rem;
                   div {
                     &.right_total {
@@ -149,10 +149,10 @@ div {
                             content: "";
                             position: absolute;
                             transform: translate(0, -50%);
-                            top: 35%;
+                            top: 40%;
                             left: 0%;
                             width: .125rem;
-                            height: 100%;
+                            height: 90%;
                             background: #3348b8;
                           }
                           span {

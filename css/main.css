@@ -3293,7 +3293,7 @@ div.window_double_mode {
             height: auto;
             line-height: 5rem;
             border-bottom: 2px solid #e0e3f3;
-            padding: .75rem .5rem .75rem 1.125rem;
+            padding: .75rem 1rem .5rem 1.125rem;
             line-height: 5rem; }
             div.window_double_mode div.all_box div.content ul li.the_detail div.right_total {
               white-space: nowrap;
@@ -3353,10 +3353,10 @@ div.window_double_mode {
                     -webkit-transform: translate(0, -50%);
                     -ms-transform: translate(0, -50%);
                     transform: translate(0, -50%);
-                    top: 35%;
+                    top: 40%;
                     left: 0%;
                     width: .125rem;
-                    height: 100%;
+                    height: 90%;
                     background: #3348b8; }
                   div.window_double_mode div.all_box div.content ul li.the_detail div.data span.title span {
                     display: inline-block;
