@@ -1937,7 +1937,8 @@ main.market {
                   display: inline-block;
                   font-size: .8rem; }
                 main.market aside ul li.beginner .content span.time_more div.more span.num {
-                  font-size: .8rem; }
+                  font-size: .8rem;
+                  margin-right: -.125rem; }
                 main.market aside ul li.beginner .content span.time_more div.more span.right_arrow {
                   position: relative;
                   -webkit-transform: rotate(-90deg);
