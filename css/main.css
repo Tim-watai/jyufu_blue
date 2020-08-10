@@ -1512,7 +1512,8 @@ nav.kinds {
         right: 0px;
         z-index: 5;
         opacity: 1;
-        background: #fff; }
+        background: #fff;
+        padding: .25rem .625rem 0 1.5rem; }
         nav.kinds ul li.active p:before {
           position: absolute;
           content: '';
