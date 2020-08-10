@@ -1487,7 +1487,7 @@ nav.kinds {
     nav.kinds ul li {
       display: inline-block;
       width: auto;
-      height: 2.5rem;
+      height: auto;
       line-height: 2.5rem;
       color: #838ba0;
       white-space: nowrap;
