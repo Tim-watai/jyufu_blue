@@ -3239,16 +3239,20 @@ div.window_double_mode {
     div.window_double_mode.active .all_box {
       vertical-align: bottom;
       display: inline-block;
-      padding: 0; }
+      padding: 0;
+      margin: 0; }
       div.window_double_mode.active .all_box .hide_area {
         display: block; }
+    div.window_double_mode.active .double_mode .box {
+      margin: 0; }
     div.window_double_mode.active .double_mode .balance .double_arrow.double_arrow.double_arrow {
       -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
       transform: rotate(180deg); }
   div.window_double_mode div.all_box {
     width: 100%;
-    padding: 0 0 3rem 0; }
+    padding: 0 0 3.25rem 0;
+    margin-bottom: -.75rem; }
     div.window_double_mode div.all_box.no_padding {
       padding: 0; }
     div.window_double_mode div.all_box div.double_mode {
@@ -3694,14 +3698,14 @@ div.double_mode {
       width: 86%;
       height: 4rem;
       margin: 0 auto;
-      color: #fff; }
+      color: #fff;
+      margin-top: -.5rem; }
       div.double_mode span.box div.langth, div.double_mode span.box div.balance {
         width: 50%;
         white-space: nowrap; }
       div.double_mode span.box div.langth {
         text-align: left;
-        float: left;
-        line-height: 4rem; }
+        float: left; }
         div.double_mode span.box div.langth p {
           display: inline-block; }
         div.double_mode span.box div.langth span.num {

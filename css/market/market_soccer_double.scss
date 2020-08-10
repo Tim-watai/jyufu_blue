@@ -14,12 +14,16 @@ div {
       .all_box {
         vertical-align: bottom;
         display: inline-block;
-        padding: 0;
+        padding: 0; 
+        margin: 0;
         .hide_area {
           display: block;
         }
       }
       .double_mode{
+        .box{
+          margin: 0;
+        }
         .balance{
           .double_arrow.double_arrow.double_arrow{
             transform: rotate(180deg);
@@ -30,7 +34,8 @@ div {
     div {
       &.all_box {
         width: 100%;
-        padding: 0 0 3rem 0;
+        padding: 0 0 3.25rem 0;
+        margin-bottom: -.75rem;
         &.no_padding{
           padding: 0;
         }
@@ -576,6 +581,7 @@ div {
         height: 4rem;
         margin: 0 auto;
         color: #fff;
+        margin-top: -.5rem;
         div {
           &.langth,
           &.balance {
@@ -585,7 +591,6 @@ div {
           &.langth {
             text-align: left;
             float: left;
-            line-height: 4rem;
             p {
               display: inline-block;
             }
