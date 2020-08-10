@@ -86,7 +86,7 @@ aside{
                     background-size: 900%;
                     @for $i from 1 through 9{
                       &.i#{$i}{
-                        background-position-y: -1.875rem;
+                        background-position-y: -1.750em;
                       }
                     }
                     
@@ -107,7 +107,7 @@ aside{
                   background-size: 900%;
                   // width: 1.875rem;
                   width: 2.188rem;
-                  height: 1.875rem;
+                  height: 1.750rem;
                   display: block;
                   margin: 0 auto .75rem;
                   @for $i from 1 through 9{
