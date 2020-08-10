@@ -1581,49 +1581,49 @@ nav.kinds {
           background: url(../images/market/kinds.png) no-repeat;
           background-size: 1800%;
           width: 1.5625rem;
-          height: 1.375rem;
+          height: 1.5625rem;
           -webkit-transform: scale(1);
           -ms-transform: scale(1);
           transform: scale(1);
           -webkit-transition: all .2s ease-in-out;
           -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out; }
-        nav.kinds ul li div span.all {
-          background-position: -1.5625rem 0; }
-        nav.kinds ul li div span.loves {
-          background-position: -0px 0; }
-        nav.kinds ul li div span.soccer {
-          background-position: -3.125rem 1px; }
-        nav.kinds ul li div span.basketball {
-          background-position: -6.25rem 1px; }
-        nav.kinds ul li div span.horse {
-          background-position: -7.8125rem 0; }
-        nav.kinds ul li div span.e_sport {
-          background-position: -9.375rem 2px; }
-        nav.kinds ul li div span.graph {
-          background-position: -10.9375rem 0; }
-        nav.kinds ul li div span.color_ball {
-          background-position: -12.5rem 1px; }
-        nav.kinds ul li div span.ice_ball {
-          background-position: -14.0625rem 1px; }
-        nav.kinds ul li div span.basball {
-          background-position: -4.6875rem 1px; }
-        nav.kinds ul li div span.tennis {
-          background-position: -15.625rem 1px; }
-        nav.kinds ul li div span.snooker {
-          background-position: -17.1875rem 1px; }
-        nav.kinds ul li div span.volleyball {
-          background-position: -18.75rem 1px; }
-        nav.kinds ul li div span.motor_sport {
-          background-position: -20.3125rem 1px; }
-        nav.kinds ul li div span.badminton {
-          background-position: -21.875rem 1px; }
-        nav.kinds ul li div span.football {
-          background-position: -23.4375rem 1px; }
-        nav.kinds ul li div span.table_tennis {
-          background-position: -26.5625rem 1px; }
-        nav.kinds ul li div span.beach_soccer {
-          background-position: -25rem 1px; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
+        nav.kinds ul li div span.all, nav.kinds ul li div span loves, nav.kinds ul li div span soccer, nav.kinds ul li div span basketball, nav.kinds ul li div span horse, nav.kinds ul li div span e_sport, nav.kinds ul li div span graph, nav.kinds ul li div span color_ball, nav.kinds ul li div span ice_ball, nav.kinds ul li div span basball, nav.kinds ul li div span tennis, nav.kinds ul li div span snooker, nav.kinds ul li div span volleyball, nav.kinds ul li div span motor_sport, nav.kinds ul li div span badminton, nav.kinds ul li div span football, nav.kinds ul li div span table_tennis, nav.kinds ul li div span beach_soccer {
+          background: #000; }
         nav.kinds ul li div p {
           font-size: .7rem;
           line-height: 1;
