@@ -173,7 +173,9 @@ nav {
         display: inline-block;
         width: auto;
         height: auto;
-        line-height: 2.5rem;
+        // line-height: 2.5rem;
+        //0810
+        line-height: 3rem;
         color: #838ba0;
         white-space: nowrap;
         text-align: center;
@@ -430,9 +432,11 @@ nav {
         span {
           &.num {
             position: relative;
-            top: -34%;
             font-size: .8rem;
             font-family: "my_font";
+            display: inline-block;
+            vertical-align: top;
+            line-height: 1;
           }
         }
       }

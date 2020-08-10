@@ -1488,7 +1488,7 @@ nav.kinds {
       display: inline-block;
       width: auto;
       height: auto;
-      line-height: 2.5rem;
+      line-height: 3rem;
       color: #838ba0;
       white-space: nowrap;
       text-align: center;
@@ -1633,9 +1633,11 @@ nav.kinds {
           font-family: "微軟正黑體"; }
       nav.kinds ul li span.num {
         position: relative;
-        top: -34%;
         font-size: .8rem;
-        font-family: "my_font"; }
+        font-family: "my_font";
+        display: inline-block;
+        vertical-align: top;
+        line-height: 1; }
 
 nav section div {
   margin: 0 0 0 .7rem;
@@ -4243,7 +4245,9 @@ nav.kinds ul.early {
   padding: 0 1rem;
   border-bottom: 1px solid #e0e3f3; }
   nav.kinds ul.early li {
-    position: relative; }
+    position: relative;
+    height: 2.5rem;
+    line-height: 2.5rem; }
     nav.kinds ul.early li.active {
       color: #4d515d;
       position: relative; }
