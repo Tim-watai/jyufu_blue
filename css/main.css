@@ -2272,14 +2272,14 @@ main.market {
                   background-color: #f6f8ff; }
                   main.market aside ul li.senior .content span.point_box span.num_group div p {
                     color: #838ba0;
-                    font-size: 1rem;
+                    font-size: 0.938rem;
                     display: inline-block;
-                    font-weight: bold;
+                    font-weight: normal;
                     width: 100%; }
                   main.market aside ul li.senior .content span.point_box span.num_group div span {
                     width: 100%;
                     color: #1b255c;
-                    font-size: 1rem;
+                    font-size: 0.938rem;
                     font-weight: bold; }
               main.market aside ul li.senior .content span.point_box .live {
                 line-height: 1.5rem;
@@ -3373,19 +3373,19 @@ div.window_double_mode {
                     font-size: .8rem; }
                 div.window_double_mode div.all_box div.content ul li.the_detail div.data span.mid {
                   width: 100%;
-                  font-size: .8rem;
+                  font-size: 0.938rem;
                   font-weight: normal;
                   margin: 0 0 .1875rem 0; }
                 div.window_double_mode div.all_box div.content ul li.the_detail div.data span.bottom {
                   color: #838ba0;
-                  font-size: .8rem;
+                  font-size: 0.938rem;
                   margin: 0 0 .1875rem 0; }
                   div.window_double_mode div.all_box div.content ul li.the_detail div.data span.bottom span {
                     display: inline-block;
                     margin: 0 .375rem 0 .375rem; }
                 div.window_double_mode div.all_box div.content ul li.the_detail div.data span.tag {
                   color: #b2b6c2;
-                  font-size: .8rem;
+                  font-size: 0.938rem;
                   display: none; }
                   div.window_double_mode div.all_box div.content ul li.the_detail div.data span.tag.active {
                     display: inline-block; }
