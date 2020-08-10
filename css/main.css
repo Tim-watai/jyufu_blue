@@ -2881,7 +2881,7 @@ aside.set_window {
                 vertical-align: middle;
                 line-height: 1;
                 color: #ced1e0;
-                font-size: .7rem; }
+                font-size: 1rem; }
       aside.set_window ul.side_bar li.title {
         margin: 0 0 .75rem 0; }
         aside.set_window ul.side_bar li.title span {
@@ -5856,7 +5856,7 @@ aside.my_windows_set {
             line-height: 1;
             color: #ced1e0;
             float: none;
-            font-size: 1rem; }
+            font-size: .75rem; }
     aside.my_windows_set div.row_btn div.box_empty {
       display: inline-block;
       float: right; }
