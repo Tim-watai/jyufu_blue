@@ -3836,9 +3836,10 @@ header.double_inner {
     header.double_inner section article.game_data {
       width: 100%;
       height: 6.625rem;
+      line-height: 6.625rem;
       padding: 0 .6875rem; }
       header.double_inner section article.game_data div {
-        width: 45%;
+        width: 40%;
         display: inline-block;
         height: 100%;
         text-align: center;
@@ -3852,15 +3853,14 @@ header.double_inner {
           header.double_inner section article.game_data div span.wrap {
             text-align: center;
             vertical-align: middle;
-            line-height: 1; }
+            line-height: 1;
+            width: 100%; }
             header.double_inner section article.game_data div span.wrap span.empty {
               width: 2.5rem;
-              height: 2.5rem;
-              margin: 0 0 .375rem 0; }
+              height: 2.5rem; }
             header.double_inner section article.game_data div span.wrap span.soccer {
               width: 1.625rem;
               height: 1.875rem;
-              margin: 0 0 .375rem 0;
               background: url(../images/market/cs.png) no-repeat;
               background-size: 800%; }
             header.double_inner section article.game_data div span.wrap span.country1 {
@@ -3870,7 +3870,6 @@ header.double_inner {
             header.double_inner section article.game_data div span.wrap span.esp {
               width: 2.5rem;
               height: 2.5rem;
-              margin: 0 0 .375rem 0;
               background: url(../images/double_inner/esp_t.png) no-repeat;
               background-size: 200%; }
             header.double_inner section article.game_data div span.wrap span.t1 {
@@ -3880,7 +3879,6 @@ header.double_inner {
             header.double_inner section article.game_data div span.wrap span.nba {
               width: 2.5rem;
               height: 2.5rem;
-              margin: 0 0 .375rem 0;
               background: url(../images/double_inner/nba_t.png) no-repeat;
               background-size: 200%; }
             header.double_inner section article.game_data div span.wrap span.t1 {
@@ -3890,7 +3888,6 @@ header.double_inner {
             header.double_inner section article.game_data div span.wrap span.bad {
               width: 2.5rem;
               height: 2.5rem;
-              margin: 0 0 .375rem 0;
               background: url(../images/double_inner/bad_t.png) no-repeat;
               background-size: 200%; }
             header.double_inner section article.game_data div span.wrap span.t1 {
@@ -3900,7 +3897,6 @@ header.double_inner {
             header.double_inner section article.game_data div span.wrap span.bea {
               width: 2.5rem;
               height: 2.5rem;
-              margin: 0 0 .375rem 0;
               background: url(../images/double_inner/bea_t.png) no-repeat;
               background-size: 200%; }
             header.double_inner section article.game_data div span.wrap span.t1 {
@@ -3910,7 +3906,6 @@ header.double_inner {
             header.double_inner section article.game_data div span.wrap span.vol {
               width: 2.5rem;
               height: 2.5rem;
-              margin: 0 0 .375rem 0;
               background: url(../images/double_inner/vol_t.png) no-repeat;
               background-size: 200%; }
             header.double_inner section article.game_data div span.wrap span.t1 {
@@ -3920,7 +3915,6 @@ header.double_inner {
             header.double_inner section article.game_data div span.wrap span.bas {
               width: 2.5rem;
               height: 2.5rem;
-              margin: 0 0 .375rem 0;
               background: url(../images/double_inner/bas_t.png) no-repeat;
               background-size: 200%; }
             header.double_inner section article.game_data div span.wrap span.t1 {
@@ -3930,7 +3924,13 @@ header.double_inner {
             header.double_inner section article.game_data div span.wrap p {
               text-align: center;
               color: #fff;
-              font-size: 1.0625rem; }
+              font-size: 1.0625rem;
+              -o-text-overflow: ellipsis;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+              width: 100%;
+              line-height: 1.2; }
     header.double_inner section article.game_live {
       height: 4.0625rem;
       line-height: 4.0625rem;
@@ -4011,7 +4011,7 @@ header.double_inner {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      top: 77%;
+      top: 75%;
       left: 92%;
       line-height: 0.875rem;
       pointer-events: all;
@@ -4036,8 +4036,8 @@ header.double_inner {
         vertical-align: middle; }
 
 main.double_inner_page {
-  margin-top: calc(16.5rem + .625rem);
-  height: calc(100vh - 16.5rem - 4.0625rem - .625rem);
+  margin-top: calc(15.6875rem + .625rem);
+  height: calc(100vh - 15.6875rem - 4.0625rem - .625rem);
   margin-bottom: 4.0625rem;
   overflow-y: scroll; }
   main.double_inner_page ul {
@@ -4846,7 +4846,7 @@ aside.type_ch {
 
 header.live_page.live_page {
   display: none;
-  height: 15.688rem;
+  height: 15.6875rem;
   width: 100%;
   background: url(../images/market/live_page.png) no-repeat;
   background-size: 100%; }
