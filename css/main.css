@@ -3258,8 +3258,8 @@ div.window_double_mode {
     div.window_double_mode div.all_box div.double_mode {
       width: 100vw;
       position: relative;
-      height: 4rem;
-      line-height: 4rem;
+      height: 4.5rem;
+      line-height: 4.5rem;
       -webkit-transition: all 0.3s linear;
       -o-transition: all 0.3s linear;
       transition: all 0.3s linear; }
@@ -3691,12 +3691,12 @@ div.double_mode {
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear; }
   div.double_mode.half {
-    height: 4rem; }
+    height: 4.5rem; }
   div.double_mode span {
     display: inline-block; }
     div.double_mode span.box {
       width: 86%;
-      height: 4rem;
+      height: 4.5rem;
       margin: 0 auto;
       color: #fff;
       margin-top: -.5rem; }
