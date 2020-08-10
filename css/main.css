@@ -2890,7 +2890,11 @@ aside.set_window {
             position: absolute;
             margin: 0 0 0 .7rem;
             font-size: 0.813rem;
-            color: #838ba0; }
+            color: #838ba0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
           aside.set_window ul.side_bar li.title span.soccers {
             float: right;
             line-height: 3.4375rem; }

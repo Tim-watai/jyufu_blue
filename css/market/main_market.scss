@@ -2066,6 +2066,8 @@ aside {
                 margin: 0 0 0 .7rem;
                 font-size: 0.813rem;
                 color: #838ba0;
+                top: 50%;
+                transform: translateY(-50%);
               }
               &.soccers {
                 float: right;
