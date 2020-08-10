@@ -541,6 +541,9 @@ main {
                 background-size: 910%;
                 background-position: -1px 0;
               }
+              p{
+                color: #5875E0;
+              }
             }
           }
           &.doing {
@@ -550,6 +553,9 @@ main {
                 background: url(../images/market/game_icons.png) no-repeat;
                 background-size: 910%;
                 background-position: -18px 0;
+              }
+              p{
+                color: #EF6B5D;
               }
             }
           }
@@ -563,6 +569,9 @@ main {
                 width: 18px;
                 height: .9375rem;
                 margin: 0 0 4px 0;
+              }
+              p{
+                color: #fab419;
               }
             }
           }
@@ -622,6 +631,7 @@ main {
                   font-size: .7rem;
                   position: relative;
                   vertical-align: middle;
+                  padding-top: 1px;
                 }
                 &:first-child {
                   float: left;
