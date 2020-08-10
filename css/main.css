@@ -7344,23 +7344,23 @@ aside.my_windows_mb_save {
             background: url(../images/my_mb_pay_icon.png) no-repeat;
             background-size: 900%; }
             aside.my_windows_mb_save div.content .pay_type .wrap:hover span.i1, aside.my_windows_mb_save div.content .pay_type .wrap:active span.i1, aside.my_windows_mb_save div.content .pay_type .wrap.active span.i1 {
-              background-position: 0 -1.25rem; }
+              background-position-y: -1.563rem; }
             aside.my_windows_mb_save div.content .pay_type .wrap:hover span.i2, aside.my_windows_mb_save div.content .pay_type .wrap:active span.i2, aside.my_windows_mb_save div.content .pay_type .wrap.active span.i2 {
-              background-position: -1.5625rem -1.25rem; }
+              background-position-y: -1.563rem; }
             aside.my_windows_mb_save div.content .pay_type .wrap:hover span.i3, aside.my_windows_mb_save div.content .pay_type .wrap:active span.i3, aside.my_windows_mb_save div.content .pay_type .wrap.active span.i3 {
-              background-position: -3.125rem -1.25rem; }
+              background-position-y: -1.563rem; }
             aside.my_windows_mb_save div.content .pay_type .wrap:hover span.i4, aside.my_windows_mb_save div.content .pay_type .wrap:active span.i4, aside.my_windows_mb_save div.content .pay_type .wrap.active span.i4 {
-              background-position: -4.6875rem -1.25rem; }
+              background-position-y: -1.563rem; }
             aside.my_windows_mb_save div.content .pay_type .wrap:hover span.i5, aside.my_windows_mb_save div.content .pay_type .wrap:active span.i5, aside.my_windows_mb_save div.content .pay_type .wrap.active span.i5 {
-              background-position: -6.25rem -1.25rem; }
+              background-position-y: -1.563rem; }
             aside.my_windows_mb_save div.content .pay_type .wrap:hover span.i6, aside.my_windows_mb_save div.content .pay_type .wrap:active span.i6, aside.my_windows_mb_save div.content .pay_type .wrap.active span.i6 {
-              background-position: -7.8125rem -1.25rem; }
+              background-position-y: -1.563rem; }
             aside.my_windows_mb_save div.content .pay_type .wrap:hover span.i7, aside.my_windows_mb_save div.content .pay_type .wrap:active span.i7, aside.my_windows_mb_save div.content .pay_type .wrap.active span.i7 {
-              background-position: -9.375rem -1.25rem; }
+              background-position-y: -1.563rem; }
             aside.my_windows_mb_save div.content .pay_type .wrap:hover span.i8, aside.my_windows_mb_save div.content .pay_type .wrap:active span.i8, aside.my_windows_mb_save div.content .pay_type .wrap.active span.i8 {
-              background-position: -10.9375rem -1.25rem; }
+              background-position-y: -1.563rem; }
             aside.my_windows_mb_save div.content .pay_type .wrap:hover span.i9, aside.my_windows_mb_save div.content .pay_type .wrap:active span.i9, aside.my_windows_mb_save div.content .pay_type .wrap.active span.i9 {
-              background-position: -12.5rem -1.25rem; }
+              background-position-y: -1.563rem; }
           aside.my_windows_mb_save div.content .pay_type .wrap:hover p, aside.my_windows_mb_save div.content .pay_type .wrap:active p, aside.my_windows_mb_save div.content .pay_type .wrap.active p {
             color: #fff; }
           aside.my_windows_mb_save div.content .pay_type .wrap:hover.push:before, aside.my_windows_mb_save div.content .pay_type .wrap:active.push:before, aside.my_windows_mb_save div.content .pay_type .wrap.active.push:before {
@@ -7370,28 +7370,28 @@ aside.my_windows_mb_save {
         aside.my_windows_mb_save div.content .pay_type .wrap span {
           background: url(../images/my_mb_pay_icon.png) no-repeat;
           background-size: 900%;
-          width: 1.5625rem;
-          height: 1.25rem;
+          width: 1.875rem;
+          height: 1.563rem;
           display: block;
           margin: 0 auto .75rem; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i1 {
-            background-position: 0 0; }
+            background-position-x: 0rem; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i2 {
-            background-position: -1.5625rem 0; }
+            background-position-x: -1.875rem; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i3 {
-            background-position: -3.125rem 0; }
+            background-position-x: -3.75rem; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i4 {
-            background-position: -4.6875rem 0; }
+            background-position-x: -5.625rem; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i5 {
-            background-position: -6.25rem 0; }
+            background-position-x: -7.5rem; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i6 {
-            background-position: -7.8125rem 0; }
+            background-position-x: -9.375rem; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i7 {
-            background-position: -9.375rem 0; }
+            background-position-x: -11.25rem; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i8 {
-            background-position: -10.9375rem 0; }
+            background-position-x: -13.125rem; }
           aside.my_windows_mb_save div.content .pay_type .wrap span.i9 {
-            background-position: -12.5rem 0; }
+            background-position-x: -15rem; }
         aside.my_windows_mb_save div.content .pay_type .wrap p {
           margin: .1875rem 0 0 0;
           font-size: .938rem;

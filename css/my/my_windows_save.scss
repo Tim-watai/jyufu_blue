@@ -84,34 +84,12 @@ aside{
                   span {
                     background: url(../images/my_mb_pay_icon.png) no-repeat;
                     background-size: 900%;
+                    @for $i from 1 through 9{
+                      &.i#{$i}{
+                        background-position-y: -1.563rem;
+                      }
+                    }
                     
-                    &.i1 {
-                      background-position: 0 -1.25rem;
-                    }
-                    &.i2 {
-                      background-position: -1.5625rem -1.25rem;
-                    }
-                    &.i3 {
-                      background-position: -3.125rem -1.25rem;
-                    }
-                    &.i4 {
-                      background-position: -4.6875rem -1.25rem;
-                    }
-                    &.i5 {
-                      background-position: -6.25rem -1.25rem;
-                    }
-                    &.i6 {
-                      background-position: -7.8125rem -1.25rem;
-                    }
-                    &.i7 {
-                      background-position: -9.375rem -1.25rem;
-                    }
-                    &.i8 {
-                      background-position: -10.9375rem -1.25rem;
-                    }
-                    &.i9 {
-                      background-position: -12.5rem -1.25rem;
-                    }
                   }
                   p {
                     color: #fff;
@@ -127,37 +105,16 @@ aside{
                 span {
                   background: url(../images/my_mb_pay_icon.png) no-repeat;
                   background-size: 900%;
-                  width: 1.5625rem;
-                  height: 1.25rem;
+                  width: 1.875rem;
+                  height: 1.563rem;
                   display: block;
                   margin: 0 auto .75rem;
-                  &.i1 {
-                    background-position: 0 0;
+                  @for $i from 1 through 9{
+                    &.i#{$i}{
+                      background-position-x: ($i - 1) * -1.875rem;
+                    }
                   }
-                  &.i2 {
-                    background-position: -1.5625rem 0;
-                  }
-                  &.i3 {
-                    background-position: -3.125rem 0;
-                  }
-                  &.i4 {
-                    background-position: -4.6875rem 0;
-                  }
-                  &.i5 {
-                    background-position: -6.25rem 0;
-                  }
-                  &.i6 {
-                    background-position: -7.8125rem 0;
-                  }
-                  &.i7 {
-                    background-position: -9.375rem 0;
-                  }
-                  &.i8 {
-                    background-position: -10.9375rem 0;
-                  }
-                  &.i9 {
-                    background-position: -12.5rem 0;
-                  }
+                 
                 }
                 p {
                   margin: .1875rem 0 0 0;
