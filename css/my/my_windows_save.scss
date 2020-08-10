@@ -72,6 +72,8 @@ aside{
                   background: #556de7;
                   color: #fff;
                   &:after {
+                    //0810勾勾
+                    display: none;
                     content: "";
                     position: absolute;
                     right: .1875rem;
@@ -119,8 +121,8 @@ aside{
                 }
                 p {
                   margin: .1875rem 0 0 0;
-                  // font-size: .938rem;
-                  font-size: .7rem;
+                  font-size: .938rem;
+                  // font-size: .7rem;
                   color: #4d515d;
                   line-height: 1;
                 }
