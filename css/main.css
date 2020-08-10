@@ -1891,7 +1891,7 @@ main.market {
                   font-size: .8rem;
                   height: auto;
                   line-height: .8rem;
-                  vertical-align: bottom;
+                  vertical-align: middle;
                   font-weight: lighter; }
                   main.market aside ul li.beginner .content span.time_more span.time p {
                     display: inline-block; }
@@ -1903,7 +1903,7 @@ main.market {
                 height: .9375rem;
                 line-height: .9375rem;
                 position: relative;
-                vertical-align: bottom; }
+                vertical-align: middle; }
               main.market aside ul li.beginner .content span.time_more div.icon_game {
                 background-position: -3.375em 0; }
                 main.market aside ul li.beginner .content span.time_more div.icon_game.yet.yet.yet {
@@ -1921,8 +1921,8 @@ main.market {
                 height: auto;
                 text-align: center;
                 line-height: 1;
-                vertical-align: bottom;
-                padding: 1px 2px 1px 2px;
+                vertical-align: middle;
+                padding: 2px 2px 1px 2px;
                 background: none; }
               main.market aside ul li.beginner .content span.time_more div.more {
                 float: right;
@@ -2298,7 +2298,7 @@ main.market {
                   height: .9375rem;
                   line-height: .9375rem;
                   position: relative;
-                  vertical-align: bottom; }
+                  vertical-align: middle; }
                   main.market aside ul li.senior .content span.point_box .live span.icon_game {
                     background-position: -3.375em 0; }
                     main.market aside ul li.senior .content span.point_box .live span.icon_game.yet.yet.yet {

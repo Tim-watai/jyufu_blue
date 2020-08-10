@@ -793,7 +793,7 @@ main {
                         font-size: .8rem;
                         height: auto;
                         line-height: .8rem;
-                        vertical-align: bottom;
+                        vertical-align: middle;
                         font-weight: lighter;
                         p {
                           display: inline-block;
@@ -811,7 +811,7 @@ main {
                         height: .9375rem;
                         line-height: .9375rem;
                         position: relative;
-                        vertical-align: bottom;
+                        vertical-align: middle;
                       }
                       &.icon_game {
                         background-position: -3.375em 0;
@@ -834,8 +834,8 @@ main {
                         height: auto;
                         text-align: center;
                         line-height: 1;
-                        vertical-align: bottom;
-                        padding: 1px 2px 1px 2px;
+                        vertical-align: middle;
+                        padding: 2px 2px 1px 2px;
                         background: none;
                       }
                       &.more {
@@ -1353,7 +1353,7 @@ main {
                         height: .9375rem;
                         line-height: .9375rem;
                         position: relative;
-                        vertical-align: bottom;
+                        vertical-align: middle;
                         &.icon_game {
                           background-position: -3.375em 0;
                           &.yet.yet.yet {
