@@ -86,21 +86,26 @@ div {
                   border-bottom: 2px solid #e0e3f3;
                   padding: .75rem 1rem .5rem 1.125rem;
                   line-height: 5rem;
+                  position: relative;
                   div {
                     &.right_total {
                       white-space: nowrap;
-                      float: right;
-
+                      position: absolute;
+                      right: 1rem;
+                      top: 50%;
+                      transform: translateY(-50%);
+                      text-align: right;
+                      line-height: 5rem;
+                      font-size: 1.3rem;
+                      color: red;
+                      max-width: 25%;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
                       span {
                         font-size: 1rem;
                         display: inline-block;
                         color: #4d515d;
                       }
-
-                      text-align: center;
-                      line-height: 5rem;
-                      font-size: 1.3rem;
-                      color: red;
                     }
                     &.left_padding {
                       position: relative;
