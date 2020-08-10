@@ -4239,20 +4239,21 @@ main.double_inner_page {
               main.double_inner_page ul li div.content span p.gray {
                 color: #838ba0; }
 
-nav.kinds ul.early {
+nav.kinds ul.early.early.early {
   font-family: 'my_font';
   height: 2.5rem;
   line-height: 2.5rem;
-  padding: 0 1rem;
+  padding: 0 .625rem;
   border-bottom: 1px solid #e0e3f3; }
-  nav.kinds ul.early li {
+  nav.kinds ul.early.early.early li {
     position: relative;
     height: 2.5rem;
     line-height: 2.5rem; }
-    nav.kinds ul.early li.active {
+    nav.kinds ul.early.early.early li.active {
       color: #4d515d;
-      position: relative; }
-      nav.kinds ul.early li.active:before {
+      position: relative;
+      padding: 0 .625rem; }
+      nav.kinds ul.early.early.early li.active:before {
         content: '';
         position: absolute;
         width: 100%;

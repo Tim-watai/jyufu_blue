@@ -1,19 +1,21 @@
 nav{
     &.kinds{
         ul{
-            &.early{
+            &.early.early.early{
                 font-family: 'my_font';
                 height: 2.5rem;
                 line-height: 2.5rem;
-                padding: 0 1rem;
+                padding: 0 .625rem;
                 border-bottom: 1px solid #e0e3f3;
                 li{
                     position: relative;
                     height: 2.5rem;
                     line-height: 2.5rem;
+                    
                     &.active{
                         color:#4d515d;
                         position: relative;
+                        padding: 0 .625rem;
                         &:before{
                             content:'';
                             position: absolute;
