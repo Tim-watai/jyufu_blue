@@ -2140,11 +2140,11 @@ main.market {
               main.market aside ul li.senior .content span.time_more span {
                 display: inline-block; }
                 main.market aside ul li.senior .content span.time_more span.time {
-                  color: #838ba0;
+                  color: #56585d;
                   font-size: .8rem;
                   height: auto;
                   line-height: 1;
-                  vertical-align: bottom;
+                  vertical-align: middle;
                   font-weight: lighter; }
                   main.market aside ul li.senior .content span.time_more span.time p {
                     display: inline-block; }
@@ -2158,7 +2158,7 @@ main.market {
                   width: auto;
                   text-align: center;
                   line-height: 1;
-                  vertical-align: bottom;
+                  vertical-align: middle;
                   padding: 2px 2px 1px 2px; }
                 main.market aside ul li.senior .content span.time_more div.more {
                   float: right;
@@ -2168,9 +2168,11 @@ main.market {
                   color: #838ba0; }
                   main.market aside ul li.senior .content span.time_more div.more p {
                     display: inline-block;
-                    font-size: .8rem; }
+                    font-size: .8rem;
+                    margin-right: -.125rem; }
                   main.market aside ul li.senior .content span.time_more div.more span.num {
-                    font-size: .9rem; }
+                    font-size: .9rem;
+                    margin-right: -.25rem; }
                   main.market aside ul li.senior .content span.time_more div.more span.right_arrow {
                     position: relative;
                     -webkit-transform: rotate(-90deg);
@@ -2179,7 +2181,7 @@ main.market {
                     height: .8rem;
                     width: 1rem;
                     line-height: 1;
-                    margin-right: -.125rem;
+                    margin-right: -.25rem;
                     vertical-align: middle; }
                     main.market aside ul li.senior .content span.time_more div.more span.right_arrow:after, main.market aside ul li.senior .content span.time_more div.more span.right_arrow:before {
                       content: "";
