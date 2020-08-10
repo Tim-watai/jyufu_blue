@@ -9476,7 +9476,6 @@ main {
   main section ul.hot_area {
     width: 95vw;
     height: 1.5625rem;
-    height: 4vh;
     /*0612*/
     margin: 0 auto 0.625rem auto;
     line-height: 1.5625rem;
@@ -9546,8 +9545,8 @@ main {
   main section ul.profile {
     display: block;
     width: 95vw;
-    height: 3.5rem;
-    height: 8vh;
+    height: auto;
+    overflow: hidden;
     /*0612*/
     margin: 0 auto;
     margin-bottom: 0.625rem;
@@ -9558,37 +9557,39 @@ main {
         width: 50%;
         display: none; }
         main section ul.profile li.u_data.active {
-          display: inline-block; }
-        main section ul.profile li.u_data.yet_sign p.u_name {
-          font-size: .7rem;
-          line-height: 100%;
-          margin: 0 0 .5rem 0; }
-        main section ul.profile li.u_data.yet_sign .wrap {
-          height: 2.5rem; }
-          main section ul.profile li.u_data.yet_sign .wrap button {
-            height: 100%;
-            border: 1px solid #000;
-            border-radius: 4px;
-            font-size: 1.0625rem;
-            font-weight: bold;
-            position: relative; }
-            main section ul.profile li.u_data.yet_sign .wrap button.sign_up {
-              width: 45%;
-              font-size: 1rem;
-              background: -webkit-gradient(linear, left top, right top, from(#b5875e), to(#dfb995));
-              background: -webkit-linear-gradient(left, #b5875e 0%, #dfb995 100%);
-              background: -o-linear-gradient(left, #b5875e 0%, #dfb995 100%);
-              background: linear-gradient(to right, #b5875e 0%, #dfb995 100%);
-              color: #fff;
-              border: none;
+          display: block; }
+        main section ul.profile li.u_data.yet_sign {
+          float: left; }
+          main section ul.profile li.u_data.yet_sign p.u_name {
+            font-size: .7rem;
+            line-height: 100%;
+            margin: 0 0 .5rem 0; }
+          main section ul.profile li.u_data.yet_sign .wrap {
+            height: 2.5rem; }
+            main section ul.profile li.u_data.yet_sign .wrap button {
+              height: 100%;
+              border: 1px solid #000;
+              border-radius: 4px;
+              font-size: 1.0625rem;
               font-weight: bold;
-              margin: 0 0.3125rem 0 0; }
-            main section ul.profile li.u_data.yet_sign .wrap button.sign_in {
-              width: 45%;
-              font-size: 1rem;
-              color: #2d43b6;
-              border: 1px solid #b9bfdc;
-              background: transparent; }
+              position: relative; }
+              main section ul.profile li.u_data.yet_sign .wrap button.sign_up {
+                width: 45%;
+                font-size: 1rem;
+                background: -webkit-gradient(linear, left top, right top, from(#b5875e), to(#dfb995));
+                background: -webkit-linear-gradient(left, #b5875e 0%, #dfb995 100%);
+                background: -o-linear-gradient(left, #b5875e 0%, #dfb995 100%);
+                background: linear-gradient(to right, #b5875e 0%, #dfb995 100%);
+                color: #fff;
+                border: none;
+                font-weight: bold;
+                margin: 0 0.3125rem 0 0; }
+              main section ul.profile li.u_data.yet_sign .wrap button.sign_in {
+                width: 45%;
+                font-size: 1rem;
+                color: #2d43b6;
+                border: 1px solid #b9bfdc;
+                background: transparent; }
         main section ul.profile li.u_data p.u_name {
           color: #838ba0;
           font-weight: lighter;
@@ -9659,7 +9660,7 @@ main {
     border-radius: .5rem; }
   main article.menu {
     width: 95vw;
-    height: calc((100vh - 12vh) - 18.75rem);
+    height: calc(100vh - 23.5625rem);
     /*0612*/
     margin: 0 auto;
     overflow: hidden; }

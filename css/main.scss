@@ -259,7 +259,7 @@ main {
         // width: 21.75rem;
         width: 95vw;
         height: 1.5625rem;
-        height: 4vh;
+        // height: 4vh;
         /*0612*/
         margin: 0 auto 0.625rem auto;
     
@@ -345,10 +345,12 @@ main {
         //0807
         // width: 21.75rem;
         width: 95vw;
-        height: 3.5rem;
+        // height: 3.5rem;
+        height: auto;
+        overflow: hidden;
         //0807
         // height: 10vh;
-        height: 8vh;
+        // height: 8vh;
 
 
         /*0612*/
@@ -361,9 +363,10 @@ main {
             width: 50%;
             display: none;
             &.active{
-              display: inline-block;
+              display: block;
             }
             &.yet_sign {
+              float: left;
               p {
                 &.u_name {
                   font-size: .7rem;
@@ -509,7 +512,7 @@ main {
       width: 95vw;
       //0807
       // height: 27.5rem;
-      height: calc((100vh - 12vh) - 18.75rem);
+      height: calc(100vh - 23.5625rem);
       /*0612*/
       margin: 0 auto;
 
