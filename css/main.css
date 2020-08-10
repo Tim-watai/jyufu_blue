@@ -1480,7 +1480,7 @@ nav.kinds {
   background: #fff; }
   nav.kinds ul {
     height: auto;
-    line-height: 4rem;
+    line-height: 4.25rem;
     overflow: hidden;
     overflow-x: scroll;
     white-space: nowrap; }
