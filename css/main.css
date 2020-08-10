@@ -4641,7 +4641,7 @@ aside.yet_bill, aside.finish_bill {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
       aside.yet_bill .bill_blue_box_2 .box p, aside.finish_bill .bill_blue_box_2 .box p {
-        line-height: 1.5rem;
+        line-height: 1.3rem;
         font-size: 0.875rem; }
         aside.yet_bill .bill_blue_box_2 .box p:first-child, aside.finish_bill .bill_blue_box_2 .box p:first-child {
           font-size: 1rem; }
