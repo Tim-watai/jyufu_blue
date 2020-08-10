@@ -9848,7 +9848,7 @@ main {
               line-height: 1; }
             main article.menu ul.game_kinds li div.title p.num {
               font-family: "my_font";
-              font-weight: bold;
+              font-weight: normal;
               font-size: 2rem;
               line-height: 1; }
             main article.menu ul.game_kinds li div.title p.subtitle {
