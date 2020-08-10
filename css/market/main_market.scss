@@ -1195,6 +1195,8 @@ main {
                             height: .8rem;
                             width: 1rem;
                             line-height: 1;
+                            margin-right: -.125rem;
+                            vertical-align: middle;
                             &:after,
                             &:before {
                               content: "";

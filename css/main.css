@@ -2178,7 +2178,9 @@ main.market {
                     transform: rotate(-90deg);
                     height: .8rem;
                     width: 1rem;
-                    line-height: 1; }
+                    line-height: 1;
+                    margin-right: -.125rem;
+                    vertical-align: middle; }
                     main.market aside ul li.senior .content span.time_more div.more span.right_arrow:after, main.market aside ul li.senior .content span.time_more div.more span.right_arrow:before {
                       content: "";
                       position: absolute;
