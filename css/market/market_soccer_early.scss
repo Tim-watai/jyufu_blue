@@ -29,7 +29,8 @@ nav{
 }
 main{
     &.early_page{
-        margin-top: calc(8.75rem + .625rem);
-        height: calc(100vh - 8.75rem - 3.5rem - .625rem);//all - top - bottom - margin
+        margin-top: calc(9rem + .625rem);
+        height: calc(100vh - 9rem - 3.5rem - .625rem);//all - top - bottom - margin
+        //0810
     }
 }

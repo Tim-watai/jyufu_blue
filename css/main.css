@@ -1479,7 +1479,7 @@ nav.kinds {
   padding: 3rem 0 0 0;
   background: #fff; }
   nav.kinds ul {
-    height: 3.75rem;
+    height: auto;
     line-height: 3.75rem;
     overflow: hidden;
     overflow-x: scroll;
@@ -1515,7 +1515,7 @@ nav.kinds {
         nav.kinds ul li.active p:before {
           position: absolute;
           content: '';
-          bottom: -80%;
+          bottom: -74%;
           height: .25rem;
           left: 50%;
           -webkit-transform: translate(-50%, 0);
@@ -1627,7 +1627,7 @@ nav.kinds {
         nav.kinds ul li div span.beach_soccer {
           background-position: -25rem 0px; }
         nav.kinds ul li div p {
-          font-size: .7rem;
+          font-size: 0.938rem;
           line-height: 1;
           margin: 1px 0 0 0;
           font-family: "微軟正黑體"; }
@@ -4257,8 +4257,8 @@ nav.kinds ul.early {
         left: 0; }
 
 main.early_page {
-  margin-top: calc(8.75rem + .625rem);
-  height: calc(100vh - 8.75rem - 3.5rem - .625rem); }
+  margin-top: calc(9rem + .625rem);
+  height: calc(100vh - 9rem - 3.5rem - .625rem); }
 
 aside.yet_bill, aside.finish_bill {
   width: 100vw;
