@@ -1480,7 +1480,7 @@ nav.kinds {
   background: #fff; }
   nav.kinds ul {
     height: auto;
-    line-height: 3.75rem;
+    line-height: 4rem;
     overflow: hidden;
     overflow-x: scroll;
     white-space: nowrap; }
@@ -5554,7 +5554,7 @@ aside.title_windows {
       text-align: center; }
       aside.title_windows ul.bg li.title {
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 1.55rem;
         color: #313030;
         padding: 6% 0 0 0;
         height: 20%;
