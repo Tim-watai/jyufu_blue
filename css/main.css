@@ -7430,16 +7430,22 @@ aside.my_windows_mb_save {
     background: #fff; }
     aside.my_windows_mb_save div.save_name .box {
       padding: .75rem 0 .75rem 0;
-      border-bottom: 1px solid #e0e3f3; }
+      border-bottom: 1px solid #e0e3f3;
+      overflow: hidden;
+      width: 100%; }
       aside.my_windows_mb_save div.save_name .box p, aside.my_windows_mb_save div.save_name .box input {
         font-size: 1.2rem; }
       aside.my_windows_mb_save div.save_name .box p {
         color: #4d515d;
         margin: 0 1.25rem 0 0;
         line-height: 1.2;
-        display: inline-block; }
+        display: inline-block;
+        float: left; }
       aside.my_windows_mb_save div.save_name .box input {
-        border: none; }
+        border: none;
+        display: inline-block;
+        float: left;
+        width: calc(100vw - 8.75rem); }
         aside.my_windows_mb_save div.save_name .box input::-webkit-input-placeholder {
           color: #ced1e0; }
         aside.my_windows_mb_save div.save_name .box input:-ms-input-placeholder {

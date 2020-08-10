@@ -223,6 +223,8 @@ aside{
             .box{
               padding: .75rem 0 .75rem 0;
               border-bottom: 1px solid #e0e3f3;
+              overflow: hidden;
+              width: 100%;
               p,input{
                 font-size: 1.2rem;
               }
@@ -231,9 +233,13 @@ aside{
                 margin: 0 1.25rem 0 0;
                 line-height: 1.2;
                 display: inline-block;
+                float: left;
               }
               input{
                 border: none;
+                display: inline-block;
+                float: left;
+                width: calc(100vw - 8.75rem);
                 &::placeholder{
                   color: #ced1e0;
                 }
