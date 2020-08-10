@@ -7436,18 +7436,18 @@ aside.my_windows_mb_save {
       aside.my_windows_mb_save div.save_name .box p {
         color: #4d515d;
         margin: 0 1.25rem 0 0;
-        line-height: 1;
+        line-height: 1.2;
         display: inline-block; }
       aside.my_windows_mb_save div.save_name .box input {
         border: none; }
         aside.my_windows_mb_save div.save_name .box input::-webkit-input-placeholder {
-          color: #838ba0; }
+          color: #ced1e0; }
         aside.my_windows_mb_save div.save_name .box input:-ms-input-placeholder {
-          color: #838ba0; }
+          color: #ced1e0; }
         aside.my_windows_mb_save div.save_name .box input::-ms-input-placeholder {
-          color: #838ba0; }
+          color: #ced1e0; }
         aside.my_windows_mb_save div.save_name .box input::placeholder {
-          color: #838ba0; }
+          color: #ced1e0; }
     aside.my_windows_mb_save div.save_name p.subtitle {
       color: #838ba0;
       font-size: .9375rem;
@@ -7466,7 +7466,7 @@ aside.my_windows_mb_save {
       aside.my_windows_mb_save div.alipay_type .wrap.r {
         float: right; }
       aside.my_windows_mb_save div.alipay_type .wrap p {
-        font-size: .875rem;
+        font-size: 1.1rem;
         color: #4d515d;
         padding: .375rem 0 .375rem 0; }
       aside.my_windows_mb_save div.alipay_type .wrap:hover, aside.my_windows_mb_save div.alipay_type .wrap:active, aside.my_windows_mb_save div.alipay_type .wrap.active {

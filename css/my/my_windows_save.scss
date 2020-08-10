@@ -229,13 +229,13 @@ aside{
               p{
                 color: #4d515d;
                 margin: 0 1.25rem 0 0;
-                line-height: 1;
+                line-height: 1.2;
                 display: inline-block;
               }
               input{
                 border: none;
                 &::placeholder{
-                  color: #838ba0;
+                  color: #ced1e0;
                 }
               }
             }
@@ -263,7 +263,7 @@ aside{
                 float: right;
               }
               p{
-                font-size: .875rem;
+                font-size: 1.1rem;
                 color: #4d515d;
                 padding: .375rem 0 .375rem 0;
               }
