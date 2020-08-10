@@ -86,7 +86,7 @@ aside{
                     background-size: 900%;
                     @for $i from 1 through 9{
                       &.i#{$i}{
-                        background-position-y: -1.563rem;
+                        background-position-y: -1.875rem;
                       }
                     }
                     
@@ -105,16 +105,17 @@ aside{
                 span {
                   background: url(../images/my_mb_pay_icon.png) no-repeat;
                   background-size: 900%;
-                  width: 1.875rem;
-                  height: 1.563rem;
+                  // width: 1.875rem;
+                  width: 2.188rem;
+                  height: 1.875rem;
                   display: block;
                   margin: 0 auto .75rem;
                   @for $i from 1 through 9{
                     &.i#{$i}{
-                      background-position-x: ($i - 1) * -1.875rem;
+                      // background-position-x: ($i - 1) * -1.875rem;
+                      background-position-x: ($i - 1) * -2.188rem;
                     }
                   }
-                 
                 }
                 p {
                   margin: .1875rem 0 0 0;
