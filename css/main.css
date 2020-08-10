@@ -4375,7 +4375,8 @@ aside.yet_bill, aside.finish_bill {
         color: #556de7;
         line-height: 1.25rem;
         border-radius: 100px;
-        margin: 0px -.3125rem 0 .3125rem; }
+        margin: 0px -.3125rem 0 .3125rem;
+        padding-top: 1px; }
     aside.yet_bill .windows .content, aside.finish_bill .windows .content {
       height: 75vh;
       background: #f7f7f7;
@@ -4641,11 +4642,11 @@ aside.yet_bill, aside.finish_bill {
         transform: translateY(-50%); }
       aside.yet_bill .bill_blue_box_2 .box p, aside.finish_bill .bill_blue_box_2 .box p {
         line-height: 1.5rem;
-        font-size: 1.2rem; }
+        font-size: 0.875rem; }
         aside.yet_bill .bill_blue_box_2 .box p:first-child, aside.finish_bill .bill_blue_box_2 .box p:first-child {
           font-size: 1rem; }
         aside.yet_bill .bill_blue_box_2 .box p span, aside.finish_bill .bill_blue_box_2 .box p span {
-          font-size: 1.6rem; }
+          font-size: 1.3rem; }
 
 main.market aside ul li section.content span.horse_race_wrap {
   width: 80%;

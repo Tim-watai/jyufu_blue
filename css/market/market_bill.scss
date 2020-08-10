@@ -71,6 +71,7 @@ aside {
                 line-height: 1.25rem;
                 border-radius: 100px;
                 margin: 0px -.3125rem 0 .3125rem;
+                padding-top: 1px;
             }
         }
         .content{
@@ -408,12 +409,12 @@ aside {
             }
             p{
                 line-height: 1.5rem;
-                font-size: 1.2rem;
+                font-size: 0.875rem;
                 &:first-child{
                     font-size: 1rem;
                 }
                 span{
-                    font-size: 1.6rem;
+                    font-size: 1.3rem;
                 }
             }
         }
