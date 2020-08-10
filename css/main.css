@@ -2889,7 +2889,7 @@ aside.set_window {
           aside.set_window ul.side_bar li.title span.all {
             position: absolute;
             margin: 0 0 0 .7rem;
-            font-size: .7rem;
+            font-size: 0.813rem;
             color: #838ba0; }
           aside.set_window ul.side_bar li.title span.soccers {
             float: right;
@@ -2905,7 +2905,7 @@ aside.set_window {
           aside.set_window ul.side_bar li.title span.more {
             float: right;
             margin: 0 0 0 .7rem;
-            font-size: .7rem;
+            font-size: 0.813rem;
             color: #838ba0; }
             aside.set_window ul.side_bar li.title span.more p.arrow {
               display: inline-block;
