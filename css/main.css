@@ -7597,10 +7597,12 @@ aside.my_windows_mb_save {
             display: inline-block; }
           aside.my_windows_mb_save div.save_page .save_type .wrap.other span,
           aside.my_windows_mb_save div.save_page .save_type .wrap.other p {
-            font-size: .75rem;
             line-height: 1;
             display: block; }
+          aside.my_windows_mb_save div.save_page .save_type .wrap.other span {
+            font-size: .938rem; }
           aside.my_windows_mb_save div.save_page .save_type .wrap.other p {
+            font-size: .75rem;
             color: #838ba0;
             margin: .1875rem 0 0 0; }
           aside.my_windows_mb_save div.save_page .save_type .wrap.other:hover span,
@@ -7617,7 +7619,7 @@ aside.my_windows_mb_save {
           font-size: 1.125rem;
           color: #4d515d; }
     aside.my_windows_mb_save div.save_page p.point {
-      font-size: .875rem;
+      font-size: .938rem;
       color: #838ba0; }
   aside.my_windows_mb_save div.service_push {
     margin: .625rem 0 .625rem 0;

@@ -437,11 +437,14 @@ aside{
                   }
                   span,
                   p {
-                    font-size: .75rem;
                     line-height: 1;
                     display: block;
                   }
+                  span{
+                    font-size: .938rem;
+                  }
                   p {
+                    font-size: .75rem;
                     color: #838ba0;
                     margin: .1875rem 0 0 0;
                   }
@@ -469,7 +472,7 @@ aside{
             }
             p{
               &.point{
-                font-size: .875rem;
+                font-size: .938rem;
                 color: #838ba0;
               }
             }
