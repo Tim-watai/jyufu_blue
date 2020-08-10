@@ -1530,6 +1530,7 @@ nav.kinds {
           background-size: 1800%;
           width: 1.5625rem;
           height: 1.5625rem;
+          margin-bottom: -.15rem;
           -webkit-transform: scale(1.2);
           -ms-transform: scale(1.2);
           transform: scale(1.2);
@@ -1580,6 +1581,7 @@ nav.kinds {
           display: inline-block;
           background: url(../images/market/kinds.png) no-repeat;
           background-size: 1800%;
+          margin-bottom: -.15rem;
           width: 1.5625rem;
           height: 1.5625rem;
           -webkit-transform: scale(1);
