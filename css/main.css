@@ -3501,19 +3501,23 @@ div.window_double_mode {
                 div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input::-webkit-input-placeholder {
                   font-size: .8rem;
                   line-height: 1.2;
-                  vertical-align: middle; }
+                  vertical-align: middle;
+                  color: #ced1e0; }
                 div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input:-ms-input-placeholder {
                   font-size: .8rem;
                   line-height: 1.2;
-                  vertical-align: middle; }
+                  vertical-align: middle;
+                  color: #ced1e0; }
                 div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input::-ms-input-placeholder {
                   font-size: .8rem;
                   line-height: 1.2;
-                  vertical-align: middle; }
+                  vertical-align: middle;
+                  color: #ced1e0; }
                 div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input::placeholder {
                   font-size: .8rem;
                   line-height: 1.2;
-                  vertical-align: middle; }
+                  vertical-align: middle;
+                  color: #ced1e0; }
               div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right p {
                 font-size: .8rem;
                 position: absolute;
