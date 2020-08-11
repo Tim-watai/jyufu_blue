@@ -136,14 +136,42 @@ $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').clic
       return $(this).removeClass("active");
     }
   });
+  //專業版_bet_active
+  let market_senior_bet = $('aside ul li.senior .content span.point_box span.num_group span div');
+  market_senior_bet.click(function(){
+    console.log('double senior_mode');
+    if ($(this).hasClass("active") == true ) {
+      console.log('double true');
+      return $(this).addClass("active");
+    } 
+    else if($(this).hasClass('active') == false){
+      console.log('double false');
+      return $(this).removeClass("active");
+    }
+  })
+
   //開啟_投注頁面
-  $("main.market section.content .box .in ,aside.bet_window div.bet_page span.close").click(function() {
+  //新手
+  $("main.market section.content .box .in").click(function() {
     if ($("aside.bet_window").hasClass("active") != true && $('main.market').hasClass("early_page") != true) {
       return $("aside.bet_window").addClass("active");
-    }else{
+    }else if( $("aside.bet_window").hasClass("active") == true){
+      return $("aside.bet_window").removeClass("active");
+  }
+  });
+  //專業
+  $(".content .point_box .num_group span div").click(function() {
+    if ($("aside.bet_window").hasClass("active") != true && $('main.market').hasClass("early_page") != true) {
+      return $("aside.bet_window").addClass("active");
+    }else if( $("aside.bet_window").hasClass("active") == true){
         return $("aside.bet_window").removeClass("active");
     }
   });
+  //close
+  let bet_close = $('aside.bet_window div.bet_page span.close');
+  bet_close.click(function(){
+    return $("aside.bet_window").removeClass("active");
+  })
   
   //開啟_設置頁面
   $('footer ul li.set_table ,aside.set_window ul.side_bar li.close').click(
@@ -196,6 +224,7 @@ $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').clic
   //   }
   // });
 
+//live_page
 let double_header = $('header.double_inner');
 let live_page = $('header.live_page.live_page');
 let live_re = $('article.game_live div.wrap div:last-child');
