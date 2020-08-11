@@ -1092,8 +1092,8 @@ main {
                   display: inline-block;
 
                   &.time_more {
-                    line-height: 1.5rem;
-                    height: 1.5rem;
+                    line-height: 2rem;
+                    height: 2rem;
                     width: 100%;
                     padding: 0 .5625rem;
                     span {
@@ -1127,7 +1127,7 @@ main {
                       &.more {
                         float: right;
                         height: 100%;
-                        line-height: 1.5rem;
+                        line-height: 2rem;
                         white-space: nowrap;
                         color: #838ba0;
                         position: relative;
