@@ -1373,7 +1373,7 @@ header ul li.wallet {
   float: right;
   margin: 0 1.25rem 0 0;
   width: 1.375rem;
-  height: 1.25rem;
+  height: 1.313rem;
   background: url(../images/head_icons.png) no-repeat;
   background-size: 600%;
   background-position: -5.5rem 0;
@@ -1415,7 +1415,7 @@ header ul li.wallet {
 header ul li.search {
   float: right;
   width: 1.375rem;
-  height: 1.25rem;
+  height: 1.313rem;
   background: url(../images/head_icons.png) no-repeat;
   background-size: 600%;
   background-position: -1.375rem 0;
@@ -1450,7 +1450,7 @@ header ul li.edit_point {
   background-size: 100%;
   background-position: center center;
   width: 18px;
-  height: 1.25rem; }
+  height: 1.313rem; }
 
 header ul li.live_back {
   position: absolute;
@@ -6477,6 +6477,14 @@ aside.my_windows_mb_transfer {
         width: 15.1875rem;
         padding: .4375rem 0 .4375rem .6875rem;
         display: inline-block; }
+        aside.my_windows_mb_transfer div.transfer_area div.input_area input::-webkit-input-placeholder {
+          color: #ced1e0; }
+        aside.my_windows_mb_transfer div.transfer_area div.input_area input:-ms-input-placeholder {
+          color: #ced1e0; }
+        aside.my_windows_mb_transfer div.transfer_area div.input_area input::-ms-input-placeholder {
+          color: #ced1e0; }
+        aside.my_windows_mb_transfer div.transfer_area div.input_area input::placeholder {
+          color: #ced1e0; }
       aside.my_windows_mb_transfer div.transfer_area div.input_area p {
         padding: .5625rem 0 .5625rem 0;
         display: inline-block;
@@ -6495,7 +6503,7 @@ aside.my_windows_mb_transfer {
     border-radius: .5rem;
     padding: .625rem 2.5rem .625rem 2.5rem;
     font-size: 1.125rem;
-    font-weight: bold;
+    font-weight: normal;
     position: relative; }
 
 aside.jump_window.my_windows_mb_transfer_doing .windows {
@@ -6562,22 +6570,22 @@ aside.jump_window.my_windows_mb_transfer_doing .windows {
         aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area input::-webkit-input-placeholder {
           line-height: 1;
           font-size: 1rem;
-          color: #838ba0;
+          color: #ced1e0;
           padding: .5625rem 0 .5625rem 0; }
         aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area input:-ms-input-placeholder {
           line-height: 1;
           font-size: 1rem;
-          color: #838ba0;
+          color: #ced1e0;
           padding: .5625rem 0 .5625rem 0; }
         aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area input::-ms-input-placeholder {
           line-height: 1;
           font-size: 1rem;
-          color: #838ba0;
+          color: #ced1e0;
           padding: .5625rem 0 .5625rem 0; }
         aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area input::placeholder {
           line-height: 1;
           font-size: 1rem;
-          color: #838ba0;
+          color: #ced1e0;
           padding: .5625rem 0 .5625rem 0; }
       aside.jump_window.my_windows_mb_transfer_doing .windows div.content .input_area p {
         padding: .5625rem 0 .5625rem 0;
@@ -6770,7 +6778,7 @@ aside.my_windows_mb_take_out {
       color: #bec2cc;
       font-size: 1.125rem;
       border-radius: 8px;
-      font-weight: bold; }
+      font-weight: normal; }
       aside.my_windows_mb_take_out div.btn_area button.active {
         background: -webkit-gradient(linear, left top, right top, from(#99a6e3), to(#485cc4));
         background: -webkit-linear-gradient(left, #99a6e3 0%, #485cc4 100%);

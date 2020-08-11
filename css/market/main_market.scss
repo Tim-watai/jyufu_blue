@@ -1,5 +1,5 @@
 $d_gray: #4d515d;
-
+$icon_h:1.313rem;
 header {
   ul {
     &.market {
@@ -42,7 +42,7 @@ header {
         // height: 1.25rem;
         margin: 0 1.25rem 0 0;
         width: 1.375rem;
-        height: 1.25rem;
+        height: $icon_h;
         background: url(../images/head_icons.png) no-repeat;
         background-size: 600%;
         background-position: -5.5rem 0;
@@ -87,7 +87,7 @@ header {
       &.search {
         float: right;
         width: 1.375rem;
-        height: 1.25rem;
+        height: $icon_h;
         background: url(../images/head_icons.png) no-repeat;
         background-size: 600%;
         background-position: -1.375rem 0;
@@ -127,7 +127,7 @@ header {
         background-size: 100%;
         background-position: center center;
         width: 18px;
-        height: 1.25rem;
+        height: $icon_h;
       }
       &.live_back{
         position: absolute;
@@ -361,69 +361,7 @@ nav {
             background-position: -25rem 0px;
           }
         }
-          // span {
-          //   &.kind_icon {
-          //     display: inline-block;
-          //     background: url(../images/market/kinds.png) no-repeat;
-          //     background-size: 1800%;
-          //     width: 1.5625rem;
-          //     height: 1.375rem;
-          //   }
-          //   &.all {
-          //     background-position: -1.5625rem -1.25rem;
-          //   }
-          //   &.loves {
-          //     background-position: -0px -1.25rem;
-          //   }
-          //   &.soccer {
-          //     background-position: -3.125rem -1.25rem;
-          //   }
-          //   &.basketball {
-          //     background-position: -6.25rem -1.25rem;
-          //   }
-          //   &.horse {
-          //     background-position: -7.8125rem -1.25rem;
-          //   }
-          //   &.e_sport {
-          //     background-position: -9.375rem -1.25rem;
-          //   }
-          //   &.graph {
-          //     background-position: -10.9375rem -1.25rem;
-          //   }
-          //   &.color_ball {
-          //     background-position: -12.5rem -1.25rem;
-          //   }
-          //   &.ice_ball {
-          //     background-position: -14.0625rem -1.375rem;
-          //   }
-          //   &.basball {
-          //     background-position: -4.6875rem -1.25rem;
-          //   }
-          //   &.tennis {
-          //     background-position: -15.625rem -1.25rem;
-          //   }
-          //   &.snooker {
-          //     background-position: -17.1875rem -1.25rem;
-          //   }
-          //   &.volleyball {
-          //     background-position: -18.75rem -1.25rem;
-          //   }
-          //   &.motor_sport {
-          //     background-position: -20.3125rem -1.25rem;
-          //   }
-          //   &.badminton {
-          //     background-position: -21.875rem -1.25rem;
-          //   }
-          //   &.football {
-          //     background-position: -23.4375rem -1.25rem;
-          //   }
-          //   &.table_tennis {
-          //     background-position: -26.5625rem -1.25rem;
-          //   }
-          //   &.beach_soccer {
-          //     background-position: -25rem -1.25rem;
-          //   }
-          // }
+        
           p {
             font-size: 0.938rem;
             line-height: 1;
@@ -2220,7 +2158,7 @@ aside {
               border-radius: 1.875rem;
               padding: .125rem 0 0 3.25rem;
               &::placeholder {
-                color: #ced1e0;
+                color: $input_placeh_blue;
               }
             }
             &:before {

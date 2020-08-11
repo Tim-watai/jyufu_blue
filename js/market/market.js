@@ -1,6 +1,11 @@
 $(document).ready(function() {
   console.log('market.js');
 
+//初始開啟新手版0811
+let beg = $("main.market aside ul li.beginner");
+beg.css('display','block');
+
+
 //換膚 0522
 function check_play_type (){
   let t_day = localStorage.getItem('type');

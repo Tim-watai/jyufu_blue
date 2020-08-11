@@ -354,6 +354,9 @@ aside {
               width: 15.1875rem;
               padding: .4375rem 0 .4375rem .6875rem;
               display: inline-block;
+              &::placeholder{
+                color: $input_placeh_blue;
+              }
             }
             p {
               padding: .5625rem 0 .5625rem 0;
@@ -375,7 +378,7 @@ aside {
       border-radius: .5rem;
       padding: .625rem 2.5rem .625rem 2.5rem;
       font-size: 1.125rem;
-      font-weight: bold;
+      font-weight: normal;
       position: relative;
     }
   }
@@ -456,7 +459,7 @@ aside {
                     &::placeholder {
                       line-height: 1;
                       font-size: 1rem;
-                      color: #838ba0;
+                      color: $input_placeh_blue;
                       padding: .5625rem 0 .5625rem 0;
                     }
                   }
