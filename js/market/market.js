@@ -120,6 +120,7 @@ $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').clic
   $(
     "main.market aside ul li.senior section.content span.point_box span.num_group span div"
   ).click(function() {
+  
     if ($(this).hasClass("active") != true) {
       return $(this).addClass("active");
     } else {

@@ -1710,8 +1710,10 @@ main.market {
         display: inline-block;
         color: #4d515d;
         font-family: "my_font";
-        font-size: 1rem;
-        line-height: 1.5rem; }
+        font-size: .9375rem;
+        line-height: 1;
+        vertical-align: middle;
+        margin-bottom: .125rem; }
     main.market aside section.status.yet {
       border-top: 2px solid #5875E0; }
       main.market aside section.status.yet div span {
@@ -1719,7 +1721,10 @@ main.market {
         background-size: 910%;
         background-position: -1px 0; }
       main.market aside section.status.yet div p {
-        color: #5875E0; }
+        color: #fff;
+        background: #5875E0;
+        border-radius: 25px;
+        padding: .125rem .313rem .1rem; }
     main.market aside section.status.doing {
       border-top: 2px solid #EF6B5D; }
       main.market aside section.status.doing div span {
@@ -1727,7 +1732,10 @@ main.market {
         background-size: 910%;
         background-position: -18px 0; }
       main.market aside section.status.doing div p {
-        color: #EF6B5D; }
+        color: #fff;
+        background: #EF6B5D;
+        border-radius: 25px;
+        padding: .125rem .313rem .1rem; }
     main.market aside section.status.early {
       border-top: 2px solid #fab419; }
       main.market aside section.status.early div span {
@@ -1736,9 +1744,12 @@ main.market {
         background-position: -42px 0;
         width: 18px;
         height: .9375rem;
-        margin: 0 0 4px 0; }
+        margin: 0 0 0px 0; }
       main.market aside section.status.early div p {
-        color: #fab419; }
+        color: #fff;
+        background: #fab419;
+        border-radius: 25px;
+        padding: .125rem .313rem .1rem; }
   main.market aside article.option {
     height: 1.75rem;
     line-height: 1.75rem;

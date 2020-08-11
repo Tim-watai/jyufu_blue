@@ -467,9 +467,10 @@ main {
               display: inline-block;
               color: #4d515d;
               font-family: "my_font";
-              font-size: 1rem;
-              line-height: 1.5rem;
-              // margin: 0 0 0 5px;
+              font-size: .9375rem;
+              line-height: 1;
+              vertical-align: middle;
+              margin-bottom: .125rem;
             }
           }
           &.yet {
@@ -481,7 +482,10 @@ main {
                 background-position: -1px 0;
               }
               p{
-                color: #5875E0;
+                color: #fff;
+                background: #5875E0;
+                border-radius: 25px;
+                padding: .125rem .313rem .1rem;
               }
             }
           }
@@ -494,7 +498,10 @@ main {
                 background-position: -18px 0;
               }
               p{
-                color: #EF6B5D;
+                color: #fff;
+                background: #EF6B5D;
+                border-radius: 25px;
+                padding: .125rem .313rem .1rem;
               }
             }
           }
@@ -507,10 +514,13 @@ main {
                 background-position: -42px 0;
                 width: 18px;
                 height: .9375rem;
-                margin: 0 0 4px 0;
+                margin: 0 0 0px 0;
               }
               p{
-                color: #fab419;
+                color: #fff;
+                background: #fab419;
+                border-radius: 25px;
+                padding: .125rem .313rem .1rem;
               }
             }
           }
