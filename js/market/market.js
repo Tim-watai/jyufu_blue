@@ -61,6 +61,7 @@ $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').clic
 
 
   //今日_滾球_早盤_串關
+
   $("header ul li.title").click(function(){
     console.log("title");
    
@@ -125,9 +126,19 @@ $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').clic
       return $(this).removeClass("active");
     }
   });
+  //新手版_bet_active
+  let market_bet_btn = $('.content .box .in');
+
+  market_bet_btn.click(function() {
+    if ($(this).hasClass("active") != true) {
+      return $(this).addClass("active");
+    } else {
+      return $(this).removeClass("active");
+    }
+  });
   //開啟_投注頁面
-  $("main.market aside ul li.beginner ,aside.bet_window div.bet_page span.close").click(function() {
-    if ($("aside.bet_window").hasClass("active") != true) {
+  $("main.market section.content .box .in ,aside.bet_window div.bet_page span.close").click(function() {
+    if ($("aside.bet_window").hasClass("active") != true && $('main.market').hasClass("early_page") != true) {
       return $("aside.bet_window").addClass("active");
     }else{
         return $("aside.bet_window").removeClass("active");

@@ -1867,6 +1867,8 @@ main.market {
             background: #eef1ff; }
             main.market aside ul li.beginner .content:nth-child(odd) span.n_bet_box_2.n_bet_box_2 .wrap .box .in, main.market aside ul li.beginner .content:nth-child(odd) span.n_bet_box_3.n_bet_box_3 .wrap .box .in {
               background: #fff; }
+              main.market aside ul li.beginner .content:nth-child(odd) span.n_bet_box_2.n_bet_box_2 .wrap .box .in.active, main.market aside ul li.beginner .content:nth-child(odd) span.n_bet_box_3.n_bet_box_3 .wrap .box .in.active {
+                background: #556de7; }
             main.market aside ul li.beginner .content:nth-child(odd) span.horse_race_choice_box div {
               background: #fff; }
             main.market aside ul li.beginner .content:nth-child(odd) span.num_group.num_group.num_group.num_group div {
@@ -4824,9 +4826,9 @@ aside.type_ch {
     background-color: #f6f8ff;
     height: 100%;
     line-height: 2.8rem; }
-    .n_bet_box_3.n_bet_box_3 .box .in:hover, .n_bet_box_3.n_bet_box_3 .box .in.active {
+    .n_bet_box_3.n_bet_box_3 .box .in.active {
       background: #556de7; }
-      .n_bet_box_3.n_bet_box_3 .box .in:hover .t_wrap p, .n_bet_box_3.n_bet_box_3 .box .in:hover .t_wrap span, .n_bet_box_3.n_bet_box_3 .box .in.active .t_wrap p, .n_bet_box_3.n_bet_box_3 .box .in.active .t_wrap span {
+      .n_bet_box_3.n_bet_box_3 .box .in.active .t_wrap p, .n_bet_box_3.n_bet_box_3 .box .in.active .t_wrap span {
         color: #fff; }
     .n_bet_box_3.n_bet_box_3 .box .in .t_wrap {
       line-height: 1;
@@ -4842,32 +4844,42 @@ aside.type_ch {
         line-height: 1;
         font-size: 0.938em; }
 
-.n_bet_box_2.n_bet_box_2 .box {
+.n_bet_box_2 .box {
   width: 50%;
   float: left;
   height: 100%; }
-  .n_bet_box_2.n_bet_box_2 .box .in {
+  .n_bet_box_2 .box .in {
     margin-right: 0.313rem;
     background-color: #f6f8ff;
     height: 100%;
     line-height: 3rem; }
-    .n_bet_box_2.n_bet_box_2 .box .in:hover, .n_bet_box_2.n_bet_box_2 .box .in.active {
+    .n_bet_box_2 .box .in.active.active.active {
       background: #556de7; }
-      .n_bet_box_2.n_bet_box_2 .box .in:hover .t_wrap p, .n_bet_box_2.n_bet_box_2 .box .in:hover .t_wrap span, .n_bet_box_2.n_bet_box_2 .box .in.active .t_wrap p, .n_bet_box_2.n_bet_box_2 .box .in.active .t_wrap span {
+      .n_bet_box_2 .box .in.active.active.active .t_wrap p, .n_bet_box_2 .box .in.active.active.active .t_wrap span {
         color: #fff; }
-    .n_bet_box_2.n_bet_box_2 .box .in .t_wrap {
+    .n_bet_box_2 .box .in .t_wrap {
       line-height: 1;
       vertical-align: middle;
       display: inline-block; }
-      .n_bet_box_2.n_bet_box_2 .box .in .t_wrap p {
+      .n_bet_box_2 .box .in .t_wrap p {
         color: #838ba0; }
-      .n_bet_box_2.n_bet_box_2 .box .in .t_wrap span {
+      .n_bet_box_2 .box .in .t_wrap span {
         margin-top: .375rem;
         color: #1b255c;
         font-weight: bold; }
-      .n_bet_box_2.n_bet_box_2 .box .in .t_wrap p, .n_bet_box_2.n_bet_box_2 .box .in .t_wrap span {
+      .n_bet_box_2 .box .in .t_wrap p, .n_bet_box_2 .box .in .t_wrap span {
         line-height: 1;
         font-size: 0.938em; }
+
+.icon_roll_ball.icon_roll_ball.icon_roll_ball.icon_roll_ball {
+  display: inline-block;
+  background: url(../images/market/roll_ball.gif) no-repeat;
+  background-size: 100%;
+  width: .9375rem;
+  height: .9375rem;
+  line-height: .9375rem;
+  position: relative;
+  vertical-align: middle; }
 
 .no_game {
   width: 100%;

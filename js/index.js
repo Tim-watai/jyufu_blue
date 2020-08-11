@@ -1,15 +1,6 @@
 $(document).ready(function() {
   console.log("index ready");
 
- 
-//切換_註冊登入
-//登入
-// $('.sign_in').click(function(){
-//   console.log('sign_in click now')
-  
-//   $('ul.profile li.u_data').css('display','block');
-//   $('ul.profile li.u_data.yet_sign').css('display','none');
-// });
 
   //切換_熱門賽事
   $("li.hot_btn , article.bg span.close").click(function() {
@@ -68,36 +59,7 @@ $("header ul li.message_icon , aside.title_windows div.close").click(function() 
  }
 });
 
-  //切換_我的視窗_錢包
-  // $('aside.my_windows div.group ul li.my_mb , aside.my_windows_mb div.header ul li.back').click(function(){
-   
-  //   if($('aside.my_windows_mb').hasClass('active') !== true)
-  //   {
-  //     return $('aside.my_windows_mb').addClass('active');    
-  //   }else{
-  //     return $('aside.my_windows_mb').removeClass('active');   
-  //   }
-  // });
-  //切換_我的視窗_錢包_取款
-  // $('aside.my_windows_mb_take_out div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.take_out').click(function(){
-  //   console.log('mb');
-  //   if($('aside.my_windows_mb_take_out').hasClass('active') !== true)
-  //   {
-  //     return $('aside.my_windows_mb_take_out').addClass('active');    
-  //   }else{
-  //     return $('aside.my_windows_mb_take_out').removeClass('active');   
-  //   }
-  // });
-  //切換_我的視窗_錢包_轉帳
-  // $('aside.my_windows_mb_transfer div.header ul li.back , aside.my_windows_mb div.mb_content div.btns div.transfer').click(function(){
-  //   console.log('mb');
-  //   if($('aside.my_windows_mb_transfer').hasClass('active') !== true)
-  //   {
-  //     return $('aside.my_windows_mb_transfer').addClass('active');    
-  //   }else{
-  //     return $('aside.my_windows_mb_transfer').removeClass('active');   
-  //   }
-  // });
+  
   
   //switch
   $('aside.my_windows_mb_transfer div.auto div.box_empty div.check').click(function(){
@@ -130,16 +92,6 @@ $('aside.my_windows_card div.header ul li.back , aside.my_windows_mb div.mb_cont
 });
 
 
-  //切換_我的視窗_投注紀錄
-  // $('aside.my_windows_bet_record div.header ul li.back , aside.my_windows div.group ul li.my_rd').click(function(){
-  //   console.log('mb');
-  //   if($('aside.my_windows_bet_record').hasClass('active') !== true)
-  //   {
-  //     return $('aside.my_windows_bet_record').addClass('active');    
-  //   }else{
-  //     return $('aside.my_windows_bet_record').removeClass('active');   
-  //   }
-  // });
 
 
 

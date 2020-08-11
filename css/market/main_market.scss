@@ -674,6 +674,9 @@ main {
                         .box{
                           .in{
                             background: #fff;
+                            &.active{
+                              background: #556de7;
+                            }
                           }
                         }
                       }

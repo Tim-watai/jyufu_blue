@@ -24,7 +24,7 @@
             background-color: #f6f8ff;
             height: 100%;
             line-height: 2.8rem;
-            &:hover,&.active{
+           &.active{
                 background: #556de7;
                 .t_wrap{
                     p,span{
@@ -53,7 +53,7 @@
         }
     }
 }
-.n_bet_box_2.n_bet_box_2{
+.n_bet_box_2{
     .box{
         width: 50%;
         float: left;
@@ -63,7 +63,7 @@
             background-color: #f6f8ff;
             height: 100%;
             line-height: 3rem;
-            &:hover,&.active{
+            &.active.active.active{
                 background: #556de7;
                 .t_wrap{
                     p,span{
