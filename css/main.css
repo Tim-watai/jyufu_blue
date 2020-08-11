@@ -1814,7 +1814,8 @@ main.market {
         line-height: 1.75rem;
         padding: 0 .5625rem 0 .5625rem;
         position: relative;
-        display: inline-block; }
+        display: inline-block;
+        border-top: 1px solid #e0e3f3; }
         main.market aside ul li span.title p {
           display: inline-block;
           color: #1b255c;
