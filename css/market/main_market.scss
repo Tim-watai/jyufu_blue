@@ -789,6 +789,7 @@ main {
                         display: inline-block;
                         background: none;
                         width: auto;
+                        position: relative;
 
                         p {
                           display: inline-block;
@@ -1129,6 +1130,7 @@ main {
                         line-height: 1.5rem;
                         white-space: nowrap;
                         color: #838ba0;
+                        position: relative;
                         p {
                           display: inline-block;
                           font-size: .8rem;

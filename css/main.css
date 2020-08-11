@@ -1934,7 +1934,8 @@ main.market {
                 line-height: 1.5rem;
                 display: inline-block;
                 background: none;
-                width: auto; }
+                width: auto;
+                position: relative; }
                 main.market aside ul li.beginner .content span.time_more div.more p {
                   display: inline-block;
                   font-size: .8rem; }
@@ -2170,7 +2171,8 @@ main.market {
                   height: 100%;
                   line-height: 1.5rem;
                   white-space: nowrap;
-                  color: #838ba0; }
+                  color: #838ba0;
+                  position: relative; }
                   main.market aside ul li.senior .content span.time_more div.more p {
                     display: inline-block;
                     font-size: .8rem;
