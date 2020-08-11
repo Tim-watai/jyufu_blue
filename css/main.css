@@ -1869,9 +1869,7 @@ main.market {
               background: #fff; }
             main.market aside ul li.beginner .content:nth-child(odd) span.horse_race_choice_box div {
               background: #fff; }
-          main.market aside ul li.beginner .content.blue {
-            background: #eef1ff; }
-            main.market aside ul li.beginner .content.blue span.num_group div {
+            main.market aside ul li.beginner .content:nth-child(odd) span.num_group.num_group.num_group.num_group div {
               background-color: #fff; }
           main.market aside ul li.beginner .content.empty span.counter p.mid {
             color: #838ba0; }
@@ -2091,6 +2089,8 @@ main.market {
           main.market aside ul li.senior .content:nth-child(odd) {
             background: #eef1ff; }
             main.market aside ul li.senior .content:nth-child(odd) span.point_box span.num_group div {
+              background: #fff; }
+            main.market aside ul li.senior .content:nth-child(odd) span.num_group div {
               background: #fff; }
           main.market aside ul li.senior .content.blue {
             background: #eef1ff; }

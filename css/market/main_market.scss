@@ -746,17 +746,16 @@ main {
                       }
                     }
                   }
-                }
-                &.blue {
-                  background: #eef1ff;
                   span {
-                    &.num_group {
+                    &.num_group.num_group.num_group.num_group {
                       div {
                         background-color: #fff;
                       }
                     }
                   }
                 }
+               
+               
                 &.empty {
                   span {
                     &.counter {
@@ -1070,8 +1069,13 @@ main {
                         }
                       }
                     }
-                  }
-                }
+                    &.num_group{
+                      div{
+                        background: #fff;
+                      }
+                    }
+                  }//span
+                }//odd
                 &.blue {
                   background: #eef1ff;
                   span {
