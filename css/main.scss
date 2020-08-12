@@ -10,6 +10,8 @@
 @import "../css/market/market_esport.scss";
 @import "../css/market/market_soccer.scss";
 @import "../css/market/market_soccer_double.scss";
+//0812專業版賽況_icon
+@import "../css/market/market_senior_game_i.scss";
 @import "../css/market/market_soccer_double_inner.scss";
 @import "../css/market/market_soccer_early.scss";
 @import "../css/market/market_bill.scss";
@@ -194,7 +196,8 @@ header {
       &.title {
         position: absolute;
         left: 50%;
-        transform: translate(-50%, -50%);
+        top: .5rem;
+        transform: translate(-50%, 0%);
         color: $d_gray;
         font-family: "微軟正黑體";
         display: inline-block;

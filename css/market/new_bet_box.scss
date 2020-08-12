@@ -1,3 +1,5 @@
+
+$bet_t_size:0.875rem;
 .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3,
 .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2{
     display: block;
@@ -47,7 +49,7 @@
                 }
                 p,span{
                     line-height: 1;
-                    font-size: 0.938em;
+                    font-size: $bet_t_size;
                 }
             }
         }
@@ -86,7 +88,7 @@
                 }
                 p,span{
                     line-height: 1;
-                    font-size: 0.938em;
+                    font-size: $bet_t_size;
                 }
             }
         }

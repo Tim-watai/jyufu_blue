@@ -90,6 +90,9 @@ header {
           &.title {
             color: #fff;
             font-size: 1.0625rem;
+            width: 80%;
+            text-align: center;
+            white-space: normal;
             span {
               border-color: #fff transparent transparent transparent;
             }
@@ -273,19 +276,20 @@ header {
             &.wrap {
               line-height: 2rem;
               vertical-align: middle;
-              width: 70%;
+              width: auto;
               height: 2rem;
               display: inline-block;
               background: rgba(0, 0, 0, 0.4);
               border-radius: 1.875rem;
               white-space: nowrap;
-              padding: 0 1.125rem;
+              // padding: 0 1.125rem;
 
               div {
                 display: inline-block;
-                width: 50%;
+                width: auto;
                 height: 100%;
                 position: relative;
+                padding: 0 1.125rem;
                 p,
                 span {
                   display: inline-block;
@@ -305,6 +309,7 @@ header {
                       no-repeat;
                     background-position: center center;
                     background-size: cover;
+                    vertical-align: middle;
                   }
                   &.live_game {
                     width: 1.125rem;
@@ -312,10 +317,11 @@ header {
                       no-repeat;
                     background-position: center center;
                     background-size: cover;
+                    vertical-align: middle;
                   }
                 }
                 &:first-child {
-                  border-right: .125rem solid #303030;
+                  // border-right: .125rem solid #303030;
                   text-align: left;
                 }
                 &:last-child {
@@ -347,7 +353,7 @@ header {
             }
           }
           .wrap{
-            width: 25%;
+            padding: 0 2vw;
             text-align: center;
             display: inline-block;
             // width: 25%;
@@ -662,6 +668,7 @@ main {
                   &:last-child{
                     right: 20%;
                     transform: translate(50%,-50%);
+                    color: #ec3b28;
                   }
                 }
               }
@@ -680,6 +687,7 @@ main {
                   &:last-child{
                     right: 22%;
                     transform: translate(50%,-50%);
+                    color: #ec3b28;
                   }
                 }
               }

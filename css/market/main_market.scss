@@ -1,5 +1,14 @@
 $d_gray: #4d515d;
 $icon_h:1.313rem;
+
+
+
+//專業版的高
+$point_box_h:8.75rem;
+//專業版灰體字
+$sen_t_color:#4d515d;
+$sen_t_size:.875rem;
+
 header {
   ul {
     &.market {
@@ -467,7 +476,7 @@ main {
               display: inline-block;
               color: #4d515d;
               font-family: "my_font";
-              font-size: .9375rem;
+              font-size: .7rem;
               line-height: 1;
               vertical-align: middle;
               margin-bottom: .063rem;
@@ -651,14 +660,7 @@ main {
               }
             }
           }
-          // section {
-          //   &.content {
-          //     span {
-          //       &.num_group {
-          //       }
-          //     }
-          //   }
-          // }
+
           &.beginner {
             display: none;
             &.active {
@@ -759,22 +761,22 @@ main {
                         background: url(../images/market/game_icons.png)
                           no-repeat;
                         background-size: 800%;
-                        width: 1.125rem;
-                        height: .9375rem;
-                        line-height: .9375rem;
+                        width: 1.25rem;
+                        height: 1rem;
+                        line-height: 1rem;
                         position: relative;
                         vertical-align: middle;
                       }
                       &.icon_game {
-                        background-position: -3.375em 0;
+                        background-position: -3.75em 0;
                         &.yet.yet.yet {
-                          background-position: -4.5rem 0;
+                          background-position: -5rem 0;
                         }
                       }
                       &.icon_live {
-                        background-position: -5.625rem 0;
+                        background-position: -6.25rem 0;
                         &.yet.yet.yet {
-                          background-position: -6.75rem 0;
+                          background-position: -7rem 0;
                         }
                       }
                       &.timing {
@@ -1007,7 +1009,6 @@ main {
             }
 
               .content {
-                padding: 0 0 .625rem 0;
                 border-top: 2px solid #e0e3f3;
                 position: relative;
                 &:nth-child(odd) {
@@ -1079,7 +1080,7 @@ main {
 
                       p {
                         display: inline-block;
-                        font-size: 1rem;
+                        font-size: .875rem;
                         color: #4d515d;
                         width: calc(100% / 3 - 3px);
                         text-align: center;
@@ -1093,8 +1094,8 @@ main {
                       left: 50%;
                       transform: translateX(-50%);
                       background: #e0e3f3;
-                      width: 97%;
-                      height: 1px;
+                      width: 100%;
+                      height: 2px;
                     }
                   }
                 }
@@ -1183,6 +1184,7 @@ main {
                     }
                   }
                   &.point_box {
+                   
                     width: 100%;
                     padding: 0 .5625rem;
                     overflow: hidden;
@@ -1209,7 +1211,7 @@ main {
                           width: 100%;
                           display: inline-block;
                           &.country {
-                            line-height: calc((10.625rem / 2) - 3px);
+                            line-height: calc((#{$point_box_h} / 3) - 3px);
                             margin: 0 0 3px 0;
                           }
                         }
@@ -1250,10 +1252,10 @@ main {
                             width: calc(100% / 3 - 3px);
                             text-align: center;
                             margin: 0 3px 0 0;
-                            line-height: calc((10.625rem / 3) / 2);
+                            line-height: calc((#{$point_box_h} / 3) / 2);
                             div {
                               width: 100%;
-                              height: calc(10.625rem / 3 - 3px);
+                              height: calc(#{$point_box_h} / 3 - 3px);
                               margin: 0 0 3px 0;
                           
                             }
@@ -1265,11 +1267,11 @@ main {
                             div {
                               width: 100%;
                               height: 50%;
-                              height: calc(10.625rem / 2 - 3px);
+                              height: calc((#{$point_box_h} / 2) - 3px);
                               margin: 0 0 3px 0;
-                              line-height: calc((10.625rem / 2 - 3px) / 2);
+                              line-height: calc((#{$point_box_h} / 2 - 3px) / 2);
                               &.solo_line {
-                                line-height: calc((10.625rem / 1 - 3px) / 2);
+                                line-height: calc((#{$point_box_h} / 1 - 3px) / 2);
                               }
                             }
                           }
@@ -1278,19 +1280,17 @@ main {
                           display: block;
                           background-color: #f6f8ff;
                           p {
-                            color: #838ba0;
-                            // line-height: 1;
-                            font-size: 0.938rem;
+                            color: $sen_t_color;
+                            font-size: $sen_t_size;
                             display: inline-block;
                             font-weight: normal;
                             width: 100%;
                           }
                           span {
                             width: 100%;
-                            color: #1b255c;
-                            // line-height: 1;
-                            font-size: 0.938rem;
-                            font-weight: bold;
+                            color: #ec3b28;
+                            font-size: $sen_t_size;
+                            font-weight: normal;
                           }
                         }
                       }
@@ -1308,30 +1308,7 @@ main {
                         line-height: 100%;
                         color: #1b255c;
                         font-size: 1rem;
-                      }
-                      span {
-                        display: inline-block;
-                        background: url(../images/market/game_icons.png)
-                          no-repeat;
-                        background-size: 800%;
-                        width: 1.125rem;
-                        height: .9375rem;
-                        line-height: .9375rem;
-                        position: relative;
-                        vertical-align: middle;
-                        &.icon_game {
-                          background-position: -3.375em 0;
-                          &.yet.yet.yet {
-                            background-position: -4.5rem 0;
-                          }
-                        }
-                        &.icon_live {
-                          background-position: -5.625rem 0;
-                          &.yet.yet.yet {
-                            background-position: -6.75rem 0;
-                          }
-                        }
-                      }
+                      }            
                     }
                   }
                 }

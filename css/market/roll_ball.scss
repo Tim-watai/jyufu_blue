@@ -2,9 +2,12 @@
     display: inline-block;
     background: url(../images/market/roll_ball.gif) no-repeat;
     background-size: 100%;
-    width: .9375rem;
-    height: .9375rem;
-    line-height: .9375rem;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
     position: relative;
     vertical-align: middle;
+    &.bottom{
+        vertical-align: bottom;
+    }
 }

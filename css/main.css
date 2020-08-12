@@ -1710,7 +1710,7 @@ main.market {
         display: inline-block;
         color: #4d515d;
         font-family: "my_font";
-        font-size: .9375rem;
+        font-size: .7rem;
         line-height: 1;
         vertical-align: middle;
         margin-bottom: .063rem; }
@@ -1912,19 +1912,19 @@ main.market {
                 display: inline-block;
                 background: url(../images/market/game_icons.png) no-repeat;
                 background-size: 800%;
-                width: 1.125rem;
-                height: .9375rem;
-                line-height: .9375rem;
+                width: 1.25rem;
+                height: 1rem;
+                line-height: 1rem;
                 position: relative;
                 vertical-align: middle; }
               main.market aside ul li.beginner .content span.time_more div.icon_game {
-                background-position: -3.375em 0; }
+                background-position: -3.75em 0; }
                 main.market aside ul li.beginner .content span.time_more div.icon_game.yet.yet.yet {
-                  background-position: -4.5rem 0; }
+                  background-position: -5rem 0; }
               main.market aside ul li.beginner .content span.time_more div.icon_live {
-                background-position: -5.625rem 0; }
+                background-position: -6.25rem 0; }
                 main.market aside ul li.beginner .content span.time_more div.icon_live.yet.yet.yet {
-                  background-position: -6.75rem 0; }
+                  background-position: -7rem 0; }
               main.market aside ul li.beginner .content span.time_more div.timing {
                 color: #5875e0;
                 border: 1px solid #5875e0;
@@ -2098,7 +2098,6 @@ main.market {
         main.market aside ul li.senior.active {
           display: block; }
         main.market aside ul li.senior .content {
-          padding: 0 0 .625rem 0;
           border-top: 2px solid #e0e3f3;
           position: relative; }
           main.market aside ul li.senior .content:nth-child(odd) {
@@ -2131,7 +2130,7 @@ main.market {
               white-space: nowrap; }
               main.market aside ul li.senior .content div.senior_mode span p {
                 display: inline-block;
-                font-size: 1rem;
+                font-size: .875rem;
                 color: #4d515d;
                 width: calc(100% / 3 - 3px);
                 text-align: center;
@@ -2145,8 +2144,8 @@ main.market {
               -ms-transform: translateX(-50%);
               transform: translateX(-50%);
               background: #e0e3f3;
-              width: 97%;
-              height: 1px; }
+              width: 100%;
+              height: 2px; }
           main.market aside ul li.senior .content span {
             display: inline-block; }
             main.market aside ul li.senior .content span.time_more {
@@ -2241,7 +2240,7 @@ main.market {
                   width: 100%;
                   display: inline-block; }
                   main.market aside ul li.senior .content span.point_box span.counter div.country {
-                    line-height: calc((10.625rem / 2) - 3px);
+                    line-height: calc((8.75rem / 3) - 3px);
                     margin: 0 0 3px 0; }
               main.market aside ul li.senior .content span.point_box span.num_group {
                 width: 60%; }
@@ -2267,10 +2266,10 @@ main.market {
                   width: calc(100% / 3 - 3px);
                   text-align: center;
                   margin: 0 3px 0 0;
-                  line-height: calc((10.625rem / 3) / 2); }
+                  line-height: calc((8.75rem / 3) / 2); }
                   main.market aside ul li.senior .content span.point_box span.num_group span.three_side div {
                     width: 100%;
-                    height: calc(10.625rem / 3 - 3px);
+                    height: calc(8.75rem / 3 - 3px);
                     margin: 0 0 3px 0; }
                 main.market aside ul li.senior .content span.point_box span.num_group span.two_side {
                   width: calc(100% / 3 - 3px);
@@ -2279,25 +2278,25 @@ main.market {
                   main.market aside ul li.senior .content span.point_box span.num_group span.two_side div {
                     width: 100%;
                     height: 50%;
-                    height: calc(10.625rem / 2 - 3px);
+                    height: calc((8.75rem / 2) - 3px);
                     margin: 0 0 3px 0;
-                    line-height: calc((10.625rem / 2 - 3px) / 2); }
+                    line-height: calc((8.75rem / 2 - 3px) / 2); }
                     main.market aside ul li.senior .content span.point_box span.num_group span.two_side div.solo_line {
-                      line-height: calc((10.625rem / 1 - 3px) / 2); }
+                      line-height: calc((8.75rem / 1 - 3px) / 2); }
                 main.market aside ul li.senior .content span.point_box span.num_group div {
                   display: block;
                   background-color: #f6f8ff; }
                   main.market aside ul li.senior .content span.point_box span.num_group div p {
-                    color: #838ba0;
-                    font-size: 0.938rem;
+                    color: #4d515d;
+                    font-size: 0.875rem;
                     display: inline-block;
                     font-weight: normal;
                     width: 100%; }
                   main.market aside ul li.senior .content span.point_box span.num_group div span {
                     width: 100%;
-                    color: #1b255c;
-                    font-size: 0.938rem;
-                    font-weight: bold; }
+                    color: #ec3b28;
+                    font-size: 0.875rem;
+                    font-weight: normal; }
               main.market aside ul li.senior .content span.point_box .live {
                 line-height: 1.5rem;
                 position: relative; }
@@ -2313,23 +2312,6 @@ main.market {
                   line-height: 100%;
                   color: #1b255c;
                   font-size: 1rem; }
-                main.market aside ul li.senior .content span.point_box .live span {
-                  display: inline-block;
-                  background: url(../images/market/game_icons.png) no-repeat;
-                  background-size: 800%;
-                  width: 1.125rem;
-                  height: .9375rem;
-                  line-height: .9375rem;
-                  position: relative;
-                  vertical-align: middle; }
-                  main.market aside ul li.senior .content span.point_box .live span.icon_game {
-                    background-position: -3.375em 0; }
-                    main.market aside ul li.senior .content span.point_box .live span.icon_game.yet.yet.yet {
-                      background-position: -4.5rem 0; }
-                  main.market aside ul li.senior .content span.point_box .live span.icon_live {
-                    background-position: -5.625rem 0; }
-                    main.market aside ul li.senior .content span.point_box .live span.icon_live.yet.yet.yet {
-                      background-position: -6.75rem 0; }
 
 footer ul.market li p {
   font-size: 0.813rem; }
@@ -3805,6 +3787,24 @@ div.double_mode {
           line-height: 1;
           vertical-align: sub; }
 
+.sen_icon {
+  display: inline-block;
+  background: url(../images/market/game_icons.png) no-repeat;
+  background-size: 800%;
+  width: 1.25rem;
+  height: 1rem;
+  line-height: 1rem;
+  position: relative;
+  vertical-align: bottom; }
+  .sen_icon.sen_icon_game {
+    background-position: -3.75em 0; }
+    .sen_icon.sen_icon_game.yet.yet.yet {
+      background-position: -5rem 0; }
+  .sen_icon.sen_icon_live {
+    background-position: -6.25rem 0; }
+    .sen_icon.sen_icon_live.yet.yet.yet {
+      background-position: -7.5rem 0; }
+
 header.double_inner {
   display: none;
   background: url(../images/double_inner/header_bg.png) no-repeat;
@@ -3874,7 +3874,10 @@ header.double_inner {
         background-color: #fff; }
       header.double_inner ul.market li.title {
         color: #fff;
-        font-size: 1.0625rem; }
+        font-size: 1.0625rem;
+        width: 80%;
+        text-align: center;
+        white-space: normal; }
         header.double_inner ul.market li.title span {
           border-color: #fff transparent transparent transparent; }
   header.double_inner section {
@@ -4000,18 +4003,18 @@ header.double_inner {
       header.double_inner section article.game_live div.wrap {
         line-height: 2rem;
         vertical-align: middle;
-        width: 70%;
+        width: auto;
         height: 2rem;
         display: inline-block;
         background: rgba(0, 0, 0, 0.4);
         border-radius: 1.875rem;
-        white-space: nowrap;
-        padding: 0 1.125rem; }
+        white-space: nowrap; }
         header.double_inner section article.game_live div.wrap div {
           display: inline-block;
-          width: 50%;
+          width: auto;
           height: 100%;
-          position: relative; }
+          position: relative;
+          padding: 0 1.125rem; }
           header.double_inner section article.game_live div.wrap div p,
           header.double_inner section article.game_live div.wrap div span {
             display: inline-block; }
@@ -4027,14 +4030,15 @@ header.double_inner {
             header.double_inner section article.game_live div.wrap div span.live_tv {
               background: url(../images/double_inner/live_tv.png) no-repeat;
               background-position: center center;
-              background-size: cover; }
+              background-size: cover;
+              vertical-align: middle; }
             header.double_inner section article.game_live div.wrap div span.live_game {
               width: 1.125rem;
               background: url(../images/double_inner/live_game.png) no-repeat;
               background-position: center center;
-              background-size: cover; }
+              background-size: cover;
+              vertical-align: middle; }
           header.double_inner section article.game_live div.wrap div:first-child {
-            border-right: .125rem solid #303030;
             text-align: left; }
           header.double_inner section article.game_live div.wrap div:last-child {
             text-align: right; }
@@ -4055,7 +4059,7 @@ header.double_inner {
         header.double_inner section article.game_type.no_use .wrap {
           display: none; }
       header.double_inner section article.game_type .wrap {
-        width: 25%;
+        padding: 0 2vw;
         text-align: center;
         display: inline-block; }
       header.double_inner section article.game_type span {
@@ -4269,7 +4273,8 @@ main.double_inner_page {
                   right: 20%;
                   -webkit-transform: translate(50%, -50%);
                   -ms-transform: translate(50%, -50%);
-                  transform: translate(50%, -50%); }
+                  transform: translate(50%, -50%);
+                  color: #ec3b28; }
             main.double_inner_page ul li div.content span.box_2_normal p {
               position: absolute;
               top: 50%;
@@ -4286,7 +4291,8 @@ main.double_inner_page {
                 right: 22%;
                 -webkit-transform: translate(50%, -50%);
                 -ms-transform: translate(50%, -50%);
-                transform: translate(50%, -50%); }
+                transform: translate(50%, -50%);
+                color: #ec3b28; }
             main.double_inner_page ul li div.content span p {
               font-size: .875rem;
               line-height: 1rem;
@@ -4856,7 +4862,7 @@ aside.type_ch {
         font-weight: bold; }
       .n_bet_box_3.n_bet_box_3 .box .in .t_wrap p, .n_bet_box_3.n_bet_box_3 .box .in .t_wrap span {
         line-height: 1;
-        font-size: 0.938em; }
+        font-size: 0.875rem; }
 
 .n_bet_box_2 .box {
   width: 50%;
@@ -4883,17 +4889,19 @@ aside.type_ch {
         font-weight: bold; }
       .n_bet_box_2 .box .in .t_wrap p, .n_bet_box_2 .box .in .t_wrap span {
         line-height: 1;
-        font-size: 0.938em; }
+        font-size: 0.875rem; }
 
 .icon_roll_ball.icon_roll_ball.icon_roll_ball.icon_roll_ball {
   display: inline-block;
   background: url(../images/market/roll_ball.gif) no-repeat;
   background-size: 100%;
-  width: .9375rem;
-  height: .9375rem;
-  line-height: .9375rem;
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
   position: relative;
   vertical-align: middle; }
+  .icon_roll_ball.icon_roll_ball.icon_roll_ball.icon_roll_ball.bottom {
+    vertical-align: bottom; }
 
 .no_game {
   width: 100%;
@@ -9510,9 +9518,10 @@ header {
       header ul li.title {
         position: absolute;
         left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        top: .5rem;
+        -webkit-transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        transform: translate(-50%, 0%);
         color: #4d515d;
         font-family: "微軟正黑體";
         display: inline-block;

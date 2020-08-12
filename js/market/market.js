@@ -228,7 +228,7 @@ $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').clic
 //live_page
 let double_header = $('header.double_inner');
 let live_page = $('header.live_page.live_page');
-let live_re = $('article.game_live div.wrap div:last-child');
+let live_re = $('article.game_live div.wrap div:first-child');
 let live_back = $('.live_back');
 live_re.addClass('g_live');
 double_header.addClass('active');
