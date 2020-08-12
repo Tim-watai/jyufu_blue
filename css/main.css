@@ -4863,8 +4863,10 @@ aside.type_ch {
       .n_bet_box_3.n_bet_box_3 .box .in .t_wrap span {
         margin-top: .375rem;
         color: #ec3b28;
-        font-weight: bold; }
-      .n_bet_box_3.n_bet_box_3 .box .in .t_wrap p, .n_bet_box_3.n_bet_box_3 .box .in .t_wrap span {
+        font-weight: bold;
+        font-size: .915rem;
+        line-height: 1; }
+      .n_bet_box_3.n_bet_box_3 .box .in .t_wrap p {
         line-height: 1;
         font-size: 0.875rem; }
 
@@ -4890,8 +4892,10 @@ aside.type_ch {
       .n_bet_box_2 .box .in .t_wrap span {
         margin-top: .375rem;
         color: #ec3b28;
-        font-weight: bold; }
-      .n_bet_box_2 .box .in .t_wrap p, .n_bet_box_2 .box .in .t_wrap span {
+        font-weight: bold;
+        font-size: .915rem;
+        line-height: 1; }
+      .n_bet_box_2 .box .in .t_wrap p {
         line-height: 1;
         font-size: 0.875rem; }
 
