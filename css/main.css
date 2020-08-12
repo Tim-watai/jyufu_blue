@@ -1918,11 +1918,13 @@ main.market {
                 position: relative;
                 vertical-align: middle; }
               main.market aside ul li.beginner .content span.time_more div.icon_game {
-                background-position: -3.75em 0; }
+                background-position: -3.75em 0;
+                margin-bottom: 3px; }
                 main.market aside ul li.beginner .content span.time_more div.icon_game.yet.yet.yet {
                   background-position: -5rem 0; }
               main.market aside ul li.beginner .content span.time_more div.icon_live {
-                background-position: -6.25rem 0; }
+                background-position: -6.25rem 0;
+                margin-bottom: 3px; }
                 main.market aside ul li.beginner .content span.time_more div.icon_live.yet.yet.yet {
                   background-position: -7rem 0; }
               main.market aside ul li.beginner .content span.time_more div.timing {
@@ -4858,7 +4860,7 @@ aside.type_ch {
         color: #838ba0; }
       .n_bet_box_3.n_bet_box_3 .box .in .t_wrap span {
         margin-top: .375rem;
-        color: #1b255c;
+        color: #ec3b28;
         font-weight: bold; }
       .n_bet_box_3.n_bet_box_3 .box .in .t_wrap p, .n_bet_box_3.n_bet_box_3 .box .in .t_wrap span {
         line-height: 1;
@@ -4885,7 +4887,7 @@ aside.type_ch {
         color: #838ba0; }
       .n_bet_box_2 .box .in .t_wrap span {
         margin-top: .375rem;
-        color: #1b255c;
+        color: #ec3b28;
         font-weight: bold; }
       .n_bet_box_2 .box .in .t_wrap p, .n_bet_box_2 .box .in .t_wrap span {
         line-height: 1;
@@ -4899,9 +4901,11 @@ aside.type_ch {
   height: 1rem;
   line-height: 1rem;
   position: relative;
-  vertical-align: middle; }
+  vertical-align: middle;
+  margin-bottom: 3px; }
   .icon_roll_ball.icon_roll_ball.icon_roll_ball.icon_roll_ball.bottom {
-    vertical-align: bottom; }
+    vertical-align: bottom;
+    margin-bottom: 0; }
 
 .no_game {
   width: 100%;

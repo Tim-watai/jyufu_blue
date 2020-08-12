@@ -1,5 +1,6 @@
 
 $bet_t_size:0.875rem;
+$bet_t_color:#ec3b28;
 .n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3.n_bet_box_3,
 .n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2.n_bet_box_2{
     display: block;
@@ -44,7 +45,7 @@ $bet_t_size:0.875rem;
                 }
                 span{
                     margin-top: .375rem;
-                    color: #1b255c;
+                    color: $bet_t_color;
                     font-weight: bold;
                 }
                 p,span{
@@ -83,7 +84,7 @@ $bet_t_size:0.875rem;
                 }
                 span{
                     margin-top: .375rem;
-                    color: #1b255c;
+                    color: $bet_t_color;
                     font-weight: bold;
                 }
                 p,span{
