@@ -45,6 +45,9 @@ header{
                     &.title{
                         color: #fff;
                         font-size: 1.0625rem;
+                        width: 80%;
+                        text-align: center;
+                        white-space: normal;
                         span{
                             border-color: #fff transparent transparent transparent;
                         }
@@ -281,7 +284,7 @@ header{
               }
             }
             .wrap{
-              width: 25%;
+              padding: 0 2vw;
               text-align: center;
               display: inline-block;
               // width: 25%;
