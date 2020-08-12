@@ -3502,25 +3502,25 @@ div.window_double_mode {
                 border: 1px solid #e0e3f3;
                 padding: .5rem 1.25rem .5rem .5rem;
                 position: relative;
-                font-size: .8rem; }
+                font-size: .938rem; }
                 div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input::-webkit-input-placeholder {
-                  font-size: .8rem;
-                  line-height: 1.2;
+                  font-size: .938rem;
+                  line-height: 1;
                   vertical-align: middle;
                   color: #ced1e0; }
                 div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input:-ms-input-placeholder {
-                  font-size: .8rem;
-                  line-height: 1.2;
+                  font-size: .938rem;
+                  line-height: 1;
                   vertical-align: middle;
                   color: #ced1e0; }
                 div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input::-ms-input-placeholder {
-                  font-size: .8rem;
-                  line-height: 1.2;
+                  font-size: .938rem;
+                  line-height: 1;
                   vertical-align: middle;
                   color: #ced1e0; }
                 div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right input::placeholder {
-                  font-size: .8rem;
-                  line-height: 1.2;
+                  font-size: .938rem;
+                  line-height: 1;
                   vertical-align: middle;
                   color: #ced1e0; }
               div.window_double_mode div.all_box div.content ul li.the_total .top_wrap .t_right p {
