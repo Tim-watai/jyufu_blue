@@ -216,6 +216,16 @@ $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').clic
       }
     }
   );
+  //注單收合
+  $('.bill').click(
+    function(){
+        if($(this).hasClass('active') != true){
+        return  $(this).addClass('active');
+        }else{
+            return $(this).removeClass('active');
+        }
+    }
+)
   //開啟注單頁面_空
   // $("footer ul li.yes_do ,aside.now_bet_empty").click(function() {
   //   if ($("aside.now_bet_empty").hasClass("active") != true) {
