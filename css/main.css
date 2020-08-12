@@ -4277,7 +4277,8 @@ main.double_inner_page {
                   -webkit-transform: translate(50%, -50%);
                   -ms-transform: translate(50%, -50%);
                   transform: translate(50%, -50%);
-                  color: #ec3b28; }
+                  color: #ec3b28;
+                  font-weight: 600; }
             main.double_inner_page ul li div.content span.box_2_normal p {
               position: absolute;
               top: 50%;
