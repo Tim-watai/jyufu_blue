@@ -1943,7 +1943,7 @@ main.market {
                 float: right;
                 height: 100%;
                 white-space: nowrap;
-                color: #838ba0;
+                color: #56585d;
                 line-height: 1.5rem;
                 display: inline-block;
                 background: none;
@@ -1967,7 +1967,7 @@ main.market {
                   main.market aside ul li.beginner .content span.time_more div.more span.right_arrow:after, main.market aside ul li.beginner .content span.time_more div.more span.right_arrow:before {
                     content: "";
                     position: absolute;
-                    background-color: #838ba0;
+                    background-color: #56585d;
                     width: 50%;
                     height: 1px; }
                   main.market aside ul li.beginner .content span.time_more div.more span.right_arrow:before {
@@ -2183,7 +2183,7 @@ main.market {
                   height: 100%;
                   line-height: 2rem;
                   white-space: nowrap;
-                  color: #838ba0;
+                  color: #56585d;
                   position: relative; }
                   main.market aside ul li.senior .content span.time_more div.more p {
                     display: inline-block;
@@ -2205,7 +2205,7 @@ main.market {
                     main.market aside ul li.senior .content span.time_more div.more span.right_arrow:after, main.market aside ul li.senior .content span.time_more div.more span.right_arrow:before {
                       content: "";
                       position: absolute;
-                      background-color: #838ba0;
+                      background-color: #56585d;
                       width: 50%;
                       height: 1px; }
                     main.market aside ul li.senior .content span.time_more div.more span.right_arrow:before {
@@ -5136,7 +5136,8 @@ header.live_page.live_page {
         text-align: center;
         vertical-align: middle;
         max-width: 33%;
-        font-size: 0.938rem; }
+        font-size: 0.938rem;
+        font-weight: bold; }
       header.live_page.live_page .live_data_box .b63 .vs_mid {
         display: inline-block;
         color: #fff;
