@@ -4041,6 +4041,7 @@ header.double_inner {
               background-size: cover;
               vertical-align: middle; }
           header.double_inner section article.game_live div.wrap div:first-child {
+            border-right: .125rem solid #303030;
             text-align: left; }
           header.double_inner section article.game_live div.wrap div:last-child {
             text-align: right; }
