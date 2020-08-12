@@ -2100,7 +2100,7 @@ main.market {
         main.market aside ul li.senior.active {
           display: block; }
         main.market aside ul li.senior .content {
-          border-top: 2px solid #e0e3f3;
+          border-top: 1px solid #e0e3f3;
           position: relative; }
           main.market aside ul li.senior .content:nth-child(odd) {
             background: #eef1ff; }
@@ -2147,7 +2147,7 @@ main.market {
               transform: translateX(-50%);
               background: #e0e3f3;
               width: 100%;
-              height: 2px; }
+              height: 1px; }
           main.market aside ul li.senior .content span {
             display: inline-block; }
             main.market aside ul li.senior .content span.time_more {
