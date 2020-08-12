@@ -1743,7 +1743,7 @@ main.market {
         background-size: 910%;
         background-position: -42px 0;
         width: 18px;
-        height: .9375rem;
+        height: 1rem;
         margin: 0 0 0px 0; }
       main.market aside section.status.early div p {
         color: #fff;
@@ -1926,7 +1926,7 @@ main.market {
                 background-position: -6.25rem 0;
                 margin-bottom: 3px; }
                 main.market aside ul li.beginner .content span.time_more div.icon_live.yet.yet.yet {
-                  background-position: -7rem 0; }
+                  background-position: -7.5rem 0; }
               main.market aside ul li.beginner .content span.time_more div.timing {
                 color: #5875e0;
                 border: 1px solid #5875e0;
