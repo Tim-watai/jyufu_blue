@@ -2021,10 +2021,8 @@ main.market {
                 transform: translate(0%, -50%);
                 top: 50%;
                 left: 0;
-                width: calc(50% - 1.25rem);
+                width: calc(50% - 1rem);
                 text-align: right; }
-                main.market aside ul li.beginner .content span.counter div.country:first-child .point {
-                  margin-left: .5em; }
                 main.market aside ul li.beginner .content span.counter div.country:first-child span {
                   margin: 0 0 0 .3125rem; }
               main.market aside ul li.beginner .content span.counter div.country:last-child {
@@ -2033,8 +2031,8 @@ main.market {
                 -ms-transform: translate(0%, -50%);
                 transform: translate(0%, -50%);
                 top: 50%;
-                right: 5px;
-                width: calc(50% - 25px); }
+                right: 0px;
+                width: calc(50% - 1rem); }
                 main.market aside ul li.beginner .content span.counter div.country:last-child .point {
                   margin-right: .5em; }
               main.market aside ul li.beginner .content span.counter div.country span {

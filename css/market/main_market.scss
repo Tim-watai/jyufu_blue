@@ -886,13 +886,14 @@ main {
                         }
                         &:first-child {
                           .point{
-                            margin-left: .5em;
+                            // margin-left: .5em;
                           }
                           position: absolute;
                           transform: translate(0%, -50%);
                           top: 50%;
                           left: 0;
-                          width: calc(50% - 1.25rem);
+                          // width: calc(50% - 1.25rem);
+                          width: calc(50% - 1rem);
                           text-align: right;
                           // p,
                           // span {
@@ -909,8 +910,9 @@ main {
                           position: absolute;
                           transform: translate(0%, -50%);
                           top: 50%;
-                          right: 5px;
-                          width: calc(50% - 25px);
+                          right: 0px;
+                          // width: calc(50% - 25px);
+                          width: calc(50% - 1rem);
                         }
 
                         span {
