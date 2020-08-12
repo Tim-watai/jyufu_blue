@@ -2297,8 +2297,8 @@ main.market {
                   main.market aside ul li.senior .content span.point_box span.num_group div span {
                     width: 100%;
                     color: #ec3b28;
-                    font-size: 0.875rem;
-                    font-weight: normal; }
+                    font-size: .915rem;
+                    font-weight: 600; }
               main.market aside ul li.senior .content span.point_box .live {
                 line-height: 1.5rem;
                 position: relative; }
