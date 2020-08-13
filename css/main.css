@@ -9776,7 +9776,7 @@ main {
     border-radius: .5rem; }
   main article.menu {
     width: 95vw;
-    height: calc(100vh - 23.5625rem);
+    height: calc(100vh - 21.9375rem);
     /*0612*/
     margin: 0 auto;
     overflow: hidden; }
