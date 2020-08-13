@@ -5100,49 +5100,54 @@ header.live_page.live_page {
     width: 100%;
     height: calc(100% - 4.5rem); }
   header.live_page.live_page .live_data_box {
-    background: url(../images/market/live_page_da_bg.png) no-repeat;
-    background-size: 100%;
+    background: -webkit-linear-gradient(325deg, #F6F8FF 18%, #8a98da 18%, #3248b8 100%);
+    background: -o-linear-gradient(325deg, #F6F8FF 18%, #8a98da 18%, #3248b8 100%);
+    background: linear-gradient(125deg, #F6F8FF 18%, #8a98da 18%, #3248b8 100%);
     height: 2rem;
     width: 100%;
     position: absolute;
     bottom: 2.5rem;
     left: 0;
     overflow: hidden; }
-    header.live_page.live_page .live_data_box .b37, header.live_page.live_page .live_data_box .b63 {
+    header.live_page.live_page .live_data_box .b16, header.live_page.live_page .live_data_box .b84 {
       float: left;
       position: relative;
       height: 100%; }
-    header.live_page.live_page .live_data_box .b37 {
-      width: 37%; }
-    header.live_page.live_page .live_data_box .b63 {
-      width: 63%; }
-      header.live_page.live_page .live_data_box .b63 .left_wrap {
+    header.live_page.live_page .live_data_box .b16 {
+      width: 16%; }
+      header.live_page.live_page .live_data_box .b16 p {
+        padding-top: .125rem; }
+    header.live_page.live_page .live_data_box .b84 {
+      width: 84%; }
+      header.live_page.live_page .live_data_box .b84 .left_wrap {
         float: left;
         width: 50%;
         display: inline-block;
         vertical-align: middle;
         text-align: right;
-        padding-right: 1rem; }
-      header.live_page.live_page .live_data_box .b63 .right_wrap {
+        padding-right: 1.25rem; }
+        header.live_page.live_page .live_data_box .b84 .left_wrap .tn {
+          margin-right: .5rem; }
+      header.live_page.live_page .live_data_box .b84 .right_wrap {
         float: left;
         width: 50%;
         display: inline-block;
         vertical-align: middle;
         text-align: left;
-        padding-left: 1rem; }
-      header.live_page.live_page .live_data_box .b63 .tn {
+        padding-left: 1.25rem; }
+        header.live_page.live_page .live_data_box .b84 .right_wrap .tn {
+          margin-left: .5rem; }
+      header.live_page.live_page .live_data_box .b84 .tn {
         color: #fff;
         display: inline-block;
         padding-top: 0px;
         vertical-align: middle;
-        line-height: normal;
-        width: 64%;
-        height: auto;
-        white-space: nowrap;
-        -o-text-overflow: ellipsis;
-        text-overflow: ellipsis;
-        overflow: hidden; }
-      header.live_page.live_page .live_data_box .b63 .point {
+        line-height: 1.1;
+        padding-top: .125rem;
+        font-size: .875rem;
+        width: 66%;
+        height: auto; }
+      header.live_page.live_page .live_data_box .b84 .point {
         background: #fff;
         color: #1b255c;
         border-radius: 3px;
@@ -5154,7 +5159,7 @@ header.live_page.live_page {
         max-width: 33%;
         font-size: 0.938rem;
         font-weight: bold; }
-      header.live_page.live_page .live_data_box .b63 .vs_mid {
+      header.live_page.live_page .live_data_box .b84 .vs_mid {
         display: inline-block;
         color: #fff;
         position: absolute;
@@ -5173,14 +5178,6 @@ header.live_page.live_page {
       transform: translate(-50%, -50%);
       width: 100%;
       text-align: center; }
-    header.live_page.live_page .live_data_box .live_date, header.live_page.live_page .live_data_box .live_time {
-      font-size: 1.063rem;
-      display: inline-block;
-      line-height: 100%;
-      white-space: nowrap;
-      padding-top: 7px; }
-    header.live_page.live_page .live_data_box .live_date {
-      margin-right: .25rem; }
   header.live_page.live_page .game_type {
     width: 100%;
     position: absolute;
