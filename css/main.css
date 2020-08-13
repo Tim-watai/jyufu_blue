@@ -5100,9 +5100,9 @@ header.live_page.live_page {
     width: 100%;
     height: calc(100% - 4.5rem); }
   header.live_page.live_page .live_data_box {
-    background: -webkit-linear-gradient(330deg, #F6F8FF 18%, #8a98da 16%, #3248b8 100%);
-    background: -o-linear-gradient(330deg, #F6F8FF 18%, #8a98da 16%, #3248b8 100%);
-    background: linear-gradient(120deg, #F6F8FF 18%, #8a98da 16%, #3248b8 100%);
+    background: -webkit-linear-gradient(330deg, #F6F8FF 20%, #8a98da 20%, #3248b8 100%);
+    background: -o-linear-gradient(330deg, #F6F8FF 20%, #8a98da 20%, #3248b8 100%);
+    background: linear-gradient(120deg, #F6F8FF 20%, #8a98da 20%, #3248b8 100%);
     height: 2rem;
     width: 100%;
     position: absolute;
