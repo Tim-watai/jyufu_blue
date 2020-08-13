@@ -9,6 +9,7 @@ $point_box_h:8.75rem;
 $sen_t_color:#4d515d;
 $sen_t_size:.875rem;
 
+
 header {
   ul {
     &.market {
@@ -421,6 +422,24 @@ main {
     height: calc(100vh - 6.25rem - 3.5rem - .625rem);
     overflow-y: scroll;
     padding: 0 0 100px 0;
+    //0813 lock_icon child span
+    .lock.lock.lock.lock.lock.lock {
+      position: relative;
+        width: 100%;
+        height: 100%;
+      span {
+        background: url(../images/market/lock.png)
+          no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: .8125rem;
+        height: 1rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+    }
     aside {
       &.loading {
         width: 100%;
@@ -628,6 +647,7 @@ main {
                 color: #1b255c;
                 font-weight: bold;
                 font-size: .9rem;
+                width: calc(100vw - 3rem);
               }
               span {
                 display: inline-block;
@@ -1241,16 +1261,7 @@ main {
                                 color: #fff;
                               }
                             }
-                            &.lock {
-                              span {
-                                background: url(../images/market/lock.png)
-                                  no-repeat;
-                                background-size: cover;
-                                background-position: center center;
-                                width: .8125rem;
-                                height: 1rem;
-                              }
-                            }
+                           
                           }
                           &.three_side {
                             width: calc(100% / 3 - 3px);
@@ -1261,7 +1272,7 @@ main {
                               width: 100%;
                               height: calc(#{$point_box_h} / 3 - 3px);
                               margin: 0 0 3px 0;
-                          
+                              position: relative;
                             }
                           }
                           &.two_side {
@@ -1274,6 +1285,7 @@ main {
                               height: calc((#{$point_box_h} / 2) - 3px);
                               margin: 0 0 3px 0;
                               line-height: calc((#{$point_box_h} / 2 - 3px) / 2);
+                              position: relative;
                               &.solo_line {
                                 line-height: calc((#{$point_box_h} / 1 - 3px) / 2);
                               }

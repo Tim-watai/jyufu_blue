@@ -27,6 +27,8 @@ $bet_t_color:#ec3b28;
             background-color: #f6f8ff;
             height: 100%;
             line-height: 2.8rem;
+            height: 2.8rem;
+            position: relative;
            &.active{
                 background: #556de7;
                 .t_wrap{
@@ -68,6 +70,7 @@ $bet_t_color:#ec3b28;
             background-color: #f6f8ff;
             height: 100%;
             line-height: 3rem;
+            height: 3rem;
             &.active.active.active{
                 background: #556de7;
                 .t_wrap{

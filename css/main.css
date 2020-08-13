@@ -1661,6 +1661,22 @@ main.market {
   height: calc(100vh - 6.25rem - 3.5rem - .625rem);
   overflow-y: scroll;
   padding: 0 0 100px 0; }
+  main.market .lock.lock.lock.lock.lock.lock {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    main.market .lock.lock.lock.lock.lock.lock span {
+      background: url(../images/market/lock.png) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      width: .8125rem;
+      height: 1rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
   main.market aside.loading {
     width: 100%;
     height: 100%;
@@ -1830,7 +1846,8 @@ main.market {
           display: inline-block;
           color: #1b255c;
           font-weight: bold;
-          font-size: .9rem; }
+          font-size: .9rem;
+          width: calc(100vw - 3rem); }
         main.market aside ul li span.title span {
           display: inline-block;
           float: right; }
@@ -2255,12 +2272,6 @@ main.market {
                     background: #556de7; }
                     main.market aside ul li.senior .content span.point_box span.num_group span div.active p, main.market aside ul li.senior .content span.point_box span.num_group span div.active span {
                       color: #fff; }
-                  main.market aside ul li.senior .content span.point_box span.num_group span div.lock span {
-                    background: url(../images/market/lock.png) no-repeat;
-                    background-size: cover;
-                    background-position: center center;
-                    width: .8125rem;
-                    height: 1rem; }
                 main.market aside ul li.senior .content span.point_box span.num_group span.three_side {
                   width: calc(100% / 3 - 3px);
                   text-align: center;
@@ -2269,7 +2280,8 @@ main.market {
                   main.market aside ul li.senior .content span.point_box span.num_group span.three_side div {
                     width: 100%;
                     height: calc(8.75rem / 3 - 3px);
-                    margin: 0 0 3px 0; }
+                    margin: 0 0 3px 0;
+                    position: relative; }
                 main.market aside ul li.senior .content span.point_box span.num_group span.two_side {
                   width: calc(100% / 3 - 3px);
                   text-align: center;
@@ -2279,7 +2291,8 @@ main.market {
                     height: 50%;
                     height: calc((8.75rem / 2) - 3px);
                     margin: 0 0 3px 0;
-                    line-height: calc((8.75rem / 2 - 3px) / 2); }
+                    line-height: calc((8.75rem / 2 - 3px) / 2);
+                    position: relative; }
                     main.market aside ul li.senior .content span.point_box span.num_group span.two_side div.solo_line {
                       line-height: calc((8.75rem / 1 - 3px) / 2); }
                 main.market aside ul li.senior .content span.point_box span.num_group div {
@@ -3874,7 +3887,7 @@ header.double_inner {
       header.double_inner ul.market li.title {
         color: #fff;
         font-size: 1.0625rem;
-        width: 80%;
+        width: 70%;
         text-align: center;
         white-space: normal; }
         header.double_inner ul.market li.title span {
@@ -3918,20 +3931,22 @@ header.double_inner {
             text-align: center;
             vertical-align: middle;
             line-height: 1;
-            width: 100%;
-            position: relative; }
+            width: 80%;
+            top: -1rem;
+            position: relative;
+            height: 2.5rem; }
             header.double_inner section article.game_data div span.wrap span.empty {
               width: 2.5rem;
               height: 2.5rem; }
             header.double_inner section article.game_data div span.wrap span.soccer {
-              width: 1.625rem;
-              height: 1.875rem;
+              width: 2.5rem;
+              height: 2.5rem;
               background: url(../images/market/cs.png) no-repeat;
               background-size: 800%; }
             header.double_inner section article.game_data div span.wrap span.country1 {
-              background-position: -3.25rem 0; }
+              background-position: -5rem 0; }
             header.double_inner section article.game_data div span.wrap span.country2 {
-              background-position: -4.875rem 0; }
+              background-position: -7.5rem 0; }
             header.double_inner section article.game_data div span.wrap span.esp {
               width: 2.5rem;
               height: 2.5rem;
@@ -3990,12 +4005,14 @@ header.double_inner {
               text-align: center;
               color: #fff;
               font-size: 1.0625rem;
-              -o-text-overflow: ellipsis;
-              text-overflow: ellipsis;
-              white-space: nowrap;
-              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
               width: 100%;
-              line-height: 1.2; }
+              line-height: 1.2;
+              position: absolute;
+              top: 3rem;
+              overflow: hidden; }
     header.double_inner section article.game_live {
       height: 4.0625rem;
       line-height: 4.0625rem;
@@ -4847,7 +4864,9 @@ aside.type_ch {
     margin-right: 0.313rem;
     background-color: #f6f8ff;
     height: 100%;
-    line-height: 2.8rem; }
+    line-height: 2.8rem;
+    height: 2.8rem;
+    position: relative; }
     .n_bet_box_3.n_bet_box_3 .box .in.active {
       background: #556de7; }
       .n_bet_box_3.n_bet_box_3 .box .in.active .t_wrap p, .n_bet_box_3.n_bet_box_3 .box .in.active .t_wrap span {
@@ -4876,7 +4895,8 @@ aside.type_ch {
     margin-right: 0.313rem;
     background-color: #f6f8ff;
     height: 100%;
-    line-height: 3rem; }
+    line-height: 3rem;
+    height: 3rem; }
     .n_bet_box_2 .box .in.active.active.active {
       background: #556de7; }
       .n_bet_box_2 .box .in.active.active.active .t_wrap p, .n_bet_box_2 .box .in.active.active.active .t_wrap span {
@@ -4946,7 +4966,7 @@ header.live_page.live_page {
     display: block; }
     header.live_page.live_page.active ul.market {
       padding: 0 33px 0 .75rem;
-      position: relative;
+      position: absolute;
       background-color: transparent;
       -webkit-box-shadow: none;
       box-shadow: none;
@@ -5082,6 +5102,9 @@ header.live_page.live_page {
         header.live_page.live_page.active ul li.live_back p:hover, header.live_page.live_page.active ul li.live_back p:active {
           background: #fff;
           color: #000; }
+  header.live_page.live_page .live_main {
+    width: 100%;
+    height: 100%; }
   header.live_page.live_page .live_data_box {
     background: url(../images/market/live_page_da_bg.png) no-repeat;
     background-size: 100%;
