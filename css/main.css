@@ -4039,7 +4039,6 @@ header.double_inner {
               background-size: cover;
               vertical-align: middle; }
           header.double_inner section article.game_live div.wrap div:first-child {
-            border-right: .125rem solid #303030;
             text-align: left; }
           header.double_inner section article.game_live div.wrap div:last-child {
             text-align: right; }
@@ -9765,8 +9764,7 @@ main {
     /*0612*/
     margin: 0 auto; }
   main article .banner {
-    width: 21.75rem;
-    height: calc(95vw * .44);
+    height: 9.625rem;
     margin: 0 auto 0.25rem auto;
     background: url(../images/index/banner.png) no-repeat;
     background-size: 100%;
