@@ -5100,26 +5100,26 @@ header.live_page.live_page {
     width: 100%;
     height: calc(100% - 4.5rem); }
   header.live_page.live_page .live_data_box {
-    background: -webkit-linear-gradient(325deg, #F6F8FF 18%, #8a98da 18%, #3248b8 100%);
-    background: -o-linear-gradient(325deg, #F6F8FF 18%, #8a98da 18%, #3248b8 100%);
-    background: linear-gradient(125deg, #F6F8FF 18%, #8a98da 18%, #3248b8 100%);
+    background: -webkit-linear-gradient(330deg, #F6F8FF 25%, #8a98da 25%, #3248b8 100%);
+    background: -o-linear-gradient(330deg, #F6F8FF 25%, #8a98da 25%, #3248b8 100%);
+    background: linear-gradient(120deg, #F6F8FF 25%, #8a98da 25%, #3248b8 100%);
     height: 2rem;
     width: 100%;
     position: absolute;
     bottom: 2.5rem;
     left: 0;
     overflow: hidden; }
-    header.live_page.live_page .live_data_box .b16, header.live_page.live_page .live_data_box .b84 {
+    header.live_page.live_page .live_data_box .b24, header.live_page.live_page .live_data_box .b76 {
       float: left;
       position: relative;
       height: 100%; }
-    header.live_page.live_page .live_data_box .b16 {
-      width: 16%; }
-      header.live_page.live_page .live_data_box .b16 p {
+    header.live_page.live_page .live_data_box .b24 {
+      width: 24%; }
+      header.live_page.live_page .live_data_box .b24 p {
         padding-top: .125rem; }
-    header.live_page.live_page .live_data_box .b84 {
-      width: 84%; }
-      header.live_page.live_page .live_data_box .b84 .left_wrap {
+    header.live_page.live_page .live_data_box .b76 {
+      width: 76%; }
+      header.live_page.live_page .live_data_box .b76 .left_wrap {
         float: left;
         width: 50%;
         display: inline-block;
@@ -5128,9 +5128,9 @@ header.live_page.live_page {
         padding-right: 1.25rem;
         height: 2rem;
         line-height: 2rem; }
-        header.live_page.live_page .live_data_box .b84 .left_wrap .tn {
+        header.live_page.live_page .live_data_box .b76 .left_wrap .tn {
           margin-right: .5rem; }
-      header.live_page.live_page .live_data_box .b84 .right_wrap {
+      header.live_page.live_page .live_data_box .b76 .right_wrap {
         float: left;
         width: 50%;
         display: inline-block;
@@ -5139,9 +5139,9 @@ header.live_page.live_page {
         padding-left: 1.25rem;
         height: 2rem;
         line-height: 2rem; }
-        header.live_page.live_page .live_data_box .b84 .right_wrap .tn {
+        header.live_page.live_page .live_data_box .b76 .right_wrap .tn {
           margin-left: .5rem; }
-      header.live_page.live_page .live_data_box .b84 .tn {
+      header.live_page.live_page .live_data_box .b76 .tn {
         color: #fff;
         display: inline-block;
         padding-top: 0px;
@@ -5151,7 +5151,7 @@ header.live_page.live_page {
         font-size: .875rem;
         width: 66%;
         height: auto; }
-      header.live_page.live_page .live_data_box .b84 .point {
+      header.live_page.live_page .live_data_box .b76 .point {
         background: #fff;
         color: #1b255c;
         border-radius: 3px;
@@ -5165,7 +5165,7 @@ header.live_page.live_page {
         font-size: 0.938rem;
         font-weight: bold;
         position: relative; }
-      header.live_page.live_page .live_data_box .b84 .vs_mid {
+      header.live_page.live_page .live_data_box .b76 .vs_mid {
         display: inline-block;
         color: #fff;
         position: absolute;
