@@ -5152,12 +5152,20 @@ header.live_page.live_page {
         color: #1b255c;
         border-radius: 3px;
         display: inline-block;
-        line-height: 100%;
+        padding: 0px 6px;
+        line-height: 1rem;
         text-align: center;
         vertical-align: middle;
         max-width: 33%;
         font-size: 0.938rem;
-        font-weight: bold; }
+        font-weight: bold;
+        height: auto;
+        position: relative; }
+        header.live_page.live_page .live_data_box .b84 .point p {
+          display: inline-block;
+          vertical-align: middle;
+          line-height: 100%;
+          font-size: 0.938rem; }
       header.live_page.live_page .live_data_box .b84 .vs_mid {
         display: inline-block;
         color: #fff;
