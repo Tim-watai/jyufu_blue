@@ -5156,16 +5156,20 @@ header.live_page.live_page {
         line-height: 1rem;
         text-align: center;
         vertical-align: middle;
-        max-width: 33%;
+        width: 20%;
+        height: 1rem;
         font-size: 0.938rem;
         font-weight: bold;
-        height: auto;
         position: relative; }
         header.live_page.live_page .live_data_box .b84 .point p {
-          display: inline-block;
-          vertical-align: middle;
-          line-height: 100%;
-          font-size: 0.938rem; }
+          font-size: 0.938rem;
+          height: .938rem;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
       header.live_page.live_page .live_data_box .b84 .vs_mid {
         display: inline-block;
         color: #fff;
