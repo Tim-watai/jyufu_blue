@@ -5104,7 +5104,7 @@ header.live_page.live_page {
           color: #000; }
   header.live_page.live_page .live_main {
     width: 100%;
-    height: 100%; }
+    height: calc(100% - 4.5rem); }
   header.live_page.live_page .live_data_box {
     background: url(../images/market/live_page_da_bg.png) no-repeat;
     background-size: 100%;
