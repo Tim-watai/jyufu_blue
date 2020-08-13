@@ -505,7 +505,7 @@ main {
     }
     .banner {
       width: 21.75rem;
-      height: 9.625rem;
+      height: calc(95vw * .44);
       // margin: 0 auto 0.625rem auto;
       //0812
       margin: 0 auto 0.25rem auto;
