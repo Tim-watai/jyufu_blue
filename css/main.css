@@ -5161,12 +5161,14 @@ header.live_page.live_page {
         font-size: 0.938rem;
         font-weight: bold;
         position: relative; }
-        header.live_page.live_page .live_data_box .b84 .point p {
+        header.live_page.live_page .live_data_box .b84 .point div {
           font-size: 0.938rem;
-          height: .938rem;
+          height: 0.838rem;
           position: absolute;
           top: 50%;
           left: 50%;
+          line-height: 100%;
+          display: block;
           -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }

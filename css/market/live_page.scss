@@ -244,12 +244,14 @@ header{
                     font-size: 0.938rem;
                     font-weight: bold;
                     position: relative;
-                    p{
+                    div{
                       font-size: 0.938rem;
-                      height: .938rem;
+                      height: 0.838rem;
                       position: absolute;
                       top: 50%;
                       left: 50%;
+                      line-height: 100%;
+                      display: block;
                       transform: translate(-50%,-50%);
                     }
                 }
