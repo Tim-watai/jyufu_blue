@@ -4982,7 +4982,10 @@ header.live_page.live_page {
       font-size: 1.0625rem;
       width: 45%;
       text-align: center;
-      white-space: normal; }
+      white-space: nowrap;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      overflow: hidden; }
       header.live_page.live_page.active ul li.title span {
         border-color: #fff transparent transparent transparent; }
     header.live_page.live_page.active ul li.wallet {

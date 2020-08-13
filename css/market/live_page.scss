@@ -47,7 +47,9 @@ header{
                         font-size: 1.0625rem;
                         width: 45%;
                         text-align: center;
-                        white-space: normal;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
                         span{
                             border-color: #fff transparent transparent transparent;
                         }
