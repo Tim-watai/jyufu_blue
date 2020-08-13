@@ -202,6 +202,8 @@ header{
                     vertical-align: middle;
                     text-align: right;
                     padding-right: 1.25rem;
+                    height: 2rem;
+                    line-height: 2rem;
                     .tn{
                       margin-right: .5rem;
                     }
@@ -213,6 +215,8 @@ header{
                     vertical-align: middle;
                     text-align: left;
                     padding-left: 1.25rem;
+                    height: 2rem;
+                    line-height: 2rem;
                     .tn{
                       margin-left: .5rem;
                     }
@@ -229,31 +233,19 @@ header{
                   height: auto;
                 }
                 .point{
-                    background: #fff;
-                    color: #1b255c;
-                    border-radius: 3px;
-                    display: inline-block;
-                    padding: 0px 6px;
-                    line-height: 1rem;
-                    text-align: center;
-                    vertical-align: middle;
-                    // max-width: 33%;
-                    // height: auto;
-                    width: 20%;
-                    height: 1rem;
-                    font-size: 0.938rem;
-                    font-weight: bold;
-                    position: relative;
-                    div{
-                      font-size: 0.938rem;
-                      height: 0.838rem;
-                      position: absolute;
-                      top: 50%;
-                      left: 50%;
-                      line-height: 100%;
-                      display: block;
-                      transform: translate(-50%,-50%);
-                    }
+                  background: #fff;
+                  color: #1b255c;
+                  border-radius: 3px;
+                  display: inline-block;
+                  padding: 1px 6px 0px;
+                  line-height: 100%;
+                  text-align: center;
+                  vertical-align: middle;
+                  max-width: 25%;
+                  height: 1rem;
+                  font-size: 0.938rem;
+                  font-weight: bold;
+                  position: relative;
                 }
 
                 .vs_mid{
