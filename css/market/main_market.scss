@@ -120,7 +120,7 @@ header {
           }
           &.active {
             &:before {
-              content: "取消";
+              // content: "取消";
               position: absolute;
               left: 0;
               top: 0;

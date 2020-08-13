@@ -1437,7 +1437,6 @@ header ul li.pure_text {
       font-size: 1.0625rem;
       color: #4d515d; }
     header ul li.pure_text.for_edit.active:before {
-      content: "取消";
       position: absolute;
       left: 0;
       top: 0;
@@ -5053,7 +5052,6 @@ header.live_page.live_page {
           font-size: 1.0625rem;
           color: #4d515d; }
         header.live_page.live_page.active ul li.pure_text.for_edit.active:before {
-          content: "取消";
           position: absolute;
           left: 0;
           top: 0;
