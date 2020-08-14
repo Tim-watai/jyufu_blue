@@ -10379,15 +10379,6 @@ aside .hidden_title {
       line-height: 1rem;
       position: relative;
       color: #4d515d; }
-      aside .hidden_title .tack p span {
-        display: inline-block;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0.3125rem 0.3125rem 0 0.3125rem;
-        border-color: #a4a7ae transparent transparent transparent;
-        vertical-align: middle;
-        margin: 0 0 0 0.3125rem; }
     aside .hidden_title .tack ul.bet_record {
       display: none;
       top: 90%;
