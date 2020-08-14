@@ -13,9 +13,9 @@ $(document).ready(function(){
     $("aside .hidden_title .tack").click(function() {
         console.log('message click');
        if ($(this).hasClass("active") != true) {
+        $(this).siblings().removeClass('active');
         return $(this).addClass('active');
-       }else{
-         return  $(this).removeClass('active');
        }
+       
      });
 });//total

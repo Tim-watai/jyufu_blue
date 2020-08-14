@@ -10351,23 +10351,27 @@ aside.hot_windows {
 
 aside .hidden_title {
   background: #fff;
-  padding: calc(2.5rem + 0.625rem) 0 0 0;
+  padding: calc(2.5rem + 0.625rem) 0 0 3vw;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 0 .1875rem 5px 0 #e2e2e2;
   box-shadow: 0 .1875rem 5px 0 #e2e2e2; }
   aside .hidden_title .tack {
-    width: 7.625rem;
+    width: auto;
     text-align: left;
     background: #f7f8fc;
-    margin: 0.625rem 0 0.625rem 0.625rem;
-    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    margin: 0.625rem 0 0.625rem 0.25rem;
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem;
     border-radius: 30px;
     position: relative;
     white-space: nowrap;
     display: inline-block;
     text-align: center;
     position: relative; }
+    aside .hidden_title .tack.active.active, aside .hidden_title .tack:hover:hover {
+      background: #5160ae; }
+      aside .hidden_title .tack.active.active p, aside .hidden_title .tack:hover:hover p {
+        color: #fff; }
     aside .hidden_title .tack p {
       font-size: 1rem;
       line-height: 1rem;
@@ -10382,10 +10386,6 @@ aside .hidden_title {
         border-color: #a4a7ae transparent transparent transparent;
         vertical-align: middle;
         margin: 0 0 0 0.3125rem; }
-    aside .hidden_title .tack.active {
-      border-radius: 30px 30px 0 0; }
-      aside .hidden_title .tack.active ul.bet_record {
-        display: block; }
     aside .hidden_title .tack ul.bet_record {
       display: none;
       top: 90%;
