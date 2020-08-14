@@ -9622,9 +9622,7 @@ main {
   width: 100%;
   height: calc(100vh - 6rem - 0.25rem);
   position: fixed;
-  overflow: hidden;
-  margin-top: calc(2.5rem + 0.25rem);
-  margin-bottom: 3.5rem; }
+  top: calc(2.5rem + 0.25rem); }
   main section ul.hot_area {
     width: 95vw;
     height: 1.5625rem;
