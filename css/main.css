@@ -5149,7 +5149,7 @@ header.live_page.live_page {
         line-height: 1.1;
         padding-top: .125rem;
         font-size: .875rem;
-        width: calc(75% - 1.25rem);
+        max-width: calc(75% - .8rem);
         height: auto; }
       header.live_page.live_page .live_data_box .b76 .point {
         background: #fff;
