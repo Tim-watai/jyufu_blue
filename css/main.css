@@ -2842,7 +2842,7 @@ aside.set_window {
   aside.set_window.active {
     display: block; }
   aside.set_window ul.side_bar {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background: #f7f7f7; }
