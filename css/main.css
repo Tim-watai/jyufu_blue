@@ -4788,7 +4788,8 @@ main.market aside ul li.motor_sport_li .wrap {
           width: 80%;
           float: left; }
         main.market aside ul li.motor_sport_li .wrap .line_wrap span p:last-child {
-          float: right; }
+          float: right;
+          color: #ec3b28; }
 
 aside.type_ch {
   display: none;
