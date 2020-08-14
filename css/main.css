@@ -143,6 +143,7 @@ a {
 /* Set core body defaults */
 body {
   min-height: 100vh;
+  overflow-y: auto;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -1475,7 +1476,8 @@ nav.kinds {
   width: 100%;
   height: auto;
   padding: 3rem 0 0 0;
-  background: #fff; }
+  background: #fff;
+  top: 0; }
   nav.kinds ul {
     height: auto;
     padding-top: 1px;
@@ -9620,8 +9622,10 @@ header {
 main {
   width: 100%;
   height: calc(100vh - 6rem - 0.25rem);
-  position: fixed;
-  top: calc(2.5rem + 0.25rem); }
+  position: relative;
+  overflow: hidden;
+  margin-top: calc(2.5rem + 0.25rem);
+  margin-bottom: 3.5rem; }
   main section ul.hot_area {
     width: 95vw;
     height: 1.5625rem;

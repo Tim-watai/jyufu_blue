@@ -256,11 +256,11 @@ main {
   width: 100%;
   height: calc(100vh - 6rem - 0.25rem);
   // position: relative;
-  position: fixed;
-  // overflow: hidden;
-  // margin-top: calc(2.5rem + 0.25rem);
-  // margin-bottom: 3.5rem;
-  top: calc(2.5rem + 0.25rem);
+  position: relative;
+  overflow: hidden;
+  margin-top: calc(2.5rem + 0.25rem);
+  margin-bottom: 3.5rem;
+  // top: calc(2.5rem + 0.25rem);
   section {
     ul {
       &.hot_area {
