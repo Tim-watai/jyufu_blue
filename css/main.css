@@ -4735,9 +4735,10 @@ main.market aside ul li section.content span.horse_race_choice_box {
 
 main.market aside ul li section.content span.horse_race_line {
   background: #e0e3f3;
-  height: .125rem;
+  height: .063rem;
   width: 100%;
-  margin: .5625rem 0 .5625rem 0; }
+  margin: .5625rem 0 .5625rem 0;
+  display: block; }
 
 main.market aside ul li section.content span.point_box p.no_wrap {
   white-space: nowrap; }
@@ -4890,7 +4891,8 @@ aside.type_ch {
     background-color: #f6f8ff;
     height: 100%;
     line-height: 3rem;
-    height: 3rem; }
+    height: 3rem;
+    position: relative; }
     .n_bet_box_2 .box .in.active.active.active {
       background: #556de7; }
       .n_bet_box_2 .box .in.active.active.active .t_wrap p, .n_bet_box_2 .box .in.active.active.active .t_wrap span {
@@ -4900,9 +4902,9 @@ aside.type_ch {
       vertical-align: middle;
       display: inline-block; }
       .n_bet_box_2 .box .in .t_wrap p {
-        color: #838ba0; }
+        color: #838ba0;
+        margin-bottom: .375rem; }
       .n_bet_box_2 .box .in .t_wrap span {
-        margin-top: .375rem;
         color: #ec3b28;
         font-weight: bold;
         font-size: .915rem;
@@ -4910,6 +4912,20 @@ aside.type_ch {
       .n_bet_box_2 .box .in .t_wrap p {
         line-height: 1;
         font-size: 0.875rem; }
+    .n_bet_box_2 .box .in .t_row_size p, .n_bet_box_2 .box .in .t_row_size span {
+      position: absolute; }
+    .n_bet_box_2 .box .in .t_row_size p {
+      left: 20%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .n_bet_box_2 .box .in .t_row_size span {
+      left: 80%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
 
 .icon_roll_ball.icon_roll_ball.icon_roll_ball.icon_roll_ball {
   display: inline-block;

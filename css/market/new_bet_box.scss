@@ -71,6 +71,7 @@ $bet_t_color:#ec3b28;
             height: 100%;
             line-height: 3rem;
             height: 3rem;
+            position: relative;
             &.active.active.active{
                 background: #556de7;
                 .t_wrap{
@@ -85,10 +86,10 @@ $bet_t_color:#ec3b28;
                 display: inline-block;
                 p{
                     color: #838ba0;
-                
+                    margin-bottom: .375rem;
                 }
                 span{
-                    margin-top: .375rem;
+                    
                     color: $bet_t_color;
                     font-weight: bold;
                     font-size: .915rem;
@@ -97,6 +98,21 @@ $bet_t_color:#ec3b28;
                 p{
                     line-height: 1;
                     font-size: $bet_t_size;
+                }
+            }
+            .t_row_size{
+                p,span{
+                    position: absolute;
+                }
+                p{
+                    left: 20%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                }
+                span{
+                    left: 80%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
                 }
             }
         }

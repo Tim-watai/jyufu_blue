@@ -68,9 +68,10 @@ main{
                                 }
                                 &.horse_race_line{
                                     background: #e0e3f3;
-                                    height: .125rem;
+                                    height: .063rem;
                                     width: 100%;
-                                    margin: .5625rem 0 .5625rem 0
+                                    margin: .5625rem 0 .5625rem 0;
+                                    display: block;
                                 }
                                 &.point_box{
                                     p{
