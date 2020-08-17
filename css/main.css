@@ -4775,7 +4775,11 @@ main.market aside ul li.motor_sport_li .wrap {
       main.market aside ul li.motor_sport_li .wrap .line_wrap span:last-child {
         float: right; }
       main.market aside ul li.motor_sport_li .wrap .line_wrap span:hover, main.market aside ul li.motor_sport_li .wrap .line_wrap span:active, main.market aside ul li.motor_sport_li .wrap .line_wrap span.active {
-        background: #d3dbff; }
+        background: #556de7; }
+        main.market aside ul li.motor_sport_li .wrap .line_wrap span:hover p, main.market aside ul li.motor_sport_li .wrap .line_wrap span:active p, main.market aside ul li.motor_sport_li .wrap .line_wrap span.active p {
+          color: #fff; }
+          main.market aside ul li.motor_sport_li .wrap .line_wrap span:hover p:last-child, main.market aside ul li.motor_sport_li .wrap .line_wrap span:active p:last-child, main.market aside ul li.motor_sport_li .wrap .line_wrap span.active p:last-child {
+            color: #fff; }
       main.market aside ul li.motor_sport_li .wrap .line_wrap span p {
         display: inline-block;
         color: #1b255c;

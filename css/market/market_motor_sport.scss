@@ -41,7 +41,13 @@ main {
                         &:hover,
                         &:active,
                         &.active{
-                            background: #d3dbff;
+                            background: #556de7;
+                            p{
+                              color: #fff;
+                              &:last-child{
+                                color: #fff;
+                              }
+                            }
                         }
                         p{
                             display: inline-block;
