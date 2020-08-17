@@ -9747,7 +9747,8 @@ main {
       display: inline-block; }
       main section ul.profile li.u_data {
         width: 50%;
-        display: none; }
+        display: none;
+        float: left; }
         main section ul.profile li.u_data.active {
           display: block; }
         main section ul.profile li.u_data.yet_sign {

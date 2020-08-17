@@ -371,6 +371,7 @@ main {
           &.u_data {
             width: 50%;
             display: none;
+            float: left;
             &.active{
               display: block;
             }
