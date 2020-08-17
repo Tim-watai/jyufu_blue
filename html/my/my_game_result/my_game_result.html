@@ -29,71 +29,69 @@
 
     <aside class="my_window_game_record">
        <!--"球種"彈窗-->
-        <div class="g_over_g_type">
-
-            <div class="title">選擇球種
-                <span class="close"></span>
-                <span class="tri"></span>
-            </div>
-                <ul>
-                    <li class="box_4">
-                        <span>足球</span>
-                        <span>籃球</span>
-                        <span>棒球</span>
-                        <span>網球</span>
-                    </li>
-                    <li class="box_4">
-                        <span>電競</span>
-                        <span>賽馬賽狗</span>
-                        <span>美式足球</span>
-                        <span>斯諾克</span>
-                    </li>
-                    <li class="box_4">
-                        <span>羽球</span>
-                        <span>賽車</span>
-                        <span>排球</span>
-                        <span>沙灘足球</span>
-                    </li>
-                    <li class="box_4">
-                        <span>冰球</span>
-                        <span>彩球</span>
-                        <span>指數</span>
-                        <span>乒乓球</span>
-                    </li>
-                </ul>
-        </div>
-        <div class="g_over_g_date">
-
-            <div class="title">選擇日期
-                <span class="close"></span>
-                <span class="tri"></span>
-            </div>
-                <ul>
-                    <li class="box_5">
-                        <span>05/17</span>
-                        <span>05/18</span>
-                        <span>05/19</span>
-                        <span>05/20</span>
-                        <span>05/21</span>
-                    </li>
-                    <li class="box_5">
-                        <span>05/22</span>
-                        <span>05/23</span>
-                        <span>05/24</span>
-                        <span>05/25</span>
-                        <span>05/26</span>
-                    </li>
-                </ul>
-        </div>
-     
         <div class="hidden_title">
             <div class="tack type">
                 <p>足球<span></span>
                 </p>
+                <span class="tri"></span>
+                <div class="g_over_g_type">
+
+                    <div class="title">選擇球種
+                        <span class="close"></span>
+                    </div>
+                        <ul>
+                            <li class="box_4">
+                                <span>足球</span>
+                                <span>籃球</span>
+                                <span>棒球</span>
+                                <span>網球</span>
+                            </li>
+                            <li class="box_4">
+                                <span>電競</span>
+                                <span>賽馬賽狗</span>
+                                <span>美式足球</span>
+                                <span>斯諾克</span>
+                            </li>
+                            <li class="box_4">
+                                <span>羽球</span>
+                                <span>賽車</span>
+                                <span>排球</span>
+                                <span>沙灘足球</span>
+                            </li>
+                            <li class="box_4">
+                                <span>冰球</span>
+                                <span>彩球</span>
+                                <span>指數</span>
+                                <span>乒乓球</span>
+                            </li>
+                        </ul>
+                </div>
             </div>
             <div class="tack date">
                 <p>2020-05-27<span></span></p>
-                    <!--"日期"彈窗-->
+                <span class="tri"></span>
+                <div class="g_over_g_date">
+
+                    <div class="title">選擇日期
+                        <span class="close"></span>
+                    </div>
+                        <ul>
+                            <li class="box_5">
+                                <span>05/17</span>
+                                <span>05/18</span>
+                                <span>05/19</span>
+                                <span>05/20</span>
+                                <span>05/21</span>
+                            </li>
+                            <li class="box_5">
+                                <span>05/22</span>
+                                <span>05/23</span>
+                                <span>05/24</span>
+                                <span>05/25</span>
+                                <span>05/26</span>
+                            </li>
+                        </ul>
+                </div>
             </div>
              
                
@@ -364,38 +362,49 @@
 
     console.log('game_result');  
     //球種彈窗************************************************
-    $('.tack.type').click(
-        function(){
-            if($('.g_over_g_type').hasClass('active') != true)
-            {
-                return $('.g_over_g_type').addClass('active');
-            }
-        }
-    )
+
     $('.g_over_g_type .title .close').click(
         function(){
-            if($('.g_over_g_type').hasClass('active') == true)
+            if( $('.tack.type').hasClass('active') == true)
             {
-                return $('.g_over_g_type').removeClass('active');
+                console.log('remove type');
+                return $('.tack.type').removeClass('active');
+                
             }
         }
     )
+    $('.tack.type').click(
+        function(){
+            if($(this).hasClass('active') != true)
+            {
+                console.log('type ac')
+               return $(this).addClass('active');
+               
+                // return $('.g_over_g_type').addClass('active');
+            }
+        }
+    )
+  
     //球種彈窗************************************************
 
     //日期彈窗************************************************
     $('.tack.date').click(
         function(){
-            if($('.g_over_g_date').hasClass('active') != true)
+            if(($(this).hasClass('active') != true))
             {
-                return $('.g_over_g_date').addClass('active');
+                $(this).addClass('active');
+                console.log('date ac')
+                // return $('.g_over_g_date').addClass('active');
             }
         }
     )
     $('.g_over_g_date .title .close').click(
         function(){
-            if($('.g_over_g_date').hasClass('active') == true)
+            if($(this).parents().hasClass() == true)
             {
-                return $('.g_over_g_date').removeClass('active');
+                console.log('remove date');
+
+                return $(this).parents().removeClass('active');
             }
         }
     )
