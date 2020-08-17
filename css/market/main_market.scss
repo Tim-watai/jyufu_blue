@@ -111,14 +111,14 @@ header {
         &.for_edit {
           width: 2.5rem;
           height: 1.0625rem;
-          &:before {
-            content: "編輯";
-            position: absolute;
-            left: 0;
-            top: 0;
-            font-size: 1.0625rem;
-            color: #4d515d;
-          }
+          // &:before {
+          //   content: "編輯";
+          //   position: absolute;
+          //   left: 0;
+          //   top: 0;
+          //   font-size: 1.0625rem;
+          //   color: #4d515d;
+          // }
           &.active {
             &:before {
               // content: "取消";

@@ -1429,13 +1429,6 @@ header ul li.pure_text {
   header ul li.pure_text.for_edit {
     width: 2.5rem;
     height: 1.0625rem; }
-    header ul li.pure_text.for_edit:before {
-      content: "編輯";
-      position: absolute;
-      left: 0;
-      top: 0;
-      font-size: 1.0625rem;
-      color: #4d515d; }
     header ul li.pure_text.for_edit.active:before {
       position: absolute;
       left: 0;
