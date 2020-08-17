@@ -373,14 +373,23 @@
             }
         }
     )
-    $('.tack.type').click(
+    $('.tack.type p').click(
         function(){
-            if($(this).hasClass('active') != true)
+            if($(this).parent().hasClass('active') != true)
             {
                 console.log('type ac')
-               return $(this).addClass('active');
-               
-                // return $('.g_over_g_type').addClass('active');
+               return $(this).parent().addClass('active');
+
+            }
+        }
+    )
+    $('.g_over_g_type .title .close').click(
+        function(){
+            if( $('.tack.type').hasClass('active') == true)
+            {
+                console.log('remove type');
+                return $('.tack.type').removeClass('active');
+                
             }
         }
     )
@@ -388,23 +397,24 @@
     //球種彈窗************************************************
 
     //日期彈窗************************************************
-    $('.tack.date').click(
+    
+    $('.g_over_g_date .title .close').click(
         function(){
-            if(($(this).hasClass('active') != true))
+            if($('.tack.date').hasClass('active') == true)
             {
-                $(this).addClass('active');
-                console.log('date ac')
-                // return $('.g_over_g_date').addClass('active');
+                console.log('remove date');
+                return $('.tack.date').removeClass('active');
             }
         }
     )
-    $('.g_over_g_date .title .close').click(
+    $('.tack.date p').click(
         function(){
-            if($(this).parents().hasClass() == true)
+            if(($(this).parent().hasClass('active') != true))
             {
-                console.log('remove date');
-
-                return $(this).parents().removeClass('active');
+                console.log('date ac')
+               return $(this).parent().addClass('active');
+                
+                // return $('.g_over_g_date').addClass('active');
             }
         }
     )

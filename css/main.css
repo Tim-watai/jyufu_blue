@@ -10416,13 +10416,13 @@ aside .hidden_title {
     display: inline-block;
     text-align: center;
     position: relative; }
-    aside .hidden_title .tack.active.active, aside .hidden_title .tack:hover:hover {
+    aside .hidden_title .tack.active.active {
       background: #5160ae; }
-      aside .hidden_title .tack.active.active.type .g_over_g_type, aside .hidden_title .tack:hover:hover.type .g_over_g_type {
+      aside .hidden_title .tack.active.active.type .g_over_g_type {
         display: block; }
-      aside .hidden_title .tack.active.active.date .g_over_g_date, aside .hidden_title .tack:hover:hover.date .g_over_g_date {
+      aside .hidden_title .tack.active.active.date .g_over_g_date {
         display: block; }
-      aside .hidden_title .tack.active.active .tri, aside .hidden_title .tack:hover:hover .tri {
+      aside .hidden_title .tack.active.active .tri {
         position: absolute;
         bottom: -0.988rem;
         left: 50%;
@@ -10435,7 +10435,7 @@ aside .hidden_title {
         border-width: 0 .5rem .9375rem .5rem;
         border-color: transparent transparent #b6bbdc transparent;
         z-index: 505; }
-        aside .hidden_title .tack.active.active .tri:before, aside .hidden_title .tack:hover:hover .tri:before {
+        aside .hidden_title .tack.active.active .tri:before {
           content: '';
           position: absolute;
           bottom: -1rem;
@@ -10448,7 +10448,7 @@ aside .hidden_title {
           border-style: solid;
           border-width: 0 .4375rem .875rem .4375rem;
           border-color: transparent transparent #fff transparent; }
-      aside .hidden_title .tack.active.active p, aside .hidden_title .tack:hover:hover p {
+      aside .hidden_title .tack.active.active p {
         color: #fff; }
     aside .hidden_title .tack p {
       font-size: 1rem;
