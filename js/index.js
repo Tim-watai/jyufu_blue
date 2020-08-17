@@ -50,14 +50,14 @@ $(document).ready(function() {
     });
   
 //切換_訊息視窗
-$("header ul li.message_icon , aside.title_windows div.close").click(function() {
-  console.log('message click');
- if ($("aside.title_windows").hasClass("active") != true) {
-  return $("aside.title_windows").addClass('active');
- }else{
-   return  $("aside.title_windows").removeClass('active');
- }
-});
+// $("header ul li.message_icon , aside.title_windows div.close").click(function() {
+//   console.log('message click');
+//  if ($("aside.title_windows").hasClass("active") != true) {
+//   return $("aside.title_windows").addClass('active');
+//  }else{
+//    return  $("aside.title_windows").removeClass('active');
+//  }
+// });
 
   
   
