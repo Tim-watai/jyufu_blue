@@ -12,6 +12,48 @@ main {
               border-bottom: .125rem solid #e0e3f3;
               width: 100%;
               padding: .1875rem .5625rem .1875rem .5625rem;
+              position: relative;
+              //0817
+              .more{
+                position: absolute;
+                right: .5625rem;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #56585d;
+                font-size: .8rem;
+                font-weight: lighter;
+                p{
+                  display: inline-block;
+                  font-size: .8rem;
+                  margin-right: -.125rem;
+                }
+                .right_arrow{
+                  display: inline-block;
+                  position: relative;
+                  transform: rotate(-90deg);
+                  height: .8rem;
+                  width: 1rem;
+                  line-height: 1;
+                  margin-right: -.25rem;
+                  vertical-align: middle;
+                  &:before,&:after{
+                    top: 50%;
+                    content: "";
+                    position: absolute;
+                    background-color: #56585d;
+                    width: 50%;
+                    height: 1px;
+                  }
+                  &:before{
+                    transform: translate(0%, -50%) rotate(45deg);
+                    left: 10%;
+                  }
+                  &:after{
+                    transform: translate(0%, -50%) rotate(-45deg);
+                    right: 9%;
+                  }
+                }
+              }
             }
             .wrap{
                 padding: .3125rem 0 .625rem 0;

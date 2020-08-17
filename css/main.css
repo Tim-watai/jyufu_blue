@@ -4751,7 +4751,50 @@ main.market aside ul li.motor_sport_li h1 {
   font-size: .875rem;
   border-bottom: .125rem solid #e0e3f3;
   width: 100%;
-  padding: .1875rem .5625rem .1875rem .5625rem; }
+  padding: .1875rem .5625rem .1875rem .5625rem;
+  position: relative; }
+  main.market aside ul li.motor_sport_li h1 .more {
+    position: absolute;
+    right: .5625rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #56585d;
+    font-size: .8rem;
+    font-weight: lighter; }
+    main.market aside ul li.motor_sport_li h1 .more p {
+      display: inline-block;
+      font-size: .8rem;
+      margin-right: -.125rem; }
+    main.market aside ul li.motor_sport_li h1 .more .right_arrow {
+      display: inline-block;
+      position: relative;
+      -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      height: .8rem;
+      width: 1rem;
+      line-height: 1;
+      margin-right: -.25rem;
+      vertical-align: middle; }
+      main.market aside ul li.motor_sport_li h1 .more .right_arrow:before, main.market aside ul li.motor_sport_li h1 .more .right_arrow:after {
+        top: 50%;
+        content: "";
+        position: absolute;
+        background-color: #56585d;
+        width: 50%;
+        height: 1px; }
+      main.market aside ul li.motor_sport_li h1 .more .right_arrow:before {
+        -webkit-transform: translate(0%, -50%) rotate(45deg);
+        -ms-transform: translate(0%, -50%) rotate(45deg);
+        transform: translate(0%, -50%) rotate(45deg);
+        left: 10%; }
+      main.market aside ul li.motor_sport_li h1 .more .right_arrow:after {
+        -webkit-transform: translate(0%, -50%) rotate(-45deg);
+        -ms-transform: translate(0%, -50%) rotate(-45deg);
+        transform: translate(0%, -50%) rotate(-45deg);
+        right: 9%; }
 
 main.market aside ul li.motor_sport_li .wrap {
   padding: .3125rem 0 .625rem 0; }
