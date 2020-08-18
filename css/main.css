@@ -10426,9 +10426,21 @@ aside .hidden_title {
     aside .hidden_title .tack.active.active {
       background: #5160ae; }
       aside .hidden_title .tack.active.active.type .g_over_g_type {
-        display: block; }
+        display: block;
+        position: fixed;
+        top: 6.938rem;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%); }
       aside .hidden_title .tack.active.active.date .g_over_g_date {
-        display: block; }
+        display: block;
+        position: fixed;
+        top: 6.938rem;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%); }
       aside .hidden_title .tack.active.active .tri {
         position: absolute;
         bottom: -0.988rem;

@@ -1282,11 +1282,19 @@ aside {
         &.type{
           .g_over_g_type{
             display: block;
+            position: fixed;
+            top: 6.938rem;
+            left: 50%;
+            transform: translateX(-50%);
           }
         }
         &.date{
           .g_over_g_date{
             display: block;
+            position: fixed;
+            top: 6.938rem;
+            left: 50%;
+            transform: translateX(-50%);
           }
         }
         .tri{
