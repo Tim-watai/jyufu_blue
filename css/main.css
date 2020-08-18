@@ -1706,7 +1706,11 @@ main.market {
         margin: 1rem 0 0 0;
         color: #838ba0; }
   main.market aside section.status {
-    background: #fff; }
+    background: #fff;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 5; }
     main.market aside section.status div {
       margin: 0 0 0 .7rem;
       line-height: 1.5rem;
@@ -1842,7 +1846,7 @@ main.market {
         border-top: 1px solid #e0e3f3;
         position: -webkit-sticky;
         position: sticky;
-        top: 0;
+        top: 1.625rem;
         z-index: 5;
         background: #fff; }
         main.market aside ul li span.title p {

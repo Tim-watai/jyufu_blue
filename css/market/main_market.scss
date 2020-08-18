@@ -479,6 +479,9 @@ main {
       section {
         &.status {
           background: #fff;
+          top: 0;
+          position: sticky;
+          z-index: 5;
           div {
             margin: 0 0 0 .7rem;
             line-height: 1.5rem;
@@ -644,7 +647,7 @@ main {
               display: inline-block;
               border-top: 1px solid #e0e3f3;
               position: sticky;
-              top: 0;
+              top: 1.625rem;
               z-index: 5;
               background: #fff;
               p {
