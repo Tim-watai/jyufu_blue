@@ -13,6 +13,11 @@ main {
               width: 100%;
               padding: .1875rem .5625rem .1875rem .5625rem;
               position: relative;
+              //0818_sticky
+              position: sticky;
+              top: 0;
+              z-index: 50;
+              background: #fff;
               //0817
               .more{
                 position: absolute;
