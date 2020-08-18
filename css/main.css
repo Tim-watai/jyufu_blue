@@ -8282,7 +8282,7 @@ aside.my_window_game_record {
     line-height: 1.5rem;
     padding: .125rem 0 0 .5rem;
     font-weight: bold;
-    z-index: 50;
+    z-index: 200;
     position: -webkit-sticky;
     position: sticky;
     height: auto;
