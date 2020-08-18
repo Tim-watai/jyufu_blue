@@ -643,6 +643,10 @@ main {
               position: relative;
               display: inline-block;
               border-top: 1px solid #e0e3f3;
+              position: sticky;
+              top: 0;
+              z-index: 5;
+              background: #fff;
               p {
                 display: inline-block;
                 color: #1b255c;
