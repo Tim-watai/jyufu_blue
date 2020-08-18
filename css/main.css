@@ -4067,6 +4067,17 @@ header.double_inner {
         padding: 0 2vw;
         text-align: center;
         display: inline-block; }
+        header.double_inner section article.game_type .wrap:hover, header.double_inner section article.game_type .wrap.active, header.double_inner section article.game_type .wrap:active {
+          position: -webkit-sticky;
+          position: sticky;
+          left: 0;
+          right: 0;
+          z-index: 5;
+          background: #fff; }
+          header.double_inner section article.game_type .wrap:hover span, header.double_inner section article.game_type .wrap.active span, header.double_inner section article.game_type .wrap:active span {
+            border-bottom: .125rem solid #1b255c;
+            color: #1b255c;
+            color: #1b255c; }
       header.double_inner section article.game_type span {
         color: #838ba0;
         display: inline-block;
@@ -4074,9 +4085,6 @@ header.double_inner {
         font-weight: bold;
         pointer-events: all;
         line-height: 2.25rem; }
-        header.double_inner section article.game_type span.active, header.double_inner section article.game_type span:hover, header.double_inner section article.game_type span:active {
-          border-bottom: .125rem solid #1b255c;
-          color: #1b255c; }
     header.double_inner section article.game_refresh {
       position: absolute;
       -webkit-transform: translate(-50%, -50%);
@@ -5271,12 +5279,17 @@ header.live_page.live_page {
       padding: 0 2vw;
       text-align: center;
       display: inline-block; }
-      header.live_page.live_page .game_type .wrap:hover, header.live_page.live_page .game_type .wrap.active {
+      header.live_page.live_page .game_type .wrap:hover, header.live_page.live_page .game_type .wrap.active, header.live_page.live_page .game_type .wrap:active {
         position: -webkit-sticky;
         position: sticky;
         left: 0;
+        right: 0;
         z-index: 5;
         background: #fff; }
+        header.live_page.live_page .game_type .wrap:hover span, header.live_page.live_page .game_type .wrap.active span, header.live_page.live_page .game_type .wrap:active span {
+          border-bottom: .125rem solid #1b255c;
+          color: #1b255c;
+          color: #1b255c; }
     header.live_page.live_page .game_type span {
       color: #838ba0;
       display: inline-block;
@@ -5284,14 +5297,6 @@ header.live_page.live_page {
       font-weight: bold;
       pointer-events: all;
       line-height: 2.25rem; }
-      header.live_page.live_page .game_type span.active, header.live_page.live_page .game_type span:hover, header.live_page.live_page .game_type span:active {
-        border-bottom: .125rem solid #1b255c;
-        color: #1b255c;
-        position: -webkit-sticky;
-        position: sticky;
-        left: 0;
-        z-index: 5;
-        background: #fff; }
 
 aside.set_pw {
   width: 100%;

@@ -320,7 +320,6 @@ header {
                   }
                 }
                 &:first-child {
-                  // border-right: .125rem solid #303030;
                   text-align: left;
                 }
                 &:last-child {
@@ -331,8 +330,6 @@ header {
           }
         }
         &.game_type {
-          // height: 2.25rem;
-          // line-height: 2.25rem;
           height: 2.5rem;
           line-height: 2.5rem;
           background: #fff;
@@ -355,11 +352,18 @@ header {
             padding: 0 2vw;
             text-align: center;
             display: inline-block;
-            // width: 25%;
-            // text-align: center;
-            // float: left;
-            // display: block;
-            // white-space: nowrap;
+            &:hover,&.active,&:active{
+              position: sticky;
+              left: 0;
+              right: 0;
+              z-index: 5;
+              background: #fff;
+              span{
+                border-bottom: .125rem solid #1b255c;
+                color: #1b255c;
+                color: #1b255c;
+              }
+            }
           }
           span {
             color: #838ba0;
@@ -368,11 +372,6 @@ header {
             font-weight: bold;
             pointer-events: all;
             line-height: 2.25rem;
-           
-            &.active,&:hover,&:active {
-              border-bottom: .125rem solid #1b255c;
-              color: #1b255c;
-            }
           }
         }
         &.game_refresh {
