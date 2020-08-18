@@ -801,6 +801,9 @@
                 <span class="game_name">
                     <p><em></em>法國甲組聯賽<em></em></p>
                 </span>
+            <!--注單完成"game_tag"add active-->
+                <span class="game_tag active">FT1550701</span>
+                <span class="bet_type">足球-大小</span>
                 <span class="counter">
                     <p>里昂</p><span class="vs">vs</span> 
                     <p>亞眠</p>
@@ -808,41 +811,85 @@
             </div>
             <div class="content">
                 <div class="info">
-                    <span class="tie">平&nbsp;&nbsp;&nbsp;&nbsp;@5.10</span>
-                    <span class="solo">獨贏</span>
-                    <div class="circle">8</div>
+                    <span class="tie">大2.5&nbsp;@&nbsp;0.95</span>
+                    <!--"cir_wrap"注單完成後消失-->
+                    <span class="cir_wrap active">
+                        測試文字測試文字測試文字
+                        <div class="circle">8</div>
+                    </span>
                 </div>
-                <div class="detail">
-                    <p class="balance">餘額&nbsp;:&nbsp;<span class="num">0.00元</span></p>
-                    <p class="limit">下注限額&nbsp;:&nbsp;<span class="num">10100.00元</span></p>
+                <!--注單完成"finish_group"add active-->
+                <!--預設填單"input_group"add active-->
+                <div class="finish_group">
+                    <div class="f_title">
+                        <i></i><p>下注成功!</p>
+                    </div>
+                    <div class="bill_data">
+                        <ul class="wrap">
+                            <li>
+                                <p>時間</p>
+                                <p>05-27 13:04</p>
+                            </li>
+                            <li>
+                                <p>單號</p>
+                                <p>28658382561764</p>
+                            </li>
+                        </ul></div>
+                    
                 </div>
-                <div class="input_group">
+                <div class="input_group active">
+                    <div class="detail">
+                        <p class="balance">餘額&nbsp;:&nbsp;<span class="num">0.00元</span></p>
+                        <!-- <p class="limit">下注限額&nbsp;:&nbsp;<span class="num">10100.00元</span></p> -->
+                    </div>
                     <div class="input_box">
-                        <input type="text" placeholder="請輸入金額">
+                        <input type="text" placeholder="最低限額100">
                     </div>
-                    <div class="btns">
-                        <span>
-                            <p>100</p>
-                        </span><span>
-                            <p>500</p>
-                        </span><span>
-                            <p>1000</p>
-                        </span><br />
-                        <span>
-                            <p>2000</p>
-                        </span><span>
-                            <p>5000</p>
-                        </span><span>
-                            <p>最大</p>
-                        </span>
+                    <div class="kb_wrap">
+                        <div class="kb_top">
+                            <div class="box_s">+100</div>
+                            <div class="box_s">+500</div>
+                            <div class="box_s">+1,000</div>
+                            <div class="box_s">+5,000</div>
+                        </div>
+                        <div class="kb_bot">
+                            <div class="box_s">+1萬</div>
+                            <div class="box_s">+5萬</div>
+                            <div class="box_b">清除</div>
+                        </div>
                     </div>
                 </div>
-                <div class="be_win">
-                    <p>可贏金額&nbsp;:&nbsp;<span>NT$0</span></p>
+                <div class="result_wrap">
+                    <div class="box">
+                        <p>可贏(參考)</p>
+                        <p>0</p>
+                    </div>
+                    <div class="box">
+                        <p>單注限額</p>
+                        <p>40,000</p>
+                    </div>
+                    <div class="box">
+                        <p>單場限額</p>
+                        <p>80,000</p>
+                    </div>
+                </div>
+                <div class="auto_wrap">
+                    <input id="box1" type="checkbox">
+                    <label for="box1"></label>
+                    <p>自動接收最新盤口</p>
                 </div>
             </div>
-            <div class="footer"></div>
+            <!--注單完成"投注"改成"注單已確認"-->
+            <div class="footer">投注</div>
         </div>
+        <div class="alret_bg">
+                <div class="alret">
+                    <div class="a_wrap">
+                        <p>請輸入正確金額!</p>
+                        <button>確認</button>
+                    </div>
+                </div>
+            </div>
     </aside>
     <aside class="set_window">
         <ul class="side_bar">
