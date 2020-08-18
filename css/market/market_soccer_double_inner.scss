@@ -1,6 +1,5 @@
 header {
   &.double_inner {
-    // height: 16.5rem;
     display: none;
     &.active{
       display: block;
@@ -430,6 +429,11 @@ main {
             border-bottom: 1px solid #e0e3f3;
             margin: 0 .5rem .3125rem .5rem;
             padding: .75rem 0 0 0;
+            //0818sticky
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: #fff;
             p {
               margin: 0 0 0 .625rem;
               line-height: 1;

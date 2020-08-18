@@ -597,18 +597,6 @@ main {
 
       }
       ul {
-        // &.today {
-        //   display: block;
-        // }
-        // &.run_ball {
-        //   display: none;
-        // }
-        // &.early {
-        //   display: none;
-        // }
-        // &.double {
-        //   display: none;
-        // }
         &.game_kinds {
           width: calc(100% - 0.625rem);
           overflow-y: scroll;
