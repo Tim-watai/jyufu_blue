@@ -8277,7 +8277,12 @@ aside.my_window_game_record {
     background: #fff;
     line-height: 1.5rem;
     padding: .125rem 0 0 .5rem;
-    font-weight: bold; }
+    font-weight: bold;
+    z-index: 50;
+    position: -webkit-sticky;
+    position: sticky;
+    height: auto;
+    top: .25rem; }
   .content ul.g_over li,
   .content ul.g_over .format {
     overflow: hidden; }

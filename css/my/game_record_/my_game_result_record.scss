@@ -129,6 +129,11 @@ aside {
         line-height: 1.5rem;
         padding: .125rem 0 0 .5rem;
         font-weight: bold;
+        //0818 sticky
+        z-index: 50;
+        position: sticky;
+        height: auto;
+        top: .25rem;
       }
       li,
       .format {
