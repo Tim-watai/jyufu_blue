@@ -5158,6 +5158,10 @@ header.live_page.live_page {
   header.live_page.live_page .live_main {
     width: 100%;
     height: calc(100% - 4.5rem); }
+    header.live_page.live_page .live_main video {
+      width: 100%;
+      height: 100%;
+      z-index: 400; }
   header.live_page.live_page .live_data_box {
     background: -webkit-linear-gradient(330deg, #F6F8FF 20%, #8a98da 20%, #3248b8 100%);
     background: -o-linear-gradient(330deg, #F6F8FF 20%, #8a98da 20%, #3248b8 100%);
