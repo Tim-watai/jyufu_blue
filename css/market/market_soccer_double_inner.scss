@@ -447,9 +447,12 @@ main {
               width: .9375rem;
               height: .9375rem;
               background: url(../images/double_inner/pushpin.png) no-repeat;
-              background-position: center center;
-              background-size: cover;
+              background-position: 0;
+              background-size: 200%;
               float: right;
+              &:hover,&:active,&.active{
+                background-position-x: -.9375rem;
+              }
             }
             &:before {
               content: "";
