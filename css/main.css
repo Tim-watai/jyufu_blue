@@ -335,7 +335,11 @@ aside .content ul.history_record {
     border-width: 1px 0 1px 0;
     border-color: #e0e3f3;
     border-style: solid;
-    font-size: .875rem; }
+    font-size: .875rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: .068rem;
+    z-index: 300; }
     aside .content ul.history_record li.title .box {
       position: relative;
       line-height: 1.5rem;

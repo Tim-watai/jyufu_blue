@@ -158,6 +158,10 @@ aside{
                   border-color: #e0e3f3;
                   border-style: solid;
                   font-size: .875rem;
+                  //0818 sticky
+                  position: sticky;
+                  top: .068rem;
+                  z-index: 300;
                   .box{
                     position: relative;
                     line-height: 1.5rem;
