@@ -8282,11 +8282,11 @@ aside.my_window_game_record {
     line-height: 1.5rem;
     padding: .125rem 0 0 .5rem;
     font-weight: bold;
-    z-index: 200;
+    z-index: 80;
     position: -webkit-sticky;
     position: sticky;
     height: auto;
-    top: .25rem; }
+    top: .068rem; }
   .content ul.g_over li,
   .content ul.g_over .format {
     overflow: hidden; }
@@ -10395,8 +10395,8 @@ aside .hidden_title {
   padding: calc(2.5rem + 0.625rem) 0 0 3vw;
   position: fixed;
   width: 100%;
-  -webkit-box-shadow: 0 .1875rem 5px 0 #e2e2e2;
-  box-shadow: 0 .1875rem 5px 0 #e2e2e2;
+  -webkit-box-shadow: 0 1px 5px 0 #e2e2e2;
+  box-shadow: 0 1px 5px 0 #e2e2e2;
   z-index: 100; }
   aside .hidden_title .tack {
     width: auto;
