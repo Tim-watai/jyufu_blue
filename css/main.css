@@ -5022,7 +5022,8 @@ header.live_page.live_page {
       background-color: transparent;
       -webkit-box-shadow: none;
       box-shadow: none;
-      color: #fff; }
+      color: #fff;
+      z-index: 500; }
     header.live_page.live_page.active ul li.back {
       float: left;
       position: relative;
@@ -5266,6 +5267,12 @@ header.live_page.live_page {
       padding: 0 2vw;
       text-align: center;
       display: inline-block; }
+      header.live_page.live_page .game_type .wrap:hover, header.live_page.live_page .game_type .wrap.active {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        z-index: 5;
+        background: #fff; }
     header.live_page.live_page .game_type span {
       color: #838ba0;
       display: inline-block;
@@ -5275,7 +5282,12 @@ header.live_page.live_page {
       line-height: 2.25rem; }
       header.live_page.live_page .game_type span.active, header.live_page.live_page .game_type span:hover, header.live_page.live_page .game_type span:active {
         border-bottom: .125rem solid #1b255c;
-        color: #1b255c; }
+        color: #1b255c;
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        z-index: 5;
+        background: #fff; }
 
 aside.set_pw {
   width: 100%;

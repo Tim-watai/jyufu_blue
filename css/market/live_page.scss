@@ -14,6 +14,7 @@ header{
                   background-color: transparent;
                   box-shadow: none;
                   color: #fff;
+                  z-index: 500;
                 }
                 li {
                   &.back {
@@ -312,6 +313,12 @@ header{
               // float: left;
               // display: block;
               // white-space: nowrap;
+              &:hover,&.active{
+                position: sticky;
+    left: 0;
+    z-index: 5;
+    background: #fff;
+              }
             }
             span {
               color: #838ba0;
@@ -324,6 +331,10 @@ header{
               &.active,&:hover,&:active {
                 border-bottom: .125rem solid #1b255c;
                 color: #1b255c;
+                position: sticky;
+                left: 0;
+                z-index: 5;
+                background: #fff;
               }
             }
           }
