@@ -8298,7 +8298,12 @@ aside.my_window_game_record {
     color: #4d515d;
     font-size: .875rem;
     line-height: 1.5rem;
-    border-bottom: 1px solid #e0e3f3; }
+    border-bottom: 1px solid #e0e3f3;
+    z-index: 79;
+    position: -webkit-sticky;
+    position: sticky;
+    height: auto;
+    top: calc(1.5rem + 3px); }
     .content ul.g_over .format .t1:last-child:before,
     .content ul.g_over .format .t2:last-child:before,
     .content ul.g_over .format .t3:last-child:before {

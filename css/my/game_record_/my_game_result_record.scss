@@ -148,6 +148,11 @@ aside {
         font-size: .875rem;
         line-height: 1.5rem;
         border-bottom: 1px solid #e0e3f3;
+        z-index: 79;
+        position: -webkit-sticky;
+        position: sticky;
+        height: auto;
+        top: calc(1.5rem + 3px);
         .t1,
         .t2,
         .t3 {
