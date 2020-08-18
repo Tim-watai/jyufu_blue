@@ -8271,11 +8271,13 @@ aside.my_window_game_record {
 
 .content ul.g_over {
   border: 1px solid #9ba1c5;
+  border-width: 0 1px 1px;
   width: 100%;
   margin: .5rem 0 0;
   border-radius: .125rem; }
   .content ul.g_over .title {
     border-bottom: 1px solid #9ba1c5;
+    border-top: 1px solid #9ba1c5;
     color: #1b255c;
     font-size: 1rem;
     background: #fff;
@@ -8286,7 +8288,7 @@ aside.my_window_game_record {
     position: -webkit-sticky;
     position: sticky;
     height: auto;
-    top: .068rem; }
+    top: .125rem; }
   .content ul.g_over li,
   .content ul.g_over .format {
     overflow: hidden; }
