@@ -240,6 +240,8 @@ let double_header = $('header.double_inner');
 let live_page = $('header.live_page.live_page');
 let live_re = $('article.game_live div.wrap div:first-child');
 let live_back = $('.live_back');
+let main = $('main.double_inner_page');
+
 live_re.addClass('g_live');
 double_header.addClass('active');
 live_page.removeClass('active');
@@ -247,10 +249,12 @@ live_page.removeClass('active');
 live_re.click(function(){
   double_header.removeClass('active');
   live_page.addClass('active');
+  main.addClass('live_mode');
 })
 live_back.click(function(){
   double_header.addClass('active');
   live_page.removeClass('active');
+  main.removeClass('live_mode');
 })
 
 }); //total
