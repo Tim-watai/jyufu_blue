@@ -100,14 +100,14 @@ aside {
   &.my_window_game_record {
     padding: 0 0 100px 0;
     width: 100vw;
-    height: calc(100vh - 2.5rem - .625rem);
+    height: calc(100vh - 2.125rem - .625rem);
     background: #f7f7f7;
     z-index: 0;
     display: inline-block;
     position: fixed;
     .content {
-      height: calc(100vh - (2.5rem + 4rem));
-      margin: calc(2.5rem + 4rem) 0 0 0;
+      height: calc(100vh - (2.125rem + 4rem));
+      margin: calc(2.125rem + 4rem) 0 0 0;
       overflow-y: scroll;
       padding: 0 .5rem 100px .5rem;
     }
