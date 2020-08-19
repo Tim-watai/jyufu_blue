@@ -285,7 +285,13 @@ aside .content ul.record {
 aside .content ul.btn_group_box_4 {
   margin: .625rem auto 0 auto;
   width: 92vw;
-  white-space: nowrap; }
+  white-space: nowrap;
+  position: fixed;
+  top: calc(2.125rem + 4rem + 2px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
   aside .content ul.btn_group_box_4 li {
     border: 1px solid #e0e3f3;
     display: inline-block;
@@ -294,7 +300,7 @@ aside .content ul.btn_group_box_4 {
     border-radius: .25rem;
     background: #fff;
     color: #838ba0;
-    padding: .4375rem 0 .4375rem 0;
+    padding: .563rem 0 .563rem 0;
     margin: 0 calc(8% / 4) 0 0;
     line-height: 1; }
     aside .content ul.btn_group_box_4 li:hover, aside .content ul.btn_group_box_4 li:active, aside .content ul.btn_group_box_4 li.active {
@@ -315,7 +321,7 @@ aside .content ul.btn_group_box_6 {
     border-radius: .25rem;
     background: #fff;
     color: #838ba0;
-    padding: .4375rem 0 .4375rem 0;
+    padding: .563rem 0 .563rem 0;
     margin: 0 calc(4% / 5) 0 0;
     line-height: 1;
     float: left; }
@@ -8270,8 +8276,8 @@ aside.my_window_game_record {
   display: inline-block;
   position: fixed; }
   aside.my_window_game_record .content {
-    height: calc(100vh - (2.125rem + 4rem));
-    margin: calc(2.125rem + 4rem) 0 0 0;
+    height: calc(100vh - (2.125rem + 4rem + 2.625em + 2px));
+    margin: calc(2.125rem + 4rem + 2.625em + 2px + .625rem) 0 0 0;
     overflow-y: scroll;
     padding: 0 .5rem 100px .5rem; }
 
@@ -8294,7 +8300,7 @@ aside.my_window_game_record {
     position: -webkit-sticky;
     position: sticky;
     height: auto;
-    top: .125rem; }
+    top: 0rem; }
   .content ul.g_over li,
   .content ul.g_over .format {
     overflow: hidden; }
@@ -8309,7 +8315,7 @@ aside.my_window_game_record {
     position: -webkit-sticky;
     position: sticky;
     height: auto;
-    top: calc(1.5rem + 5px); }
+    top: calc(1.5rem + 4px); }
     .content ul.g_over .format .t1:last-child:before,
     .content ul.g_over .format .t2:last-child:before,
     .content ul.g_over .format .t3:last-child:before {
