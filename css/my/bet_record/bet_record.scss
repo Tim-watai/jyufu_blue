@@ -10,10 +10,16 @@ aside {
 
     div {
       &.content {
-        height: calc(100vh - (2.125rem + 4rem));
-        margin: calc(2.125rem + 4rem) 0 0 0;
+        // height: calc(100vh - (2.125rem + 4rem));
+        // margin: calc(2.125rem + 4rem) 0 0 0;
+        height: calc(100vh - (2.125rem + 4rem + 2.625em + 2px));
+        margin: calc(2.125rem + 4rem + 2.625em + 2px + .625rem) 0 0 0;
         overflow-y: scroll;
         padding: 0 0 300px 0;
+        &.low_height{
+            height: calc(100vh - (2.125rem + 4rem));
+            margin: calc(2.125rem + 4rem) 0 0 0;
+        }
   
       }
     }

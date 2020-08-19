@@ -313,7 +313,13 @@ aside .content ul.btn_group_box_6 {
   margin: .625rem auto .625rem auto;
   width: 96vw;
   white-space: nowrap;
-  overflow: hidden; }
+  overflow: hidden;
+  position: fixed;
+  top: calc(2.125rem + 4rem + 2px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
   aside .content ul.btn_group_box_6 li {
     border: 1px solid #e0e3f3;
     width: 16%;
@@ -344,7 +350,7 @@ aside .content ul.history_record {
     font-size: .875rem;
     position: -webkit-sticky;
     position: sticky;
-    top: .068rem;
+    top: 0rem;
     z-index: 300; }
     aside .content ul.history_record li.title .box {
       position: relative;
@@ -8021,10 +8027,13 @@ aside.my_windows_bet_record {
   display: inline-block;
   position: fixed; }
   aside.my_windows_bet_record div.content {
-    height: calc(100vh - (2.125rem + 4rem));
-    margin: calc(2.125rem + 4rem) 0 0 0;
+    height: calc(100vh - (2.125rem + 4rem + 2.625em + 2px));
+    margin: calc(2.125rem + 4rem + 2.625em + 2px + .625rem) 0 0 0;
     overflow-y: scroll;
     padding: 0 0 300px 0; }
+    aside.my_windows_bet_record div.content.low_height {
+      height: calc(100vh - (2.125rem + 4rem));
+      margin: calc(2.125rem + 4rem) 0 0 0; }
 
 aside.delete_windows ul {
   background: #fff;
