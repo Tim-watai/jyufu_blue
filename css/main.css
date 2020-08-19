@@ -5073,7 +5073,7 @@ header.live_page.live_page {
       box-shadow: none;
       color: #fff;
       z-index: 500;
-      background: #000;
+      background: #2d2d2d;
       border-radius: 0; }
     header.live_page.live_page.active ul li.back {
       float: left;
