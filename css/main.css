@@ -4581,6 +4581,7 @@ aside.yet_bill, aside.finish_bill {
               aside.yet_bill .windows .content .bill .detail li.box_1_normal span.red, aside.finish_bill .windows .content .bill .detail li.box_1_normal span.red {
                 color: #d46571; }
             aside.yet_bill .windows .content .bill .detail li.box_1_num, aside.finish_bill .windows .content .bill .detail li.box_1_num {
+              position: relative;
               background: #fff;
               overflow: hidden;
               color: #4d515d; }
@@ -4588,17 +4589,22 @@ aside.yet_bill, aside.finish_bill {
                 float: left; }
               aside.yet_bill .windows .content .bill .detail li.box_1_num .n1, aside.finish_bill .windows .content .bill .detail li.box_1_num .n1 {
                 width: 10%;
-                line-height: 4.5625rem;
+                line-height: 6.5rem;
                 text-align: center;
                 background: #f7f8fc;
                 color: #4d515d;
                 border-right: 1px solid #e0e3f3; }
               aside.yet_bill .windows .content .bill .detail li.box_1_num .n2, aside.finish_bill .windows .content .bill .detail li.box_1_num .n2 {
                 width: 90%;
-                padding: 0 .5rem 0 .5rem; }
+                padding: .25rem .5rem .25rem .5rem; }
                 aside.yet_bill .windows .content .bill .detail li.box_1_num .n2 p, aside.finish_bill .windows .content .bill .detail li.box_1_num .n2 p {
                   line-height: 1.5rem;
-                  font-size: .8rem; }
+                  font-size: .8rem;
+                  overflow: hidden;
+                  width: 100%;
+                  -o-text-overflow: ellipsis;
+                  text-overflow: ellipsis;
+                  white-space: nowrap; }
                 aside.yet_bill .windows .content .bill .detail li.box_1_num .n2 span.red, aside.finish_bill .windows .content .bill .detail li.box_1_num .n2 span.red {
                   color: #d46571; }
                 aside.yet_bill .windows .content .bill .detail li.box_1_num .n2 span.blue, aside.finish_bill .windows .content .bill .detail li.box_1_num .n2 span.blue {
@@ -5071,8 +5077,7 @@ header.live_page.live_page {
   display: none;
   height: 18.1875rem;
   width: 100%;
-  background: url(../images/market/live_page.png) no-repeat;
-  background-size: 100%; }
+  background: #2e2e2e; }
   header.live_page.live_page.active {
     display: block; }
     header.live_page.live_page.active ul.market {
@@ -9885,7 +9890,7 @@ main {
             background-position: -4.5625rem 0; }
   main article.banner_wrap {
     width: 95vw;
-    /*0612*/
+    height: 9.625rem;
     margin: 0 auto; }
   main article .banner {
     height: 9.625rem;
