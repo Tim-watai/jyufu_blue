@@ -30,16 +30,17 @@ header{
             }
             .b76{
               .vs_mid{
-                display: inline-block;
-                color: #fff;
-                position: relative;
-                width: 10%;
-                transform: none;
-                left: unset;
-                top: unset;
+                // display: inline-block;
+                // color: #fff;
+                // position: relative;
+                // width: 10%;
+                // transform: none;
+                // left: unset;
+                // top: unset;
               }
             }
             .mid_wrap{
+              overflow: hidden;
               .left_wrap{
                 width: 40%;
                 position: relative;

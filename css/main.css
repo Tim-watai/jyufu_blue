@@ -5114,41 +5114,33 @@ header.live_page.live_page {
         transform: none;
         top: 0;
         left: unset; }
-      header.live_page.live_page.bas_mode .live_data_box .b76 .vs_mid {
-        display: inline-block;
-        color: #fff;
-        position: relative;
-        width: 10%;
-        -webkit-transform: none;
-        -ms-transform: none;
-        transform: none;
-        left: unset;
-        top: unset; }
-      header.live_page.live_page.bas_mode .live_data_box .mid_wrap .left_wrap {
-        width: 40%;
-        position: relative;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: right;
-        padding-right: 1.25rem;
-        -webkit-transform: none;
-        -ms-transform: none;
-        transform: none;
-        top: unset;
-        float: left; }
-      header.live_page.live_page.bas_mode .live_data_box .mid_wrap .right_wrap {
-        width: 40%;
-        position: relative;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: left;
-        padding-left: 1.25rem;
-        -webkit-transform: none;
-        -ms-transform: none;
-        transform: none;
-        top: unset;
-        right: unset;
-        float: right; }
+      header.live_page.live_page.bas_mode .live_data_box .mid_wrap {
+        overflow: hidden; }
+        header.live_page.live_page.bas_mode .live_data_box .mid_wrap .left_wrap {
+          width: 40%;
+          position: relative;
+          display: inline-block;
+          vertical-align: middle;
+          text-align: right;
+          padding-right: 1.25rem;
+          -webkit-transform: none;
+          -ms-transform: none;
+          transform: none;
+          top: unset;
+          float: left; }
+        header.live_page.live_page.bas_mode .live_data_box .mid_wrap .right_wrap {
+          width: 40%;
+          position: relative;
+          display: inline-block;
+          vertical-align: middle;
+          text-align: left;
+          padding-left: 1.25rem;
+          -webkit-transform: none;
+          -ms-transform: none;
+          transform: none;
+          top: unset;
+          right: unset;
+          float: right; }
   header.live_page.live_page.active {
     display: block; }
     header.live_page.live_page.active ul.market {
