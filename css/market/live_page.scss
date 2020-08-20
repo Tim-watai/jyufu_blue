@@ -20,6 +20,7 @@ header{
             bottom: unset;
             left: unset;
             z-index: 500;
+            padding: .25rem 0;
             .b24{
               p{
                 position: relative;
@@ -42,7 +43,7 @@ header{
             .mid_wrap{
               overflow: hidden;
               .left_wrap{
-                width: 40%;
+                width: 50%;
                 position: relative;
                 display: inline-block;
                 vertical-align: middle;
@@ -53,7 +54,7 @@ header{
                 float: left;
               }
               .right_wrap{
-                width: 40%;
+                width: 50%;
                 position: relative;
                 display: inline-block;
                 vertical-align: middle;
@@ -66,6 +67,9 @@ header{
               }
 
             }
+          }
+          .game_type{
+            position: relative;
           }
         }
         &.active{

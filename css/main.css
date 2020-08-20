@@ -5106,7 +5106,8 @@ header.live_page.live_page {
       top: unset;
       bottom: unset;
       left: unset;
-      z-index: 500; }
+      z-index: 500;
+      padding: .25rem; }
       header.live_page.live_page.bas_mode .live_data_box .b24 p {
         position: relative;
         -webkit-transform: none;
@@ -5117,7 +5118,7 @@ header.live_page.live_page {
       header.live_page.live_page.bas_mode .live_data_box .mid_wrap {
         overflow: hidden; }
         header.live_page.live_page.bas_mode .live_data_box .mid_wrap .left_wrap {
-          width: 40%;
+          width: 50%;
           position: relative;
           display: inline-block;
           vertical-align: middle;
@@ -5129,7 +5130,7 @@ header.live_page.live_page {
           top: unset;
           float: left; }
         header.live_page.live_page.bas_mode .live_data_box .mid_wrap .right_wrap {
-          width: 40%;
+          width: 50%;
           position: relative;
           display: inline-block;
           vertical-align: middle;
@@ -5141,6 +5142,8 @@ header.live_page.live_page {
           top: unset;
           right: unset;
           float: right; }
+    header.live_page.live_page.bas_mode .game_type {
+      position: relative; }
   header.live_page.live_page.active {
     display: block; }
     header.live_page.live_page.active ul.market {
