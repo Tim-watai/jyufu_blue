@@ -2492,24 +2492,34 @@ aside.bet_window {
           color: #838ba0;
           margin: .5rem 0 .5rem; }
         aside.bet_window div.bet_page div.title span.counter {
-          width: 90%;
+          width: calc(100% - 1.125rem);
           position: relative;
           margin: 0 0 .75rem;
-          line-height: 1.5rem; }
+          line-height: 1.5rem;
+          height: 3rem; }
           aside.bet_window div.bet_page div.title span.counter p {
             color: #4d515d;
             display: inline-block;
             font-size: 1.1rem;
-            white-space: nowrap;
             overflow: hidden;
             -o-text-overflow: ellipsis;
             text-overflow: ellipsis;
-            width: 43%;
-            font-weight: bold; }
+            width: 40%;
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+            aside.bet_window div.bet_page div.title span.counter p span.head {
+              display: block;
+              padding: .313rem 0 0 0; }
             aside.bet_window div.bet_page div.title span.counter p:first-child {
-              float: left; }
+              float: left;
+              left: 0; }
             aside.bet_window div.bet_page div.title span.counter p:last-child {
-              float: right; }
+              float: right;
+              right: 0; }
           aside.bet_window div.bet_page div.title span.counter span.vs {
             position: absolute;
             -webkit-transform: translate(-50%, -50%);
@@ -2517,7 +2527,8 @@ aside.bet_window {
             transform: translate(-50%, -50%);
             left: 50%;
             top: 50%;
-            font-size: 1.4rem; }
+            width: 20%;
+            font-size: 1.2rem; }
     aside.bet_window div.bet_page div.content {
       width: 100%;
       padding: 0 .5625rem;
@@ -2530,7 +2541,7 @@ aside.bet_window {
         position: relative;
         text-align: center;
         padding: .8rem .25rem .8rem; }
-        aside.bet_window div.bet_page div.content div.info span.tie {
+        aside.bet_window div.bet_page div.content div.info span.tie, aside.bet_window div.bet_page div.content div.info span.solo {
           font-size: 1.1rem;
           display: inline-block;
           width: 100%;
@@ -2698,7 +2709,9 @@ aside.bet_window {
             overflow: hidden; }
             aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap li {
               overflow: hidden;
-              margin: 0 0 .5rem; }
+              margin: 0 0 .5rem;
+              border-bottom: 1px solid #000;
+              padding-bottom: 5px; }
               aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap li:last-child {
                 margin: 0; }
               aside.bet_window div.bet_page div.content div.finish_group .bill_data .wrap li p {

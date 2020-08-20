@@ -1517,25 +1517,37 @@ aside {
                 margin: .5rem 0 .5rem;
               }
               &.counter {
-                width: 90%;
+                width: calc(100% - 1.125rem);
                 // padding: calc(.75rem + 5px) 0 0 0;
                 position: relative;
                 margin: 0 0 .75rem;
                 line-height: 1.5rem;
+                height: 3rem;
                 p {
                   color: #4d515d;
                   display: inline-block;
                   font-size: 1.1rem;
-                  white-space: nowrap;
+                  // white-space: nowrap;0820
                   overflow: hidden;
                   text-overflow: ellipsis;
-                  width: 43%;
+                  width: 40%;
                   font-weight: bold;
+                  position: absolute;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  span{
+                    &.head{
+                      display: block;
+                      padding: .313rem 0 0 0;
+                    }
+                  }
                   &:first-child {
                     float: left;
+                    left: 0;
                   }
                   &:last-child {
                     float: right;
+                    right: 0;
                   }
                 }
                 span {
@@ -1544,7 +1556,9 @@ aside {
                     transform: translate(-50%, -50%);
                     left: 50%;
                     top: 50%;
-                    font-size: 1.4rem;
+                    width: 20%;
+                    font-size: 1.2rem;
+                    // font-size: 1.4rem;
                     // top: calc(.75rem + 5px);
                   }
                 }
@@ -1565,7 +1579,7 @@ aside {
                 text-align: center;
                 padding: .8rem .25rem .8rem;
                 span {
-                  &.tie {
+                  &.tie,&.solo {
                     font-size: 1.1rem;
                     display: inline-block;
                     width: 100%;
@@ -1757,6 +1771,8 @@ aside {
                     li {
                       overflow: hidden;
                       margin: 0 0 .5rem;
+                      border-bottom: 1px solid #000;
+                      padding-bottom: 5px;
                       &:last-child {
                         margin: 0;
                       }
