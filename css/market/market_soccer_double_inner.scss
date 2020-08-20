@@ -107,7 +107,8 @@ header {
           position: absolute;
           transform: translate(-50%, -50%);
           left: 50%;
-          top: 33%;
+          // top: 33%;0820
+          top: calc(50% - 50px);
           text-align: center;
           span,
           p {

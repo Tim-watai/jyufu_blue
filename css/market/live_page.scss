@@ -203,6 +203,8 @@ header{
             }
             .b76{
                 width: 83%;
+                position: relative;
+                height: 100%;
                 .left_wrap{
                     float:left;
                     width: 50%;
@@ -267,11 +269,14 @@ header{
                 }
             }
             .mid_wrap{
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%,-50%);
-                width: 100%;
+                // position: absolute;
+                // top: 50%;
+                // left: 50%;
+                // transform: translate(-50%,-50%);
+                // width: 100%;
+                width: auto;
+                height: 100%;
+                position: relative;
                 text-align: center;
 
             }

@@ -3933,7 +3933,7 @@ header.double_inner {
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       left: 50%;
-      top: 33%;
+      top: calc(50% - 50px);
       text-align: center; }
       header.double_inner section article.game_time span,
       header.double_inner section article.game_time p {
@@ -5260,7 +5260,9 @@ header.live_page.live_page {
       header.live_page.live_page .live_data_box .b24 p {
         padding-top: .125rem; }
     header.live_page.live_page .live_data_box .b76 {
-      width: 83%; }
+      width: 83%;
+      position: relative;
+      height: 100%; }
       header.live_page.live_page .live_data_box .b76 .left_wrap {
         float: left;
         width: 50%;
@@ -5318,13 +5320,9 @@ header.live_page.live_page {
         transform: translate(-50%, -50%);
         font-weight: lighter; }
     header.live_page.live_page .live_data_box .mid_wrap {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      width: 100%;
+      width: auto;
+      height: 100%;
+      position: relative;
       text-align: center; }
   header.live_page.live_page .game_type {
     width: 100%;
