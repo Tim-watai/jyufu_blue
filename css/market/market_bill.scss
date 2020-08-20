@@ -110,13 +110,18 @@ aside {
                   padding: 0px .5rem 0 .5rem;
                   font-size: .8rem;
                   overflow: hidden;
+                  position: relative;
                   p,.r_wrap,i{
                     display: inline-block;
                     position: relative;
+                    vertical-align: middle;
                   }
                   p{
                     &.g_name{
                       width: 35%;
+                      line-height: 1.2rem;
+                      margin: .25rem 0;
+                      vertical-align: middle;
                       &:before{
                         position: absolute;
                         content: '';
@@ -133,7 +138,11 @@ aside {
                     }
                   }
                   .r_wrap{
-                    float: right;
+                    // float: right; 0820
+                    position: absolute;
+                    right: .5rem;
+                    top: 50%;
+                    transform: translateY(-50%);
                   }
                   i{
                     width: .75rem;

@@ -4482,12 +4482,17 @@ aside.yet_bill, aside.finish_bill {
           line-height: 2rem;
           padding: 0px .5rem 0 .5rem;
           font-size: .8rem;
-          overflow: hidden; }
+          overflow: hidden;
+          position: relative; }
           aside.yet_bill .windows .content .bill .title p, aside.yet_bill .windows .content .bill .title .r_wrap, aside.yet_bill .windows .content .bill .title i, aside.finish_bill .windows .content .bill .title p, aside.finish_bill .windows .content .bill .title .r_wrap, aside.finish_bill .windows .content .bill .title i {
             display: inline-block;
-            position: relative; }
+            position: relative;
+            vertical-align: middle; }
           aside.yet_bill .windows .content .bill .title p.g_name, aside.finish_bill .windows .content .bill .title p.g_name {
-            width: 35%; }
+            width: 35%;
+            line-height: 1.2rem;
+            margin: .25rem 0;
+            vertical-align: middle; }
             aside.yet_bill .windows .content .bill .title p.g_name:before, aside.finish_bill .windows .content .bill .title p.g_name:before {
               position: absolute;
               content: '';
@@ -4502,7 +4507,12 @@ aside.yet_bill, aside.finish_bill {
           aside.yet_bill .windows .content .bill .title p.g_type, aside.finish_bill .windows .content .bill .title p.g_type {
             margin: 0 0 0 .5rem; }
           aside.yet_bill .windows .content .bill .title .r_wrap, aside.finish_bill .windows .content .bill .title .r_wrap {
-            float: right; }
+            position: absolute;
+            right: .5rem;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
           aside.yet_bill .windows .content .bill .title i, aside.finish_bill .windows .content .bill .title i {
             width: .75rem;
             height: .5625rem;
