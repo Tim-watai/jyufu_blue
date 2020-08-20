@@ -417,6 +417,10 @@ main {
     &.live_mode{
       margin-top: calc(15.6875rem + .625rem + 2.5rem);
       height: calc(100vh - 15.6875rem - 4.0625rem - .625rem - 2.5rem);
+      &.bas_mode{
+        margin-top: calc(15.6875rem + .625rem + 3.5rem);
+        height: calc(100vh - 15.6875rem - 4.0625rem - .625rem - 3.5rem);
+      }
     }
     ul {
       padding: 0 .5rem;

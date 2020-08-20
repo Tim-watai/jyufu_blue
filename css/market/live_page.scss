@@ -5,6 +5,68 @@ header{
         height: 18.1875rem;
         width: 100%;
         background: #2e2e2e;
+        &.bas_mode{
+          height: auto;
+          .live_main{
+            height: 12.5rem;
+          }
+          
+          .live_data_box{
+            width: 100%;
+            height: auto;
+            position: relative;
+            overflow: hidden;
+            top: unset;
+            bottom: unset;
+            left: unset;
+            z-index: 500;
+            .b24{
+              p{
+                position: relative;
+                transform: none;
+                top: 0;
+                left: unset;
+              }
+            }
+            .b76{
+              .vs_mid{
+                display: inline-block;
+                color: #fff;
+                position: relative;
+                width: 10%;
+                transform: none;
+                left: unset;
+                top: unset;
+              }
+            }
+            .mid_wrap{
+              .left_wrap{
+                width: 40%;
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                text-align: right;
+                padding-right: 1.25rem;
+                transform: none;
+                top: unset;
+                float: left;
+              }
+              .right_wrap{
+                width: 40%;
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                text-align: left;
+                padding-left: 1.25rem;
+                transform: none;
+                top: unset;
+                right: unset;
+                float: right;
+              }
+
+            }
+          }
+        }
         &.active{
             display: block;
             ul {
@@ -199,6 +261,10 @@ header{
                 width: 17%;
                 p{
                   padding-top: .125rem;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%,-50%);
                 }
             }
             .b76{
@@ -206,27 +272,48 @@ header{
                 position: relative;
                 height: 100%;
                 .left_wrap{
-                    float:left;
+                    // float:left;
+                    // width: 50%;
+                    // display: inline-block;
+                    // vertical-align: middle;
+                    // text-align: right;
+                    // padding-right: 1.25rem;
+                    // height: 2rem;
+                    // line-height: 2rem;
                     width: 50%;
+                    position: absolute;
                     display: inline-block;
                     vertical-align: middle;
                     text-align: right;
                     padding-right: 1.25rem;
-                    height: 2rem;
+                    /* height: 2rem; */
                     line-height: 2rem;
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
                     .tn{
                       margin-right: .5rem;
                     }
                 }
                 .right_wrap{
-                    float:left;
-                    width: 50%;
+                    // float:left;
+                    // width: 50%;
+                    // display: inline-block;
+                    // vertical-align: middle;
+                    // text-align: left;
+                    // padding-left: 1.25rem;
+                    // height: 2rem;
+                    // line-height: 2rem;
+                    position: absolute;
                     display: inline-block;
                     vertical-align: middle;
                     text-align: left;
                     padding-left: 1.25rem;
-                    height: 2rem;
                     line-height: 2rem;
+                    right: 0;
+                    width: 50%;
+                    top: 50%;
+                    transform: translateY(-50%);
                     .tn{
                       margin-left: .5rem;
                     }
@@ -241,6 +328,13 @@ header{
                   font-size: .875rem;
                   max-width: calc(75% - .8rem);
                   height: auto;
+
+                  span{
+                    font-size: .75rem;
+                    color: #fff;
+                    display: block;
+                    white-space: nowrap;
+                  }
                 }
                 .point{
                   background: #fff;
