@@ -2560,8 +2560,7 @@ aside.bet_window {
           display: inline-block;
           width: 100%;
           line-height: 100%;
-          color: #fff;
-          animation: tie_ani 1.8s infinite reverse ease-in-out; }
+          color: #fff; }
         aside.bet_window div.bet_page div.content div.info span.cir_wrap {
           width: 100%;
           line-height: 1.875rem;
@@ -3746,7 +3745,7 @@ div.window_double_mode {
             transition: all .1s ease-in-out; }
             div.window_double_mode div.all_box div.footer ul li:last-child:hover, div.window_double_mode div.all_box div.footer ul li:last-child:active {
               background: #556de7;
-              background: red;
+              background: #EF6B5D;
               color: #fff;
               -webkit-transform: scale(0.9);
               -ms-transform: scale(0.9);
@@ -9624,11 +9623,35 @@ aside.teach .content.teach_bs {
         background: -webkit-linear-gradient(left, #9ba8e4 0%, #495dc4 100%);
         background: -o-linear-gradient(left, #9ba8e4 0%, #495dc4 100%);
         background: linear-gradient(to right, #9ba8e4 0%, #495dc4 100%);
-        border: none; }
+        border: none;
+        -webkit-transition: .2s ease-in-out all;
+        -o-transition: .2s ease-in-out all;
+        transition: .2s ease-in-out all; }
+        aside.teach .content.teach_bs .card .button_wrap button.deep_blue:hover, aside.teach .content.teach_bs .card .button_wrap button.deep_blue:active {
+          background: #EF6B5D;
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+          -webkit-transition: .2s ease-in-out all;
+          -o-transition: .2s ease-in-out all;
+          transition: .2s ease-in-out all; }
       aside.teach .content.teach_bs .card .button_wrap button.white_blue {
         color: #4a5ec5;
         border: 1px solid #4a5ec5;
-        background: #fff; }
+        background: #fff;
+        -webkit-transition: .2s ease-in-out all;
+        -o-transition: .2s ease-in-out all;
+        transition: .2s ease-in-out all; }
+        aside.teach .content.teach_bs .card .button_wrap button.white_blue:hover, aside.teach .content.teach_bs .card .button_wrap button.white_blue:active {
+          background: #556de7;
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+          color: #fff;
+          border-color: transparent;
+          -webkit-transition: .2s ease-in-out all;
+          -o-transition: .2s ease-in-out all;
+          transition: .2s ease-in-out all; }
       aside.teach .content.teach_bs .card .button_wrap button.blue_arrow {
         border: none;
         background: #fff;

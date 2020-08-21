@@ -283,11 +283,25 @@ aside {
                 color: #fff;
                 background: linear-gradient(to right, #9ba8e4 0%, #495dc4 100%);
                 border: none;
+                transition: .2s ease-in-out all;
+                &:hover,&:active{
+                  background: #EF6B5D;
+                  transform: scale(.9);
+                  transition: .2s ease-in-out all;
+                }
               }
               &.white_blue {
                 color: #4a5ec5;
                 border: 1px solid #4a5ec5;
                 background: #fff;
+                transition: .2s ease-in-out all;
+                &:hover,&:active{
+                  background: #556de7;
+                  transform: scale(.9);
+                  color: #fff;
+                  border-color: transparent;
+                  transition: .2s ease-in-out all;
+                }
               }
               &.blue_arrow {
                 border: none;
