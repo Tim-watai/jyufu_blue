@@ -283,10 +283,14 @@ aside .content ul.record {
       border-radius: .1875rem; }
 
 aside .content ul.btn_group_box_4 {
-  margin: .625rem auto 0 auto;
-  width: 92vw;
+  padding: .625rem;
+  width: 96vw;
   white-space: nowrap;
-  position: relative; }
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 80;
+  background: #f7f7f7; }
   aside .content ul.btn_group_box_4 li {
     border: 1px solid #e0e3f3;
     display: inline-block;
@@ -305,14 +309,16 @@ aside .content ul.btn_group_box_4 {
       font-size: .875rem; }
 
 aside .content ul.btn_group_box_6 {
-  margin: .625rem auto .625rem auto;
-  width: 96vw;
+  padding: .625rem;
+  width: 100vw;
   white-space: nowrap;
   overflow: hidden;
   position: relative;
   position: -webkit-sticky;
   position: sticky;
-  top: .625rem; }
+  top: 0em;
+  background: #f7f7f7;
+  z-index: 80; }
   aside .content ul.btn_group_box_6 li {
     border: 1px solid #e0e3f3;
     width: 16%;
@@ -344,7 +350,7 @@ aside .content ul.history_record {
     position: -webkit-sticky;
     position: sticky;
     top: 3.375rem;
-    z-index: 300; }
+    z-index: 50; }
     aside .content ul.history_record li.title .box {
       position: relative;
       line-height: 1.5rem;
@@ -5449,7 +5455,7 @@ header.live_page.live_page {
 
 aside.set_pw {
   width: 100%;
-  margin: calc(2.5rem + .625rem) 0 0 0;
+  margin: .625rem 0 0 0;
   position: fixed;
   top: 0; }
   aside.set_pw ul {
@@ -5937,7 +5943,7 @@ aside.title_windows {
               margin: 3px 0 0 0; }
 
 aside.my_data_edit {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -6075,6 +6081,7 @@ aside.my_windows_set {
   height: 100vh;
   background: #f7f7f7;
   z-index: 400;
+  top: 0;
   display: inline-block;
   position: fixed;
   -webkit-transform: translateX(100%);
@@ -6217,7 +6224,7 @@ aside.my_windows_set {
     font-size: 1rem; }
 
 aside.my_windows_help {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -6307,7 +6314,7 @@ aside.my_windows_help {
           color: #4d515d; }
 
 aside.my_windows_help_inner {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #fff;
@@ -6490,7 +6497,7 @@ aside.my_windows_help_inner {
           height: 6.125rem; }
 
 aside.my_windows_mb_transfer {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -7014,7 +7021,7 @@ aside.jump_window.my_windwos_transfer_fail .windows {
           z-index: 1; }
 
 aside.my_windows_mb_take_out {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -7099,7 +7106,7 @@ aside.my_windows_mb_take_out {
       line-height: 1.6875rem; }
 
 aside.my_windows_mb {
-  margin: calc(2.5rem + .625rem) 0 0 0;
+  margin: .625rem 0 0 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -7581,7 +7588,7 @@ aside.my_windows_share_app {
         font-size: 1.25rem; }
 
 aside.my_windows_mb_save {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -7949,7 +7956,7 @@ aside.my_windows_mb_save {
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.my_windows_card {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -8217,7 +8224,7 @@ aside.my_windwos_gift_record {
     padding: 0 0 100px 0; }
 
 aside.my_windows_t_record {
-  margin: calc(2.5rem + .625rem) 0 0 0;
+  margin: .625rem 0 0 0;
   width: 100vw;
   background: #f7f7f7;
   z-index: 0;
@@ -8232,7 +8239,7 @@ aside.my_windows_t_record {
     transform: translateX(0%); }
   aside.my_windows_t_record div.title {
     background: #fff;
-    padding: calc(2.5rem + .625rem) 0 0 0;
+    padding: .625rem 0 0 0;
     margin: calc(-2.5rem - .625rem) 0 0 0;
     text-align: center;
     color: #838ba0; }
@@ -8304,7 +8311,7 @@ aside.my_windows_t_record {
   top: 3.188rem;
   left: 0.25rem;
   z-index: 0;
-  width: 90vw;
+  width: 95vw;
   z-index: 500; }
   .g_over_g_type .title, .g_over_g_date .title {
     background: #fff;
@@ -8412,11 +8419,11 @@ aside.my_window_game_record {
     line-height: 1.5rem;
     padding: .125rem 0 0 .5rem;
     font-weight: bold;
-    z-index: 80;
+    z-index: 50;
     position: -webkit-sticky;
     position: sticky;
     height: auto;
-    top: 0rem; }
+    top: 3.375rem; }
   .content ul.g_over li,
   .content ul.g_over .format {
     overflow: hidden; }
@@ -8739,7 +8746,7 @@ aside.help_board {
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.help_board_my {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -8798,7 +8805,7 @@ aside.help_board_my {
           padding: 0 0 .625rem 0; }
 
 aside.help_contact_us {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -8889,7 +8896,7 @@ aside.help_contact_us {
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
 
 aside.event {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   background: #fff; }
   aside.event .event_content {
     padding: .625rem .9375rem .625rem .9375rem;
@@ -9025,7 +9032,7 @@ aside.event {
             border-radius: .5rem; }
 
 aside.donate {
-  padding: calc(2.5rem + .625rem) 0 100px 0;
+  padding: .625rem 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -9086,7 +9093,7 @@ aside.teach {
   display: inline-block;
   position: fixed; }
   aside.teach .title {
-    padding: calc(2.5rem + .625rem) 3.125rem 0 3.125rem;
+    padding: .625rem 3.125rem 0 3.125rem;
     background: #fff;
     font-size: 1.125rem;
     -webkit-box-shadow: 0px 1px .1875rem 1px #e7e7e7;
@@ -9696,7 +9703,6 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
-  background: #fff;
   position: relative; }
   header ul {
     width: 100%;
@@ -10527,7 +10533,7 @@ aside.hot_windows {
 
 aside .hidden_title {
   background: #fff;
-  padding: .625rem 0 0 3vw;
+  padding: .625rem 0 0 .25rem;
   position: relative;
   width: 100%;
   -webkit-box-shadow: 0 1px 5px 0 #e2e2e2;
@@ -10550,7 +10556,7 @@ aside .hidden_title {
       aside .hidden_title .tack.active.active.type .g_over_g_type {
         display: block;
         position: fixed;
-        top: 6.563rem;
+        top: 7rem;
         left: 50%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
@@ -10558,7 +10564,7 @@ aside .hidden_title {
       aside .hidden_title .tack.active.active.date .g_over_g_date {
         display: block;
         position: fixed;
-        top: 6.563rem;
+        top: 7rem;
         left: 50%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);

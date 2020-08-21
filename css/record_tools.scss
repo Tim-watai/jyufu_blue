@@ -93,11 +93,14 @@ aside{
               }
             }
             &.btn_group_box_4 {
-              margin: .625rem auto 0 auto;
-              width: 92vw;
+              padding: .625rem;
+              width: 96vw;
               white-space: nowrap;
               //0819
-              position: relative;
+              position: sticky;
+              top: 0;
+              z-index: 80;
+              background: #f7f7f7;
               // top: calc(2.125rem + 4rem + 2px);0821
               // left: 50%;
               // transform: translateX(-50%);
@@ -124,14 +127,17 @@ aside{
               }
             }
             &.btn_group_box_6{
-              margin: .625rem auto .625rem auto;
-              width: 96vw;
+             
+              padding: .625rem;
+              width: 100vw;
               white-space: nowrap;
               overflow: hidden;
                //0819
                position: relative;
                position: sticky;
-               top: .625rem;
+               top: 0em;
+               background: #f7f7f7;
+               z-index: 80;
               //  top: calc(2.125rem + 4rem + 2px);
               //  left: 50%;
               //  transform: translateX(-50%);
@@ -173,7 +179,7 @@ aside{
                   //0818 sticky
                   position: sticky;
                   top: 3.375rem;
-                  z-index: 300;
+                  z-index: 50;
                   .box{
                     position: relative;
                     line-height: 1.5rem;

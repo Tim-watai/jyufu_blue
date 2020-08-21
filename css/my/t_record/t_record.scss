@@ -1,6 +1,6 @@
 aside {
   &.my_windows_t_record {
-    margin: calc(2.5rem + .625rem) 0 0 0;
+    margin: .625rem 0 0 0;
     width: 100vw;
     background: #f7f7f7;
     z-index: 0;
@@ -13,7 +13,7 @@ aside {
     div {
       &.title {
         background: #fff;
-        padding: calc(2.5rem + .625rem) 0 0 0;
+        padding: .625rem 0 0 0;
         margin: calc(-2.5rem - .625rem) 0 0 0;
         text-align: center;
         color: #838ba0;

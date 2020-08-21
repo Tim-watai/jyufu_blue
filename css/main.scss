@@ -145,7 +145,7 @@ header {
   left: 0;
   z-index: 100;
     // position: fixed;0821
-    background: #fff;
+    // background: #fff;
   position: relative;
   // z-index: 201;
 
@@ -1261,7 +1261,7 @@ aside {
   .hidden_title {
     background: #fff;
     //0819
-    padding:.625rem 0 0 3vw;
+    padding:.625rem 0 0 .25rem;
     position: relative;
     width: 100%;
     box-shadow: 0 1px 5px 0 #e2e2e2;
@@ -1286,7 +1286,7 @@ aside {
           .g_over_g_type{
             display: block;
             position: fixed;
-            top: 6.563rem;
+            top: 7rem;
             left: 50%;
             transform: translateX(-50%);
           }
@@ -1295,7 +1295,7 @@ aside {
           .g_over_g_date{
             display: block;
             position: fixed;
-            top: 6.563rem;
+            top: 7rem;
             left: 50%;
             transform: translateX(-50%);
           }
