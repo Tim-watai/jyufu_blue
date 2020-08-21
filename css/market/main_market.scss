@@ -1707,10 +1707,18 @@ aside {
                       width: 24%;
                       margin: 0 1.3% 0 0;
                       float: left;
+                      &:hover,&.active,&:active{
+                        background: #556de7;
+                        color: #fff;
+                      }
                     }
                     .box_b {
                       width: 49%;
                       float: left;
+                      &:hover,&.active,&:active{
+                        background: #556de7;
+                        color: #fff;
+                      }
                     }
                   }
                 }
