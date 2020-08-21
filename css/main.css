@@ -1118,7 +1118,7 @@ section.message.content {
   position: absolute; }
 
 section.message.message_inner {
-  margin: 3rem 0 0 0;
+  margin: .625rem 0 0 0;
   background: #fff; }
 
 section.message ul {
@@ -1669,7 +1669,7 @@ nav section div {
 main.market {
   overflow-y: scroll;
   padding: 0 0 50vh 0;
-  height: 100%; }
+  height: 100vh; }
   main.market .lock.lock.lock.lock.lock.lock {
     position: relative;
     width: 100%;
@@ -1721,7 +1721,7 @@ main.market {
     top: 0;
     position: -webkit-sticky;
     position: sticky;
-    z-index: 5; }
+    z-index: 10; }
     main.market aside section.status div {
       margin: 0 0 0 .7rem;
       line-height: 1.5rem;
@@ -4184,8 +4184,10 @@ header.double_inner {
         vertical-align: middle; }
 
 main.double_inner_page {
-  height: 100%;
-  overflow-y: scroll; }
+  height: 100vh;
+  overflow-y: scroll;
+  margin-top: .625rem;
+  position: relative; }
   main.double_inner_page ul {
     padding: 0 .5rem; }
     main.double_inner_page ul li {
@@ -8013,7 +8015,10 @@ aside.my_windows_card {
       border: none;
       border-radius: .5rem;
       font-size: 1.125rem;
-      font-weight: bold; }
+      font-weight: bold;
+      -webkit-transition: .2s all ease-in-out;
+      -o-transition: .2s all ease-in-out;
+      transition: .2s all ease-in-out; }
       aside.my_windows_card div.empty button span {
         display: inline-block;
         width: 1.125rem;
@@ -8035,10 +8040,17 @@ aside.my_windows_card {
           -webkit-transform: translate(-50%, -50%) rotate(90deg);
           -ms-transform: translate(-50%, -50%) rotate(90deg);
           transform: translate(-50%, -50%) rotate(90deg); }
+      aside.my_windows_card div.empty button:hover {
+        -webkit-transition: .2s all ease-in-out;
+        -o-transition: .2s all ease-in-out;
+        transition: .2s all ease-in-out;
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9); }
     aside.my_windows_card div.empty p {
       font-size: 1rem;
       color: #838ba0;
-      margin: .75rem 0 0 0; }
+      margin: .75rem 0 .75rem 0; }
   aside.my_windows_card div.have {
     margin: 2rem 0 0 0; }
     aside.my_windows_card div.have div.card {
@@ -8167,7 +8179,17 @@ aside.my_windows_card {
     background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
     background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
     background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
-    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
+    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
+    -webkit-transition: .2s all ease-in-out;
+    -o-transition: .2s all ease-in-out;
+    transition: .2s all ease-in-out; }
+    aside.my_windows_card div.add_now button:hover, aside.my_windows_card div.add_now button:active {
+      -webkit-transition: .2s all ease-in-out;
+      -o-transition: .2s all ease-in-out;
+      transition: .2s all ease-in-out;
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9); }
 
 aside.my_windows_bet_record {
   padding: 0 0 100px 0;
@@ -8912,6 +8934,10 @@ aside.help_contact_us {
         border: 1px solid #959dc5;
         padding: .5rem 1.375rem .5rem 1.375rem;
         border-radius: .1875rem; }
+        aside.help_contact_us ul.contact_us li .copy:hover, aside.help_contact_us ul.contact_us li .copy:active {
+          background: #959dc5;
+          border-color: transparent;
+          color: #fff; }
   aside.help_contact_us button {
     display: block;
     border: none;
@@ -8926,6 +8952,8 @@ aside.help_contact_us {
     background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
     background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
     background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
+    aside.help_contact_us button:hover, aside.help_contact_us button:active {
+      background: #EF6B5D; }
 
 aside.event {
   padding: .625rem 0 100px 0;
@@ -9835,7 +9863,6 @@ main {
   width: 100%;
   position: relative;
   overflow: hidden;
-  position: absolute;
   margin-top: 0;
   padding-bottom: 50vh; }
   main section ul.hot_area {
@@ -9907,6 +9934,8 @@ main {
           color: #fff;
           display: inline-block;
           vertical-align: middle; }
+        main section ul.hot_area li:last-child.hot_btn:hover, main section ul.hot_area li:last-child.hot_btn:active {
+          background: #EF6B5D; }
   main section ul.profile {
     display: block;
     width: 95vw;
@@ -9950,12 +9979,29 @@ main {
                 border: none;
                 font-weight: bold;
                 margin: 0 0.3125rem 0 0; }
+                main section ul.profile li.u_data.yet_sign .wrap button.sign_up:hover {
+                  -webkit-transition: all .2s ease-in-out;
+                  -o-transition: all .2s ease-in-out;
+                  transition: all .2s ease-in-out;
+                  -webkit-transform: scale(0.9);
+                  -ms-transform: scale(0.9);
+                  transform: scale(0.9); }
               main section ul.profile li.u_data.yet_sign .wrap button.sign_in {
                 width: 45%;
                 font-size: 1rem;
                 color: #2d43b6;
                 border: 1px solid #b9bfdc;
-                background: transparent; }
+                background: transparent;
+                -webkit-transition: .2s all ease-in-out;
+                -o-transition: .2s all ease-in-out;
+                transition: .2s all ease-in-out; }
+                main section ul.profile li.u_data.yet_sign .wrap button.sign_in:hover {
+                  -webkit-transition: all .2s ease-in-out;
+                  -o-transition: all .2s ease-in-out;
+                  transition: all .2s ease-in-out;
+                  -webkit-transform: scale(0.9);
+                  -ms-transform: scale(0.9);
+                  transform: scale(0.9); }
         main section ul.profile li.u_data p.u_name {
           color: #838ba0;
           font-weight: lighter;

@@ -259,7 +259,7 @@ main {
   width: 100%;
   position: relative;
   overflow: hidden;
-  position: absolute;
+  // position: absolute;
   margin-top: 0;
   padding-bottom: 50vh;
     // height: calc(100vh - 6rem - 0.25rem);
@@ -351,6 +351,9 @@ main {
               display: inline-block;
               vertical-align: middle;
             }
+            &:hover,&:active{
+              background: #EF6B5D;
+            }
           }
         }
       }
@@ -411,6 +414,10 @@ main {
                     border: none;
                     font-weight: bold;
                     margin: 0 0.3125rem 0 0;
+                    &:hover{
+                      transition: all .2s ease-in-out;
+                      transform: scale(.9);
+                    }
                   }
                   &.sign_in {
                     width: 45%;
@@ -418,6 +425,11 @@ main {
                     color: #2d43b6;
                     border: 1px solid #b9bfdc;
                     background: transparent;
+                    transition: .2s all ease-in-out;
+                    &:hover{
+                      transition: all .2s ease-in-out;
+                      transform: scale(.9);
+                    }
                   }
                 }
               }
