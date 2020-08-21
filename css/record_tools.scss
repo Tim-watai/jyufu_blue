@@ -129,10 +129,12 @@ aside{
               white-space: nowrap;
               overflow: hidden;
                //0819
-               position: fixed;
-               top: calc(2.125rem + 4rem + 2px);
-               left: 50%;
-               transform: translateX(-50%);
+               position: relative;
+               position: sticky;
+               top: .625rem;
+              //  top: calc(2.125rem + 4rem + 2px);
+              //  left: 50%;
+              //  transform: translateX(-50%);
               li {
                 border: 1px solid #e0e3f3;
                 width: 16%;
@@ -170,7 +172,7 @@ aside{
                   font-size: .875rem;
                   //0818 sticky
                   position: sticky;
-                  top: 0rem;
+                  top: 3.375rem;
                   z-index: 300;
                   .box{
                     position: relative;

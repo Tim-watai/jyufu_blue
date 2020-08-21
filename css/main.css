@@ -309,12 +309,10 @@ aside .content ul.btn_group_box_6 {
   width: 96vw;
   white-space: nowrap;
   overflow: hidden;
-  position: fixed;
-  top: calc(2.125rem + 4rem + 2px);
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%); }
+  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: .625rem; }
   aside .content ul.btn_group_box_6 li {
     border: 1px solid #e0e3f3;
     width: 16%;
@@ -345,7 +343,7 @@ aside .content ul.history_record {
     font-size: .875rem;
     position: -webkit-sticky;
     position: sticky;
-    top: 0rem;
+    top: 3.375rem;
     z-index: 300; }
     aside .content ul.history_record li.title .box {
       position: relative;
