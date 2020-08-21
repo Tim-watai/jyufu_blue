@@ -1357,6 +1357,22 @@ aside.inner_edit .wrap {
     aside.inner_edit .wrap p.cancel {
       color: #4d515d; }
 
+@-webkit-keyframes tie_ani {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes tie_ani {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 header ul.market {
   padding: 0 33px 0 .75rem; }
 
@@ -2544,7 +2560,8 @@ aside.bet_window {
           display: inline-block;
           width: 100%;
           line-height: 100%;
-          color: #fff; }
+          color: #fff;
+          animation: tie_ani 1.8s infinite reverse ease-in-out; }
         aside.bet_window div.bet_page div.content div.info span.cir_wrap {
           width: 100%;
           line-height: 1.875rem;
@@ -2819,6 +2836,8 @@ aside.bet_window {
       color: #fff;
       font-size: 1.3rem;
       vertical-align: bottom; }
+      aside.bet_window div.bet_page div.footer.active, aside.bet_window div.bet_page div.footer:hover, aside.bet_window div.bet_page div.footer:active {
+        background: #EF6B5D; }
   aside.bet_window div.alret_bg {
     width: 100vw;
     height: 100vh;

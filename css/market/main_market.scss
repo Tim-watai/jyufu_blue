@@ -6,6 +6,12 @@ $point_box_h:8.75rem;
 $sen_t_color:#4d515d;
 $sen_t_size:.875rem;
 
+@keyframes tie_ani{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
 
 header {
   ul {
@@ -1586,6 +1592,7 @@ aside {
                     width: 100%;
                     line-height: 100%;
                     color: #fff;
+                    animation: tie_ani 1.8s infinite reverse ease-in-out;
                   }
                   &.cir_wrap {
                     width: 100%;
@@ -1909,6 +1916,9 @@ aside {
             color: #fff;
             font-size: 1.3rem;
             vertical-align: bottom;
+            &.active,&:hover,&:active{
+              background: #EF6B5D;
+            }
           }
         }
       }
@@ -2430,3 +2440,4 @@ aside {
     }
   }
 }
+
