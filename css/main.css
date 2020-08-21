@@ -143,12 +143,12 @@ a {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  overflow-y: auto;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background: #f7f7f7;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
@@ -5097,7 +5097,7 @@ header.live_page.live_page {
   header.live_page.live_page.bas_mode {
     height: auto; }
     header.live_page.live_page.bas_mode .live_main {
-      height: 12.5rem; }
+      height: 11.188rem; }
     header.live_page.live_page.bas_mode .live_data_box {
       width: 100%;
       height: auto;
@@ -5107,16 +5107,28 @@ header.live_page.live_page {
       bottom: unset;
       left: unset;
       z-index: 500;
-      padding: .25rem; }
-      header.live_page.live_page.bas_mode .live_data_box .b24 p {
-        position: relative;
-        -webkit-transform: none;
-        -ms-transform: none;
-        transform: none;
-        top: 0;
-        left: unset; }
+      padding: .25rem 0; }
+      header.live_page.live_page.bas_mode .live_data_box .b24 {
+        width: 17%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        header.live_page.live_page.bas_mode .live_data_box .b24 p {
+          position: relative;
+          -webkit-transform: none;
+          -ms-transform: none;
+          transform: none;
+          top: 0;
+          left: unset; }
+      header.live_page.live_page.bas_mode .live_data_box .b76 {
+        float: right; }
       header.live_page.live_page.bas_mode .live_data_box .mid_wrap {
-        overflow: hidden; }
+        overflow: hidden;
+        min-height: 1rem; }
         header.live_page.live_page.bas_mode .live_data_box .mid_wrap .left_wrap {
           width: 50%;
           position: relative;
@@ -9678,8 +9690,8 @@ body.dk {
 html {
   width: 100%;
   height: 100%;
-  overflow: auto;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
 a {
   position: absolute;
@@ -9692,10 +9704,10 @@ a {
 
 header {
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
-  z-index: 100; }
+  z-index: 100;
+  position: relative; }
   header ul {
     width: 100%;
     height: 2.5rem;
@@ -9793,11 +9805,11 @@ header {
 
 main {
   width: 100%;
-  height: calc(100vh - 6rem - 0.25rem);
   position: relative;
   overflow: hidden;
-  margin-top: calc(2.5rem + 0.25rem);
-  margin-bottom: 3.5rem; }
+  position: absolute;
+  margin-top: 0;
+  padding-bottom: 50vh; }
   main section ul.hot_area {
     width: 95vw;
     height: 1.5625rem;

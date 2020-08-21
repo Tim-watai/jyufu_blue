@@ -76,8 +76,9 @@ $all-font-family-w: "微軟正黑體";
 html {
   width: 100%;
   height: 100%;
-  overflow: auto;
+  // overflow: auto;0821
   position: relative;
+  overflow: hidden;
 }
 
 @mixin size($width, $height) {
@@ -140,10 +141,11 @@ a {
 }
 header {
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
+    // position: fixed;0821
+  position: relative;
   // z-index: 201;
 
   ul {
@@ -254,12 +256,15 @@ header {
 
 main {
   width: 100%;
-  height: calc(100vh - 6rem - 0.25rem);
-  // position: relative;
   position: relative;
   overflow: hidden;
-  margin-top: calc(2.5rem + 0.25rem);
-  margin-bottom: 3.5rem;
+  position: absolute;
+  margin-top: 0;
+  padding-bottom: 50vh;
+    // height: calc(100vh - 6rem - 0.25rem);
+  // position: relative;
+  // margin-top: calc(2.5rem + 0.25rem);
+  // margin-bottom: 3.5rem;
   // top: calc(2.5rem + 0.25rem);
   section {
     ul {

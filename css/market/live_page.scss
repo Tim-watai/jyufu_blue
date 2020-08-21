@@ -8,7 +8,7 @@ header{
         &.bas_mode{
           height: auto;
           .live_main{
-            height: 12.5rem;
+            height: 11.188rem;
           }
           
           .live_data_box{
@@ -22,6 +22,12 @@ header{
             z-index: 500;
             padding: .25rem 0;
             .b24{
+              width: 17%;
+              height: auto;
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translateY(-50%);
               p{
                 position: relative;
                 transform: none;
@@ -30,18 +36,12 @@ header{
               }
             }
             .b76{
-              .vs_mid{
-                // display: inline-block;
-                // color: #fff;
-                // position: relative;
-                // width: 10%;
-                // transform: none;
-                // left: unset;
-                // top: unset;
-              }
+              float: right;
+             
             }
             .mid_wrap{
               overflow: hidden;
+              min-height: 1rem ;
               .left_wrap{
                 width: 50%;
                 position: relative;
