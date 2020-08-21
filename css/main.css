@@ -286,12 +286,7 @@ aside .content ul.btn_group_box_4 {
   margin: .625rem auto 0 auto;
   width: 92vw;
   white-space: nowrap;
-  position: fixed;
-  top: calc(2.125rem + 4rem + 2px);
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%); }
+  position: relative; }
   aside .content ul.btn_group_box_4 li {
     border: 1px solid #e0e3f3;
     display: inline-block;
@@ -1074,11 +1069,11 @@ aside.jump_window.adjust {
         background: linear-gradient(to right, #9da9e4 0%, #495dc4 100%); }
 
 section.message_type {
-  padding: 3rem 0 0 0;
+  padding: .625rem 0 0 0;
   background: #fff;
   -webkit-box-shadow: 0 2px 4px 0 #e4e4e4;
   box-shadow: 0 2px 4px 0 #e4e4e4;
-  position: fixed;
+  position: relative;
   width: 100%;
   z-index: 2; }
   section.message_type ul {
@@ -1113,7 +1108,10 @@ section.message_type {
       border-radius: 6px; }
 
 section.message.content {
-  height: calc(100vh - (3rem + 2.625rem)); }
+  height: 100vh;
+  padding-bottom: 50vh;
+  overflow-y: scroll;
+  position: absolute; }
 
 section.message.message_inner {
   margin: 3rem 0 0 0;
@@ -1232,16 +1230,15 @@ section.message ul {
       font-size: .8rem; }
 
 section.waitting {
-  text-align: center;
-  margin: calc(3rem + 2.625rem) 0 0 0; }
+  text-align: center; }
   section.waitting .watting_icon {
     background: url(../images/message_page/wait.gif) no-repeat;
     background-size: 100%;
     background-position: center;
     width: 1.5rem;
     height: 1.5rem;
-    display: inline-block;
-    margin: 1.125rem 0 .625rem 0; }
+    display: block;
+    margin: 1.125rem auto .625rem auto; }
 
 section.game_message_type {
   background: #fff;
@@ -1482,10 +1479,9 @@ header ul li.live_back {
       color: #000; }
 
 nav.kinds {
-  position: fixed;
+  position: relative;
   width: 100%;
   height: auto;
-  padding: 3rem 0 0 0;
   background: #fff;
   top: 0; }
   nav.kinds ul {
@@ -1667,11 +1663,9 @@ nav section div {
     line-height: 1.5rem; }
 
 main.market {
-  margin-top: calc(6.25rem + .625rem);
-  margin-bottom: 3.5rem;
-  height: calc(100vh - 6.25rem - 3.5rem - .625rem);
   overflow-y: scroll;
-  padding: 0 0 100px 0; }
+  padding: 0 0 50vh 0;
+  height: 100%; }
   main.market .lock.lock.lock.lock.lock.lock {
     position: relative;
     width: 100%;
@@ -4154,16 +4148,8 @@ header.double_inner {
         vertical-align: middle; }
 
 main.double_inner_page {
-  margin-top: calc(15.6875rem + .625rem);
-  height: calc(100vh - 15.6875rem - 4.0625rem - .625rem);
-  margin-bottom: 4.0625rem;
+  height: 100%;
   overflow-y: scroll; }
-  main.double_inner_page.live_mode {
-    margin-top: calc(15.6875rem + .625rem + 2.5rem);
-    height: calc(100vh - 15.6875rem - 4.0625rem - .625rem - 2.5rem); }
-    main.double_inner_page.live_mode.bas_mode {
-      margin-top: calc(15.6875rem + .625rem + 3.5rem);
-      height: calc(100vh - 15.6875rem - 4.0625rem - .625rem - 3.5rem); }
   main.double_inner_page ul {
     padding: 0 .5rem; }
     main.double_inner_page ul li {
@@ -4391,10 +4377,6 @@ nav.kinds ul.early.early.early {
         background-color: #7c87bc;
         bottom: 0;
         left: 0; }
-
-main.early_page {
-  margin-top: calc(9rem + .625rem);
-  height: calc(100vh - 9rem - 3.5rem - .625rem); }
 
 aside.yet_bill, aside.finish_bill {
   width: 100vw;
@@ -5106,8 +5088,7 @@ header.live_page.live_page {
       top: unset;
       bottom: unset;
       left: unset;
-      z-index: 500;
-      padding: .25rem 0; }
+      z-index: 500; }
       header.live_page.live_page.bas_mode .live_data_box .b24 {
         width: 17%;
         height: auto;
@@ -5118,24 +5099,42 @@ header.live_page.live_page {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
         header.live_page.live_page.bas_mode .live_data_box .b24 p {
-          position: relative;
-          -webkit-transform: none;
-          -ms-transform: none;
-          transform: none;
-          top: 0;
-          left: unset; }
+          position: absolute;
+          top: 50%;
+          left: unset;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
       header.live_page.live_page.bas_mode .live_data_box .b76 {
         float: right; }
+        header.live_page.live_page.bas_mode .live_data_box .b76 .mid_wrap {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
       header.live_page.live_page.bas_mode .live_data_box .mid_wrap {
         overflow: hidden;
         min-height: 1rem; }
+        header.live_page.live_page.bas_mode .live_data_box .mid_wrap:before {
+          content: '';
+          height: 100%;
+          width: 0;
+          display: inline-block; }
         header.live_page.live_page.bas_mode .live_data_box .mid_wrap .left_wrap {
           width: 50%;
           position: relative;
           display: inline-block;
           vertical-align: middle;
           text-align: right;
-          padding-right: 1.25rem;
           -webkit-transform: none;
           -ms-transform: none;
           transform: none;
@@ -5145,15 +5144,13 @@ header.live_page.live_page {
           width: 50%;
           position: relative;
           display: inline-block;
-          vertical-align: middle;
           text-align: left;
           padding-left: 1.25rem;
           -webkit-transform: none;
           -ms-transform: none;
           transform: none;
           top: unset;
-          right: unset;
-          float: right; }
+          right: unset; }
     header.live_page.live_page.bas_mode .game_type {
       position: relative; }
   header.live_page.live_page.active {
@@ -5706,9 +5703,9 @@ aside.my_windows {
   transition: all 0.4s ease-in-out; }
   aside.my_windows div.hellocard {
     width: 100%;
-    height: calc(4.6875rem + 2.5rem);
-    line-height: 4.6875rem;
-    padding: 3rem .75rem 0 .75rem;
+    height: calc(4.3125rem + .625rem);
+    line-height: 4.3125rem;
+    padding: .625rem .75rem 0 .75rem;
     background: #fff;
     position: relative; }
     aside.my_windows div.hellocard div.avatar {
@@ -8144,13 +8141,9 @@ aside.my_windows_bet_record {
   display: inline-block;
   position: fixed; }
   aside.my_windows_bet_record div.content {
-    height: calc(100vh - (2.125rem + 4rem + 2.625em + 2px));
-    margin: calc(2.125rem + 4rem + 2.625em + 2px + .625rem) 0 0 0;
+    height: 100%;
     overflow-y: scroll;
-    padding: 0 0 300px 0; }
-    aside.my_windows_bet_record div.content.low_height {
-      height: calc(100vh - (2.125rem + 4rem));
-      margin: calc(2.125rem + 4rem) 0 0 0; }
+    padding: 0 0 50vh 0; }
 
 aside.delete_windows ul {
   background: #fff;
@@ -8402,8 +8395,7 @@ aside.my_window_game_record {
   display: inline-block;
   position: fixed; }
   aside.my_window_game_record .content {
-    height: calc(100vh - (2.125rem + 4rem + 2.625em + 2px));
-    margin: calc(2.125rem + 4rem + 2.625em + 2px + .625rem) 0 0 0;
+    height: 100%;
     overflow-y: scroll;
     padding: 0 .5rem 100px .5rem; }
 
@@ -8633,7 +8625,6 @@ aside.help {
         height: 4.875rem; }
 
 aside.help_board {
-  margin: calc(2.5rem + .625rem) 0 0 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -9707,6 +9698,7 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
+  background: #fff;
   position: relative; }
   header ul {
     width: 100%;
@@ -9987,7 +9979,7 @@ main {
   main article.banner_wrap {
     width: 95vw;
     height: 9.625rem;
-    margin: 0 auto; }
+    margin: 0.315rem auto 0; }
   main article .banner {
     height: 9.625rem;
     margin: 0 auto 0.25rem auto;
@@ -10537,8 +10529,8 @@ aside.hot_windows {
 
 aside .hidden_title {
   background: #fff;
-  padding: calc(2.125rem + 0.625rem) 0 0 3vw;
-  position: fixed;
+  padding: .625rem 0 0 3vw;
+  position: relative;
   width: 100%;
   -webkit-box-shadow: 0 1px 5px 0 #e2e2e2;
   box-shadow: 0 1px 5px 0 #e2e2e2;

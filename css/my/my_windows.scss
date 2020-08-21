@@ -57,9 +57,10 @@ aside{
           // }
           &.hellocard {
             width: 100%;
-            height: calc(4.6875rem + 2.5rem);
-            line-height: 4.6875rem;
-            padding: 3rem .75rem 0 .75rem;
+            height: calc(4.3125rem + .625rem);
+            line-height: 4.3125rem;
+            //0821
+            padding: .625rem .75rem 0 .75rem;
             background: #fff;
             position: relative;
             div {

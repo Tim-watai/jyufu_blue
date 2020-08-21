@@ -97,10 +97,10 @@ aside{
               width: 92vw;
               white-space: nowrap;
               //0819
-              position: fixed;
-              top: calc(2.125rem + 4rem + 2px);
-              left: 50%;
-              transform: translateX(-50%);
+              position: relative;
+              // top: calc(2.125rem + 4rem + 2px);0821
+              // left: 50%;
+              // transform: translateX(-50%);
               li {
                 border: 1px solid #e0e3f3;
                 display: inline-block;

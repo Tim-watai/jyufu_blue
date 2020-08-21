@@ -20,7 +20,6 @@ header{
             bottom: unset;
             left: unset;
             z-index: 500;
-            padding: .25rem 0;
             .b24{
               width: 17%;
               height: auto;
@@ -29,41 +28,55 @@ header{
               left: 0;
               transform: translateY(-50%);
               p{
-                position: relative;
-                transform: none;
-                top: 0;
+                position: absolute;
+                top: 50%;
                 left: unset;
+                transform: translateY(-50%);
               }
             }
             .b76{
               float: right;
+              .mid_wrap{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+              }
              
             }
             .mid_wrap{
               overflow: hidden;
               min-height: 1rem ;
+              &:before{
+                content: '';
+                height: 100%;
+                width: 0;
+                display: inline-block;
+              }
               .left_wrap{
                 width: 50%;
                 position: relative;
                 display: inline-block;
                 vertical-align: middle;
                 text-align: right;
-                padding-right: 1.25rem;
                 transform: none;
                 top: unset;
                 float: left;
+
+               
               }
               .right_wrap{
                 width: 50%;
                 position: relative;
                 display: inline-block;
-                vertical-align: middle;
+                // vertical-align: middle;
                 text-align: left;
+                // padding: .5rem 0 .5rem 1.25rem;
                 padding-left: 1.25rem;
                 transform: none;
                 top: unset;
                 right: unset;
-                float: right;
+                // float: right;
               }
 
             }

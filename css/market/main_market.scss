@@ -162,10 +162,10 @@ header {
 }
 nav {
   &.kinds {
-    position: fixed;
+    // position: fixed;
+    position: relative;
     width: 100%;
     height: auto;
-    padding: 3rem 0 0 0;
     background: #fff;
     top: 0;
     ul {
@@ -414,12 +414,13 @@ nav {
 main {
   &.market {
     // margin-top: 6.25rem;
-    margin-top: calc(6.25rem + .625rem);
-    margin-bottom: 3.5rem;
+    // margin-top: calc(6.25rem + .625rem);//0821
+    // margin-bottom: 3.5rem;//0821
     // height: calc(100vh - 6.25rem - 3.5rem);
-    height: calc(100vh - 6.25rem - 3.5rem - .625rem);
+    // height: calc(100vh - 6.25rem - 3.5rem - .625rem);0821
     overflow-y: scroll;
-    padding: 0 0 100px 0;
+    padding: 0 0 50vh 0;
+    height: 100%;
     //0813 lock_icon child span
     .lock.lock.lock.lock.lock.lock {
       position: relative;
