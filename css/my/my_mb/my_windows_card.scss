@@ -142,7 +142,13 @@ aside{
                     position: relative;
                   }
                 }
+                &.bind_card{
+                  .card_check{
+                    display: block;
+                  }
+                }
                 .card_check{
+                  display: none;
                   position: absolute;
                   top: 0.5em;
                   right: 0.5em;

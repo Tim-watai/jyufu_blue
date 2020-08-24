@@ -6564,8 +6564,9 @@ aside.my_windows_mb_transfer {
     aside.my_windows_mb_transfer div.content div {
       border-bottom: 0.0625rem solid #e0e3f3; }
       aside.my_windows_mb_transfer div.content div.title {
-        height: 4.25rem;
+        height: 3.25rem;
         line-height: 2.6875rem;
+        padding: 0 .5rem;
         position: relative; }
         aside.my_windows_mb_transfer div.content div.title p {
           display: inline-block; }
@@ -6584,7 +6585,7 @@ aside.my_windows_mb_transfer {
           aside.my_windows_mb_transfer div.content div.title p.recycle {
             position: absolute;
             right: 0;
-            top: 0;
+            top: .25rem;
             color: #556de7;
             font-size: 1rem;
             border-radius: .3125rem;
@@ -6610,8 +6611,6 @@ aside.my_windows_mb_transfer {
           width: 0.0625rem;
           height: 1.625rem;
           background: #e0e3f3; }
-        aside.my_windows_mb_transfer div.content div.money_type:last-child {
-          border-bottom-width: 0; }
         aside.my_windows_mb_transfer div.content div.money_type span {
           display: inline-block; }
           aside.my_windows_mb_transfer div.content div.money_type span.center, aside.my_windows_mb_transfer div.content div.money_type span.lock {
@@ -8186,7 +8185,10 @@ aside.my_windows_card {
       aside.my_windows_card div.have div.alert_box span {
         color: #556de7;
         position: relative; }
+    aside.my_windows_card div.have div.bind_card .card_check {
+      display: block; }
     aside.my_windows_card div.have div .card_check {
+      display: none;
       position: absolute;
       top: 0.5em;
       right: 0.5em;

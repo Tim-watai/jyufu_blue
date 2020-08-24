@@ -17,8 +17,9 @@ aside {
         div {
           border-bottom: 0.0625rem solid #e0e3f3;
           &.title {
-            height: 4.25rem;
+            height: 3.25rem;
             line-height: 2.6875rem;
+            padding: 0 .5rem;
             position: relative;
             p {
               display: inline-block;
@@ -40,7 +41,7 @@ aside {
                 // float: right;
                 position: absolute;
                 right: 0;
-                top: 0;
+                top: .25rem;
                 color: #556de7;
                 font-size: 1rem;
                 border-radius: .3125rem;
@@ -68,9 +69,6 @@ aside {
               width: 0.0625rem;
               height: 1.625rem;
               background: #e0e3f3;
-            }
-            &:last-child{
-             border-bottom-width: 0;
             }
             span {
               display: inline-block;
