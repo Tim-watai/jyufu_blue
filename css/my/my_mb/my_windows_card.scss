@@ -142,6 +142,31 @@ aside{
                     position: relative;
                   }
                 }
+                .card_check{
+                  position: absolute;
+                  top: 0.5em;
+                  right: 0.5em;
+                  line-height: 100%;
+                  width: 2.5em;
+                  height: 2.5em;
+                  border-radius: 100px;
+                  border: .25em solid #fff;
+                  background: transparent;
+                  &:before{
+                    content: '';
+                    position: absolute;
+                    top: 40%;
+                    left: 53%;
+                    transform: translate(-50%, -50%) rotate(45deg);
+                    z-index: 1;
+                    border-width: 0 .25em .25em 0;
+                    border-color: #fff;
+                    border-style: solid;
+                    border-radius: 2px;
+                    width: .7em;
+                    height: 1.3em;
+                  }
+                }
               }
             }
             &.add_now{
@@ -225,6 +250,7 @@ aside{
                     &:hover,&:active{
                       transition: .2s all ease-in-out;
                       transform: scale(.9);
+                      background: #EF6B5D;
                     }
                 }
             }

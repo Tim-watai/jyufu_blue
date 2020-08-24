@@ -75,11 +75,12 @@ aside {
           font-size: 1.125rem;
           border-radius: 8px;
           font-weight: normal;
+          transition: .2s all ease-in-out;
           &.active {
             background: linear-gradient(to right, #99a6e3 0%, #485cc4 100%);
             color: #fff;
             transition: .2s all ease-in-out;
-            &:hover{
+            &:hover,&:active{
               background: #EF6B5D;
               transform: scale(.9);
               transition: all .2s ease-in-out;

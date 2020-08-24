@@ -7158,7 +7158,10 @@ aside.my_windows_mb_take_out {
       color: #bec2cc;
       font-size: 1.125rem;
       border-radius: 8px;
-      font-weight: normal; }
+      font-weight: normal;
+      -webkit-transition: .2s all ease-in-out;
+      -o-transition: .2s all ease-in-out;
+      transition: .2s all ease-in-out; }
       aside.my_windows_mb_take_out div.btn_area button.active {
         background: -webkit-gradient(linear, left top, right top, from(#99a6e3), to(#485cc4));
         background: -webkit-linear-gradient(left, #99a6e3 0%, #485cc4 100%);
@@ -7168,7 +7171,7 @@ aside.my_windows_mb_take_out {
         -webkit-transition: .2s all ease-in-out;
         -o-transition: .2s all ease-in-out;
         transition: .2s all ease-in-out; }
-        aside.my_windows_mb_take_out div.btn_area button.active:hover {
+        aside.my_windows_mb_take_out div.btn_area button.active:hover, aside.my_windows_mb_take_out div.btn_area button.active:active {
           background: #EF6B5D;
           -webkit-transform: scale(0.9);
           -ms-transform: scale(0.9);
@@ -8183,6 +8186,31 @@ aside.my_windows_card {
       aside.my_windows_card div.have div.alert_box span {
         color: #556de7;
         position: relative; }
+    aside.my_windows_card div.have div .card_check {
+      position: absolute;
+      top: 0.5em;
+      right: 0.5em;
+      line-height: 100%;
+      width: 2.5em;
+      height: 2.5em;
+      border-radius: 100px;
+      border: .25em solid #fff;
+      background: transparent; }
+      aside.my_windows_card div.have div .card_check:before {
+        content: '';
+        position: absolute;
+        top: 40%;
+        left: 53%;
+        -webkit-transform: translate(-50%, -50%) rotate(45deg);
+        -ms-transform: translate(-50%, -50%) rotate(45deg);
+        transform: translate(-50%, -50%) rotate(45deg);
+        z-index: 1;
+        border-width: 0 .25em .25em 0;
+        border-color: #fff;
+        border-style: solid;
+        border-radius: 2px;
+        width: .7em;
+        height: 1.3em; }
   aside.my_windows_card div.add_now .warp {
     background: #fff; }
   aside.my_windows_card div.add_now h1 {
@@ -8261,7 +8289,8 @@ aside.my_windows_card {
       transition: .2s all ease-in-out;
       -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
-      transform: scale(0.9); }
+      transform: scale(0.9);
+      background: #EF6B5D; }
 
 aside.my_windows_bet_record {
   padding: 0 0 100px 0;
