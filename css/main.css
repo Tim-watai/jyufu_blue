@@ -6549,7 +6549,7 @@ aside.my_windows_help_inner {
           height: 6.125rem; }
 
 aside.my_windows_mb_transfer {
-  padding: .625rem 0 100px 0;
+  padding: 0 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -6560,7 +6560,7 @@ aside.my_windows_mb_transfer {
   aside.my_windows_mb_transfer div.content {
     background: #fff;
     width: 100vw;
-    padding: 0 .6875rem 0 .6875rem; }
+    padding: .625rem .6875rem 0 .6875rem; }
     aside.my_windows_mb_transfer div.content div {
       border-bottom: 0.0625rem solid #e0e3f3; }
       aside.my_windows_mb_transfer div.content div.title {
@@ -6859,7 +6859,18 @@ aside.my_windows_mb_transfer {
     padding: .625rem 2.5rem .625rem 2.5rem;
     font-size: 1.125rem;
     font-weight: normal;
-    position: relative; }
+    position: relative;
+    -webkit-transition: .2s ease-in-out all;
+    -o-transition: .2s ease-in-out all;
+    transition: .2s ease-in-out all; }
+    aside.my_windows_mb_transfer button:hover, aside.my_windows_mb_transfer button:active, aside.my_windows_mb_transfer button.active {
+      background: #EF6B5D;
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+      -webkit-transition: .2s ease-in-out all;
+      -o-transition: .2s ease-in-out all;
+      transition: .2s ease-in-out all; }
 
 aside.jump_window.my_windows_mb_transfer_doing .windows {
   width: 86%;
@@ -7073,7 +7084,7 @@ aside.jump_window.my_windwos_transfer_fail .windows {
           z-index: 1; }
 
 aside.my_windows_mb_take_out {
-  padding: .625rem 0 100px 0;
+  padding: 0 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -7083,7 +7094,7 @@ aside.my_windows_mb_take_out {
   overflow-y: scroll; }
   aside.my_windows_mb_take_out div.content {
     width: 100vw;
-    padding: 0 .6875rem 0 .6875rem;
+    padding: .625rem .6875rem 0 .6875rem;
     background: #fff; }
     aside.my_windows_mb_take_out div.content ul li {
       border-bottom: 1px solid #e0e3f3;
@@ -7640,7 +7651,7 @@ aside.my_windows_share_app {
         font-size: 1.25rem; }
 
 aside.my_windows_mb_save {
-  padding: .625rem 0 100px 0;
+  padding: 0 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -7657,7 +7668,7 @@ aside.my_windows_mb_save {
     vertical-align: bottom;
     color: #4d515d; }
   aside.my_windows_mb_save div.content {
-    padding: 0 .75rem 0 .75rem;
+    padding: .625rem .75rem 0 .75rem;
     background: #fff; }
     aside.my_windows_mb_save div.content .pay_type {
       padding: .75rem 0 0 0; }
@@ -8491,7 +8502,7 @@ aside.my_window_game_record {
     line-height: 1.5rem;
     padding: .125rem 0 0 .5rem;
     font-weight: bold;
-    z-index: 50;
+    z-index: 79;
     position: -webkit-sticky;
     position: sticky;
     height: auto;
@@ -8506,11 +8517,11 @@ aside.my_window_game_record {
     font-size: .875rem;
     line-height: 1.5rem;
     border-bottom: 1px solid #e0e3f3;
-    z-index: 79;
+    z-index: 78;
     position: -webkit-sticky;
     position: sticky;
     height: auto;
-    top: calc(1.5rem + 4px); }
+    top: calc(4.875rem + 4px); }
     .content ul.g_over .format .t1:last-child:before,
     .content ul.g_over .format .t2:last-child:before,
     .content ul.g_over .format .t3:last-child:before {
@@ -9806,6 +9817,8 @@ header {
   left: 0;
   z-index: 100;
   position: relative; }
+  header.w_bg {
+    background: #fff; }
   header ul {
     width: 100%;
     height: 2.5rem;

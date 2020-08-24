@@ -1,6 +1,6 @@
 aside {
   &.my_windows_mb_transfer {
-    padding:.625rem 0 100px 0;
+    padding:0 0 100px 0;
     width: 100vw;
     height: calc(100vh - 2.5rem - .625rem);
     background: #f7f7f7;
@@ -13,7 +13,7 @@ aside {
       &.content {
         background: #fff;
         width: 100vw;
-        padding: 0 .6875rem 0 .6875rem;
+        padding: .625rem .6875rem 0 .6875rem;
         div {
           border-bottom: 0.0625rem solid #e0e3f3;
           &.title {
@@ -380,6 +380,12 @@ aside {
       font-size: 1.125rem;
       font-weight: normal;
       position: relative;
+      transition: .2s ease-in-out all;
+      &:hover,&:active,&.active{
+        background: #EF6B5D;
+        transform: scale(.9);
+        transition: .2s ease-in-out all;
+      }
     }
   }
   &.jump_window {

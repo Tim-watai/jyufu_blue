@@ -148,6 +148,9 @@ header {
     // background: #fff;
   position: relative;
   // z-index: 201;
+  &.w_bg{
+    background: #fff;
+  }
 
   ul {
     width: 100%;

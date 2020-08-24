@@ -133,7 +133,7 @@ aside {
         padding: .125rem 0 0 .5rem;
         font-weight: bold;
         //0818 sticky
-        z-index: 50;
+        z-index: 79;
         position: sticky;
         height: auto;
         // top: .125rem;//0819
@@ -150,12 +150,12 @@ aside {
         font-size: .875rem;
         line-height: 1.5rem;
         border-bottom: 1px solid #e0e3f3;
-        z-index: 79;
+        z-index: 78;
         position: -webkit-sticky;
         position: sticky;
         height: auto;
         // top: calc(1.5rem + 5px);
-        top: calc(1.5rem + 4px);
+        top: calc(4.875rem + 4px);
         .t1,
         .t2,
         .t3 {
