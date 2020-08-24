@@ -6610,6 +6610,8 @@ aside.my_windows_mb_transfer {
           width: 0.0625rem;
           height: 1.625rem;
           background: #e0e3f3; }
+        aside.my_windows_mb_transfer div.content div.money_type:last-child {
+          border-bottom-width: 0; }
         aside.my_windows_mb_transfer div.content div.money_type span {
           display: inline-block; }
           aside.my_windows_mb_transfer div.content div.money_type span.center, aside.my_windows_mb_transfer div.content div.money_type span.lock {
