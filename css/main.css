@@ -458,7 +458,8 @@ aside .content .fast_record {
         height: 70%;
         background: #fff; }
     aside .content .fast_record .title p.g_type {
-      margin: 0 0 0 .5rem; }
+      margin: 0 0 0 .5rem;
+      vertical-align: middle; }
     aside .content .fast_record .title .r_wrap {
       float: right; }
     aside .content .fast_record .title i {
@@ -532,7 +533,7 @@ aside .content .fast_record {
           float: left; }
         aside .content .fast_record .detail li.box_1_num .n1 {
           width: 10%;
-          line-height: 4.5rem;
+          line-height: 6rem;
           text-align: center;
           background: #f7f8fc;
           color: #4d515d;
@@ -4559,7 +4560,8 @@ aside.yet_bill, aside.finish_bill {
               height: 70%;
               background: #b1b4c1; }
           aside.yet_bill .windows .content .bill .title p.g_type, aside.finish_bill .windows .content .bill .title p.g_type {
-            margin: 0 0 0 .5rem; }
+            margin: 0 0 0 .5rem;
+            vertical-align: middle; }
           aside.yet_bill .windows .content .bill .title .r_wrap, aside.finish_bill .windows .content .bill .title .r_wrap {
             position: absolute;
             right: .5rem;
@@ -8190,14 +8192,16 @@ aside.my_windows_card {
     aside.my_windows_card div.have div .card_check {
       display: none;
       position: absolute;
-      top: 0.5em;
-      right: 0.5em;
+      top: -0.5em;
+      right: -0.5em;
       line-height: 100%;
       width: 2.5em;
       height: 2.5em;
       border-radius: 100px;
       border: .25em solid #fff;
-      background: transparent; }
+      background: #cfb05e;
+      -webkit-box-shadow: 0 0 6px 1px #cfb05e;
+      box-shadow: 0 0 6px 1px #cfb05e; }
       aside.my_windows_card div.have div .card_check:before {
         content: '';
         position: absolute;

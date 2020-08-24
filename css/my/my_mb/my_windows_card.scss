@@ -150,14 +150,15 @@ aside{
                 .card_check{
                   display: none;
                   position: absolute;
-                  top: 0.5em;
-                  right: 0.5em;
+                  top: -0.5em;
+                  right: -0.5em;
                   line-height: 100%;
                   width: 2.5em;
                   height: 2.5em;
                   border-radius: 100px;
                   border: .25em solid #fff;
-                  background: transparent;
+                  background: #cfb05e;
+                  box-shadow: 0 0 6px 1px #cfb05e;
                   &:before{
                     content: '';
                     position: absolute;
