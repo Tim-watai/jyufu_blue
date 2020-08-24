@@ -8093,7 +8093,7 @@ aside.my_windows_card {
       width: 94%;
       height: 9.5625rem;
       padding: .875rem 1.125rem;
-      margin-top: .25rem;
+      margin-top: .625rem;
       border-radius: 5px;
       color: #fff; }
       aside.my_windows_card div.have div.card span.shine {
@@ -8141,6 +8141,9 @@ aside.my_windows_card {
         margin: 0 0 .9375rem 0;
         display: inline-block;
         font-size: 1rem; }
+      aside.my_windows_card div.have div.alert_box span {
+        color: #556de7;
+        position: relative; }
   aside.my_windows_card div.add_now .warp {
     background: #fff; }
   aside.my_windows_card div.add_now h1 {

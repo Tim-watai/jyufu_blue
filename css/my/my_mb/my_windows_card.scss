@@ -70,7 +70,7 @@ aside{
                   width: 94%;
                   height: 9.5625rem;
                   padding: .875rem 1.125rem;
-                  margin-top: .25rem;
+                  margin-top: .625rem;
                   border-radius: 5px;
                   color: #fff;
                   span{
@@ -136,6 +136,10 @@ aside{
                     margin: 0 0 .9375rem 0;
                     display: inline-block;
                     font-size: 1rem;
+                  }
+                  span{
+                    color: #556de7;
+                    position: relative;
                   }
                 }
               }
