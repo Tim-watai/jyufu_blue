@@ -207,15 +207,15 @@ $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').clic
     }
   );
   //開啟_已結算注單
-  $('footer ul li.yes_do , aside.finish_bill .windows span.close').click(
-    function(){
-      if($('aside.finish_bill').hasClass('active') != true){
-        return $('aside.finish_bill').addClass('active');
-      }else{
-        return $('aside.finish_bill').removeClass('active');
-      }
-    }
-  );
+  // $('footer ul li.yes_do , aside.finish_bill .windows span.close').click(
+  //   function(){
+  //     if($('aside.finish_bill').hasClass('active') != true){
+  //       return $('aside.finish_bill').addClass('active');
+  //     }else{
+  //       return $('aside.finish_bill').removeClass('active');
+  //     }
+  //   }
+  // );
   //注單收合
   $('.content .bill').click(
     function(){
