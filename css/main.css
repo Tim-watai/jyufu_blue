@@ -5995,7 +5995,7 @@ aside.title_windows {
               margin: 3px 0 0 0; }
 
 aside.my_data_edit {
-  padding: .625rem 0 100px 0;
+  padding: 0 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -6005,7 +6005,8 @@ aside.my_data_edit {
   overflow-y: scroll; }
   aside.my_data_edit ul {
     position: relative;
-    background: #fff; }
+    background: #fff;
+    padding-top: .625rem; }
     aside.my_data_edit ul li {
       padding: .625rem 0 .625rem 0;
       margin: 0 .9375rem;
