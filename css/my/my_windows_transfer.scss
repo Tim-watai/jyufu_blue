@@ -19,7 +19,7 @@ aside {
           &.title {
             height: 4.25rem;
             line-height: 2.6875rem;
-
+            position: relative;
             p {
               display: inline-block;
               &.money_total {
@@ -37,9 +37,22 @@ aside {
                 }
               }
               &.recycle {
-                float: right;
+                // float: right;
+                position: absolute;
+                right: 0;
+                top: 0;
                 color: #556de7;
                 font-size: 1rem;
+                border-radius: .3125rem;
+                line-height: 200%;
+                padding: 0 .75rem;
+                &:hover,&:active,&.active{
+                  background: #556de7;
+                  color: #fff;
+                  border-radius: .3125rem;
+                  line-height: 200%;
+                  padding: 0 .75rem;
+                }
               }
             }
           }

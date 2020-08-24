@@ -5761,7 +5761,7 @@ aside.my_windows {
     width: 100%;
     height: calc(4.3125rem + .625rem);
     line-height: 4.3125rem;
-    padding: .625rem .75rem 0 .75rem;
+    padding: 0 .75rem 0 .75rem;
     background: #fff;
     position: relative; }
     aside.my_windows div.hellocard div.avatar {
@@ -6005,8 +6005,7 @@ aside.my_data_edit {
   overflow-y: scroll; }
   aside.my_data_edit ul {
     position: relative;
-    background: #fff;
-    padding-top: .625rem; }
+    background: #fff; }
     aside.my_data_edit ul li {
       padding: .625rem 0 .625rem 0;
       margin: 0 .9375rem;
@@ -6566,7 +6565,8 @@ aside.my_windows_mb_transfer {
       border-bottom: 0.0625rem solid #e0e3f3; }
       aside.my_windows_mb_transfer div.content div.title {
         height: 4.25rem;
-        line-height: 2.6875rem; }
+        line-height: 2.6875rem;
+        position: relative; }
         aside.my_windows_mb_transfer div.content div.title p {
           display: inline-block; }
           aside.my_windows_mb_transfer div.content div.title p.money_total {
@@ -6582,9 +6582,20 @@ aside.my_windows_mb_transfer {
               background-position: center;
               margin: 0 0 0 .25rem; }
           aside.my_windows_mb_transfer div.content div.title p.recycle {
-            float: right;
+            position: absolute;
+            right: 0;
+            top: 0;
             color: #556de7;
-            font-size: 1rem; }
+            font-size: 1rem;
+            border-radius: .3125rem;
+            line-height: 200%;
+            padding: 0 .75rem; }
+            aside.my_windows_mb_transfer div.content div.title p.recycle:hover, aside.my_windows_mb_transfer div.content div.title p.recycle:active, aside.my_windows_mb_transfer div.content div.title p.recycle.active {
+              background: #556de7;
+              color: #fff;
+              border-radius: .3125rem;
+              line-height: 200%;
+              padding: 0 .75rem; }
       aside.my_windows_mb_transfer div.content div.money_type {
         white-space: nowrap;
         position: relative; }
@@ -7151,7 +7162,18 @@ aside.my_windows_mb_take_out {
         background: -webkit-linear-gradient(left, #99a6e3 0%, #485cc4 100%);
         background: -o-linear-gradient(left, #99a6e3 0%, #485cc4 100%);
         background: linear-gradient(to right, #99a6e3 0%, #485cc4 100%);
-        color: #fff; }
+        color: #fff;
+        -webkit-transition: .2s all ease-in-out;
+        -o-transition: .2s all ease-in-out;
+        transition: .2s all ease-in-out; }
+        aside.my_windows_mb_take_out div.btn_area button.active:hover {
+          background: #EF6B5D;
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+          -webkit-transition: all .2s ease-in-out;
+          -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out; }
     aside.my_windows_mb_take_out div.btn_area p {
       display: inline-block;
       color: #838ba0;
@@ -7215,8 +7237,8 @@ aside.my_windows_mb {
         background: -o-linear-gradient(left, #9aa6e3 0%, #495dc5 100%);
         background: linear-gradient(to right, #9aa6e3 0%, #495dc5 100%);
         border-radius: 1.875rem;
-        -webkit-box-shadow: 0 0 .75rem 0 #a7a5a5;
-        box-shadow: 0 0 .75rem 0 #a7a5a5; }
+        -webkit-box-shadow: 0 0 .25rem 0 #a7a5a5;
+        box-shadow: 0 0 .25rem 0 #a7a5a5; }
         aside.my_windows_mb div.mb_content div.title div.save_money p {
           color: #fff;
           font-size: .9375rem;
@@ -7267,7 +7289,8 @@ aside.my_windows_mb {
           float: left; }
         aside.my_windows_mb div.mb_content div.footer p.balance {
           color: #838ba0;
-          float: right; }
+          float: right;
+          position: relative; }
           aside.my_windows_mb div.mb_content div.footer p.balance span.cross_icon {
             display: inline-block;
             width: .9375rem;
@@ -7278,8 +7301,11 @@ aside.my_windows_mb {
             vertical-align: baseline;
             border-radius: 2px;
             position: absolute;
-            right: 1.125rem;
-            bottom: 1.25rem; }
+            right: -1.25rem;
+            top: 40%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
   aside.my_windows_mb div.mb_event {
     margin: 1.125rem auto 0 auto;
     width: 94vw; }
@@ -8017,7 +8043,18 @@ aside.my_windows_mb_save {
     background: -webkit-gradient(linear, left top, right top, from(#9ba8e4), to(#485cc4));
     background: -webkit-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
     background: -o-linear-gradient(left, #9ba8e4 0%, #485cc4 100%);
-    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%); }
+    background: linear-gradient(to right, #9ba8e4 0%, #485cc4 100%);
+    -webkit-transition: .2s all ease-in-out;
+    -o-transition: .2s all ease-in-out;
+    transition: .2s all ease-in-out; }
+    aside.my_windows_mb_save button.save_now:hover, aside.my_windows_mb_save button.save_now:active, aside.my_windows_mb_save button.save_now.active {
+      background: #EF6B5D;
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+      -webkit-transition: .2s all ease-in-out;
+      -o-transition: .2s all ease-in-out;
+      transition: .2s all ease-in-out; }
 
 aside.my_windows_card {
   padding: .625rem 0 100px 0;
@@ -8311,7 +8348,7 @@ aside.my_windwos_gift_record {
     padding: 0 0 100px 0; }
 
 aside.my_windows_t_record {
-  margin: .625rem 0 0 0;
+  margin: 0 0 0 0;
   width: 100vw;
   background: #f7f7f7;
   z-index: 0;
@@ -8326,8 +8363,8 @@ aside.my_windows_t_record {
     transform: translateX(0%); }
   aside.my_windows_t_record div.title {
     background: #fff;
-    padding: .625rem 0 0 0;
-    margin: calc(-2.5rem - .625rem) 0 0 0;
+    padding: 0 0 0 0;
+    margin: 0;
     text-align: center;
     color: #838ba0; }
     aside.my_windows_t_record div.title .wrap {
@@ -9125,7 +9162,7 @@ aside.event {
             border-radius: .5rem; }
 
 aside.donate {
-  padding: .625rem 0 100px 0;
+  padding: 0 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -9822,7 +9859,8 @@ header {
   z-index: 100;
   position: relative; }
   header.w_bg {
-    background: #fff; }
+    background: #fff;
+    padding-bottom: .625rem; }
   header ul {
     width: 100%;
     height: 2.5rem;
@@ -10670,7 +10708,7 @@ aside.hot_windows {
 
 aside .hidden_title {
   background: #fff;
-  padding: .625rem 0 0 .25rem;
+  padding: 0 0 0 .25rem;
   position: relative;
   width: 100%;
   -webkit-box-shadow: 0 1px 5px 0 #e2e2e2;

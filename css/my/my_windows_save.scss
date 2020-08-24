@@ -464,6 +464,12 @@ aside{
             color: #fff;
             font-size: 1.2rem;
             background:linear-gradient(to right, #9ba8e4 0% ,#485cc4 100% );
+            transition: .2s all ease-in-out;
+            &:hover,&:active,&.active{
+              background: #EF6B5D;
+              transform: scale(.9);
+              transition: .2s all ease-in-out;
+            }
           }
         }
       }

@@ -78,6 +78,12 @@ aside {
           &.active {
             background: linear-gradient(to right, #99a6e3 0%, #485cc4 100%);
             color: #fff;
+            transition: .2s all ease-in-out;
+            &:hover{
+              background: #EF6B5D;
+              transform: scale(.9);
+              transition: all .2s ease-in-out;
+            }
           }
         }
         p {

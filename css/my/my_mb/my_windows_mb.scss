@@ -50,7 +50,7 @@ aside{
                     text-align: center;
                     background: linear-gradient(to right, #9aa6e3 0%, #495dc5 100%);
                     border-radius: 1.875rem;
-                    box-shadow: 0 0 .75rem 0 #a7a5a5;
+                    box-shadow: 0 0 .25rem 0 #a7a5a5;
                     p {
                       color: #fff;
                       font-size: .9375rem;
@@ -127,6 +127,7 @@ aside{
                   &.balance {
                     color: #838ba0;
                     float: right;
+                    position: relative;
                     span {
                       &.cross_icon {
                         display: inline-block;
@@ -138,8 +139,9 @@ aside{
                         vertical-align: baseline;
                         border-radius: 2px;
                         position: absolute;
-                        right: 1.125rem;
-                        bottom: 1.25rem;
+                        right: -1.25rem;
+                        top: 40%;
+                        transform: translateY(-50%);
                       }
                     }
                   }
