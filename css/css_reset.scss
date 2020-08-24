@@ -152,13 +152,15 @@ a {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  overflow-y: auto;
+  // overflow-y: auto;//0821
   //0814
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background: #f7f7f7;
   position: relative;
+  //0821
+  overflow: hidden;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */

@@ -1,6 +1,6 @@
 aside{
     &.my_windows_card{
-      padding: calc(2.5rem + .625rem) 0 100px 0;
+      padding: .625rem 0 100px 0;
       width: 100vw;
       height: calc(100vh - 2.5rem - .625rem);
       background: #f7f7f7;
@@ -28,6 +28,7 @@ aside{
                 border-radius: .5rem;
                 font-size: 1.125rem;
                 font-weight: bold;
+                transition: .2s all ease-in-out;
                 span{
                   display: inline-block;
                   width: 1.125rem;
@@ -48,11 +49,15 @@ aside{
                     transform: translate(-50%,-50%) rotate(90deg);
                   }
                 }
+                &:hover{
+                  transition: .2s all ease-in-out;
+                  transform: scale(.9);
+                }
               }
               p{
                 font-size: 1rem;
                 color: #838ba0;
-                margin: .75rem 0 0 0;
+                margin: .75rem 0 .75rem 0;
               }
             }
             &.have{
@@ -116,6 +121,9 @@ aside{
                   padding: .9375rem .9375rem 0 .9375rem;
                   background: #fff;
                   border-radius: .5rem;
+                  .blue{
+
+                  }
                   h1{
                     &.title{
                       color: #4d515d;
@@ -209,6 +217,11 @@ aside{
                     font-size: 1rem;
                     font-weight: bold;
                     background:linear-gradient(to right, #9ba8e4 0% ,#485cc4 100% );
+                    transition: .2s all ease-in-out;
+                    &:hover,&:active{
+                      transition: .2s all ease-in-out;
+                      transform: scale(.9);
+                    }
                 }
             }
         }

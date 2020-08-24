@@ -1,10 +1,10 @@
 
 section {
   &.message_type {
-    padding: 3rem 0 0 0;
+    padding: .625rem 0 0 0;
     background: #fff;
     box-shadow: 0 2px 4px 0 #e4e4e4;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 2;
     ul {
@@ -52,10 +52,14 @@ section {
   }
   &.message{
     &.content {
-        height: calc(100vh - (3rem + 2.625rem));
+      height: 100vh;
+      padding-bottom: 50vh;
+      // height: calc(100vh - (3rem + 2.625rem));
+      overflow-y: scroll;
+      position: absolute;
       }
     &.message_inner{
-        margin: 3rem 0 0 0;
+        margin: .625rem 0 0 0;
         background: #fff;
     }
       ul {
@@ -196,15 +200,15 @@ section {
   }
   &.waitting{
     text-align: center;
-    margin: calc(3rem + 2.625rem) 0 0 0;
+    // margin: calc(3rem + 2.625rem) 0 0 0;
       .watting_icon{
           background: url(../images/message_page/wait.gif)no-repeat;
           background-size: 100%;
           background-position: center;
           width: 1.5rem;
           height: 1.5rem;
-          display: inline-block;
-          margin: 1.125rem 0 .625rem 0;
+          display: block;
+          margin: 1.125rem auto .625rem auto;
       }
   }
   &.game_message_type{
