@@ -35,6 +35,12 @@ aside {
                   background-size: 100%;
                   background-position: center;
                   margin: 0 0 0 .25rem;
+                  // transform: rotate(0deg);
+                  transition: all 1s ease-in-out;
+                  &:hover{
+                    transform: rotate(-360deg);
+                    // transition: all 1s ease-in-out;
+                  }
                 }
               }
               &.recycle {
@@ -132,8 +138,18 @@ aside {
             white-space: nowrap;
             position: relative;
             border-bottom: none;
+            &.active{
+              .hidden.hidden.hidden{
+                display: block;
+              }
+            }
+            .hidden.hidden.hidden{
+              display: none;
+            }
             div {
+              
               &.line {
+                
                 &.last.last {
                   border-bottom: none;
                   span {
@@ -295,7 +311,7 @@ aside {
                     border-radius: 1.25rem;
                     padding: 0 .125rem;
                     width: 3rem;
-                    &.active {
+                    &.active,&:hover {
                       background: #737997;
                       span {
                         &.switch {
@@ -501,6 +517,12 @@ aside {
                   font-size: 1.125rem;
                   font-weight: bold;
                   position: relative;
+                  transition: all .2s ease-in-out;
+                  &:hover{
+                    background: #EF6B5D;
+                    transform: scale(.9);
+                    transition: all .2s ease-in-out;
+                  }
                 }
               }
             }
@@ -546,30 +568,38 @@ aside {
               &.button_area{
                 white-space: nowrap;
                 button{
-                    border-radius: 0 0 .9375rem .9375rem;
-                    width: 50%;
-                    background: #fff;
-                    border: none;
-                    padding: .625rem 0 .625rem 0;
-                    font-size: 1rem;
-                    color: #4d515d;
-                    position: relative;
-                    display: inline-block;
-                    &:first-child{
-                        letter-spacing: .3125rem;
-                        margin: 0 -.25rem 0 0;
-                        &:before{
-                            content:'';
-                            position: absolute;
-                            top: 0;
-                            right: 0;
-                            width: 0.0625rem;
-                            height: 100%;
-                            background: #e0e3f3;
-                            z-index: 1;
-                        }
-                    }
-                }
+                  border-radius: 0 0 .9375rem 0;
+                  width: 50%;
+                  background: #fff;
+                  border: none;
+                  padding: .625rem 0 .625rem 0;
+                  font-size: 1rem;
+                  color: #4d515d;
+                  position: relative;
+                  display: inline-block;
+                  transition: all .2s ease-in-out;
+                  margin: 0 0 0 .125rem;
+                  &:hover,&:active,&.active{
+                    background: #959dc5;
+                    color: #fff;
+                    transition: all .2s ease-in-out;
+                  }
+                  &:first-child{
+                      letter-spacing: .3125rem;
+                      margin: 0 -.25rem 0 0;
+                      border-radius: 0 0 0 .9375rem;
+                      &:before{
+                          content:'';
+                          position: absolute;
+                          top: 0;
+                          right: 0;
+                          width: 0.0625rem;
+                          height: 100%;
+                          background: #e0e3f3;
+                          z-index: 1;
+                      }
+                  }
+              }
               }
             }
           }
@@ -623,7 +653,7 @@ aside {
                 white-space: nowrap;
                 overflow: hidden;
                 button{
-                    border-radius: 0 0 .9375rem .9375rem;
+                    border-radius: 0 0 .9375rem 0;
                     width: 50%;
                     background: #fff;
                     border: none;
@@ -632,9 +662,17 @@ aside {
                     color: #4d515d;
                     position: relative;
                     display: inline-block;
+                    transition: all .2s ease-in-out;
+                    margin: 0 0 0 .125rem;
+                    &:hover,&:active,&.active{
+                      background: #959dc5;
+                      color: #fff;
+                      transition: all .2s ease-in-out;
+                    }
                     &:first-child{
                         letter-spacing: .3125rem;
                         margin: 0 -.25rem 0 0;
+                        border-radius: 0 0 0 .9375rem;
                         &:before{
                             content:'';
                             position: absolute;
