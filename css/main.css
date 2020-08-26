@@ -6671,7 +6671,10 @@ aside.my_windows_mb_transfer {
             font-weight: bold;
             color: #4d515d;
             font-size: 1rem; }
-            aside.my_windows_mb_transfer div.content div.title p.money_total:hover span {
+            aside.my_windows_mb_transfer div.content div.title p.money_total:active span, aside.my_windows_mb_transfer div.content div.title p.money_total:hover span {
+              -webkit-transition: all 1s ease-in-out;
+              -o-transition: all 1s ease-in-out;
+              transition: all 1s ease-in-out;
               -webkit-transform: rotate(-360deg);
               -ms-transform: rotate(-360deg);
               transform: rotate(-360deg); }
@@ -6682,10 +6685,7 @@ aside.my_windows_mb_transfer {
               background: url(../images/icon/refresh_b.png) no-repeat;
               background-size: 100%;
               background-position: center;
-              margin: 0 0 0 .25rem;
-              -webkit-transition: all 1s ease-in-out;
-              -o-transition: all 1s ease-in-out;
-              transition: all 1s ease-in-out; }
+              margin: 0 0 0 .25rem; }
           aside.my_windows_mb_transfer div.content div.title p.recycle {
             position: absolute;
             right: 0;
@@ -8654,17 +8654,14 @@ aside.my_windows_t_record {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     right: .5rem;
-    pointer-events: all;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out; }
+    pointer-events: all; }
     .g_over_g_type .close:hover, .g_over_g_date .close:hover {
-      -webkit-transform: translateY(-50%) rotate(-360deg);
-      -ms-transform: translateY(-50%) rotate(-360deg);
-      transform: translateY(-50%) rotate(-360deg);
-      -webkit-transition: all .5s ease-in-out;
-      -o-transition: all .5s ease-in-out;
-      transition: all .5s ease-in-out; }
+      background: #4d515d;
+      -webkit-transition: all .1s ease-in-out;
+      -o-transition: all .1s ease-in-out;
+      transition: all .1s ease-in-out; }
+      .g_over_g_type .close:hover:before, .g_over_g_type .close:hover:after, .g_over_g_date .close:hover:before, .g_over_g_date .close:hover:after {
+        background: #fff; }
     .g_over_g_type .close:before, .g_over_g_date .close:before {
       content: '';
       position: absolute;
@@ -10902,9 +10899,6 @@ aside.hot_windows {
       background-position: center center;
       width: 1.5625rem;
       height: 1.5625rem;
-      -webkit-transition: all .5s ease-in-out;
-      -o-transition: all .5s ease-in-out;
-      transition: all .5s ease-in-out;
       display: inline-block;
       vertical-align: middle;
       margin-left: .25rem; }
@@ -10924,6 +10918,14 @@ aside.hot_windows {
       background: -webkit-linear-gradient(left, #98a4e2 1%, #8997dd 30%, #6e7ed2 51%, #5265c8 75%, #485cc4 100%);
       background: -o-linear-gradient(left, #98a4e2 1%, #8997dd 30%, #6e7ed2 51%, #5265c8 75%, #485cc4 100%);
       background: linear-gradient(to right, #98a4e2 1%, #8997dd 30%, #6e7ed2 51%, #5265c8 75%, #485cc4 100%); }
+      aside.hot_windows article.bg span.get_one:hover, aside.hot_windows article.bg span.get_one:active, aside.hot_windows article.bg span.get_one.active {
+        background: #EF6B5D;
+        -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+        -webkit-transition: .2s all ease-in-out;
+        -o-transition: .2s all ease-in-out;
+        transition: .2s all ease-in-out; }
     aside.hot_windows article.bg:before {
       content: "";
       position: absolute;

@@ -1239,7 +1239,7 @@ aside {
         background-position: center center;
         width: 1.5625rem;
         height: 1.5625rem;
-        transition: all .5s ease-in-out;
+        // transition: all .5s ease-in-out;
         display: inline-block;
         vertical-align: middle;
         margin-left: .25rem;
@@ -1278,6 +1278,11 @@ aside {
           #5265c8 75%,
           #485cc4 100%
         );
+        &:hover,&:active,&.active{
+          background: #EF6B5D;
+          transform: scale(.95);
+          transition: .2s all ease-in-out;
+        }
       }
       &:before {
         content: "";

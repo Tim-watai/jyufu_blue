@@ -24,10 +24,13 @@
     transform: translateY(-50%);
     right: .5rem;
     pointer-events: all;
-    transition: all .5s ease-in-out;
+    
     &:hover{
-      transform: translateY(-50%) rotate(-360deg);
-      transition: all .5s ease-in-out;
+      background: #4d515d;
+      transition: all .1s ease-in-out;
+      &:before,&:after{
+        background: #fff;
+      }
     }
     &:before{
       content: '';
