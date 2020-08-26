@@ -111,12 +111,14 @@ div {
                       position: relative;
                       line-height: 5rem;
                       width: 1.125rem;
-                      height: .5rem;
+                      height: 1.125rem;
                       &.close {
-                        transition: all .5s ease-in-out;
+                        transition: all .1s ease-in-out;
                         &:hover,&:active,&.active{
-                          transform: rotate(360deg);
-                          transition: all .5s ease-in-out;
+                          background: #838ba0;
+                          &:after,&:before{
+                            background: #fff;
+                          }
                         }
                         &:before,
                         &:after {

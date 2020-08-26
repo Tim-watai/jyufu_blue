@@ -3413,18 +3413,15 @@ div.window_double_mode {
               position: relative;
               line-height: 5rem;
               width: 1.125rem;
-              height: .5rem; }
+              height: 1.125rem; }
               div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close {
-                -webkit-transition: all .5s ease-in-out;
-                -o-transition: all .5s ease-in-out;
-                transition: all .5s ease-in-out; }
+                -webkit-transition: all .1s ease-in-out;
+                -o-transition: all .1s ease-in-out;
+                transition: all .1s ease-in-out; }
                 div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:hover, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:active, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close.active {
-                  -webkit-transform: rotate(360deg);
-                  -ms-transform: rotate(360deg);
-                  transform: rotate(360deg);
-                  -webkit-transition: all .5s ease-in-out;
-                  -o-transition: all .5s ease-in-out;
-                  transition: all .5s ease-in-out; }
+                  background: #838ba0; }
+                  div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:hover:after, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:hover:before, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:active:after, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:active:before, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close.active:after, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close.active:before {
+                    background: #fff; }
                 div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:before, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:after {
                   content: "";
                   position: absolute;
