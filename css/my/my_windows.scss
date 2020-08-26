@@ -333,9 +333,26 @@ aside{
                   &:first-child {
                     border-right: 2px solid #e1e1e1;
                   }
+                  &.close{
+                    border-radius: 0 0 0 0.9375rem;
+                    &:hover,&:active,&.active{
+                      background: #000;
+                      p{
+                        color: #fff;
+                      }
+                    }
+                  }
                   &.detail {
+                    border-radius: 0 0 0.9375rem 0;
+                    &:hover,&:active,&.active{
+                      background: #2d43b6;
+                      p{
+                        color: #fff;
+                      }
+                    }
                     color: #2d43b6;
                   }
+
                   &.close,
                   &.detail {
                     position: relative;

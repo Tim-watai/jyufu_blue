@@ -114,6 +114,16 @@ header {
         &.for_edit {
           width: 2.5rem;
           height: 1.0625rem;
+          &.active{
+            // border-radius: 5px;
+            // background: #4d515d;
+            // color: #fff;
+            // width: auto;
+            // padding: .125rem .125rem 0;
+            // height: auto;
+            // line-height: 1;
+            font-weight: bold;
+          }
           // &:before {
           //   content: "編輯";
           //   position: absolute;

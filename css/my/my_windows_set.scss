@@ -170,6 +170,10 @@ aside{
             position: relative;
             color: #4d515d;
             font-size: 1rem;
+            &:hover,&:active,&.active{
+              background: #4d515d;
+              color: #fff;
+            }
           }
         }
       }

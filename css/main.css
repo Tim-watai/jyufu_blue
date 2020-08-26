@@ -1365,8 +1365,14 @@ aside.inner_edit .wrap {
     aside.inner_edit .wrap p.delete {
       color: #f30d0d;
       margin: 0 0 .625rem; }
+      aside.inner_edit .wrap p.delete:hover {
+        background: #f30d0d;
+        color: #fff; }
     aside.inner_edit .wrap p.cancel {
       color: #4d515d; }
+      aside.inner_edit .wrap p.cancel:hover {
+        background: #4d515d;
+        color: #fff; }
 
 @-webkit-keyframes tie_ani {
   0% {
@@ -1474,6 +1480,8 @@ header ul li.pure_text {
   header ul li.pure_text.for_edit {
     width: 2.5rem;
     height: 1.0625rem; }
+    header ul li.pure_text.for_edit.active {
+      font-weight: bold; }
     header ul li.pure_text.for_edit.active:before {
       position: absolute;
       left: 0;
@@ -5989,8 +5997,19 @@ aside.title_windows {
           display: inline-block; }
           aside.title_windows ul.bg li.footer div:first-child {
             border-right: 2px solid #e1e1e1; }
+          aside.title_windows ul.bg li.footer div.close {
+            border-radius: 0 0 0 0.9375rem; }
+            aside.title_windows ul.bg li.footer div.close:hover, aside.title_windows ul.bg li.footer div.close:active, aside.title_windows ul.bg li.footer div.close.active {
+              background: #000; }
+              aside.title_windows ul.bg li.footer div.close:hover p, aside.title_windows ul.bg li.footer div.close:active p, aside.title_windows ul.bg li.footer div.close.active p {
+                color: #fff; }
           aside.title_windows ul.bg li.footer div.detail {
+            border-radius: 0 0 0.9375rem 0;
             color: #2d43b6; }
+            aside.title_windows ul.bg li.footer div.detail:hover, aside.title_windows ul.bg li.footer div.detail:active, aside.title_windows ul.bg li.footer div.detail.active {
+              background: #2d43b6; }
+              aside.title_windows ul.bg li.footer div.detail:hover p, aside.title_windows ul.bg li.footer div.detail:active p, aside.title_windows ul.bg li.footer div.detail.active p {
+                color: #fff; }
           aside.title_windows ul.bg li.footer div.close, aside.title_windows ul.bg li.footer div.detail {
             position: relative;
             width: 50%;
@@ -6286,6 +6305,9 @@ aside.my_windows_set {
     position: relative;
     color: #4d515d;
     font-size: 1rem; }
+    aside.my_windows_set div.get_out:hover, aside.my_windows_set div.get_out:active, aside.my_windows_set div.get_out.active {
+      background: #4d515d;
+      color: #fff; }
 
 aside.my_windows_help {
   padding: .625rem 0 100px 0;
@@ -8561,7 +8583,17 @@ aside.my_windows_t_record {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     right: .5rem;
-    pointer-events: all; }
+    pointer-events: all;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; }
+    .g_over_g_type .close:hover, .g_over_g_date .close:hover {
+      -webkit-transform: translateY(-50%) rotate(-360deg);
+      -ms-transform: translateY(-50%) rotate(-360deg);
+      transform: translateY(-50%) rotate(-360deg);
+      -webkit-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out; }
     .g_over_g_type .close:before, .g_over_g_date .close:before {
       content: '';
       position: absolute;
@@ -10634,7 +10666,19 @@ footer {
     border: none;
     border-radius: .1875rem;
     font-size: 0.9375rem;
-    padding: .5rem 2.375rem; }
+    padding: .5rem 2.375rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out; }
+    .empty_page button:hover, .empty_page button:active, .empty_page button.active {
+      background: #EF6B5D;
+      color: #fff;
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+      -webkit-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out; }
 
 aside.hot_windows {
   display: none;

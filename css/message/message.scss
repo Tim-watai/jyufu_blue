@@ -344,9 +344,17 @@ aside{
         &.delete{
           color: #f30d0d;
           margin: 0 0 .625rem;
+          &:hover{
+            background: #f30d0d;
+            color: #fff;
+          }
         }
         &.cancel{
           color: #4d515d;
+          &:hover{
+            background: #4d515d;
+            color: #fff;
+          }
         }
       }
     }
