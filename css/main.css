@@ -6634,7 +6634,6 @@ aside.my_windows_mb_transfer {
     aside.my_windows_mb_transfer div.content div {
       border-bottom: 0.0625rem solid #e0e3f3; }
       aside.my_windows_mb_transfer div.content div.title {
-        height: 3.25rem;
         line-height: 2.6875rem;
         padding: 0 .5rem;
         position: relative; }
@@ -6644,6 +6643,10 @@ aside.my_windows_mb_transfer {
             font-weight: bold;
             color: #4d515d;
             font-size: 1rem; }
+            aside.my_windows_mb_transfer div.content div.title p.money_total:hover span {
+              -webkit-transform: rotate(-360deg);
+              -ms-transform: rotate(-360deg);
+              transform: rotate(-360deg); }
             aside.my_windows_mb_transfer div.content div.title p.money_total span {
               display: inline-block;
               width: .9375rem;
@@ -6655,10 +6658,6 @@ aside.my_windows_mb_transfer {
               -webkit-transition: all 1s ease-in-out;
               -o-transition: all 1s ease-in-out;
               transition: all 1s ease-in-out; }
-              aside.my_windows_mb_transfer div.content div.title p.money_total span:hover {
-                -webkit-transform: rotate(-360deg);
-                -ms-transform: rotate(-360deg);
-                transform: rotate(-360deg); }
           aside.my_windows_mb_transfer div.content div.title p.recycle {
             position: absolute;
             right: 0;
