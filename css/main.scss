@@ -1181,15 +1181,21 @@ aside {
       }
       span.close {
         display: inline-block;
-        position: relative;
-        float: right;
-        top: -10%;
+        position: absolute;
+        top: -12%;
+        right: 0;
         width: 2.5rem;
         height: 2.5rem;
         border-radius: 100%;
         border: .125rem solid white;
         cursor: pointer;
         pointer-events: all;
+        &:hover,&:active,&.active{
+          background: #fff;
+          &:before,&:after{
+            background: gray;
+          }
+        }
         &:before {
           content: "";
           width: .9375rem;
@@ -1211,29 +1217,46 @@ aside {
           top: 50%;
         }
       }
-      span.refresh {
-        position: relative;
+      .hot_re{
+        display: inline-block;
         float: left;
-        left: 18%;
         top: -10%;
+        position: absolute;
+        left: 0;
+        color: #fff;
+        &:hover,&:active,&.active{
+          .refresh{
+            transform: rotate(-360deg);
+            transition: all .5s ease-in-out;
+          }
+          
+        }
+      }
+      .refresh {
+        position: relative;
         background: url(../images/hot_window/refresh.png) no-repeat;
         background-size: cover;
         background-position: center center;
         width: 1.5625rem;
         height: 1.5625rem;
-        &:before {
-          content: "換一批";
-          position: absolute;
-          left: -3.25rem;
-          transform: translateY(-50%);
-          top: 50%;
-          color: white;
-          font-weight: lighter;
-          display: inline-block;
-          line-height: 1.25rem;
-          width: 3.4375rem;
-          font-family: "微軟正黑體";
-        }
+        transition: all .5s ease-in-out;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: .25rem;
+        
+        // &:before {
+        //   content: "換一批";
+        //   position: absolute;
+        //   left: -3.25rem;
+        //   transform: translateY(-50%);
+        //   top: 50%;
+        //   color: white;
+        //   font-weight: lighter;
+        //   display: inline-block;
+        //   line-height: 1.25rem;
+        //   width: 3.4375rem;
+        //   font-family: "微軟正黑體";
+        // }
       }
       span.get_one {
         font-family: "微軟正黑體";

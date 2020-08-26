@@ -229,6 +229,9 @@ aside{
               font-size: 1rem;
               &:first-child {
                 color: #4d515d;
+                &:hover,&:active,&.active{
+                  color: #5d6dc7;
+                }
                 span {
                   line-height: 1;
                     vertical-align: middle;

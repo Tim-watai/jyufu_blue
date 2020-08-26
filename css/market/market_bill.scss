@@ -31,6 +31,12 @@ aside {
               border: 2px solid white;
               cursor: pointer;
               pointer-events: all;
+              &:hover,&:active,&.active{
+                background: #fff;
+                &:before,&:after{
+                  background: gray;
+                }
+              }
               &:before {
                 content: "";
                 width: .9375rem;

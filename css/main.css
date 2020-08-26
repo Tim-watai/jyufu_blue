@@ -2433,6 +2433,10 @@ aside.bet_window {
       border: 2px solid white;
       cursor: pointer;
       pointer-events: all; }
+      aside.bet_window div.bet_page span.close:hover, aside.bet_window div.bet_page span.close:active, aside.bet_window div.bet_page span.close.active {
+        background: #fff; }
+        aside.bet_window div.bet_page span.close:hover:before, aside.bet_window div.bet_page span.close:hover:after, aside.bet_window div.bet_page span.close:active:before, aside.bet_window div.bet_page span.close:active:after, aside.bet_window div.bet_page span.close.active:before, aside.bet_window div.bet_page span.close.active:after {
+          background: gray; }
       aside.bet_window div.bet_page span.close:before {
         content: "";
         width: .9375rem;
@@ -3410,26 +3414,37 @@ div.window_double_mode {
               line-height: 5rem;
               width: 1.125rem;
               height: .5rem; }
-              div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:before, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:after {
-                content: "";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                background-color: #838ba0;
-                width: .125rem;
-                height: 1.125rem;
-                border-radius: 100px; }
-              div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:before {
-                -webkit-transform: translate(-50%, -50%) rotate(45deg);
-                -ms-transform: translate(-50%, -50%) rotate(45deg);
-                transform: translate(-50%, -50%) rotate(45deg); }
-              div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:after {
-                -webkit-transform: translate(-50%, -50%) rotate(-45deg);
-                -ms-transform: translate(-50%, -50%) rotate(-45deg);
-                transform: translate(-50%, -50%) rotate(-45deg); }
+              div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close {
+                -webkit-transition: all .5s ease-in-out;
+                -o-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out; }
+                div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:hover, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:active, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close.active {
+                  -webkit-transform: rotate(360deg);
+                  -ms-transform: rotate(360deg);
+                  transform: rotate(360deg);
+                  -webkit-transition: all .5s ease-in-out;
+                  -o-transition: all .5s ease-in-out;
+                  transition: all .5s ease-in-out; }
+                div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:before, div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:after {
+                  content: "";
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  -webkit-transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+                  background-color: #838ba0;
+                  width: .125rem;
+                  height: 1.125rem;
+                  border-radius: 100px; }
+                div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:before {
+                  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+                  -ms-transform: translate(-50%, -50%) rotate(45deg);
+                  transform: translate(-50%, -50%) rotate(45deg); }
+                div.window_double_mode div.all_box div.content ul li.the_detail div.left_padding.close:after {
+                  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+                  -ms-transform: translate(-50%, -50%) rotate(-45deg);
+                  transform: translate(-50%, -50%) rotate(-45deg); }
             div.window_double_mode div.all_box div.content ul li.the_detail div.data {
               line-height: 1;
               padding: 0 0 0 .75rem;
@@ -4200,7 +4215,25 @@ header.double_inner {
       left: 92%;
       line-height: 0.875rem;
       pointer-events: all;
-      white-space: nowrap; }
+      white-space: nowrap;
+      -webkit-transition: .5s all ease-in-out;
+      -o-transition: .5s all ease-in-out;
+      transition: .5s all ease-in-out; }
+      header.double_inner section article.game_refresh:hover, header.double_inner section article.game_refresh:active, header.double_inner section article.game_refresh.active {
+        -webkit-transition: .5s all ease-in-out;
+        -o-transition: .5s all ease-in-out;
+        transition: .5s all ease-in-out; }
+        header.double_inner section article.game_refresh:hover p, header.double_inner section article.game_refresh:active p, header.double_inner section article.game_refresh.active p {
+          border-radius: 5px;
+          padding-top: .025rem;
+          border: 1px solid #fff; }
+        header.double_inner section article.game_refresh:hover span, header.double_inner section article.game_refresh:active span, header.double_inner section article.game_refresh.active span {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+          -webkit-transition: .5s all ease-in-out;
+          -o-transition: .5s all ease-in-out;
+          transition: .5s all ease-in-out; }
       header.double_inner section article.game_refresh p,
       header.double_inner section article.game_refresh span {
         display: inline-block; }
@@ -4482,6 +4515,10 @@ aside.yet_bill, aside.finish_bill {
       border: 2px solid white;
       cursor: pointer;
       pointer-events: all; }
+      aside.yet_bill .windows span.close:hover, aside.yet_bill .windows span.close:active, aside.yet_bill .windows span.close.active, aside.finish_bill .windows span.close:hover, aside.finish_bill .windows span.close:active, aside.finish_bill .windows span.close.active {
+        background: #fff; }
+        aside.yet_bill .windows span.close:hover:before, aside.yet_bill .windows span.close:hover:after, aside.yet_bill .windows span.close:active:before, aside.yet_bill .windows span.close:active:after, aside.yet_bill .windows span.close.active:before, aside.yet_bill .windows span.close.active:after, aside.finish_bill .windows span.close:hover:before, aside.finish_bill .windows span.close:hover:after, aside.finish_bill .windows span.close:active:before, aside.finish_bill .windows span.close:active:after, aside.finish_bill .windows span.close.active:before, aside.finish_bill .windows span.close.active:after {
+          background: gray; }
       aside.yet_bill .windows span.close:before, aside.finish_bill .windows span.close:before {
         content: "";
         width: .9375rem;
@@ -5914,6 +5951,8 @@ aside.my_windows {
       font-size: 1rem; }
       aside.my_windows div.row_btn p:first-child {
         color: #4d515d; }
+        aside.my_windows div.row_btn p:first-child:hover, aside.my_windows div.row_btn p:first-child:active, aside.my_windows div.row_btn p:first-child.active {
+          color: #5d6dc7; }
         aside.my_windows div.row_btn p:first-child span {
           line-height: 1;
           vertical-align: middle;
@@ -7435,6 +7474,10 @@ aside.my_windows_mb {
         position: relative;
         float: right;
         line-height: 1.75rem; }
+        aside.my_windows_mb div.mb_event div.title p:hover, aside.my_windows_mb div.mb_event div.title p:active, aside.my_windows_mb div.mb_event div.title p.active {
+          background: #7181d4;
+          color: #fff;
+          padding-top: .125rem; }
         aside.my_windows_mb div.mb_event div.title p span {
           display: inline-block; }
           aside.my_windows_mb div.mb_event div.title p span.arrow {
@@ -7549,6 +7592,10 @@ aside.my_windows_mb {
         line-height: 1.125rem;
         position: relative;
         float: right; }
+        aside.my_windows_mb div.mb_record div.title p:hover, aside.my_windows_mb div.mb_record div.title p:active, aside.my_windows_mb div.mb_record div.title p.active {
+          color: #fff;
+          background: #838ba0;
+          padding-top: .125rem; }
         aside.my_windows_mb div.mb_record div.title p span {
           display: inline-block; }
           aside.my_windows_mb div.mb_record div.title p span.arrow {
@@ -10775,15 +10822,19 @@ aside.hot_windows {
             color: #1b255c; }
     aside.hot_windows article.bg span.close {
       display: inline-block;
-      position: relative;
-      float: right;
-      top: -10%;
+      position: absolute;
+      top: -12%;
+      right: 0;
       width: 2.5rem;
       height: 2.5rem;
       border-radius: 100%;
       border: .125rem solid white;
       cursor: pointer;
       pointer-events: all; }
+      aside.hot_windows article.bg span.close:hover, aside.hot_windows article.bg span.close:active, aside.hot_windows article.bg span.close.active {
+        background: #fff; }
+        aside.hot_windows article.bg span.close:hover:before, aside.hot_windows article.bg span.close:hover:after, aside.hot_windows article.bg span.close:active:before, aside.hot_windows article.bg span.close:active:after, aside.hot_windows article.bg span.close.active:before, aside.hot_windows article.bg span.close.active:after {
+          background: gray; }
       aside.hot_windows article.bg span.close:before {
         content: "";
         width: .9375rem;
@@ -10806,30 +10857,33 @@ aside.hot_windows {
         -ms-transform: translate(-50%, -50%) rotate(-45deg);
         transform: translate(-50%, -50%) rotate(-45deg);
         top: 50%; }
-    aside.hot_windows article.bg span.refresh {
-      position: relative;
+    aside.hot_windows article.bg .hot_re {
+      display: inline-block;
       float: left;
-      left: 18%;
       top: -10%;
+      position: absolute;
+      left: 0;
+      color: #fff; }
+      aside.hot_windows article.bg .hot_re:hover .refresh, aside.hot_windows article.bg .hot_re:active .refresh, aside.hot_windows article.bg .hot_re.active .refresh {
+        -webkit-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out; }
+    aside.hot_windows article.bg .refresh {
+      position: relative;
       background: url(../images/hot_window/refresh.png) no-repeat;
       background-size: cover;
       background-position: center center;
       width: 1.5625rem;
-      height: 1.5625rem; }
-      aside.hot_windows article.bg span.refresh:before {
-        content: "換一批";
-        position: absolute;
-        left: -3.25rem;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        top: 50%;
-        color: white;
-        font-weight: lighter;
-        display: inline-block;
-        line-height: 1.25rem;
-        width: 3.4375rem;
-        font-family: "微軟正黑體"; }
+      height: 1.5625rem;
+      -webkit-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: .25rem; }
     aside.hot_windows article.bg span.get_one {
       font-family: "微軟正黑體";
       font-size: 1.0625rem;

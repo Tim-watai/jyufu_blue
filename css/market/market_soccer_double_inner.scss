@@ -382,6 +382,19 @@ header {
           line-height: 0.875rem;
           pointer-events: all;
           white-space: nowrap;
+          transition: .5s all ease-in-out;
+          &:hover,&:active,&.active{
+            transition: .5s all ease-in-out;
+            p{
+              border-radius: 5px;
+              padding-top: .025rem;
+              border: 1px solid #fff;
+            }
+            span{
+              transform: rotate(360deg);
+              transition: .5s all ease-in-out;
+            }
+          }
           p,
           span {
             display: inline-block;

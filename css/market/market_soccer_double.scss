@@ -113,6 +113,11 @@ div {
                       width: 1.125rem;
                       height: .5rem;
                       &.close {
+                        transition: all .5s ease-in-out;
+                        &:hover,&:active,&.active{
+                          transform: rotate(360deg);
+                          transition: all .5s ease-in-out;
+                        }
                         &:before,
                         &:after {
                           content: "";
