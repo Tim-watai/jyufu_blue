@@ -142,9 +142,17 @@ aside {
               .hidden.hidden.hidden{
                 display: block;
               }
+              div.line.last.last{
+                p{
+                  &:last-child{
+                    transform: rotate(0deg);
+                  }
+                }
+              }
             }
             .hidden.hidden.hidden{
               display: none;
+              border-bottom: none;
             }
             div {
               
@@ -179,6 +187,8 @@ aside {
                         height: .8125rem;
                         margin: .46875rem 0 0 0;
                         margin: 0 auto;
+                        transition: all .2s ease-in-out;
+                        transform: rotate(180deg);
                       }
                     }
                   }

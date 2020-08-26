@@ -6676,8 +6676,13 @@ aside.my_windows_mb_transfer {
         border-bottom: none; }
         aside.my_windows_mb_transfer div.content div.groups.active .hidden.hidden.hidden {
           display: block; }
+        aside.my_windows_mb_transfer div.content div.groups.active div.line.last.last p:last-child {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg); }
         aside.my_windows_mb_transfer div.content div.groups .hidden.hidden.hidden {
-          display: none; }
+          display: none;
+          border-bottom: none; }
         aside.my_windows_mb_transfer div.content div.groups div.line.last.last {
           border-bottom: none; }
           aside.my_windows_mb_transfer div.content div.groups div.line.last.last span:before {
@@ -6700,7 +6705,13 @@ aside.my_windows_mb_transfer {
             width: .8125rem;
             height: .8125rem;
             margin: .46875rem 0 0 0;
-            margin: 0 auto; }
+            margin: 0 auto;
+            -webkit-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+            -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg); }
         aside.my_windows_mb_transfer div.content div.groups div.line span {
           width: 25%;
           text-align: center;
