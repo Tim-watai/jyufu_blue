@@ -1393,13 +1393,26 @@ footer {
           }
         }
         &.refresh {
+          &:hover,&:active,&.active{
+            span{
+              // transform: rotate(360deg);
+              // transition: all 1s ease-in-out;
+              animation: re_recycle 1s 1 ease-in-out;
+            }
+          }
           span {
             background-position: -6.25rem 0;
+            transition: all 1s ease-in-out;
+           
           }
         }
       }
     }
   }
+}
+@keyframes re_recycle{
+  0%{transform: rotate(0);}
+  100%{transform: rotate(360deg);}
 }
 aside {
   &.bet_window {
@@ -2118,6 +2131,13 @@ aside {
             margin: .75rem 0 0 0;
             border: none;
             box-shadow: 0px -3px 6px 0px #e5e5e5;
+            &:hover,&:active,&.active{
+              background: #4d515d;
+              color: #fff;
+              p{
+                color: #fff;
+              }
+            }
             p {
               display: inline-block;
               line-height: 1;

@@ -2398,8 +2398,31 @@ footer ul.market li.not_yet span {
 footer ul.market li.yes_do span {
   background-position: -4.6875rem 0; }
 
+footer ul.market li.refresh:hover span, footer ul.market li.refresh:active span, footer ul.market li.refresh.active span {
+  -webkit-animation: re_recycle 1s 1 ease-in-out;
+  animation: re_recycle 1s 1 ease-in-out; }
+
 footer ul.market li.refresh span {
-  background-position: -6.25rem 0; }
+  background-position: -6.25rem 0;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
+
+@-webkit-keyframes re_recycle {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes re_recycle {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 aside.bet_window {
   display: none;
@@ -3016,6 +3039,11 @@ aside.set_window {
         border: none;
         -webkit-box-shadow: 0px -3px 6px 0px #e5e5e5;
         box-shadow: 0px -3px 6px 0px #e5e5e5; }
+        aside.set_window ul.side_bar li.close:hover, aside.set_window ul.side_bar li.close:active, aside.set_window ul.side_bar li.close.active {
+          background: #4d515d;
+          color: #fff; }
+          aside.set_window ul.side_bar li.close:hover p, aside.set_window ul.side_bar li.close:active p, aside.set_window ul.side_bar li.close.active p {
+            color: #fff; }
         aside.set_window ul.side_bar li.close p {
           display: inline-block;
           line-height: 1;
