@@ -2332,6 +2332,7 @@ aside {
         height: calc(100vh - 7.5rem);
         overflow-y: scroll;
         overflow-x: hidden;
+        padding-bottom: 20vh;
         div {
           &.group {
             p {
@@ -2388,8 +2389,8 @@ aside {
                 display: none;
               }
               &.scroll {
-                overflow-y: scroll;
-                max-height: 11.125rem;
+                // overflow-y: scroll;
+                // max-height: 11.125rem;
               }
               li {
                 width: 88%;

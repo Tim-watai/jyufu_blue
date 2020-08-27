@@ -3301,7 +3301,8 @@ aside.search_window {
     width: 100%;
     height: calc(100vh - 7.5rem);
     overflow-y: scroll;
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    padding-bottom: 20vh; }
     aside.search_window div.content div.group p.title {
       display: inline-block;
       width: 100%;
@@ -3358,9 +3359,6 @@ aside.search_window {
         background: #959dc5; }
     aside.search_window div.content div.group ul.hidden {
       display: none; }
-    aside.search_window div.content div.group ul.scroll {
-      overflow-y: scroll;
-      max-height: 11.125rem; }
     aside.search_window div.content div.group ul li {
       width: 88%;
       margin: 0 6% 0 6%;
