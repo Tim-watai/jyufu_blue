@@ -1102,18 +1102,18 @@ aside {
           div {
             &.lc {
               left: 18%;
-              transform: translateX(-50%);
+              transform: translate(-50%,-50%);
             }
             &.rc {
-              right: 18%;
-              transform: translateX(50%);
+              right: 0%;
+              transform: translate(-50%,-50%);
             }
             &.lc,
             &.rc {
               text-align: center;
               line-height: 0px;
               position: absolute;
-              top: 30%;
+              top: 50%;
               span {
                 &.icon {
                   display: inline-block;

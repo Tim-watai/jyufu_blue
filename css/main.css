@@ -11033,19 +11033,19 @@ aside.hot_windows {
         padding: 0 5%; }
         aside.hot_windows article.bg ul li div.lc {
           left: 18%;
-          -webkit-transform: translateX(-50%);
-          -ms-transform: translateX(-50%);
-          transform: translateX(-50%); }
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
         aside.hot_windows article.bg ul li div.rc {
-          right: 18%;
-          -webkit-transform: translateX(50%);
-          -ms-transform: translateX(50%);
-          transform: translateX(50%); }
+          right: 0%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
         aside.hot_windows article.bg ul li div.lc, aside.hot_windows article.bg ul li div.rc {
           text-align: center;
           line-height: 0px;
           position: absolute;
-          top: 30%; }
+          top: 50%; }
           aside.hot_windows article.bg ul li div.lc span.icon, aside.hot_windows article.bg ul li div.rc span.icon {
             display: inline-block;
             background: url(../images/hot_window/cs.png) no-repeat;
