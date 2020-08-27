@@ -47,9 +47,6 @@
         </div>
         
     </section>
-    <!-- <section class="waitting">
-        <div class="watting_icon"  style="display: none;"></div>
-    </section> -->
     <section class="game_message_content" >
         <ul>
             <li>
@@ -133,6 +130,24 @@
         <button>刷新頁面</button>
     </section>
 
+    <script>
+        $(document).ready(
+            function(){
+                console.log('message_event');
+                let sw_btn = $('.game_message_type .warp div');
+                sw_btn.click(function(){
+                    
+                    if($(this).hasClass('active') == true){
+                                $(this).siblings().addClass('active');
+                        return  $(this).removeClass('active');
+                    }else{
+                                $(this).siblings().removeClass('active');
+                        return  $(this).addClass('active');
+                    }
+                })
+                
+            });
+    </script>
 </body>
 
 </html>

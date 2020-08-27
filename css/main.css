@@ -1280,7 +1280,7 @@ section.game_message_type {
   padding: .625rem .75rem .625rem .75rem;
   border-bottom: .0625rem solid #e0e3f3; }
   section.game_message_type .warp {
-    padding: 0.0625rem;
+    padding: .125rem;
     background: #cdd0dd;
     border-radius: .5rem;
     font-size: 1rem;
@@ -1297,7 +1297,9 @@ section.game_message_type {
         float: right; }
       section.game_message_type .warp div.active, section.game_message_type .warp div:hover, section.game_message_type .warp div:active {
         background: #fff;
-        color: #4d515d; }
+        color: #4d515d;
+        -webkit-animation: scale_jump2 0.3s 1 cubic-bezier(0, 0.62, 0.27, 0.63);
+        animation: scale_jump2 0.3s 1 cubic-bezier(0, 0.62, 0.27, 0.63); }
 
 section.game_message_content {
   background: #fff;
