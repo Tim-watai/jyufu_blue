@@ -747,7 +747,19 @@ main.longin {
         padding: .3125rem .625rem .3125rem;
         font-size: 1rem;
         line-height: 1rem;
-        float: right; }
+        float: right;
+        -webkit-transition: .2s all ease-in-out;
+        -o-transition: .2s all ease-in-out;
+        transition: .2s all ease-in-out; }
+        main.longin .login_wrap .clear_wrap button.clear:hover, main.longin .login_wrap .clear_wrap button.clear.active, main.longin .login_wrap .clear_wrap button.clear:active {
+          background: #364aba;
+          color: #fff;
+          -webkit-transform: scale(0.95);
+          -ms-transform: scale(0.95);
+          transform: scale(0.95);
+          -webkit-transition: .2s all ease-in-out;
+          -o-transition: .2s all ease-in-out;
+          transition: .2s all ease-in-out; }
     main.longin .login_wrap ul.input_wrap {
       margin: 0 0 .625rem 0; }
       main.longin .login_wrap ul.input_wrap li {

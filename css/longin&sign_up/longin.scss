@@ -72,6 +72,13 @@ main {
             font-size: 1rem;
             line-height: 1rem;
             float: right;
+            transition: .2s all ease-in-out;
+            &:hover,&.active,&:active{
+              background: #364aba ;
+              color: #fff;
+              transform: scale(.95);
+              transition: .2s all ease-in-out;
+            }
           }
         }
       }
