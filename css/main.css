@@ -2749,16 +2749,34 @@ aside.bet_window {
           aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_s {
             width: 24%;
             margin: 0 1.3% 0 0;
-            float: left; }
+            float: left;
+            -webkit-transition: .2s all ease-in-out;
+            -o-transition: .2s all ease-in-out;
+            transition: .2s all ease-in-out; }
             aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_s:hover, aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_s.active, aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_s:active {
               background: #556de7;
-              color: #fff; }
+              color: #fff;
+              -webkit-transform: scale(0.95);
+              -ms-transform: scale(0.95);
+              transform: scale(0.95);
+              -webkit-transition: .2s all ease-in-out;
+              -o-transition: .2s all ease-in-out;
+              transition: .2s all ease-in-out; }
           aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_b {
             width: 49%;
-            float: left; }
+            float: left;
+            -webkit-transition: .2s all ease-in-out;
+            -o-transition: .2s all ease-in-out;
+            transition: .2s all ease-in-out; }
             aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_b:hover, aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_b.active, aside.bet_window div.bet_page div.content div.input_group div.kb_wrap .box_b:active {
               background: #556de7;
-              color: #fff; }
+              color: #fff;
+              -webkit-transform: scale(0.95);
+              -ms-transform: scale(0.95);
+              transform: scale(0.95);
+              -webkit-transition: .2s all ease-in-out;
+              -o-transition: .2s all ease-in-out;
+              transition: .2s all ease-in-out; }
       aside.bet_window div.bet_page div.content div.finish_group {
         display: none;
         padding: 0 .7rem 0; }
@@ -3720,16 +3738,34 @@ div.window_double_mode {
             div.window_double_mode div.all_box div.content ul li.the_total .kb_wrap .box_s {
               width: 24%;
               margin: 0 1.3% 0 0;
-              float: left; }
+              float: left;
+              -webkit-transition: .2s all ease-in-out;
+              -o-transition: .2s all ease-in-out;
+              transition: .2s all ease-in-out; }
               div.window_double_mode div.all_box div.content ul li.the_total .kb_wrap .box_s:hover, div.window_double_mode div.all_box div.content ul li.the_total .kb_wrap .box_s.active, div.window_double_mode div.all_box div.content ul li.the_total .kb_wrap .box_s:active {
                 background: #556de7;
-                color: #fff; }
+                color: #fff;
+                -webkit-transform: scale(0.95);
+                -ms-transform: scale(0.95);
+                transform: scale(0.95);
+                -webkit-transition: .2s all ease-in-out;
+                -o-transition: .2s all ease-in-out;
+                transition: .2s all ease-in-out; }
             div.window_double_mode div.all_box div.content ul li.the_total .kb_wrap .box_b {
               width: 49%;
-              float: left; }
+              float: left;
+              -webkit-transition: .2s all ease-in-out;
+              -o-transition: .2s all ease-in-out;
+              transition: .2s all ease-in-out; }
               div.window_double_mode div.all_box div.content ul li.the_total .kb_wrap .box_b:hover, div.window_double_mode div.all_box div.content ul li.the_total .kb_wrap .box_b.active, div.window_double_mode div.all_box div.content ul li.the_total .kb_wrap .box_b:active {
                 background: #556de7;
-                color: #fff; }
+                color: #fff;
+                -webkit-transform: scale(0.95);
+                -ms-transform: scale(0.95);
+                transform: scale(0.95);
+                -webkit-transition: .2s all ease-in-out;
+                -o-transition: .2s all ease-in-out;
+                transition: .2s all ease-in-out; }
           div.window_double_mode div.all_box div.content ul li.the_finish .f_title {
             line-height: 2rem;
             width: 100%;
