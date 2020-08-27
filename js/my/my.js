@@ -1,16 +1,6 @@
 $(document).ready(function() {
     console.log("my.js");
 
-
- //切換_訊息視窗
-//  $("header ul li.message_icon , aside.title_windows div.close").click(function() {
-//      console.log('message click');
-//     if ($("aside.title_windows").hasClass("active") != true) {
-//      return $("aside.title_windows").addClass('active');
-//     }else{
-//       return  $("aside.title_windows").removeClass('active');
-//     }
-//   });
   //切換_我的視窗_設定
   $('header ul li.option , aside.my_windows_set div.get_out').click(function(){
     console.log('set_click');

@@ -6459,7 +6459,9 @@ aside.my_windows_set {
           width: 3.5rem;
           text-align: center; }
           aside.my_windows_set div.row_btn div.box div.check span.active {
-            background: #fff; }
+            background: #fff;
+            -webkit-animation: scale_jump2 0.3s 1 cubic-bezier(0, 0.62, 0.27, 0.63);
+            animation: scale_jump2 0.3s 1 cubic-bezier(0, 0.62, 0.27, 0.63); }
             aside.my_windows_set div.row_btn div.box div.check span.active p {
               color: #4d515d; }
           aside.my_windows_set div.row_btn div.box div.check span.p_left {
@@ -7805,6 +7807,32 @@ aside.my_windows_mb {
         color: #838ba0;
         font-size: .75rem; }
 
+@-webkit-keyframes share_hover {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    border-color: #576aca; }
+  50% {
+    -webkit-transform: translate(-50%, -50%) scale(1.3);
+    transform: translate(-50%, -50%) scale(1.3); }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1.4);
+    transform: translate(-50%, -50%) scale(1.4);
+    border-color: transparent; } }
+
+@keyframes share_hover {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    border-color: #576aca; }
+  50% {
+    -webkit-transform: translate(-50%, -50%) scale(1.3);
+    transform: translate(-50%, -50%) scale(1.3); }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1.4);
+    transform: translate(-50%, -50%) scale(1.4);
+    border-color: transparent; } }
+
 aside.my_windows_share_app {
   display: none;
   z-index: 600;
@@ -7972,7 +8000,26 @@ aside.my_windows_share_app {
       aside.my_windows_share_app .box_footer .btn_group .wrap {
         text-align: center;
         margin: 0 0 0 1rem;
-        display: inline-block; }
+        display: inline-block;
+        position: relative; }
+        aside.my_windows_share_app .box_footer .btn_group .wrap:hover p, aside.my_windows_share_app .box_footer .btn_group .wrap:active p, aside.my_windows_share_app .box_footer .btn_group .wrap.active p {
+          font-weight: bold; }
+        aside.my_windows_share_app .box_footer .btn_group .wrap:hover:before, aside.my_windows_share_app .box_footer .btn_group .wrap:active:before, aside.my_windows_share_app .box_footer .btn_group .wrap.active:before {
+          border-radius: 5px;
+          border: 1px solid transparent;
+          -webkit-animation: share_hover .3s 1 ease-in-out;
+          animation: share_hover .3s 1 ease-in-out; }
+        aside.my_windows_share_app .box_footer .btn_group .wrap:before {
+          content: '';
+          width: 100%;
+          height: 100%;
+          background: none;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
         aside.my_windows_share_app .box_footer .btn_group .wrap .c_wrap {
           display: inline-block;
           text-align: center;
@@ -8002,6 +8049,10 @@ aside.my_windows_share_app {
       padding: 0;
       padding: .625rem 0 .625rem 0;
       text-align: center; }
+      aside.my_windows_share_app .box_footer .quite_btn:hover, aside.my_windows_share_app .box_footer .quite_btn:active, aside.my_windows_share_app .box_footer .quite_btn.active {
+        background: #4d515d; }
+        aside.my_windows_share_app .box_footer .quite_btn:hover p, aside.my_windows_share_app .box_footer .quite_btn:active p, aside.my_windows_share_app .box_footer .quite_btn.active p {
+          color: #fff; }
       aside.my_windows_share_app .box_footer .quite_btn p {
         display: inline-block;
         line-height: 1;
@@ -8468,7 +8519,7 @@ aside.my_windows_card {
         position: absolute;
         top: 0;
         right: 0;
-        width: calc(93% * 3 / 4);
+        width: calc(102% * 3 / 4);
         height: 9.5625rem;
         border-color: rgba(255, 255, 255, 0.3) transparent transparent transparent;
         border-style: solid solid solid solid;
