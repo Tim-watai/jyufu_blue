@@ -3226,7 +3226,6 @@ aside.search_window {
       margin: 3px 0 0 0; }
       aside.search_window div.header ul li.finish:hover, aside.search_window div.header ul li.finish:active, aside.search_window div.header ul li.finish.active {
         font-weight: bold;
-        color: #EF6B5D;
         -webkit-transition: .2s all ease-in-out;
         -o-transition: .2s all ease-in-out;
         transition: .2s all ease-in-out; }
@@ -8459,11 +8458,11 @@ aside.my_windows_card {
       background: linear-gradient(to right, #cfb05e 0%, #d8be76 100%);
       position: relative;
       margin: 0px auto;
-      width: 94%;
+      width: 87%;
       height: 9.5625rem;
       padding: .875rem 1.125rem;
       margin-top: .625rem;
-      border-radius: 5px;
+      border-radius: .5rem;
       color: #fff; }
       aside.my_windows_card div.have div.card span.shine {
         position: absolute;
@@ -8489,6 +8488,8 @@ aside.my_windows_card {
       aside.my_windows_card div.have div.card .account_warp {
         padding: .625rem 0 .625rem 0;
         border-bottom: 1px solid #fff; }
+        aside.my_windows_card div.have div.card .account_warp.no_bottom {
+          border-bottom: 1px solid transparent; }
         aside.my_windows_card div.have div.card .account_warp p {
           display: inline-block; }
           aside.my_windows_card div.have div.card .account_warp p:first-child {
@@ -10540,7 +10541,7 @@ main {
   main article.banner_wrap {
     width: 95vw;
     height: 9.625rem;
-    margin: 0.315rem auto 0; }
+    margin: 0.315rem auto .25rem; }
   main article .banner {
     height: 9.625rem;
     margin: 0 auto 0.25rem auto;

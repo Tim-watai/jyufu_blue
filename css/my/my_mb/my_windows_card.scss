@@ -67,11 +67,11 @@ aside{
                   background: linear-gradient(to right, #cfb05e 0%, #d8be76 100%);
                   position: relative;
                   margin: 0px auto;
-                  width: 94%;
+                  width: 87%;
                   height: 9.5625rem;
                   padding: .875rem 1.125rem;
                   margin-top: .625rem;
-                  border-radius: 5px;
+                  border-radius: .5rem;
                   color: #fff;
                   span{
                     &.shine{
@@ -103,6 +103,9 @@ aside{
                   .account_warp{
                     padding: .625rem 0 .625rem 0;
                     border-bottom: 1px solid #fff;
+                    &.no_bottom{
+                      border-bottom: 1px solid transparent;
+                    }
                     p{
                       display: inline-block;
                       &:first-child{
