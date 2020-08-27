@@ -57,6 +57,7 @@ section {
       // height: calc(100vh - (3rem + 2.625rem));
       overflow-y: scroll;
       position: absolute;
+      width: 100vw;
       }
     &.message_inner{
         margin: .625rem 0 0 0;
@@ -66,6 +67,7 @@ section {
         padding: 0 .75rem 60px .75rem;
         overflow-y: scroll;
         background: #fff;
+        width: 100%;
         li {
        
           padding: .625rem 0 .625rem 0;

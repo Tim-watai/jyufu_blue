@@ -1126,7 +1126,8 @@ section.message.content {
   height: 100vh;
   padding-bottom: 50vh;
   overflow-y: scroll;
-  position: absolute; }
+  position: absolute;
+  width: 100vw; }
 
 section.message.message_inner {
   margin: .625rem 0 0 0;
@@ -1135,7 +1136,8 @@ section.message.message_inner {
 section.message ul {
   padding: 0 .75rem 60px .75rem;
   overflow-y: scroll;
-  background: #fff; }
+  background: #fff;
+  width: 100%; }
   section.message ul li {
     padding: .625rem 0 .625rem 0;
     border-bottom: 1px solid #e0e3f3;
