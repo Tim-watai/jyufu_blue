@@ -11,7 +11,11 @@ $sen_t_size:.875rem;
   50%{opacity: 0;}
   100%{opacity: 1;}
 }
-
+@keyframes scale_jump{
+  0%{transform: translateY(-50%) scale(1);}
+  25%{transform: translateY(-50%) scale(.9);}
+  100%{transform: translateY(-50%) scale(1);}
+}
 
 header {
   ul {
@@ -616,6 +620,7 @@ main {
                 border-radius: .75rem;
                 &.active {
                   background: #fff;
+                  animation: scale_jump .5s 1 cubic-bezier(0, 0.62, 0.27, 0.63);
                   p {
                     color: #838ba0;
                   }
