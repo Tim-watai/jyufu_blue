@@ -1880,8 +1880,8 @@ main.market {
           border-radius: .75rem; }
           main.market aside article.option div.mode span.active {
             background: #fff;
-            -webkit-animation: scale_jump 0.5s 1 cubic-bezier(0, 0.62, 0.27, 0.63);
-            animation: scale_jump 0.5s 1 cubic-bezier(0, 0.62, 0.27, 0.63); }
+            -webkit-animation: scale_jump 0.3s 1 cubic-bezier(0, 0.62, 0.27, 0.63);
+            animation: scale_jump 0.3s 1 cubic-bezier(0, 0.62, 0.27, 0.63); }
             main.market aside article.option div.mode span.active p {
               color: #838ba0; }
           main.market aside article.option div.mode span p {
@@ -3122,6 +3122,10 @@ aside.search_window {
       vertical-align: middle;
       display: inline-block;
       pointer-events: all; }
+      aside.search_window div.header ul li.close:hover, aside.search_window div.header ul li.close:active, aside.search_window div.header ul li.close.active {
+        background: #4d515d; }
+        aside.search_window div.header ul li.close:hover:before, aside.search_window div.header ul li.close:hover:after, aside.search_window div.header ul li.close:active:before, aside.search_window div.header ul li.close:active:after, aside.search_window div.header ul li.close.active:before, aside.search_window div.header ul li.close.active:after {
+          background: #fff; }
       aside.search_window div.header ul li.close:before, aside.search_window div.header ul li.close:after {
         content: "";
         position: absolute;
@@ -3149,6 +3153,12 @@ aside.search_window {
       font-size: 1.2rem;
       color: #8e9bdc;
       margin: 3px 0 0 0; }
+      aside.search_window div.header ul li.finish:hover, aside.search_window div.header ul li.finish:active, aside.search_window div.header ul li.finish.active {
+        font-weight: bold;
+        color: #EF6B5D;
+        -webkit-transition: .2s all ease-in-out;
+        -o-transition: .2s all ease-in-out;
+        transition: .2s all ease-in-out; }
   aside.search_window div.input_area {
     margin: .5rem 0 0 0;
     width: 100%;
