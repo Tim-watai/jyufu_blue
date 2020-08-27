@@ -196,6 +196,22 @@ $('aside.set_window ul.side_bar li.g_style div.box div.check span.p_right').clic
       }
     }
   );
+//0827 賽事隱藏
+let hidden_group = $('.search_window div.content div.group ul');
+    hidden_group.addClass('hidden');
+let btn_group = $('.search_window div.content div.group p.title');
+    btn_group.click(function(){
+      if($(this).hasClass('active') != true){
+        $(this).siblings('ul').removeClass('hidden');
+        $(this).siblings('ul').slideDown('slow');
+        $(this).addClass('active');
+        
+      }else{
+        $(this).removeClass('active');
+        $(this).siblings('ul').addClass('hidden');
+      }
+    })
+
   //開啟_未結算注單
   $('footer ul li.not_yet , aside.yet_bill .windows span.close').click(
     function(){
