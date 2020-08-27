@@ -168,6 +168,11 @@ aside {
                 border-radius: .5rem;
                 padding: .625rem 5rem .625rem 5rem;
                 font-size: 1rem;
+                &:active,&.active,&:hover{
+                  background: #EF6B5D;
+                  transform: scale(.95);
+                  transition: all .2s ease-in-out;
+                }
             }
         }
       }

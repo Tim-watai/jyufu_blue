@@ -6417,6 +6417,14 @@ aside.my_data_edit {
           border-radius: .5rem;
           padding: .625rem 5rem .625rem 5rem;
           font-size: 1rem; }
+          aside.my_data_edit ul li.button_area button:active, aside.my_data_edit ul li.button_area button.active, aside.my_data_edit ul li.button_area button:hover {
+            background: #EF6B5D;
+            -webkit-transform: scale(0.95);
+            -ms-transform: scale(0.95);
+            transform: scale(0.95);
+            -webkit-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; }
 
 aside.my_windows_set {
   width: 100vw;
