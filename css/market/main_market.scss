@@ -16,6 +16,11 @@ $sen_t_size:.875rem;
   25%{transform: translateY(-50%) scale(.9);}
   100%{transform: translateY(-50%) scale(1);}
 }
+@keyframes scale_jump2{
+  0%{transform: scale(1);}
+  25%{transform: scale(.9);}
+  100%{transform: scale(1);}
+}
 
 header {
   ul {
@@ -2064,6 +2069,14 @@ aside {
                     text-align: center;
                     &.active {
                       background: #fff;
+                      // animation: scale_jump2 .3s 1 cubic-bezier(0, 0.62, 0.27, 0.63);
+                      p {
+                        color: #4d515d;
+                      }
+                    }
+                    &:hover,&:active {
+                      background: #fff;
+                      animation: scale_jump2 .3s 1 cubic-bezier(0, 0.62, 0.27, 0.63);
                       p {
                         color: #4d515d;
                       }
