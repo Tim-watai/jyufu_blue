@@ -1126,7 +1126,7 @@ section.message.content {
   height: 100vh;
   padding-bottom: 50vh;
   overflow-y: scroll;
-  position: absolute;
+  position: relative;
   width: 100vw; }
 
 section.message.message_inner {
@@ -1340,7 +1340,8 @@ aside.edit {
   width: 100%;
   line-height: 2.5rem;
   padding: .625rem .75rem .625rem;
-  font-size: 1.0625rem; }
+  font-size: 1.0625rem;
+  z-index: 5; }
   aside.edit.active {
     display: block; }
   aside.edit p {
@@ -1349,12 +1350,20 @@ aside.edit {
     aside.edit p.readed {
       float: left;
       color: #7685d5; }
+      aside.edit p.readed:hover, aside.edit p.readed:active, aside.edit p.readed.active {
+        background: #7685d5;
+        color: #fff;
+        border-radius: 5px; }
     aside.edit p.delete {
       float: right;
       color: #f30d0d; }
+      aside.edit p.delete:hover, aside.edit p.delete:active, aside.edit p.delete.active {
+        background: #f30d0d;
+        color: #fff;
+        border-radius: 5px; }
 
 aside.inner_edit .wrap {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background: #f8f8f8;
   width: 100%;
@@ -4385,8 +4394,8 @@ main.double_inner_page {
             main.double_inner_page ul li div.title span:before {
               content: '';
               position: absolute;
-              top: 50%;
-              left: 50%;
+              top: 100%;
+              left: 0%;
               -webkit-transform: translate(-50%, -50%);
               -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);

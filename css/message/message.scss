@@ -56,7 +56,7 @@ section {
       padding-bottom: 50vh;
       // height: calc(100vh - (3rem + 2.625rem));
       overflow-y: scroll;
-      position: absolute;
+      position: relative;
       width: 100vw;
       }
     &.message_inner{
@@ -315,6 +315,7 @@ aside{
     line-height: 2.5rem;
     padding: .625rem .75rem .625rem;
     font-size: 1.0625rem;
+    z-index: 5;
     &.active{
       display: block;
     }
@@ -324,16 +325,26 @@ aside{
       &.readed{
         float: left;
         color: #7685d5;
+        &:hover,&:active,&.active{
+          background: #7685d5;
+          color: #fff;
+          border-radius: 5px;
+        }
       }
       &.delete{
         float: right;
         color: #f30d0d;
+        &:hover,&:active,&.active{
+          background: #f30d0d;
+          color: #fff;
+          border-radius: 5px;
+        }
       }
     }
   }
   &.inner_edit{
     .wrap{
-      position: absolute;
+      position: fixed;
       bottom: 0;
       background: #f8f8f8;
       width: 100%;
