@@ -1362,7 +1362,7 @@ aside.edit {
     aside.edit p.readed {
       float: left;
       color: #7685d5;
-      padding: 0.125rem .5rem 0; }
+      padding: 0.25rem .5rem 0; }
       aside.edit p.readed:hover, aside.edit p.readed:active, aside.edit p.readed.active {
         background: #7685d5;
         color: #fff;
@@ -1370,7 +1370,7 @@ aside.edit {
     aside.edit p.delete {
       float: right;
       color: #f30d0d;
-      padding: 0.125rem .5rem 0; }
+      padding: 0.25rem .5rem 0; }
       aside.edit p.delete:hover, aside.edit p.delete:active, aside.edit p.delete.active {
         background: #f30d0d;
         color: #fff;

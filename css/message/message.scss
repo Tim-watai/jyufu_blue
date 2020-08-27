@@ -325,7 +325,7 @@ aside{
       &.readed{
         float: left;
         color: #7685d5;
-        padding: 0.125rem .5rem 0;
+        padding: 0.25rem .5rem 0;
         &:hover,&:active,&.active{
           background: #7685d5;
           color: #fff;
@@ -335,7 +335,7 @@ aside{
       &.delete{
         float: right;
         color: #f30d0d;
-        padding: 0.125rem .5rem 0;
+        padding: 0.25rem .5rem 0;
         &:hover,&:active,&.active{
           background: #f30d0d;
           color: #fff;
