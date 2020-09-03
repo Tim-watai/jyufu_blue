@@ -9405,7 +9405,7 @@ aside.help_board_my {
           padding: 0 0 .625rem 0; }
 
 aside.help_contact_us {
-  padding: .625rem 0 100px 0;
+  padding: 0 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -9415,8 +9415,8 @@ aside.help_contact_us {
   overflow-y: scroll; }
   aside.help_contact_us ul.contact_us {
     background: #fff;
-    padding: 0 .9375rem 0 .9375rem;
-    margin: .625rem 0 0 0; }
+    padding: .5rem .9375rem 0 .9375rem;
+    margin-top: .5rem; }
     aside.help_contact_us ul.contact_us:first-child {
       margin: 0 0 0 0; }
     aside.help_contact_us ul.contact_us h1 {
