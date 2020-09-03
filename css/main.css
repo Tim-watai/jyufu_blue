@@ -1599,7 +1599,8 @@ nav.kinds {
   width: 100%;
   height: auto;
   background: #fff;
-  top: 0; }
+  top: 0;
+  padding-bottom: .25rem; }
   nav.kinds ul {
     height: auto;
     padding-top: 1px;
@@ -4116,7 +4117,8 @@ header.double_inner {
   background-size: cover;
   background-position: center center; }
   header.double_inner.active {
-    display: block; }
+    display: block;
+    padding-bottom: 0; }
   header.double_inner.esp {
     background: url(../images/double_inner/header_bg_esp.png) no-repeat;
     background-size: cover; }
@@ -5406,6 +5408,7 @@ aside.type_ch {
 
 header.live_page.live_page {
   display: none;
+  padding-bottom: 0;
   height: 18.1875rem;
   width: 100%;
   background: #2e2e2e; }
@@ -6038,7 +6041,7 @@ aside.my_windows {
     width: 100%;
     height: calc(4.3125rem + .625rem);
     line-height: 4.3125rem;
-    padding: 0 .75rem 0 .75rem;
+    padding: .5rem .75rem 0 .75rem;
     background: #fff;
     position: relative; }
     aside.my_windows div.hellocard div.avatar {
@@ -6579,7 +6582,7 @@ aside.my_windows_set {
       color: #fff; }
 
 aside.my_windows_help {
-  padding: .625rem 0 100px 0;
+  padding: 0 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -7556,7 +7559,7 @@ aside.my_windows_mb_take_out {
       position: relative; }
 
 aside.my_windows_mb {
-  margin: .625rem 0 0 0;
+  margin: 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -8478,7 +8481,7 @@ aside.my_windows_mb_save {
       transition: .2s all ease-in-out; }
 
 aside.my_windows_card {
-  padding: .625rem 0 100px 0;
+  padding: 0 0 100px 0;
   width: 100vw;
   height: calc(100vh - 2.5rem - .625rem);
   background: #f7f7f7;
@@ -9412,7 +9415,7 @@ aside.help_contact_us {
   overflow-y: scroll; }
   aside.help_contact_us ul.contact_us {
     background: #fff;
-    padding: .625rem .9375rem 0 .9375rem;
+    padding: 0 .9375rem 0 .9375rem;
     margin: .625rem 0 0 0; }
     aside.help_contact_us ul.contact_us:first-child {
       margin: 0 0 0 0; }
@@ -9499,7 +9502,7 @@ aside.help_contact_us {
       background: #EF6B5D; }
 
 aside.event {
-  padding: .625rem 0 100px 0;
+  padding: 0 0 100px 0;
   background: #fff; }
   aside.event .event_content {
     padding: .625rem .9375rem .625rem .9375rem;
@@ -10330,10 +10333,8 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
+  padding-bottom: .5rem;
   position: relative; }
-  header.w_bg {
-    background: #fff;
-    padding-bottom: .625rem; }
   header ul {
     width: 100%;
     height: 2.5rem;
@@ -10433,7 +10434,7 @@ main {
   width: 100%;
   position: relative;
   overflow: hidden;
-  margin-top: 0;
+  margin-top: -.5rem;
   padding-bottom: 50vh; }
   main section ul.hot_area {
     width: 95vw;
@@ -11228,7 +11229,7 @@ aside .hidden_title {
       aside .hidden_title .tack.active.active.type .g_over_g_type {
         display: block;
         position: fixed;
-        top: 7rem;
+        top: 6.85rem;
         left: 50%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
@@ -11236,7 +11237,7 @@ aside .hidden_title {
       aside .hidden_title .tack.active.active.date .g_over_g_date {
         display: block;
         position: fixed;
-        top: 7rem;
+        top: 6.85rem;
         left: 50%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);

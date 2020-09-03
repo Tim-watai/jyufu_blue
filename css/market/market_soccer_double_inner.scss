@@ -3,6 +3,7 @@ header {
     display: none;
     &.active{
       display: block;
+      padding-bottom: 0;
     }
     background: url(../images/double_inner/header_bg.png) no-repeat;
     background-size: cover;
